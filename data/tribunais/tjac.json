@@ -1,0 +1,128 @@
+{
+ "alias": "tjac",
+ "sigla": "TJAC",
+ "nome": "Tribunal de Justiça do Acre",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-18T15:53:14+00:00",
+  "formatos": "2026-11-18T15:54:27+00:00",
+  "sistemas": "2026-11-18T15:56:13+00:00",
+  "orgaos": "2026-11-18T16:14:54+00:00",
+  "total": "2026-11-18T16:18:03+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 530696
+  },
+  {
+   "nome": "JE",
+   "qtd": 355264
+  },
+  {
+   "nome": "TR",
+   "qtd": 65638
+  },
+  {
+   "nome": "G2",
+   "qtd": 50462
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 1000984
+  },
+  {
+   "nome": "Físico",
+   "qtd": 1076
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "SAJ",
+   "qtd": 942114
+  },
+  {
+   "nome": "Projudi",
+   "qtd": 56870
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 1734
+  },
+  {
+   "nome": "EPROC",
+   "qtd": 1342
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Centro Judiciário de Solução de Conflitos e Cidadania - JEC",
+   "qtd": 48738
+  },
+  {
+   "nome": "Vara Cível",
+   "qtd": 36325
+  },
+  {
+   "nome": "1ª TURMA RECURSAL",
+   "qtd": 32150
+  },
+  {
+   "nome": "2ª TURMA RECURSAL",
+   "qtd": 31233
+  },
+  {
+   "nome": "Vara Unica",
+   "qtd": 27308
+  },
+  {
+   "nome": "Vara Única",
+   "qtd": 23257
+  },
+  {
+   "nome": "3º Juizado Especial Cível",
+   "qtd": 20917
+  },
+  {
+   "nome": "Vara Criminal",
+   "qtd": 20787
+  },
+  {
+   "nome": "2º Juizado Especial Cível de Rio Branco",
+   "qtd": 20708
+  },
+  {
+   "nome": "3º Juizado Especial Cível de Rio Branco",
+   "qtd": 20693
+  },
+  {
+   "nome": "1º Juizado Especial Civel",
+   "qtd": 20156
+  },
+  {
+   "nome": "1º Juizado Especial Civel de Rio Branco",
+   "qtd": 19909
+  },
+  {
+   "nome": "2º Juizado Especial Cível",
+   "qtd": 19167
+  },
+  {
+   "nome": "Vara de Execução Fiscal de Rio Branco",
+   "qtd": 16837
+  },
+  {
+   "nome": "Vara de Registros Públicos, Órfãos e Sucessões e de Cartas Precatórias Cíveis de Rio Branco",
+   "qtd": 16443
+  }
+ ],
+ "total": 1002060,
+ "erros": {
+  "classes": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "mensal": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-18T16:18:03+00:00"
+}

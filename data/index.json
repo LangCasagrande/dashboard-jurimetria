@@ -1,0 +1,23 @@
+{
+ "gerado_em": "2026-11-18T16:54:13+00:00",
+ "fonte": "API Pública do DataJud (CNJ)",
+ "tribunais": [
+  {
+   "alias": "tjac",
+   "sigla": "TJAC",
+   "nome": "Tribunal de Justiça do Acre",
+   "ramo": "Estadual",
+   "total": 1002060,
+   "pct_eletronico": 99.9,
+   "classe_principal": null,
+   "atualizado_em": "2026-11-18T16:18:03+00:00",
+   "partes": [
+    "formatos",
+    "graus",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  }
+ ]
+}

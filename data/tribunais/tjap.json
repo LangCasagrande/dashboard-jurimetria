@@ -1,0 +1,18 @@
+{
+ "alias": "tjap",
+ "sigla": "TJAP",
+ "nome": "Tribunal de Justiça do Amapá",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {},
+ "erros": {
+  "graus": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "sistemas": "HTTP 504: <html>\r <head><title>504 Gateway Time-out</title></head>\r <body>\r <center><h1>504 Gateway Time-out</h1></center>\r <hr><center>NSX LB</center>\r </body>\r </html>\r",
+  "classes": "orçamento de tempo esgotado",
+  "assuntos": "orçamento de tempo esgotado",
+  "orgaos": "orçamento de tempo esgotado",
+  "total": "orçamento de tempo esgotado",
+  "mensal": "orçamento de tempo esgotado"
+ },
+ "atualizado_em": null
+}
