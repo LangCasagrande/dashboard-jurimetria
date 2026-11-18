@@ -1,0 +1,41 @@
+# Teste manual: o DataJud aceita conexões vindas dos servidores do GitHub?
+name: Teste de conexão com o DataJud
+
+on:
+  workflow_dispatch:
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      DATAJUD_API_KEY: cDZHYzlZa0JadVREZDJCendQbXY6SkJlTzNjLV9TRENyQk1RdnFKZGRQdw==
+    steps:
+      - name: IP público do runner
+        run: curl -s --max-time 20 https://ipinfo.io/json || true
+
+      - name: Consulta simples (TJAC, 1 processo)
+        run: |
+          for i in 1 2 3; do
+            code=$(curl -s -o resp.json -w '%{http_code} %{time_total}s' -X POST \
+              https://api-publica.datajud.cnj.jus.br/api_publica_tjac/_search \
+              -H "Authorization: APIKey $DATAJUD_API_KEY" -H 'Content-Type: application/json' \
+              --max-time 120 -d '{"size":1,"_source":["numeroProcesso","classe.nome","dataAjuizamento"]}') || code="falha-de-rede"
+            echo "tentativa $i: $code"; head -c 600 resp.json; echo
+            case "$code" in 200*) exit 0;; esac
+            sleep 30
+          done
+          exit 1
+
+      - name: Agregação (TJAC, top 5 classes)
+        run: |
+          for i in 1 2 3; do
+            code=$(curl -s -o agg.json -w '%{http_code} %{time_total}s' -X POST \
+              https://api-publica.datajud.cnj.jus.br/api_publica_tjac/_search \
+              -H "Authorization: APIKey $DATAJUD_API_KEY" -H 'Content-Type: application/json' \
+              --max-time 180 -d '{"size":0,"aggs":{"classes":{"terms":{"field":"classe.nome.keyword","size":5}}}}') || code="falha-de-rede"
+            echo "tentativa $i: $code"; head -c 900 agg.json; echo
+            case "$code" in 200*) exit 0;; esac
+            sleep 30
+          done
+          exit 1
