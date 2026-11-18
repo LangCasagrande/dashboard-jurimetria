@@ -15,6 +15,7 @@ Projeto de portfólio (legal tech): dashboard com estatísticas de processos jud
 - 91 aliases: `tst tse stj stm`, `trf1`–`trf6`, 27 TJs (`tjac` … `tjto`, `tjdft`), `trt1`–`trt24`, 27 TREs com hífen (`tre-ac` … `tre-to`, `tre-dft`), `tjmmg tjmrs tjmsp`.
 - **Agregações funcionam** (`terms` em `classe.nome.keyword` testado no TJAC: 200 OK).
 - **Muito lento e instável**: ~30–55 s por consulta no TJAC; TJSP deu 504 com agregação sem filtro; 429 `es_rejected_execution_exception` (fila cheia) é comum → o coletor precisa de retry com backoff, timeout longo e filtros (por período) nos tribunais grandes.
+- **Runners do GitHub Actions conseguem acessar** (teste de 2026-11-18 ~12:30 BRT): sem bloqueio geográfico; as falhas foram as mesmas de sobrecarga (429 fila cheia; 504 do balanceador "NSX LB" após exatos 60 s). O gateway corta em 60 s → cada consulta precisa ser barata; rodar o coletor de madrugada (horário de Brasília) com muitas tentativas e backoff, e manter os dados anteriores quando um tribunal falhar.
 - `hits.total` limita em 10000 (`relation: gte`) a menos que se use `track_total_hits: true`.
 - Campos do processo: `numeroProcesso`, `tribunal`, `grau` (G1, G2, JE…), `dataAjuizamento` (string `yyyyMMddHHmmss`), `classe{codigo,nome}`, `assuntos[]{codigo,nome}`, `orgaoJulgador{codigo,nome,codigoMunicipioIBGE}`, `sistema{codigo,nome}`, `formato{codigo,nome}`, `nivelSigilo`, `dataHoraUltimaAtualizacao`, `movimentos[]{codigo,nome,dataHora,complementosTabelados[]}`.
 

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assistente de Legislação</title>
+  <meta name="description" content="Pergunte sobre a legislação brasileira e receba respostas com o artigo citado e o link para o texto oficial no Planalto.">
+  <script>try{const t=localStorage.getItem('tema');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .chat { display: flex; flex-direction: column; gap: 12px; min-height: 240px; }
+    .msg { max-width: 860px; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--border); }
+    .msg.user { align-self: flex-end; background: var(--primary-soft); border-color: transparent; white-space: pre-wrap; }
+    .msg.bot { align-self: flex-start; background: var(--surface); }
+    .msg.bot h3, .msg.bot h4 { margin: .8rem 0 .4rem; }
+    .msg.bot ul, .msg.bot ol { padding-left: 1.3rem; margin: .3rem 0 .7rem; }
+    .msg.bot blockquote { margin: .5rem 0; padding: .3rem .8rem; border-left: 3px solid var(--accent); background: var(--surface-2); }
+    .msg .fontes { font-size: .85rem; margin-top: .6rem; border-top: 1px solid var(--border); padding-top: .5rem; }
+    .msg .estado { font-size: .85rem; color: var(--muted); }
+    .sugestoes { display: flex; flex-wrap: wrap; gap: 8px; }
+    .sugestoes button { border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: 999px; padding: .35rem .8rem; cursor: pointer; font: inherit; font-size: .88rem; }
+    .sugestoes button:hover { border-color: var(--primary); }
+    .composer { display: flex; gap: 8px; align-items: flex-end; }
+    .composer textarea { min-height: 52px; height: 52px; }
+    .codigos { columns: 2; font-size: .9rem; padding-left: 1.1rem; }
+    @media (max-width: 620px) { .codigos { columns: 1; } }
+  </style>
+</head>
+<body data-base="../" data-page="legislacao">
+  <main>
+    <section class="page-head">
+      <h1>Assistente de legislação</h1>
+      <p>Pergunte em linguagem simples. O Claude responde citando o artigo de lei e o link para o texto oficial. Com a pesquisa ativada, ele consulta o site do Planalto e dos tribunais superiores antes de responder.</p>
+    </section>
+
+    <div class="split" style="grid-template-columns:minmax(0,1fr) minmax(0,300px)">
+      <section class="card">
+        <div class="chat" id="chat" aria-live="polite">
+          <div class="sugestoes" id="sugestoes"></div>
+        </div>
+        <form class="composer" id="form" style="margin-top:14px">
+          <textarea id="pergunta" placeholder="Ex.: Qual o prazo para devolver um produto comprado pela internet?" rows="2"></textarea>
+          <button class="btn" type="submit" id="enviar">Enviar</button>
+        </form>
+        <div class="row" style="margin-top:.4rem;align-items:center">
+          <label class="check" style="margin:0"><input type="checkbox" id="pesquisa" checked> Pesquisar fontes oficiais antes de responder (mais preciso, um pouco mais lento)</label>
+          <div style="flex:0 0 auto"><button class="btn secondary" type="button" id="limpar">Nova conversa</button></div>
+        </div>
+      </section>
+
+      <aside class="grid" style="gap:16px;align-content:start">
+        <div class="card">
+          <h2>Chave da API</h2>
+          <div id="ia-chave"></div>
+        </div>
+        <div class="card">
+          <h2>Textos oficiais</h2>
+          <ul class="codigos" id="codigos"></ul>
+        </div>
+      </aside>
+    </div>
+
+    <div class="notice">Respostas geradas por IA para estudo. Confira sempre o texto oficial da lei e a jurisprudência atualizada.</div>
+  </main>
+  <script src="../assets/js/common.js"></script>
+  <script type="module" src="legislacao.js"></script>
+</body>
+</html>

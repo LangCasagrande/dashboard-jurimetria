@@ -1,0 +1,59 @@
+# Coleta diária das estatísticas do DataJud e grava os JSON em data/.
+name: Coletar dados do DataJud
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # 02:00 em Brasília, quando a API costuma estar menos sobrecarregada
+  workflow_dispatch:
+    inputs:
+      tribunais:
+        description: "Aliases separados por vírgula (vazio = todos, dos mais desatualizados aos mais recentes)"
+        required: false
+        default: ""
+      minutos:
+        description: "Orçamento de tempo em minutos"
+        required: false
+        default: "330"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coleta-datajud
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Coletar
+        env:
+          ORCAMENTO_MINUTOS: ${{ github.event.inputs.minutos || '330' }}
+          TRIBUNAIS: ${{ github.event.inputs.tribunais }}
+        run: |
+          if [ -n "$TRIBUNAIS" ]; then
+            python coletor/coletar.py --tribunais "$TRIBUNAIS"
+          else
+            python coletor/coletar.py
+          fi
+
+      - name: Salvar dados no repositório
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Nenhum dado novo."
+          else
+            git commit -m "Dados do DataJud atualizados em $(date -u +%Y-%m-%d)"
+            git pull --rebase
+            git push
+          fi

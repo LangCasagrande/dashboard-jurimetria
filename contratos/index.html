@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analisador de Contratos</title>
+  <meta name="description" content="Aponta cláusulas de risco em contratos (multa, juros, renovação automática, foro, arbitragem, limitação de responsabilidade) com fundamento legal e sugestão de redação.">
+  <script>try{const t=localStorage.getItem('tema');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    #texto { min-height: 260px; font-family: var(--mono); font-size: .85rem; }
+    .score { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+    .gauge { --v: 0; --c: var(--ok); width: 110px; height: 110px; border-radius: 50%; display: grid; place-items: center; flex: none;
+      background: conic-gradient(var(--c) calc(var(--v) * 1%), var(--surface-2) 0); }
+    .gauge span { width: 84px; height: 84px; border-radius: 50%; background: var(--surface); display: grid; place-items: center; font-size: 1.6rem; font-weight: 700; }
+    .counts { display: flex; gap: 8px; flex-wrap: wrap; }
+    .finding { border: 1px solid var(--border); border-left-width: 4px; border-radius: 8px; padding: 12px 14px; margin-bottom: 10px; background: var(--surface); }
+    .finding.alto { border-left-color: var(--bad); } .finding.medio { border-left-color: var(--warn); }
+    .finding.baixo { border-left-color: var(--primary); } .finding.info { border-left-color: var(--ok); }
+    .finding h3 { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: .35rem; }
+    .finding blockquote { margin: .5rem 0; padding: .4rem .7rem; background: var(--surface-2); border-radius: 6px; font-size: .88rem; cursor: pointer; }
+    .finding .meta { font-size: .85rem; color: var(--muted); margin: .25rem 0 0; }
+    .marked { white-space: pre-wrap; font-size: .9rem; line-height: 1.7; max-height: 520px; overflow: auto; padding: 12px; background: var(--surface-2); border-radius: 8px; }
+    mark { border-radius: 3px; padding: 0 1px; color: inherit; }
+    mark.alto { background: var(--bad-soft); outline: 1px solid var(--bad); }
+    mark.medio { background: var(--warn-soft); outline: 1px solid var(--warn); }
+    mark.baixo { background: var(--primary-soft); }
+    mark.info { background: var(--ok-soft); }
+    mark.flash { animation: flash 1.2s; }
+    @keyframes flash { 0%, 60% { box-shadow: 0 0 0 4px var(--accent); } 100% { box-shadow: none; } }
+  </style>
+</head>
+<body data-base="../" data-page="contratos">
+  <main>
+    <section class="page-head">
+      <h1>Analisador de contratos</h1>
+      <p>Cole o texto ou envie o arquivo (.txt, .docx ou .pdf). A análise por regras roda no seu navegador, sem enviar nada. A análise aprofundada usa o Claude, com a sua chave da API.</p>
+    </section>
+
+    <div class="grid" style="gap:16px">
+      <section class="card">
+        <div class="row" style="align-items:flex-end">
+          <div>
+            <label for="arquivo">Arquivo do contrato</label>
+            <input type="file" id="arquivo" accept=".txt,.docx,.pdf,text/plain,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+          </div>
+          <div style="flex:0 0 auto"><button class="btn secondary" type="button" id="exemplo">Usar contrato de exemplo</button></div>
+        </div>
+        <label for="texto">Texto do contrato</label>
+        <textarea id="texto" placeholder="Cole aqui o texto do contrato..."></textarea>
+        <label class="check"><input type="checkbox" id="consumo" checked> É uma relação de consumo (Código de Defesa do Consumidor)</label>
+        <div class="actions">
+          <button class="btn" type="button" id="analisar">Analisar por regras</button>
+          <button class="btn secondary" type="button" id="analisar-ia">Análise aprofundada com IA</button>
+          <span id="status" class="muted" style="align-self:center"></span>
+        </div>
+        <details style="margin-top:1rem">
+          <summary>Configurar a IA (chave da API)</summary>
+          <div id="ia-chave" style="margin-top:.5rem"></div>
+        </details>
+      </section>
+
+      <section id="resultado" hidden></section>
+      <section id="resultado-ia" hidden></section>
+    </div>
+
+    <div class="notice">Ferramenta de triagem para estudo. Ela aponta pontos de atenção, mas não substitui a leitura completa do contrato por um advogado.</div>
+  </main>
+  <script src="../assets/js/common.js"></script>
+  <script src="regras.js"></script>
+  <script src="exemplo.js"></script>
+  <script type="module" src="contratos.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gerador de Documentos</title>
+  <meta name="description" content="Gere procuração, substabelecimento, contrato de honorários, notificação extrajudicial e declaração de hipossuficiência prontos para imprimir ou baixar em Word.">
+  <script>try{const t=localStorage.getItem('tema');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .doc { background: #fff; color: #111; font-family: "Times New Roman", Georgia, serif; font-size: 12pt; line-height: 1.6; padding: 48px 56px; border-radius: 6px; border: 1px solid var(--border); text-align: justify; }
+    .doc h1 { font-size: 13pt; text-align: center; margin: 0 0 24px; letter-spacing: .02em; }
+    .doc p { margin: 0 0 12px; text-indent: 2.5em; }
+    .doc p.right { text-align: right; text-indent: 0; margin-top: 24px; }
+    .doc .ph { background: #fff3c4; color: #7a5a00; border-radius: 3px; padding: 0 2px; font-family: var(--font); font-size: 10pt; }
+    .doc .sign { margin: 48px auto 8px; max-width: 320px; text-align: center; }
+    .doc .sign .line { border-top: 1px solid #111; margin-bottom: 4px; }
+    .doc .sign p { text-indent: 0; text-align: center; margin: 0; }
+    .doc .sign-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .form-groups fieldset:first-of-type { margin-top: .4rem; }
+    .base { font-size: .85rem; color: var(--muted); margin: .25rem 0 0; }
+    @media (max-width: 620px) { .doc { padding: 24px 20px; } .doc .sign-grid { grid-template-columns: 1fr; } }
+    @media print {
+      .split { display: block; }
+      #form-card, .page-head, .notice, .preview-head { display: none !important; }
+      .doc { border: none; padding: 0; }
+      .doc .ph { background: none; color: #111; }
+    }
+  </style>
+</head>
+<body data-base="../" data-page="documentos">
+  <main>
+    <section class="page-head">
+      <h1>Gerador de documentos</h1>
+      <p>Escolha o modelo, preencha os campos e veja o documento se formar ao lado. Imprima, salve em PDF ou baixe para editar no Word. Os dados ficam só no seu navegador.</p>
+    </section>
+
+    <div class="split">
+      <form class="card" id="form-card" autocomplete="off" onsubmit="return false">
+        <label for="modelo">Modelo</label>
+        <select id="modelo"></select>
+        <p class="base" id="base"></p>
+        <div class="form-groups" id="campos"></div>
+        <div class="actions">
+          <button class="btn secondary" type="button" id="limpar">Limpar campos</button>
+        </div>
+      </form>
+
+      <section>
+        <div class="actions preview-head no-print" style="margin-top:0;margin-bottom:12px">
+          <button class="btn" type="button" id="imprimir">Imprimir / salvar PDF</button>
+          <button class="btn secondary" type="button" id="word">Baixar Word (.doc)</button>
+          <button class="btn secondary" type="button" id="copiar">Copiar texto</button>
+        </div>
+        <article class="doc" id="doc" aria-live="polite"></article>
+      </section>
+    </div>
+
+    <div class="notice">Modelos de partida para estudo. Revise o texto e adapte ao caso concreto antes de usar. Os campos em amarelo ainda não foram preenchidos.</div>
+  </main>
+  <script src="../assets/js/common.js"></script>
+  <script src="modelos.js"></script>
+  <script src="documentos.js"></script>
+</body>
+</html>
