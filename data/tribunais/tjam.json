@@ -1,0 +1,182 @@
+{
+ "alias": "tjam",
+ "sigla": "TJAM",
+ "nome": "Tribunal de Justiça do Amazonas",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-19T18:54:39+00:00",
+  "formatos": "2026-11-19T18:55:16+00:00",
+  "sistemas": "2026-11-19T19:05:02+00:00",
+  "classes": "2026-11-19T19:14:48+00:00",
+  "orgaos": "2026-11-19T19:29:19+00:00",
+  "total": "2026-11-19T19:30:27+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 2284567
+  },
+  {
+   "nome": "JE",
+   "qtd": 1645948
+  },
+  {
+   "nome": "TR",
+   "qtd": 494616
+  },
+  {
+   "nome": "G2",
+   "qtd": 450903
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 4872481
+  },
+  {
+   "nome": "Físico",
+   "qtd": 3553
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Eproc",
+   "qtd": 4799336
+  },
+  {
+   "nome": "SAJ",
+   "qtd": 76698
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 1030999
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 535965
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 466247
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 450656
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 439419
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 232258
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 156203
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 148107
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 126911
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 120924
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 120052
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 86808
+  },
+  {
+   "nome": "Embargos de Declaração Cível",
+   "qtd": 71579
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 64983
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 63119
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "VARA ESPECIALIZADA DA DÍVIDA ATIVA MUNICIPAL",
+   "qtd": 398823
+  },
+  {
+   "nome": "2ª TURMA RECURSAL",
+   "qtd": 161861
+  },
+  {
+   "nome": "3ª TURMA RECURSAL",
+   "qtd": 158291
+  },
+  {
+   "nome": "1ª TURMA RECURSAL",
+   "qtd": 155615
+  },
+  {
+   "nome": "VARA DE REGISTROS PÚBLICOS",
+   "qtd": 76932
+  },
+  {
+   "nome": "14ª VARA DO JUIZADO ESPECIAL CÍVEL",
+   "qtd": 65533
+  },
+  {
+   "nome": "2º VARA DO JUIZADO ESPECIAL CÍVEL",
+   "qtd": 61858
+  },
+  {
+   "nome": "3º VARA DO JUIZADO ESPECIAL CÍVEL",
+   "qtd": 59493
+  },
+  {
+   "nome": "4º VARA DO JUIZADO ESPECIAL CÍVEL",
+   "qtd": 59253
+  },
+  {
+   "nome": "8º VARA DO JUIZADO ESPECIAL CÍVEL",
+   "qtd": 57347
+  },
+  {
+   "nome": "5º VARA DO JUIZADO ESPECIAL CÍVEL",
+   "qtd": 57095
+  },
+  {
+   "nome": "7º VARA DO JUIZADO ESPECIAL CÍVEL",
+   "qtd": 57036
+  },
+  {
+   "nome": "11º VARA DO JUIZADO ESPECIAL CÍVEL",
+   "qtd": 56743
+  },
+  {
+   "nome": "1º VARA DO JUIZADO ESPECIAL CÍVEL",
+   "qtd": 56192
+  },
+  {
+   "nome": "9º VARA DO JUIZADO ESPECIAL CÍVEL",
+   "qtd": 55322
+  }
+ ],
+ "total": 4876034,
+ "erros": {
+  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
+  "mensal": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-19T19:30:27+00:00"
+}

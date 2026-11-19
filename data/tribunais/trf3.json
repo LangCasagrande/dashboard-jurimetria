@@ -1,0 +1,199 @@
+{
+ "alias": "trf3",
+ "sigla": "TRF3",
+ "nome": "Tribunal Regional Federal da 3ª Região",
+ "ramo": "Federal",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-19T16:04:02+00:00",
+  "formatos": "2026-11-19T16:05:32+00:00",
+  "sistemas": "2026-11-19T16:06:52+00:00",
+  "classes": "2026-11-19T16:12:56+00:00",
+  "orgaos": "2026-11-19T16:31:34+00:00",
+  "total": "2026-11-19T16:32:04+00:00",
+  "mensal": "2026-11-19T16:34:59+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 6407512
+  },
+  {
+   "nome": "JE",
+   "qtd": 5999268
+  },
+  {
+   "nome": "G2",
+   "qtd": 3646592
+  },
+  {
+   "nome": "TR",
+   "qtd": 1617718
+  },
+  {
+   "nome": "TRU",
+   "qtd": 20941
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 17180889
+  },
+  {
+   "nome": "Físico",
+   "qtd": 509703
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 11
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 17059932
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 599050
+  },
+  {
+   "nome": "Outros",
+   "qtd": 17374
+  },
+  {
+   "nome": "Pje",
+   "qtd": 14015
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 5590072
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 2716985
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 2435462
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 1594112
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 1293290
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 642059
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 520868
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 416577
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 371632
+  },
+  {
+   "nome": "Apelação / Remessa Necessária",
+   "qtd": 236242
+  },
+  {
+   "nome": "Remessa Necessária Cível",
+   "qtd": 192877
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 188070
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 185549
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 166953
+  },
+  {
+   "nome": "Embargos à Execução Fiscal",
+   "qtd": 105457
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "GABINETE DA VICE-PRESIDÊNCIA DO TRIBUNAL REGIONAL FEDERAL DA 3ª REGIÃO",
+   "qtd": 479508
+  },
+  {
+   "nome": "07ª VARA-GABINETE DO JUIZADO ESPECIAL FEDERAL DE SÃO PAULO",
+   "qtd": 164394
+  },
+  {
+   "nome": "04ª VARA-GABINETE DO JUIZADO ESPECIAL FEDERAL DE SÃO PAULO",
+   "qtd": 156383
+  },
+  {
+   "nome": "02ª VARA-GABINETE DO JUIZADO ESPECIAL FEDERAL DE SÃO PAULO",
+   "qtd": 156080
+  },
+  {
+   "nome": "06ª VARA-GABINETE DO JUIZADO ESPECIAL FEDERAL DE SÃO PAULO",
+   "qtd": 155475
+  },
+  {
+   "nome": "09ª VARA-GABINETE DO JUIZADO ESPECIAL FEDERAL DE SÃO PAULO",
+   "qtd": 154281
+  },
+  {
+   "nome": "01ª VARA-GABINETE DO JUIZADO ESPECIAL FEDERAL DE SÃO PAULO",
+   "qtd": 149780
+  },
+  {
+   "nome": "05ª VARA-GABINETE DO JUIZADO ESPECIAL FEDERAL DE SÃO PAULO",
+   "qtd": 149313
+  },
+  {
+   "nome": "05ª VARA FEDERAL DE CAMPINAS",
+   "qtd": 148125
+  },
+  {
+   "nome": "01ª VARA-GABINETE DO JUIZADO ESPECIAL FEDERAL DE RIBEIRÃO PRETO",
+   "qtd": 147395
+  },
+  {
+   "nome": "08ª VARA-GABINETE DO JUIZADO ESPECIAL FEDERAL DE SÃO PAULO",
+   "qtd": 147010
+  },
+  {
+   "nome": "02ª VARA FEDERAL DE EXECUÇÕES FISCAIS DE SÃO PAULO",
+   "qtd": 146945
+  },
+  {
+   "nome": "04ª VARA FEDERAL DE EXECUÇÕES FISCAIS DE SÃO PAULO",
+   "qtd": 144370
+  },
+  {
+   "nome": "03ª VARA FEDERAL DE EXECUÇÕES FISCAIS DE SÃO PAULO",
+   "qtd": 143731
+  },
+  {
+   "nome": "01ª VARA FEDERAL DE EXECUÇÕES FISCAIS DE SÃO PAULO",
+   "qtd": 142156
+  }
+ ],
+ "total": 17694328,
+ "mensal": [],
+ "erros": {
+  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-19T16:34:59+00:00"
+}

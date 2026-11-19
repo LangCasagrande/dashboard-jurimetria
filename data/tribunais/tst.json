@@ -1,0 +1,228 @@
+{
+ "alias": "tst",
+ "sigla": "TST",
+ "nome": "Tribunal Superior do Trabalho",
+ "ramo": "Superiores",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-19T14:27:26+00:00",
+  "formatos": "2026-11-19T14:27:58+00:00",
+  "sistemas": "2026-11-19T14:28:38+00:00",
+  "classes": "2026-11-19T14:30:13+00:00",
+  "assuntos": "2026-11-19T14:31:08+00:00",
+  "orgaos": "2026-11-19T14:31:33+00:00",
+  "total": "2026-11-19T14:32:57+00:00",
+  "mensal": "2026-11-19T14:33:19+00:00"
+ },
+ "graus": [
+  {
+   "nome": "SUP",
+   "qtd": 4642793
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 4642740
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Inválido",
+   "qtd": 3593545
+  },
+  {
+   "nome": "PJe",
+   "qtd": 1049195
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Agravo de Instrumento em Recurso de Revista",
+   "qtd": 3603532
+  },
+  {
+   "nome": "Recurso de Revista",
+   "qtd": 589557
+  },
+  {
+   "nome": "Recurso de Revista com Agravo",
+   "qtd": 291122
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 66181
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 36173
+  },
+  {
+   "nome": "Agravo",
+   "qtd": 16810
+  },
+  {
+   "nome": "Agravo de Instrumento em Recurso Extraordinário",
+   "qtd": 4722
+  },
+  {
+   "nome": "Tutela Cautelar Antecedente",
+   "qtd": 4236
+  },
+  {
+   "nome": "Correição Parcial ou Reclamação Correicional",
+   "qtd": 4197
+  },
+  {
+   "nome": "Ação Rescisória",
+   "qtd": 3762
+  },
+  {
+   "nome": "Agravo de Instrumento em Recurso Ordinário",
+   "qtd": 3696
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 3003
+  },
+  {
+   "nome": "Pedido de Providências",
+   "qtd": 2722
+  },
+  {
+   "nome": "Embargos de Declaração Cível",
+   "qtd": 2662
+  },
+  {
+   "nome": "Remessa Necessária / Recurso Ordinário",
+   "qtd": 1505
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Horas Extras",
+   "qtd": 311301
+  },
+  {
+   "nome": "Intervalo Intrajornada",
+   "qtd": 223299
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 194090
+  },
+  {
+   "nome": "DIREITO DO TRABALHO",
+   "qtd": 193199
+  },
+  {
+   "nome": "Honorários Advocatícios",
+   "qtd": 190783
+  },
+  {
+   "nome": "Negativa de Prestação Jurisdicional ",
+   "qtd": 184767
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 160478
+  },
+  {
+   "nome": "Responsabilidade Solidária/Subsidiária",
+   "qtd": 155742
+  },
+  {
+   "nome": "Ente Público",
+   "qtd": 137152
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 130123
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 113219
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 110423
+  },
+  {
+   "nome": "Honorários na Justiça do Trabalho ",
+   "qtd": 104586
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 101573
+  },
+  {
+   "nome": "Correção Monetária",
+   "qtd": 100822
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Gabinete da Presidencia",
+   "qtd": 1843825
+  },
+  {
+   "nome": "GAB. DO MINISTRO DOUGLAS ALENCAR RODRIGUES",
+   "qtd": 19902
+  },
+  {
+   "nome": "GAB. DO MINISTRO ALEXANDRE DE SOUZA AGRA BELMONTE",
+   "qtd": 19215
+  },
+  {
+   "nome": "GAB. DA MINISTRA DELAIDE MIRANDA ARANTES",
+   "qtd": 18879
+  },
+  {
+   "nome": "GAB. DA MINISTRA MARIA DE ASSIS CALSING",
+   "qtd": 18281
+  },
+  {
+   "nome": "GAB. DO MINISTRO CLAUDIO MASCARENHAS BRANDAO",
+   "qtd": 17785
+  },
+  {
+   "nome": "GAB. DO MINISTRO GUILHERME AUGUSTO CAPUTO BASTOS",
+   "qtd": 17448
+  },
+  {
+   "nome": "GAB. DA MINISTRA MARIA HELENA MALLMANN",
+   "qtd": 16465
+  },
+  {
+   "nome": "GAB. DA MINISTRA KATIA MAGALHAES ARRUDA",
+   "qtd": 16437
+  },
+  {
+   "nome": "GAB. DO MINISTRO WALMIR OLIVEIRA DA COSTA",
+   "qtd": 16187
+  },
+  {
+   "nome": "GAB. DO MINISTRO AUGUSTO CESAR LEITE DE CARVALHO",
+   "qtd": 16084
+  },
+  {
+   "nome": "GAB. DA MINISTRA DORA MARIA DA COSTA",
+   "qtd": 15775
+  },
+  {
+   "nome": "GAB. DO MINISTRO MARCIO EURICO VITRAL AMARO",
+   "qtd": 15654
+  },
+  {
+   "nome": "GAB. DO MINISTRO HUGO CARLOS SCHEUERMANN",
+   "qtd": 15303
+  },
+  {
+   "nome": "GAB. DO MINISTRO LUIZ PHILIPPE VIEIRA DE MELLO FILHO",
+   "qtd": 15147
+  }
+ ],
+ "total": 2322591,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-19T14:33:19+00:00"
+}

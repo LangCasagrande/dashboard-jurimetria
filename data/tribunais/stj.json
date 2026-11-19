@@ -1,0 +1,309 @@
+{
+ "alias": "stj",
+ "sigla": "STJ",
+ "nome": "Superior Tribunal de Justiça",
+ "ramo": "Superiores",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-19T14:07:36+00:00",
+  "formatos": "2026-11-19T14:09:24+00:00",
+  "sistemas": "2026-11-19T14:09:53+00:00",
+  "classes": "2026-11-19T14:20:38+00:00",
+  "assuntos": "2026-11-19T14:22:18+00:00",
+  "orgaos": "2026-11-19T14:22:59+00:00",
+  "total": "2026-11-19T14:25:16+00:00",
+  "mensal": "2026-11-19T14:26:01+00:00"
+ },
+ "graus": [
+  {
+   "nome": "SUP",
+   "qtd": 1242019
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 3730467
+  },
+  {
+   "nome": "Físico",
+   "qtd": 74
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Outros",
+   "qtd": 2936117
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 794424
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Agravo em Recurso Especial",
+   "qtd": 1374978
+  },
+  {
+   "nome": "Habeas Corpus",
+   "qtd": 453513
+  },
+  {
+   "nome": "Recurso Especial",
+   "qtd": 421789
+  },
+  {
+   "nome": "Recurso Ordinário em Habeas Corpus",
+   "qtd": 87002
+  },
+  {
+   "nome": "Conflito de Competência",
+   "qtd": 45936
+  },
+  {
+   "nome": "Recurso Ordinário em Mandado de Segurança",
+   "qtd": 18488
+  },
+  {
+   "nome": "Embargos de Divergência em Agravo em Recurso Especial",
+   "qtd": 12338
+  },
+  {
+   "nome": "Reclamação",
+   "qtd": 11596
+  },
+  {
+   "nome": "Requisição de Pequeno Valor",
+   "qtd": 11211
+  },
+  {
+   "nome": "Precatório",
+   "qtd": 8322
+  },
+  {
+   "nome": "Embargos de Divergência em Recurso Especial",
+   "qtd": 7955
+  },
+  {
+   "nome": "Mandado de Segurança",
+   "qtd": 6929
+  },
+  {
+   "nome": "Carta Rogatória",
+   "qtd": 5470
+  },
+  {
+   "nome": "Pedido de Uniformização de Interpretação de Lei Criminal",
+   "qtd": 4329
+  },
+  {
+   "nome": "Tutela Cautelar Antecedente",
+   "qtd": 3234
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Tráfico de Drogas e Condutas Afins",
+   "qtd": 132584
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 58100
+  },
+  {
+   "nome": "Homicídio Qualificado",
+   "qtd": 39702
+  },
+  {
+   "nome": "Roubo Majorado",
+   "qtd": 39614
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 37365
+  },
+  {
+   "nome": "Prisão Preventiva",
+   "qtd": 35532
+  },
+  {
+   "nome": "Associação para a Produção e Tráfico e Condutas Afins",
+   "qtd": 32825
+  },
+  {
+   "nome": "Pena Privativa de Liberdade",
+   "qtd": 28822
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 28735
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 28648
+  },
+  {
+   "nome": "Crimes do Sistema Nacional de Armas",
+   "qtd": 27598
+  },
+  {
+   "nome": "Crime Tentado",
+   "qtd": 20695
+  },
+  {
+   "nome": "Promessa de Compra e Venda",
+   "qtd": 20442
+  },
+  {
+   "nome": "Seguro",
+   "qtd": 18845
+  },
+  {
+   "nome": "Efeito Suspensivo / Impugnação / Embargos à Execução",
+   "qtd": 18571
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "PRESIDÃNCIA",
+   "qtd": 994697
+  },
+  {
+   "nome": "GABINETE DO MINISTRO ROGERIO SCHIETTI",
+   "qtd": 103940
+  },
+  {
+   "nome": "GABINETE DO MINISTRO RIBEIRO DANTAS",
+   "qtd": 102758
+  },
+  {
+   "nome": "GABINETE DO MINISTRO JOEL ILAN PACIORNIK",
+   "qtd": 102632
+  },
+  {
+   "nome": "GABINETE DO MINISTRO SEBASTIÃO REIS JÃNIOR",
+   "qtd": 101634
+  },
+  {
+   "nome": "GABINETE DO MINISTRO REYNALDO SOARES DA FONSECA",
+   "qtd": 100020
+  },
+  {
+   "nome": "GABINETE DO MINISTRO ANTONIO SALDANHA PALHEIRO",
+   "qtd": 94656
+  },
+  {
+   "nome": "VICE-PRESIDÃNCIA",
+   "qtd": 92443
+  },
+  {
+   "nome": "GABINETE DO MINISTRO GURGEL DE FARIA",
+   "qtd": 91042
+  },
+  {
+   "nome": "GABINETE DO MINISTRO SÃRGIO LUIZ KUKINA",
+   "qtd": 85120
+  },
+  {
+   "nome": "GABINETE DA MINISTRA MARIA ISABEL GALLOTTI",
+   "qtd": 81886
+  },
+  {
+   "nome": "GABINETE DO MINISTRO FRANCISCO FALCÃO",
+   "qtd": 81202
+  },
+  {
+   "nome": "GABINETE DA MINISTRA NANCY ANDRIGHI",
+   "qtd": 81032
+  },
+  {
+   "nome": "GABINETE DO MINISTRO ANTONIO CARLOS FERREIRA",
+   "qtd": 80213
+  },
+  {
+   "nome": "GABINETE DO MINISTRO MOURA RIBEIRO",
+   "qtd": 79702
+  }
+ ],
+ "total": 3730541,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 10085
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 8229
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 7626
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 9797
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 8424
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 11544
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 11087
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 9241
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 9539
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 9697
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 7585
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 7712
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 5970
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 5887
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 4091
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 4520
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 2029
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 404
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 8
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-19T14:26:01+00:00"
+}

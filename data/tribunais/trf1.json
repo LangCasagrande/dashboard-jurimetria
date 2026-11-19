@@ -1,0 +1,249 @@
+{
+ "alias": "trf1",
+ "sigla": "TRF1",
+ "nome": "Tribunal Regional Federal da 1ª Região",
+ "ramo": "Federal",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-19T15:19:18+00:00",
+  "formatos": "2026-11-19T15:19:49+00:00",
+  "sistemas": "2026-11-19T15:29:32+00:00",
+  "classes": "2026-11-19T15:33:08+00:00",
+  "assuntos": "2026-11-19T15:36:57+00:00",
+  "orgaos": "2026-11-19T15:37:42+00:00",
+  "total": "2026-11-19T15:39:22+00:00",
+  "mensal": "2026-11-19T15:40:01+00:00"
+ },
+ "graus": [
+  {
+   "nome": "JE",
+   "qtd": 6701749
+  },
+  {
+   "nome": "G1",
+   "qtd": 3799897
+  },
+  {
+   "nome": "G2",
+   "qtd": 1439656
+  },
+  {
+   "nome": "TR",
+   "qtd": 1064551
+  },
+  {
+   "nome": "TRU",
+   "qtd": 3026
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 5575024
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 11126664
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 22766
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 3088846
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 867731
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 798179
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 589174
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 437761
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 399976
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 302959
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 208913
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 160349
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 83557
+  },
+  {
+   "nome": "Apelação / Remessa Necessária",
+   "qtd": 78537
+  },
+  {
+   "nome": "Remessa Necessária Cível",
+   "qtd": 45825
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 41422
+  },
+  {
+   "nome": "Cumprimento de Sentença de Ações Coletivas",
+   "qtd": 29831
+  },
+  {
+   "nome": "Monitória",
+   "qtd": 28029
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Auxílio por Incapacidade Temporária",
+   "qtd": 434679
+  },
+  {
+   "nome": "Deficiente",
+   "qtd": 319371
+  },
+  {
+   "nome": "Aposentadoria por Incapacidade Permanente",
+   "qtd": 286497
+  },
+  {
+   "nome": "Rural (Art. 48/51)",
+   "qtd": 254349
+  },
+  {
+   "nome": "Salário-Maternidade (Art. 71/73)",
+   "qtd": 195817
+  },
+  {
+   "nome": "Rural",
+   "qtd": 139823
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 105743
+  },
+  {
+   "nome": "Multas e demais Sanções",
+   "qtd": 103112
+  },
+  {
+   "nome": "Atualização de Conta",
+   "qtd": 99981
+  },
+  {
+   "nome": "Pensão por Morte (Art. 74/9)",
+   "qtd": 96131
+  },
+  {
+   "nome": "Seguro-defeso ao pescado artesanal profissional",
+   "qtd": 81151
+  },
+  {
+   "nome": "Conselhos Regionais e Afins (Anuidade)",
+   "qtd": 73851
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 71860
+  },
+  {
+   "nome": "Aposentadoria por Tempo de Contribuição (Art. 55/6)",
+   "qtd": 71377
+  },
+  {
+   "nome": "Restabelecimento",
+   "qtd": 57478
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "07ª Vara JEF - São Luís",
+   "qtd": 41138
+  },
+  {
+   "nome": "09ª Vara JEF - São Luís",
+   "qtd": 40822
+  },
+  {
+   "nome": "10ª Vara JEF - São Luís",
+   "qtd": 40599
+  },
+  {
+   "nome": "12ª Vara JEF - São Luís",
+   "qtd": 40237
+  },
+  {
+   "nome": "07ª Vara JEF - Teresina",
+   "qtd": 33440
+  },
+  {
+   "nome": "04ª - Cuiabá",
+   "qtd": 32430
+  },
+  {
+   "nome": "06ª Vara JEF - Teresina",
+   "qtd": 31987
+  },
+  {
+   "nome": "08ª  Vara JEF - Teresina",
+   "qtd": 31386
+  },
+  {
+   "nome": "06ª  Vara JEF- Manaus",
+   "qtd": 30465
+  },
+  {
+   "nome": "08ª  Vara JEF- Manaus",
+   "qtd": 30373
+  },
+  {
+   "nome": "Vara Única de Caxias",
+   "qtd": 28883
+  },
+  {
+   "nome": "Vara Única de Irecê",
+   "qtd": 28177
+  },
+  {
+   "nome": "Vara Única de Parnaíba",
+   "qtd": 27985
+  },
+  {
+   "nome": "Vara Única de Campo Formoso",
+   "qtd": 27571
+  },
+  {
+   "nome": "19ª - Brasília",
+   "qtd": 26220
+  }
+ ],
+ "total": 7432971,
+ "mensal": [
+  {
+   "mes": "2024-10",
+   "qtd": 1
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-19T15:40:01+00:00"
+}

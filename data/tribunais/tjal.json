@@ -1,0 +1,235 @@
+{
+ "alias": "tjal",
+ "sigla": "TJAL",
+ "nome": "Tribunal de Justiça de Alagoas",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-19T18:23:21+00:00",
+  "sistemas": "2026-11-19T18:42:12+00:00",
+  "classes": "2026-11-19T18:43:52+00:00",
+  "assuntos": "2026-11-19T18:44:45+00:00",
+  "orgaos": "2026-11-19T18:46:15+00:00",
+  "total": "2026-11-19T18:47:41+00:00",
+  "mensal": "2026-11-19T18:49:21+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 2288728
+  },
+  {
+   "nome": "G2",
+   "qtd": 385649
+  },
+  {
+   "nome": "JE",
+   "qtd": 361697
+  },
+  {
+   "nome": "TR",
+   "qtd": 95608
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "SAJ",
+   "qtd": 3128609
+  },
+  {
+   "nome": "Projudi",
+   "qtd": 3073
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 1087880
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 393661
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 217242
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 193189
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 184731
+  },
+  {
+   "nome": "Embargos de Declaração Cível",
+   "qtd": 84469
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 70665
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 69269
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 65184
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 62504
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 59778
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 58531
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 50330
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 47457
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 31227
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 503958
+  },
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 456639
+  },
+  {
+   "nome": "Impostos",
+   "qtd": 144725
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 103042
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 94357
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 81024
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 76143
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 74847
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 60819
+  },
+  {
+   "nome": "Interpretação / Revisão de Contrato",
+   "qtd": 55214
+  },
+  {
+   "nome": "Cartão de Crédito",
+   "qtd": 52011
+  },
+  {
+   "nome": "Práticas Abusivas",
+   "qtd": 51773
+  },
+  {
+   "nome": "Perdas e Danos",
+   "qtd": 40879
+  },
+  {
+   "nome": "Defeito, nulidade ou anulação",
+   "qtd": 35230
+  },
+  {
+   "nome": "Liminar ",
+   "qtd": 30606
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Foro de Maceió - 15ª Vara Cível da Capital / Fazenda Municipal",
+   "qtd": 1027067
+  },
+  {
+   "nome": "2ª Câmara Cível do Tribunal de Justiça",
+   "qtd": 80177
+  },
+  {
+   "nome": "1ª Câmara Cível do Tribunal de Justiça",
+   "qtd": 79725
+  },
+  {
+   "nome": "Foro de Maceió - Turma Recursal de Maceió",
+   "qtd": 58725
+  },
+  {
+   "nome": "4ª Câmara Cível do Tribunal de Justiça",
+   "qtd": 54266
+  },
+  {
+   "nome": "3ª Câmara Cível do Trbinual de Justiça",
+   "qtd": 45052
+  },
+  {
+   "nome": "Vice-Presidência do Tribunal de Justiça",
+   "qtd": 41381
+  },
+  {
+   "nome": "Foro de Maceió - 1° Juizado Especial da Fazenda Pública da Capital",
+   "qtd": 33488
+  },
+  {
+   "nome": "3ª Câmara Cível do Tribunal de Justiça",
+   "qtd": 30993
+  },
+  {
+   "nome": "Foro de Maceió - 19ª Vara Cível da Capital/Execução Fiscal",
+   "qtd": 30390
+  },
+  {
+   "nome": "Câmara Criminal do Tribunal de Justiça",
+   "qtd": 30209
+  },
+  {
+   "nome": "Presidência do Tribunal de Justiça",
+   "qtd": 27138
+  },
+  {
+   "nome": "Juizado de Palmeira dos Índios - Juizado Esp. Cível e Criminal e de Viol. Doméstica e Familiar contra a Mulher de Palmeira dos Índios",
+   "qtd": 22154
+  },
+  {
+   "nome": "Foro de Maceió - 11ª Vara Cível da Capital",
+   "qtd": 20791
+  },
+  {
+   "nome": "Foro de Maceió - 13ª Vara Cível da Capital",
+   "qtd": 20467
+  }
+ ],
+ "total": 3131682,
+ "mensal": [],
+ "erros": {
+  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-19T18:49:21+00:00"
+}

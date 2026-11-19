@@ -1,0 +1,288 @@
+{
+ "alias": "trf2",
+ "sigla": "TRF2",
+ "nome": "Tribunal Regional Federal da 2ª Região",
+ "ramo": "Federal",
+ "partes_atualizadas_em": {
+  "formatos": "2026-11-19T15:50:12+00:00",
+  "sistemas": "2026-11-19T15:51:13+00:00",
+  "classes": "2026-11-19T15:51:40+00:00",
+  "assuntos": "2026-11-19T15:55:45+00:00",
+  "orgaos": "2026-11-19T15:56:25+00:00",
+  "total": "2026-11-19T15:59:31+00:00",
+  "mensal": "2026-11-19T16:01:11+00:00"
+ },
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 4494897
+  },
+  {
+   "nome": "Físico",
+   "qtd": 375
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Projudi",
+   "qtd": 4454418
+  },
+  {
+   "nome": "Tucujuris",
+   "qtd": 40022
+  },
+  {
+   "nome": "EPROC",
+   "qtd": 832
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 1311141
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 735802
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 471485
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 415912
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 295231
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 245815
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 225006
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 176930
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 134835
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 93438
+  },
+  {
+   "nome": "Apelação / Remessa Necessária",
+   "qtd": 45658
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 40986
+  },
+  {
+   "nome": "Remessa Necessária Cível",
+   "qtd": 34310
+  },
+  {
+   "nome": "Embargos à Execução",
+   "qtd": 27773
+  },
+  {
+   "nome": "Embargos à Execução Fiscal",
+   "qtd": 25099
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 670058
+  },
+  {
+   "nome": "Auxílio por Incapacidade Temporária",
+   "qtd": 382295
+  },
+  {
+   "nome": "Deficiente",
+   "qtd": 241783
+  },
+  {
+   "nome": "FGTS/Fundo de Garantia por Tempo de Serviço",
+   "qtd": 231541
+  },
+  {
+   "nome": "Aposentadoria por Incapacidade Permanente",
+   "qtd": 210865
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 171591
+  },
+  {
+   "nome": "Aposentadoria por Tempo de Contribuição (Art. 55/6)",
+   "qtd": 168014
+  },
+  {
+   "nome": "Concessão",
+   "qtd": 158056
+  },
+  {
+   "nome": "Pensão por Morte (Art. 74/9)",
+   "qtd": 129672
+  },
+  {
+   "nome": "Urbano (art. 60)",
+   "qtd": 129289
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 116145
+  },
+  {
+   "nome": "Multas e demais Sanções",
+   "qtd": 114120
+  },
+  {
+   "nome": "Conselhos Regionais e Afins (Anuidade)",
+   "qtd": 84650
+  },
+  {
+   "nome": "Restabelecimento",
+   "qtd": 77371
+  },
+  {
+   "nome": "IRPF/Imposto de Renda de Pessoa Física",
+   "qtd": 74787
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "2º Juizado Especial Federal de Vitória",
+   "qtd": 61979
+  },
+  {
+   "nome": "4ª Vara de Execução Fiscal de Vitória",
+   "qtd": 54425
+  },
+  {
+   "nome": "2ª Vara de Execução Fiscal de Vitória",
+   "qtd": 54151
+  },
+  {
+   "nome": "3ª Vara de Execução Fiscal de Vitória",
+   "qtd": 53412
+  },
+  {
+   "nome": "1ª Vara Federal de Serra",
+   "qtd": 50818
+  },
+  {
+   "nome": "Gabinete da Vice-Presidência",
+   "qtd": 46814
+  },
+  {
+   "nome": "Vara Federal de Colatina",
+   "qtd": 44312
+  },
+  {
+   "nome": "1º Juizado Especial Federal de Vitória",
+   "qtd": 44217
+  },
+  {
+   "nome": "5ª Vara Federal de Niterói",
+   "qtd": 43269
+  },
+  {
+   "nome": "Vara Federal de Macaé",
+   "qtd": 43137
+  },
+  {
+   "nome": "3º Juizado Especial Federal de Vitória",
+   "qtd": 42571
+  },
+  {
+   "nome": "10ª Vara de Execução Fiscal do Rio de Janeiro",
+   "qtd": 42559
+  },
+  {
+   "nome": "11ª Vara de Execução Fiscal do Rio de Janeiro",
+   "qtd": 42544
+  },
+  {
+   "nome": "2ª Vara de Execução Fiscal do Rio de Janeiro",
+   "qtd": 41965
+  },
+  {
+   "nome": "6ª Vara de Execução Fiscal do Rio de Janeiro",
+   "qtd": 41628
+  }
+ ],
+ "total": 4495272,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 3
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 2
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 3
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 2
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 2
+  }
+ ],
+ "erros": {
+  "graus": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-19T16:01:11+00:00"
+}

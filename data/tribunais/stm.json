@@ -1,0 +1,228 @@
+{
+ "alias": "stm",
+ "sigla": "STM",
+ "nome": "Superior Tribunal Militar",
+ "ramo": "Superiores",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-19T15:00:17+00:00",
+  "formatos": "2026-11-19T15:02:39+00:00",
+  "sistemas": "2026-11-19T15:05:03+00:00",
+  "classes": "2026-11-19T15:09:30+00:00",
+  "assuntos": "2026-11-19T15:11:06+00:00",
+  "orgaos": "2026-11-19T15:13:52+00:00",
+  "total": "2026-11-19T15:17:11+00:00",
+  "mensal": "2026-11-19T15:17:50+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 19096
+  },
+  {
+   "nome": "SUP",
+   "qtd": 8712
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 27808
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Projudi",
+   "qtd": 27808
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Penal Militar - Procedimento Ordinário",
+   "qtd": 6636
+  },
+  {
+   "nome": "Apelação Criminal",
+   "qtd": 3520
+  },
+  {
+   "nome": "Inquérito Policial Militar",
+   "qtd": 2953
+  },
+  {
+   "nome": "Execução da Pena",
+   "qtd": 2411
+  },
+  {
+   "nome": "Deserção de Praça",
+   "qtd": 1641
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 1312
+  },
+  {
+   "nome": "Habeas Corpus Criminal",
+   "qtd": 1299
+  },
+  {
+   "nome": "Auto de Prisão em Flagrante",
+   "qtd": 1265
+  },
+  {
+   "nome": "Instrução Provisória de Deserção",
+   "qtd": 1063
+  },
+  {
+   "nome": "Recurso em Sentido Estrito",
+   "qtd": 952
+  },
+  {
+   "nome": "Embargos de Declaração Criminal",
+   "qtd": 770
+  },
+  {
+   "nome": "Embargos Infringentes e de Nulidade",
+   "qtd": 732
+  },
+  {
+   "nome": "Agravo Interno Criminal",
+   "qtd": 705
+  },
+  {
+   "nome": "Petição Criminal",
+   "qtd": 312
+  },
+  {
+   "nome": "Carta de Ordem Criminal",
+   "qtd": 281
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Tráfico, posse ou uso de entorpecente ou substância de efeito similar",
+   "qtd": 4681
+  },
+  {
+   "nome": "Deserção",
+   "qtd": 3778
+  },
+  {
+   "nome": "Estelionato",
+   "qtd": 2771
+  },
+  {
+   "nome": "Fato Atípico",
+   "qtd": 2054
+  },
+  {
+   "nome": "Furto ",
+   "qtd": 1425
+  },
+  {
+   "nome": "Competência da Justiça Militar da União",
+   "qtd": 1360
+  },
+  {
+   "nome": "Penas do Código Penal Militar",
+   "qtd": 1284
+  },
+  {
+   "nome": "Uso de documento falso",
+   "qtd": 1177
+  },
+  {
+   "nome": "Nulidade",
+   "qtd": 1112
+  },
+  {
+   "nome": "Falsidade ideológica",
+   "qtd": 1069
+  },
+  {
+   "nome": "Depoimento",
+   "qtd": 1060
+  },
+  {
+   "nome": "Princípio da Insignificância",
+   "qtd": 1035
+  },
+  {
+   "nome": "Abandono de posto",
+   "qtd": 949
+  },
+  {
+   "nome": "Lesão leve",
+   "qtd": 920
+  },
+  {
+   "nome": "Furto qualificado",
+   "qtd": 836
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Auditoria da 5ª CJM",
+   "qtd": 2056
+  },
+  {
+   "nome": "Auditoria da 12ª CJM",
+   "qtd": 1703
+  },
+  {
+   "nome": "2ª Auditoria da 1ª CJM",
+   "qtd": 1503
+  },
+  {
+   "nome": "Auditoria da 7ª CJM",
+   "qtd": 1454
+  },
+  {
+   "nome": "2ª Auditoria da 3ª CJM",
+   "qtd": 1333
+  },
+  {
+   "nome": "3ª Auditoria da 1ª CJM",
+   "qtd": 1235
+  },
+  {
+   "nome": "1ª Auditoria da 1ª CJM",
+   "qtd": 1100
+  },
+  {
+   "nome": "4ª Auditoria da 1ª CJM",
+   "qtd": 1027
+  },
+  {
+   "nome": "Auditoria da 8ª CJM",
+   "qtd": 1012
+  },
+  {
+   "nome": "2ª Auditoria da 11ª CJM",
+   "qtd": 936
+  },
+  {
+   "nome": "1ª Auditoria da 11ª CJM",
+   "qtd": 844
+  },
+  {
+   "nome": "1ª Auditoria da 2ª CJM",
+   "qtd": 711
+  },
+  {
+   "nome": "Sec Gab Min Artur Vidigal de Oliveira",
+   "qtd": 707
+  },
+  {
+   "nome": "Auditoria da 4ª CJM",
+   "qtd": 681
+  },
+  {
+   "nome": "Auditoria da 9ª CJM",
+   "qtd": 671
+  }
+ ],
+ "total": 27808,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-19T15:17:50+00:00"
+}

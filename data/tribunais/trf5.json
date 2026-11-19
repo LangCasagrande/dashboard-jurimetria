@@ -1,0 +1,244 @@
+{
+ "alias": "trf5",
+ "sigla": "TRF5",
+ "nome": "Tribunal Regional Federal da 5ª Região",
+ "ramo": "Federal",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-19T17:16:48+00:00",
+  "formatos": "2026-11-19T17:20:25+00:00",
+  "sistemas": "2026-11-19T17:23:36+00:00",
+  "classes": "2026-11-19T17:28:02+00:00",
+  "assuntos": "2026-11-19T17:29:19+00:00",
+  "orgaos": "2026-11-19T17:41:46+00:00",
+  "total": "2026-11-19T17:44:12+00:00",
+  "mensal": "2026-11-19T17:48:19+00:00"
+ },
+ "graus": [
+  {
+   "nome": "JE",
+   "qtd": 4168661
+  },
+  {
+   "nome": "G1",
+   "qtd": 1451604
+  },
+  {
+   "nome": "TR",
+   "qtd": 1449534
+  },
+  {
+   "nome": "G2",
+   "qtd": 392811
+  },
+  {
+   "nome": "TRU",
+   "qtd": 7161
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 4481109
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 3255806
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 1226431
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 2912044
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 1429719
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 1386675
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 566117
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 214275
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 197094
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 181223
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 117034
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 84223
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 36475
+  },
+  {
+   "nome": "Apelação / Remessa Necessária",
+   "qtd": 32623
+  },
+  {
+   "nome": "Remessa Necessária Cível",
+   "qtd": 30390
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 18740
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 18144
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 17375
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Auxílio por Incapacidade Temporária",
+   "qtd": 1035050
+  },
+  {
+   "nome": "Deficiente",
+   "qtd": 841235
+  },
+  {
+   "nome": "Aposentadoria por Incapacidade Permanente",
+   "qtd": 566835
+  },
+  {
+   "nome": "Rural (Art. 48/51)",
+   "qtd": 365812
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 315471
+  },
+  {
+   "nome": "Idoso",
+   "qtd": 269762
+  },
+  {
+   "nome": "Concessão",
+   "qtd": 169430
+  },
+  {
+   "nome": "Pensão por Morte (Art. 74/9)",
+   "qtd": 165320
+  },
+  {
+   "nome": "Salário-Maternidade (Art. 71/73)",
+   "qtd": 153819
+  },
+  {
+   "nome": "Restabelecimento",
+   "qtd": 129335
+  },
+  {
+   "nome": "Aposentadoria por Tempo de Contribuição (Art. 55/6)",
+   "qtd": 124442
+  },
+  {
+   "nome": "Parcelas de benefício não pagas",
+   "qtd": 99545
+  },
+  {
+   "nome": "Rural (art. 59/63)",
+   "qtd": 95065
+  },
+  {
+   "nome": "Incapacidade Laborativa Permanente",
+   "qtd": 86229
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 75066
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "9ª Vara Federal",
+   "qtd": 76843
+  },
+  {
+   "nome": "7ª Vara Federal",
+   "qtd": 76685
+  },
+  {
+   "nome": "6ª Vara Federal",
+   "qtd": 65095
+  },
+  {
+   "nome": "14ª Vara Federal",
+   "qtd": 64142
+  },
+  {
+   "nome": "13ª Vara Federal",
+   "qtd": 61486
+  },
+  {
+   "nome": "5ª Vara Federal",
+   "qtd": 60313
+  },
+  {
+   "nome": "12ª Vara Federal",
+   "qtd": 48253
+  },
+  {
+   "nome": "15ª Vara Federal",
+   "qtd": 45831
+  },
+  {
+   "nome": "11ª Vara Federal",
+   "qtd": 44042
+  },
+  {
+   "nome": "3ª Vara Federal",
+   "qtd": 41385
+  },
+  {
+   "nome": "3ª Relatoria da Turma Recursal",
+   "qtd": 36235
+  },
+  {
+   "nome": "1ª Relatoria da Turma Recursal",
+   "qtd": 36205
+  },
+  {
+   "nome": "2ª Relatoria da Turma Recursal",
+   "qtd": 35509
+  },
+  {
+   "nome": "1ª Vara Federal",
+   "qtd": 32262
+  },
+  {
+   "nome": "19ª Vara Federal",
+   "qtd": 32182
+  }
+ ],
+ "total": 4482241,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-19T17:48:19+00:00"
+}

@@ -1,0 +1,306 @@
+{
+ "alias": "trf6",
+ "sigla": "TRF6",
+ "nome": "Tribunal Regional Federal da 6ª Região",
+ "ramo": "Federal",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-19T17:57:13+00:00",
+  "classes": "2026-11-19T18:16:12+00:00",
+  "assuntos": "2026-11-19T18:17:54+00:00",
+  "orgaos": "2026-11-19T18:19:44+00:00",
+  "total": "2026-11-19T18:21:09+00:00",
+  "mensal": "2026-11-19T18:22:29+00:00"
+ },
+ "graus": [
+  {
+   "nome": "JE",
+   "qtd": 1800899
+  },
+  {
+   "nome": "G1",
+   "qtd": 1774089
+  },
+  {
+   "nome": "G2",
+   "qtd": 725440
+  },
+  {
+   "nome": "TR",
+   "qtd": 362543
+  },
+  {
+   "nome": "TRU",
+   "qtd": 649
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 1759878
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 546105
+  },
+  {
+   "nome": "Reclamação Pré-processual",
+   "qtd": 418090
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 335206
+  },
+  {
+   "nome": "Requisição de Pequeno Valor",
+   "qtd": 289676
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 257611
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 231576
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 175879
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 175745
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 81762
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 81324
+  },
+  {
+   "nome": "Apelação / Remessa Necessária",
+   "qtd": 47610
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 43330
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 21004
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 20626
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Auxílio por Incapacidade Temporária",
+   "qtd": 298381
+  },
+  {
+   "nome": "Aposentadoria por Incapacidade Permanente",
+   "qtd": 266698
+  },
+  {
+   "nome": "Deficiente",
+   "qtd": 255329
+  },
+  {
+   "nome": "Patrimônio Cultural",
+   "qtd": 238231
+  },
+  {
+   "nome": "Atualização de Conta",
+   "qtd": 234091
+  },
+  {
+   "nome": "Aposentadoria por Tempo de Contribuição (Art. 55/6)",
+   "qtd": 216969
+  },
+  {
+   "nome": "Rural (Art. 48/51)",
+   "qtd": 207616
+  },
+  {
+   "nome": "Urbano (art. 60)",
+   "qtd": 176541
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 163823
+  },
+  {
+   "nome": "Urbana (art. 42/44)",
+   "qtd": 127458
+  },
+  {
+   "nome": "Conselhos Regionais e Afins (Anuidade)",
+   "qtd": 102784
+  },
+  {
+   "nome": "Multas e demais Sanções",
+   "qtd": 99552
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 96562
+  },
+  {
+   "nome": "Indenização por Dano Ambiental",
+   "qtd": 90301
+  },
+  {
+   "nome": "IRPJ/Imposto de Renda de Pessoa Jurídica",
+   "qtd": 88317
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "CENTRO JUDICIARIO DE SOLUCAO CONSENSUAL DE CONFLITOS E CIDADANIA DA SSJ DE BELO HORIZONTE",
+   "qtd": 414261
+  },
+  {
+   "nome": "GABINETE DA PRESIDENCIA",
+   "qtd": 157759
+  },
+  {
+   "nome": "SUBSECRETARIA DE PRECATORIOS E RPV'S - SUPRE",
+   "qtd": 144720
+  },
+  {
+   "nome": "VARA CIVEL E JEF ADJUNTO DE TEOFILO OTONI",
+   "qtd": 117495
+  },
+  {
+   "nome": "19A VARA FEDERAL CIVEL E JEF ADJUNTO DE BELO HORIZONTE",
+   "qtd": 80228
+  },
+  {
+   "nome": "14A VARA FEDERAL CIVEL E JEF ADJUNTO DE BELO HORIZONTE",
+   "qtd": 74726
+  },
+  {
+   "nome": "5A VARA DE EXECUCAO FISCAL, EXTRAJUDICIAL E JEF ADJUNTO",
+   "qtd": 74726
+  },
+  {
+   "nome": "2A VARA DE EXECUCAO FISCAL, EXTRAJUDICIAL E JEF ADJUNTO",
+   "qtd": 72886
+  },
+  {
+   "nome": "4A VARA DE EXECUCAO FISCAL, EXTRAJUDICIAL E JEF ADJUNTO",
+   "qtd": 71293
+  },
+  {
+   "nome": "6A VARA DE EXECUCAO FISCAL, EXTRAJUDICIAL E JEF ADJUNTO",
+   "qtd": 70608
+  },
+  {
+   "nome": "VARA DE EXECUCAO FISCAL DE CONSELHOS PROFISSIONAIS E JEF ADJUNTO",
+   "qtd": 70526
+  },
+  {
+   "nome": "3A VARA DE EXECUCAO FISCAL, EXTRAJUDICIAL E JEF ADJUNTO",
+   "qtd": 68712
+  },
+  {
+   "nome": "1A VARA DE EXECUCAO FISCAL, EXTRAJUDICIAL E JEF ADJUNTO",
+   "qtd": 68146
+  },
+  {
+   "nome": "VARA CIVEL E JEF ADJUNTO DE VICOSA",
+   "qtd": 64954
+  },
+  {
+   "nome": "13A VARA FEDERAL CIVEL E JEF ADJUNTO DE BELO HORIZONTE",
+   "qtd": 63185
+  }
+ ],
+ "total": 4663620,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 331
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 115
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 45
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 65
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 90
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 96
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 75
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 74
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 105
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 64
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 76
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 315
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 58
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 22
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 7
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 12
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 8
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 5
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 4
+  }
+ ],
+ "erros": {
+  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "sistemas": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-19T18:22:29+00:00"
+}

@@ -1,0 +1,177 @@
+{
+ "alias": "trf4",
+ "sigla": "TRF4",
+ "nome": "Tribunal Regional Federal da 4ª Região",
+ "ramo": "Federal",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-19T16:36:20+00:00",
+  "formatos": "2026-11-19T16:37:10+00:00",
+  "classes": "2026-11-19T16:56:56+00:00",
+  "orgaos": "2026-11-19T17:07:44+00:00",
+  "total": "2026-11-19T17:14:07+00:00",
+  "mensal": "2026-11-19T17:14:38+00:00"
+ },
+ "graus": [
+  {
+   "nome": "JE",
+   "qtd": 5677773
+  },
+  {
+   "nome": "G1",
+   "qtd": 4668652
+  },
+  {
+   "nome": "G2",
+   "qtd": 2679236
+  },
+  {
+   "nome": "TR",
+   "qtd": 1792910
+  },
+  {
+   "nome": "TRU",
+   "qtd": 37092
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 14489805
+  },
+  {
+   "nome": "Físico",
+   "qtd": 365858
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 4218585
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 1794094
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 1719288
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 1516257
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 922314
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 679780
+  },
+  {
+   "nome": "Requisição de Pequeno Valor",
+   "qtd": 668376
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 555715
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 485350
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 369485
+  },
+  {
+   "nome": "Apelação / Remessa Necessária",
+   "qtd": 227890
+  },
+  {
+   "nome": "Procedimento Investigatório Criminal (PIC-MP) ",
+   "qtd": 174285
+  },
+  {
+   "nome": "Execução Contra a Fazenda Pública",
+   "qtd": 158214
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 146039
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 109254
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Presidência",
+   "qtd": 756709
+  },
+  {
+   "nome": "Central de Controle e Apoio em Execução Fiscal",
+   "qtd": 270292
+  },
+  {
+   "nome": "5ª Turma Recursal do Rio Grande do Sul",
+   "qtd": 193176
+  },
+  {
+   "nome": "3° Núcleo de Justiça 4.0 - RS",
+   "qtd": 161677
+  },
+  {
+   "nome": "3° Núcleo de Justiça 4.0 - SC",
+   "qtd": 129315
+  },
+  {
+   "nome": "2ª Turma Recursal de Santa Catarina",
+   "qtd": 118164
+  },
+  {
+   "nome": "1ª Turma Recursal do Rio Grande do Sul",
+   "qtd": 117999
+  },
+  {
+   "nome": "3° Núcleo de Justiça 4.0 - PR",
+   "qtd": 117245
+  },
+  {
+   "nome": "1ª Turma Recursal de Santa Catarina",
+   "qtd": 115547
+  },
+  {
+   "nome": "Presidência das TRs do Rio Grande do Sul",
+   "qtd": 111188
+  },
+  {
+   "nome": "2ª Turma Recursal do Rio Grande do Sul",
+   "qtd": 109012
+  },
+  {
+   "nome": "1ª Turma Recursal do Paraná",
+   "qtd": 108725
+  },
+  {
+   "nome": "3ª Turma Recursal do Paraná",
+   "qtd": 108127
+  },
+  {
+   "nome": "3ª Turma Recursal do Rio Grande do Sul",
+   "qtd": 106347
+  },
+  {
+   "nome": "2ª Turma Recursal do Paraná",
+   "qtd": 105944
+  }
+ ],
+ "total": 14870040,
+ "mensal": [],
+ "erros": {
+  "sistemas": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
+  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-19T17:14:38+00:00"
+}

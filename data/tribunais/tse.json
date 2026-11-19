@@ -1,0 +1,341 @@
+{
+ "alias": "tse",
+ "sigla": "TSE",
+ "nome": "Tribunal Superior Eleitoral",
+ "ramo": "Superiores",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-19T14:34:04+00:00",
+  "formatos": "2026-11-19T14:34:26+00:00",
+  "sistemas": "2026-11-19T14:43:52+00:00",
+  "classes": "2026-11-19T14:44:23+00:00",
+  "assuntos": "2026-11-19T14:45:18+00:00",
+  "orgaos": "2026-11-19T14:47:52+00:00",
+  "total": "2026-11-19T14:57:46+00:00",
+  "mensal": "2026-11-19T14:59:45+00:00"
+ },
+ "graus": [
+  {
+   "nome": "SUP",
+   "qtd": 90926
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 90889
+  },
+  {
+   "nome": "Físico",
+   "qtd": 37
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Pje",
+   "qtd": 72736
+  },
+  {
+   "nome": "PJe",
+   "qtd": 18153
+  },
+  {
+   "nome": "Outros",
+   "qtd": 36
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 1
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 20743
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 18747
+  },
+  {
+   "nome": "Agravo em Recurso Especial Eleitoral",
+   "qtd": 14258
+  },
+  {
+   "nome": "Recurso Especial Eleitoral",
+   "qtd": 13404
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 8285
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 3311
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 1854
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 1327
+  },
+  {
+   "nome": "Recurso Ordinário Eleitoral",
+   "qtd": 1192
+  },
+  {
+   "nome": "Tutela Cautelar Antecedente",
+   "qtd": 873
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 865
+  },
+  {
+   "nome": "Representação",
+   "qtd": 773
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 651
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 566
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 484
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Regularização de Histórico - Exclusão de Códigos de ASE",
+   "qtd": 17078
+  },
+  {
+   "nome": "Regularização de Histórico",
+   "qtd": 11532
+  },
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 10120
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 8397
+  },
+  {
+   "nome": "Meios Processuais",
+   "qtd": 7668
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 7283
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 6463
+  },
+  {
+   "nome": "Contas - Desaprovação/Rejeição das Contas",
+   "qtd": 5003
+  },
+  {
+   "nome": "Cargo - Vice-Prefeito",
+   "qtd": 3647
+  },
+  {
+   "nome": "Regularização de Contas Eleitorais",
+   "qtd": 3413
+  },
+  {
+   "nome": "Impugnação ao Registro de Candidatura",
+   "qtd": 3168
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 3076
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 2890
+  },
+  {
+   "nome": "Propaganda Política - Propaganda Eleitoral - Extemporânea/Antecipada",
+   "qtd": 2825
+  },
+  {
+   "nome": "Regularização de Histórico - Retificação de Dados Pessoais",
+   "qtd": 2649
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "GABINETE CGE",
+   "qtd": 41543
+  },
+  {
+   "nome": "GABINETE STF1",
+   "qtd": 13788
+  },
+  {
+   "nome": "GABINETE JURISTA 1",
+   "qtd": 6012
+  },
+  {
+   "nome": "GABINETE STJ2",
+   "qtd": 5842
+  },
+  {
+   "nome": "GABINETE STF3",
+   "qtd": 5791
+  },
+  {
+   "nome": "GABINETE STF2",
+   "qtd": 5751
+  },
+  {
+   "nome": "GABINETE STJ1",
+   "qtd": 5716
+  },
+  {
+   "nome": "GABINETE JURISTA 2",
+   "qtd": 5553
+  },
+  {
+   "nome": "JUÍZ AUXILIAR 2",
+   "qtd": 370
+  },
+  {
+   "nome": "JUÍZ AUXILIAR 1",
+   "qtd": 353
+  },
+  {
+   "nome": "JUÍZ AUXILIAR 3",
+   "qtd": 186
+  },
+  {
+   "nome": "SUBSTITUTO JURISTA 2",
+   "qtd": 9
+  },
+  {
+   "nome": "GABINETE RELATORIA VISTA",
+   "qtd": 7
+  },
+  {
+   "nome": "SUBSTITUTO STJ1",
+   "qtd": 2
+  },
+  {
+   "nome": "SUBSTITUTO STF1",
+   "qtd": 1
+  }
+ ],
+ "total": 90926,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 879
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 457
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 545
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 608
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 742
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 812
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 12709
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 1381
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 547
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 928
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 2430
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 2086
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 1082
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 741
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 495
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 623
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 196
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 120
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 45
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 3
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 1
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-19T14:59:45+00:00"
+}
