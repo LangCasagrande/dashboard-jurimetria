@@ -1,0 +1,329 @@
+{
+ "alias": "tjpa",
+ "sigla": "TJPA",
+ "nome": "Tribunal de Justiça do Pará",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T18:01:18+00:00",
+  "formatos": "2026-11-20T18:03:37+00:00",
+  "sistemas": "2026-11-20T18:04:37+00:00",
+  "classes": "2026-11-20T18:05:33+00:00",
+  "assuntos": "2026-11-20T18:06:46+00:00",
+  "orgaos": "2026-11-20T18:07:20+00:00",
+  "total": "2026-11-20T18:08:06+00:00",
+  "mensal": "2026-11-20T18:09:59+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 2054656
+  },
+  {
+   "nome": "JE",
+   "qtd": 593543
+  },
+  {
+   "nome": "G2",
+   "qtd": 283575
+  },
+  {
+   "nome": "TR",
+   "qtd": 105274
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 3467135
+  },
+  {
+   "nome": "Físico",
+   "qtd": 331751
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 3356222
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 428925
+  },
+  {
+   "nome": "Pje",
+   "qtd": 12033
+  },
+  {
+   "nome": "Outros",
+   "qtd": 1706
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 433706
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 402966
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 348202
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 273730
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 229446
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 168040
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 162252
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 159998
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 148902
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 103597
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 99405
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 97829
+  },
+  {
+   "nome": "Medidas Protetivas de urgência (Lei Maria da Penha) Criminal",
+   "qtd": 95938
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 82486
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 79528
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 51827
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 31180
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 27575
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 25845
+  },
+  {
+   "nome": "Municipais",
+   "qtd": 25594
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 23167
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 22042
+  },
+  {
+   "nome": "Violência Doméstica Contra a Mulher",
+   "qtd": 19640
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 18432
+  },
+  {
+   "nome": "Taxa de Licenciamento de Estabelecimento",
+   "qtd": 17029
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 15654
+  },
+  {
+   "nome": "Citação",
+   "qtd": 14870
+  },
+  {
+   "nome": "Contra a Mulher",
+   "qtd": 13604
+  },
+  {
+   "nome": "Crimes de Trânsito",
+   "qtd": 12568
+  },
+  {
+   "nome": "Intimação",
+   "qtd": 12415
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "2ª VARA DE EXECUÇÃO FISCAL DE BELÉM",
+   "qtd": 176012
+  },
+  {
+   "nome": "1ª VARA DE EXECUÇÃO FISCAL DE BELÉM",
+   "qtd": 171464
+  },
+  {
+   "nome": "2ª VARA DO JUIZADO ESPECIAL CÍVEL DE FAZENDA PÚBLICA",
+   "qtd": 46115
+  },
+  {
+   "nome": "1ª VARA DO JUIZADO ESPECIAL CÍVEL DE FAZENDA PÚBLICA",
+   "qtd": 45652
+  },
+  {
+   "nome": "TURMA RECURSAL",
+   "qtd": 38758
+  },
+  {
+   "nome": "VARA DE VIOLENCIA DOMESTICA E FAMILIAR CONTRA A MULHER DE ANANINDEUA",
+   "qtd": 30524
+  },
+  {
+   "nome": "3ª VARA DE EXECUÇÃO FISCAL DE BELÉM",
+   "qtd": 29562
+  },
+  {
+   "nome": "VARA DE EXECUÇÃO PENAL DA REGIÃO METROPOLITANA DE BELÉM",
+   "qtd": 24594
+  },
+  {
+   "nome": "VARA DO JUIZADO ESPECIAL CÍVEL E CRIMINAL DE CASTANHAL",
+   "qtd": 22354
+  },
+  {
+   "nome": "1ª VARA CÍVEL E EMPRESARIAL DE BELÉM",
+   "qtd": 22238
+  },
+  {
+   "nome": "VARA DE EXEC. DE PENAS E MED. ALTERNATIVAS DE BELÉM",
+   "qtd": 21992
+  },
+  {
+   "nome": "10ª VARA CÍVEL E EMPRESARIAL DE BELÉM",
+   "qtd": 21371
+  },
+  {
+   "nome": "VARA DO JUIZADO ESPECIAL CÍVEL E CRIMINAL DE PARAUAPEBAS",
+   "qtd": 21085
+  },
+  {
+   "nome": "3ª VARA DO JUIZADO ESPECIAL DA FAZENDA PUBLICA DA CAPITAL",
+   "qtd": 21018
+  },
+  {
+   "nome": "12ª VARA CÍVEL E EMPRESARIAL DE BELÉM",
+   "qtd": 20677
+  }
+ ],
+ "total": 3798886,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 37
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 38
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 61
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 47
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 77
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 56
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 63
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 64
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 69
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 61
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 69
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 50
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 58
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 41
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 54
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 60
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 56
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 45
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 66
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-20T18:09:59+00:00"
+}

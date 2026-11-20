@@ -1,0 +1,235 @@
+{
+ "alias": "tjba",
+ "sigla": "TJBA",
+ "nome": "Tribunal de Justiça da Bahia",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "formatos": "2026-11-20T14:42:33+00:00",
+  "sistemas": "2026-11-20T14:49:50+00:00",
+  "classes": "2026-11-20T14:55:03+00:00",
+  "assuntos": "2026-11-20T14:55:38+00:00",
+  "orgaos": "2026-11-20T14:56:58+00:00",
+  "total": "2026-11-20T14:57:50+00:00",
+  "mensal": "2026-11-20T14:58:45+00:00"
+ },
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 16072525
+  },
+  {
+   "nome": "Físico",
+   "qtd": 235
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 6294878
+  },
+  {
+   "nome": "Eproc",
+   "qtd": 4423101
+  },
+  {
+   "nome": "SAJ",
+   "qtd": 1319
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 11
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 985624
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 735542
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 626542
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 418081
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 401473
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 197407
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 164656
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 151769
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 121175
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 108155
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 106851
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 104339
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 79307
+  },
+  {
+   "nome": "Alimentos - Lei Especial Nº 5.478/68",
+   "qtd": 66726
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 66707
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 1344727
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 601523
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 383402
+  },
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 235923
+  },
+  {
+   "nome": "Ausência de Cobrança Administrativa Prévia",
+   "qtd": 211314
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 183425
+  },
+  {
+   "nome": "Execução Fiscal ",
+   "qtd": 169362
+  },
+  {
+   "nome": "Empréstimo consignado",
+   "qtd": 158364
+  },
+  {
+   "nome": "Acidente de Trânsito",
+   "qtd": 135209
+  },
+  {
+   "nome": "Rescisão do contrato e devolução do dinheiro",
+   "qtd": 127140
+  },
+  {
+   "nome": "Fixação",
+   "qtd": 97953
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 94888
+  },
+  {
+   "nome": "Cartão de Crédito",
+   "qtd": 90796
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 81105
+  },
+  {
+   "nome": "Citação",
+   "qtd": 79492
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "VARA JURISDIÇÃO PLENA",
+   "qtd": 1225079
+  },
+  {
+   "nome": "VARA CÍVEL",
+   "qtd": 499716
+  },
+  {
+   "nome": "1ª VARA DA FAZENDA PÚBLICA",
+   "qtd": 468355
+  },
+  {
+   "nome": "1ª VARA DE FEITOS DE REL DE CONS. CÍVEL E COMERCIAIS",
+   "qtd": 261975
+  },
+  {
+   "nome": "1ª VARA CRIMINAL",
+   "qtd": 190046
+  },
+  {
+   "nome": "VARA CRIME",
+   "qtd": 177191
+  },
+  {
+   "nome": "2ª VARA DA FAZENDA PÚBLICA",
+   "qtd": 172498
+  },
+  {
+   "nome": "SEGUNDA TURMA RECURSAL",
+   "qtd": 169401
+  },
+  {
+   "nome": "PRIMEIRA TURMA RECURSAL",
+   "qtd": 168560
+  },
+  {
+   "nome": "QUARTA TURMA RECURSAL",
+   "qtd": 166642
+  },
+  {
+   "nome": "TERCEIRA TURMA RECURSAL",
+   "qtd": 158683
+  },
+  {
+   "nome": "QUINTA TURMA RECURSAL",
+   "qtd": 154365
+  },
+  {
+   "nome": "2ª VARA DE FEITOS DE REL DE CONS. CÍVEL E COMERCIAIS",
+   "qtd": 151148
+  },
+  {
+   "nome": "SEXTA TURMA RECURSAL",
+   "qtd": 130917
+  },
+  {
+   "nome": "2ª VSJE DA FAZENDA PÚBLICA (VESPERTINO)",
+   "qtd": 79815
+  }
+ ],
+ "total": 16072760,
+ "mensal": [],
+ "erros": {
+  "graus": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-20T14:58:45+00:00"
+}

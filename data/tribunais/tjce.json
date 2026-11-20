@@ -1,0 +1,235 @@
+{
+ "alias": "tjce",
+ "sigla": "TJCE",
+ "nome": "Tribunal de Justiça do Ceará",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "formatos": "2026-11-20T15:09:50+00:00",
+  "sistemas": "2026-11-20T15:10:42+00:00",
+  "classes": "2026-11-20T15:11:34+00:00",
+  "assuntos": "2026-11-20T15:13:55+00:00",
+  "orgaos": "2026-11-20T15:18:27+00:00",
+  "total": "2026-11-20T15:20:14+00:00",
+  "mensal": "2026-11-20T15:25:06+00:00"
+ },
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 4889982
+  },
+  {
+   "nome": "Físico",
+   "qtd": 45675
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "SAJ",
+   "qtd": 2195041
+  },
+  {
+   "nome": "PJe",
+   "qtd": 1792748
+  },
+  {
+   "nome": "Pje",
+   "qtd": 947867
+  },
+  {
+   "nome": "Outros",
+   "qtd": 1
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 752828
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 572182
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 300579
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 296563
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 273039
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 250418
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 248920
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 237185
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 214700
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 200288
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 186182
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 144690
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 99826
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 94717
+  },
+  {
+   "nome": "Procedimento do Juizado Especial da Fazenda Pública",
+   "qtd": 86908
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 511342
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 267032
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 226274
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 217304
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 175162
+  },
+  {
+   "nome": "Empréstimo consignado",
+   "qtd": 151493
+  },
+  {
+   "nome": "Intimação",
+   "qtd": 150008
+  },
+  {
+   "nome": "Tráfico de Drogas e Condutas Afins",
+   "qtd": 141759
+  },
+  {
+   "nome": "Citação",
+   "qtd": 126752
+  },
+  {
+   "nome": "Defeito, nulidade ou anulação",
+   "qtd": 111308
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 104404
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 96943
+  },
+  {
+   "nome": "Seguro",
+   "qtd": 85817
+  },
+  {
+   "nome": "Crimes do Sistema Nacional de Armas",
+   "qtd": 84284
+  },
+  {
+   "nome": "Práticas Abusivas",
+   "qtd": 79154
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "1º NUCLEO DE JUSTIÇA 4.0 EXECUÇOES FISCAIS",
+   "qtd": 102363
+  },
+  {
+   "nome": "3ª TURMA RECURSAL - JUIZADO ESPECIAL DA FAZENDA PUBLICA",
+   "qtd": 57980
+  },
+  {
+   "nome": "NUCLEO DE JUSTIÇA 4.0 - JUIZADOS ESPECIAIS ADJUNTOS",
+   "qtd": 52623
+  },
+  {
+   "nome": "GABINETE DA VICE-PRESIDENCIA",
+   "qtd": 33762
+  },
+  {
+   "nome": "1ª TURMA RECURSAL - JUIZADOS ESPECIAIS CIVEIS E CRIMINAIS",
+   "qtd": 33004
+  },
+  {
+   "nome": "NUCLEO DE JUSTIÇA 4.0 - CUMPRIMENTO DE SENTENÇA CIVEL",
+   "qtd": 32450
+  },
+  {
+   "nome": "2ª TURMA RECURSAL - JUIZADOS ESPECIAIS CIVEIS E CRIMINAIS",
+   "qtd": 31804
+  },
+  {
+   "nome": "6ª TURMA RECURSAL DOS JUIZADOS ESPECIAIS",
+   "qtd": 30637
+  },
+  {
+   "nome": "5ª TURMA RECURSAL DOS JUIZADOS ESPECIAIS",
+   "qtd": 30508
+  },
+  {
+   "nome": "2ª VARA DA FAZENDA PUBLICA DA COMARCA DE FORTALEZA",
+   "qtd": 25283
+  },
+  {
+   "nome": "6ª VARA DA FAZENDA PUBLICA DA COMARCA DE FORTALEZA",
+   "qtd": 23711
+  },
+  {
+   "nome": "11ª VARA DA FAZENDA PUBLICA DA COMARCA DE FORTALEZA",
+   "qtd": 23685
+  },
+  {
+   "nome": "16ª VARA CIVEL DA COMARCA DE FORTALEZA",
+   "qtd": 22967
+  },
+  {
+   "nome": "1ª VARA DA FAZENDA PUBLICA DA COMARCA DE FORTALEZA",
+   "qtd": 22921
+  },
+  {
+   "nome": "NÚCLEO DE JUSTIÇA 4.0 EXECUÇÕES DE TÍTULO EXTRAJUDICIAL",
+   "qtd": 22847
+  }
+ ],
+ "total": 4935657,
+ "mensal": [],
+ "erros": {
+  "graus": "HTTP 504: <html>\r <head><title>504 Gateway Time-out</title></head>\r <body>\r <center><h1>504 Gateway Time-out</h1></center>\r <hr><center>NSX LB</center>\r </body>\r </html>\r"
+ },
+ "atualizado_em": "2026-11-20T15:25:06+00:00"
+}

@@ -1,0 +1,252 @@
+{
+ "alias": "tjpi",
+ "sigla": "TJPI",
+ "nome": "Tribunal de Justiça do Piauí",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T18:30:04+00:00",
+  "formatos": "2026-11-20T18:32:37+00:00",
+  "sistemas": "2026-11-20T18:33:10+00:00",
+  "classes": "2026-11-20T18:34:00+00:00",
+  "assuntos": "2026-11-20T18:34:45+00:00",
+  "orgaos": "2026-11-20T18:35:16+00:00",
+  "total": "2026-11-20T18:35:43+00:00",
+  "mensal": "2026-11-20T18:36:59+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 1385839
+  },
+  {
+   "nome": "JE",
+   "qtd": 450412
+  },
+  {
+   "nome": "G2",
+   "qtd": 422156
+  },
+  {
+   "nome": "TR",
+   "qtd": 81669
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 2268802
+  },
+  {
+   "nome": "Físico",
+   "qtd": 71274
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 2240275
+  },
+  {
+   "nome": "Themis",
+   "qtd": 71274
+  },
+  {
+   "nome": "Eproc",
+   "qtd": 28519
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 8
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 606926
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 308885
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 260486
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 176252
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 107477
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 79108
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 77719
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 64321
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 52271
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 46789
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 39843
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 37546
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 32864
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 30632
+  },
+  {
+   "nome": "Apelação Criminal",
+   "qtd": 28120
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Empréstimo consignado",
+   "qtd": 531398
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 183161
+  },
+  {
+   "nome": "Práticas Abusivas",
+   "qtd": 117215
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 114173
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 106755
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 101731
+  },
+  {
+   "nome": "Defeito, nulidade ou anulação",
+   "qtd": 93544
+  },
+  {
+   "nome": "Repetição do Indébito",
+   "qtd": 72498
+  },
+  {
+   "nome": "Tarifas",
+   "qtd": 67019
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 60103
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 57404
+  },
+  {
+   "nome": "Direito de Imagem",
+   "qtd": 53924
+  },
+  {
+   "nome": "Abatimento proporcional do preço ",
+   "qtd": 50061
+  },
+  {
+   "nome": "Rescisão do contrato e devolução do dinheiro",
+   "qtd": 49233
+  },
+  {
+   "nome": "Cartão de Crédito",
+   "qtd": 45762
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "VI NÚCLEO DE JUSTIÇA 4.0 - EMPRÉSTIMOS CONSIGNADOS",
+   "qtd": 39036
+  },
+  {
+   "nome": "2º JUIZADO ESPECIAL CÍVEL DA COMARCA DE TERESINA",
+   "qtd": 35786
+  },
+  {
+   "nome": "JECC PARNAÍBA - SEDE",
+   "qtd": 34630
+  },
+  {
+   "nome": "2ª VARA DE CAMPO MAIOR",
+   "qtd": 34395
+  },
+  {
+   "nome": "3º JUIZADO ESPECIAL CÍVEL DA COMARCA DE TERESINA",
+   "qtd": 30416
+  },
+  {
+   "nome": "1º JUIZADO ESPECIAL CÍVEL DA COMARCA DE TERESINA",
+   "qtd": 27966
+  },
+  {
+   "nome": "2ª VARA DE PEDRO II",
+   "qtd": 27874
+  },
+  {
+   "nome": "GAB. DES. JOSÉ JAMES GOMES PEREIRA",
+   "qtd": 26398
+  },
+  {
+   "nome": "GAB. DES. RICARDO GENTIL EULÁLIO DANTAS",
+   "qtd": 26203
+  },
+  {
+   "nome": "GAB. DES. JOSÉ WILSON FERREIRA DE ARAÚJO JÚNIOR",
+   "qtd": 25568
+  },
+  {
+   "nome": "GAB. DES. FRANCISCO GOMES DA COSTA NETO",
+   "qtd": 25180
+  },
+  {
+   "nome": "GAB. DES. FERNANDO LOPES E SILVA NETO",
+   "qtd": 25160
+  },
+  {
+   "nome": "GAB. DES. HILO DE ALMEIDA SOUSA",
+   "qtd": 25046
+  },
+  {
+   "nome": "GAB. DES. JOÃO GABRIEL FURTADO BAPTISTA",
+   "qtd": 25011
+  },
+  {
+   "nome": "GAB. DES. AGRIMAR RODRIGUES DE ARAÚJO",
+   "qtd": 24659
+  }
+ ],
+ "total": 2340076,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-20T18:36:59+00:00"
+}

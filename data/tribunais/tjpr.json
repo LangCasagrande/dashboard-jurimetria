@@ -1,0 +1,277 @@
+{
+ "alias": "tjpr",
+ "sigla": "TJPR",
+ "nome": "Tribunal de Justiça do Paraná",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T18:38:40+00:00",
+  "formatos": "2026-11-20T18:39:18+00:00",
+  "sistemas": "2026-11-20T18:39:58+00:00",
+  "classes": "2026-11-20T18:40:36+00:00",
+  "assuntos": "2026-11-20T18:42:04+00:00",
+  "orgaos": "2026-11-20T18:42:51+00:00",
+  "total": "2026-11-20T18:43:26+00:00",
+  "mensal": "2026-11-20T18:44:17+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 6855889
+  },
+  {
+   "nome": "JE",
+   "qtd": 3609699
+  },
+  {
+   "nome": "G2",
+   "qtd": 2112991
+  },
+  {
+   "nome": "TR",
+   "qtd": 713409
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 13291988
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Eproc",
+   "qtd": 13130298
+  },
+  {
+   "nome": "Projudi",
+   "qtd": 161690
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 1496200
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 1489190
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1210327
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 1189588
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 1025865
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 571688
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 521371
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 460878
+  },
+  {
+   "nome": "Embargos de Declaração Cível",
+   "qtd": 364055
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 352310
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 313739
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 293033
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 285626
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 272260
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 269678
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 1443431
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 1161225
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 710217
+  },
+  {
+   "nome": "Práticas Abusivas",
+   "qtd": 544446
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 508195
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 336034
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 321931
+  },
+  {
+   "nome": "Nota Promissória",
+   "qtd": 307849
+  },
+  {
+   "nome": "Tráfico de Drogas e Condutas Afins",
+   "qtd": 289826
+  },
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 261691
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 222831
+  },
+  {
+   "nome": "Cédula de Crédito Bancário",
+   "qtd": 205026
+  },
+  {
+   "nome": "Prestação de Serviços",
+   "qtd": 202503
+  },
+  {
+   "nome": "Cheque",
+   "qtd": 190932
+  },
+  {
+   "nome": "Crimes de Trânsito",
+   "qtd": 169510
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "1ª VICE-PRESIDÊNCIA",
+   "qtd": 399581
+  },
+  {
+   "nome": "4ª TURMA RECURSAL DOS JUIZADOS ESPECIAIS",
+   "qtd": 156699
+  },
+  {
+   "nome": "CURITIBA - 1ª VARA DE EXECUÇÃO DE PENAS E MEDIDAS ALTERNATIVAS",
+   "qtd": 145518
+  },
+  {
+   "nome": "3ª TURMA RECURSAL DOS JUIZADOS ESPECIAIS",
+   "qtd": 121692
+  },
+  {
+   "nome": "CURITIBA - 1ª VARA DE EXECUÇÕES FISCAIS MUNICIPAIS",
+   "qtd": 120525
+  },
+  {
+   "nome": "CURITIBA - 2ª VARA DE EXECUÇÕES FISCAIS MUNICIPAIS",
+   "qtd": 120326
+  },
+  {
+   "nome": "2ª TURMA RECURSAL DOS JUIZADOS ESPECIAIS",
+   "qtd": 112150
+  },
+  {
+   "nome": "1ª TURMA RECURSAL DOS JUIZADOS ESPECIAIS",
+   "qtd": 96575
+  },
+  {
+   "nome": "PARANAGUÁ - VARA DA FAZENDA PÚBLICA",
+   "qtd": 93782
+  },
+  {
+   "nome": "5ª TURMA RECURSAL DOS JUIZADOS ESPECIAIS",
+   "qtd": 89058
+  },
+  {
+   "nome": "MATINHOS - VARA CÍVEL, DA FAZENDA PÚBLICA, ACIDENTES DO TRABALHO, REGISTROS PÚBLICOS E CORREGEDORIA DO FORO EXTRAJUDICIAL, JUIZADO ESPECIAL CÍVEL E JUIZADO ESPECIAL DA FAZENDA PÚBLICA",
+   "qtd": 86427
+  },
+  {
+   "nome": "GUARATUBA - VARA CÍVEL, DA FAZENDA PÚBLICA, ACIDENTES DO TRABALHO, REGISTROS PÚBLICOS E CORREGEDORIA DO FORO EXTRAJUDICIAL, JUIZADO ESPECIAL CÍVEL E JUIZADO ESPECIAL DA FAZENDA PÚBLICA",
+   "qtd": 85538
+  },
+  {
+   "nome": "6ª TURMA RECURSAL DOS JUIZADOS ESPECIAIS",
+   "qtd": 78033
+  },
+  {
+   "nome": "LONDRINA - 1ª VARA DE EXECUÇÕES FISCAIS",
+   "qtd": 69945
+  },
+  {
+   "nome": "CURITIBA - 15º JUIZADO ESPECIAL DA FAZENDA PÚBLICA",
+   "qtd": 65601
+  }
+ ],
+ "total": 13292481,
+ "mensal": [
+  {
+   "mes": "2024-03",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 3
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 2
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-20T18:44:17+00:00"
+}

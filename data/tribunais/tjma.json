@@ -1,0 +1,223 @@
+{
+ "alias": "tjma",
+ "sigla": "TJMA",
+ "nome": "Tribunal de Justiça do Maranhão",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "formatos": "2026-11-20T16:33:17+00:00",
+  "sistemas": "2026-11-20T16:33:55+00:00",
+  "classes": "2026-11-20T16:38:54+00:00",
+  "assuntos": "2026-11-20T16:43:14+00:00",
+  "orgaos": "2026-11-20T16:45:27+00:00",
+  "total": "2026-11-20T16:46:24+00:00",
+  "mensal": "2026-11-20T16:48:06+00:00"
+ },
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 4116583
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 4116582
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 1
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 736766
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 429610
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 357855
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 260727
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 110877
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 107346
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 95982
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 92327
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 89530
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 83699
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 72284
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 59400
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 46571
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 46148
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 42501
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Empréstimo consignado",
+   "qtd": 288607
+  },
+  {
+   "nome": "Direito de Imagem",
+   "qtd": 186287
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 158314
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 95029
+  },
+  {
+   "nome": "Tarifas",
+   "qtd": 74951
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 68268
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 67735
+  },
+  {
+   "nome": "Causas Supervenientes à Sentença",
+   "qtd": 66522
+  },
+  {
+   "nome": "Intimação",
+   "qtd": 59923
+  },
+  {
+   "nome": "Práticas Abusivas",
+   "qtd": 49792
+  },
+  {
+   "nome": "Citação",
+   "qtd": 44653
+  },
+  {
+   "nome": "Liminar ",
+   "qtd": 40203
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 37737
+  },
+  {
+   "nome": "Acidente de Trânsito",
+   "qtd": 36880
+  },
+  {
+   "nome": "Seguro",
+   "qtd": 34710
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "N�CLEO DE JUSTI�A 4.0 - EMPR�STIMOS CONSIGNADOS",
+   "qtd": 182766
+  },
+  {
+   "nome": "COORDENADORIA DE RECURSOS CONSTITUCIONAIS",
+   "qtd": 62584
+  },
+  {
+   "nome": "1� VARA DA FAZENDA P�BLICA DA COMARCA DE IMPERATRIZ",
+   "qtd": 34456
+  },
+  {
+   "nome": "1� VARA C�VEL DA COMARCA DE CAXIAS",
+   "qtd": 33520
+  },
+  {
+   "nome": "2� VARA C�VEL DA COMARCA DE CAXIAS",
+   "qtd": 30812
+  },
+  {
+   "nome": "1� TURMA RECURSAL PERMANENTE DO TERMO JUDICI�RIO DE S�O LU�S",
+   "qtd": 30366
+  },
+  {
+   "nome": "2� TURMA RECURSAL PERMANENTE DO TERMO JUDICI�RIO DE S�O LU�S",
+   "qtd": 30215
+  },
+  {
+   "nome": "10� JUIZADO ESPECIAL C�VEL E DAS RELA��ES DE CONSUMO DO TERMO JUDICI�RIO DE S�O LU�S",
+   "qtd": 26583
+  },
+  {
+   "nome": "1� JUIZADO ESPECIAL DA FAZENDA P�BLICA, ESTADUAL E MUNICIPAL DO TERMO JUDICI�RIO DE S�O LU�S",
+   "qtd": 25943
+  },
+  {
+   "nome": "1� VARA DA COMARCA DE COD�",
+   "qtd": 25072
+  },
+  {
+   "nome": "1� JUIZADO ESPECIAL C�VEL E CRIMINAL DO TERMO JUDICI�RIO DE  S�O JOS� DE RIBAMAR",
+   "qtd": 24595
+  },
+  {
+   "nome": "2� VARA DA COMARCA DE COD�",
+   "qtd": 24285
+  },
+  {
+   "nome": "1� VARA DA COMARCA DE BREJO",
+   "qtd": 23662
+  },
+  {
+   "nome": "1� JUIZADO ESPECIAL C�VEL E DAS RELA��ES DE CONSUMO DA COMARCA DE IMPERATRIZ",
+   "qtd": 22921
+  },
+  {
+   "nome": "JUIZADO ESPECIAL C�VEL E CRIMINAL DO TERMO JUDICI�RIO DE PA�O DO LUMIAR",
+   "qtd": 22681
+  }
+ ],
+ "total": 2058173,
+ "mensal": [],
+ "erros": {
+  "graus": "HTTP 504: <html>\r <head><title>504 Gateway Time-out</title></head>\r <body>\r <center><h1>504 Gateway Time-out</h1></center>\r <hr><center>NSX LB</center>\r </body>\r </html>\r"
+ },
+ "atualizado_em": "2026-11-20T16:48:06+00:00"
+}

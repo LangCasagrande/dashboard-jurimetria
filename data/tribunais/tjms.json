@@ -1,0 +1,244 @@
+{
+ "alias": "tjms",
+ "sigla": "TJMS",
+ "nome": "Tribunal de Justiça de Mato Grosso do Sul",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T17:22:33+00:00",
+  "formatos": "2026-11-20T17:27:25+00:00",
+  "sistemas": "2026-11-20T17:29:05+00:00",
+  "classes": "2026-11-20T17:31:07+00:00",
+  "assuntos": "2026-11-20T17:32:28+00:00",
+  "orgaos": "2026-11-20T17:33:44+00:00",
+  "total": "2026-11-20T17:44:33+00:00",
+  "mensal": "2026-11-20T17:45:09+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 1846366
+  },
+  {
+   "nome": "JE",
+   "qtd": 647305
+  },
+  {
+   "nome": "G2",
+   "qtd": 368059
+  },
+  {
+   "nome": "TR",
+   "qtd": 61817
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 3622154
+  },
+  {
+   "nome": "Físico",
+   "qtd": 32086
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "SAJ",
+   "qtd": 359614
+  },
+  {
+   "nome": "Projudi",
+   "qtd": 5838
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 252455
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 214252
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 156541
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 137835
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 118766
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 95495
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 73039
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 68201
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 61327
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 61065
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 59070
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 56551
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 50436
+  },
+  {
+   "nome": "Auto de Prisão em Flagrante",
+   "qtd": 38023
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 35129
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 220110
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 118806
+  },
+  {
+   "nome": "Tutela de Urgência",
+   "qtd": 84041
+  },
+  {
+   "nome": "Perdas e Danos",
+   "qtd": 68193
+  },
+  {
+   "nome": "Liminar ",
+   "qtd": 49379
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 46847
+  },
+  {
+   "nome": "Tráfico de Drogas e Condutas Afins",
+   "qtd": 44428
+  },
+  {
+   "nome": "Intimação",
+   "qtd": 42877
+  },
+  {
+   "nome": "Direito de Imagem",
+   "qtd": 41359
+  },
+  {
+   "nome": "Empréstimo consignado",
+   "qtd": 40033
+  },
+  {
+   "nome": "Citação",
+   "qtd": 38012
+  },
+  {
+   "nome": "Causas Supervenientes à Sentença",
+   "qtd": 37934
+  },
+  {
+   "nome": "Defeito, nulidade ou anulação",
+   "qtd": 33987
+  },
+  {
+   "nome": "Acidente de Trânsito",
+   "qtd": 33227
+  },
+  {
+   "nome": "Nota Promissória",
+   "qtd": 31186
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Vara de Campo Grande - Execução Fiscal",
+   "qtd": 32235
+  },
+  {
+   "nome": "Vara Única",
+   "qtd": 22107
+  },
+  {
+   "nome": "1ª Vara",
+   "qtd": 21162
+  },
+  {
+   "nome": "Juizado Especial Adjunto",
+   "qtd": 20713
+  },
+  {
+   "nome": "2ª Vara",
+   "qtd": 17264
+  },
+  {
+   "nome": "2ª Vara Cível",
+   "qtd": 13337
+  },
+  {
+   "nome": "Vara do Interior - Execução Fiscal",
+   "qtd": 10835
+  },
+  {
+   "nome": "1ª Vara Cível",
+   "qtd": 10517
+  },
+  {
+   "nome": "3ª Vara Cível",
+   "qtd": 7333
+  },
+  {
+   "nome": "1ª Vara do Juizado Especial Cível e Criminal",
+   "qtd": 7142
+  },
+  {
+   "nome": "Juizado Especial Adjunto Cível",
+   "qtd": 7003
+  },
+  {
+   "nome": "2ª Vara do Juizado Especial Cível e Criminal",
+   "qtd": 6810
+  },
+  {
+   "nome": "2ª Vara Criminal",
+   "qtd": 5577
+  },
+  {
+   "nome": "Vara Criminal",
+   "qtd": 5100
+  },
+  {
+   "nome": "1ª Vara Criminal",
+   "qtd": 5004
+  }
+ ],
+ "total": 2922702,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-20T17:45:09+00:00"
+}

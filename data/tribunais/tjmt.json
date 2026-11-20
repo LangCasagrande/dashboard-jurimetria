@@ -1,0 +1,260 @@
+{
+ "alias": "tjmt",
+ "sigla": "TJMT",
+ "nome": "Tribunal de Justiça de Mato Grosso",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T17:48:10+00:00",
+  "formatos": "2026-11-20T17:48:43+00:00",
+  "sistemas": "2026-11-20T17:50:39+00:00",
+  "classes": "2026-11-20T17:51:14+00:00",
+  "assuntos": "2026-11-20T17:52:09+00:00",
+  "orgaos": "2026-11-20T17:52:58+00:00",
+  "total": "2026-11-20T17:53:22+00:00",
+  "mensal": "2026-11-20T17:59:50+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 1370363
+  },
+  {
+   "nome": "JE",
+   "qtd": 624289
+  },
+  {
+   "nome": "G2",
+   "qtd": 259443
+  },
+  {
+   "nome": "TR",
+   "qtd": 131047
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 4764936
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 2226293
+  },
+  {
+   "nome": "Tucujuris",
+   "qtd": 110574
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 26193
+  },
+  {
+   "nome": "Eproc",
+   "qtd": 22056
+  },
+  {
+   "nome": "Pje",
+   "qtd": 20
+  },
+  {
+   "nome": "Outros",
+   "qtd": 5
+  },
+  {
+   "nome": "Apolo",
+   "qtd": 1
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 535784
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 443708
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 414897
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 409062
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 253309
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 252354
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 230762
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 172888
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 152901
+  },
+  {
+   "nome": "Auto de Prisão em Flagrante",
+   "qtd": 151373
+  },
+  {
+   "nome": "Reclamação Pré-processual",
+   "qtd": 147797
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 142070
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 136087
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 129709
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 122539
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 297013
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 183660
+  },
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 145608
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 107615
+  },
+  {
+   "nome": "Crimes de Trânsito",
+   "qtd": 82082
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 64554
+  },
+  {
+   "nome": "Liminar ",
+   "qtd": 56674
+  },
+  {
+   "nome": "Citação",
+   "qtd": 53799
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 50362
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 49367
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 46422
+  },
+  {
+   "nome": "ICMS/ Imposto sobre Circulação de Mercadorias",
+   "qtd": 44108
+  },
+  {
+   "nome": "Competência da Justiça Estadual",
+   "qtd": 43250
+  },
+  {
+   "nome": "Inadimplemento",
+   "qtd": 41282
+  },
+  {
+   "nome": "Bancários",
+   "qtd": 38578
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Núcleo Justiça 4.0 - Juizados Especiais - SDCR",
+   "qtd": 179410
+  },
+  {
+   "nome": "Centro Judiciário de Solução de Conflitos e Cidadania - Fazenda Pública - SDCR",
+   "qtd": 75942
+  },
+  {
+   "nome": "Vara Esp. de Execução Fiscal - Comarca de Cuiabá - SDCR",
+   "qtd": 72750
+  },
+  {
+   "nome": "Juizado Especial da Fazenda Pública - Comarca de Cuiabá - SDCR",
+   "qtd": 68269
+  },
+  {
+   "nome": "Juizado Especial Cível do Cristo Rei - Comarca de Várzea Grande - SDCR",
+   "qtd": 57637
+  },
+  {
+   "nome": "Vara Especializada da Fazenda Pública  - SDCR",
+   "qtd": 51395
+  },
+  {
+   "nome": "Primeiro Juizado Especial - Comarca de Sinop - SDCR",
+   "qtd": 49140
+  },
+  {
+   "nome": "Segundo Juizado Especial Cível - Comarca de Cuiabá - SDCR",
+   "qtd": 46193
+  },
+  {
+   "nome": "Sétimo Juizado Especial Cível - Comarca de Cuiabá - SDCR",
+   "qtd": 46097
+  },
+  {
+   "nome": "Sexto Juizado Especial Cível de Cuiabá - SDCR",
+   "qtd": 45536
+  },
+  {
+   "nome": "Terceiro Juizado Especial Cível de Cuiabá - Comarca da Capital - SDCR",
+   "qtd": 45249
+  },
+  {
+   "nome": "Quarta Vara Cível - Comarca de Tangará da Serra - SDCR",
+   "qtd": 44977
+  },
+  {
+   "nome": "Primeiro Juizado Especial Cível  - Comarca de Cuiabá - SDCR",
+   "qtd": 44548
+  },
+  {
+   "nome": "Quinto Juizado Especial Cível - SDCR",
+   "qtd": 43874
+  },
+  {
+   "nome": "Quarto Juizado Especial Cível - Comarca de Cuiabá - SDCR",
+   "qtd": 43749
+  }
+ ],
+ "total": 2379794,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-20T17:59:50+00:00"
+}

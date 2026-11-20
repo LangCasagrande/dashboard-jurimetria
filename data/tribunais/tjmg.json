@@ -1,0 +1,235 @@
+{
+ "alias": "tjmg",
+ "sigla": "TJMG",
+ "nome": "Tribunal de Justiça de Minas Gerais",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T16:49:10+00:00",
+  "formatos": "2026-11-20T16:49:55+00:00",
+  "classes": "2026-11-20T17:01:36+00:00",
+  "assuntos": "2026-11-20T17:07:45+00:00",
+  "orgaos": "2026-11-20T17:14:54+00:00",
+  "total": "2026-11-20T17:15:45+00:00",
+  "mensal": "2026-11-20T17:18:35+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 22412918
+  },
+  {
+   "nome": "JE",
+   "qtd": 10511917
+  },
+  {
+   "nome": "G2",
+   "qtd": 3695366
+  },
+  {
+   "nome": "TR",
+   "qtd": 1068036
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 21887656
+  },
+  {
+   "nome": "Físico",
+   "qtd": 15743048
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 3908558
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 2892458
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 2544910
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 2366862
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 2162370
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 2141083
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1845902
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 1811060
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 1591357
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 1039709
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 1037591
+  },
+  {
+   "nome": "Auto de Prisão em Flagrante",
+   "qtd": 994009
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 956442
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 663249
+  },
+  {
+   "nome": "Execução da Pena",
+   "qtd": 573328
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Concessão / Permissão / Autorização",
+   "qtd": 3555570
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 2293243
+  },
+  {
+   "nome": "Intimação",
+   "qtd": 1489034
+  },
+  {
+   "nome": "Citação",
+   "qtd": 1439030
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 1104258
+  },
+  {
+   "nome": "Tráfico de Drogas e Condutas Afins",
+   "qtd": 918525
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 900616
+  },
+  {
+   "nome": "Crimes de Trânsito",
+   "qtd": 810816
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 789551
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 743702
+  },
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 727207
+  },
+  {
+   "nome": "Inadimplemento",
+   "qtd": 689404
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 675600
+  },
+  {
+   "nome": "Alimentos",
+   "qtd": 603857
+  },
+  {
+   "nome": "Nota Promissória",
+   "qtd": 601065
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Vara de Precatórias Cíveis da comarca de Belo Horizonte",
+   "qtd": 317461
+  },
+  {
+   "nome": "Vara de Precatórias Cíveis da Comarca de Belo Horizonte",
+   "qtd": 185291
+  },
+  {
+   "nome": "Turma Recursal, de Jurisdição Exclusiva, de Belo Horizonte, Betim e Contagem da comarca de Belo Horizonte",
+   "qtd": 148811
+  },
+  {
+   "nome": "Vara de Precatórias Criminais da comarca de Belo Horizonte",
+   "qtd": 120397
+  },
+  {
+   "nome": "Unidade Jurisdicional Única do Juizado Especial de Divinópolis da comarca de Divinópolis",
+   "qtd": 118828
+  },
+  {
+   "nome": "Gabinete da 3ª Vice-Presidência",
+   "qtd": 118259
+  },
+  {
+   "nome": "Unidade Jurisdicional Única do Juizado Especial de Passos da comarca de Passos",
+   "qtd": 117006
+  },
+  {
+   "nome": "Gabinete da 1ª Vice-Presidência",
+   "qtd": 109519
+  },
+  {
+   "nome": "1ª Unidade Jurisdicional do Juizado Especial de Uberlândia da comarca de Uberlândia",
+   "qtd": 96013
+  },
+  {
+   "nome": "2ª Unidade Jurisdicional Criminal do Juizado Especial Criminal da comarca de Belo Horizonte",
+   "qtd": 89852
+  },
+  {
+   "nome": "2ª Unidade Jurisdicional do Juizado Especial de Uberlândia da comarca de Uberlândia",
+   "qtd": 86460
+  },
+  {
+   "nome": "1ª Unidade Jurisdicional do Juizado Especial de Contagem da comarca de Contagem",
+   "qtd": 86019
+  },
+  {
+   "nome": "Unidade Jurisdicional Única do Juizado Especial de Araguari da comarca de Araguari",
+   "qtd": 80768
+  },
+  {
+   "nome": "Unidade Jurisdicional Única do Juizado Especial de Ipatinga da comarca de Ipatinga",
+   "qtd": 79755
+  },
+  {
+   "nome": "Unidade Jurisdicional Única do Juizado Especial de Pouso Alegre da comarca de Pouso Alegre",
+   "qtd": 78428
+  }
+ ],
+ "total": 37701688,
+ "mensal": [],
+ "erros": {
+  "sistemas": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-20T17:18:35+00:00"
+}

@@ -1,0 +1,345 @@
+{
+ "alias": "tjpe",
+ "sigla": "TJPE",
+ "nome": "Tribunal de Justiça de Pernambuco",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T18:21:05+00:00",
+  "formatos": "2026-11-20T18:21:34+00:00",
+  "sistemas": "2026-11-20T18:21:57+00:00",
+  "classes": "2026-11-20T18:23:45+00:00",
+  "assuntos": "2026-11-20T18:24:50+00:00",
+  "orgaos": "2026-11-20T18:25:42+00:00",
+  "total": "2026-11-20T18:26:05+00:00",
+  "mensal": "2026-11-20T18:29:05+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 5111019
+  },
+  {
+   "nome": "JE",
+   "qtd": 935231
+  },
+  {
+   "nome": "G2",
+   "qtd": 683787
+  },
+  {
+   "nome": "TR",
+   "qtd": 152508
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 6003530
+  },
+  {
+   "nome": "Físico",
+   "qtd": 879015
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 3432092
+  },
+  {
+   "nome": "Pje",
+   "qtd": 2571438
+  },
+  {
+   "nome": "Outros",
+   "qtd": 827086
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 51929
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 1823632
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 766459
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 586454
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 355095
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 345349
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 268374
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 242717
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 220989
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 158049
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 151307
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 136217
+  },
+  {
+   "nome": "Medidas Protetivas de urgência (Lei Maria da Penha) Criminal",
+   "qtd": 130545
+  },
+  {
+   "nome": "Alimentos - Lei Especial Nº 5.478/68",
+   "qtd": 121035
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 92003
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 85432
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 1062509
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 411470
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 300522
+  },
+  {
+   "nome": "Taxa de Licenciamento de Estabelecimento",
+   "qtd": 276932
+  },
+  {
+   "nome": "Direito de Imagem",
+   "qtd": 230932
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 204350
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 197162
+  },
+  {
+   "nome": "Violência Doméstica Contra a Mulher",
+   "qtd": 171008
+  },
+  {
+   "nome": "ISS/ Imposto sobre Serviços",
+   "qtd": 156656
+  },
+  {
+   "nome": "Perdas e Danos",
+   "qtd": 155640
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 154497
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 152803
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 150071
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 141103
+  },
+  {
+   "nome": "Abatimento proporcional do preço ",
+   "qtd": 133919
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "VARA DOS EXECUTIVOS FISCAIS MUNICIPAIS DA CAPITAL",
+   "qtd": 561696
+  },
+  {
+   "nome": "VARA DOS EXECUTIVOS FISCAIS DA COMARCA DE JABOATÃO DOS GUARARAPES",
+   "qtd": 272611
+  },
+  {
+   "nome": "VARA DA FAZENDA PÚBLICA DA COMARCA DE PAULISTA",
+   "qtd": 177127
+  },
+  {
+   "nome": "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE OLINDA",
+   "qtd": 171197
+  },
+  {
+   "nome": "1ª VARA DA FAZENDA PÚBLICA DA COMARCA DE OLINDA",
+   "qtd": 161337
+  },
+  {
+   "nome": "1ª VARA DA FAZENDA PÚBLICA DA COMARCA DE CABO DE SANTO AGOSTINHO",
+   "qtd": 158032
+  },
+  {
+   "nome": "2ª VARA CÍVEL DA COMARCA DE CAMARAGIBE",
+   "qtd": 45785
+  },
+  {
+   "nome": "3ª VARA CÍVEL DA COMARCA DE CAMARAGIBE",
+   "qtd": 44011
+  },
+  {
+   "nome": "1ª VARA CÍVEL DA COMARCA DE CAMARAGIBE",
+   "qtd": 42843
+  },
+  {
+   "nome": "GAB. DES. 1º VICE-PRESIDENTE",
+   "qtd": 39306
+  },
+  {
+   "nome": "GAB. DES. 2º VICE-PRESIDENTE",
+   "qtd": 36065
+  },
+  {
+   "nome": "Central de Cartas de Ordem, Precatória e Rogatória da Capital",
+   "qtd": 33503
+  },
+  {
+   "nome": "VARA DA FAZENDA PÚBLICA DA COMARCA DE PETROLINA",
+   "qtd": 32554
+  },
+  {
+   "nome": "1ª VARA CÍVEL DA COMARCA DE GRAVATÁ",
+   "qtd": 28124
+  },
+  {
+   "nome": "1º JUIZADO ESPECIAL CÍVEL E DAS RELAÇÕES DE CONSUMO DA COMARCA DE PETROLINA",
+   "qtd": 27345
+  }
+ ],
+ "total": 6922937,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 18055
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 13221
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 16786
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 17476
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 14766
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 15940
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 14694
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 9123
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 11545
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 10539
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 9023
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 8996
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 7142
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 5313
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 5050
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 4832
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 3274
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 2525
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 1119
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 1
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-20T18:29:05+00:00"
+}

@@ -3,16 +3,176 @@
  "sigla": "TJAP",
  "nome": "Tribunal de Justiça do Amapá",
  "ramo": "Estadual",
- "partes_atualizadas_em": {},
- "erros": {
-  "graus": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
-  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
-  "sistemas": "HTTP 504: <html>\r <head><title>504 Gateway Time-out</title></head>\r <body>\r <center><h1>504 Gateway Time-out</h1></center>\r <hr><center>NSX LB</center>\r </body>\r </html>\r",
-  "classes": "orçamento de tempo esgotado",
-  "assuntos": "orçamento de tempo esgotado",
-  "orgaos": "orçamento de tempo esgotado",
-  "total": "orçamento de tempo esgotado",
-  "mensal": "orçamento de tempo esgotado"
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T13:51:03+00:00",
+  "formatos": "2026-11-20T13:51:55+00:00",
+  "sistemas": "2026-11-20T13:57:18+00:00",
+  "classes": "2026-11-20T13:59:19+00:00",
+  "assuntos": "2026-11-20T14:05:14+00:00",
+  "total": "2026-11-20T14:15:56+00:00"
  },
- "atualizado_em": null
+ "erros": {
+  "orgaos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "mensal": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-20T14:15:56+00:00",
+ "graus": [
+  {
+   "nome": "JE",
+   "qtd": 322756
+  },
+  {
+   "nome": "G1",
+   "qtd": 298998
+  },
+  {
+   "nome": "G2",
+   "qtd": 90891
+  },
+  {
+   "nome": "TR",
+   "qtd": 42613
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 755258
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 409109
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 346149
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 115792
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 63847
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 48995
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 40582
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 39674
+  },
+  {
+   "nome": "Precatório",
+   "qtd": 39239
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 35124
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 34642
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 33597
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 32768
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 32155
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 27709
+  },
+  {
+   "nome": "Procedimento do Juizado Especial da Fazenda Pública",
+   "qtd": 25243
+  },
+  {
+   "nome": "Cumprimento de Sentença de Ações Coletivas",
+   "qtd": 19589
+  },
+  {
+   "nome": "Reclamação Pré-processual",
+   "qtd": 17864
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Fornecimento de Energia Elétrica",
+   "qtd": 41530
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 40757
+  },
+  {
+   "nome": "Parcela Incontroversa",
+   "qtd": 39124
+  },
+  {
+   "nome": "Competência dos Juizados Especiais",
+   "qtd": 27558
+  },
+  {
+   "nome": "Sistema Remuneratório e Benefícios",
+   "qtd": 24132
+  },
+  {
+   "nome": "Intimação",
+   "qtd": 20558
+  },
+  {
+   "nome": "Citação",
+   "qtd": 19795
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 19476
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 18504
+  },
+  {
+   "nome": "Bancários",
+   "qtd": 14810
+  },
+  {
+   "nome": "Pagamento",
+   "qtd": 14160
+  },
+  {
+   "nome": "Regularidade Formal",
+   "qtd": 14118
+  },
+  {
+   "nome": "Crimes de Trânsito",
+   "qtd": 14051
+  },
+  {
+   "nome": "Nota Promissória",
+   "qtd": 12733
+  },
+  {
+   "nome": "Denegação",
+   "qtd": 12560
+  }
+ ],
+ "total": 755258
 }

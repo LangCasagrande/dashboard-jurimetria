@@ -1,0 +1,341 @@
+{
+ "alias": "tjrj",
+ "sigla": "TJRJ",
+ "nome": "Tribunal de Justiça do Rio de Janeiro",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T18:45:11+00:00",
+  "formatos": "2026-11-20T18:48:43+00:00",
+  "sistemas": "2026-11-20T18:50:06+00:00",
+  "classes": "2026-11-20T18:50:44+00:00",
+  "assuntos": "2026-11-20T18:51:40+00:00",
+  "orgaos": "2026-11-20T18:53:01+00:00",
+  "total": "2026-11-20T18:54:36+00:00",
+  "mensal": "2026-11-20T18:56:13+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 16669945
+  },
+  {
+   "nome": "JE",
+   "qtd": 4313105
+  },
+  {
+   "nome": "G2",
+   "qtd": 2612872
+  },
+  {
+   "nome": "TR",
+   "qtd": 545246
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 16021028
+  },
+  {
+   "nome": "Físico",
+   "qtd": 3288743
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 3
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Inválido",
+   "qtd": 13188460
+  },
+  {
+   "nome": "Outros",
+   "qtd": 5402117
+  },
+  {
+   "nome": "PJe",
+   "qtd": 2759042
+  },
+  {
+   "nome": "Projudi",
+   "qtd": 1585263
+  },
+  {
+   "nome": "Pje",
+   "qtd": 1155277
+  },
+  {
+   "nome": "EPROC",
+   "qtd": 51009
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 9194075
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 2810944
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 2507402
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 1285381
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 993795
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 775942
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 671428
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 645929
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 518620
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 494828
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 287244
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 262432
+  },
+  {
+   "nome": "Procedimento Sumário",
+   "qtd": 231118
+  },
+  {
+   "nome": "Inventário",
+   "qtd": 223419
+  },
+  {
+   "nome": "Medidas Protetivas de urgência (Lei Maria da Penha) Criminal",
+   "qtd": 182287
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 5969598
+  },
+  {
+   "nome": "Impostos",
+   "qtd": 3336051
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 2341170
+  },
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 1846059
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 1244749
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 1041458
+  },
+  {
+   "nome": "Acidente de Trânsito",
+   "qtd": 843423
+  },
+  {
+   "nome": "Antecipação de Tutela / Tutela Específica",
+   "qtd": 612846
+  },
+  {
+   "nome": "Crédito Complementar",
+   "qtd": 564149
+  },
+  {
+   "nome": "Contravenções Penais",
+   "qtd": 561674
+  },
+  {
+   "nome": "Direito de Imagem",
+   "qtd": 482299
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 436025
+  },
+  {
+   "nome": "Abatimento proporcional do preço ",
+   "qtd": 428669
+  },
+  {
+   "nome": "Inventário e Partilha",
+   "qtd": 421247
+  },
+  {
+   "nome": "Fornecimento de Energia Elétrica",
+   "qtd": 377693
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "NOVA IGUACU CENTRAL DE DIVIDA ATIVA",
+   "qtd": 985604
+  },
+  {
+   "nome": "SAO GONCALO CENTRAL DE DIVIDA ATIVA",
+   "qtd": 948936
+  },
+  {
+   "nome": "NITEROI CENTRAL DE DIVIDA ATIVA",
+   "qtd": 649865
+  },
+  {
+   "nome": "CAPITAL 12 VARA FAZ PUBLICA",
+   "qtd": 622451
+  },
+  {
+   "nome": "PETROPOLIS DIVIDA ATIVA",
+   "qtd": 394889
+  },
+  {
+   "nome": "CAPITAL CARTORIO ELETRONICO DA 12 VARA FAZ PUBLICA",
+   "qtd": 288172
+  },
+  {
+   "nome": "MAGE CENTRAL DE DIVIDA ATIVA",
+   "qtd": 260743
+  },
+  {
+   "nome": "RIO DAS OSTRAS CENTRAL DE DIVIDA ATIVA",
+   "qtd": 251855
+  },
+  {
+   "nome": "MARICA CENTRAL DE DIVIDA ATIVA",
+   "qtd": 240589
+  },
+  {
+   "nome": "ITABORAI CENTRAL DE DIVIDA ATIVA",
+   "qtd": 224853
+  },
+  {
+   "nome": "SEROPEDICA NUCLEO DA DIVIDA ATIVA",
+   "qtd": 213862
+  },
+  {
+   "nome": "BELFORD ROXO CENTRAL DE DIVIDA ATIVA",
+   "qtd": 208544
+  },
+  {
+   "nome": "SAO JOAO DE MERITI CENTRAL DE DIVIDA ATIVA",
+   "qtd": 206688
+  },
+  {
+   "nome": "DUQUE DE CAXIAS CENTRAL DE DIVIDA ATIVA",
+   "qtd": 193169
+  },
+  {
+   "nome": "CABO FRIO CENTRAL DE DIVIDA ATIVA",
+   "qtd": 166937
+  }
+ ],
+ "total": 24224889,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 25590
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 20618
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 51814
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 51883
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 55986
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 50746
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 42588
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 36127
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 36492
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 74971
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 50678
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 27813
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 30368
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 38986
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 25934
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 9403
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 5077
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 3065
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 3
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-20T18:56:13+00:00"
+}

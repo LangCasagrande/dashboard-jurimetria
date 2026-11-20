@@ -1,0 +1,240 @@
+{
+ "alias": "tjpb",
+ "sigla": "TJPB",
+ "nome": "Tribunal de Justiça da Paraíba",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T18:10:21+00:00",
+  "formatos": "2026-11-20T18:10:46+00:00",
+  "sistemas": "2026-11-20T18:11:10+00:00",
+  "classes": "2026-11-20T18:11:45+00:00",
+  "assuntos": "2026-11-20T18:13:30+00:00",
+  "orgaos": "2026-11-20T18:16:26+00:00",
+  "total": "2026-11-20T18:19:09+00:00",
+  "mensal": "2026-11-20T18:19:51+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 815032
+  },
+  {
+   "nome": "JE",
+   "qtd": 269850
+  },
+  {
+   "nome": "G2",
+   "qtd": 209971
+  },
+  {
+   "nome": "TR",
+   "qtd": 57026
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 2704675
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 2672108
+  },
+  {
+   "nome": "Pje",
+   "qtd": 32567
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 439944
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 247663
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 235805
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 221021
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 179570
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 107596
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 100232
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 95668
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 94274
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 86492
+  },
+  {
+   "nome": "Procedimento do Juizado Especial da Fazenda Pública",
+   "qtd": 83980
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 75563
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 58648
+  },
+  {
+   "nome": "Auto de Prisão em Flagrante",
+   "qtd": 52802
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 41526
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 147192
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 118486
+  },
+  {
+   "nome": "Bancários",
+   "qtd": 86077
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 76668
+  },
+  {
+   "nome": "Empréstimo consignado",
+   "qtd": 56344
+  },
+  {
+   "nome": "Tarifas",
+   "qtd": 48655
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 43799
+  },
+  {
+   "nome": "Seguro",
+   "qtd": 41842
+  },
+  {
+   "nome": "Fato Gerador/Incidência",
+   "qtd": 38627
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 37334
+  },
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 36540
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 34963
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 34868
+  },
+  {
+   "nome": "Despesas Condominiais",
+   "qtd": 32838
+  },
+  {
+   "nome": "Crimes de Trânsito",
+   "qtd": 32706
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "1ª Vara de Executivos Fiscais",
+   "qtd": 68716
+  },
+  {
+   "nome": "Vara de Executivos Fiscais da Capital",
+   "qtd": 62687
+  },
+  {
+   "nome": "Núcleo de Justiça 4.0 de Cumprimento de Sentença Fazendário da Capital",
+   "qtd": 38156
+  },
+  {
+   "nome": "Vara Única de Alagoa Grande",
+   "qtd": 25769
+  },
+  {
+   "nome": "4ª Vara de Fazenda Pública da Capital",
+   "qtd": 24168
+  },
+  {
+   "nome": "2ª Vara de Fazenda Pública da Capital",
+   "qtd": 23837
+  },
+  {
+   "nome": "Gabinete 15 - Des. Oswaldo Trigueiro do Valle Filho",
+   "qtd": 23584
+  },
+  {
+   "nome": "Gabinete 02 - Desa. Maria de Fátima Moraes Bezerra Cavalcanti Maranhão",
+   "qtd": 23471
+  },
+  {
+   "nome": "Gabinete 11 - Des. José Ricardo Porto",
+   "qtd": 23302
+  },
+  {
+   "nome": "Gabinete 01 - Desa. Lilian Frassinetti Correia Cananéa",
+   "qtd": 23252
+  },
+  {
+   "nome": "Gabinete 13 - Desembargador (Vago)",
+   "qtd": 23236
+  },
+  {
+   "nome": "Gabinete 09 - Des. Abraham Lincoln da Cunha Ramos",
+   "qtd": 23222
+  },
+  {
+   "nome": "Gabinete 14 - Des. Leandro dos Santos",
+   "qtd": 23074
+  },
+  {
+   "nome": "Gabinete 05 - Des. Miguel de Britto Lyra Filho",
+   "qtd": 21309
+  },
+  {
+   "nome": "Gabinete 07 - Des. Horácio Ferreira de Melo Júnior",
+   "qtd": 19713
+  }
+ ],
+ "total": 2704675,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-20T18:19:51+00:00"
+}

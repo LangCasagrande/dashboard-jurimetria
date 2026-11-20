@@ -1,0 +1,373 @@
+{
+ "alias": "tjgo",
+ "sigla": "TJGO",
+ "nome": "Tribunal de Justiça de Goiás",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T15:48:50+00:00",
+  "formatos": "2026-11-20T15:50:18+00:00",
+  "sistemas": "2026-11-20T15:51:17+00:00",
+  "classes": "2026-11-20T15:52:59+00:00",
+  "assuntos": "2026-11-20T15:56:09+00:00",
+  "orgaos": "2026-11-20T16:02:53+00:00",
+  "mensal": "2026-11-20T16:15:09+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 4392019
+  },
+  {
+   "nome": "JE",
+   "qtd": 1877276
+  },
+  {
+   "nome": "G2",
+   "qtd": 954905
+  },
+  {
+   "nome": "TR",
+   "qtd": 247868
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 7472068
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Eproc",
+   "qtd": 6807114
+  },
+  {
+   "nome": "Projudi",
+   "qtd": 664954
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 854905
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 736126
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 677986
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 664521
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 488293
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 413970
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 320174
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 275917
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 259143
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 243531
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 221964
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 194165
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 162353
+  },
+  {
+   "nome": "Procedimento do Juizado Especial da Fazenda Pública",
+   "qtd": 148504
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 143815
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 720914
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 321743
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 278367
+  },
+  {
+   "nome": "Citação",
+   "qtd": 206315
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 199999
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 199242
+  },
+  {
+   "nome": "Nota Promissória",
+   "qtd": 193506
+  },
+  {
+   "nome": "Violência Doméstica Contra a Mulher",
+   "qtd": 167676
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 147504
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 131403
+  },
+  {
+   "nome": "Acidente de Trânsito",
+   "qtd": 114912
+  },
+  {
+   "nome": "Empréstimo consignado",
+   "qtd": 107723
+  },
+  {
+   "nome": "Crimes de Trânsito",
+   "qtd": 105961
+  },
+  {
+   "nome": "Causas Supervenientes à Sentença",
+   "qtd": 105098
+  },
+  {
+   "nome": "ISS/ Imposto sobre Serviços",
+   "qtd": 104522
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Vara Judicial",
+   "qtd": 330614
+  },
+  {
+   "nome": "Juizado Especial Cível e Criminal",
+   "qtd": 192423
+  },
+  {
+   "nome": "2ª Vara Judicial (Fazendas Públicas, Criminal, Execução Penal e Juizado Criminal)",
+   "qtd": 112244
+  },
+  {
+   "nome": "1ª Vara Judicial (Família e Sucessões, Infância e Juventude, Cível e Juizado Especial Cível)",
+   "qtd": 93027
+  },
+  {
+   "nome": "Vara da Faz. Púb. Mun.,de Reg. Púb., e Amb.",
+   "qtd": 91242
+  },
+  {
+   "nome": "5ª Vara da Fazenda Pública Municipal e de Registros Públicos – Execução Fiscal",
+   "qtd": 64298
+  },
+  {
+   "nome": "1ª Vara da Faz. Púb. Mun. e de Reg. Púb. - Execução Fiscal",
+   "qtd": 61817
+  },
+  {
+   "nome": "1ª Vara Cível",
+   "qtd": 50683
+  },
+  {
+   "nome": "Vara da Fazenda Púb. Municipal, de Reg. Púb. e Ambiental",
+   "qtd": 49484
+  },
+  {
+   "nome": "2ª Vara Cível",
+   "qtd": 48842
+  },
+  {
+   "nome": "2º Juizado Especial Cível",
+   "qtd": 43839
+  },
+  {
+   "nome": "1º Juizado Especial Cível",
+   "qtd": 43590
+  },
+  {
+   "nome": "2ª Vara (Cível, das Fazendas Públicas, de Registros Públicos e Ambiental)",
+   "qtd": 43133
+  },
+  {
+   "nome": "3º Juizado Especial Cível",
+   "qtd": 42179
+  },
+  {
+   "nome": "1º Juizado Especial Cível e Criminal",
+   "qtd": 39772
+  }
+ ],
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 38
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 21
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 34
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 44
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 36
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 33
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 26
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 36
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 35
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 27
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 565
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 42
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 27
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 19
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 25
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 29
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 51
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 43
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 57
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-12",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-01",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-02",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-03",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-04",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-05",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-06",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-07",
+   "qtd": 1
+  }
+ ],
+ "erros": {
+  "total": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-20T16:15:09+00:00"
+}

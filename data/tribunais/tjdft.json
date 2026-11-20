@@ -1,0 +1,248 @@
+{
+ "alias": "tjdft",
+ "sigla": "TJDFT",
+ "nome": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T15:28:06+00:00",
+  "formatos": "2026-11-20T15:28:54+00:00",
+  "sistemas": "2026-11-20T15:29:39+00:00",
+  "classes": "2026-11-20T15:30:06+00:00",
+  "assuntos": "2026-11-20T15:31:40+00:00",
+  "orgaos": "2026-11-20T15:32:14+00:00",
+  "total": "2026-11-20T15:34:44+00:00",
+  "mensal": "2026-11-20T15:35:13+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 313816
+  },
+  {
+   "nome": "JE",
+   "qtd": 97162
+  },
+  {
+   "nome": "G2",
+   "qtd": 61836
+  },
+  {
+   "nome": "TR",
+   "qtd": 8483
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 516453
+  },
+  {
+   "nome": "Físico",
+   "qtd": 3074
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 742411
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 4581
+  },
+  {
+   "nome": "Pje",
+   "qtd": 4
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 60050
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 55973
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 37064
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 36023
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 25896
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 22386
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 21135
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 20462
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 19220
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 15291
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 14568
+  },
+  {
+   "nome": "Ação Penal - Procedimento Sumário",
+   "qtd": 12981
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 11374
+  },
+  {
+   "nome": "Procedimento do Juizado Especial da Fazenda Pública",
+   "qtd": 9270
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 9058
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 55551
+  },
+  {
+   "nome": "Violência Doméstica Contra a Mulher",
+   "qtd": 45505
+  },
+  {
+   "nome": "Valor da Execução / Cálculo / Atualização",
+   "qtd": 38484
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 35593
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 33639
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 33490
+  },
+  {
+   "nome": "Inadimplemento",
+   "qtd": 26903
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 26331
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 24702
+  },
+  {
+   "nome": "Prestação de Serviços",
+   "qtd": 24619
+  },
+  {
+   "nome": "Contra a Mulher",
+   "qtd": 20246
+  },
+  {
+   "nome": "Injúria",
+   "qtd": 19834
+  },
+  {
+   "nome": "Concurso de Credores",
+   "qtd": 17662
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 15483
+  },
+  {
+   "nome": "Rescisão do contrato e devolução do dinheiro",
+   "qtd": 15013
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "1? VARA DE EXECU??O FISCAL DO DF",
+   "qtd": 32340
+  },
+  {
+   "nome": "AUDITORIA MILITAR E VARA DE PRECAT?RIAS DO DISTRITO FEDERAL",
+   "qtd": 22104
+  },
+  {
+   "nome": "2? JUIZADO ESPECIAL DA FAZENDA P?BLICA DO DF",
+   "qtd": 9544
+  },
+  {
+   "nome": "VARA C?VEL DO GUAR?",
+   "qtd": 9429
+  },
+  {
+   "nome": "VARA C?VEL DE PLANALTINA",
+   "qtd": 8993
+  },
+  {
+   "nome": "2? VARA C?VEL DE ?GUAS CLARAS",
+   "qtd": 8838
+  },
+  {
+   "nome": "2? VARA DE EXECU??O FISCAL DO DF",
+   "qtd": 8284
+  },
+  {
+   "nome": "4? JUIZADO ESPECIAL DA FAZENDA P?BLICA DO DF",
+   "qtd": 7989
+  },
+  {
+   "nome": "1? VARA DE EXECU??O DE T?TULOS EXTRAJUDICIAIS E CONFLITOS ARBITRAIS DE BRAS?LIA",
+   "qtd": 7826
+  },
+  {
+   "nome": "3? VARA C?VEL DE ?GUAS CLARAS",
+   "qtd": 7697
+  },
+  {
+   "nome": "2? VARA DE EXECU??O DE T?TULOS EXTRAJUDICIAIS E CONFLITOS ARBITRAIS DE BRAS?LIA",
+   "qtd": 7484
+  },
+  {
+   "nome": "1? VARA C?VEL DE ?GUAS CLARAS",
+   "qtd": 7299
+  },
+  {
+   "nome": "2? VARA C?VEL DE SAMAMBAIA",
+   "qtd": 7296
+  },
+  {
+   "nome": "1? JUIZADO ESPECIAL DA FAZENDA P?BLICA DO DF",
+   "qtd": 7019
+  },
+  {
+   "nome": "VARA C?VEL DO RIACHO FUNDO",
+   "qtd": 6578
+  }
+ ],
+ "total": 519527,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-20T15:35:13+00:00"
+}

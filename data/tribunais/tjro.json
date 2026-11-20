@@ -1,0 +1,264 @@
+{
+ "alias": "tjro",
+ "sigla": "TJRO",
+ "nome": "Tribunal de Justiça de Rondônia",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T19:13:53+00:00",
+  "formatos": "2026-11-20T19:15:16+00:00",
+  "sistemas": "2026-11-20T19:15:38+00:00",
+  "classes": "2026-11-20T19:16:57+00:00",
+  "assuntos": "2026-11-20T19:17:48+00:00",
+  "orgaos": "2026-11-20T19:18:36+00:00",
+  "total": "2026-11-20T19:19:10+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 1216268
+  },
+  {
+   "nome": "JE",
+   "qtd": 794021
+  },
+  {
+   "nome": "G2",
+   "qtd": 245150
+  },
+  {
+   "nome": "TR",
+   "qtd": 152558
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 2367797
+  },
+  {
+   "nome": "Físico",
+   "qtd": 40200
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 2235081
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 107964
+  },
+  {
+   "nome": "SEEU",
+   "qtd": 28520
+  },
+  {
+   "nome": "Eproc",
+   "qtd": 19647
+  },
+  {
+   "nome": "Pje",
+   "qtd": 16592
+  },
+  {
+   "nome": "Outros",
+   "qtd": 188
+  },
+  {
+   "nome": "Projudi",
+   "qtd": 5
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 298535
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 292079
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 197288
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 168403
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 149278
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 136844
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 135721
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 108881
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 102022
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 101951
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 76407
+  },
+  {
+   "nome": "Execução da Pena",
+   "qtd": 62315
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 52646
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 47420
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 46234
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 140882
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 132440
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 127172
+  },
+  {
+   "nome": "Ausência de Cobrança Administrativa Prévia",
+   "qtd": 86613
+  },
+  {
+   "nome": "Nota Promissória",
+   "qtd": 80348
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 64954
+  },
+  {
+   "nome": "Fornecimento de Energia Elétrica",
+   "qtd": 63068
+  },
+  {
+   "nome": "Citação",
+   "qtd": 61677
+  },
+  {
+   "nome": "Direito de Imagem",
+   "qtd": 61193
+  },
+  {
+   "nome": "Crimes de Trânsito",
+   "qtd": 60510
+  },
+  {
+   "nome": "Aposentadoria por Incapacidade Permanente",
+   "qtd": 54632
+  },
+  {
+   "nome": "Auxílio por Incapacidade Temporária",
+   "qtd": 50210
+  },
+  {
+   "nome": "Perdas e Danos",
+   "qtd": 47569
+  },
+  {
+   "nome": "Pagamento",
+   "qtd": 46659
+  },
+  {
+   "nome": "Duplicata",
+   "qtd": 44621
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "ARIQUEMES - 1º JUIZADO ESPECIAL",
+   "qtd": 54163
+  },
+  {
+   "nome": "PORTO VELHO - 1ª VARA DE EXECUÇÕES FISCAIS",
+   "qtd": 53233
+  },
+  {
+   "nome": "JI-PARANÁ - 1º JUIZADO ESPECIAL",
+   "qtd": 48209
+  },
+  {
+   "nome": "CACOAL - 1º JUIZADO ESPECIAL",
+   "qtd": 47427
+  },
+  {
+   "nome": "PORTO VELHO - 3º JUIZADO ESPECIAL CÍVEL",
+   "qtd": 46093
+  },
+  {
+   "nome": "PORTO VELHO - 4º JUIZADO ESPECIAL CÍVEL",
+   "qtd": 45782
+  },
+  {
+   "nome": "PORTO VELHO - 1º JUIZADO ESPECIAL CÍVEL",
+   "qtd": 45429
+  },
+  {
+   "nome": "PORTO VELHO - 2º JUIZADO ESPECIAL CÍVEL",
+   "qtd": 44636
+  },
+  {
+   "nome": "VILHENA - JUIZADO ESPECIAL CÍVEL E CRIMINAL",
+   "qtd": 44365
+  },
+  {
+   "nome": "PORTO VELHO - JUIZADO DA FAZENDA PÚBLICA",
+   "qtd": 43103
+  },
+  {
+   "nome": "ROLIM DE MOURA - JUIZADO ESPECIAL CÍVEL E CRIMINAL",
+   "qtd": 39872
+  },
+  {
+   "nome": "GABINETE DA PRESIDÊNCIA",
+   "qtd": 32617
+  },
+  {
+   "nome": "JUIZADO ESPECIAL CIVEL E CRIMINAL",
+   "qtd": 29962
+  },
+  {
+   "nome": "SÃO MIGUEL DO GUAPORÉ - 1ª VARA GENÉRICA",
+   "qtd": 28584
+  },
+  {
+   "nome": "BURITIS - 2ª VARA GENÉRICA",
+   "qtd": 27075
+  }
+ ],
+ "total": 2407997,
+ "erros": {
+  "mensal": "orçamento de tempo esgotado"
+ },
+ "atualizado_em": "2026-11-20T19:19:10+00:00"
+}

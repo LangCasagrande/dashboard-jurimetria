@@ -1,0 +1,260 @@
+{
+ "alias": "tjes",
+ "sigla": "TJES",
+ "nome": "Tribunal de Justiça do Espírito Santo",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T15:36:44+00:00",
+  "formatos": "2026-11-20T15:38:54+00:00",
+  "sistemas": "2026-11-20T15:39:23+00:00",
+  "classes": "2026-11-20T15:40:16+00:00",
+  "assuntos": "2026-11-20T15:42:51+00:00",
+  "orgaos": "2026-11-20T15:44:13+00:00",
+  "total": "2026-11-20T15:45:14+00:00",
+  "mensal": "2026-11-20T15:47:18+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 1702910
+  },
+  {
+   "nome": "JE",
+   "qtd": 1039101
+  },
+  {
+   "nome": "G2",
+   "qtd": 284188
+  },
+  {
+   "nome": "TR",
+   "qtd": 155580
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 1583664
+  },
+  {
+   "nome": "Físico",
+   "qtd": 537180
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 1726567
+  },
+  {
+   "nome": "Pje",
+   "qtd": 542860
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 451963
+  },
+  {
+   "nome": "Outros",
+   "qtd": 353860
+  },
+  {
+   "nome": "Projudi",
+   "qtd": 89169
+  },
+  {
+   "nome": "Eproc",
+   "qtd": 17360
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 563197
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 313816
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 259930
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 214013
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 170481
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 146042
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 122029
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 105376
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 96536
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 95124
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 94039
+  },
+  {
+   "nome": "Procedimento do Juizado Especial da Fazenda Pública",
+   "qtd": 87024
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 82865
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 76220
+  },
+  {
+   "nome": "Medidas Protetivas de urgência (Lei Maria da Penha) Criminal",
+   "qtd": 71738
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 529680
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 274241
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 224236
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 222582
+  },
+  {
+   "nome": "Liminar ",
+   "qtd": 108077
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 107443
+  },
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 107094
+  },
+  {
+   "nome": "Violência Doméstica Contra a Mulher",
+   "qtd": 98983
+  },
+  {
+   "nome": "Intimação",
+   "qtd": 92153
+  },
+  {
+   "nome": "Inadimplemento",
+   "qtd": 90724
+  },
+  {
+   "nome": "Provas em geral",
+   "qtd": 90398
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 74434
+  },
+  {
+   "nome": "Bancários",
+   "qtd": 71187
+  },
+  {
+   "nome": "Assistência Judiciária Gratuita",
+   "qtd": 69096
+  },
+  {
+   "nome": "Citação",
+   "qtd": 68529
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "VARA FAZENDA PÚBLICA MUNICIPAL - CARIACICA",
+   "qtd": 14068
+  },
+  {
+   "nome": "2ª TURMA RECURSAL - CAPITAL - VITORIA",
+   "qtd": 10642
+  },
+  {
+   "nome": "3ª TURMA RECURSAL - CAPITAL - VITORIA",
+   "qtd": 10541
+  },
+  {
+   "nome": "1ª TURMA RECURSAL - CAPITAL - VITORIA",
+   "qtd": 10459
+  },
+  {
+   "nome": "4ª TURMA RECURSAL",
+   "qtd": 9711
+  },
+  {
+   "nome": "5ª TURMA RECURSAL",
+   "qtd": 9539
+  },
+  {
+   "nome": "1ª VARA DE FAZENDA PÚBLICA PRIVATIVA DE EXECUÇÕES FISCAIS MUNICIPAIS - VITORIA",
+   "qtd": 9336
+  },
+  {
+   "nome": "2º JUIZADO ESPECIAL CÍVEL - VILA VELHA",
+   "qtd": 9125
+  },
+  {
+   "nome": "6ª VARA CÍVEL - VILA VELHA",
+   "qtd": 9092
+  },
+  {
+   "nome": "1º JUIZADO ESPECIAL CÍVEL - VILA VELHA",
+   "qtd": 8719
+  },
+  {
+   "nome": "4º JUIZADO ESPECIAL CÍVEL - VILA VELHA",
+   "qtd": 8208
+  },
+  {
+   "nome": "5º JUIZADO ESPECIAL CÍVEL - VILA VELHA",
+   "qtd": 8093
+  },
+  {
+   "nome": "VARA FAZENDA PUBLICA MUNICIPAL - SERRA",
+   "qtd": 7997
+  },
+  {
+   "nome": "JUIZADO ESPECIAL CÍVEL, CRIMINAL E DA FAZENDA PÚBLICA - BARRA DE SAO FRANCISCO",
+   "qtd": 7953
+  },
+  {
+   "nome": "JUIZADO ESPECIAL CRIMINAL E DA FAZENDA PÚBLICA - LINHARES",
+   "qtd": 7764
+  }
+ ],
+ "total": 3181779,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-20T15:47:18+00:00"
+}

@@ -1,0 +1,281 @@
+{
+ "alias": "tjrn",
+ "sigla": "TJRN",
+ "nome": "Tribunal de Justiça do Rio Grande do Norte",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-20T18:59:53+00:00",
+  "formatos": "2026-11-20T19:00:26+00:00",
+  "sistemas": "2026-11-20T19:03:57+00:00",
+  "classes": "2026-11-20T19:07:53+00:00",
+  "assuntos": "2026-11-20T19:08:20+00:00",
+  "orgaos": "2026-11-20T19:11:50+00:00",
+  "total": "2026-11-20T19:12:44+00:00",
+  "mensal": "2026-11-20T19:13:28+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 655615
+  },
+  {
+   "nome": "JE",
+   "qtd": 488302
+  },
+  {
+   "nome": "G2",
+   "qtd": 168562
+  },
+  {
+   "nome": "TR",
+   "qtd": 106058
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 2785969
+  },
+  {
+   "nome": "Físico",
+   "qtd": 51348
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 2783683
+  },
+  {
+   "nome": "SAJ",
+   "qtd": 53266
+  },
+  {
+   "nome": "Pje",
+   "qtd": 368
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 368192
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 316824
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 272543
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 266222
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 223615
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 202256
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 189388
+  },
+  {
+   "nome": "Procedimento do Juizado Especial da Fazenda Pública",
+   "qtd": 149487
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 95280
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 85723
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 80331
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 75696
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 67339
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 44732
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 32216
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 263798
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 182733
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 154451
+  },
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 143165
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 109591
+  },
+  {
+   "nome": "Plano de Classificação de Cargos",
+   "qtd": 87585
+  },
+  {
+   "nome": "Taxa de Coleta de Lixo",
+   "qtd": 79932
+  },
+  {
+   "nome": "Causas Supervenientes à Sentença",
+   "qtd": 77261
+  },
+  {
+   "nome": "Bancários",
+   "qtd": 69517
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 61357
+  },
+  {
+   "nome": "Direito de Imagem",
+   "qtd": 60436
+  },
+  {
+   "nome": "Abatimento proporcional do preço ",
+   "qtd": 58371
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 54009
+  },
+  {
+   "nome": "Equivalência salarial",
+   "qtd": 47504
+  },
+  {
+   "nome": "Perdas e Danos",
+   "qtd": 45400
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "VARA ÚNICA",
+   "qtd": 327030
+  },
+  {
+   "nome": "JUIZADO ESPECIAL CÍVEL, CRIMINAL E DA FAZENDA PÚBLICA",
+   "qtd": 188767
+  },
+  {
+   "nome": "1ª VARA",
+   "qtd": 150787
+  },
+  {
+   "nome": "2ª VARA",
+   "qtd": 146400
+  },
+  {
+   "nome": "3ª TURMA RECURSAL",
+   "qtd": 82849
+  },
+  {
+   "nome": "1ª TURMA RECURSAL",
+   "qtd": 68447
+  },
+  {
+   "nome": "2ª TURMA RECURSAL",
+   "qtd": 59444
+  },
+  {
+   "nome": "3ª VARA",
+   "qtd": 52060
+  },
+  {
+   "nome": "2ª VARA DA FAZENDA PÚBLICA",
+   "qtd": 41388
+  },
+  {
+   "nome": "3º JUIZADO ESPECIAL DA FAZENDA PÚBLICA",
+   "qtd": 40116
+  },
+  {
+   "nome": "1º JUIZADO ESPECIAL DA FAZENDA PÚBLICA",
+   "qtd": 39530
+  },
+  {
+   "nome": "5º JUIZADO ESPECIAL DA FAZENDA PÚBLICA",
+   "qtd": 39236
+  },
+  {
+   "nome": "2º JUIZADO ESPECIAL DA FAZENDA PÚBLICA",
+   "qtd": 39230
+  },
+  {
+   "nome": "4º JUIZADO ESPECIAL DA FAZENDA PÚBLICA",
+   "qtd": 38607
+  },
+  {
+   "nome": "6º JUIZADO ESPECIAL DA FAZENDA PÚBLICA",
+   "qtd": 38386
+  }
+ ],
+ "total": 2837317,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 2
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 3
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 2
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 2
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 1
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-20T19:13:28+00:00"
+}

@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-19T19:40:00+00:00",
+ "gerado_em": "2026-11-20T19:19:10+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "tribunais": [
   {
@@ -242,6 +242,358 @@
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "atualizado_em": "2026-11-19T19:30:27+00:00",
    "partes": [
+    "classes",
+    "formatos",
+    "graus",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjap",
+   "sigla": "TJAP",
+   "nome": "Tribunal de Justiça do Amapá",
+   "ramo": "Estadual",
+   "total": 755258,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Procedimento do Juizado Especial Cível",
+   "atualizado_em": "2026-11-20T14:15:56+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjba",
+   "sigla": "TJBA",
+   "nome": "Tribunal de Justiça da Bahia",
+   "ramo": "Estadual",
+   "total": 16072760,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Cumprimento de sentença",
+   "atualizado_em": "2026-11-20T14:58:45+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjce",
+   "sigla": "TJCE",
+   "nome": "Tribunal de Justiça do Ceará",
+   "ramo": "Estadual",
+   "total": 4935657,
+   "pct_eletronico": 99.1,
+   "classe_principal": "Procedimento Comum Cível",
+   "atualizado_em": "2026-11-20T15:25:06+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjdft",
+   "sigla": "TJDFT",
+   "nome": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+   "ramo": "Estadual",
+   "total": 519527,
+   "pct_eletronico": 99.4,
+   "classe_principal": "Cumprimento de sentença",
+   "atualizado_em": "2026-11-20T15:35:13+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjes",
+   "sigla": "TJES",
+   "nome": "Tribunal de Justiça do Espírito Santo",
+   "ramo": "Estadual",
+   "total": 3181779,
+   "pct_eletronico": 74.7,
+   "classe_principal": "Procedimento do Juizado Especial Cível",
+   "atualizado_em": "2026-11-20T15:47:18+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjgo",
+   "sigla": "TJGO",
+   "nome": "Tribunal de Justiça de Goiás",
+   "ramo": "Estadual",
+   "total": null,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Execução Fiscal",
+   "atualizado_em": "2026-11-20T16:15:09+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas"
+   ]
+  },
+  {
+   "alias": "tjma",
+   "sigla": "TJMA",
+   "nome": "Tribunal de Justiça do Maranhão",
+   "ramo": "Estadual",
+   "total": 2058173,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Procedimento Comum Cível",
+   "atualizado_em": "2026-11-20T16:48:06+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjmg",
+   "sigla": "TJMG",
+   "nome": "Tribunal de Justiça de Minas Gerais",
+   "ramo": "Estadual",
+   "total": 37701688,
+   "pct_eletronico": 58.2,
+   "classe_principal": "Procedimento do Juizado Especial Cível",
+   "atualizado_em": "2026-11-20T17:18:35+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjms",
+   "sigla": "TJMS",
+   "nome": "Tribunal de Justiça de Mato Grosso do Sul",
+   "ramo": "Estadual",
+   "total": 2922702,
+   "pct_eletronico": 99.1,
+   "classe_principal": "Execução Fiscal",
+   "atualizado_em": "2026-11-20T17:45:09+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjmt",
+   "sigla": "TJMT",
+   "nome": "Tribunal de Justiça de Mato Grosso",
+   "ramo": "Estadual",
+   "total": 2379794,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Procedimento do Juizado Especial Cível",
+   "atualizado_em": "2026-11-20T17:59:50+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjpa",
+   "sigla": "TJPA",
+   "nome": "Tribunal de Justiça do Pará",
+   "ramo": "Estadual",
+   "total": 3798886,
+   "pct_eletronico": 91.3,
+   "classe_principal": "Execução Fiscal",
+   "atualizado_em": "2026-11-20T18:09:59+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjpb",
+   "sigla": "TJPB",
+   "nome": "Tribunal de Justiça da Paraíba",
+   "ramo": "Estadual",
+   "total": 2704675,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Procedimento Comum Cível",
+   "atualizado_em": "2026-11-20T18:19:51+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjpe",
+   "sigla": "TJPE",
+   "nome": "Tribunal de Justiça de Pernambuco",
+   "ramo": "Estadual",
+   "total": 6922937,
+   "pct_eletronico": 87.2,
+   "classe_principal": "Execução Fiscal",
+   "atualizado_em": "2026-11-20T18:29:05+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjpi",
+   "sigla": "TJPI",
+   "nome": "Tribunal de Justiça do Piauí",
+   "ramo": "Estadual",
+   "total": 2340076,
+   "pct_eletronico": 97.0,
+   "classe_principal": "Procedimento Comum Cível",
+   "atualizado_em": "2026-11-20T18:36:59+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjpr",
+   "sigla": "TJPR",
+   "nome": "Tribunal de Justiça do Paraná",
+   "ramo": "Estadual",
+   "total": 13292481,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Procedimento do Juizado Especial Cível",
+   "atualizado_em": "2026-11-20T18:44:17+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjrj",
+   "sigla": "TJRJ",
+   "nome": "Tribunal de Justiça do Rio de Janeiro",
+   "ramo": "Estadual",
+   "total": 24224889,
+   "pct_eletronico": 83.0,
+   "classe_principal": "Execução Fiscal",
+   "atualizado_em": "2026-11-20T18:56:13+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjrn",
+   "sigla": "TJRN",
+   "nome": "Tribunal de Justiça do Rio Grande do Norte",
+   "ramo": "Estadual",
+   "total": 2837317,
+   "pct_eletronico": 98.2,
+   "classe_principal": "Procedimento do Juizado Especial Cível",
+   "atualizado_em": "2026-11-20T19:13:28+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjro",
+   "sigla": "TJRO",
+   "nome": "Tribunal de Justiça de Rondônia",
+   "ramo": "Estadual",
+   "total": 2407997,
+   "pct_eletronico": 98.3,
+   "classe_principal": "Cumprimento de sentença",
+   "atualizado_em": "2026-11-20T19:19:10+00:00",
+   "partes": [
+    "assuntos",
     "classes",
     "formatos",
     "graus",
