@@ -1,0 +1,232 @@
+{
+ "alias": "trt5",
+ "sigla": "TRT5",
+ "nome": "Tribunal Regional do Trabalho da 5ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T16:19:47+00:00",
+  "formatos": "2026-11-21T16:20:39+00:00",
+  "sistemas": "2026-11-21T16:21:14+00:00",
+  "classes": "2026-11-21T16:22:45+00:00",
+  "assuntos": "2026-11-21T16:23:33+00:00",
+  "orgaos": "2026-11-21T16:25:33+00:00",
+  "total": "2026-11-21T16:27:10+00:00",
+  "mensal": "2026-11-21T16:28:28+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 201035
+  },
+  {
+   "nome": "G2",
+   "qtd": 67861
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 1346803
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 665299
+  },
+  {
+   "nome": "Pje",
+   "qtd": 8637
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 421331
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 155345
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 140507
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 51821
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 28982
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 27146
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 23354
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 20054
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 10629
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 8927
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 8716
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 8075
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 5927
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 3293
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 3030
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 96848
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 95633
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 88640
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 79902
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 67712
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 64804
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 64206
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 61361
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 58479
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 50679
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 42230
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 39394
+  },
+  {
+   "nome": "Depósito/Diferenças",
+   "qtd": 39029
+  },
+  {
+   "nome": "Honorários na Justiça do Trabalho ",
+   "qtd": 38521
+  },
+  {
+   "nome": "Intervalo Intrajornada",
+   "qtd": 35808
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Vara do Trabalho de Itapetinga",
+   "qtd": 10855
+  },
+  {
+   "nome": "Vara do Trabalho de Porto Seguro",
+   "qtd": 10665
+  },
+  {
+   "nome": "Vara do Trabalho de Conceição do Coité",
+   "qtd": 10578
+  },
+  {
+   "nome": "Vara do Trabalho de Barreiras",
+   "qtd": 10570
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Alagoinhas",
+   "qtd": 9216
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Alagoinhas",
+   "qtd": 9196
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Vitória da Conquista",
+   "qtd": 9103
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Vitória da Conquista",
+   "qtd": 9057
+  },
+  {
+   "nome": "Vara do Trabalho de Guanambi",
+   "qtd": 8903
+  },
+  {
+   "nome": "Vara do Trabalho de Santo Antônio de Jesus",
+   "qtd": 8760
+  },
+  {
+   "nome": "Gab. Des. Marcelo Rodrigues Prata",
+   "qtd": 8680
+  },
+  {
+   "nome": "Gab. Des. Margareth Rodrigues Costa",
+   "qtd": 8629
+  },
+  {
+   "nome": "Vara do Trabalho de Eunápolis",
+   "qtd": 8600
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Candeias",
+   "qtd": 8584
+  },
+  {
+   "nome": "Vara do Trabalho de Santo Amaro",
+   "qtd": 8455
+  }
+ ],
+ "total": 134062,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-21T16:28:28+00:00"
+}

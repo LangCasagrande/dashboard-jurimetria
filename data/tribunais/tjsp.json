@@ -1,0 +1,309 @@
+{
+ "alias": "tjsp",
+ "sigla": "TJSP",
+ "nome": "Tribunal de Justiça de São Paulo",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T14:23:43+00:00",
+  "formatos": "2026-11-21T14:37:36+00:00",
+  "sistemas": "2026-11-21T14:38:36+00:00",
+  "classes": "2026-11-21T14:39:30+00:00",
+  "assuntos": "2026-11-21T14:41:24+00:00",
+  "orgaos": "2026-11-21T14:42:13+00:00",
+  "total": "2026-11-21T14:42:44+00:00",
+  "mensal": "2026-11-21T14:44:55+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 31976184
+  },
+  {
+   "nome": "G2",
+   "qtd": 3613363
+  },
+  {
+   "nome": "JE",
+   "qtd": 3183215
+  },
+  {
+   "nome": "TR",
+   "qtd": 329480
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 52038628
+  },
+  {
+   "nome": "Físico",
+   "qtd": 19065851
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "SAJ",
+   "qtd": 40861541
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 3350950
+  },
+  {
+   "nome": "Projudi",
+   "qtd": 1999844
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 19751049
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 5908117
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 4581463
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 3582251
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 3195556
+  },
+  {
+   "nome": "Execução da Pena",
+   "qtd": 2575532
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 2499560
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 2469014
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 2111905
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 1770333
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 1661357
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 1495376
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 1323934
+  },
+  {
+   "nome": "Procedimento do Juizado Especial da Fazenda Pública",
+   "qtd": 1082251
+  },
+  {
+   "nome": "Embargos de Declaração Cível",
+   "qtd": 906663
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 6715207
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 6087188
+  },
+  {
+   "nome": "DIREITO CIVIL",
+   "qtd": 5105686
+  },
+  {
+   "nome": "DIREITO PENAL",
+   "qtd": 2704648
+  },
+  {
+   "nome": "ISS/ Imposto sobre Serviços",
+   "qtd": 1512126
+  },
+  {
+   "nome": "Objetos de cartas precatórias cíveis/de ordem",
+   "qtd": 1380739
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 1320719
+  },
+  {
+   "nome": "Pena Privativa de Liberdade",
+   "qtd": 1195335
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 1163793
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 1022694
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 999045
+  },
+  {
+   "nome": "Taxa de Licenciamento de Estabelecimento",
+   "qtd": 896793
+  },
+  {
+   "nome": "ICMS/ Imposto sobre Circulação de Mercadorias",
+   "qtd": 845357
+  },
+  {
+   "nome": "Prestação de Serviços",
+   "qtd": 795591
+  },
+  {
+   "nome": "Tráfico de Drogas e Condutas Afins",
+   "qtd": 794406
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "VARA EXEC FISC MUN FAZENDA DE CENTRAL",
+   "qtd": 2754262
+  },
+  {
+   "nome": "SEF DE GUARULHOS",
+   "qtd": 1135285
+  },
+  {
+   "nome": "PRECATORIAS CIVEIS DE CENTRAL",
+   "qtd": 755097
+  },
+  {
+   "nome": "FAZENDA PUBLICA DE PRAIA GRANDE",
+   "qtd": 605789
+  },
+  {
+   "nome": "FAZENDA PUBLICA DE SAO VICENTE",
+   "qtd": 528142
+  },
+  {
+   "nome": "SEF DE CAMPINAS",
+   "qtd": 494647
+  },
+  {
+   "nome": "FAZENDA PUBLICA DE GUARUJA",
+   "qtd": 455401
+  },
+  {
+   "nome": "FAZENDA PUBLICA DE PIRACICABA",
+   "qtd": 420974
+  },
+  {
+   "nome": "VARA EXEC FISC EST FAZENDA DE CENTRAL",
+   "qtd": 379131
+  },
+  {
+   "nome": "SAF DE ITAQUAQUECETUBA",
+   "qtd": 369213
+  },
+  {
+   "nome": "01 FAZENDA PUBLICA DE GUARULHOS",
+   "qtd": 360288
+  },
+  {
+   "nome": "SEF DE SOROCABA",
+   "qtd": 358505
+  },
+  {
+   "nome": "NUCLEO ESPECIALIZADO DE JUSTICA 4.0 - EXECUCOES FISCAIS ESTADUAIS DO INTERIOR E LITORAL",
+   "qtd": 327487
+  },
+  {
+   "nome": "04 EXECUCOES CRIMINAIS DE CENTRAL",
+   "qtd": 307033
+  },
+  {
+   "nome": "02 FAZENDA PUBLICA DE SANTOS",
+   "qtd": 299053
+  }
+ ],
+ "total": 76102158,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 91597
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 97244
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 65444
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 74709
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 73470
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 82600
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 76721
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 74213
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 75844
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 71490
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 71317
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 69343
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 52655
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 71013
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 47323
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-21T14:44:55+00:00"
+}

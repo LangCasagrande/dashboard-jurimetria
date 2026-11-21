@@ -1,0 +1,397 @@
+{
+ "alias": "tjrs",
+ "sigla": "TJRS",
+ "nome": "Tribunal de Justiça do Rio Grande do Sul",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T13:46:59+00:00",
+  "formatos": "2026-11-21T13:47:29+00:00",
+  "sistemas": "2026-11-21T13:47:56+00:00",
+  "classes": "2026-11-21T13:51:57+00:00",
+  "assuntos": "2026-11-21T13:55:27+00:00",
+  "orgaos": "2026-11-21T13:56:25+00:00",
+  "total": "2026-11-21T13:57:07+00:00",
+  "mensal": "2026-11-21T13:57:47+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 8075168
+  },
+  {
+   "nome": "JE",
+   "qtd": 3691686
+  },
+  {
+   "nome": "G2",
+   "qtd": 2190880
+  },
+  {
+   "nome": "TR",
+   "qtd": 576177
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 12227252
+  },
+  {
+   "nome": "Físico",
+   "qtd": 2306653
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Projudi",
+   "qtd": 9385603
+  },
+  {
+   "nome": "Themis",
+   "qtd": 3184447
+  },
+  {
+   "nome": "EPROC",
+   "qtd": 1840384
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 84661
+  },
+  {
+   "nome": "Outros",
+   "qtd": 21706
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 2576185
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 1390572
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 1206624
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1164261
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 1032540
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 878602
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 745410
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 742571
+  },
+  {
+   "nome": "Procedimento do Juizado Especial da Fazenda Pública",
+   "qtd": 691435
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 459754
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 331468
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 322286
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 243558
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 240890
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 236642
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 1244166
+  },
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 938459
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 676359
+  },
+  {
+   "nome": "Cláusulas Abusivas",
+   "qtd": 503039
+  },
+  {
+   "nome": "Espécies de Títulos de Crédito",
+   "qtd": 418746
+  },
+  {
+   "nome": "Empréstimo consignado",
+   "qtd": 393252
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 380274
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 377647
+  },
+  {
+   "nome": "Bancários",
+   "qtd": 325126
+  },
+  {
+   "nome": "Práticas Abusivas",
+   "qtd": 298676
+  },
+  {
+   "nome": "Cédula de Crédito Bancário",
+   "qtd": 242760
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 238278
+  },
+  {
+   "nome": "Crimes de Trânsito",
+   "qtd": 237516
+  },
+  {
+   "nome": "Prestação de Serviços",
+   "qtd": 229717
+  },
+  {
+   "nome": "Compra e Venda",
+   "qtd": 225691
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Vara Regional do Meio Ambiente",
+   "qtd": 105279
+  },
+  {
+   "nome": "3ª Vara Cível (Especializada em Fazenda Pública) da Comarca de Tramandaí",
+   "qtd": 97395
+  },
+  {
+   "nome": "1º Juizado Especial da Fazenda Pública do Foro Central da Comarca de Porto Alegre",
+   "qtd": 88107
+  },
+  {
+   "nome": "2º Juizado Especial da Fazenda Pública do Foro Central da Comarca de Porto Alegre",
+   "qtd": 77853
+  },
+  {
+   "nome": "8ª Vara da Fazenda Pública do Foro Central da Comarca de Porto Alegre",
+   "qtd": 74109
+  },
+  {
+   "nome": "3º Juizado Especial da Fazenda Pública do Foro Central da Comarca de Porto Alegre",
+   "qtd": 62068
+  },
+  {
+   "nome": "3ª Vice-Presidência",
+   "qtd": 61744
+  },
+  {
+   "nome": "1ª Turma Recursal da Fazenda Pública",
+   "qtd": 60350
+  },
+  {
+   "nome": "3ª Turma Recursal da Fazenda Pública",
+   "qtd": 59244
+  },
+  {
+   "nome": "2ª Turma Recursal da Fazenda Pública",
+   "qtd": 59064
+  },
+  {
+   "nome": "Vara Cível do Foro Regional da Zona Leste da Comarca de Porto Alegre",
+   "qtd": 53171
+  },
+  {
+   "nome": "4ª Vara Cível (Especializada em Fazenda Pública) da Comarca de Novo Hamburgo",
+   "qtd": 52354
+  },
+  {
+   "nome": "1ª Vara Cível da Comarca de Alvorada",
+   "qtd": 51601
+  },
+  {
+   "nome": "2ª Vara Cível da Comarca de Alvorada",
+   "qtd": 50154
+  },
+  {
+   "nome": "1ª Turma Recursal da Fazenda Pública - Porto Alegre",
+   "qtd": 48514
+  }
+ ],
+ "total": 14533911,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 3446
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 2806
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 2697
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 3268
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 3573
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 4190
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 1746
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 4208
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 5830
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 7387
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 8299
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 11376
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 10415
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 9299
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 9103
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 10309
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 6590
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 3042
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 845
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 1
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 1
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-12",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-01",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-02",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-03",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-04",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-05",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-06",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-07",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-08",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-09",
+   "qtd": 1
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-21T13:57:47+00:00"
+}

@@ -1,0 +1,248 @@
+{
+ "alias": "tjsc",
+ "sigla": "TJSC",
+ "nome": "Tribunal de Justiça de Santa Catarina",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T13:58:40+00:00",
+  "formatos": "2026-11-21T13:59:57+00:00",
+  "sistemas": "2026-11-21T14:00:55+00:00",
+  "classes": "2026-11-21T14:04:38+00:00",
+  "assuntos": "2026-11-21T14:07:21+00:00",
+  "orgaos": "2026-11-21T14:12:04+00:00",
+  "total": "2026-11-21T14:12:54+00:00",
+  "mensal": "2026-11-21T14:13:51+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 7158241
+  },
+  {
+   "nome": "JE",
+   "qtd": 2471120
+  },
+  {
+   "nome": "G2",
+   "qtd": 1243760
+  },
+  {
+   "nome": "TR",
+   "qtd": 220799
+  },
+  {
+   "nome": "TRU",
+   "qtd": 128
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 11031829
+  },
+  {
+   "nome": "Físico",
+   "qtd": 62219
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Projudi",
+   "qtd": 8563205
+  },
+  {
+   "nome": "SAJ",
+   "qtd": 311859
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 1769732
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 1523393
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1150456
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 851113
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 849256
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 716279
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 345602
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 317044
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 312345
+  },
+  {
+   "nome": "Procedimento do Juizado Especial da Fazenda Pública",
+   "qtd": 291711
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 249415
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 195454
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 189893
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 181641
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 174120
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 1500828
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 693744
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 477087
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 432531
+  },
+  {
+   "nome": "Inadimplemento",
+   "qtd": 367850
+  },
+  {
+   "nome": "Cédula de Crédito Bancário",
+   "qtd": 285471
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 273372
+  },
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 253623
+  },
+  {
+   "nome": "Prestação de Serviços",
+   "qtd": 231060
+  },
+  {
+   "nome": "Empréstimo consignado",
+   "qtd": 219889
+  },
+  {
+   "nome": "Nota Promissória",
+   "qtd": 219458
+  },
+  {
+   "nome": "Cheque",
+   "qtd": 201465
+  },
+  {
+   "nome": "Práticas Abusivas",
+   "qtd": 190113
+  },
+  {
+   "nome": "Espécies de Títulos de Crédito",
+   "qtd": 177729
+  },
+  {
+   "nome": "Compra e Venda",
+   "qtd": 176032
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Unidade Regional de Execuções Fiscais Municipais da Comarca da Capital",
+   "qtd": 462409
+  },
+  {
+   "nome": "Vara Estadual de Direito Bancário",
+   "qtd": 430750
+  },
+  {
+   "nome": "Juizado Especial da Fazenda Pública da Comarca da Capital - Norte da Ilha",
+   "qtd": 142858
+  },
+  {
+   "nome": "Vara de Execução Fiscal Estadual",
+   "qtd": 78575
+  },
+  {
+   "nome": "Unidade Estadual de Direito Bancário",
+   "qtd": 59144
+  },
+  {
+   "nome": "Vara Estadual de Execuções de Penas de Multa da Comarca de Curitibanos",
+   "qtd": 50497
+  },
+  {
+   "nome": "2ª Vara da Fazenda Pública da Comarca de Blumenau",
+   "qtd": 41325
+  },
+  {
+   "nome": "Vara de Execuções contra a Fazenda Pública e Precatórios da Comarca da Capital",
+   "qtd": 37987
+  },
+  {
+   "nome": "Vara da Fazenda Pública, Exec. Fiscais, Acidentes do Trabalho e Reg. Públicos da Comarca de Lages",
+   "qtd": 34067
+  },
+  {
+   "nome": "2ª Vara Cível da Comarca de Laguna",
+   "qtd": 33035
+  },
+  {
+   "nome": "3ª Turma Recursal",
+   "qtd": 32841
+  },
+  {
+   "nome": "1ª Turma Recursal",
+   "qtd": 32834
+  },
+  {
+   "nome": "2ª Turma Recursal",
+   "qtd": 32132
+  },
+  {
+   "nome": "Divisão de Tramitação Remota dos Juizados Especiais Cíveis",
+   "qtd": 30975
+  },
+  {
+   "nome": "2ª Vara da Fazenda Pública da Comarca de Joinville",
+   "qtd": 27664
+  }
+ ],
+ "total": 9984696,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-21T14:13:51+00:00"
+}

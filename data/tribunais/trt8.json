@@ -1,0 +1,240 @@
+{
+ "alias": "trt8",
+ "sigla": "TRT8",
+ "nome": "Tribunal Regional do Trabalho da 8ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T17:10:16+00:00",
+  "formatos": "2026-11-21T17:13:18+00:00",
+  "sistemas": "2026-11-21T17:13:53+00:00",
+  "classes": "2026-11-21T17:14:54+00:00",
+  "assuntos": "2026-11-21T17:16:38+00:00",
+  "orgaos": "2026-11-21T17:18:47+00:00",
+  "total": "2026-11-21T17:21:43+00:00",
+  "mensal": "2026-11-21T17:22:22+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 483721
+  },
+  {
+   "nome": "G2",
+   "qtd": 121746
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 603170
+  },
+  {
+   "nome": "Físico",
+   "qtd": 2297
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 603167
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 2297
+  },
+  {
+   "nome": "Pje",
+   "qtd": 3
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 237676
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 164374
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 68574
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 22183
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 21843
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 12382
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 10682
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 10066
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 9163
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 6888
+  },
+  {
+   "nome": "Execução de Certidão de Crédito Judicial",
+   "qtd": 4063
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 3726
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 3529
+  },
+  {
+   "nome": "Cumprimento de Sentença de Ações Coletivas",
+   "qtd": 3287
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 3033
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 104476
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 98199
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 89482
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 88462
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 77377
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 74367
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 61958
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 56400
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 54662
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 53039
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 49131
+  },
+  {
+   "nome": "Reconhecimento de Relação de Emprego",
+   "qtd": 48382
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 44290
+  },
+  {
+   "nome": "Intervalo Intrajornada",
+   "qtd": 41257
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 39990
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "VARA DO TRABALHO DE CASTANHAL",
+   "qtd": 12146
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE PARAUAPEBAS",
+   "qtd": 11982
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE MACAPÁ",
+   "qtd": 11041
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE ANANINDEUA",
+   "qtd": 11029
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE PARAUAPEBAS",
+   "qtd": 10977
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE ANANINDEUA",
+   "qtd": 10816
+  },
+  {
+   "nome": "VARA DO TRABALHO DE SANTA IZABEL DO PARÁ",
+   "qtd": 10787
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE ABAETETUBA",
+   "qtd": 10742
+  },
+  {
+   "nome": "3ª VARA DO TRABALHO DE PARAUAPEBAS",
+   "qtd": 10604
+  },
+  {
+   "nome": "4ª VARA DO TRABALHO DE PARAUAPEBAS",
+   "qtd": 10554
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE MACAPÁ",
+   "qtd": 10489
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE ABAETETUBA",
+   "qtd": 10343
+  },
+  {
+   "nome": "4ª VARA DO TRABALHO DE ANANINDEUA",
+   "qtd": 10319
+  },
+  {
+   "nome": "3ª VARA DO TRABALHO DE ANANINDEUA",
+   "qtd": 10305
+  },
+  {
+   "nome": "4ª VARA DO TRABALHO DE MACAPÁ",
+   "qtd": 9883
+  }
+ ],
+ "total": 605467,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-21T17:22:22+00:00"
+}

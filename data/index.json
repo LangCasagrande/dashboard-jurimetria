@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-20T19:19:10+00:00",
+ "gerado_em": "2026-11-21T18:49:45+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "tribunais": [
   {
@@ -597,6 +597,360 @@
     "classes",
     "formatos",
     "graus",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjrr",
+   "sigla": "TJRR",
+   "nome": "Tribunal de Justiça de Roraima",
+   "ramo": "Estadual",
+   "total": 388531,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Cumprimento de sentença",
+   "atualizado_em": "2026-11-21T13:46:25+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjrs",
+   "sigla": "TJRS",
+   "nome": "Tribunal de Justiça do Rio Grande do Sul",
+   "ramo": "Estadual",
+   "total": 14533911,
+   "pct_eletronico": 84.1,
+   "classe_principal": "Procedimento Comum Cível",
+   "atualizado_em": "2026-11-21T13:57:47+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjsc",
+   "sigla": "TJSC",
+   "nome": "Tribunal de Justiça de Santa Catarina",
+   "ramo": "Estadual",
+   "total": 9984696,
+   "pct_eletronico": 99.4,
+   "classe_principal": "Execução Fiscal",
+   "atualizado_em": "2026-11-21T14:13:51+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjse",
+   "sigla": "TJSE",
+   "nome": "Tribunal de Justiça de Sergipe",
+   "ramo": "Estadual",
+   "total": 3362867,
+   "pct_eletronico": 97.8,
+   "classe_principal": "Procedimento do Juizado Especial Cível",
+   "atualizado_em": "2026-11-21T14:22:56+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjsp",
+   "sigla": "TJSP",
+   "nome": "Tribunal de Justiça de São Paulo",
+   "ramo": "Estadual",
+   "total": 76102158,
+   "pct_eletronico": 73.2,
+   "classe_principal": "Execução Fiscal",
+   "atualizado_em": "2026-11-21T14:44:55+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjto",
+   "sigla": "TJTO",
+   "nome": "Tribunal de Justiça do Tocantins",
+   "ramo": "Estadual",
+   "total": 2868796,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Procedimento Comum Cível",
+   "atualizado_em": "2026-11-21T14:52:53+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt1",
+   "sigla": "TRT1",
+   "nome": "Tribunal Regional do Trabalho da 1ª Região",
+   "ramo": "Trabalho",
+   "total": 2681566,
+   "pct_eletronico": 99.5,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-21T15:10:01+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt2",
+   "sigla": "TRT2",
+   "nome": "Tribunal Regional do Trabalho da 2ª Região",
+   "ramo": "Trabalho",
+   "total": 2171513,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-21T15:31:49+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt3",
+   "sigla": "TRT3",
+   "nome": "Tribunal Regional do Trabalho da 3ª Região",
+   "ramo": "Trabalho",
+   "total": 4327695,
+   "pct_eletronico": 82.9,
+   "classe_principal": "Ação Trabalhista - Rito Sumaríssimo",
+   "atualizado_em": "2026-11-21T15:40:11+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt4",
+   "sigla": "TRT4",
+   "nome": "Tribunal Regional do Trabalho da 4ª Região",
+   "ramo": "Trabalho",
+   "total": 2074334,
+   "pct_eletronico": null,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-21T16:18:53+00:00",
+   "partes": [
+    "classes",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt5",
+   "sigla": "TRT5",
+   "nome": "Tribunal Regional do Trabalho da 5ª Região",
+   "ramo": "Trabalho",
+   "total": 134062,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-21T16:28:28+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt6",
+   "sigla": "TRT6",
+   "nome": "Tribunal Regional do Trabalho da 6ª Região",
+   "ramo": "Trabalho",
+   "total": 1023226,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-21T16:57:12+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt7",
+   "sigla": "TRT7",
+   "nome": "Tribunal Regional do Trabalho da 7ª Região",
+   "ramo": "Trabalho",
+   "total": 726204,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Sumaríssimo",
+   "atualizado_em": "2026-11-21T17:09:39+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt8",
+   "sigla": "TRT8",
+   "nome": "Tribunal Regional do Trabalho da 8ª Região",
+   "ramo": "Trabalho",
+   "total": 605467,
+   "pct_eletronico": 99.6,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-21T17:22:22+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt9",
+   "sigla": "TRT9",
+   "nome": "Tribunal Regional do Trabalho da 9ª Região",
+   "ramo": "Trabalho",
+   "total": 1623704,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-21T17:35:57+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt10",
+   "sigla": "TRT10",
+   "nome": "Tribunal Regional do Trabalho da 10ª Região",
+   "ramo": "Trabalho",
+   "total": null,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-21T18:07:23+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas"
+   ]
+  },
+  {
+   "alias": "trt11",
+   "sigla": "TRT11",
+   "nome": "Tribunal Regional do Trabalho da 11ª Região",
+   "ramo": "Trabalho",
+   "total": 407942,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-21T18:23:31+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt12",
+   "sigla": "TRT12",
+   "nome": "Tribunal Regional do Trabalho da 12ª Região",
+   "ramo": "Trabalho",
+   "total": 1005717,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-21T18:49:45+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
     "orgaos",
     "sistemas",
     "total"

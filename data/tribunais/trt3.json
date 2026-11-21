@@ -1,0 +1,385 @@
+{
+ "alias": "trt3",
+ "sigla": "TRT3",
+ "nome": "Tribunal Regional do Trabalho da 3ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T15:32:41+00:00",
+  "formatos": "2026-11-21T15:33:19+00:00",
+  "sistemas": "2026-11-21T15:33:52+00:00",
+  "classes": "2026-11-21T15:34:25+00:00",
+  "assuntos": "2026-11-21T15:34:57+00:00",
+  "orgaos": "2026-11-21T15:35:58+00:00",
+  "total": "2026-11-21T15:39:26+00:00",
+  "mensal": "2026-11-21T15:40:11+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 3403282
+  },
+  {
+   "nome": "G2",
+   "qtd": 924413
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 3589772
+  },
+  {
+   "nome": "Físico",
+   "qtd": 737923
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Pje",
+   "qtd": 2870488
+  },
+  {
+   "nome": "Outros",
+   "qtd": 731174
+  },
+  {
+   "nome": "PJe",
+   "qtd": 719284
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 6749
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 1418601
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 1398523
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 453507
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 216639
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 202884
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 195102
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 119181
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 45980
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 44372
+  },
+  {
+   "nome": "Execução Provisória em Autos Suplementares",
+   "qtd": 30149
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 25735
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 23821
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 18061
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 14858
+  },
+  {
+   "nome": "Precatório",
+   "qtd": 11752
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 574493
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 573729
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 567131
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 556938
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 463818
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 432032
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 422359
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 410872
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 360947
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 325423
+  },
+  {
+   "nome": "Anotação/Baixa/Retificação",
+   "qtd": 298755
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 274688
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 264518
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 257897
+  },
+  {
+   "nome": "Intervalo Intrajornada",
+   "qtd": 254722
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Vara do Trabalho de Bom Despacho",
+   "qtd": 38685
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Contagem",
+   "qtd": 31863
+  },
+  {
+   "nome": "5ª Vara do Trabalho de Contagem",
+   "qtd": 31514
+  },
+  {
+   "nome": "Vara do Trabalho de Araxa",
+   "qtd": 31364
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Divinópolis",
+   "qtd": 30913
+  },
+  {
+   "nome": "4ª Vara do Trabalho de Contagem",
+   "qtd": 30750
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Contagem",
+   "qtd": 29987
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Montes Claros",
+   "qtd": 29765
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Contagem",
+   "qtd": 29652
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Divinópolis",
+   "qtd": 29485
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Pedro Leopoldo",
+   "qtd": 29321
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Montes Claros",
+   "qtd": 29310
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Pedro Leopoldo",
+   "qtd": 29276
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Uberlândia",
+   "qtd": 29141
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Montes Claros",
+   "qtd": 29003
+  }
+ ],
+ "total": 4327695,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 19176
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 13639
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 14409
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 21886
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 20048
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 21762
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 20324
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 18677
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 20519
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 18267
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 17404
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 17003
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 12984
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 9737
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 8606
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 10984
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 7916
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 4333
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 1071
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 1
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 2
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 1
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 1
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-12",
+   "qtd": 1
+  },
+  {
+   "mes": "2026-01",
+   "qtd": 2
+  },
+  {
+   "mes": "2026-02",
+   "qtd": 1
+  },
+  {
+   "mes": "2026-03",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-04",
+   "qtd": 2
+  },
+  {
+   "mes": "2026-05",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-06",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-07",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-08",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-09",
+   "qtd": 1
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-21T15:40:11+00:00"
+}

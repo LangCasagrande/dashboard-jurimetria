@@ -1,0 +1,228 @@
+{
+ "alias": "trt9",
+ "sigla": "TRT9",
+ "nome": "Tribunal Regional do Trabalho da 9ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T17:24:08+00:00",
+  "formatos": "2026-11-21T17:27:15+00:00",
+  "sistemas": "2026-11-21T17:28:21+00:00",
+  "classes": "2026-11-21T17:29:14+00:00",
+  "assuntos": "2026-11-21T17:29:56+00:00",
+  "orgaos": "2026-11-21T17:31:23+00:00",
+  "total": "2026-11-21T17:34:26+00:00",
+  "mensal": "2026-11-21T17:35:57+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 1270555
+  },
+  {
+   "nome": "G2",
+   "qtd": 353149
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 1623704
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 1623704
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 642040
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 368338
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 167957
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 106973
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 61452
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 59975
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 54902
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 44400
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 17968
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 13773
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 12705
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 10606
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 7727
+  },
+  {
+   "nome": "Produção Antecipada da Prova",
+   "qtd": 7693
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 7243
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Assistência Judiciária Gratuita",
+   "qtd": 364382
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 339225
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 301571
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 287566
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 282162
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 273213
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 261372
+  },
+  {
+   "nome": "Honorários Advocatícios",
+   "qtd": 240400
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 227547
+  },
+  {
+   "nome": "Intervalo Intrajornada",
+   "qtd": 217565
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 200603
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 198386
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 188423
+  },
+  {
+   "nome": "Horas Extras ",
+   "qtd": 163029
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 159525
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "02ª VARA DO TRABALHO DE CURITIBA",
+   "qtd": 22468
+  },
+  {
+   "nome": "VARA DO TRABALHO DE PINHAIS",
+   "qtd": 20539
+  },
+  {
+   "nome": "17ª VARA DO TRABALHO DE CURITIBA",
+   "qtd": 19611
+  },
+  {
+   "nome": "VARA DO TRABALHO DE PARANAVAÍ",
+   "qtd": 19423
+  },
+  {
+   "nome": "09ª VARA DO TRABALHO DE CURITIBA",
+   "qtd": 18803
+  },
+  {
+   "nome": "VARA DO TRABALHO DE ARAPONGAS",
+   "qtd": 18732
+  },
+  {
+   "nome": "06ª VARA DO TRABALHO DE CURITIBA",
+   "qtd": 18032
+  },
+  {
+   "nome": "01ª VARA DO TRABALHO DE ROLÂNDIA",
+   "qtd": 17963
+  },
+  {
+   "nome": "18ª VARA DO TRABALHO DE CURITIBA",
+   "qtd": 17796
+  },
+  {
+   "nome": "10ª VARA DO TRABALHO DE CURITIBA",
+   "qtd": 17681
+  },
+  {
+   "nome": "VARA DO TRABALHO DE CIANORTE",
+   "qtd": 17298
+  },
+  {
+   "nome": "08ª VARA DO TRABALHO DE CURITIBA",
+   "qtd": 17020
+  },
+  {
+   "nome": "16ª VARA DO TRABALHO DE CURITIBA",
+   "qtd": 16988
+  },
+  {
+   "nome": "VARA DO TRABALHO DE CAMPO MOURÃO",
+   "qtd": 16972
+  },
+  {
+   "nome": "03ª VARA DO TRABALHO DE CURITIBA",
+   "qtd": 16914
+  }
+ ],
+ "total": 1623704,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-21T17:35:57+00:00"
+}

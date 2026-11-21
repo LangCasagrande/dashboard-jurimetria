@@ -1,0 +1,244 @@
+{
+ "alias": "tjse",
+ "sigla": "TJSE",
+ "nome": "Tribunal de Justiça de Sergipe",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T14:16:12+00:00",
+  "formatos": "2026-11-21T14:16:52+00:00",
+  "sistemas": "2026-11-21T14:17:40+00:00",
+  "classes": "2026-11-21T14:20:11+00:00",
+  "assuntos": "2026-11-21T14:20:52+00:00",
+  "orgaos": "2026-11-21T14:21:53+00:00",
+  "total": "2026-11-21T14:22:24+00:00",
+  "mensal": "2026-11-21T14:22:56+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 992634
+  },
+  {
+   "nome": "JE",
+   "qtd": 341200
+  },
+  {
+   "nome": "G2",
+   "qtd": 179567
+  },
+  {
+   "nome": "TR",
+   "qtd": 167477
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 3288853
+  },
+  {
+   "nome": "Físico",
+   "qtd": 74014
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Inválido",
+   "qtd": 3339786
+  },
+  {
+   "nome": "Projudi",
+   "qtd": 23081
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 612625
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 402575
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 303396
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 303134
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 190435
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 157060
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 100331
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 92835
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 72953
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 69035
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 68059
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 64262
+  },
+  {
+   "nome": "Embargos de Declaração Cível",
+   "qtd": 59961
+  },
+  {
+   "nome": "Procedimento do Juizado Especial da Fazenda Pública",
+   "qtd": 59930
+  },
+  {
+   "nome": "Habilitação para Casamento",
+   "qtd": 55608
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Assistência Judiciária Gratuita",
+   "qtd": 487000
+  },
+  {
+   "nome": "Práticas Abusivas",
+   "qtd": 334222
+  },
+  {
+   "nome": "Liminar ",
+   "qtd": 226007
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 216034
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 210246
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 154679
+  },
+  {
+   "nome": "Direito de Imagem",
+   "qtd": 148831
+  },
+  {
+   "nome": "Dever de Informação",
+   "qtd": 116474
+  },
+  {
+   "nome": "Levantamento de Valor",
+   "qtd": 110041
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 102464
+  },
+  {
+   "nome": "Irregularidade no atendimento",
+   "qtd": 93819
+  },
+  {
+   "nome": "Efeitos",
+   "qtd": 86311
+  },
+  {
+   "nome": "Despesas Condominiais",
+   "qtd": 79659
+  },
+  {
+   "nome": "Perdas e Danos",
+   "qtd": 66969
+  },
+  {
+   "nome": "Antecipação de Tutela / Tutela Específica",
+   "qtd": 63632
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "0 GABINETE 2 DA 1ª TURMA RECURSAL DO ESTADO DE SERGIPE",
+   "qtd": 73345
+  },
+  {
+   "nome": "1 JUIZADO ESPECIAL DA FAZENDA PÚBLICA",
+   "qtd": 27209
+  },
+  {
+   "nome": "JUIZADO ESPECIAL CÍVEL E CRIMINAL DE LAGARTO",
+   "qtd": 22072
+  },
+  {
+   "nome": "CENTRO JUDICIÁRIO DE SOLUÇÃO DE CONFLITOS E CIDADANIA",
+   "qtd": 21463
+  },
+  {
+   "nome": "22 ª VARA CÍVEL DE ARACAJU",
+   "qtd": 20786
+  },
+  {
+   "nome": "0 GABINETE 1 DA 2ª TURMA RECURSAL DO ESTADO DE SERGIPE",
+   "qtd": 20483
+  },
+  {
+   "nome": "20 ª VARA CÍVEL DE ARACAJU",
+   "qtd": 20406
+  },
+  {
+   "nome": "7 º JUIZADO ESPECIAL CÍVEL DE ARACAJU",
+   "qtd": 20397
+  },
+  {
+   "nome": "2 º JUIZADO ESPECIAL CIVEL DE ARACAJU",
+   "qtd": 20191
+  },
+  {
+   "nome": "4 º JUIZADO ESPECIAL CIVEL DE ARACAJU",
+   "qtd": 19807
+  },
+  {
+   "nome": "JUIZADO ESPECIAL CÍVEL E CRIMINAL DE ITABAIANA",
+   "qtd": 19486
+  },
+  {
+   "nome": "1 º JUIZADO ESPECIAL CÍVEL E CRIMINAL DE SOCORRO",
+   "qtd": 19454
+  },
+  {
+   "nome": "5 º JUIZADO ESPECIAL CIVEL DE ARACAJU",
+   "qtd": 19069
+  },
+  {
+   "nome": "2 º JUIZADO ESPECIAL CÍVEL E CRIMINAL DE SOCORRO",
+   "qtd": 18845
+  },
+  {
+   "nome": "3 º JUIZADO ESPECIAL CIVEL DE ARACAJU",
+   "qtd": 18632
+  }
+ ],
+ "total": 3362867,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-21T14:22:56+00:00"
+}

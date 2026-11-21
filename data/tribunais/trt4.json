@@ -1,0 +1,155 @@
+{
+ "alias": "trt4",
+ "sigla": "TRT4",
+ "nome": "Tribunal Regional do Trabalho da 4ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "sistemas": "2026-11-21T15:59:24+00:00",
+  "classes": "2026-11-21T16:00:18+00:00",
+  "orgaos": "2026-11-21T16:09:36+00:00",
+  "total": "2026-11-21T16:10:19+00:00",
+  "mensal": "2026-11-21T16:18:53+00:00"
+ },
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 2073964
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 370
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 910587
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 393181
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 306514
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 122596
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 80704
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 47880
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 39050
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 25815
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 20019
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 16279
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 13761
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 13337
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 10268
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 9981
+  },
+  {
+   "nome": "Execução Provisória em Autos Suplementares",
+   "qtd": 9174
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "VARA DO TRABALHO DE OSÓRIO",
+   "qtd": 25623
+  },
+  {
+   "nome": "18ª VARA DO TRABALHO DE PORTO ALEGRE",
+   "qtd": 18766
+  },
+  {
+   "nome": "VARA DO TRABALHO DE ESTÂNCIA VELHA",
+   "qtd": 18569
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE BENTO GONÇALVES",
+   "qtd": 18139
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE BENTO GONÇALVES",
+   "qtd": 17912
+  },
+  {
+   "nome": "Gabinete Lúcia Ehrenbrink",
+   "qtd": 17755
+  },
+  {
+   "nome": "Gabinete João Batista de Matos Danda",
+   "qtd": 17651
+  },
+  {
+   "nome": "VARA DO TRABALHO DE TORRES",
+   "qtd": 17639
+  },
+  {
+   "nome": "Gabinete Janney Camargo Bina",
+   "qtd": 17376
+  },
+  {
+   "nome": "Gabinete Roberto Antônio Carvalho Zonta",
+   "qtd": 17091
+  },
+  {
+   "nome": "Gabinete Maria da Graça Ribeiro Centeno",
+   "qtd": 16821
+  },
+  {
+   "nome": "30ª VARA DO TRABALHO DE PORTO ALEGRE",
+   "qtd": 16547
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE CANOAS",
+   "qtd": 16455
+  },
+  {
+   "nome": "VARA DO TRABALHO DE GUAÍBA",
+   "qtd": 16277
+  },
+  {
+   "nome": "4ª VARA DO TRABALHO DE CAXIAS DO SUL",
+   "qtd": 16139
+  }
+ ],
+ "total": 2074334,
+ "mensal": [],
+ "erros": {
+  "graus": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-21T16:18:53+00:00"
+}

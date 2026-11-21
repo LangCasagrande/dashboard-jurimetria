@@ -1,0 +1,228 @@
+{
+ "alias": "trt10",
+ "sigla": "TRT10",
+ "nome": "Tribunal Regional do Trabalho da 10ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T17:38:59+00:00",
+  "formatos": "2026-11-21T17:40:10+00:00",
+  "sistemas": "2026-11-21T17:41:02+00:00",
+  "classes": "2026-11-21T17:42:48+00:00",
+  "assuntos": "2026-11-21T17:43:28+00:00",
+  "orgaos": "2026-11-21T17:54:04+00:00",
+  "mensal": "2026-11-21T18:07:23+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 515169
+  },
+  {
+   "nome": "G2",
+   "qtd": 136673
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 651842
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 651842
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 256407
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 154735
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 69173
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 34164
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 31714
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 24400
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 17005
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 8316
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 8293
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 6451
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 6018
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 4535
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 4510
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 4286
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 3291
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 101230
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 75108
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 66705
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 63462
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 56859
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 55671
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 51893
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 39389
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 37883
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 36794
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 34892
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 34093
+  },
+  {
+   "nome": "Reconhecimento de Relação de Emprego",
+   "qtd": 33802
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 27229
+  },
+  {
+   "nome": "Anotação/Baixa/Retificação",
+   "qtd": 24709
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "2ª Vara do Trabalho de Palmas - TO",
+   "qtd": 23854
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Palmas - TO",
+   "qtd": 23513
+  },
+  {
+   "nome": "17ª Vara do Trabalho de Brasília - DF",
+   "qtd": 17194
+  },
+  {
+   "nome": "11ª Vara do Trabalho de Brasília - DF",
+   "qtd": 16648
+  },
+  {
+   "nome": "13ª Vara do Trabalho de Brasília - DF",
+   "qtd": 16398
+  },
+  {
+   "nome": "5ª Vara do Trabalho de Brasília - DF",
+   "qtd": 16392
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Brasília - DF",
+   "qtd": 16368
+  },
+  {
+   "nome": "7ª Vara do Trabalho de Brasília - DF",
+   "qtd": 16238
+  },
+  {
+   "nome": "10ª Vara do Trabalho de Brasília - DF",
+   "qtd": 16068
+  },
+  {
+   "nome": "19ª Vara do Trabalho de Brasília - DF",
+   "qtd": 16052
+  },
+  {
+   "nome": "6ª Vara do Trabalho de Brasília - DF",
+   "qtd": 16017
+  },
+  {
+   "nome": "9ª Vara do Trabalho de Brasília - DF",
+   "qtd": 15987
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Brasília - DF",
+   "qtd": 15812
+  },
+  {
+   "nome": "Vara do Trabalho do Gama - DF",
+   "qtd": 15802
+  },
+  {
+   "nome": "8ª Vara do Trabalho de Brasília - DF",
+   "qtd": 15759
+  }
+ ],
+ "mensal": [],
+ "erros": {
+  "total": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-21T18:07:23+00:00"
+}

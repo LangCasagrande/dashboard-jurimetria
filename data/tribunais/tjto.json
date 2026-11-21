@@ -1,0 +1,240 @@
+{
+ "alias": "tjto",
+ "sigla": "TJTO",
+ "nome": "Tribunal de Justiça do Tocantins",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T14:47:15+00:00",
+  "formatos": "2026-11-21T14:47:45+00:00",
+  "sistemas": "2026-11-21T14:49:02+00:00",
+  "classes": "2026-11-21T14:49:32+00:00",
+  "assuntos": "2026-11-21T14:50:46+00:00",
+  "orgaos": "2026-11-21T14:51:40+00:00",
+  "total": "2026-11-21T14:52:05+00:00",
+  "mensal": "2026-11-21T14:52:53+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 1837170
+  },
+  {
+   "nome": "JE",
+   "qtd": 520084
+  },
+  {
+   "nome": "G2",
+   "qtd": 428118
+  },
+  {
+   "nome": "TR",
+   "qtd": 83424
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 2868796
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Projudi",
+   "qtd": 2851113
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 17683
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 308676
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 264451
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 235511
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 201920
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 194547
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 166746
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 134321
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 119651
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 102444
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 98737
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 93263
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 89868
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 74002
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 69736
+  },
+  {
+   "nome": "Reclamação Pré-processual",
+   "qtd": 35055
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "IPTU/ Imposto Predial e Territorial Urbano",
+   "qtd": 80759
+  },
+  {
+   "nome": "Empréstimo consignado",
+   "qtd": 59808
+  },
+  {
+   "nome": "Mora",
+   "qtd": 49461
+  },
+  {
+   "nome": "Citação",
+   "qtd": 40051
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 35222
+  },
+  {
+   "nome": "Práticas Abusivas",
+   "qtd": 34006
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 33218
+  },
+  {
+   "nome": "Assistência Judiciária Gratuita",
+   "qtd": 32016
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 31570
+  },
+  {
+   "nome": "Violência Doméstica Contra a Mulher",
+   "qtd": 31018
+  },
+  {
+   "nome": "Direito de Imagem",
+   "qtd": 30435
+  },
+  {
+   "nome": "Intimação",
+   "qtd": 29466
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 29263
+  },
+  {
+   "nome": "Acidente de Trânsito",
+   "qtd": 27665
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 26529
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Juizo da Vara de Execuções Fiscais e Saúde de Palmas",
+   "qtd": 92288
+  },
+  {
+   "nome": "Juizo da Vara de Execuções Fiscais e Ações de Saúde Pública de Araguaína",
+   "qtd": 63624
+  },
+  {
+   "nome": "Juízo da Vara de Precatórias Civeis e Criminais, Falências e Recuperações Judiciais de Palmas",
+   "qtd": 61874
+  },
+  {
+   "nome": "Juizo da 1ª Vara da Fazenda e Registros Públicos de Gurupi",
+   "qtd": 55214
+  },
+  {
+   "nome": "Juízo do 1º Juizado Especial Cível de Araguaína",
+   "qtd": 48403
+  },
+  {
+   "nome": "Juízo da 2ª Vara Cível de Porto Nacional",
+   "qtd": 43135
+  },
+  {
+   "nome": "Juízo da 1ª Vara Cível de Porto Nacional",
+   "qtd": 42270
+  },
+  {
+   "nome": "Juízo do 3º Juizado Especial Cível de Palmas",
+   "qtd": 40678
+  },
+  {
+   "nome": "Juizo da Vara de Recuperação Judicial de Empresas, Falências, Precatórias e Juizado da Fazenda Pública de Araguaína",
+   "qtd": 38717
+  },
+  {
+   "nome": "GAB. DO DES. ADOLFO AMARO MENDES",
+   "qtd": 37707
+  },
+  {
+   "nome": "GAB. DO DES. MARCO VILLAS BOAS",
+   "qtd": 34931
+  },
+  {
+   "nome": "GAB. DA DESA. ANGELA PRUDENTE",
+   "qtd": 34704
+  },
+  {
+   "nome": "Juízo do 2º Juizado Especial Cível de Palmas",
+   "qtd": 34606
+  },
+  {
+   "nome": "GAB. DA DESA. JACQUELINE ADORNO",
+   "qtd": 34446
+  },
+  {
+   "nome": "Juízo do 4º Juizado Especial Cível de Palmas",
+   "qtd": 33755
+  }
+ ],
+ "total": 2868796,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-21T14:52:53+00:00"
+}

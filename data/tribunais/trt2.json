@@ -1,0 +1,232 @@
+{
+ "alias": "trt2",
+ "sigla": "TRT2",
+ "nome": "Tribunal Regional do Trabalho da 2ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T15:10:39+00:00",
+  "formatos": "2026-11-21T15:11:04+00:00",
+  "sistemas": "2026-11-21T15:13:00+00:00",
+  "classes": "2026-11-21T15:14:53+00:00",
+  "assuntos": "2026-11-21T15:16:50+00:00",
+  "orgaos": "2026-11-21T15:29:08+00:00",
+  "total": "2026-11-21T15:29:43+00:00",
+  "mensal": "2026-11-21T15:31:49+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 847172
+  },
+  {
+   "nome": "G2",
+   "qtd": 238678
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 5432410
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 5423246
+  },
+  {
+   "nome": "Pje",
+   "qtd": 9164
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 2389493
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 1255243
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 594338
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 326875
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 191869
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 181655
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 80106
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 53797
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 46414
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 46026
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 33558
+  },
+  {
+   "nome": "Execução Provisória em Autos Suplementares",
+   "qtd": 26675
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 25888
+  },
+  {
+   "nome": "Agravo de Instrumento em Recurso Ordinário",
+   "qtd": 24607
+  },
+  {
+   "nome": "Agravo de Instrumento em Agravo de Petição",
+   "qtd": 21158
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 873641
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 741207
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 675158
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 548073
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 541001
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 540840
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 528138
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 427627
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 424622
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 360997
+  },
+  {
+   "nome": "Intervalo Intrajornada",
+   "qtd": 352281
+  },
+  {
+   "nome": "Reflexos",
+   "qtd": 352039
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 327941
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 324228
+  },
+  {
+   "nome": "Adicional de Hora Extra",
+   "qtd": 307362
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Vara do Trabalho de Cajamar",
+   "qtd": 28871
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Cotia",
+   "qtd": 28792
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Cotia",
+   "qtd": 27634
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Barueri",
+   "qtd": 27466
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Barueri",
+   "qtd": 26883
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Barueri",
+   "qtd": 26761
+  },
+  {
+   "nome": "Vara do Trabalho de Itapevi",
+   "qtd": 26018
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Guarulhos",
+   "qtd": 25399
+  },
+  {
+   "nome": "14ª Vara do Trabalho de São Paulo",
+   "qtd": 24904
+  },
+  {
+   "nome": "3ª Vara do Trabalho de São Bernardo do Campo",
+   "qtd": 24814
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Guarulhos",
+   "qtd": 24651
+  },
+  {
+   "nome": "32ª Vara do Trabalho de São Paulo",
+   "qtd": 24551
+  },
+  {
+   "nome": "4ª Vara do Trabalho de São Bernardo do Campo",
+   "qtd": 24507
+  },
+  {
+   "nome": "2ª Vara do Trabalho de São Bernardo do Campo",
+   "qtd": 24398
+  },
+  {
+   "nome": "66ª Vara do Trabalho de São Paulo",
+   "qtd": 24348
+  }
+ ],
+ "total": 2171513,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-21T15:31:49+00:00"
+}

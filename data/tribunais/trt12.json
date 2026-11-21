@@ -1,0 +1,228 @@
+{
+ "alias": "trt12",
+ "sigla": "TRT12",
+ "nome": "Tribunal Regional do Trabalho da 12ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T18:26:38+00:00",
+  "formatos": "2026-11-21T18:27:21+00:00",
+  "sistemas": "2026-11-21T18:28:08+00:00",
+  "classes": "2026-11-21T18:34:39+00:00",
+  "assuntos": "2026-11-21T18:35:36+00:00",
+  "orgaos": "2026-11-21T18:36:57+00:00",
+  "total": "2026-11-21T18:37:29+00:00",
+  "mensal": "2026-11-21T18:49:45+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 801330
+  },
+  {
+   "nome": "G2",
+   "qtd": 204387
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 1005717
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 1005717
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 346264
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 260456
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 99177
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 47303
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 46812
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 38677
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 37204
+  },
+  {
+   "nome": "Produção Antecipada da Prova",
+   "qtd": 20083
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 13525
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 12210
+  },
+  {
+   "nome": "Alvará Judicial - Lei 6858/80",
+   "qtd": 8174
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 7330
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 7277
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 6785
+  },
+  {
+   "nome": "Habeas Data Cível",
+   "qtd": 6569
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 160556
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 135970
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 127757
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 117485
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 100297
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 98378
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 87986
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 87326
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 86903
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 85615
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 80440
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 79527
+  },
+  {
+   "nome": "Reconhecimento de Relação de Emprego",
+   "qtd": 79515
+  },
+  {
+   "nome": "Horas Extras ",
+   "qtd": 73429
+  },
+  {
+   "nome": "Intervalo Intrajornada",
+   "qtd": 67201
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "OJ de Análise de Recurso",
+   "qtd": 29611
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE JOINVILLE",
+   "qtd": 19583
+  },
+  {
+   "nome": "VARA DO TRABALHO DE PALHOÇA",
+   "qtd": 19215
+  },
+  {
+   "nome": "4ª VARA DO TRABALHO DE JOINVILLE",
+   "qtd": 18435
+  },
+  {
+   "nome": "5ª VARA DO TRABALHO DE JOINVILLE",
+   "qtd": 18248
+  },
+  {
+   "nome": "VARA DO TRABALHO DE XANXERÊ",
+   "qtd": 18095
+  },
+  {
+   "nome": "VARA DO TRABALHO DE VIDEIRA",
+   "qtd": 17502
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE JOINVILLE",
+   "qtd": 17486
+  },
+  {
+   "nome": "VARA DO TRABALHO DE JOAÇABA",
+   "qtd": 17469
+  },
+  {
+   "nome": "3ª VARA DO TRABALHO DE JOINVILLE",
+   "qtd": 17441
+  },
+  {
+   "nome": "VARA DO TRABALHO DE NAVEGANTES",
+   "qtd": 17066
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE BALNEÁRIO CAMBORIÚ",
+   "qtd": 16584
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE BALNEÁRIO CAMBORIÚ",
+   "qtd": 15969
+  },
+  {
+   "nome": "VARA DO TRABALHO DE CONCÓRDIA",
+   "qtd": 15851
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE JARAGUÁ DO SUL",
+   "qtd": 14990
+  }
+ ],
+ "total": 1005717,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-21T18:49:45+00:00"
+}

@@ -1,0 +1,175 @@
+{
+ "alias": "trt1",
+ "sigla": "TRT1",
+ "nome": "Tribunal Regional do Trabalho da 1ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T14:54:52+00:00",
+  "formatos": "2026-11-21T14:57:27+00:00",
+  "sistemas": "2026-11-21T14:58:04+00:00",
+  "classes": "2026-11-21T14:58:45+00:00",
+  "assuntos": "2026-11-21T14:59:06+00:00",
+  "total": "2026-11-21T15:09:10+00:00",
+  "mensal": "2026-11-21T15:10:01+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 2013733
+  },
+  {
+   "nome": "G2",
+   "qtd": 667833
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 2668716
+  },
+  {
+   "nome": "Físico",
+   "qtd": 12850
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 2668716
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 12850
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 1086226
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 588755
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 338766
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 179716
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 101334
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 70285
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 69868
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 49489
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 27471
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 22481
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 22476
+  },
+  {
+   "nome": "Cumprimento de Sentença de Ações Coletivas",
+   "qtd": 18813
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 13807
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 8405
+  },
+  {
+   "nome": "Agravo de Instrumento em Agravo de Petição",
+   "qtd": 8030
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 474846
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 451968
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 417880
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 389202
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 306206
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 304056
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 271590
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 257140
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 242183
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 231239
+  },
+  {
+   "nome": "Intervalo Intrajornada",
+   "qtd": 224119
+  },
+  {
+   "nome": "Adicional de Hora Extra",
+   "qtd": 195243
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 184590
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 182396
+  },
+  {
+   "nome": "Anotação/Baixa/Retificação",
+   "qtd": 178806
+  }
+ ],
+ "total": 2681566,
+ "mensal": [],
+ "erros": {
+  "orgaos": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-21T15:10:01+00:00"
+}

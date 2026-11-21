@@ -1,0 +1,236 @@
+{
+ "alias": "trt6",
+ "sigla": "TRT6",
+ "nome": "Tribunal Regional do Trabalho da 6ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T16:30:01+00:00",
+  "formatos": "2026-11-21T16:40:07+00:00",
+  "sistemas": "2026-11-21T16:49:54+00:00",
+  "classes": "2026-11-21T16:53:27+00:00",
+  "assuntos": "2026-11-21T16:54:05+00:00",
+  "orgaos": "2026-11-21T16:55:50+00:00",
+  "total": "2026-11-21T16:56:31+00:00",
+  "mensal": "2026-11-21T16:57:12+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 814062
+  },
+  {
+   "nome": "G2",
+   "qtd": 209164
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 1023225
+  },
+  {
+   "nome": "Físico",
+   "qtd": 1
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 1023225
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 1
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 374683
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 254489
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 105728
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 93935
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 47267
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 35353
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 33822
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 15397
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 6506
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 4802
+  },
+  {
+   "nome": "Cumprimento de Sentença de Ações Coletivas",
+   "qtd": 4672
+  },
+  {
+   "nome": "Precatório",
+   "qtd": 4103
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 4079
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 3906
+  },
+  {
+   "nome": "Ação Civil Pública",
+   "qtd": 3426
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 192681
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 168261
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 138287
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 134373
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 105321
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 93810
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 89646
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 87859
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 85930
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 84623
+  },
+  {
+   "nome": "Adicional de Hora Extra",
+   "qtd": 81364
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 69358
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 66062
+  },
+  {
+   "nome": "Intervalo Intrajornada",
+   "qtd": 54194
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 54189
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "JABOATÃO DOS GUARARAPES  - 02A VARA",
+   "qtd": 16562
+  },
+  {
+   "nome": "PAULISTA  - 02A VARA",
+   "qtd": 15791
+  },
+  {
+   "nome": "PALMARES  - 01A VARA",
+   "qtd": 15116
+  },
+  {
+   "nome": "SALGUEIRO  - 01A VARA",
+   "qtd": 14993
+  },
+  {
+   "nome": "RECIFE  - 14A VARA",
+   "qtd": 14838
+  },
+  {
+   "nome": "VITÓRIA DE SANTO ANTÃO  - 01A VARA",
+   "qtd": 14675
+  },
+  {
+   "nome": "RECIFE  - 13A VARA",
+   "qtd": 14649
+  },
+  {
+   "nome": "RECIFE  - 11A VARA",
+   "qtd": 14195
+  },
+  {
+   "nome": "NAZARÉ DA MATA  - 01A VARA",
+   "qtd": 13985
+  },
+  {
+   "nome": "RECIFE  - 12A VARA",
+   "qtd": 13897
+  },
+  {
+   "nome": "RECIFE  - 06A VARA",
+   "qtd": 13891
+  },
+  {
+   "nome": "RECIFE  - 17A VARA",
+   "qtd": 13851
+  },
+  {
+   "nome": "RECIFE  - 15A VARA",
+   "qtd": 13705
+  },
+  {
+   "nome": "RECIFE  - 21A VARA",
+   "qtd": 13698
+  },
+  {
+   "nome": "RECIFE  - 22A VARA",
+   "qtd": 13599
+  }
+ ],
+ "total": 1023226,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-21T16:57:12+00:00"
+}

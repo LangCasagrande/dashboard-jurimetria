@@ -1,0 +1,228 @@
+{
+ "alias": "trt11",
+ "sigla": "TRT11",
+ "nome": "Tribunal Regional do Trabalho da 11ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T18:12:11+00:00",
+  "formatos": "2026-11-21T18:13:25+00:00",
+  "sistemas": "2026-11-21T18:15:30+00:00",
+  "classes": "2026-11-21T18:18:58+00:00",
+  "assuntos": "2026-11-21T18:19:47+00:00",
+  "orgaos": "2026-11-21T18:21:12+00:00",
+  "total": "2026-11-21T18:23:04+00:00",
+  "mensal": "2026-11-21T18:23:31+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 327998
+  },
+  {
+   "nome": "G2",
+   "qtd": 79944
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 407942
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 407942
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 153639
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 126388
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 48477
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 14606
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 11925
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 9540
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 8720
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 6337
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 5198
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 4305
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 2934
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 2268
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 1828
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 1243
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 1102
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 80047
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 57665
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 55917
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 51010
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 50258
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 50078
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 45661
+  },
+  {
+   "nome": "Reconhecimento de Relação de Emprego",
+   "qtd": 39010
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 35426
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 35174
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 34190
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 33292
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 23725
+  },
+  {
+   "nome": "Anotação/Baixa/Retificação",
+   "qtd": 22880
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 21692
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "2ª Vara do Trabalho de Boa Vista",
+   "qtd": 14481
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Boa Vista",
+   "qtd": 14467
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Boa Vista",
+   "qtd": 14372
+  },
+  {
+   "nome": "12ª Vara do Trabalho de Manaus",
+   "qtd": 13749
+  },
+  {
+   "nome": "16ª Vara do Trabalho de Manaus",
+   "qtd": 13698
+  },
+  {
+   "nome": "9ª Vara do Trabalho de Manaus",
+   "qtd": 13619
+  },
+  {
+   "nome": "13ª Vara do Trabalho de Manaus",
+   "qtd": 13441
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Manaus",
+   "qtd": 13294
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Manaus",
+   "qtd": 13161
+  },
+  {
+   "nome": "4ª Vara do Trabalho de Manaus",
+   "qtd": 13110
+  },
+  {
+   "nome": "8ª Vara do Trabalho de Manaus",
+   "qtd": 13067
+  },
+  {
+   "nome": "10ª Vara do Trabalho de Manaus",
+   "qtd": 13035
+  },
+  {
+   "nome": "5ª Vara do Trabalho de Manaus",
+   "qtd": 13026
+  },
+  {
+   "nome": "6ª Vara do Trabalho de Manaus",
+   "qtd": 12931
+  },
+  {
+   "nome": "14ª Vara do Trabalho de Manaus",
+   "qtd": 12762
+  }
+ ],
+ "total": 407942,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-21T18:23:31+00:00"
+}

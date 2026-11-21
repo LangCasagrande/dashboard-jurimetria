@@ -1,0 +1,183 @@
+{
+ "alias": "tjrr",
+ "sigla": "TJRR",
+ "nome": "Tribunal de Justiça de Roraima",
+ "ramo": "Estadual",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T13:23:56+00:00",
+  "formatos": "2026-11-21T13:29:17+00:00",
+  "sistemas": "2026-11-21T13:30:05+00:00",
+  "classes": "2026-11-21T13:30:56+00:00",
+  "assuntos": "2026-11-21T13:33:13+00:00",
+  "total": "2026-11-21T13:44:29+00:00",
+  "mensal": "2026-11-21T13:46:25+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 222188
+  },
+  {
+   "nome": "JE",
+   "qtd": 102738
+  },
+  {
+   "nome": "G2",
+   "qtd": 49654
+  },
+  {
+   "nome": "TR",
+   "qtd": 13951
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 388531
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Eproc",
+   "qtd": 388423
+  },
+  {
+   "nome": "PJe",
+   "qtd": 107
+  },
+  {
+   "nome": "Projudi",
+   "qtd": 1
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 63898
+  },
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 41378
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 26161
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 20509
+  },
+  {
+   "nome": "Cumprimento de Sentença contra a Fazenda Pública",
+   "qtd": 18718
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 17379
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 16892
+  },
+  {
+   "nome": "Execução da Pena",
+   "qtd": 14932
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 14579
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 13903
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 13671
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 13260
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 13042
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 11511
+  },
+  {
+   "nome": "Procedimento do Juizado Especial da Fazenda Pública",
+   "qtd": 7824
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 43000
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 26831
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 19256
+  },
+  {
+   "nome": "Pagamento",
+   "qtd": 17165
+  },
+  {
+   "nome": "Crimes de Trânsito",
+   "qtd": 15512
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 15421
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 13552
+  },
+  {
+   "nome": "Tráfico de Drogas e Condutas Afins",
+   "qtd": 12374
+  },
+  {
+   "nome": "Rescisão do contrato e devolução do dinheiro",
+   "qtd": 9827
+  },
+  {
+   "nome": "Liminar ",
+   "qtd": 8086
+  },
+  {
+   "nome": "Citação",
+   "qtd": 7087
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 6945
+  },
+  {
+   "nome": "Seguro",
+   "qtd": 6478
+  },
+  {
+   "nome": "Intimação",
+   "qtd": 5960
+  },
+  {
+   "nome": "Furto ",
+   "qtd": 5314
+  }
+ ],
+ "total": 388531,
+ "mensal": [],
+ "erros": {
+  "orgaos": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-21T13:46:25+00:00"
+}

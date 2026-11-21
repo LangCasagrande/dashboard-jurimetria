@@ -1,0 +1,305 @@
+{
+ "alias": "trt7",
+ "sigla": "TRT7",
+ "nome": "Tribunal Regional do Trabalho da 7ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-21T16:57:47+00:00",
+  "formatos": "2026-11-21T16:58:28+00:00",
+  "sistemas": "2026-11-21T16:59:07+00:00",
+  "classes": "2026-11-21T17:01:42+00:00",
+  "assuntos": "2026-11-21T17:04:16+00:00",
+  "orgaos": "2026-11-21T17:05:19+00:00",
+  "total": "2026-11-21T17:08:12+00:00",
+  "mensal": "2026-11-21T17:09:39+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 563649
+  },
+  {
+   "nome": "G2",
+   "qtd": 162555
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 726204
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Pje",
+   "qtd": 494383
+  },
+  {
+   "nome": "PJe",
+   "qtd": 231821
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 219324
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 212081
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 64741
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 34794
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 28536
+  },
+  {
+   "nome": "Cumprimento de Sentença de Ações Coletivas",
+   "qtd": 21800
+  },
+  {
+   "nome": "Precatório",
+   "qtd": 21665
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 21509
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 17730
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 14641
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 13708
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 9450
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 5753
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 5125
+  },
+  {
+   "nome": "Execução de Certidão de Crédito Judicial",
+   "qtd": 5091
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 171569
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 124412
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 105344
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 103282
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 95133
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 67865
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 58726
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 58670
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 51412
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 50474
+  },
+  {
+   "nome": "Indenização/Dobra/Terço Constitucional",
+   "qtd": 43750
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 42392
+  },
+  {
+   "nome": "Décimo Terceiro Salário",
+   "qtd": 41835
+  },
+  {
+   "nome": "Reconhecimento de Relação de Emprego",
+   "qtd": 40237
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 37535
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Precatórios",
+   "qtd": 24775
+  },
+  {
+   "nome": "2ª Vara do Trabalho da Região do Cariri",
+   "qtd": 20531
+  },
+  {
+   "nome": "Única Vara do Trabalho de Iguatu",
+   "qtd": 20114
+  },
+  {
+   "nome": "Única Vara do Trabalho de Tianguá",
+   "qtd": 19691
+  },
+  {
+   "nome": "1ª Vara do Trabalho da Região do Cariri",
+   "qtd": 18983
+  },
+  {
+   "nome": "4ª Vara do Trabalho de Fortaleza",
+   "qtd": 18381
+  },
+  {
+   "nome": "10ª Vara do Trabalho de Fortaleza",
+   "qtd": 17862
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Fortaleza",
+   "qtd": 17521
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Sobral",
+   "qtd": 17516
+  },
+  {
+   "nome": "3ª Vara do Trabalho da Região do Cariri",
+   "qtd": 17433
+  },
+  {
+   "nome": "5ª Vara do Trabalho de Fortaleza",
+   "qtd": 17396
+  },
+  {
+   "nome": "Única Vara do Trabalho de São Gonçalo do Amarante",
+   "qtd": 17203
+  },
+  {
+   "nome": "Única Vara do Trabalho de Eusébio",
+   "qtd": 17003
+  },
+  {
+   "nome": "9ª Vara do Trabalho de Fortaleza",
+   "qtd": 16874
+  },
+  {
+   "nome": "14ª Vara do Trabalho de Fortaleza",
+   "qtd": 16549
+  }
+ ],
+ "total": 726204,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 4704
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 3989
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 3833
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 5211
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 4566
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 4911
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 4042
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 3981
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 4762
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 3310
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 3408
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 3307
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 2204
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 1374
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 1400
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 1453
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 403
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 163
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-21T17:09:39+00:00"
+}
