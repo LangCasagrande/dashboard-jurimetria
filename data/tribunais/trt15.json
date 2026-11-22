@@ -1,0 +1,236 @@
+{
+ "alias": "trt15",
+ "sigla": "TRT15",
+ "nome": "Tribunal Regional do Trabalho da 15ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T13:34:38+00:00",
+  "formatos": "2026-11-22T13:35:07+00:00",
+  "sistemas": "2026-11-22T13:35:46+00:00",
+  "classes": "2026-11-22T13:36:30+00:00",
+  "assuntos": "2026-11-22T13:36:56+00:00",
+  "orgaos": "2026-11-22T13:38:08+00:00",
+  "total": "2026-11-22T13:38:33+00:00",
+  "mensal": "2026-11-22T13:39:03+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 2948228
+  },
+  {
+   "nome": "G2",
+   "qtd": 898260
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 3839498
+  },
+  {
+   "nome": "Físico",
+   "qtd": 6990
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 3839498
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 6990
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 1620892
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 856179
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 570719
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 154177
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 152685
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 125421
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 76473
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 74306
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 31199
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 23002
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 19492
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 18010
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 12994
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 12495
+  },
+  {
+   "nome": "Execução Provisória em Autos Suplementares",
+   "qtd": 11319
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 856224
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 824180
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 785789
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 707325
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 680943
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 678878
+  },
+  {
+   "nome": "Honorários na Justiça do Trabalho ",
+   "qtd": 621602
+  },
+  {
+   "nome": "Intervalo Intrajornada",
+   "qtd": 579715
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 573261
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 567167
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 545235
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 514573
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 498629
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 478205
+  },
+  {
+   "nome": "Reflexos",
+   "qtd": 447837
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Vara do Trabalho de Indaiatuba",
+   "qtd": 33999
+  },
+  {
+   "nome": "Vara do Trabalho de Sumaré",
+   "qtd": 30970
+  },
+  {
+   "nome": "Vara do Trabalho de Itu",
+   "qtd": 29992
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Jundiaí",
+   "qtd": 29714
+  },
+  {
+   "nome": "4ª Vara do Trabalho de Sorocaba",
+   "qtd": 29048
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Franca",
+   "qtd": 28798
+  },
+  {
+   "nome": "Vara do Trabalho de Itanhaém",
+   "qtd": 28757
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Jundiaí",
+   "qtd": 28606
+  },
+  {
+   "nome": "Vara do Trabalho de Tietê",
+   "qtd": 28540
+  },
+  {
+   "nome": "Vara do Trabalho de Mogi Guaçu",
+   "qtd": 28323
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Franca",
+   "qtd": 28287
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Sorocaba",
+   "qtd": 28187
+  },
+  {
+   "nome": "Vara do Trabalho de Rio Claro",
+   "qtd": 27481
+  },
+  {
+   "nome": "Vara do Trabalho de Atibaia",
+   "qtd": 26667
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Piracicaba",
+   "qtd": 26639
+  }
+ ],
+ "total": 3846488,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T13:39:03+00:00"
+}

@@ -1,0 +1,228 @@
+{
+ "alias": "tjmmg",
+ "sigla": "TJMMG",
+ "nome": "Tribunal de Justiça Militar de Minas Gerais",
+ "ramo": "Militar",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T18:21:45+00:00",
+  "formatos": "2026-11-22T18:22:11+00:00",
+  "sistemas": "2026-11-22T18:22:38+00:00",
+  "classes": "2026-11-22T18:23:29+00:00",
+  "assuntos": "2026-11-22T18:23:47+00:00",
+  "orgaos": "2026-11-22T18:24:14+00:00",
+  "total": "2026-11-22T18:24:50+00:00",
+  "mensal": "2026-11-22T18:27:06+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 28517
+  },
+  {
+   "nome": "G2",
+   "qtd": 3127
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 31644
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Projudi",
+   "qtd": 31644
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Procedimento Investigatório Criminal (PIC-MP) ",
+   "qtd": 11122
+  },
+  {
+   "nome": "Inquérito Policial Militar",
+   "qtd": 7794
+  },
+  {
+   "nome": "Ação Penal Militar - Procedimento Ordinário",
+   "qtd": 2327
+  },
+  {
+   "nome": "Auto de Prisão em Flagrante",
+   "qtd": 2000
+  },
+  {
+   "nome": "Representação Criminal/Notícia de Crime",
+   "qtd": 1264
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 972
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 817
+  },
+  {
+   "nome": "Apelação Criminal",
+   "qtd": 768
+  },
+  {
+   "nome": "Execução da Pena",
+   "qtd": 686
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 666
+  },
+  {
+   "nome": "Habeas Corpus Criminal",
+   "qtd": 534
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 278
+  },
+  {
+   "nome": "Representação p/ Perda da Graduação ",
+   "qtd": 215
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 193
+  },
+  {
+   "nome": "Recurso em Sentido Estrito",
+   "qtd": 188
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Crimes de Abuso de Autoridade",
+   "qtd": 7015
+  },
+  {
+   "nome": "Lesão leve",
+   "qtd": 5758
+  },
+  {
+   "nome": "Violência arbitrária ",
+   "qtd": 4381
+  },
+  {
+   "nome": "Falsidade ideológica",
+   "qtd": 1373
+  },
+  {
+   "nome": "Homicídio",
+   "qtd": 1332
+  },
+  {
+   "nome": "Ameaça",
+   "qtd": 994
+  },
+  {
+   "nome": "Prevaricação",
+   "qtd": 889
+  },
+  {
+   "nome": "Abandono de posto",
+   "qtd": 758
+  },
+  {
+   "nome": "Crime Culposo",
+   "qtd": 744
+  },
+  {
+   "nome": "Defeito, nulidade ou anulação",
+   "qtd": 688
+  },
+  {
+   "nome": "Peculato",
+   "qtd": 579
+  },
+  {
+   "nome": "Crimes de Tortura",
+   "qtd": 543
+  },
+  {
+   "nome": "Descumprimento de missão",
+   "qtd": 509
+  },
+  {
+   "nome": "Publicação ou crítica indevida",
+   "qtd": 470
+  },
+  {
+   "nome": "Inquérito / Processo / Recurso Administrativo",
+   "qtd": 441
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "3ª Auditoria Judiciária Militar Estadual",
+   "qtd": 6442
+  },
+  {
+   "nome": "1ª Auditoria Judiciária Militar Estadual",
+   "qtd": 6253
+  },
+  {
+   "nome": "2ª Auditoria Judiciária Militar Estadual",
+   "qtd": 6169
+  },
+  {
+   "nome": "4ª Auditoria Judiciária Militar Estadual",
+   "qtd": 5092
+  },
+  {
+   "nome": "5ª Auditoria Judiciária Militar Estadual",
+   "qtd": 2945
+  },
+  {
+   "nome": "3a Auditoria Judiciaria Militar Estadual",
+   "qtd": 478
+  },
+  {
+   "nome": "Gab. Desembargador Fernando Antônio Nogueira Galvão da Rocha",
+   "qtd": 449
+  },
+  {
+   "nome": "Gab. Desembargador Socrates Edgard dos Anjos",
+   "qtd": 443
+  },
+  {
+   "nome": "Gab. Desembargador James Ferreira Santos",
+   "qtd": 418
+  },
+  {
+   "nome": "Gab. Desembargador Osmar Duarte Marcelino",
+   "qtd": 415
+  },
+  {
+   "nome": "4a Auditoria Judiciaria Militar Estadual",
+   "qtd": 391
+  },
+  {
+   "nome": "Gab. Desembargador Fernando José Armando Ribeiro ",
+   "qtd": 352
+  },
+  {
+   "nome": "Gab. Desembargador Rúbio Paulino Coelho",
+   "qtd": 337
+  },
+  {
+   "nome": "1a Auditoria Judiciaria Militar Estadual",
+   "qtd": 303
+  },
+  {
+   "nome": "Gab. Desembargador Jadir Silva",
+   "qtd": 296
+  }
+ ],
+ "total": 31644,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T18:27:06+00:00"
+}

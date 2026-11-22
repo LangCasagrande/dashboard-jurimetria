@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-21T18:49:45+00:00",
+ "gerado_em": "2026-11-22T18:34:53+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "tribunais": [
   {
@@ -954,6 +954,817 @@
     "orgaos",
     "sistemas",
     "total"
+   ]
+  },
+  {
+   "alias": "trt13",
+   "sigla": "TRT13",
+   "nome": "Tribunal Regional do Trabalho da 13ª Região",
+   "ramo": "Trabalho",
+   "total": 355331,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Sumaríssimo",
+   "atualizado_em": "2026-11-22T13:12:46+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt14",
+   "sigla": "TRT14",
+   "nome": "Tribunal Regional do Trabalho da 14ª Região",
+   "ramo": "Trabalho",
+   "total": null,
+   "pct_eletronico": 99.9,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-22T13:28:45+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas"
+   ]
+  },
+  {
+   "alias": "trt15",
+   "sigla": "TRT15",
+   "nome": "Tribunal Regional do Trabalho da 15ª Região",
+   "ramo": "Trabalho",
+   "total": 3846488,
+   "pct_eletronico": 99.8,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-22T13:39:03+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt16",
+   "sigla": "TRT16",
+   "nome": "Tribunal Regional do Trabalho da 16ª Região",
+   "ramo": "Trabalho",
+   "total": 442095,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-22T13:51:26+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt17",
+   "sigla": "TRT17",
+   "nome": "Tribunal Regional do Trabalho da 17ª Região",
+   "ramo": "Trabalho",
+   "total": 625108,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-22T14:04:00+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt18",
+   "sigla": "TRT18",
+   "nome": "Tribunal Regional do Trabalho da 18ª Região",
+   "ramo": "Trabalho",
+   "total": 854676,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-22T14:18:02+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt19",
+   "sigla": "TRT19",
+   "nome": "Tribunal Regional do Trabalho da 19ª Região",
+   "ramo": "Trabalho",
+   "total": 454624,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-22T14:25:45+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt20",
+   "sigla": "TRT20",
+   "nome": "Tribunal Regional do Trabalho da 20ª Região",
+   "ramo": "Trabalho",
+   "total": 245333,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-22T14:30:03+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt21",
+   "sigla": "TRT21",
+   "nome": "Tribunal Regional do Trabalho da 21ª Região",
+   "ramo": "Trabalho",
+   "total": 274794,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Sumaríssimo",
+   "atualizado_em": "2026-11-22T14:35:57+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt22",
+   "sigla": "TRT22",
+   "nome": "Tribunal Regional do Trabalho da 22ª Região",
+   "ramo": "Trabalho",
+   "total": 281154,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-22T14:40:08+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt23",
+   "sigla": "TRT23",
+   "nome": "Tribunal Regional do Trabalho da 23ª Região",
+   "ramo": "Trabalho",
+   "total": 370319,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-22T14:47:31+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "trt24",
+   "sigla": "TRT24",
+   "nome": "Tribunal Regional do Trabalho da 24ª Região",
+   "ramo": "Trabalho",
+   "total": 344561,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "atualizado_em": "2026-11-22T14:54:26+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-ac",
+   "sigla": "TRE-AC",
+   "nome": "Tribunal Regional Eleitoral do Acre",
+   "ramo": "Eleitoral",
+   "total": 22487,
+   "pct_eletronico": 98.7,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T14:58:58+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-al",
+   "sigla": "TRE-AL",
+   "nome": "Tribunal Regional Eleitoral de Alagoas",
+   "ramo": "Eleitoral",
+   "total": 60802,
+   "pct_eletronico": 96.4,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T15:09:19+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-am",
+   "sigla": "TRE-AM",
+   "nome": "Tribunal Regional Eleitoral do Amazonas",
+   "ramo": "Eleitoral",
+   "total": 81011,
+   "pct_eletronico": 93.4,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T15:18:28+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-ap",
+   "sigla": "TRE-AP",
+   "nome": "Tribunal Regional Eleitoral do Amapá",
+   "ramo": "Eleitoral",
+   "total": 20671,
+   "pct_eletronico": 97.6,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T15:27:57+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-ba",
+   "sigla": "TRE-BA",
+   "nome": "Tribunal Regional Eleitoral da Bahia",
+   "ramo": "Eleitoral",
+   "total": 309973,
+   "pct_eletronico": 99.2,
+   "classe_principal": "Prestação de Contas Eleitorais",
+   "atualizado_em": "2026-11-22T15:43:25+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-ce",
+   "sigla": "TRE-CE",
+   "nome": "Tribunal Regional Eleitoral do Ceará",
+   "ramo": "Eleitoral",
+   "total": 145710,
+   "pct_eletronico": null,
+   "classe_principal": "Prestação de Contas Eleitorais",
+   "atualizado_em": "2026-11-22T16:01:23+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-es",
+   "sigla": "TRE-ES",
+   "nome": "Tribunal Regional Eleitoral do Espírito Santo",
+   "ramo": "Eleitoral",
+   "total": 90818,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T16:08:55+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-go",
+   "sigla": "TRE-GO",
+   "nome": "Tribunal Regional Eleitoral de Goiás",
+   "ramo": "Eleitoral",
+   "total": 229704,
+   "pct_eletronico": 85.9,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T16:13:40+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-ma",
+   "sigla": "TRE-MA",
+   "nome": "Tribunal Regional Eleitoral do Maranhão",
+   "ramo": "Eleitoral",
+   "total": 228032,
+   "pct_eletronico": 67.1,
+   "classe_principal": "Prestação de Contas Eleitorais",
+   "atualizado_em": "2026-11-22T16:20:49+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-mg",
+   "sigla": "TRE-MG",
+   "nome": "Tribunal Regional Eleitoral de Minas Gerais",
+   "ramo": "Eleitoral",
+   "total": 615742,
+   "pct_eletronico": 93.3,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T16:42:00+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-ms",
+   "sigla": "TRE-MS",
+   "nome": "Tribunal Regional Eleitoral de Mato Grosso do Sul",
+   "ramo": "Eleitoral",
+   "total": 106118,
+   "pct_eletronico": 61.0,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T16:46:39+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-mt",
+   "sigla": "TRE-MT",
+   "nome": "Tribunal Regional Eleitoral de Mato Grosso",
+   "ramo": "Eleitoral",
+   "total": 107992,
+   "pct_eletronico": 93.4,
+   "classe_principal": "Prestação de Contas Eleitorais",
+   "atualizado_em": "2026-11-22T16:52:13+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-pa",
+   "sigla": "TRE-PA",
+   "nome": "Tribunal Regional Eleitoral do Pará",
+   "ramo": "Eleitoral",
+   "total": 219292,
+   "pct_eletronico": 72.7,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T16:57:40+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-pb",
+   "sigla": "TRE-PB",
+   "nome": "Tribunal Regional Eleitoral da Paraíba",
+   "ramo": "Eleitoral",
+   "total": 99897,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Prestação de Contas Eleitorais",
+   "atualizado_em": "2026-11-22T17:01:14+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-pe",
+   "sigla": "TRE-PE",
+   "nome": "Tribunal Regional Eleitoral de Pernambuco",
+   "ramo": "Eleitoral",
+   "total": 150334,
+   "pct_eletronico": 98.8,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T17:10:44+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-pi",
+   "sigla": "TRE-PI",
+   "nome": "Tribunal Regional Eleitoral do Piauí",
+   "ramo": "Eleitoral",
+   "total": 93992,
+   "pct_eletronico": 95.4,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T17:20:00+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-pr",
+   "sigla": "TRE-PR",
+   "nome": "Tribunal Regional Eleitoral do Paraná",
+   "ramo": "Eleitoral",
+   "total": 314832,
+   "pct_eletronico": 95.6,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T17:25:01+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-rj",
+   "sigla": "TRE-RJ",
+   "nome": "Tribunal Regional Eleitoral do Rio de Janeiro",
+   "ramo": "Eleitoral",
+   "total": 221708,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T17:29:20+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-rn",
+   "sigla": "TRE-RN",
+   "nome": "Tribunal Regional Eleitoral do Rio Grande do Norte",
+   "ramo": "Eleitoral",
+   "total": 87889,
+   "pct_eletronico": 95.9,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T17:37:23+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-ro",
+   "sigla": "TRE-RO",
+   "nome": "Tribunal Regional Eleitoral de Rondônia",
+   "ramo": "Eleitoral",
+   "total": 46388,
+   "pct_eletronico": 96.8,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T17:42:59+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-rr",
+   "sigla": "TRE-RR",
+   "nome": "Tribunal Regional Eleitoral de Roraima",
+   "ramo": "Eleitoral",
+   "total": 19925,
+   "pct_eletronico": 89.6,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T17:48:09+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-rs",
+   "sigla": "TRE-RS",
+   "nome": "Tribunal Regional Eleitoral do Rio Grande do Sul",
+   "ramo": "Eleitoral",
+   "total": 314086,
+   "pct_eletronico": 74.5,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T17:56:08+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-sc",
+   "sigla": "TRE-SC",
+   "nome": "Tribunal Regional Eleitoral de Santa Catarina",
+   "ramo": "Eleitoral",
+   "total": 196100,
+   "pct_eletronico": 80.7,
+   "classe_principal": "Prestação de Contas Eleitorais",
+   "atualizado_em": "2026-11-22T18:03:40+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-se",
+   "sigla": "TRE-SE",
+   "nome": "Tribunal Regional Eleitoral de Sergipe",
+   "ramo": "Eleitoral",
+   "total": 55983,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T18:10:25+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-sp",
+   "sigla": "TRE-SP",
+   "nome": "Tribunal Regional Eleitoral de São Paulo",
+   "ramo": "Eleitoral",
+   "total": 620518,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Registro de Candidatura",
+   "atualizado_em": "2026-11-22T18:17:41+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tre-to",
+   "sigla": "TRE-TO",
+   "nome": "Tribunal Regional Eleitoral do Tocantins",
+   "ramo": "Eleitoral",
+   "total": 68044,
+   "pct_eletronico": 96.9,
+   "classe_principal": "Prestação de Contas Eleitorais",
+   "atualizado_em": "2026-11-22T18:21:22+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjmmg",
+   "sigla": "TJMMG",
+   "nome": "Tribunal de Justiça Militar de Minas Gerais",
+   "ramo": "Militar",
+   "total": 31644,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Procedimento Investigatório Criminal (PIC-MP) ",
+   "atualizado_em": "2026-11-22T18:27:06+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjmrs",
+   "sigla": "TJMRS",
+   "nome": "Tribunal de Justiça Militar do Rio Grande do Sul",
+   "ramo": "Militar",
+   "total": 11169,
+   "pct_eletronico": 100.0,
+   "classe_principal": "Inquérito Policial Militar",
+   "atualizado_em": "2026-11-22T18:33:57+00:00",
+   "partes": [
+    "assuntos",
+    "classes",
+    "formatos",
+    "graus",
+    "mensal",
+    "orgaos",
+    "sistemas",
+    "total"
+   ]
+  },
+  {
+   "alias": "tjmsp",
+   "sigla": "TJMSP",
+   "nome": "Tribunal de Justiça Militar de São Paulo",
+   "ramo": "Militar",
+   "total": null,
+   "pct_eletronico": null,
+   "classe_principal": null,
+   "atualizado_em": "2026-11-22T18:34:53+00:00",
+   "partes": [
+    "graus"
    ]
   }
  ]

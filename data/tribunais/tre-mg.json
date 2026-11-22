@@ -1,0 +1,240 @@
+{
+ "alias": "tre-mg",
+ "sigla": "TRE-MG",
+ "nome": "Tribunal Regional Eleitoral de Minas Gerais",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T16:21:14+00:00",
+  "formatos": "2026-11-22T16:22:00+00:00",
+  "sistemas": "2026-11-22T16:22:25+00:00",
+  "classes": "2026-11-22T16:25:29+00:00",
+  "assuntos": "2026-11-22T16:28:55+00:00",
+  "orgaos": "2026-11-22T16:38:34+00:00",
+  "total": "2026-11-22T16:39:48+00:00",
+  "mensal": "2026-11-22T16:42:00+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 558413
+  },
+  {
+   "nome": "G2",
+   "qtd": 57329
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 574457
+  },
+  {
+   "nome": "Físico",
+   "qtd": 41285
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 574333
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 41285
+  },
+  {
+   "nome": "Pje",
+   "qtd": 124
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 200746
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 177348
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 64537
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 21588
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 19141
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 18144
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 12920
+  },
+  {
+   "nome": "Representação",
+   "qtd": 11831
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 10403
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 10365
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 8065
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 7995
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 6266
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 6033
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 4806
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 313622
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 174923
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 169966
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 59554
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 27758
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 27498
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 18702
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 18091
+  },
+  {
+   "nome": "Regularização de Histórico - Exclusão de Códigos de ASE",
+   "qtd": 16414
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 11262
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 9969
+  },
+  {
+   "nome": "Ausência ou Abandono aos Trabalhos Eleitorais",
+   "qtd": 9606
+  },
+  {
+   "nome": "Regularização de Histórico - Retificação de Data de Ocorrência, Motivo/Forma, Complemento e Situação",
+   "qtd": 8298
+  },
+  {
+   "nome": "Propaganda Política - Propaganda Eleitoral - Banner/Cartaz/Faixa",
+   "qtd": 8129
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 7624
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "CORREGEDORIA REGIONAL ELEITORAL",
+   "qtd": 22649
+  },
+  {
+   "nome": "GABINETE DE JUIZ MEMBRO DA CORTE III",
+   "qtd": 7018
+  },
+  {
+   "nome": "GABINETE DE JUIZ MEMBRO DA CORTE II",
+   "qtd": 7017
+  },
+  {
+   "nome": "GABINETE DE JUIZ MEMBRO DA CORTE I",
+   "qtd": 6955
+  },
+  {
+   "nome": "GABINETE DE JUIZ MEMBRO DA CORTE IV",
+   "qtd": 6672
+  },
+  {
+   "nome": "GABINETE DE JUIZ MEMBRO DA CORTE V",
+   "qtd": 6593
+  },
+  {
+   "nome": "167ª Zona Eleitoral - Manhuaçu",
+   "qtd": 4054
+  },
+  {
+   "nome": "72ª Zona Eleitoral - Caratinga",
+   "qtd": 3985
+  },
+  {
+   "nome": "187ª Zona Eleitoral - Muriaé",
+   "qtd": 3966
+  },
+  {
+   "nome": "71ª Zona Eleitoral - Caratinga",
+   "qtd": 3806
+  },
+  {
+   "nome": "281ª Zona Eleitoral - Varginha",
+   "qtd": 3674
+  },
+  {
+   "nome": "194ª Zona Eleitoral - Nova Lima",
+   "qtd": 3632
+  },
+  {
+   "nome": "148ª Zona Eleitoral - Januária",
+   "qtd": 3480
+  },
+  {
+   "nome": "317ª Zona Eleitoral - Montes Claros",
+   "qtd": 3475
+  },
+  {
+   "nome": "227ª Zona Eleitoral - Pouso Alegre",
+   "qtd": 3431
+  }
+ ],
+ "total": 615742,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T16:42:00+00:00"
+}

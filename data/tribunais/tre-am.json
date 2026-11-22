@@ -1,0 +1,240 @@
+{
+ "alias": "tre-am",
+ "sigla": "TRE-AM",
+ "nome": "Tribunal Regional Eleitoral do Amazonas",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T15:11:03+00:00",
+  "formatos": "2026-11-22T15:12:34+00:00",
+  "sistemas": "2026-11-22T15:13:38+00:00",
+  "classes": "2026-11-22T15:14:13+00:00",
+  "assuntos": "2026-11-22T15:14:40+00:00",
+  "orgaos": "2026-11-22T15:16:01+00:00",
+  "total": "2026-11-22T15:17:01+00:00",
+  "mensal": "2026-11-22T15:18:28+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 71218
+  },
+  {
+   "nome": "G2",
+   "qtd": 9793
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 75435
+  },
+  {
+   "nome": "Físico",
+   "qtd": 5372
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 1
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 75433
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 5273
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 23091
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 21791
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 9049
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 3658
+  },
+  {
+   "nome": "Representação",
+   "qtd": 3125
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 2195
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 2003
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 1812
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 1550
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 1494
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1344
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 1323
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 840
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 682
+  },
+  {
+   "nome": "Direito de Resposta",
+   "qtd": 661
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 38119
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 21142
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 20563
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 8000
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 3971
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 3355
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 2838
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 2076
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 1866
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 1807
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 1722
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 1697
+  },
+  {
+   "nome": "Matéria Administrativa",
+   "qtd": 1545
+  },
+  {
+   "nome": "Requerimento de Regularização da Situação de Inadimplência de Prestação de Contas",
+   "qtd": 1541
+  },
+  {
+   "nome": "Coincidência Biométrica",
+   "qtd": 1458
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "3  ZONA ELEITORAL",
+   "qtd": 3049
+  },
+  {
+   "nome": "6  ZONA ELEITORAL",
+   "qtd": 2920
+  },
+  {
+   "nome": "35  ZONA ELEITORAL",
+   "qtd": 2293
+  },
+  {
+   "nome": "5  ZONA ELEITORAL",
+   "qtd": 2260
+  },
+  {
+   "nome": "17  ZONA ELEITORAL",
+   "qtd": 2245
+  },
+  {
+   "nome": "1  ZONA ELEITORAL",
+   "qtd": 2230
+  },
+  {
+   "nome": "23  ZONA ELEITORAL",
+   "qtd": 2030
+  },
+  {
+   "nome": "51  ZONA ELEITORAL",
+   "qtd": 1867
+  },
+  {
+   "nome": "56  ZONA ELEITORAL",
+   "qtd": 1814
+  },
+  {
+   "nome": "4  ZONA ELEITORAL",
+   "qtd": 1813
+  },
+  {
+   "nome": "8  ZONA ELEITORAL",
+   "qtd": 1781
+  },
+  {
+   "nome": "27  ZONA ELEITORAL",
+   "qtd": 1650
+  },
+  {
+   "nome": "24  ZONA ELEITORAL",
+   "qtd": 1563
+  },
+  {
+   "nome": "60  ZONA ELEITORAL",
+   "qtd": 1494
+  },
+  {
+   "nome": "9  ZONA ELEITORAL",
+   "qtd": 1420
+  }
+ ],
+ "total": 81011,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T15:18:28+00:00"
+}

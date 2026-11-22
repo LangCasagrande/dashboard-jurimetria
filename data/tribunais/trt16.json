@@ -1,0 +1,325 @@
+{
+ "alias": "trt16",
+ "sigla": "TRT16",
+ "nome": "Tribunal Regional do Trabalho da 16ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T13:39:36+00:00",
+  "formatos": "2026-11-22T13:40:51+00:00",
+  "sistemas": "2026-11-22T13:41:49+00:00",
+  "classes": "2026-11-22T13:43:24+00:00",
+  "assuntos": "2026-11-22T13:44:10+00:00",
+  "orgaos": "2026-11-22T13:45:11+00:00",
+  "total": "2026-11-22T13:45:54+00:00",
+  "mensal": "2026-11-22T13:51:26+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 349784
+  },
+  {
+   "nome": "G2",
+   "qtd": 92311
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 442095
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Pje",
+   "qtd": 249281
+  },
+  {
+   "nome": "PJe",
+   "qtd": 192814
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 160677
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 113327
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 48021
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 31484
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 14658
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 10772
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 10759
+  },
+  {
+   "nome": "Precatório",
+   "qtd": 10670
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 7776
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 4303
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 3948
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 3490
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 2991
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 2474
+  },
+  {
+   "nome": "Alvará Judicial - Lei 6858/80",
+   "qtd": 1569
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 70197
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 50408
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 38342
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 34785
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 32500
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 27906
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 23043
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 22189
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 21668
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 20464
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 18467
+  },
+  {
+   "nome": "Contrato Nulo - Efeitos",
+   "qtd": 16815
+  },
+  {
+   "nome": "Reconhecimento de Relação de Emprego",
+   "qtd": 14627
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 13750
+  },
+  {
+   "nome": "Depósito/Diferenças",
+   "qtd": 13589
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "5ª Vara do Trabalho de Sao Luis",
+   "qtd": 22265
+  },
+  {
+   "nome": "6ª Vara do Trabalho de Sao Luis",
+   "qtd": 21981
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Sao Luis",
+   "qtd": 21876
+  },
+  {
+   "nome": "4ª Vara do Trabalho de Sao Luis",
+   "qtd": 21826
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Sao Luis",
+   "qtd": 21774
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Sao Luis",
+   "qtd": 21576
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Imperatriz",
+   "qtd": 19991
+  },
+  {
+   "nome": "7ª Vara do Trabalho de Sao Luis",
+   "qtd": 19933
+  },
+  {
+   "nome": "Vara do Trabalho de Pinheiro",
+   "qtd": 19236
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Imperatriz",
+   "qtd": 16628
+  },
+  {
+   "nome": "Vara do Trabalho de Chapadinha",
+   "qtd": 14701
+  },
+  {
+   "nome": "Vara do Trabalho de Santa Ines",
+   "qtd": 14340
+  },
+  {
+   "nome": "Vara do Trabalho de Caxias",
+   "qtd": 14199
+  },
+  {
+   "nome": "Vara do Trabalho de Barra do Corda",
+   "qtd": 13643
+  },
+  {
+   "nome": "Vara do Trabalho de Bacabal",
+   "qtd": 13539
+  }
+ ],
+ "total": 442095,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 1654
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 1277
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 1173
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 1495
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 1823
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 1836
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 1622
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 1729
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 1920
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 1416
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 1342
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 1169
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 802
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 558
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 638
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 583
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 326
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 140
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 35
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 2
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-22T13:51:26+00:00"
+}

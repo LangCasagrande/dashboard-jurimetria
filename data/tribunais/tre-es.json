@@ -1,0 +1,228 @@
+{
+ "alias": "tre-es",
+ "sigla": "TRE-ES",
+ "nome": "Tribunal Regional Eleitoral do Espírito Santo",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T16:04:34+00:00",
+  "formatos": "2026-11-22T16:04:53+00:00",
+  "sistemas": "2026-11-22T16:05:21+00:00",
+  "classes": "2026-11-22T16:05:45+00:00",
+  "assuntos": "2026-11-22T16:06:23+00:00",
+  "orgaos": "2026-11-22T16:06:52+00:00",
+  "total": "2026-11-22T16:08:08+00:00",
+  "mensal": "2026-11-22T16:08:55+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 78479
+  },
+  {
+   "nome": "G2",
+   "qtd": 12339
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 90818
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 90818
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 27164
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 26596
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 8736
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 4804
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 2794
+  },
+  {
+   "nome": "Representação",
+   "qtd": 2735
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 2036
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1966
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 1930
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 1815
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 1396
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 1215
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 1178
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 1055
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 494
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 44835
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 24537
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 24223
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 8801
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 4726
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 4105
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 3962
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 3102
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 2490
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 2390
+  },
+  {
+   "nome": "Requerimento de Regularização da Situação de Inadimplência de Prestação de Contas",
+   "qtd": 2386
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 2354
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 2139
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 1352
+  },
+  {
+   "nome": "Execução - Cumprimento de Sentença",
+   "qtd": 1283
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "2 ª ZONA ELEITORAL",
+   "qtd": 2812
+  },
+  {
+   "nome": "Corregedor Regional Eleitoral",
+   "qtd": 2786
+  },
+  {
+   "nome": "44 ª ZONA ELEITORAL",
+   "qtd": 2390
+  },
+  {
+   "nome": "17 ª ZONA ELEITORAL",
+   "qtd": 2330
+  },
+  {
+   "nome": "34 ª ZONA ELEITORAL",
+   "qtd": 2284
+  },
+  {
+   "nome": "37 ª ZONA ELEITORAL",
+   "qtd": 2248
+  },
+  {
+   "nome": "24 ª ZONA ELEITORAL",
+   "qtd": 2156
+  },
+  {
+   "nome": "1 ª ZONA ELEITORAL",
+   "qtd": 2129
+  },
+  {
+   "nome": "14 ª ZONA ELEITORAL",
+   "qtd": 2117
+  },
+  {
+   "nome": "26 ª ZONA ELEITORAL",
+   "qtd": 2060
+  },
+  {
+   "nome": "30 ª ZONA ELEITORAL",
+   "qtd": 1961
+  },
+  {
+   "nome": "25 ª ZONA ELEITORAL",
+   "qtd": 1918
+  },
+  {
+   "nome": "6 ª ZONA ELEITORAL",
+   "qtd": 1840
+  },
+  {
+   "nome": "27 ª ZONA ELEITORAL",
+   "qtd": 1834
+  },
+  {
+   "nome": "21 ª ZONA ELEITORAL",
+   "qtd": 1833
+  }
+ ],
+ "total": 90818,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T16:08:55+00:00"
+}

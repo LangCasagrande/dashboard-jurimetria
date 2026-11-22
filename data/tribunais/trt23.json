@@ -1,0 +1,281 @@
+{
+ "alias": "trt23",
+ "sigla": "TRT23",
+ "nome": "Tribunal Regional do Trabalho da 23ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T14:43:10+00:00",
+  "formatos": "2026-11-22T14:43:51+00:00",
+  "sistemas": "2026-11-22T14:44:20+00:00",
+  "classes": "2026-11-22T14:44:52+00:00",
+  "assuntos": "2026-11-22T14:45:32+00:00",
+  "orgaos": "2026-11-22T14:47:08+00:00",
+  "total": "2026-11-22T14:47:20+00:00",
+  "mensal": "2026-11-22T14:47:31+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 299075
+  },
+  {
+   "nome": "G2",
+   "qtd": 71244
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 370319
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 367899
+  },
+  {
+   "nome": "Pje",
+   "qtd": 2420
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 134074
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 103713
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 36041
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 17079
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 15643
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 13407
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 11549
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 9549
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 5155
+  },
+  {
+   "nome": "Produção Antecipada da Prova",
+   "qtd": 3066
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 2841
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 2168
+  },
+  {
+   "nome": "Monitória",
+   "qtd": 1794
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 1695
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 1650
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 154388
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 140611
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 139402
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 133859
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 123641
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 114879
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 111901
+  },
+  {
+   "nome": "Honorários na Justiça do Trabalho ",
+   "qtd": 95210
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 93928
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 89826
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 84124
+  },
+  {
+   "nome": "Reflexos",
+   "qtd": 71654
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 71422
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 71342
+  },
+  {
+   "nome": "Intervalo Intrajornada",
+   "qtd": 61624
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "VARA DO TRABALHO DE SORRISO",
+   "qtd": 11005
+  },
+  {
+   "nome": "GABINETE DA DESEMBARGADORA MARIA BEATRIZ THEODORO",
+   "qtd": 10965
+  },
+  {
+   "nome": "VARA DO TRABALHO DE NOVA MUTUM",
+   "qtd": 10508
+  },
+  {
+   "nome": "VARA DO TRABALHO DE BARRA DO GARÇAS",
+   "qtd": 10463
+  },
+  {
+   "nome": "GABINETE DO DESEMBARGADOR TARCÍSIO VALENTE",
+   "qtd": 10268
+  },
+  {
+   "nome": "GABINETE DO DESEMBARGADOR JOÃO CARLOS",
+   "qtd": 10052
+  },
+  {
+   "nome": "GABINETE DA DESEMBARGADORA ELINEY BEZERRA VELOSO",
+   "qtd": 9974
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE SINOP",
+   "qtd": 9589
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE SINOP",
+   "qtd": 9447
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE CUIABÁ",
+   "qtd": 9443
+  },
+  {
+   "nome": "VARA DO TRABALHO DE PRIMAVERA DO LESTE",
+   "qtd": 9335
+  },
+  {
+   "nome": "9ª VARA DO TRABALHO DE CUIABÁ",
+   "qtd": 9322
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE CUIABÁ",
+   "qtd": 9145
+  },
+  {
+   "nome": "8ª VARA DO TRABALHO DE CUIABÁ",
+   "qtd": 9130
+  },
+  {
+   "nome": "7ª VARA DO TRABALHO DE CUIABÁ",
+   "qtd": 9113
+  }
+ ],
+ "total": 370319,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 3
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 3
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 3
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 5
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 5
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 5
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 8
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-22T14:47:31+00:00"
+}

@@ -1,0 +1,301 @@
+{
+ "alias": "tre-sp",
+ "sigla": "TRE-SP",
+ "nome": "Tribunal Regional Eleitoral de São Paulo",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T18:10:52+00:00",
+  "formatos": "2026-11-22T18:12:36+00:00",
+  "sistemas": "2026-11-22T18:12:55+00:00",
+  "classes": "2026-11-22T18:13:30+00:00",
+  "assuntos": "2026-11-22T18:14:06+00:00",
+  "orgaos": "2026-11-22T18:16:57+00:00",
+  "total": "2026-11-22T18:17:16+00:00",
+  "mensal": "2026-11-22T18:17:41+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 562561
+  },
+  {
+   "nome": "G2",
+   "qtd": 57957
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 620518
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 615698
+  },
+  {
+   "nome": "Pje",
+   "qtd": 4820
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 200678
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 198685
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 63100
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 19082
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 18041
+  },
+  {
+   "nome": "Representação",
+   "qtd": 13616
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 12597
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 11248
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 9387
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 8066
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 6838
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 6669
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 6529
+  },
+  {
+   "nome": "Suspensão de Órgão Partidário",
+   "qtd": 6261
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 6114
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 346881
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 182597
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 182597
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 61279
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 30467
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 30279
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 22672
+  },
+  {
+   "nome": "Contas - Não Apresentação das Contas",
+   "qtd": 20859
+  },
+  {
+   "nome": "Requerimento de Regularização da Situação de Inadimplência de Prestação de Contas",
+   "qtd": 18939
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 17926
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 15490
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 13201
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 12686
+  },
+  {
+   "nome": "Impugnação ao Registro de Candidatura",
+   "qtd": 11170
+  },
+  {
+   "nome": "Candidato Não-Eleito",
+   "qtd": 11111
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "CREGAB",
+   "qtd": 17863
+  },
+  {
+   "nome": "GAB03",
+   "qtd": 7553
+  },
+  {
+   "nome": "GAB02",
+   "qtd": 7276
+  },
+  {
+   "nome": "GAB05",
+   "qtd": 7099
+  },
+  {
+   "nome": "GAB04",
+   "qtd": 6967
+  },
+  {
+   "nome": "GAB01",
+   "qtd": 6965
+  },
+  {
+   "nome": "131 ª ZONA ELEITORAL - SÃO ROQUE",
+   "qtd": 4844
+  },
+  {
+   "nome": "75 ª ZONA ELEITORAL - MOJI-MIRIM",
+   "qtd": 4581
+  },
+  {
+   "nome": "16 ª ZONA ELEITORAL - ATIBAIA",
+   "qtd": 4151
+  },
+  {
+   "nome": "1 ª ZONA ELEITORAL - SÃO PAULO - BELA VISTA",
+   "qtd": 3944
+  },
+  {
+   "nome": "6 ª ZONA ELEITORAL - SÃO PAULO - VILA MARIANA",
+   "qtd": 3935
+  },
+  {
+   "nome": "140 ª ZONA ELEITORAL - TATUÍ",
+   "qtd": 3853
+  },
+  {
+   "nome": "135 ª ZONA ELEITORAL - SERTÃOZINHO",
+   "qtd": 3843
+  },
+  {
+   "nome": "53 ª ZONA ELEITORAL - ITAPEVA",
+   "qtd": 3689
+  },
+  {
+   "nome": "201 ª ZONA ELEITORAL - ITAPECERICA DA SERRA",
+   "qtd": 3586
+  }
+ ],
+ "total": 620518,
+ "mensal": [
+  {
+   "mes": "2023-12",
+   "qtd": 2
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 2
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 1
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 2
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 0
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 1
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-22T18:17:41+00:00"
+}

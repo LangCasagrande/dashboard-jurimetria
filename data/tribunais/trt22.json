@@ -1,0 +1,232 @@
+{
+ "alias": "trt22",
+ "sigla": "TRT22",
+ "nome": "Tribunal Regional do Trabalho da 22ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T14:36:39+00:00",
+  "formatos": "2026-11-22T14:37:07+00:00",
+  "sistemas": "2026-11-22T14:37:46+00:00",
+  "classes": "2026-11-22T14:38:39+00:00",
+  "assuntos": "2026-11-22T14:39:02+00:00",
+  "orgaos": "2026-11-22T14:39:26+00:00",
+  "total": "2026-11-22T14:39:44+00:00",
+  "mensal": "2026-11-22T14:40:08+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 203764
+  },
+  {
+   "nome": "G2",
+   "qtd": 77390
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 281154
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 278923
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 2231
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 108101
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 65740
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 28510
+  },
+  {
+   "nome": "Precatório",
+   "qtd": 22728
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 10977
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 9939
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 4653
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 4350
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 3101
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 2700
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 2622
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 2272
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 2045
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 1919
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 1841
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 44945
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 43812
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 32418
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 29742
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 24051
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 17368
+  },
+  {
+   "nome": "Indenização/Dobra/Terço Constitucional",
+   "qtd": 16921
+  },
+  {
+   "nome": "Depósito/Diferenças",
+   "qtd": 14806
+  },
+  {
+   "nome": "Décimo Terceiro Salário",
+   "qtd": 14735
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 14685
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 14095
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 13842
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 13819
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 13255
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 10427
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "SECRETARIA GERAL JUDICIÁRIA",
+   "qtd": 23069
+  },
+  {
+   "nome": "VARA DO TRABALHO DE PARNAÍBA",
+   "qtd": 19451
+  },
+  {
+   "nome": "3ª VARA DO TRABALHO DE TERESINA",
+   "qtd": 19260
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE TERESINA",
+   "qtd": 18527
+  },
+  {
+   "nome": "VARA DO TRABALHO DE SÃO RAIMUNDO NONATO",
+   "qtd": 18309
+  },
+  {
+   "nome": "4ª VARA DO TRABALHO DE TERESINA",
+   "qtd": 18138
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE TERESINA",
+   "qtd": 17591
+  },
+  {
+   "nome": "VARA DO TRABALHO DE PICOS",
+   "qtd": 13716
+  },
+  {
+   "nome": "6ª VARA DO TRABALHO DE TERESINA",
+   "qtd": 13683
+  },
+  {
+   "nome": "5ª VARA DO TRABALHO DE TERESINA",
+   "qtd": 13643
+  },
+  {
+   "nome": "VARA DO TRABALHO DE FLORIANO",
+   "qtd": 13187
+  },
+  {
+   "nome": "VARA DO TRABALHO DE BOM JESUS",
+   "qtd": 12729
+  },
+  {
+   "nome": "VARA DO TRABALHO DE PIRIPIRI",
+   "qtd": 12286
+  },
+  {
+   "nome": "SECRETARIA GERAL DA PRESIDÊNCIA",
+   "qtd": 10362
+  },
+  {
+   "nome": "VARA DO TRABALHO DE OEIRAS",
+   "qtd": 7892
+  }
+ ],
+ "total": 281154,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T14:40:08+00:00"
+}

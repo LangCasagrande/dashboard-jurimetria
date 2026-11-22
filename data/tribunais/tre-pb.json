@@ -1,0 +1,228 @@
+{
+ "alias": "tre-pb",
+ "sigla": "TRE-PB",
+ "nome": "Tribunal Regional Eleitoral da Paraíba",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T16:58:01+00:00",
+  "formatos": "2026-11-22T16:58:23+00:00",
+  "sistemas": "2026-11-22T16:58:38+00:00",
+  "classes": "2026-11-22T16:58:56+00:00",
+  "assuntos": "2026-11-22T16:59:46+00:00",
+  "orgaos": "2026-11-22T17:00:08+00:00",
+  "total": "2026-11-22T17:00:35+00:00",
+  "mensal": "2026-11-22T17:01:14+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 88823
+  },
+  {
+   "nome": "G2",
+   "qtd": 11074
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 99897
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 99897
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 28052
+  },
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 27418
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 13436
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 4589
+  },
+  {
+   "nome": "Representação",
+   "qtd": 3904
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 1861
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1750
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 1390
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 1368
+  },
+  {
+   "nome": "Lista de Apoiamento para Criação de Partido Político",
+   "qtd": 1351
+  },
+  {
+   "nome": "Recurso/Impugnação de Alistamento Eleitoral",
+   "qtd": 1347
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 1325
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 1213
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 1147
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 886
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 44324
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 24179
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 24053
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 13393
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 6556
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 6355
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 4148
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 3795
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 3275
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 1668
+  },
+  {
+   "nome": "Execução - Cumprimento de Sentença",
+   "qtd": 1594
+  },
+  {
+   "nome": "Reversão de Operação - Transferência Equivocada",
+   "qtd": 1504
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 1463
+  },
+  {
+   "nome": "Cargo - Vice-Prefeito",
+   "qtd": 1440
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 1439
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "16 ª ZONA ELEITORAL - CAMPINA GRANDE/PB",
+   "qtd": 2361
+  },
+  {
+   "nome": "2 ª ZONA ELEITORAL - SANTA RITA/PB",
+   "qtd": 2266
+  },
+  {
+   "nome": "4 ª ZONA ELEITORAL - SAPÉ/PB",
+   "qtd": 2173
+  },
+  {
+   "nome": "7 ª ZONA ELEITORAL - MAMANGUAPE/PB",
+   "qtd": 2062
+  },
+  {
+   "nome": "73 ª ZONA ELEITORAL - ALHANDRA/PB",
+   "qtd": 1937
+  },
+  {
+   "nome": "61 ª ZONA ELEITORAL - BAYEUX/PB",
+   "qtd": 1905
+  },
+  {
+   "nome": "6 ª ZONA ELEITORAL - ITABAIANA/PB",
+   "qtd": 1864
+  },
+  {
+   "nome": "11 ª ZONA ELEITORAL - AREIA/PB",
+   "qtd": 1804
+  },
+  {
+   "nome": "60 ª ZONA ELEITORAL - JACARAÚ/PB",
+   "qtd": 1802
+  },
+  {
+   "nome": "64 ª ZONA ELEITORAL - JOÃO PESSOA/PB",
+   "qtd": 1750
+  },
+  {
+   "nome": "35 ª ZONA ELEITORAL - SOUSA/PB",
+   "qtd": 1748
+  },
+  {
+   "nome": "14 ª ZONA ELEITORAL - BANANEIRAS/PB",
+   "qtd": 1699
+  },
+  {
+   "nome": "30 ª ZONA ELEITORAL - TEIXEIRA/PB",
+   "qtd": 1678
+  },
+  {
+   "nome": "28 ª ZONA ELEITORAL - PATOS/PB",
+   "qtd": 1672
+  },
+  {
+   "nome": "44 ª ZONA ELEITORAL - PEDRAS DE FOGO/PB",
+   "qtd": 1661
+  }
+ ],
+ "total": 99897,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T17:01:14+00:00"
+}

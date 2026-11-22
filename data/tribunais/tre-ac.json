@@ -1,0 +1,236 @@
+{
+ "alias": "tre-ac",
+ "sigla": "TRE-AC",
+ "nome": "Tribunal Regional Eleitoral do Acre",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T14:54:57+00:00",
+  "formatos": "2026-11-22T14:55:25+00:00",
+  "sistemas": "2026-11-22T14:56:19+00:00",
+  "classes": "2026-11-22T14:56:50+00:00",
+  "assuntos": "2026-11-22T14:57:41+00:00",
+  "orgaos": "2026-11-22T14:58:10+00:00",
+  "total": "2026-11-22T14:58:33+00:00",
+  "mensal": "2026-11-22T14:58:58+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 17500
+  },
+  {
+   "nome": "G2",
+   "qtd": 4987
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 22194
+  },
+  {
+   "nome": "Físico",
+   "qtd": 293
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 22194
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 293
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 7055
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 6699
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 2365
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 1044
+  },
+  {
+   "nome": "Representação",
+   "qtd": 672
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 629
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 377
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 369
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 321
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 311
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 252
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 231
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 224
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 216
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 157
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 10802
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 6462
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 6251
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 2394
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 1436
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 1130
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 962
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 911
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 692
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 570
+  },
+  {
+   "nome": "Cargo - Deputado Federal",
+   "qtd": 548
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 521
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 466
+  },
+  {
+   "nome": "Execução - Cumprimento de Sentença",
+   "qtd": 385
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 321
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "4 ZE - CARTÓRIO ELEITORAL DA 4ª ZONA",
+   "qtd": 3897
+  },
+  {
+   "nome": "1 ZE - CARTÓRIO ELEITORAL DA 1ª ZONA",
+   "qtd": 3114
+  },
+  {
+   "nome": "6 ZE - CARTÓRIO ELEITORAL DA 6ª ZONA",
+   "qtd": 1969
+  },
+  {
+   "nome": "8 ZE - CARTÓRIO ELEITORAL DA 8ª ZONA",
+   "qtd": 1808
+  },
+  {
+   "nome": "3 ZE - CARTÓRIO ELEITORAL DA 3ª ZONA",
+   "qtd": 1573
+  },
+  {
+   "nome": "9 ZE - CARTÓRIO ELEITORAL DA 9ª ZONA",
+   "qtd": 1560
+  },
+  {
+   "nome": "5 ZE - CARTÓRIO ELEITORAL DA 5ª ZONA",
+   "qtd": 1517
+  },
+  {
+   "nome": "2 ZE - CARTÓRIO ELEITORAL DA 2ª ZONA",
+   "qtd": 1149
+  },
+  {
+   "nome": "7 ZE - CARTÓRIO ELEITORAL DA 7ª ZONA",
+   "qtd": 845
+  },
+  {
+   "nome": "Gabinete do Corregedor Regional Eleitoral",
+   "qtd": 813
+  },
+  {
+   "nome": "Gabinete do Vice-Presidente",
+   "qtd": 710
+  },
+  {
+   "nome": "Gabinete do Jurista 1",
+   "qtd": 638
+  },
+  {
+   "nome": "Gabinete do Juiz Federal",
+   "qtd": 618
+  },
+  {
+   "nome": "Gabinete do Jurista 2",
+   "qtd": 592
+  },
+  {
+   "nome": "Gabinete do Juiz de Direito 2",
+   "qtd": 560
+  }
+ ],
+ "total": 22487,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T14:58:58+00:00"
+}

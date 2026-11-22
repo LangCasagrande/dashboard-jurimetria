@@ -1,0 +1,244 @@
+{
+ "alias": "tre-go",
+ "sigla": "TRE-GO",
+ "nome": "Tribunal Regional Eleitoral de Goiás",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T16:09:18+00:00",
+  "formatos": "2026-11-22T16:10:21+00:00",
+  "sistemas": "2026-11-22T16:10:42+00:00",
+  "classes": "2026-11-22T16:11:21+00:00",
+  "assuntos": "2026-11-22T16:11:43+00:00",
+  "orgaos": "2026-11-22T16:12:50+00:00",
+  "total": "2026-11-22T16:13:20+00:00",
+  "mensal": "2026-11-22T16:13:40+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 204899
+  },
+  {
+   "nome": "G2",
+   "qtd": 24805
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 197224
+  },
+  {
+   "nome": "Físico",
+   "qtd": 32480
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 193526
+  },
+  {
+   "nome": "Outros",
+   "qtd": 32003
+  },
+  {
+   "nome": "Pje",
+   "qtd": 3698
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 477
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 54102
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 53012
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 39066
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 8872
+  },
+  {
+   "nome": "Representação",
+   "qtd": 7767
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 7323
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 6499
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 5110
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 5055
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 4723
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 3920
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 3701
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 3309
+  },
+  {
+   "nome": "Ação Penal Eleitoral",
+   "qtd": 2907
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 2455
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 89994
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 67227
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 47774
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 21140
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 11099
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 10249
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 9548
+  },
+  {
+   "nome": "Ausência ou Abandono aos Trabalhos Eleitorais",
+   "qtd": 6014
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 5560
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 5494
+  },
+  {
+   "nome": "Matéria Administrativa",
+   "qtd": 5085
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 4927
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 4479
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 4189
+  },
+  {
+   "nome": "Requerimento de Regularização da Situação de Inadimplência de Prestação de Contas",
+   "qtd": 3324
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "011ª ZONA ELEITORAL-GOÍAS/FORMOSA",
+   "qtd": 4315
+  },
+  {
+   "nome": "066ª ZONA ELEITORAL-GOIÁS/SANTA HELENA DE GOIÁS",
+   "qtd": 4301
+  },
+  {
+   "nome": "008ª ZONA ELEITORAL-GOIÁS/CATALÃO",
+   "qtd": 4022
+  },
+  {
+   "nome": "CORREGEDORIA REGIONAL ELEITORAL",
+   "qtd": 3785
+  },
+  {
+   "nome": "050ª ZONA ELEITORAL-GOIÁS/URUAÇU",
+   "qtd": 3783
+  },
+  {
+   "nome": "028ª ZONA ELEITORAL - GOIÁS/ÁGUAS LINDAS",
+   "qtd": 3564
+  },
+  {
+   "nome": "101ª  ZONA ELEITORAL-GOIÁS/GOIANIRA",
+   "qtd": 3520
+  },
+  {
+   "nome": "007ª ZONA ELEITORAL-GOIÀS/CALDAS NOVAS",
+   "qtd": 3488
+  },
+  {
+   "nome": "GABINETE DE JUIZ DE DIREITO I",
+   "qtd": 3348
+  },
+  {
+   "nome": "GABINETE DE JURISTA II",
+   "qtd": 3303
+  },
+  {
+   "nome": "040ª ZONA ELEITORAL-GOIÁS/SENADOR CANEDO",
+   "qtd": 3244
+  },
+  {
+   "nome": "GABINETE DE JUIZ DE DIREITO II",
+   "qtd": 3242
+  },
+  {
+   "nome": "033ª ZONA ELEITORAL-GOIÁS/VALPARAÍSO DE GOIÁS",
+   "qtd": 3167
+  },
+  {
+   "nome": "GABINETE DE JURISTA I",
+   "qtd": 3144
+  },
+  {
+   "nome": "GABINETE DE JUIZ FEDERAL",
+   "qtd": 3085
+  }
+ ],
+ "total": 229704,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T16:13:40+00:00"
+}

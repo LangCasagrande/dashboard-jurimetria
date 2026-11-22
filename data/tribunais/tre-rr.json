@@ -1,0 +1,236 @@
+{
+ "alias": "tre-rr",
+ "sigla": "TRE-RR",
+ "nome": "Tribunal Regional Eleitoral de Roraima",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T17:43:42+00:00",
+  "formatos": "2026-11-22T17:44:14+00:00",
+  "sistemas": "2026-11-22T17:44:47+00:00",
+  "classes": "2026-11-22T17:45:23+00:00",
+  "assuntos": "2026-11-22T17:45:54+00:00",
+  "orgaos": "2026-11-22T17:46:20+00:00",
+  "total": "2026-11-22T17:46:53+00:00",
+  "mensal": "2026-11-22T17:48:09+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 13961
+  },
+  {
+   "nome": "G2",
+   "qtd": 5964
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 17859
+  },
+  {
+   "nome": "Físico",
+   "qtd": 2066
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 17859
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 2066
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 5966
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 4487
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 1799
+  },
+  {
+   "nome": "Representação",
+   "qtd": 881
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 867
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 861
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 659
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 502
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 472
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 441
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 404
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 306
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 220
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 216
+  },
+  {
+   "nome": "Ação Penal Eleitoral",
+   "qtd": 205
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 6587
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 5049
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 4972
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 1949
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 1911
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 927
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 793
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 773
+  },
+  {
+   "nome": "Cargo - Deputado Federal",
+   "qtd": 771
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 646
+  },
+  {
+   "nome": "Cancelamento de Registro de Candidatura",
+   "qtd": 547
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 536
+  },
+  {
+   "nome": "Ausência ou Abandono aos Trabalhos Eleitorais",
+   "qtd": 471
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 445
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 410
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "5ª ZONA ELEITORAL",
+   "qtd": 3507
+  },
+  {
+   "nome": "1ª ZONA ELEITORAL",
+   "qtd": 3027
+  },
+  {
+   "nome": "4ª ZONA ELEITORAL",
+   "qtd": 2129
+  },
+  {
+   "nome": "7ª ZONA ELEITORAL",
+   "qtd": 1586
+  },
+  {
+   "nome": "6ª ZONA ELEITORAL",
+   "qtd": 1191
+  },
+  {
+   "nome": "CORREGEDORIA/VICE-PRESIDÊNCIA",
+   "qtd": 1174
+  },
+  {
+   "nome": "8ª ZONA ELEITORAL",
+   "qtd": 908
+  },
+  {
+   "nome": "GABINETE DO JUIZ DE DIREITO ESTADUAL 2",
+   "qtd": 879
+  },
+  {
+   "nome": "2ª ZONA ELEITORAL",
+   "qtd": 867
+  },
+  {
+   "nome": "GABINETE DO JUIZ DE DIREITO FEDERAL",
+   "qtd": 788
+  },
+  {
+   "nome": "GABINETE DO JURISTA 1",
+   "qtd": 786
+  },
+  {
+   "nome": "GABINETE DO JUIZ DE DIREITO ESTADUAL 1",
+   "qtd": 781
+  },
+  {
+   "nome": "GABINETE DO JURISTA 2",
+   "qtd": 774
+  },
+  {
+   "nome": "3ª ZONA ELEITORAL",
+   "qtd": 721
+  },
+  {
+   "nome": "PRESIDÊNCIA",
+   "qtd": 253
+  }
+ ],
+ "total": 19925,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T17:48:09+00:00"
+}

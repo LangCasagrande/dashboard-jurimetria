@@ -1,0 +1,244 @@
+{
+ "alias": "tre-sc",
+ "sigla": "TRE-SC",
+ "nome": "Tribunal Regional Eleitoral de Santa Catarina",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T17:56:45+00:00",
+  "formatos": "2026-11-22T17:58:02+00:00",
+  "sistemas": "2026-11-22T17:58:54+00:00",
+  "classes": "2026-11-22T17:59:15+00:00",
+  "assuntos": "2026-11-22T17:59:32+00:00",
+  "orgaos": "2026-11-22T17:59:51+00:00",
+  "total": "2026-11-22T18:01:03+00:00",
+  "mensal": "2026-11-22T18:03:40+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 183574
+  },
+  {
+   "nome": "G2",
+   "qtd": 12526
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 158315
+  },
+  {
+   "nome": "Físico",
+   "qtd": 37785
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 158313
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 37560
+  },
+  {
+   "nome": "Outros",
+   "qtd": 221
+  },
+  {
+   "nome": "Pje",
+   "qtd": 6
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 59798
+  },
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 53979
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 21989
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 19509
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 5008
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 4073
+  },
+  {
+   "nome": "Representação",
+   "qtd": 3656
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 2905
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 2713
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 2545
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 2151
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 2019
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 1279
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 1161
+  },
+  {
+   "nome": "Cancelamento de Inscrição Eleitoral (CIE)",
+   "qtd": 1148
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 84243
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 50774
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 44620
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 30217
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 21621
+  },
+  {
+   "nome": "Matéria Administrativa",
+   "qtd": 12604
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 11459
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 10094
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 6177
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 5888
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 5473
+  },
+  {
+   "nome": "Eleições - 1° Turno",
+   "qtd": 4452
+  },
+  {
+   "nome": "Ausência ou Abandono aos Trabalhos Eleitorais",
+   "qtd": 4009
+  },
+  {
+   "nome": "Direitos Políticos - Suspensão de Direitos Políticos",
+   "qtd": 3011
+  },
+  {
+   "nome": "Regularização de Histórico - Exclusão de Códigos de ASE",
+   "qtd": 2810
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "11 ª ZONA ELEITORAL",
+   "qtd": 5186
+  },
+  {
+   "nome": "18 ª ZONA ELEITORAL",
+   "qtd": 3816
+  },
+  {
+   "nome": "Relatoria Corregedor Regional Eleitoral",
+   "qtd": 3785
+  },
+  {
+   "nome": "7 ª ZONA ELEITORAL",
+   "qtd": 3612
+  },
+  {
+   "nome": "88 ª ZONA ELEITORAL",
+   "qtd": 3546
+  },
+  {
+   "nome": "85 ª ZONA ELEITORAL",
+   "qtd": 3186
+  },
+  {
+   "nome": "31 ª ZONA ELEITORAL",
+   "qtd": 3117
+  },
+  {
+   "nome": "27 ª ZONA ELEITORAL",
+   "qtd": 2937
+  },
+  {
+   "nome": "2 ª ZONA ELEITORAL",
+   "qtd": 2910
+  },
+  {
+   "nome": "68 ª ZONA ELEITORAL",
+   "qtd": 2845
+  },
+  {
+   "nome": "84 ª ZONA ELEITORAL",
+   "qtd": 2765
+  },
+  {
+   "nome": "36 ª ZONA ELEITORAL",
+   "qtd": 2744
+  },
+  {
+   "nome": "64 ª ZONA ELEITORAL",
+   "qtd": 2710
+  },
+  {
+   "nome": "54 ª ZONA ELEITORAL",
+   "qtd": 2675
+  },
+  {
+   "nome": "99 ª ZONA ELEITORAL",
+   "qtd": 2664
+  }
+ ],
+ "total": 196100,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T18:03:40+00:00"
+}

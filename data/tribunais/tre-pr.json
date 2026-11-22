@@ -1,0 +1,257 @@
+{
+ "alias": "tre-pr",
+ "sigla": "TRE-PR",
+ "nome": "Tribunal Regional Eleitoral do Paraná",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T17:21:00+00:00",
+  "formatos": "2026-11-22T17:21:27+00:00",
+  "sistemas": "2026-11-22T17:21:50+00:00",
+  "classes": "2026-11-22T17:22:37+00:00",
+  "assuntos": "2026-11-22T17:23:27+00:00",
+  "orgaos": "2026-11-22T17:23:56+00:00",
+  "total": "2026-11-22T17:24:39+00:00",
+  "mensal": "2026-11-22T17:25:01+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 271278
+  },
+  {
+   "nome": "G2",
+   "qtd": 43554
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 301017
+  },
+  {
+   "nome": "Físico",
+   "qtd": 13815
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 298366
+  },
+  {
+   "nome": "Outros",
+   "qtd": 10167
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 3648
+  },
+  {
+   "nome": "Pje",
+   "qtd": 2651
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 87132
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 83858
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 37083
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 10331
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 10307
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 10010
+  },
+  {
+   "nome": "Representação",
+   "qtd": 8791
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 7388
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 7300
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 6784
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 6041
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 5885
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 4893
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 3600
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 2601
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 144568
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 78759
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 75424
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 35991
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 26996
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 16179
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 9354
+  },
+  {
+   "nome": "Candidato Não-Eleito",
+   "qtd": 9340
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 9102
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 8873
+  },
+  {
+   "nome": "Ausência ou Abandono aos Trabalhos Eleitorais",
+   "qtd": 6110
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 5960
+  },
+  {
+   "nome": "Eleições - 1° Turno",
+   "qtd": 5773
+  },
+  {
+   "nome": "Regularização de Histórico - Retificação de Data de Ocorrência, Motivo/Forma, Complemento e Situação",
+   "qtd": 5744
+  },
+  {
+   "nome": "Regularização de Histórico - Exclusão de Códigos de ASE",
+   "qtd": 5695
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Gabinete da Relatoria da Corregedoria – Gab6",
+   "qtd": 14628
+  },
+  {
+   "nome": "Gabinete 1 Juiz Estadual",
+   "qtd": 5349
+  },
+  {
+   "nome": "Gabinete 2 Jurista",
+   "qtd": 5142
+  },
+  {
+   "nome": "Gabinete 4 Juiz Federal",
+   "qtd": 4700
+  },
+  {
+   "nome": "Gabinete 3 Jurista",
+   "qtd": 4519
+  },
+  {
+   "nome": "Gabinete 5 Juiz Estadual",
+   "qtd": 4318
+  },
+  {
+   "nome": "144 ª zona eleitoral-Fazenda Rio Grande",
+   "qtd": 4038
+  },
+  {
+   "nome": "50 ª zona eleitoral-Araucária",
+   "qtd": 2867
+  },
+  {
+   "nome": "5 ª zona eleitoral-Paranaguá",
+   "qtd": 2776
+  },
+  {
+   "nome": "86 ª zona eleitoral-Cruzeiro do Oeste",
+   "qtd": 2745
+  },
+  {
+   "nome": "28 ª zona eleitoral-Apucarana",
+   "qtd": 2743
+  },
+  {
+   "nome": "194 ª zona eleitoral-Matinhos",
+   "qtd": 2730
+  },
+  {
+   "nome": "58 ª zona eleitoral-Bandeirantes",
+   "qtd": 2701
+  },
+  {
+   "nome": "45 ª zona eleitoral-Laranjeiras do Sul",
+   "qtd": 2578
+  },
+  {
+   "nome": "Assessora Técnica Gabinete 6",
+   "qtd": 2545
+  }
+ ],
+ "total": 314832,
+ "mensal": [
+  {
+   "mes": "2024-04",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 0
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 1
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-22T17:25:01+00:00"
+}

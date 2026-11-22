@@ -1,0 +1,235 @@
+{
+ "alias": "tre-ce",
+ "sigla": "TRE-CE",
+ "nome": "Tribunal Regional Eleitoral do Ceará",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T15:44:00+00:00",
+  "sistemas": "2026-11-22T15:54:52+00:00",
+  "classes": "2026-11-22T15:57:30+00:00",
+  "assuntos": "2026-11-22T15:58:20+00:00",
+  "orgaos": "2026-11-22T16:00:08+00:00",
+  "total": "2026-11-22T16:00:54+00:00",
+  "mensal": "2026-11-22T16:01:23+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 127778
+  },
+  {
+   "nome": "G2",
+   "qtd": 17932
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 140506
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 4546
+  },
+  {
+   "nome": "Outros",
+   "qtd": 657
+  },
+  {
+   "nome": "Pje",
+   "qtd": 1
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 35870
+  },
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 35699
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 14666
+  },
+  {
+   "nome": "Representação",
+   "qtd": 7068
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 5701
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 4941
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 3885
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 3761
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 3497
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 3333
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 2916
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 2678
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 2454
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 2401
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 1846
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 59305
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 33087
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 32414
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 15330
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 8024
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 6625
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 5327
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 4434
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 3693
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 3591
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 3571
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 3379
+  },
+  {
+   "nome": "Ausência ou Abandono aos Trabalhos Eleitorais",
+   "qtd": 3077
+  },
+  {
+   "nome": "Requerimento de Regularização da Situação de Inadimplência de Prestação de Contas",
+   "qtd": 2708
+  },
+  {
+   "nome": "Propaganda Política - Propaganda Eleitoral - Redes Sociais",
+   "qtd": 2476
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "CORREGEDOR",
+   "qtd": 3644
+  },
+  {
+   "nome": "5 ª ZONA ELEITORAL - BATURITÉ",
+   "qtd": 3091
+  },
+  {
+   "nome": "6 ª ZONA ELEITORAL - QUIXADÁ",
+   "qtd": 2829
+  },
+  {
+   "nome": "GABINETE DO JURISTA 1",
+   "qtd": 2818
+  },
+  {
+   "nome": "119 ª ZONA ELEITORAL - JUAZEIRO DO NORTE",
+   "qtd": 2529
+  },
+  {
+   "nome": "13 ª ZONA ELEITORAL - IGUATU",
+   "qtd": 2507
+  },
+  {
+   "nome": "4 ª ZONA ELEITORAL - MARANGUAPE",
+   "qtd": 2505
+  },
+  {
+   "nome": "41 ª ZONA ELEITORAL - ITAPAJÉ",
+   "qtd": 2337
+  },
+  {
+   "nome": "27 ª ZONA ELEITORAL - CRATO",
+   "qtd": 2096
+  },
+  {
+   "nome": "17 ª ZONA ELEITORAL - ITAPIPOCA",
+   "qtd": 2072
+  },
+  {
+   "nome": "7 ª ZONA ELEITORAL - CASCAVEL",
+   "qtd": 2071
+  },
+  {
+   "nome": "57 ª ZONA ELEITORAL - PACATUBA",
+   "qtd": 2024
+  },
+  {
+   "nome": "8 ª ZONA ELEITORAL - ARACATI",
+   "qtd": 2021
+  },
+  {
+   "nome": "109 ª ZONA ELEITORAL - PARACURU",
+   "qtd": 1946
+  },
+  {
+   "nome": "30 ª ZONA ELEITORAL - ACARAÚ",
+   "qtd": 1865
+  }
+ ],
+ "total": 145710,
+ "mensal": [],
+ "erros": {
+  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-22T16:01:23+00:00"
+}

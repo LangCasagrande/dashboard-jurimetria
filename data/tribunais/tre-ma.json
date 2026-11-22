@@ -1,0 +1,240 @@
+{
+ "alias": "tre-ma",
+ "sigla": "TRE-MA",
+ "nome": "Tribunal Regional Eleitoral do Maranhão",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T16:14:02+00:00",
+  "formatos": "2026-11-22T16:14:31+00:00",
+  "sistemas": "2026-11-22T16:14:56+00:00",
+  "classes": "2026-11-22T16:15:24+00:00",
+  "assuntos": "2026-11-22T16:19:39+00:00",
+  "orgaos": "2026-11-22T16:20:05+00:00",
+  "total": "2026-11-22T16:20:27+00:00",
+  "mensal": "2026-11-22T16:20:49+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 206492
+  },
+  {
+   "nome": "G2",
+   "qtd": 21540
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 152900
+  },
+  {
+   "nome": "Físico",
+   "qtd": 75132
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 152900
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 75127
+  },
+  {
+   "nome": "Outros",
+   "qtd": 5
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 82130
+  },
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 65630
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 16290
+  },
+  {
+   "nome": "Representação",
+   "qtd": 8606
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 8510
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 7256
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 3703
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 3546
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 2758
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 2594
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 2563
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 2440
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 2359
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 2043
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 1977
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 79421
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 78047
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 77413
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 42952
+  },
+  {
+   "nome": "Cancelamento de Registro de Candidatura",
+   "qtd": 21215
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 17306
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 9645
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 8342
+  },
+  {
+   "nome": "Eleições",
+   "qtd": 6424
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 6330
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 5419
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 4707
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 4688
+  },
+  {
+   "nome": "Matéria Administrativa",
+   "qtd": 3771
+  },
+  {
+   "nome": "Cargos",
+   "qtd": 2956
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "93ª ZONA ELEITORAL",
+   "qtd": 5612
+  },
+  {
+   "nome": "47ª ZONA ELEITORAL",
+   "qtd": 3835
+  },
+  {
+   "nome": "30ª ZONA ELEITORAL",
+   "qtd": 3824
+  },
+  {
+   "nome": "18ª ZONA ELEITORAL",
+   "qtd": 3750
+  },
+  {
+   "nome": "7ª ZONA ELEITORAL",
+   "qtd": 3728
+  },
+  {
+   "nome": "19ª ZONA ELEITORAL",
+   "qtd": 3557
+  },
+  {
+   "nome": "4ª ZONA ELEITORAL",
+   "qtd": 3434
+  },
+  {
+   "nome": "38ª ZONA ELEITORAL",
+   "qtd": 3420
+  },
+  {
+   "nome": "16ª ZONA ELEITORAL",
+   "qtd": 3313
+  },
+  {
+   "nome": "CORREGEDORIA",
+   "qtd": 3272
+  },
+  {
+   "nome": "71ª ZONA ELEITORAL",
+   "qtd": 3188
+  },
+  {
+   "nome": "32ª ZONA ELEITORAL",
+   "qtd": 2923
+  },
+  {
+   "nome": "GM - 2",
+   "qtd": 2881
+  },
+  {
+   "nome": "33ª ZONA ELEITORAL",
+   "qtd": 2870
+  },
+  {
+   "nome": "GM - 3",
+   "qtd": 2842
+  }
+ ],
+ "total": 228032,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T16:20:49+00:00"
+}

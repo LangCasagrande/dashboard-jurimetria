@@ -1,0 +1,236 @@
+{
+ "alias": "tre-pe",
+ "sigla": "TRE-PE",
+ "nome": "Tribunal Regional Eleitoral de Pernambuco",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T17:02:04+00:00",
+  "formatos": "2026-11-22T17:02:22+00:00",
+  "sistemas": "2026-11-22T17:02:45+00:00",
+  "classes": "2026-11-22T17:03:07+00:00",
+  "assuntos": "2026-11-22T17:03:49+00:00",
+  "orgaos": "2026-11-22T17:08:55+00:00",
+  "total": "2026-11-22T17:10:05+00:00",
+  "mensal": "2026-11-22T17:10:44+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 130786
+  },
+  {
+   "nome": "G2",
+   "qtd": 19548
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 148598
+  },
+  {
+   "nome": "Físico",
+   "qtd": 1736
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 148598
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 1736
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 43363
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 43053
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 14048
+  },
+  {
+   "nome": "Representação",
+   "qtd": 7825
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 6245
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 5974
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 3163
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 2958
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 2702
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 2342
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 2240
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 1925
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 1412
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 1097
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 1025
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 74350
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 39734
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 39203
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 14456
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 7009
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 6519
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 4831
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 4230
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 3938
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 3836
+  },
+  {
+   "nome": "Propaganda Política - Propaganda Eleitoral - Redes Sociais",
+   "qtd": 3286
+  },
+  {
+   "nome": "Propaganda Política - Propaganda Eleitoral - Extemporânea/Antecipada",
+   "qtd": 3110
+  },
+  {
+   "nome": "Execução - Cumprimento de Sentença",
+   "qtd": 2763
+  },
+  {
+   "nome": "Requerimento de Regularização da Situação de Inadimplência de Prestação de Contas",
+   "qtd": 2621
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 2451
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "CARTÓRIO DA 26ª ZONA ELEITORAL",
+   "qtd": 2638
+  },
+  {
+   "nome": "CARTÓRIO DA 43ª ZONA ELEITORAL",
+   "qtd": 2521
+  },
+  {
+   "nome": "CORREGEDORIA REGIONAL ELEITORAL",
+   "qtd": 2437
+  },
+  {
+   "nome": "GABINETE DA VICE-PRESIDÊNCIA",
+   "qtd": 2301
+  },
+  {
+   "nome": "GABINETE DO JURISTA 1",
+   "qtd": 2288
+  },
+  {
+   "nome": "GABINETE DO JUIZ DE DIREITO II",
+   "qtd": 2251
+  },
+  {
+   "nome": "CARTÓRIO DA 20ª ZONA ELEITORAL",
+   "qtd": 2213
+  },
+  {
+   "nome": "GABINETE DA PRESIDÊNCIA",
+   "qtd": 2212
+  },
+  {
+   "nome": "GABINETE DO JUIZ DE DIREITO I",
+   "qtd": 2155
+  },
+  {
+   "nome": "GABINETE DO JUIZ FEDERAL",
+   "qtd": 2114
+  },
+  {
+   "nome": "GABINETE DO JURISTA 2",
+   "qtd": 2025
+  },
+  {
+   "nome": "CARTÓRIO DA 28ª ZONA ELEITORAL",
+   "qtd": 2014
+  },
+  {
+   "nome": "CARTÓRIO DA 42ª ZONA ELEITORAL",
+   "qtd": 1954
+  },
+  {
+   "nome": "CARTÓRIO DA 125ª ZONA ELEITORAL",
+   "qtd": 1942
+  },
+  {
+   "nome": "CARTÓRIO DA 85ª ZONA ELEITORAL",
+   "qtd": 1870
+  }
+ ],
+ "total": 150334,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T17:10:44+00:00"
+}

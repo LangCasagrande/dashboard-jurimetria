@@ -1,0 +1,228 @@
+{
+ "alias": "tre-rj",
+ "sigla": "TRE-RJ",
+ "nome": "Tribunal Regional Eleitoral do Rio de Janeiro",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T17:25:36+00:00",
+  "formatos": "2026-11-22T17:25:58+00:00",
+  "sistemas": "2026-11-22T17:26:57+00:00",
+  "classes": "2026-11-22T17:27:35+00:00",
+  "assuntos": "2026-11-22T17:27:58+00:00",
+  "orgaos": "2026-11-22T17:28:41+00:00",
+  "total": "2026-11-22T17:29:01+00:00",
+  "mensal": "2026-11-22T17:29:20+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 190792
+  },
+  {
+   "nome": "G2",
+   "qtd": 30916
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 221708
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 221708
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 56498
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 51052
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 14823
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 13863
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 11969
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 11695
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 7361
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 6741
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 6624
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 5965
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 5884
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 4044
+  },
+  {
+   "nome": "Representação",
+   "qtd": 4026
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 2506
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 2439
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 89444
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 52666
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 51270
+  },
+  {
+   "nome": "Ausência ou Abandono aos Trabalhos Eleitorais",
+   "qtd": 13015
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 12516
+  },
+  {
+   "nome": "Filiação Partidária - Cancelamento",
+   "qtd": 9429
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 9275
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 8550
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 6215
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 5866
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 5668
+  },
+  {
+   "nome": "Cargo - Deputado Federal",
+   "qtd": 5483
+  },
+  {
+   "nome": "Requerimento de Regularização da Situação de Inadimplência de Prestação de Contas",
+   "qtd": 5405
+  },
+  {
+   "nome": "Propaganda Política - Propaganda Eleitoral - Internet",
+   "qtd": 5060
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 4485
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Gabinete Da Vice-Presidência e Corregedoria Regional Eleitoral",
+   "qtd": 9624
+  },
+  {
+   "nome": "Gabinete Do Desembargador Federal",
+   "qtd": 4742
+  },
+  {
+   "nome": "Gabinete Do Membro Jurista 2",
+   "qtd": 4261
+  },
+  {
+   "nome": "Gabinete Do Membro Jurista 1",
+   "qtd": 3787
+  },
+  {
+   "nome": "Gabinete Do Juiz de Direito 1",
+   "qtd": 3722
+  },
+  {
+   "nome": "107ª ZONA ELEITORAL DE ITAPERUNA RJ",
+   "qtd": 3588
+  },
+  {
+   "nome": "Gabinete Do Juiz de Direito 2",
+   "qtd": 3541
+  },
+  {
+   "nome": "138ª ZONA ELEITORAL DE QUEIMADOS RJ",
+   "qtd": 3506
+  },
+  {
+   "nome": "184ª ZONA ELEITORAL DE RIO DAS OSTRAS RJ",
+   "qtd": 2902
+  },
+  {
+   "nome": "055ª ZONA ELEITORAL DE MARICÁ RJ",
+   "qtd": 2573
+  },
+  {
+   "nome": "092ª ZONA ELEITORAL DE ARARUAMA RJ",
+   "qtd": 2563
+  },
+  {
+   "nome": "105ª ZONA ELEITORAL DE ITAGUAÍ RJ",
+   "qtd": 2472
+  },
+  {
+   "nome": "139ª ZONA ELEITORAL DE JAPERI RJ",
+   "qtd": 2469
+  },
+  {
+   "nome": "048ª ZONA ELEITORAL DE MIGUEL PEREIRA RJ",
+   "qtd": 2368
+  },
+  {
+   "nome": "198ª ZONA ELEITORAL DE RESENDE RJ",
+   "qtd": 2329
+  }
+ ],
+ "total": 221708,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T17:29:20+00:00"
+}

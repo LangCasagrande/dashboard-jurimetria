@@ -1,0 +1,240 @@
+{
+ "alias": "trt24",
+ "sigla": "TRT24",
+ "nome": "Tribunal Regional do Trabalho da 24ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T14:48:36+00:00",
+  "formatos": "2026-11-22T14:49:18+00:00",
+  "sistemas": "2026-11-22T14:50:34+00:00",
+  "classes": "2026-11-22T14:51:12+00:00",
+  "assuntos": "2026-11-22T14:51:37+00:00",
+  "orgaos": "2026-11-22T14:52:58+00:00",
+  "total": "2026-11-22T14:53:31+00:00",
+  "mensal": "2026-11-22T14:54:26+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 262542
+  },
+  {
+   "nome": "G2",
+   "qtd": 82019
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 344558
+  },
+  {
+   "nome": "Físico",
+   "qtd": 3
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 226409
+  },
+  {
+   "nome": "Pje",
+   "qtd": 118149
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 3
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 128177
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 89581
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 47075
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 15609
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 13565
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 10379
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 8164
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 5799
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 3563
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 2645
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 2094
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 2085
+  },
+  {
+   "nome": "Ação Civil Pública",
+   "qtd": 1732
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 1484
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 1382
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 64916
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 63745
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 58705
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 53931
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 52384
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 52103
+  },
+  {
+   "nome": "Honorários Advocatícios",
+   "qtd": 49153
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 48154
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 47187
+  },
+  {
+   "nome": "Intervalo Intrajornada",
+   "qtd": 42903
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 38704
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 37798
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 37172
+  },
+  {
+   "nome": "Assistência Judiciária Gratuita",
+   "qtd": 36558
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 34023
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "1ª Vara do Trabalho de Dourados",
+   "qtd": 9869
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Dourados",
+   "qtd": 9620
+  },
+  {
+   "nome": "4ª Vara do Trabalho de Campo Grande",
+   "qtd": 9301
+  },
+  {
+   "nome": "Gab. Des. Francisco das Chagas Lima Filho",
+   "qtd": 9285
+  },
+  {
+   "nome": "Gab. Des. Marcio Vasques Thibau de Almeida",
+   "qtd": 8957
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Campo Grande",
+   "qtd": 8742
+  },
+  {
+   "nome": "5ª Vara do Trabalho de Campo Grande",
+   "qtd": 8713
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Campo Grande",
+   "qtd": 8674
+  },
+  {
+   "nome": "6ª Vara do Trabalho de Campo Grande",
+   "qtd": 8597
+  },
+  {
+   "nome": "Gab. Des. João de Deus Gomes de Souza",
+   "qtd": 8546
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Campo Grande",
+   "qtd": 8520
+  },
+  {
+   "nome": "1 ª VARA DO TRABALHO DE DOURADOS",
+   "qtd": 8262
+  },
+  {
+   "nome": "2 ª VARA DO TRABALHO DE DOURADOS",
+   "qtd": 8055
+  },
+  {
+   "nome": "7ª Vara do Trabalho de Campo Grande",
+   "qtd": 7993
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Três Lagoas",
+   "qtd": 7412
+  }
+ ],
+ "total": 344561,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T14:54:26+00:00"
+}

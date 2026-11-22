@@ -1,0 +1,228 @@
+{
+ "alias": "tjmrs",
+ "sigla": "TJMRS",
+ "nome": "Tribunal de Justiça Militar do Rio Grande do Sul",
+ "ramo": "Militar",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T18:28:14+00:00",
+  "formatos": "2026-11-22T18:28:59+00:00",
+  "sistemas": "2026-11-22T18:29:32+00:00",
+  "classes": "2026-11-22T18:29:45+00:00",
+  "assuntos": "2026-11-22T18:30:10+00:00",
+  "orgaos": "2026-11-22T18:31:44+00:00",
+  "total": "2026-11-22T18:33:33+00:00",
+  "mensal": "2026-11-22T18:33:57+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 8930
+  },
+  {
+   "nome": "G2",
+   "qtd": 2239
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 11168
+  },
+  {
+   "nome": "Físico",
+   "qtd": 1
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Projudi",
+   "qtd": 11168
+  },
+  {
+   "nome": "Outros",
+   "qtd": 1
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Inquérito Policial Militar",
+   "qtd": 3960
+  },
+  {
+   "nome": "Ação Penal Militar - Procedimento Ordinário",
+   "qtd": 2250
+  },
+  {
+   "nome": "Representação Criminal/Notícia de Crime",
+   "qtd": 1192
+  },
+  {
+   "nome": "Apelação Criminal",
+   "qtd": 791
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 623
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 449
+  },
+  {
+   "nome": "Execução da Pena",
+   "qtd": 241
+  },
+  {
+   "nome": "Habeas Corpus Criminal",
+   "qtd": 240
+  },
+  {
+   "nome": "Agravo de Instrumento",
+   "qtd": 238
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 165
+  },
+  {
+   "nome": "Correição Parcial Cível",
+   "qtd": 115
+  },
+  {
+   "nome": "Recurso em Sentido Estrito",
+   "qtd": 115
+  },
+  {
+   "nome": "Auto de Prisão em Flagrante",
+   "qtd": 86
+  },
+  {
+   "nome": "Agravo de Execução Penal",
+   "qtd": 72
+  },
+  {
+   "nome": "Embargos Infringentes e de Nulidade",
+   "qtd": 72
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Lesão leve",
+   "qtd": 2736
+  },
+  {
+   "nome": "Crimes de Abuso de Autoridade",
+   "qtd": 866
+  },
+  {
+   "nome": "Nulidade de ato administrativo",
+   "qtd": 721
+  },
+  {
+   "nome": "Prevaricação",
+   "qtd": 498
+  },
+  {
+   "nome": "Ameaça",
+   "qtd": 392
+  },
+  {
+   "nome": "Impedimento / Detenção / Prisão",
+   "qtd": 386
+  },
+  {
+   "nome": "Peculato",
+   "qtd": 319
+  },
+  {
+   "nome": "Abandono de posto",
+   "qtd": 310
+  },
+  {
+   "nome": "Falsidade ideológica",
+   "qtd": 289
+  },
+  {
+   "nome": "Injúria",
+   "qtd": 281
+  },
+  {
+   "nome": "Fato Atípico",
+   "qtd": 270
+  },
+  {
+   "nome": "Inquérito / Processo / Recurso Administrativo",
+   "qtd": 265
+  },
+  {
+   "nome": "Violação de domicílio",
+   "qtd": 247
+  },
+  {
+   "nome": "Crimes do Sistema Nacional de Armas",
+   "qtd": 228
+  },
+  {
+   "nome": "Homicídio",
+   "qtd": 179
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "2a Auditoria de Porto Alegre",
+   "qtd": 4899
+  },
+  {
+   "nome": "1a Auditoria de Porto Alegre",
+   "qtd": 2020
+  },
+  {
+   "nome": "Auditoria de Santa Maria",
+   "qtd": 1185
+  },
+  {
+   "nome": "Auditoria de Passo Fundo",
+   "qtd": 826
+  },
+  {
+   "nome": "Gab. Des. Militar Brum",
+   "qtd": 342
+  },
+  {
+   "nome": "Gab. Des. Militar Mendes",
+   "qtd": 336
+  },
+  {
+   "nome": "Gab. Des. Militar Fábio",
+   "qtd": 327
+  },
+  {
+   "nome": "Gab. Desa. Militar Maria Emília",
+   "qtd": 313
+  },
+  {
+   "nome": "Gab. Des. Militar Rodrigo Mohr",
+   "qtd": 298
+  },
+  {
+   "nome": "Gab. Desa. Militar Gabriela John",
+   "qtd": 281
+  },
+  {
+   "nome": "Gab. Des. Militar Amilcar",
+   "qtd": 265
+  },
+  {
+   "nome": "Vice-Presidência",
+   "qtd": 76
+  },
+  {
+   "nome": "GAB. DES. MIL. AMILCAR",
+   "qtd": 1
+  }
+ ],
+ "total": 11169,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T18:33:57+00:00"
+}

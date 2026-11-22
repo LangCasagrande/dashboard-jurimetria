@@ -1,0 +1,29 @@
+{
+ "alias": "tjmsp",
+ "sigla": "TJMSP",
+ "nome": "Tribunal de Justiça Militar de São Paulo",
+ "ramo": "Militar",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T18:34:53+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 12018
+  },
+  {
+   "nome": "G2",
+   "qtd": 8507
+  }
+ ],
+ "erros": {
+  "formatos": "orçamento de tempo esgotado",
+  "sistemas": "orçamento de tempo esgotado",
+  "classes": "orçamento de tempo esgotado",
+  "assuntos": "orçamento de tempo esgotado",
+  "orgaos": "orçamento de tempo esgotado",
+  "total": "orçamento de tempo esgotado",
+  "mensal": "orçamento de tempo esgotado"
+ },
+ "atualizado_em": "2026-11-22T18:34:53+00:00"
+}

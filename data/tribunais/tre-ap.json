@@ -1,0 +1,236 @@
+{
+ "alias": "tre-ap",
+ "sigla": "TRE-AP",
+ "nome": "Tribunal Regional Eleitoral do Amapá",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T15:19:11+00:00",
+  "formatos": "2026-11-22T15:19:45+00:00",
+  "sistemas": "2026-11-22T15:22:41+00:00",
+  "classes": "2026-11-22T15:25:22+00:00",
+  "assuntos": "2026-11-22T15:26:14+00:00",
+  "orgaos": "2026-11-22T15:26:56+00:00",
+  "total": "2026-11-22T15:27:25+00:00",
+  "mensal": "2026-11-22T15:27:57+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 15124
+  },
+  {
+   "nome": "G2",
+   "qtd": 5547
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 20181
+  },
+  {
+   "nome": "Físico",
+   "qtd": 490
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 20181
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 490
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 6292
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 5229
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 2561
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 861
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 817
+  },
+  {
+   "nome": "Representação",
+   "qtd": 659
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 535
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 422
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 389
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 326
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 192
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 190
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 183
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 167
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 162
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 8176
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 5558
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 5157
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 2466
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 1668
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 1145
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 987
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 862
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 638
+  },
+  {
+   "nome": "Cargo - Deputado Federal",
+   "qtd": 634
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 602
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 560
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 520
+  },
+  {
+   "nome": "Execução - Cumprimento de Sentença",
+   "qtd": 510
+  },
+  {
+   "nome": "Requerimento de Regularização da Situação de Inadimplência de Prestação de Contas",
+   "qtd": 262
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "10 ª ZONA ELEITORAL - MACAPÁ- AP - ZONA NORTE",
+   "qtd": 3432
+  },
+  {
+   "nome": "1 ZONA ELEITORAL - AMAPÁ- AP",
+   "qtd": 1783
+  },
+  {
+   "nome": "6 ª ZONA ELEITORAL - SANTANA- AP",
+   "qtd": 1694
+  },
+  {
+   "nome": "7 ª ZONA ELEITORAL - LARANJAL DO JARI- AP",
+   "qtd": 1610
+  },
+  {
+   "nome": "12 ª ZONA ELEITORAL - PORTO GRANDE- AP",
+   "qtd": 1485
+  },
+  {
+   "nome": "11 ª ZONA ELEITORAL - SERRA DO NAVIO- AP",
+   "qtd": 1269
+  },
+  {
+   "nome": "4 ª ZONA ELEITORAL - OIAPOQUE- AP",
+   "qtd": 1195
+  },
+  {
+   "nome": "GABINETE DO CORREGEDOR",
+   "qtd": 1132
+  },
+  {
+   "nome": "2 ª ZONA ELEITORAL - MACAPÁ- AP - ZONA SUL",
+   "qtd": 1064
+  },
+  {
+   "nome": "GABINETE DO JURISTA 2",
+   "qtd": 1060
+  },
+  {
+   "nome": "GABINETE DO JURISTA 1",
+   "qtd": 842
+  },
+  {
+   "nome": "5 ª ZONA ELEITORAL - MAZAGÃO- AP",
+   "qtd": 838
+  },
+  {
+   "nome": "GABINETE DO JUIZ DE DIREITO 1",
+   "qtd": 673
+  },
+  {
+   "nome": "GABINETE DO JUIZ FEDERAL",
+   "qtd": 662
+  },
+  {
+   "nome": "8 ª ZONA ELEITORAL - TARTARUGALZINHO- AP",
+   "qtd": 630
+  }
+ ],
+ "total": 20671,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T15:27:57+00:00"
+}

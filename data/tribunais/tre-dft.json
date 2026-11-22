@@ -1,0 +1,11 @@
+{
+ "alias": "tre-dft",
+ "sigla": "TRE-DF",
+ "nome": "Tribunal Regional Eleitoral do Distrito Federal",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {},
+ "erros": {
+  "graus": "HTTP 404: {\"error\":{\"root_cause\":[{\"type\":\"index_not_found_exception\",\"reason\":\"no such index [api_publica_tre-dft]\",\"resource.type\":\"index_or_alias\",\"resource.id\":\"api_p"
+ },
+ "atualizado_em": null
+}

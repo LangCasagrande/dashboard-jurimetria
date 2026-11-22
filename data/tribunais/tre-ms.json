@@ -1,0 +1,236 @@
+{
+ "alias": "tre-ms",
+ "sigla": "TRE-MS",
+ "nome": "Tribunal Regional Eleitoral de Mato Grosso do Sul",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T16:42:46+00:00",
+  "formatos": "2026-11-22T16:43:19+00:00",
+  "sistemas": "2026-11-22T16:43:52+00:00",
+  "classes": "2026-11-22T16:44:47+00:00",
+  "assuntos": "2026-11-22T16:45:16+00:00",
+  "orgaos": "2026-11-22T16:45:41+00:00",
+  "total": "2026-11-22T16:46:06+00:00",
+  "mensal": "2026-11-22T16:46:39+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 91849
+  },
+  {
+   "nome": "G2",
+   "qtd": 14269
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 64754
+  },
+  {
+   "nome": "Físico",
+   "qtd": 41364
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 64754
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 41364
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 28274
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 19051
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 16838
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 8789
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 7072
+  },
+  {
+   "nome": "Representação",
+   "qtd": 3999
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 3259
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 2298
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 1994
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1348
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 1230
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 1213
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 1065
+  },
+  {
+   "nome": "Ação Penal Eleitoral",
+   "qtd": 1032
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 970
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 40076
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 37318
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 29212
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 23236
+  },
+  {
+   "nome": "Eleições - 1° Turno",
+   "qtd": 9741
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 7793
+  },
+  {
+   "nome": "Matéria Administrativa",
+   "qtd": 4459
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 4296
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 3240
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 2592
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 2043
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 1952
+  },
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 1911
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 1818
+  },
+  {
+   "nome": "Execução - Cumprimento de Sentença",
+   "qtd": 1219
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "33ª ZONA ELEITORAL - MUNDO NOVO-MS",
+   "qtd": 3968
+  },
+  {
+   "nome": "GABINETE DA CORREGEDORIA",
+   "qtd": 3748
+  },
+  {
+   "nome": "18ª ZONA ELEITORAL - DOURADOS-MS",
+   "qtd": 2821
+  },
+  {
+   "nome": "43ª ZONA ELEITORAL - DOURADOS-MS",
+   "qtd": 2808
+  },
+  {
+   "nome": "40ª ZONA ELEITORAL - SÃO GABRIEL DO OESTE-MS",
+   "qtd": 2794
+  },
+  {
+   "nome": "5ª ZONA ELEITORAL - NOVA ANDRADINA-MS",
+   "qtd": 2780
+  },
+  {
+   "nome": "7ª ZONA ELEITORAL - CORUMBÁ-MS",
+   "qtd": 2480
+  },
+  {
+   "nome": "19ª ZONA ELEITORAL - PONTA PORÃ-MS",
+   "qtd": 2463
+  },
+  {
+   "nome": "11ª ZONA ELEITORAL - RIO BRILHANTE-MS",
+   "qtd": 2445
+  },
+  {
+   "nome": "27ª ZONA ELEITORAL - IVINHEMA-MS",
+   "qtd": 2317
+  },
+  {
+   "nome": "53ª ZONA ELEITORAL - CAMPO GRANDE-MS",
+   "qtd": 2213
+  },
+  {
+   "nome": "52ª ZONA ELEITORAL - PONTA PORÃ-MS",
+   "qtd": 2207
+  },
+  {
+   "nome": "35ª ZONA ELEITORAL - CAMPO GRANDE-MS",
+   "qtd": 2203
+  },
+  {
+   "nome": "6ª ZONA ELEITORAL - BATAGUASSU-MS",
+   "qtd": 2178
+  },
+  {
+   "nome": "1ª ZONA ELEITORAL - AMAMBAI-MS",
+   "qtd": 2133
+  }
+ ],
+ "total": 106118,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T16:46:39+00:00"
+}

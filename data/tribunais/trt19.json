@@ -1,0 +1,237 @@
+{
+ "alias": "trt19",
+ "sigla": "TRT19",
+ "nome": "Tribunal Regional do Trabalho da 19ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T14:18:40+00:00",
+  "formatos": "2026-11-22T14:19:02+00:00",
+  "sistemas": "2026-11-22T14:19:25+00:00",
+  "classes": "2026-11-22T14:21:16+00:00",
+  "assuntos": "2026-11-22T14:21:48+00:00",
+  "orgaos": "2026-11-22T14:24:42+00:00",
+  "total": "2026-11-22T14:25:09+00:00",
+  "mensal": "2026-11-22T14:25:45+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 377234
+  },
+  {
+   "nome": "G2",
+   "qtd": 77390
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 454624
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 454613
+  },
+  {
+   "nome": "Pje",
+   "qtd": 11
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 197813
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 122499
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 42598
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 17763
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 12319
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 11571
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 9158
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 6381
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 5245
+  },
+  {
+   "nome": "Precatório",
+   "qtd": 4746
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 3162
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 2795
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 2262
+  },
+  {
+   "nome": "Carta de Ordem Cível",
+   "qtd": 2043
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 1697
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Competência da Justiça do Trabalho",
+   "qtd": 104828
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 81120
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 72515
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 54891
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 53407
+  },
+  {
+   "nome": "Depósito/Diferenças",
+   "qtd": 40196
+  },
+  {
+   "nome": "Reflexos",
+   "qtd": 39152
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 36282
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 35361
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 34716
+  },
+  {
+   "nome": "Obrigação de Dar ",
+   "qtd": 29277
+  },
+  {
+   "nome": "Indenização/Dobra/Terço Constitucional",
+   "qtd": 28895
+  },
+  {
+   "nome": "Anotação/Baixa/Retificação",
+   "qtd": 28640
+  },
+  {
+   "nome": "Adicional de Hora Extra",
+   "qtd": 24864
+  },
+  {
+   "nome": "Décimo Terceiro Salário",
+   "qtd": 20953
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "1A VARA DO TRABALHO DE MACEIO",
+   "qtd": 20262
+  },
+  {
+   "nome": "6A VARA DO TRABALHO DE MACEIO",
+   "qtd": 20089
+  },
+  {
+   "nome": "4A VARA DO TRABALHO DE MACEIO",
+   "qtd": 19664
+  },
+  {
+   "nome": "8A VARA DO TRABALHO DE MACEIO",
+   "qtd": 19455
+  },
+  {
+   "nome": "3A VARA DO TRABALHO DE MACEIO",
+   "qtd": 19363
+  },
+  {
+   "nome": "5A VARA DO TRABALHO DE MACEIO",
+   "qtd": 18770
+  },
+  {
+   "nome": "7A VARA DO TRABALHO DE MACEIO",
+   "qtd": 18685
+  },
+  {
+   "nome": "10A VARA DO TRABALHO DE MACEIO",
+   "qtd": 18616
+  },
+  {
+   "nome": "2A VARA DO TRABALHO DE MACEIO",
+   "qtd": 18276
+  },
+  {
+   "nome": "9A VARA DO TRABALHO DE MACEIO",
+   "qtd": 18117
+  },
+  {
+   "nome": "1A VARA DO TRABALHO DE ARAPIRACA",
+   "qtd": 17412
+  },
+  {
+   "nome": "VARA DO TRABALHO DE PENEDO",
+   "qtd": 16597
+  },
+  {
+   "nome": "VARA DO TRABALHO DE PORTO CALVO",
+   "qtd": 14367
+  },
+  {
+   "nome": "VARA DO TRABALHO DE ATALAIA",
+   "qtd": 13622
+  },
+  {
+   "nome": "VARA DO TRABALHO DE SANTANA DO IPANEMA",
+   "qtd": 13564
+  }
+ ],
+ "total": 454624,
+ "mensal": [
+  {
+   "mes": "2024-04",
+   "qtd": 1
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-22T14:25:45+00:00"
+}

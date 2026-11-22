@@ -1,0 +1,236 @@
+{
+ "alias": "trt14",
+ "sigla": "TRT14",
+ "nome": "Tribunal Regional do Trabalho da 14ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T13:13:24+00:00",
+  "formatos": "2026-11-22T13:14:34+00:00",
+  "sistemas": "2026-11-22T13:15:26+00:00",
+  "classes": "2026-11-22T13:15:56+00:00",
+  "assuntos": "2026-11-22T13:16:53+00:00",
+  "orgaos": "2026-11-22T13:17:33+00:00",
+  "mensal": "2026-11-22T13:28:45+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 200605
+  },
+  {
+   "nome": "G2",
+   "qtd": 70783
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 271222
+  },
+  {
+   "nome": "Físico",
+   "qtd": 166
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 271222
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 166
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 80651
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 66876
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 32024
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 16367
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 12348
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 10426
+  },
+  {
+   "nome": "Precatório",
+   "qtd": 9684
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 7782
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 4168
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 4044
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 3174
+  },
+  {
+   "nome": "Cumprimento de Sentença de Ações Coletivas",
+   "qtd": 3162
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 2587
+  },
+  {
+   "nome": "Produção Antecipada da Prova",
+   "qtd": 2396
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 1734
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 58383
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 53494
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 49774
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 48048
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 47675
+  },
+  {
+   "nome": "Honorários na Justiça do Trabalho ",
+   "qtd": 46387
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 44953
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 44588
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 40836
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 39185
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 33097
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 31465
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 28441
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 28069
+  },
+  {
+   "nome": "Reflexos",
+   "qtd": 26636
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "JUÍZO AUXILIAR DE PRECATÓRIOS",
+   "qtd": 11470
+  },
+  {
+   "nome": "5ª VARA DO TRABALHO DE PORTO VELHO/RO",
+   "qtd": 9666
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE JI-PARANÁ/RO",
+   "qtd": 9636
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE JI-PARANÁ/RO",
+   "qtd": 9522
+  },
+  {
+   "nome": "4ª VARA DO TRABALHO DE PORTO VELHO/RO",
+   "qtd": 9470
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE RIO BRANCO/AC",
+   "qtd": 9459
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE RIO BRANCO/AC",
+   "qtd": 9371
+  },
+  {
+   "nome": "GABINETE DA PRESIDÊNCIA",
+   "qtd": 9322
+  },
+  {
+   "nome": "2ª VARA DO TRABALHO DE PORTO VELHO/RO",
+   "qtd": 9255
+  },
+  {
+   "nome": "4ª VARA DO TRABALHO DE RIO BRANCO/AC",
+   "qtd": 9093
+  },
+  {
+   "nome": "GABINETE DO DESEMBARGADOR DO TRABALHO FRANCISCO JOSÉ PINHEIRO CRUZ",
+   "qtd": 9055
+  },
+  {
+   "nome": "8ª VARA DO TRABALHO DE PORTO VELHO/RO",
+   "qtd": 9053
+  },
+  {
+   "nome": "3ª VARA DO TRABALHO DE RIO BRANCO/AC",
+   "qtd": 8934
+  },
+  {
+   "nome": "1ª VARA DO TRABALHO DE PORTO VELHO/RO",
+   "qtd": 8918
+  },
+  {
+   "nome": "GABINETE DA DESEMBARGADORA DO TRABALHO VANIA MARIA DA ROCHA ABENSUR",
+   "qtd": 8862
+  }
+ ],
+ "mensal": [],
+ "erros": {
+  "total": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-22T13:28:45+00:00"
+}

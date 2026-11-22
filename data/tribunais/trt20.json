@@ -1,0 +1,228 @@
+{
+ "alias": "trt20",
+ "sigla": "TRT20",
+ "nome": "Tribunal Regional do Trabalho da 20ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T14:26:02+00:00",
+  "formatos": "2026-11-22T14:26:25+00:00",
+  "sistemas": "2026-11-22T14:27:06+00:00",
+  "classes": "2026-11-22T14:27:50+00:00",
+  "assuntos": "2026-11-22T14:28:29+00:00",
+  "orgaos": "2026-11-22T14:29:15+00:00",
+  "total": "2026-11-22T14:29:37+00:00",
+  "mensal": "2026-11-22T14:30:03+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 186701
+  },
+  {
+   "nome": "G2",
+   "qtd": 58632
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 245333
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 245333
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 84548
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 69370
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 29221
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 14030
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 11744
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 7553
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 7445
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 5028
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 2481
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 2184
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 1748
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 1693
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 1257
+  },
+  {
+   "nome": "Ação Civil Pública",
+   "qtd": 1172
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 782
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 43203
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 41171
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 39922
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 39920
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 35779
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 30651
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 29291
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 28091
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 25545
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 24063
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 23240
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 18602
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 18271
+  },
+  {
+   "nome": "Anotação/Baixa/Retificação",
+   "qtd": 17937
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 16653
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "3ª Vara do Trabalho de Aracaju",
+   "qtd": 17113
+  },
+  {
+   "nome": "5ª Vara do Trabalho de Aracaju",
+   "qtd": 16327
+  },
+  {
+   "nome": "4ª Vara do Trabalho de Aracaju",
+   "qtd": 16280
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Aracaju",
+   "qtd": 15876
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Aracaju",
+   "qtd": 15530
+  },
+  {
+   "nome": "7ª Vara do Trabalho de Aracaju",
+   "qtd": 14887
+  },
+  {
+   "nome": "8ª Vara do Trabalho de Aracaju",
+   "qtd": 14798
+  },
+  {
+   "nome": "6ª Vara do Trabalho de Aracaju",
+   "qtd": 14096
+  },
+  {
+   "nome": "9ª Vara do Trabalho de Aracaju",
+   "qtd": 13772
+  },
+  {
+   "nome": "Vara do Trabalho de Maruim e Núcleo de Justiça 4.0",
+   "qtd": 11453
+  },
+  {
+   "nome": "Vara do Trabalho de Nossa Senhora da Glória e Núcleo de Justiça 4.0",
+   "qtd": 9704
+  },
+  {
+   "nome": "Gab. Des. Maria das Graças Monteiro Melo",
+   "qtd": 8343
+  },
+  {
+   "nome": "Gab. Des. Rita Oliveira",
+   "qtd": 8315
+  },
+  {
+   "nome": "Gab. Des. Jorge Cardoso",
+   "qtd": 7963
+  },
+  {
+   "nome": "Vara do Trabalho de Lagarto e Núcleo de Justiça 4.0",
+   "qtd": 7931
+  }
+ ],
+ "total": 245333,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T14:30:03+00:00"
+}

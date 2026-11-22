@@ -1,0 +1,321 @@
+{
+ "alias": "tre-mt",
+ "sigla": "TRE-MT",
+ "nome": "Tribunal Regional Eleitoral de Mato Grosso",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T16:47:14+00:00",
+  "formatos": "2026-11-22T16:48:20+00:00",
+  "sistemas": "2026-11-22T16:48:47+00:00",
+  "classes": "2026-11-22T16:49:37+00:00",
+  "assuntos": "2026-11-22T16:50:04+00:00",
+  "orgaos": "2026-11-22T16:51:31+00:00",
+  "total": "2026-11-22T16:51:50+00:00",
+  "mensal": "2026-11-22T16:52:13+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 94562
+  },
+  {
+   "nome": "G2",
+   "qtd": 13430
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 100850
+  },
+  {
+   "nome": "Físico",
+   "qtd": 7142
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "Pje",
+   "qtd": 92491
+  },
+  {
+   "nome": "PJe",
+   "qtd": 8359
+  },
+  {
+   "nome": "Outros",
+   "qtd": 7109
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 33
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 28720
+  },
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 28417
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 11984
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 4629
+  },
+  {
+   "nome": "Representação",
+   "qtd": 3450
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 2896
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 2662
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 2615
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 2611
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 2358
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1741
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 1691
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 1631
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 1514
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 1355
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 49030
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 26504
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 25390
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 14367
+  },
+  {
+   "nome": "Matéria Administrativa",
+   "qtd": 6669
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 5797
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 3515
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 3188
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 2902
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 2505
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 2241
+  },
+  {
+   "nome": "Impugnação ao Registro de Candidatura",
+   "qtd": 2085
+  },
+  {
+   "nome": "Requerimento de Regularização da Situação de Inadimplência de Prestação de Contas",
+   "qtd": 1961
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 1787
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 1700
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "09ª Zona Eleitoral",
+   "qtd": 3418
+  },
+  {
+   "nome": "43ª Zona Eleitoral",
+   "qtd": 2617
+  },
+  {
+   "nome": "33ª Zona Eleitoral",
+   "qtd": 2552
+  },
+  {
+   "nome": "Corregedoria Regional Eleitoral",
+   "qtd": 2354
+  },
+  {
+   "nome": "55ª Zona Eleitoral",
+   "qtd": 2232
+  },
+  {
+   "nome": "41ª Zona Eleitoral",
+   "qtd": 2231
+  },
+  {
+   "nome": "19ª Zona Eleitoral",
+   "qtd": 2194
+  },
+  {
+   "nome": "21ª Zona Eleitoral",
+   "qtd": 2121
+  },
+  {
+   "nome": "18ª Zona Eleitoral",
+   "qtd": 2092
+  },
+  {
+   "nome": "22ª Zona Eleitoral",
+   "qtd": 2072
+  },
+  {
+   "nome": "20ª Zona Eleitoral",
+   "qtd": 2071
+  },
+  {
+   "nome": "23ª Zona Eleitoral",
+   "qtd": 2067
+  },
+  {
+   "nome": "25ª Zona Eleitoral",
+   "qtd": 2029
+  },
+  {
+   "nome": "10ª Zona Eleitoral",
+   "qtd": 2026
+  },
+  {
+   "nome": "13ª Zona Eleitoral",
+   "qtd": 2020
+  }
+ ],
+ "total": 107992,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 275
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 122
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 279
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 404
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 395
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 764
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 616
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 1283
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 1751
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 13134
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 10906
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 1042
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 856
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 130
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 227
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 152
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 101
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 38
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 17
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-22T16:52:13+00:00"
+}

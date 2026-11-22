@@ -1,0 +1,236 @@
+{
+ "alias": "tre-pa",
+ "sigla": "TRE-PA",
+ "nome": "Tribunal Regional Eleitoral do Pará",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T16:52:32+00:00",
+  "formatos": "2026-11-22T16:52:55+00:00",
+  "sistemas": "2026-11-22T16:53:40+00:00",
+  "classes": "2026-11-22T16:53:58+00:00",
+  "assuntos": "2026-11-22T16:55:02+00:00",
+  "orgaos": "2026-11-22T16:56:38+00:00",
+  "total": "2026-11-22T16:57:02+00:00",
+  "mensal": "2026-11-22T16:57:40+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 198647
+  },
+  {
+   "nome": "G2",
+   "qtd": 20645
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 159502
+  },
+  {
+   "nome": "Físico",
+   "qtd": 59790
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 159502
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 59638
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 65262
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 48252
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 25644
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 14277
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 13019
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 6918
+  },
+  {
+   "nome": "Representação",
+   "qtd": 6827
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 5327
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 4748
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 3339
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 2566
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 2439
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 2243
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 2197
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 2157
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 103321
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 58595
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 57537
+  },
+  {
+   "nome": "Contas",
+   "qtd": 25544
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 18954
+  },
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 16847
+  },
+  {
+   "nome": "Direitos Políticos - Restabelecimento dos Direitos Políticos",
+   "qtd": 8437
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 7280
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 7193
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 7067
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 5751
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 5500
+  },
+  {
+   "nome": "Matéria Administrativa",
+   "qtd": 5450
+  },
+  {
+   "nome": "Restabelecimento",
+   "qtd": 5332
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 5256
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "036ª ZONA ELEITORAL DE SANTA IZABEL DO PARÁ PA",
+   "qtd": 3496
+  },
+  {
+   "nome": "078ª ZONA ELEITORAL DE MARITUBA PA",
+   "qtd": 3338
+  },
+  {
+   "nome": "018ª ZONA ELEITORAL DE ALTAMIRA PA",
+   "qtd": 2878
+  },
+  {
+   "nome": "050ª ZONA ELEITORAL DE CASTANHAL PA",
+   "qtd": 2644
+  },
+  {
+   "nome": "034ª ZONA ELEITORAL DE ITAITUBA PA",
+   "qtd": 2598
+  },
+  {
+   "nome": "Jurista 2",
+   "qtd": 2510
+  },
+  {
+   "nome": "059ª ZONA ELEITORAL DE REDENÇÃO PA",
+   "qtd": 2473
+  },
+  {
+   "nome": "Corregedoria",
+   "qtd": 2471
+  },
+  {
+   "nome": "072ª ZONA ELEITORAL DE ANANINDEUA PA",
+   "qtd": 2429
+  },
+  {
+   "nome": "064ª ZONA ELEITORAL DE SALINÓPOLIS PA",
+   "qtd": 2394
+  },
+  {
+   "nome": "049ª ZONA ELEITORAL DE MÃE DO RIO PA",
+   "qtd": 2382
+  },
+  {
+   "nome": "008ª ZONA ELEITORAL DE VIGIA PA",
+   "qtd": 2326
+  },
+  {
+   "nome": "Juiz de Direito 2",
+   "qtd": 2310
+  },
+  {
+   "nome": "024ª ZONA ELEITORAL DE CONCEIÇÃO DO ARAGUAIA PA",
+   "qtd": 2299
+  },
+  {
+   "nome": "061ª ZONA ELEITORAL DE XINGUARA PA",
+   "qtd": 2299
+  }
+ ],
+ "total": 219292,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T16:57:40+00:00"
+}

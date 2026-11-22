@@ -1,0 +1,228 @@
+{
+ "alias": "trt18",
+ "sigla": "TRT18",
+ "nome": "Tribunal Regional do Trabalho da 18ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T14:07:19+00:00",
+  "formatos": "2026-11-22T14:08:18+00:00",
+  "sistemas": "2026-11-22T14:08:56+00:00",
+  "classes": "2026-11-22T14:09:25+00:00",
+  "assuntos": "2026-11-22T14:15:22+00:00",
+  "orgaos": "2026-11-22T14:16:06+00:00",
+  "total": "2026-11-22T14:16:57+00:00",
+  "mensal": "2026-11-22T14:18:02+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 693499
+  },
+  {
+   "nome": "G2",
+   "qtd": 161177
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 854676
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 854676
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 285947
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 282376
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 80457
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 37229
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 35088
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 28579
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 19460
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 13675
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 9409
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 7836
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 7720
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 5867
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 5240
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 5040
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 4798
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 137359
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 131704
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 127277
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 116986
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 94878
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 92339
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 88596
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 87873
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 78712
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 77397
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 74376
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 67789
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 56288
+  },
+  {
+   "nome": "Honorários na Justiça do Trabalho ",
+   "qtd": 45235
+  },
+  {
+   "nome": "Horas Extras ",
+   "qtd": 43173
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Valparaiso de Goias",
+   "qtd": 16872
+  },
+  {
+   "nome": "Uruacu",
+   "qtd": 16745
+  },
+  {
+   "nome": "Goiânia  - 04a Vara",
+   "qtd": 16629
+  },
+  {
+   "nome": "Goiânia  - 09a Vara",
+   "qtd": 16586
+  },
+  {
+   "nome": "Goiânia  - 03a Vara",
+   "qtd": 16271
+  },
+  {
+   "nome": "Goiânia  - 01a Vara",
+   "qtd": 15624
+  },
+  {
+   "nome": "Goiânia  - 11a Vara",
+   "qtd": 15246
+  },
+  {
+   "nome": "Goiânia  - 12a Vara",
+   "qtd": 15225
+  },
+  {
+   "nome": "Goiânia  - 10a Vara",
+   "qtd": 15119
+  },
+  {
+   "nome": "Goiânia  - 07a Vara",
+   "qtd": 15051
+  },
+  {
+   "nome": "Goiânia  - 02a Vara",
+   "qtd": 15027
+  },
+  {
+   "nome": "Goiânia  - 05a Vara",
+   "qtd": 15016
+  },
+  {
+   "nome": "Catalao",
+   "qtd": 14995
+  },
+  {
+   "nome": "Goiânia  - 06a Vara",
+   "qtd": 14878
+  },
+  {
+   "nome": "Goiânia  - 08a Vara",
+   "qtd": 14723
+  }
+ ],
+ "total": 854676,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T14:18:02+00:00"
+}

@@ -1,0 +1,240 @@
+{
+ "alias": "tre-ba",
+ "sigla": "TRE-BA",
+ "nome": "Tribunal Regional Eleitoral da Bahia",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T15:28:40+00:00",
+  "formatos": "2026-11-22T15:29:27+00:00",
+  "sistemas": "2026-11-22T15:30:28+00:00",
+  "classes": "2026-11-22T15:39:40+00:00",
+  "assuntos": "2026-11-22T15:40:47+00:00",
+  "orgaos": "2026-11-22T15:42:06+00:00",
+  "total": "2026-11-22T15:42:55+00:00",
+  "mensal": "2026-11-22T15:43:25+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 277204
+  },
+  {
+   "nome": "G2",
+   "qtd": 32769
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 305372
+  },
+  {
+   "nome": "Físico",
+   "qtd": 2600
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 16
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 305372
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 2616
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 91214
+  },
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 90775
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 35745
+  },
+  {
+   "nome": "Representação",
+   "qtd": 13082
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 11900
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 8070
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 7183
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 5397
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 4852
+  },
+  {
+   "nome": "Direitos Políticos",
+   "qtd": 4661
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 4245
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 4205
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 4185
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 3189
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 1781
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 155341
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 82161
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 81095
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 36290
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 17331
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 17162
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 9373
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 8930
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 8310
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 7193
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 5788
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 5445
+  },
+  {
+   "nome": "Requerimento de Regularização da Situação de Inadimplência de Prestação de Contas",
+   "qtd": 5188
+  },
+  {
+   "nome": "Eleições - 1° Turno",
+   "qtd": 4854
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 3849
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "0 CORREGEDORIA E VICE-PRESIDÊNCIA",
+   "qtd": 9673
+  },
+  {
+   "nome": "GABINETE DO JUIZ DE DIREITO 1",
+   "qtd": 6680
+  },
+  {
+   "nome": "GABINETE DO JURISTA 1",
+   "qtd": 4320
+  },
+  {
+   "nome": "GABINETE DO JUIZ FEDERAL",
+   "qtd": 4021
+  },
+  {
+   "nome": "GABINETE DO JURISTA 2",
+   "qtd": 3835
+  },
+  {
+   "nome": "0 Gabinete do Juiz de Direito 2",
+   "qtd": 3560
+  },
+  {
+   "nome": "180 º CARTÓRIO ELEITORAL",
+   "qtd": 3068
+  },
+  {
+   "nome": "163 º CARTÓRIO ELEITORAL",
+   "qtd": 3025
+  },
+  {
+   "nome": "28 º CARTÓRIO ELEITORAL",
+   "qtd": 2965
+  },
+  {
+   "nome": "150 º CARTÓRIO ELEITORAL",
+   "qtd": 2899
+  },
+  {
+   "nome": "112 º CARTÓRIO ELEITORAL",
+   "qtd": 2763
+  },
+  {
+   "nome": "118 º CARTÓRIO ELEITORAL",
+   "qtd": 2663
+  },
+  {
+   "nome": "31 º CARTÓRIO ELEITORAL",
+   "qtd": 2647
+  },
+  {
+   "nome": "35 º CARTÓRIO ELEITORAL",
+   "qtd": 2561
+  },
+  {
+   "nome": "30 º CARTÓRIO ELEITORAL",
+   "qtd": 2527
+  }
+ ],
+ "total": 309973,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T15:43:25+00:00"
+}

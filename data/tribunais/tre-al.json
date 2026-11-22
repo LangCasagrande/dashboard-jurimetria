@@ -1,0 +1,236 @@
+{
+ "alias": "tre-al",
+ "sigla": "TRE-AL",
+ "nome": "Tribunal Regional Eleitoral de Alagoas",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T14:59:49+00:00",
+  "formatos": "2026-11-22T15:03:17+00:00",
+  "sistemas": "2026-11-22T15:03:41+00:00",
+  "classes": "2026-11-22T15:07:12+00:00",
+  "assuntos": "2026-11-22T15:07:59+00:00",
+  "orgaos": "2026-11-22T15:08:24+00:00",
+  "total": "2026-11-22T15:08:58+00:00",
+  "mensal": "2026-11-22T15:09:19+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 52085
+  },
+  {
+   "nome": "G2",
+   "qtd": 8717
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 58631
+  },
+  {
+   "nome": "Físico",
+   "qtd": 2171
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 58632
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 2170
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 16116
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 15529
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 7409
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 2601
+  },
+  {
+   "nome": "Representação",
+   "qtd": 2523
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 2450
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 1401
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 1340
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 1338
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1026
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 967
+  },
+  {
+   "nome": "Direito de Resposta",
+   "qtd": 917
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 669
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 601
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 543
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 26201
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 15185
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 14249
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 7086
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 3209
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 3015
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 2605
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 2277
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 1895
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 1879
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 1733
+  },
+  {
+   "nome": "Ausência ou Abandono aos Trabalhos Eleitorais",
+   "qtd": 1293
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 1190
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 979
+  },
+  {
+   "nome": "Execução - Cumprimento de Sentença",
+   "qtd": 894
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "14 ª ZONA ELEITORAL - PORTO CALVO",
+   "qtd": 2066
+  },
+  {
+   "nome": "8 ª ZONA ELEITORAL - PILAR",
+   "qtd": 1925
+  },
+  {
+   "nome": "12 ª ZONA ELEITORAL - PASSO DE CAMARAGIBE",
+   "qtd": 1697
+  },
+  {
+   "nome": "37 ª ZONA ELEITORAL - PORTO REAL DO COLEGIO",
+   "qtd": 1640
+  },
+  {
+   "nome": "18 ª ZONA ELEITORAL - SAO MIGUEL DOS CAMPOS",
+   "qtd": 1638
+  },
+  {
+   "nome": "26 ª ZONA ELEITORAL - MARECHAL DEODORO",
+   "qtd": 1609
+  },
+  {
+   "nome": "21 ª ZONA ELEITORAL - UNIAO DOS PALMARES",
+   "qtd": 1586
+  },
+  {
+   "nome": "40 ª ZONA ELEITORAL - DELMIRO GOUVEIA",
+   "qtd": 1580
+  },
+  {
+   "nome": "13 ª ZONA ELEITORAL - PENEDO",
+   "qtd": 1560
+  },
+  {
+   "nome": "5 ª ZONA ELEITORAL - VICOSA",
+   "qtd": 1513
+  },
+  {
+   "nome": "3 ª ZONA ELEITORAL - MACEIO",
+   "qtd": 1490
+  },
+  {
+   "nome": "55 ª ZONA ELEITORAL - ARAPIRACA",
+   "qtd": 1443
+  },
+  {
+   "nome": "17 ª ZONA ELEITORAL - SAO LUIS DO QUITUNDE",
+   "qtd": 1442
+  },
+  {
+   "nome": "53 ª ZONA ELEITORAL - JOAQUIM GOMES",
+   "qtd": 1440
+  },
+  {
+   "nome": "48 ª ZONA ELEITORAL - BOCA DA MATA",
+   "qtd": 1436
+  }
+ ],
+ "total": 60802,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T15:09:19+00:00"
+}

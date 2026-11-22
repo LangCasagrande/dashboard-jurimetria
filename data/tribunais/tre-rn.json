@@ -1,0 +1,236 @@
+{
+ "alias": "tre-rn",
+ "sigla": "TRE-RN",
+ "nome": "Tribunal Regional Eleitoral do Rio Grande do Norte",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T17:29:46+00:00",
+  "formatos": "2026-11-22T17:30:41+00:00",
+  "sistemas": "2026-11-22T17:31:15+00:00",
+  "classes": "2026-11-22T17:31:56+00:00",
+  "assuntos": "2026-11-22T17:33:40+00:00",
+  "orgaos": "2026-11-22T17:36:08+00:00",
+  "total": "2026-11-22T17:36:54+00:00",
+  "mensal": "2026-11-22T17:37:23+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 76970
+  },
+  {
+   "nome": "G2",
+   "qtd": 10919
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 84297
+  },
+  {
+   "nome": "Físico",
+   "qtd": 3592
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 84297
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 3592
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 22881
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 22123
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 11623
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 3398
+  },
+  {
+   "nome": "Representação",
+   "qtd": 2459
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 2445
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 2349
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 2207
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 1704
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 1536
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1520
+  },
+  {
+   "nome": "Recurso/Impugnação de Alistamento Eleitoral",
+   "qtd": 1299
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 1244
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 1227
+  },
+  {
+   "nome": "Ação Penal Eleitoral",
+   "qtd": 901
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 36185
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 20081
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 20005
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 12600
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 5159
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 4701
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 4536
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 3935
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 3205
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 2642
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 1865
+  },
+  {
+   "nome": "Requerimento de Regularização da Situação de Inadimplência de Prestação de Contas",
+   "qtd": 1806
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 1773
+  },
+  {
+   "nome": "Cargo - Vice-Prefeito",
+   "qtd": 1490
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 1478
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "VICE-PRESIDÊNCIA",
+   "qtd": 3136
+  },
+  {
+   "nome": "11 ª ZONA ELEITORAL",
+   "qtd": 2469
+  },
+  {
+   "nome": "50 ª ZONA ELEITORAL",
+   "qtd": 2291
+  },
+  {
+   "nome": "34 ª ZONA ELEITORAL",
+   "qtd": 2253
+  },
+  {
+   "nome": "13 ª ZONA ELEITORAL",
+   "qtd": 1990
+  },
+  {
+   "nome": "20 ª ZONA ELEITORAL",
+   "qtd": 1975
+  },
+  {
+   "nome": "49 ª ZONA ELEITORAL",
+   "qtd": 1965
+  },
+  {
+   "nome": "68 ª ZONA ELEITORAL",
+   "qtd": 1862
+  },
+  {
+   "nome": "64 ª ZONA ELEITORAL",
+   "qtd": 1835
+  },
+  {
+   "nome": "5 ª ZONA ELEITORAL",
+   "qtd": 1830
+  },
+  {
+   "nome": "32 ª ZONA ELEITORAL",
+   "qtd": 1820
+  },
+  {
+   "nome": "53 ª ZONA ELEITORAL",
+   "qtd": 1657
+  },
+  {
+   "nome": "9 ª ZONA ELEITORAL",
+   "qtd": 1599
+  },
+  {
+   "nome": "52 ª ZONA ELEITORAL",
+   "qtd": 1590
+  },
+  {
+   "nome": "16 ª ZONA ELEITORAL",
+   "qtd": 1580
+  }
+ ],
+ "total": 87889,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T17:37:23+00:00"
+}

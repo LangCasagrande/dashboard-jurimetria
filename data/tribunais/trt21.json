@@ -1,0 +1,228 @@
+{
+ "alias": "trt21",
+ "sigla": "TRT21",
+ "nome": "Tribunal Regional do Trabalho da 21ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T14:30:35+00:00",
+  "formatos": "2026-11-22T14:32:16+00:00",
+  "sistemas": "2026-11-22T14:33:01+00:00",
+  "classes": "2026-11-22T14:33:38+00:00",
+  "assuntos": "2026-11-22T14:34:09+00:00",
+  "orgaos": "2026-11-22T14:34:51+00:00",
+  "total": "2026-11-22T14:35:28+00:00",
+  "mensal": "2026-11-22T14:35:57+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 215060
+  },
+  {
+   "nome": "G2",
+   "qtd": 59734
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 274794
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 274794
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 90231
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 89960
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 29768
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 16507
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 8301
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 7501
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 7008
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 3262
+  },
+  {
+   "nome": "Embargos de Terceiro Cível",
+   "qtd": 2649
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 2641
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 2636
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 2501
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 1722
+  },
+  {
+   "nome": "Ação Civil Coletiva",
+   "qtd": 1353
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 1181
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 60344
+  },
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 41916
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 39838
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 36872
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 31575
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 24842
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 23927
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 23775
+  },
+  {
+   "nome": "Reconhecimento de Relação de Emprego",
+   "qtd": 22552
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 20604
+  },
+  {
+   "nome": "Décimo Terceiro Salário Proporcional",
+   "qtd": 20509
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 20244
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 13727
+  },
+  {
+   "nome": "Saldo de Salário",
+   "qtd": 12271
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 11880
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "Vara do Trabalho de Macau",
+   "qtd": 14676
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Natal",
+   "qtd": 11065
+  },
+  {
+   "nome": "11ª Vara do Trabalho de Natal",
+   "qtd": 10656
+  },
+  {
+   "nome": "7ª Vara do Trabalho de Natal",
+   "qtd": 10201
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Mossoró",
+   "qtd": 10128
+  },
+  {
+   "nome": "8ª Vara do Trabalho de Natal",
+   "qtd": 10117
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Mossoró",
+   "qtd": 9947
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Natal",
+   "qtd": 9900
+  },
+  {
+   "nome": "4ª Vara do Trabalho de Mossoró",
+   "qtd": 9882
+  },
+  {
+   "nome": "4ª Vara do Trabalho de Natal",
+   "qtd": 9706
+  },
+  {
+   "nome": "10ª Vara do Trabalho de Natal",
+   "qtd": 9490
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Natal",
+   "qtd": 9359
+  },
+  {
+   "nome": "6ª Vara do Trabalho de Natal",
+   "qtd": 9310
+  },
+  {
+   "nome": "9ª Vara do Trabalho de Natal",
+   "qtd": 9305
+  },
+  {
+   "nome": "5ª Vara do Trabalho de Natal",
+   "qtd": 9156
+  }
+ ],
+ "total": 274794,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T14:35:57+00:00"
+}

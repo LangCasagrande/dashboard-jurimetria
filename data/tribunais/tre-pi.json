@@ -1,0 +1,236 @@
+{
+ "alias": "tre-pi",
+ "sigla": "TRE-PI",
+ "nome": "Tribunal Regional Eleitoral do Piauí",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T17:15:55+00:00",
+  "formatos": "2026-11-22T17:16:20+00:00",
+  "sistemas": "2026-11-22T17:16:44+00:00",
+  "classes": "2026-11-22T17:17:08+00:00",
+  "assuntos": "2026-11-22T17:17:58+00:00",
+  "orgaos": "2026-11-22T17:18:37+00:00",
+  "total": "2026-11-22T17:19:07+00:00",
+  "mensal": "2026-11-22T17:20:00+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 80926
+  },
+  {
+   "nome": "G2",
+   "qtd": 13066
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 89695
+  },
+  {
+   "nome": "Físico",
+   "qtd": 4297
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 89695
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 4297
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 24307
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 24017
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 12549
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 5890
+  },
+  {
+   "nome": "Representação",
+   "qtd": 2981
+  },
+  {
+   "nome": "Recurso/Impugnação de Alistamento Eleitoral",
+   "qtd": 2943
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 2098
+  },
+  {
+   "nome": "Prestação de Contas",
+   "qtd": 2028
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 1681
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 1531
+  },
+  {
+   "nome": "Composição de Mesa Receptora",
+   "qtd": 1450
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1282
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 961
+  },
+  {
+   "nome": "Pedido de Desaforamento",
+   "qtd": 849
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 843
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 38746
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 22073
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 21080
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 12046
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 6484
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 5870
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 3834
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 3692
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 3204
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 3156
+  },
+  {
+   "nome": "Impugnação - Transferência de Domicílio Eleitoral",
+   "qtd": 2979
+  },
+  {
+   "nome": "Alistamento Eleitoral - Domicílio Eleitoral",
+   "qtd": 2149
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 1987
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 1532
+  },
+  {
+   "nome": "Impugnação ao Registro de Candidatura",
+   "qtd": 1489
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "061ª ZONA ELEITORAL DE FLORIANO PI",
+   "qtd": 2471
+  },
+  {
+   "nome": "028ª ZONA ELEITORAL DE PICOS PI",
+   "qtd": 2034
+  },
+  {
+   "nome": "Corregedoria",
+   "qtd": 1843
+  },
+  {
+   "nome": "002ª ZONA ELEITORAL DE TERESINA PI",
+   "qtd": 1803
+  },
+  {
+   "nome": "013ª ZONA ELEITORAL DE SÃO RAIMUNDO NONATO PI",
+   "qtd": 1766
+  },
+  {
+   "nome": "001ª ZONA ELEITORAL DE TERESINA PI",
+   "qtd": 1743
+  },
+  {
+   "nome": "Vice-Presidência",
+   "qtd": 1736
+  },
+  {
+   "nome": "035ª ZONA ELEITORAL DE GILBUÉS PI",
+   "qtd": 1733
+  },
+  {
+   "nome": "Gabinete do Jurista 1",
+   "qtd": 1707
+  },
+  {
+   "nome": "033ª ZONA ELEITORAL DE BURITI DOS LOPES PI",
+   "qtd": 1702
+  },
+  {
+   "nome": "074ª ZONA ELEITORAL DE BARRO DURO PI",
+   "qtd": 1660
+  },
+  {
+   "nome": "Gabinete do Jurista 2",
+   "qtd": 1659
+  },
+  {
+   "nome": "Gabinete do Juiz de Direito 2",
+   "qtd": 1633
+  },
+  {
+   "nome": "Gabinete do Juiz Federal",
+   "qtd": 1621
+  },
+  {
+   "nome": "Gabinete do Juiz de Direito 1",
+   "qtd": 1557
+  }
+ ],
+ "total": 93992,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T17:20:00+00:00"
+}

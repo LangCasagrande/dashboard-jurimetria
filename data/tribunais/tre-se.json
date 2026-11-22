@@ -1,0 +1,228 @@
+{
+ "alias": "tre-se",
+ "sigla": "TRE-SE",
+ "nome": "Tribunal Regional Eleitoral de Sergipe",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T18:04:11+00:00",
+  "formatos": "2026-11-22T18:04:36+00:00",
+  "sistemas": "2026-11-22T18:05:12+00:00",
+  "classes": "2026-11-22T18:05:44+00:00",
+  "assuntos": "2026-11-22T18:06:27+00:00",
+  "orgaos": "2026-11-22T18:06:55+00:00",
+  "total": "2026-11-22T18:10:01+00:00",
+  "mensal": "2026-11-22T18:10:25+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 45419
+  },
+  {
+   "nome": "G2",
+   "qtd": 10564
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 55983
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 55983
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 15605
+  },
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 15290
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 4985
+  },
+  {
+   "nome": "Representação",
+   "qtd": 3591
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 2878
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 2016
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 1000
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 936
+  },
+  {
+   "nome": "Notícia de Irregularidade em Propaganda Eleitoral",
+   "qtd": 920
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 850
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 768
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 752
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 496
+  },
+  {
+   "nome": "Suspensão de Órgão Partidário",
+   "qtd": 463
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 453
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 25314
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 13987
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 13964
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 5082
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 2548
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 2538
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 1892
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 1715
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 1660
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 1541
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 1526
+  },
+  {
+   "nome": "Propaganda Política - Propaganda Eleitoral - Extemporânea/Antecipada",
+   "qtd": 1253
+  },
+  {
+   "nome": "Propaganda Política - Propaganda Eleitoral - Internet",
+   "qtd": 1109
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 960
+  },
+  {
+   "nome": "Execução - Cumprimento de Sentença",
+   "qtd": 869
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "34ª ZONA ELEITORAL",
+   "qtd": 2609
+  },
+  {
+   "nome": "14ª ZONA ELEITORAL",
+   "qtd": 2466
+  },
+  {
+   "nome": "27ª ZONA ELEITORAL",
+   "qtd": 2222
+  },
+  {
+   "nome": "1ª ZONA ELEITORAL",
+   "qtd": 2179
+  },
+  {
+   "nome": "19ª ZONA ELEITORAL",
+   "qtd": 2071
+  },
+  {
+   "nome": "15ª ZONA ELEITORAL",
+   "qtd": 2064
+  },
+  {
+   "nome": "4ª ZONA ELEITORAL",
+   "qtd": 1960
+  },
+  {
+   "nome": "11ª ZONA ELEITORAL",
+   "qtd": 1836
+  },
+  {
+   "nome": "13ª ZONA ELEITORAL",
+   "qtd": 1826
+  },
+  {
+   "nome": "31ª ZONA ELEITORAL",
+   "qtd": 1728
+  },
+  {
+   "nome": "2ª ZONA ELEITORAL",
+   "qtd": 1719
+  },
+  {
+   "nome": "5ª ZONA ELEITORAL",
+   "qtd": 1656
+  },
+  {
+   "nome": "26ª ZONA ELEITORAL",
+   "qtd": 1643
+  },
+  {
+   "nome": "30ª ZONA ELEITORAL",
+   "qtd": 1604
+  },
+  {
+   "nome": "35ª ZONA ELEITORAL",
+   "qtd": 1571
+  }
+ ],
+ "total": 55983,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T18:10:25+00:00"
+}

@@ -1,0 +1,236 @@
+{
+ "alias": "tre-to",
+ "sigla": "TRE-TO",
+ "nome": "Tribunal Regional Eleitoral do Tocantins",
+ "ramo": "Eleitoral",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T18:18:10+00:00",
+  "formatos": "2026-11-22T18:18:29+00:00",
+  "sistemas": "2026-11-22T18:19:02+00:00",
+  "classes": "2026-11-22T18:19:21+00:00",
+  "assuntos": "2026-11-22T18:19:39+00:00",
+  "orgaos": "2026-11-22T18:20:12+00:00",
+  "total": "2026-11-22T18:20:56+00:00",
+  "mensal": "2026-11-22T18:21:22+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 60366
+  },
+  {
+   "nome": "G2",
+   "qtd": 7678
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 65922
+  },
+  {
+   "nome": "Físico",
+   "qtd": 2122
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 65922
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 2122
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Prestação de Contas Eleitorais",
+   "qtd": 20164
+  },
+  {
+   "nome": "Registro de Candidatura",
+   "qtd": 19800
+  },
+  {
+   "nome": "Prestação de Contas Anual",
+   "qtd": 11236
+  },
+  {
+   "nome": "Representação",
+   "qtd": 2032
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Anual",
+   "qtd": 1839
+  },
+  {
+   "nome": "Recurso Eleitoral",
+   "qtd": 1650
+  },
+  {
+   "nome": "Duplicidade/Pluralidade de Inscrições - Coincidências",
+   "qtd": 1403
+  },
+  {
+   "nome": "Petição Cível",
+   "qtd": 1157
+  },
+  {
+   "nome": "Requerimento de Regularização de Omissão de Prestação de Contas Eleitorais",
+   "qtd": 1004
+  },
+  {
+   "nome": "Regularização de Situação do Eleitor",
+   "qtd": 988
+  },
+  {
+   "nome": "Processo Administrativo",
+   "qtd": 820
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 759
+  },
+  {
+   "nome": "Filiação Partidária",
+   "qtd": 601
+  },
+  {
+   "nome": "Ação Penal Eleitoral",
+   "qtd": 471
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 404
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Cargo - Vereador",
+   "qtd": 31680
+  },
+  {
+   "nome": "Prestação de Contas - De Candidato",
+   "qtd": 17286
+  },
+  {
+   "nome": "Registro de Candidatura - RRC - Candidato",
+   "qtd": 17166
+  },
+  {
+   "nome": "Prestação de Contas - De Exercício Financeiro",
+   "qtd": 10602
+  },
+  {
+   "nome": "Prestação de Contas - de Partido Político",
+   "qtd": 5133
+  },
+  {
+   "nome": "Partido Político - Órgão de Direção Municipal",
+   "qtd": 4456
+  },
+  {
+   "nome": "Cargo - Prefeito",
+   "qtd": 2755
+  },
+  {
+   "nome": "Eleições - Eleição Majoritária",
+   "qtd": 2548
+  },
+  {
+   "nome": "Registro de Candidatura - DRAP Partido/Coligação",
+   "qtd": 2532
+  },
+  {
+   "nome": "Regularização de Contas Anuais",
+   "qtd": 1679
+  },
+  {
+   "nome": "Requerimento",
+   "qtd": 1379
+  },
+  {
+   "nome": "Requerimento de Regularização da Situação de Inadimplência de Prestação de Contas",
+   "qtd": 1355
+  },
+  {
+   "nome": "Cargo - Deputado Estadual",
+   "qtd": 1255
+  },
+  {
+   "nome": "Cargo - Vice-Prefeito",
+   "qtd": 1017
+  },
+  {
+   "nome": "Alistamento Eleitoral - Duplicidade/Pluralidade",
+   "qtd": 787
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "7ª ZONA ELEITORAL - PARAÍSO DO TOCANTINS/TO",
+   "qtd": 3738
+  },
+  {
+   "nome": "29ª ZONA ELEITORAL - PALMAS/TO",
+   "qtd": 3116
+  },
+  {
+   "nome": "3ª ZONA ELEITORAL - PORTO NACIONAL/TO",
+   "qtd": 3056
+  },
+  {
+   "nome": "4ª ZONA ELEITORAL - COLINAS DO TOCANTINS/TO",
+   "qtd": 2722
+  },
+  {
+   "nome": "2ª ZONA ELEITORAL - GURUPI/TO",
+   "qtd": 2654
+  },
+  {
+   "nome": "28 ª ZONA ELEITORAL - MIRANORTE/TO",
+   "qtd": 2231
+  },
+  {
+   "nome": "13ª ZONA ELEITORAL - CRISTALÂNDIA/TO",
+   "qtd": 2228
+  },
+  {
+   "nome": "10ª ZONA ELEITORAL - ARAGUATINS/TO",
+   "qtd": 2197
+  },
+  {
+   "nome": "1ª ZONA ELEITORAL - ARAGUAÍNA/TO",
+   "qtd": 2070
+  },
+  {
+   "nome": "GABINETE DA CORREGEDORIA",
+   "qtd": 2044
+  },
+  {
+   "nome": "25ª ZONA ELEITORAL - DIANÓPOLIS/TO",
+   "qtd": 2036
+  },
+  {
+   "nome": "21ª ZONA ELEITORAL - AUGUSTINÓPOLIS/TO",
+   "qtd": 1981
+  },
+  {
+   "nome": "9ª ZONA ELEITORAL - TOCANTINÓPOLIS/TO",
+   "qtd": 1967
+  },
+  {
+   "nome": "11ª ZONA ELEITORAL - ITAGUATINS/TO",
+   "qtd": 1923
+  },
+  {
+   "nome": "14ª ZONA ELEITORAL - ALVORADA/TO",
+   "qtd": 1879
+  }
+ ],
+ "total": 68044,
+ "mensal": [],
+ "erros": {},
+ "atualizado_em": "2026-11-22T18:21:22+00:00"
+}

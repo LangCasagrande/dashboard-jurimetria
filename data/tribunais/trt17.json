@@ -1,0 +1,309 @@
+{
+ "alias": "trt17",
+ "sigla": "TRT17",
+ "nome": "Tribunal Regional do Trabalho da 17ª Região",
+ "ramo": "Trabalho",
+ "partes_atualizadas_em": {
+  "graus": "2026-11-22T13:52:10+00:00",
+  "formatos": "2026-11-22T13:52:35+00:00",
+  "sistemas": "2026-11-22T13:54:54+00:00",
+  "classes": "2026-11-22T13:56:20+00:00",
+  "assuntos": "2026-11-22T14:00:14+00:00",
+  "orgaos": "2026-11-22T14:01:45+00:00",
+  "total": "2026-11-22T14:03:40+00:00",
+  "mensal": "2026-11-22T14:04:00+00:00"
+ },
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 470355
+  },
+  {
+   "nome": "G2",
+   "qtd": 154753
+  }
+ ],
+ "formatos": [
+  {
+   "nome": "Eletrônico",
+   "qtd": 625108
+  }
+ ],
+ "sistemas": [
+  {
+   "nome": "PJe",
+   "qtd": 503896
+  },
+  {
+   "nome": "Pje",
+   "qtd": 121212
+  }
+ ],
+ "classes": [
+  {
+   "nome": "Ação Trabalhista - Rito Ordinário",
+   "qtd": 218693
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumaríssimo",
+   "qtd": 133609
+  },
+  {
+   "nome": "Recurso Ordinário Trabalhista",
+   "qtd": 81452
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 43103
+  },
+  {
+   "nome": "Agravo de Petição",
+   "qtd": 32180
+  },
+  {
+   "nome": "Recurso Ordinário - Rito Sumaríssimo",
+   "qtd": 26399
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 9140
+  },
+  {
+   "nome": "Ação de Cumprimento",
+   "qtd": 8167
+  },
+  {
+   "nome": "Homologação da Transação Extrajudicial",
+   "qtd": 6811
+  },
+  {
+   "nome": "Ação Trabalhista - Rito Sumário (Alçada)",
+   "qtd": 6537
+  },
+  {
+   "nome": "Consignação em Pagamento",
+   "qtd": 6179
+  },
+  {
+   "nome": "Mandado de Segurança Cível",
+   "qtd": 6008
+  },
+  {
+   "nome": "Cumprimento Provisório de Sentença",
+   "qtd": 5176
+  },
+  {
+   "nome": "Cumprimento de Sentença de Ações Coletivas",
+   "qtd": 5092
+  },
+  {
+   "nome": "Execução Provisória em Autos Suplementares",
+   "qtd": 3831
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Multa do Artigo  477 da CLT",
+   "qtd": 99046
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 98715
+  },
+  {
+   "nome": "Assistência Judiciária Gratuita",
+   "qtd": 85932
+  },
+  {
+   "nome": "Verbas Rescisórias",
+   "qtd": 82332
+  },
+  {
+   "nome": "Multa do Artigo 467 da CLT ",
+   "qtd": 74139
+  },
+  {
+   "nome": "Adicional de Insalubridade",
+   "qtd": 71586
+  },
+  {
+   "nome": "Multa de 40% do FGTS",
+   "qtd": 69883
+  },
+  {
+   "nome": "Honorários Advocatícios",
+   "qtd": 69137
+  },
+  {
+   "nome": "Aviso Prévio",
+   "qtd": 68614
+  },
+  {
+   "nome": "Horas Extras",
+   "qtd": 48594
+  },
+  {
+   "nome": "Rescisão Indireta",
+   "qtd": 46102
+  },
+  {
+   "nome": "Adicional de Horas Extras",
+   "qtd": 44460
+  },
+  {
+   "nome": "Reconhecimento de Relação de Emprego",
+   "qtd": 43100
+  },
+  {
+   "nome": "FGTS",
+   "qtd": 41288
+  },
+  {
+   "nome": "Férias Proporcionais",
+   "qtd": 39481
+  }
+ ],
+ "orgaos": [
+  {
+   "nome": "8ª Vara do Trabalho de Vitória",
+   "qtd": 16059
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Vitória",
+   "qtd": 15675
+  },
+  {
+   "nome": "2ª Vara do Trabalho de Cachoeiro de Itapemirim",
+   "qtd": 15483
+  },
+  {
+   "nome": "Vara do Trabalho de Colatina",
+   "qtd": 15298
+  },
+  {
+   "nome": "Vara do Trabalho de Linhares",
+   "qtd": 15154
+  },
+  {
+   "nome": "9ª Vara do Trabalho de Vitória",
+   "qtd": 15140
+  },
+  {
+   "nome": "12ª Vara do Trabalho de Vitória",
+   "qtd": 15048
+  },
+  {
+   "nome": "3ª Vara do Trabalho de Vitória",
+   "qtd": 14999
+  },
+  {
+   "nome": "5ª Vara do Trabalho de Vitória",
+   "qtd": 14973
+  },
+  {
+   "nome": "1ª Vara do Trabalho de Vitória",
+   "qtd": 14773
+  },
+  {
+   "nome": "7ª Vara do Trabalho de Vitória",
+   "qtd": 14722
+  },
+  {
+   "nome": "6ª Vara do Trabalho de Vitória",
+   "qtd": 14647
+  },
+  {
+   "nome": "11ª Vara do Trabalho de Vitória",
+   "qtd": 14646
+  },
+  {
+   "nome": "4ª Vara do Trabalho de Vitória",
+   "qtd": 14553
+  },
+  {
+   "nome": "Vara do Trabalho de São Mateus",
+   "qtd": 14444
+  }
+ ],
+ "total": 625108,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 16
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 13
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 7
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 17
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 17
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 29
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 2
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 1
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 4
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 38
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 201
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 264
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 213
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 211
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 133
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 164
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 315
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 300
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 50
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-22T14:04:00+00:00"
+}
