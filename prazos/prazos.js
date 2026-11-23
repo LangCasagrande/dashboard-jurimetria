@@ -114,7 +114,7 @@
     const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+Z$/, 'Z');
     const titulo = `Vencimento: ${ato.dias ? ato.nome : 'prazo processual'}`;
     const ics = [
-      'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Laboratorio de Legal Tech//Prazos//PT-BR', 'BEGIN:VEVENT',
+      'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//JusLab.IA//Prazos//PT-BR', 'BEGIN:VEVENT',
       `UID:${ymd(r.vencimento)}-${Math.random().toString(36).slice(2)}@legaltech`, `DTSTAMP:${stamp}`,
       `DTSTART;VALUE=DATE:${ymd(r.vencimento)}`, `DTEND;VALUE=DATE:${ymd(fim)}`,
       `SUMMARY:${titulo}`, `DESCRIPTION:Prazo de ${r.total} dias. Início da contagem: ${LT.fmtDate(r.inicio)}.`,

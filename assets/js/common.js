@@ -1,4 +1,4 @@
-// Laboratório de Legal Tech — cabeçalho, tema e utilitários compartilhados.
+// JusLab.IA — cabeçalho, tema e utilitários compartilhados.
 (function () {
   const base = document.body.dataset.base || './';
   const page = document.body.dataset.page || 'inicio';
@@ -39,7 +39,7 @@
     <div class="topbar-inner">
       <a class="brand" href="${base}">
         <span class="brand-mark" aria-hidden="true">§</span>
-        <span class="brand-text">Laboratório de Legal Tech</span>
+        <span class="brand-text">JusLab.IA<small>dados e tecnologia para o Direito</small></span>
       </a>
       <nav class="nav" aria-label="Ferramentas">
         ${TOOLS.map(t => `<a href="${base}${t.href}"${t.id === page ? ' aria-current="page"' : ''}>${t.label}</a>`).join('')}

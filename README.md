@@ -1,4 +1,6 @@
-# Laboratório de Legal Tech
+# JusLab.IA
+
+*Dados e tecnologia para o Direito.*
 
 Seis ferramentas jurídicas abertas, feitas para estudo e portfólio, com destaque para um **dashboard de jurimetria** construído a partir da [API Pública do DataJud](https://datajud-wiki.cnj.jus.br/api-publica/acesso), mantida pelo Conselho Nacional de Justiça (CNJ).
 
