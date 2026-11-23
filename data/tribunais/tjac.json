@@ -4,11 +4,13 @@
  "nome": "Tribunal de Justiça do Acre",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "graus": "2026-11-18T15:53:14+00:00",
-  "formatos": "2026-11-18T15:54:27+00:00",
-  "sistemas": "2026-11-18T15:56:13+00:00",
-  "orgaos": "2026-11-18T16:14:54+00:00",
-  "total": "2026-11-18T16:18:03+00:00"
+  "graus": "2026-11-23T15:44:52+00:00",
+  "formatos": "2026-11-23T15:45:30+00:00",
+  "sistemas": "2026-11-23T15:48:55+00:00",
+  "orgaos": "2026-11-23T15:59:37+00:00",
+  "total": "2026-11-23T16:00:07+00:00",
+  "classes": "2026-11-23T15:54:08+00:00",
+  "assuntos": "2026-11-23T15:54:28+00:00"
  },
  "graus": [
   {
@@ -120,9 +122,131 @@
  ],
  "total": 1002060,
  "erros": {
-  "classes": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
-  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
   "mensal": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
  },
- "atualizado_em": "2026-11-18T16:18:03+00:00"
+ "atualizado_em": "2026-11-23T16:00:07+00:00",
+ "classes": [
+  {
+   "nome": "Procedimento do Juizado Especial Cível",
+   "qtd": 162023
+  },
+  {
+   "nome": "Cumprimento de sentença",
+   "qtd": 95674
+  },
+  {
+   "nome": "Procedimento Comum Cível",
+   "qtd": 65970
+  },
+  {
+   "nome": "Reclamação Pré-processual",
+   "qtd": 64618
+  },
+  {
+   "nome": "Carta Precatória Cível",
+   "qtd": 58975
+  },
+  {
+   "nome": "Ação Penal - Procedimento Ordinário",
+   "qtd": 43526
+  },
+  {
+   "nome": "Carta Precatória Criminal",
+   "qtd": 43414
+  },
+  {
+   "nome": "Execução da Pena",
+   "qtd": 41444
+  },
+  {
+   "nome": "Apelação Cível",
+   "qtd": 37279
+  },
+  {
+   "nome": "Termo Circunstanciado",
+   "qtd": 33277
+  },
+  {
+   "nome": "Recurso Inominado Cível",
+   "qtd": 33214
+  },
+  {
+   "nome": "Execução Fiscal",
+   "qtd": 30565
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 29181
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 27827
+  },
+  {
+   "nome": "Busca e Apreensão em Alienação Fiduciária",
+   "qtd": 12278
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 41999
+  },
+  {
+   "nome": "Intimação",
+   "qtd": 40679
+  },
+  {
+   "nome": "Prestação de Serviços",
+   "qtd": 37850
+  },
+  {
+   "nome": "Citação",
+   "qtd": 31575
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 26740
+  },
+  {
+   "nome": "Perdas e Danos",
+   "qtd": 26167
+  },
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 24820
+  },
+  {
+   "nome": "Liminar ",
+   "qtd": 24740
+  },
+  {
+   "nome": "Pagamento",
+   "qtd": 23089
+  },
+  {
+   "nome": "Ameaça ",
+   "qtd": 22758
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 20967
+  },
+  {
+   "nome": "Fornecimento de Energia Elétrica",
+   "qtd": 19282
+  },
+  {
+   "nome": "Honorários Advocatícios em Execução Contra a Fazenda Pública",
+   "qtd": 19217
+  },
+  {
+   "nome": "DIREITO CIVIL",
+   "qtd": 19027
+  },
+  {
+   "nome": "Tráfico de Drogas e Condutas Afins",
+   "qtd": 18907
+  }
+ ]
 }

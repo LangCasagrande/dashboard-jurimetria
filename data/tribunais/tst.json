@@ -5,13 +5,13 @@
  "ramo": "Superiores",
  "partes_atualizadas_em": {
   "graus": "2026-11-19T14:27:26+00:00",
-  "formatos": "2026-11-19T14:27:58+00:00",
-  "sistemas": "2026-11-19T14:28:38+00:00",
-  "classes": "2026-11-19T14:30:13+00:00",
-  "assuntos": "2026-11-19T14:31:08+00:00",
+  "formatos": "2026-11-23T16:55:22+00:00",
+  "sistemas": "2026-11-23T16:58:03+00:00",
+  "classes": "2026-11-23T17:03:04+00:00",
+  "assuntos": "2026-11-23T17:08:53+00:00",
   "orgaos": "2026-11-19T14:31:33+00:00",
-  "total": "2026-11-19T14:32:57+00:00",
-  "mensal": "2026-11-19T14:33:19+00:00"
+  "total": "2026-11-23T17:21:47+00:00",
+  "mensal": "2026-11-23T17:27:22+00:00"
  },
  "graus": [
   {
@@ -22,7 +22,7 @@
  "formatos": [
   {
    "nome": "Eletrônico",
-   "qtd": 4642740
+   "qtd": 2322564
   }
  ],
  "sistemas": [
@@ -38,125 +38,125 @@
  "classes": [
   {
    "nome": "Agravo de Instrumento em Recurso de Revista",
-   "qtd": 3603532
+   "qtd": 1802690
   },
   {
    "nome": "Recurso de Revista",
-   "qtd": 589557
+   "qtd": 294900
   },
   {
    "nome": "Recurso de Revista com Agravo",
-   "qtd": 291122
+   "qtd": 145460
   },
   {
    "nome": "Recurso Ordinário Trabalhista",
-   "qtd": 66181
+   "qtd": 33140
   },
   {
    "nome": "Petição Cível",
-   "qtd": 36173
+   "qtd": 18199
   },
   {
    "nome": "Agravo",
-   "qtd": 16810
+   "qtd": 8565
   },
   {
    "nome": "Agravo de Instrumento em Recurso Extraordinário",
-   "qtd": 4722
+   "qtd": 2337
   },
   {
    "nome": "Tutela Cautelar Antecedente",
-   "qtd": 4236
+   "qtd": 2097
   },
   {
    "nome": "Correição Parcial ou Reclamação Correicional",
-   "qtd": 4197
-  },
-  {
-   "nome": "Ação Rescisória",
-   "qtd": 3762
+   "qtd": 2082
   },
   {
    "nome": "Agravo de Instrumento em Recurso Ordinário",
-   "qtd": 3696
+   "qtd": 1849
+  },
+  {
+   "nome": "Ação Rescisória",
+   "qtd": 1824
   },
   {
    "nome": "Mandado de Segurança Cível",
-   "qtd": 3003
+   "qtd": 1523
   },
   {
    "nome": "Pedido de Providências",
-   "qtd": 2722
+   "qtd": 1388
   },
   {
    "nome": "Embargos de Declaração Cível",
-   "qtd": 2662
+   "qtd": 1289
   },
   {
    "nome": "Remessa Necessária / Recurso Ordinário",
-   "qtd": 1505
+   "qtd": 731
   }
  ],
  "assuntos": [
   {
    "nome": "Horas Extras",
-   "qtd": 311301
+   "qtd": 468089
   },
   {
    "nome": "Intervalo Intrajornada",
-   "qtd": 223299
+   "qtd": 335498
   },
   {
    "nome": "Indenização por Dano Moral",
-   "qtd": 194090
+   "qtd": 291300
   },
   {
    "nome": "DIREITO DO TRABALHO",
-   "qtd": 193199
+   "qtd": 289587
   },
   {
    "nome": "Honorários Advocatícios",
-   "qtd": 190783
+   "qtd": 287000
   },
   {
    "nome": "Negativa de Prestação Jurisdicional ",
-   "qtd": 184767
+   "qtd": 277397
   },
   {
    "nome": "Adicional de Insalubridade",
-   "qtd": 160478
+   "qtd": 240962
   },
   {
    "nome": "Responsabilidade Solidária/Subsidiária",
-   "qtd": 155742
+   "qtd": 233605
   },
   {
    "nome": "Ente Público",
-   "qtd": 137152
+   "qtd": 206004
   },
   {
    "nome": "Multa do Artigo  477 da CLT",
-   "qtd": 130123
+   "qtd": 195332
   },
   {
    "nome": "Multa de 40% do FGTS",
-   "qtd": 113219
+   "qtd": 169727
   },
   {
    "nome": "Adicional de Horas Extras",
-   "qtd": 110423
+   "qtd": 165738
   },
   {
    "nome": "Honorários na Justiça do Trabalho ",
-   "qtd": 104586
+   "qtd": 157252
   },
   {
    "nome": "Verbas Rescisórias",
-   "qtd": 101573
+   "qtd": 152227
   },
   {
    "nome": "Correção Monetária",
-   "qtd": 100822
+   "qtd": 151383
   }
  ],
  "orgaos": [
@@ -223,6 +223,9 @@
  ],
  "total": 2322591,
  "mensal": [],
- "erros": {},
- "atualizado_em": "2026-11-19T14:33:19+00:00"
+ "erros": {
+  "graus": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "orgaos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-23T17:27:22+00:00"
 }

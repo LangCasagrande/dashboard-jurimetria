@@ -4,19 +4,19 @@
  "nome": "Superior Tribunal de Justiça",
  "ramo": "Superiores",
  "partes_atualizadas_em": {
-  "graus": "2026-11-19T14:07:36+00:00",
-  "formatos": "2026-11-19T14:09:24+00:00",
-  "sistemas": "2026-11-19T14:09:53+00:00",
-  "classes": "2026-11-19T14:20:38+00:00",
+  "graus": "2026-11-23T16:12:07+00:00",
+  "formatos": "2026-11-23T16:13:34+00:00",
+  "sistemas": "2026-11-23T16:16:16+00:00",
+  "classes": "2026-11-23T16:19:00+00:00",
   "assuntos": "2026-11-19T14:22:18+00:00",
-  "orgaos": "2026-11-19T14:22:59+00:00",
-  "total": "2026-11-19T14:25:16+00:00",
-  "mensal": "2026-11-19T14:26:01+00:00"
+  "orgaos": "2026-11-23T16:34:16+00:00",
+  "total": "2026-11-23T16:38:02+00:00",
+  "mensal": "2026-11-23T16:40:25+00:00"
  },
  "graus": [
   {
    "nome": "SUP",
-   "qtd": 1242019
+   "qtd": 2488522
   }
  ],
  "formatos": [
@@ -32,73 +32,73 @@
  "sistemas": [
   {
    "nome": "Outros",
-   "qtd": 2936117
+   "qtd": 1956495
   },
   {
    "nome": "Inválido",
-   "qtd": 794424
+   "qtd": 529322
   }
  ],
  "classes": [
   {
    "nome": "Agravo em Recurso Especial",
-   "qtd": 1374978
+   "qtd": 687808
   },
   {
    "nome": "Habeas Corpus",
-   "qtd": 453513
+   "qtd": 226923
   },
   {
    "nome": "Recurso Especial",
-   "qtd": 421789
+   "qtd": 211172
   },
   {
    "nome": "Recurso Ordinário em Habeas Corpus",
-   "qtd": 87002
+   "qtd": 43346
   },
   {
    "nome": "Conflito de Competência",
-   "qtd": 45936
+   "qtd": 23020
   },
   {
    "nome": "Recurso Ordinário em Mandado de Segurança",
-   "qtd": 18488
+   "qtd": 9302
   },
   {
    "nome": "Embargos de Divergência em Agravo em Recurso Especial",
-   "qtd": 12338
+   "qtd": 6090
   },
   {
    "nome": "Reclamação",
-   "qtd": 11596
+   "qtd": 5658
   },
   {
    "nome": "Requisição de Pequeno Valor",
-   "qtd": 11211
+   "qtd": 5621
   },
   {
    "nome": "Precatório",
-   "qtd": 8322
+   "qtd": 4162
   },
   {
    "nome": "Embargos de Divergência em Recurso Especial",
-   "qtd": 7955
+   "qtd": 3932
   },
   {
    "nome": "Mandado de Segurança",
-   "qtd": 6929
+   "qtd": 3486
   },
   {
    "nome": "Carta Rogatória",
-   "qtd": 5470
+   "qtd": 2682
   },
   {
    "nome": "Pedido de Uniformização de Interpretação de Lei Criminal",
-   "qtd": 4329
+   "qtd": 2189
   },
   {
    "nome": "Tutela Cautelar Antecedente",
-   "qtd": 3234
+   "qtd": 1607
   }
  ],
  "assuntos": [
@@ -225,85 +225,87 @@
    "qtd": 79702
   }
  ],
- "total": 3730541,
+ "total": 1242019,
  "mensal": [
   {
    "mes": "2023-11",
-   "qtd": 10085
+   "qtd": 10003
   },
   {
    "mes": "2023-12",
-   "qtd": 8229
+   "qtd": 8232
   },
   {
    "mes": "2024-01",
-   "qtd": 7626
+   "qtd": 7549
   },
   {
    "mes": "2024-02",
-   "qtd": 9797
+   "qtd": 9747
   },
   {
    "mes": "2024-03",
-   "qtd": 8424
+   "qtd": 8534
   },
   {
    "mes": "2024-04",
-   "qtd": 11544
+   "qtd": 11439
   },
   {
    "mes": "2024-05",
-   "qtd": 11087
+   "qtd": 11069
   },
   {
    "mes": "2024-06",
-   "qtd": 9241
+   "qtd": 9350
   },
   {
    "mes": "2024-07",
-   "qtd": 9539
+   "qtd": 9533
   },
   {
    "mes": "2024-08",
-   "qtd": 9697
+   "qtd": 9904
   },
   {
    "mes": "2024-09",
-   "qtd": 7585
+   "qtd": 7797
   },
   {
    "mes": "2024-10",
-   "qtd": 7712
+   "qtd": 7682
   },
   {
    "mes": "2024-11",
-   "qtd": 5970
+   "qtd": 6054
   },
   {
    "mes": "2024-12",
-   "qtd": 5887
+   "qtd": 6004
   },
   {
    "mes": "2025-01",
-   "qtd": 4091
+   "qtd": 4044
   },
   {
    "mes": "2025-02",
-   "qtd": 4520
+   "qtd": 4619
   },
   {
    "mes": "2025-03",
-   "qtd": 2029
+   "qtd": 2036
   },
   {
    "mes": "2025-04",
-   "qtd": 404
+   "qtd": 372
   },
   {
    "mes": "2025-05",
-   "qtd": 8
+   "qtd": 6
   }
  ],
- "erros": {},
- "atualizado_em": "2026-11-19T14:26:01+00:00"
+ "erros": {
+  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-23T16:40:25+00:00"
 }

@@ -4,13 +4,14 @@
  "nome": "Tribunal Regional Federal da 3ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "graus": "2026-11-19T16:04:02+00:00",
-  "formatos": "2026-11-19T16:05:32+00:00",
-  "sistemas": "2026-11-19T16:06:52+00:00",
+  "graus": "2026-11-23T19:30:55+00:00",
+  "formatos": "2026-11-23T19:31:48+00:00",
+  "sistemas": "2026-11-23T19:33:16+00:00",
   "classes": "2026-11-19T16:12:56+00:00",
   "orgaos": "2026-11-19T16:31:34+00:00",
   "total": "2026-11-19T16:32:04+00:00",
-  "mensal": "2026-11-19T16:34:59+00:00"
+  "mensal": "2026-11-23T20:07:12+00:00",
+  "assuntos": "2026-11-23T19:44:59+00:00"
  },
  "graus": [
   {
@@ -193,7 +194,71 @@
  "total": 17694328,
  "mensal": [],
  "erros": {
-  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+  "classes": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "orgaos": "HTTP 504: <html>\r <head><title>504 Gateway Time-out</title></head>\r <body>\r <center><h1>504 Gateway Time-out</h1></center>\r <hr><center>NSX LB</center>\r </body>\r </html>\r",
+  "total": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
  },
- "atualizado_em": "2026-11-19T16:34:59+00:00"
+ "atualizado_em": "2026-11-23T20:07:12+00:00",
+ "assuntos": [
+  {
+   "nome": "Auxílio por Incapacidade Temporária",
+   "qtd": 1515836
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 1490235
+  },
+  {
+   "nome": "Concessão",
+   "qtd": 1264849
+  },
+  {
+   "nome": "Aposentadoria por Incapacidade Permanente",
+   "qtd": 1196426
+  },
+  {
+   "nome": "Aplicação INPC/IPCA - Atualização FGTS",
+   "qtd": 1059586
+  },
+  {
+   "nome": "Aposentadoria por Tempo de Contribuição (Art. 55/6)",
+   "qtd": 762572
+  },
+  {
+   "nome": "Conselhos Regionais e Afins (Anuidade)",
+   "qtd": 696693
+  },
+  {
+   "nome": "IRPJ/Imposto de Renda de Pessoa Jurídica",
+   "qtd": 650140
+  },
+  {
+   "nome": "Cofins",
+   "qtd": 593148
+  },
+  {
+   "nome": "PIS",
+   "qtd": 551612
+  },
+  {
+   "nome": "Averbação/Cômputo/Conversão de tempo de serviço especial",
+   "qtd": 509617
+  },
+  {
+   "nome": "Deficiente",
+   "qtd": 505110
+  },
+  {
+   "nome": "Competência da Justiça Federal",
+   "qtd": 487760
+  },
+  {
+   "nome": "Contribuições Previdenciárias",
+   "qtd": 481947
+  },
+  {
+   "nome": "Atualização de Conta",
+   "qtd": 443440
+  }
+ ]
 }

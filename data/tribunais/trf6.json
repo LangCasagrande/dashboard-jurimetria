@@ -4,12 +4,13 @@
  "nome": "Tribunal Regional Federal da 6ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "graus": "2026-11-19T17:57:13+00:00",
-  "classes": "2026-11-19T18:16:12+00:00",
-  "assuntos": "2026-11-19T18:17:54+00:00",
-  "orgaos": "2026-11-19T18:19:44+00:00",
-  "total": "2026-11-19T18:21:09+00:00",
-  "mensal": "2026-11-19T18:22:29+00:00"
+  "graus": "2026-11-23T20:47:05+00:00",
+  "classes": "2026-11-23T20:56:23+00:00",
+  "assuntos": "2026-11-23T20:57:08+00:00",
+  "orgaos": "2026-11-23T20:58:05+00:00",
+  "total": "2026-11-23T21:04:09+00:00",
+  "mensal": "2026-11-23T21:14:50+00:00",
+  "sistemas": "2026-11-23T20:55:54+00:00"
  },
  "graus": [
   {
@@ -299,8 +300,33 @@
   }
  ],
  "erros": {
-  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
-  "sistemas": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
  },
- "atualizado_em": "2026-11-19T18:22:29+00:00"
+ "atualizado_em": "2026-11-23T21:14:50+00:00",
+ "sistemas": [
+  {
+   "nome": "Projudi",
+   "qtd": 3743189
+  },
+  {
+   "nome": "PJe",
+   "qtd": 671700
+  },
+  {
+   "nome": "Outros",
+   "qtd": 149408
+  },
+  {
+   "nome": "Pje",
+   "qtd": 58533
+  },
+  {
+   "nome": "Inválido",
+   "qtd": 34488
+  },
+  {
+   "nome": "EPROC",
+   "qtd": 6302
+  }
+ ]
 }

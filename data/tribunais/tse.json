@@ -5,13 +5,13 @@
  "ramo": "Superiores",
  "partes_atualizadas_em": {
   "graus": "2026-11-19T14:34:04+00:00",
-  "formatos": "2026-11-19T14:34:26+00:00",
-  "sistemas": "2026-11-19T14:43:52+00:00",
-  "classes": "2026-11-19T14:44:23+00:00",
-  "assuntos": "2026-11-19T14:45:18+00:00",
-  "orgaos": "2026-11-19T14:47:52+00:00",
+  "formatos": "2026-11-23T17:37:54+00:00",
+  "sistemas": "2026-11-23T17:39:05+00:00",
+  "classes": "2026-11-23T17:39:39+00:00",
+  "assuntos": "2026-11-23T17:49:48+00:00",
+  "orgaos": "2026-11-23T17:54:41+00:00",
   "total": "2026-11-19T14:57:46+00:00",
-  "mensal": "2026-11-19T14:59:45+00:00"
+  "mensal": "2026-11-23T18:03:49+00:00"
  },
  "graus": [
   {
@@ -336,6 +336,9 @@
    "qtd": 1
   }
  ],
- "erros": {},
- "atualizado_em": "2026-11-19T14:59:45+00:00"
+ "erros": {
+  "graus": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
+  "total": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-23T18:03:49+00:00"
 }
