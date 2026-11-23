@@ -18,9 +18,9 @@
     .finding.alto { border-left-color: var(--bad); } .finding.medio { border-left-color: var(--warn); }
     .finding.baixo { border-left-color: var(--primary); } .finding.info { border-left-color: var(--ok); }
     .finding h3 { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: .35rem; }
-    .finding blockquote { margin: .5rem 0; padding: .4rem .7rem; background: var(--surface-2); border-radius: 6px; font-size: .88rem; cursor: pointer; }
+    .finding blockquote { overflow-wrap: anywhere; margin: .5rem 0; padding: .4rem .7rem; background: var(--surface-2); border-radius: 6px; font-size: .88rem; cursor: pointer; }
     .finding .meta { font-size: .85rem; color: var(--muted); margin: .25rem 0 0; }
-    .marked { white-space: pre-wrap; font-size: .9rem; line-height: 1.7; max-height: 520px; overflow: auto; padding: 12px; background: var(--surface-2); border-radius: 8px; }
+    .marked { overflow-wrap: anywhere; white-space: pre-wrap; font-size: .9rem; line-height: 1.7; max-height: 520px; overflow: auto; padding: 12px; background: var(--surface-2); border-radius: 8px; }
     mark { border-radius: 3px; padding: 0 1px; color: inherit; }
     mark.alto { background: var(--bad-soft); outline: 1px solid var(--bad); }
     mark.medio { background: var(--warn-soft); outline: 1px solid var(--warn); }

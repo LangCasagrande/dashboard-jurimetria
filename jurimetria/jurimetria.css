@@ -72,7 +72,7 @@ svg.viz { display: block; overflow: visible; touch-action: pan-y; }
 .viz .grade { stroke: var(--viz-grade); stroke-width: 1; }
 .viz .eixo { stroke: var(--viz-eixo); stroke-width: 1; }
 .viz .rotulo-eixo { fill: var(--viz-rotulo); font-size: 11px; font-variant-numeric: tabular-nums; }
-.viz .rotulo-direto { fill: var(--text); font-size: 11.5px; font-weight: 600; }
+.viz .rotulo-direto { fill: var(--text); font-size: 11.5px; font-weight: 600; paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; }
 .viz .coluna { fill: var(--serie-1); transition: opacity .12s; }
 .viz .coluna.parcial { opacity: .4; }
 .viz .coluna.apagada { opacity: .45; }

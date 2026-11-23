@@ -1,0 +1,44 @@
+# Testes rápidos a cada pull request e push na main: coletor (Python) e sintaxe do JavaScript.
+name: Testes
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Testes do coletor
+        run: python -m unittest discover -s coletor -v
+
+      - name: JSON dos dados é válido
+        run: |
+          for f in data/index.json data/tribunais/*.json; do
+            python -c "import json,sys; json.load(open(sys.argv[1], encoding='utf-8'))" "$f" || exit 1
+          done
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Sintaxe do JavaScript
+        run: |
+          for f in $(git ls-files '*.js'); do
+            if grep -qE '^\s*(import|export) ' "$f"; then
+              node --input-type=module --check < "$f" || exit 1
+            else
+              node --check "$f" || exit 1
+            fi
+          done

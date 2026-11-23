@@ -52,6 +52,20 @@
     return partes.join(' e ');
   }
   const moeda = x => Number(x || 0).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+  // Parcelas que somam exatamente o total: a diferença de centavos vai para a primeira.
+  function textoParcelas(valor, n) {
+    const centavos = Math.round(valor * 100), base = Math.floor(centavos / n), resto = centavos - base * n;
+    if (!resto) return `em ${n} parcelas mensais e sucessivas de ${moeda(base / 100)}`;
+    return `em ${n} parcelas mensais e sucessivas, sendo a primeira de ${moeda((base + resto) / 100)} e as demais de ${moeda(base / 100)}`;
+  }
+  // 20 -> "vinte"; 20.5 -> "vinte vírgula cinco"; 12.25 -> "doze vírgula vinte e cinco".
+  function percentualExtenso(x) {
+    const [int, dec = ''] = String(Number(x)).split('.');
+    const inteiro = +int === 0 ? 'zero' : inteiroExtenso(+int);
+    if (!dec) return inteiro;
+    const casas = dec.slice(0, 2);
+    return `${inteiro} vírgula ${casas.startsWith('0') ? 'zero ' : ''}${inteiroExtenso(+casas)}`;
+  }
   const valorCompleto = (x, ph) => (Number(x) > 0) ? `${moeda(x)} (${reaisExtenso(x)})` : `<span class="ph">[${esc(ph)}]</span>`;
 
   const qualifPF = (p, f) => `${v(f[p + 'Nome'], 'nome completo')}, ${v(f[p + 'Nacionalidade'], 'nacionalidade')}, ${v(f[p + 'EstadoCivil'], 'estado civil')}, ${v(f[p + 'Profissao'], 'profissão')}, inscrito(a) no CPF sob o nº ${v(f[p + 'Cpf'], 'CPF')}, residente e domiciliado(a) em ${v(f[p + 'Endereco'], 'endereço completo')}`;
@@ -158,8 +172,8 @@
         let clausula = 2;
         const n = () => `CLÁUSULA ${String(clausula++).padStart(2, '0')}`;
         const honor = [];
-        if (fixo) honor.push(`a título de honorários contratuais, o valor de ${valorCompleto(f.valor, 'valor')}, pago ${parcelas > 1 ? `em ${parcelas} parcelas mensais e sucessivas de ${moeda((Number(f.valor) || 0) / parcelas)}` : 'à vista, na assinatura deste contrato'}`);
-        if (exito) honor.push(`${fixo ? 'acrescido de ' : ''}${v(f.exito, '%')}% (${v(f.exito ? inteiroExtenso(parseInt(f.exito, 10)) : '', 'percentual por extenso')} por cento) sobre o proveito econômico obtido pelo(a) CONTRATANTE, pagos quando do efetivo recebimento`);
+        if (fixo) honor.push(`a título de honorários contratuais, o valor de ${valorCompleto(f.valor, 'valor')}, pago ${parcelas > 1 ? textoParcelas(Number(f.valor) || 0, parcelas) : 'à vista, na assinatura deste contrato'}`);
+        if (exito) honor.push(`${fixo ? 'acrescido de ' : ''}${v(f.exito ? Number(f.exito).toLocaleString('pt-BR', { maximumFractionDigits: 2 }) : '', '%')}% (${v(f.exito ? percentualExtenso(f.exito) : '', 'percentual por extenso')} por cento) sobre o proveito econômico obtido pelo(a) CONTRATANTE, pagos quando do efetivo recebimento`);
         return `
           <h1>CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS</h1>
           <p><strong>CONTRATANTE:</strong> ${qualifPF('cli', f)}.</p>

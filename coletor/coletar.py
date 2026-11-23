@@ -17,6 +17,7 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import http.client
 import json
 import os
 import random
@@ -48,8 +49,10 @@ def log(msg: str) -> None:
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", flush=True)
 
 
-def consultar(alias: str, corpo: dict, chave: str, tentativas: int = 6, timeout: int = 80) -> dict:
-    """POST de busca com novas tentativas para 429, 5xx e falhas de rede."""
+def consultar(alias: str, corpo: dict, chave: str, tentativas: int = 6, timeout: int = 80,
+              prazo: float | None = None) -> dict:
+    """POST de busca com novas tentativas para 429, 5xx, falhas de rede e respostas truncadas.
+    Não começa nova tentativa depois do prazo (orçamento de tempo da execução)."""
     url = API.format(alias=alias)
     dados = json.dumps(corpo).encode()
     espera = 15.0
@@ -76,10 +79,17 @@ def consultar(alias: str, corpo: dict, chave: str, tentativas: int = 6, timeout:
             ultimo = f"HTTP {e.code}: {trecho[:160]}"
             if e.code in (400, 401, 403, 404):
                 raise ErroDataJud(ultimo, definitivo=True) from e
+            pedido = e.headers.get("Retry-After") if e.headers else None
+            if pedido and pedido.isdigit():
+                espera = max(espera, min(float(pedido), 240))
         except (error.URLError, TimeoutError, ConnectionError, OSError) as e:
             ultimo = f"rede: {e}"
+        except (ValueError, http.client.HTTPException) as e:  # JSON inválido ou resposta truncada
+            ultimo = f"resposta inválida: {e.__class__.__name__}: {str(e)[:120]}"
         if n < tentativas:
             pausa = espera + random.uniform(0, 5)
+            if prazo is not None and time.monotonic() + pausa > prazo:
+                break
             log(f"    tentativa {n}/{tentativas} falhou ({ultimo}); nova tentativa em {pausa:.0f}s")
             time.sleep(pausa)
             espera = min(espera * 2, 240)
@@ -87,7 +97,9 @@ def consultar(alias: str, corpo: dict, chave: str, tentativas: int = 6, timeout:
 
 
 def termos(campo: str, tamanho: int) -> dict:
-    return {"size": 0, "aggs": {"x": {"terms": {"field": campo, "size": tamanho}}}}
+    # track_total_hits: o total vem da mesma consulta, para os percentuais serem coerentes
+    # (a API às vezes responde com estados diferentes do índice em consultas seguidas).
+    return {"size": 0, "track_total_hits": True, "aggs": {"x": {"terms": {"field": campo, "size": tamanho}}}}
 
 
 def buckets(resp: dict) -> list[dict]:
@@ -107,22 +119,89 @@ PARTES = {
         {"size": 0, "track_total_hits": True},
         lambda r: r["hits"]["total"]["value"],
     ),
-    # Ajuizamentos por ano: mostra até quando vai a base de cada tribunal (muitas param anos atrás).
-    "anual": (
-        {
-            "size": 0,
-            # Limita o período: há registros com datas absurdas (ex.: ano 2599) na base.
-            "query": {"range": {"dataAjuizamento": {"gte": f"{ANO_INICIAL}-01-01", "lt": "now+1M/M"}}},
-            "aggs": {"x": {"date_histogram": {"field": "dataAjuizamento", "calendar_interval": "year", "format": "yyyy", "min_doc_count": 0}}},
-        },
-        lambda r: [{"ano": b["key_as_string"], "qtd": b["doc_count"]} for b in r["aggregations"]["x"]["buckets"]],
-    ),
-    # O corpo da consulta mensal depende do resultado anual (ver corpo_mensal).
-    "mensal": (
-        None,
-        lambda r: [{"mes": b["key_as_string"], "qtd": b["doc_count"]} for b in r["aggregations"]["x"]["buckets"]],
-    ),
+    # "anual" e "mensal" têm corpo montado na hora (ver corpo_anual / corpo_mensal).
+    "anual": (None, None),
+    "mensal": (None, None),
 }
+
+
+# Datas de ajuizamento em dois formatos na base.
+# Parte dos tribunais envia dataAjuizamento como texto ISO ("2024-01-15T00:00:00"), que o
+# Elasticsearch entende como data. Outra parte envia no formato compacto "20240115000000", que o
+# índice lê como milissegundos desde 1970: 20240115000000 ms cai no ano 2611 (e 1985 vira 2599,
+# as "datas absurdas" vistas na base). Um filtro "até hoje" descarta todos esses registros.
+# Por isso cada série soma duas agregações na mesma consulta: um histograma das datas corretas e
+# faixas numéricas que capturam o formato compacto (período P = [inicio, fim) em yyyyMMddHHmmss).
+def _compacto(ano: int, mes: int = 1) -> int:
+    return int(f"{ano:04d}{mes:02d}01000000")
+
+
+def _proximo_mes(ano: int, mes: int) -> tuple[int, int]:
+    return (ano + 1, 1) if mes == 12 else (ano, mes + 1)
+
+
+def _corpo_datas(periodos: list[tuple[str, int, int]], inicio_iso: str, fim_iso: str, intervalo: str, formato: str) -> dict:
+    return {
+        "size": 0,
+        "aggs": {
+            "iso": {
+                "filter": {"range": {"dataAjuizamento": {"gte": inicio_iso, "lt": fim_iso}}},
+                "aggs": {"h": {"date_histogram": {"field": "dataAjuizamento", "calendar_interval": intervalo, "format": formato}}},
+            },
+            "compacto": {
+                "range": {"field": "dataAjuizamento", "ranges": [{"key": k, "from": a, "to": b} for k, a, b in periodos]},
+            },
+        },
+    }
+
+
+def _somar_datas(resp: dict, chaves: list[str], rotulo: str) -> list[dict]:
+    soma = dict.fromkeys(chaves, 0)
+    aggs = resp["aggregations"]
+    for b in aggs["iso"]["h"]["buckets"]:
+        if b["key_as_string"] in soma:
+            soma[b["key_as_string"]] += b["doc_count"]
+    for b in aggs["compacto"]["buckets"]:
+        if b.get("key") in soma:
+            soma[b["key"]] += b["doc_count"]
+    return [{rotulo: k, "qtd": v} for k, v in soma.items()]
+
+
+def anos_serie(hoje: datetime | None = None) -> list[int]:
+    hoje = hoje or datetime.now(timezone.utc)
+    return list(range(ANO_INICIAL, hoje.year + 1))
+
+
+def corpo_anual(hoje: datetime | None = None) -> tuple[dict, list[str]]:
+    anos = anos_serie(hoje)
+    periodos = [(str(a), _compacto(a), _compacto(a + 1)) for a in anos]
+    return _corpo_datas(periodos, f"{anos[0]}-01-01", f"{anos[-1] + 1}-01-01", "year", "yyyy"), [str(a) for a in anos]
+
+
+def meses_janela(dados: dict, hoje: datetime | None = None) -> list[tuple[int, int]]:
+    """Os 36 meses mais recentes que têm dados (mais o mês corrente, se a base está em dia).
+    Se a base do tribunal parou em um ano anterior, a janela termina no fim desse ano."""
+    hoje = hoje or datetime.now(timezone.utc)
+    ano = ultimo_ano_relevante(dados.get("anual"))
+    if ano is not None and ano < hoje.year:
+        fim = (ano, 12)
+        n = MESES_HISTORICO
+    else:
+        fim = (hoje.year, hoje.month)
+        n = MESES_HISTORICO + 1
+    meses = [fim]
+    while len(meses) < n:
+        a, m = meses[-1]
+        meses.append((a - 1, 12) if m == 1 else (a, m - 1))
+    return meses[::-1]
+
+
+def corpo_mensal(dados: dict, hoje: datetime | None = None) -> tuple[dict, list[str]]:
+    meses = meses_janela(dados, hoje)
+    periodos = [(f"{a:04d}-{m:02d}", _compacto(a, m), _compacto(*_proximo_mes(a, m))) for a, m in meses]
+    fim = _proximo_mes(*meses[-1])
+    corpo = _corpo_datas(periodos, f"{meses[0][0]:04d}-{meses[0][1]:02d}-01", f"{fim[0]:04d}-{fim[1]:02d}-01", "month", "yyyy-MM")
+    return corpo, [p[0] for p in periodos]
 
 
 def ultimo_ano_relevante(anual: list[dict] | None) -> int | None:
@@ -134,20 +213,6 @@ def ultimo_ano_relevante(anual: list[dict] | None) -> int | None:
         return None
     relevantes = [int(a["ano"]) for a in anual if a["qtd"] >= 0.05 * maximo]
     return max(relevantes) if relevantes else None
-
-
-def corpo_mensal(dados: dict) -> dict:
-    """Os 36 meses mais recentes que têm dados: se a base do tribunal parou em um ano anterior,
-    a janela termina no fim desse ano, em vez de mostrar meses vazios até hoje."""
-    faixa = {"gte": f"now-{MESES_HISTORICO}M/M", "lt": "now+1M/M"}
-    ano = ultimo_ano_relevante(dados.get("anual"))
-    if ano is not None and ano < datetime.now(timezone.utc).year:
-        faixa = {"gte": f"{ano - MESES_HISTORICO // 12 + 1}-01-01", "lt": f"{ano + 1}-01-01"}
-    return {
-        "size": 0,
-        "query": {"range": {"dataAjuizamento": faixa}},
-        "aggs": {"x": {"date_histogram": {"field": "dataAjuizamento", "calendar_interval": "month", "format": "yyyy-MM", "min_doc_count": 0}}},
-    }
 
 
 def agora_iso() -> str:
@@ -180,9 +245,20 @@ def coletar_tribunal(trib: dict, chave: str, prazo: float) -> dict:
             continue
         log(f"  {trib['sigla']} · {parte}")
         try:
-            if corpo is None:
-                corpo = corpo_mensal(dados)
-            dados[parte] = extrair(consultar(trib["alias"], corpo, chave))
+            if parte == "anual":
+                corpo, chaves = corpo_anual()
+                extrair = lambda r, c=chaves: _somar_datas(r, c, "ano")  # noqa: E731
+            elif parte == "mensal":
+                corpo, chaves = corpo_mensal(dados)
+                extrair = lambda r, c=chaves: _somar_datas(r, c, "mes")  # noqa: E731
+            resposta = consultar(trib["alias"], corpo, chave, prazo=prazo)
+            try:
+                dados[parte] = extrair(resposta)
+                total_consulta = (resposta.get("hits") or {}).get("total")
+                if parte not in ("total", "anual", "mensal") and isinstance(total_consulta, dict):
+                    dados.setdefault("totais_partes", {})[parte] = total_consulta.get("value")
+            except (KeyError, TypeError, IndexError, ValueError) as e:
+                raise ErroDataJud(f"resposta sem o formato esperado: {e.__class__.__name__}: {e}") from e
             atualizadas[parte] = agora_iso()
         except ErroDataJud as e:
             erros[parte] = str(e)
@@ -191,6 +267,8 @@ def coletar_tribunal(trib: dict, chave: str, prazo: float) -> dict:
                 break  # índice inexistente ou chave inválida: não adianta seguir
     dados["erros"] = erros
     dados["atualizado_em"] = max(atualizadas.values()) if atualizadas else None
+    # A parte mais antiga (ou nunca coletada) decide a prioridade na próxima fila.
+    dados["parte_mais_antiga_em"] = min((atualizadas.get(p, "") for p in PARTES), default="")
     gravar_json(caminho, dados)
     return dados
 
@@ -228,11 +306,18 @@ def atualizar_indice(tribunais: list[dict]) -> None:
     log(f"index.json: {len(itens)} tribunais com dados")
 
 
+def minutos_padrao() -> float:
+    try:
+        return float(os.environ.get("ORCAMENTO_MINUTOS") or 320)
+    except ValueError:
+        return 320.0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--tribunais", help="aliases separados por vírgula (ex.: tjac,stj,tre-sp)")
-    ap.add_argument("--minutos", type=float, default=float(os.environ.get("ORCAMENTO_MINUTOS", 330)),
-                    help="orçamento de tempo total (padrão 330 min, abaixo do limite de 6 h do GitHub Actions)")
+    ap.add_argument("--minutos", type=float, default=minutos_padrao(),
+                    help="orçamento de tempo total (padrão 320 min; o job do GitHub Actions tem limite de 350)")
     args = ap.parse_args()
 
     chave = os.environ.get("DATAJUD_API_KEY") or CHAVE_PUBLICA
@@ -244,9 +329,11 @@ def main() -> int:
         if desconhecidos:
             log(f"aliases desconhecidos ignorados: {', '.join(sorted(desconhecidos))}")
     else:
-        # Os mais desatualizados (ou nunca coletados) primeiro.
+        # Primeiro os tribunais cuja parte mais antiga (ou nunca coletada) é a mais velha.
         def idade(t):
-            return ler_json(POR_TRIBUNAL / f"{t['alias']}.json", {}).get("atualizado_em") or ""
+            d = ler_json(POR_TRIBUNAL / f"{t['alias']}.json", {})
+            feitas = d.get("partes_atualizadas_em") or {}
+            return min((feitas.get(p, "") for p in PARTES), default="")
         fila = sorted(todos, key=idade)
 
     prazo = time.monotonic() + args.minutos * 60
@@ -261,6 +348,7 @@ def main() -> int:
         if not d["erros"]:
             ok += 1
         atualizar_indice(todos)
+    atualizar_indice(todos)
     log(f"concluído: {ok} tribunais sem nenhuma falha")
     return 0
 

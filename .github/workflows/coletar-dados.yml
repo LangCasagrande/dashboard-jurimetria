@@ -13,7 +13,7 @@ on:
       minutos:
         description: "Orçamento de tempo em minutos"
         required: false
-        default: "330"
+        default: "320"
 
 permissions:
   contents: write
@@ -35,7 +35,7 @@ jobs:
 
       - name: Coletar
         env:
-          ORCAMENTO_MINUTOS: ${{ github.event.inputs.minutos || '330' }}
+          ORCAMENTO_MINUTOS: ${{ github.event.inputs.minutos || '320' }}
           TRIBUNAIS: ${{ github.event.inputs.tribunais }}
         run: |
           if [ -n "$TRIBUNAIS" ]; then

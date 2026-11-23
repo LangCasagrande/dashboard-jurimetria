@@ -91,7 +91,9 @@
     {
       id: 'reajuste', titulo: 'Reajuste de preço', padrao: /reajust|correcao monetaria|corrigid[oa] monetariamente|igp-?m|ipca|inpc|incc/,
       avaliar(t) {
-        if (/(mensal|mensalmente|trimestral|semestral)/.test(t) && /reajust/.test(t)) return { nivel: 'alto', nota: 'Reajuste em período menor que 12 meses: a lei só permite reajuste por índice com periodicidade anual.' };
+        // Periodicidade do próprio reajuste (não basta a palavra "mensal" na frase, ex.: "valor mensal").
+        const curto = /reajust\w*(\s+\S+){0,3}?\s+(mensal|mensalmente|bimestral|bimestralmente|trimestral|trimestralmente|semestral|semestralmente)\b|(mensal|bimestral|trimestral|semestral)mente\s+reajust|reajust.{0,40}a cada (um|1|dois|2|tres|3|quatro|4|seis|6|nove|9) mes/;
+        if (curto.test(t)) return { nivel: 'alto', nota: 'Reajuste em período menor que 12 meses: a lei só permite reajuste por índice com periodicidade anual.' };
         if (/igp-?m/.test(t)) return { nivel: 'baixo', nota: 'Reajuste pelo IGP-M, índice que já teve altas muito acima da inflação. Considere IPCA.' };
         return { nivel: 'info', nota: 'Há regra de reajuste.' };
       },
@@ -165,7 +167,8 @@
   // Divide o texto em trechos (frases/cláusulas) preservando o original.
   function trechos(texto) {
     const out = [];
-    const re = /[^\n.;]+(?:[.;]+(?!\d)|\n|$)/g;
+    // Ponto entre dígitos ("R$ 1.000,00", "Lei 10.406") não encerra o trecho.
+    const re = /(?:[^\n.;]|\.(?=\d))+(?:[.;]+(?!\d)|\n|$)/g;
     let m;
     while ((m = re.exec(texto))) {
       const t = m[0];

@@ -48,6 +48,18 @@
     </div>`;
   document.body.prepend(header);
 
+  // Link "pular para o conteúdo" (aparece ao navegar com Tab).
+  const main = document.querySelector('main');
+  if (main) {
+    if (!main.id) main.id = 'conteudo';
+    const pular = document.createElement('a');
+    pular.className = 'pular';
+    pular.href = `#${main.id}`;
+    pular.textContent = 'Pular para o conteúdo';
+    pular.addEventListener('click', e => { e.preventDefault(); main.setAttribute('tabindex', '-1'); main.focus(); });
+    document.body.prepend(pular);
+  }
+
   const toggle = header.querySelector('#theme-toggle');
   function paintToggle() { toggle.textContent = currentTheme() === 'dark' ? '☀' : '☾'; }
   paintToggle();

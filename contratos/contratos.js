@@ -130,7 +130,7 @@ function rodarRegras() {
       </div>
       <div class="card">
         <h2>Texto com destaques</h2>
-        <div class="marked">${textoMarcado(texto, marcas)}</div>
+        <div class="marked" tabindex="0" role="region" aria-label="Texto do contrato com destaques">${textoMarcado(texto, marcas)}</div>
       </div>
     </div>`;
   $('status').textContent = '';
@@ -271,7 +271,7 @@ function renderIA(r, texto, msg) {
         </div>
         <div class="card">
           <h2>Texto com destaques da IA</h2>
-          <div class="marked">${textoMarcado(texto, marcas)}</div>
+          <div class="marked" tabindex="0" role="region" aria-label="Texto do contrato com destaques">${textoMarcado(texto, marcas)}</div>
         </div>
       </div>
     </div>

@@ -13,3 +13,6 @@ venv/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Arquivo temporário do coletor (gravação atômica)
+*.tmp

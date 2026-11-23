@@ -23,7 +23,18 @@
   };
   const MAX_COMPARAR = 4;
   const pct = (a, b) => (b ? (100 * a / b) : 0);
-  const fmtPct = (v, casas = 1) => `${Number(v).toLocaleString('pt-BR', { maximumFractionDigits: casas, minimumFractionDigits: 0 })}%`;
+  const fmtPct = (v, casas = 1) => (v > 0 && v < 10 ** -casas)
+    ? `<${(10 ** -casas).toLocaleString('pt-BR')}%`
+    : `${Number(v).toLocaleString('pt-BR', { maximumFractionDigits: casas, minimumFractionDigits: 0 })}%`;
+  const plural = (n, um, varios) => `${n} ${n === 1 ? um : varios}`;
+  // Denominador dos percentuais de uma parte: o total medido na mesma consulta (coletas novas)
+  // ou o total geral. Se a parte não cabe no total (dados de momentos diferentes), não mostra %.
+  function basePct(d, parte) {
+    const lista = d[parte];
+    const base = d.totais_partes?.[parte] ?? d.total;
+    if (!base || !lista?.length || lista[0].qtd > base) return null;
+    return base;
+  }
   const fmtData = iso => iso ? new Date(iso).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' }) : '—';
 
   let indice = null;
@@ -35,8 +46,14 @@
     if (!r.ok) throw new Error(`HTTP ${r.status} ao ler ${url}`);
     return r.json();
   }
+  // Validação defensiva: só aceita séries com chaves no formato esperado.
+  function limparTribunal(d) {
+    if (Array.isArray(d.mensal)) d.mensal = d.mensal.filter(p => /^\d{4}-\d{2}$/.test(p.mes) && Number.isFinite(p.qtd));
+    if (Array.isArray(d.anual)) d.anual = d.anual.filter(p => /^\d{4}$/.test(p.ano) && Number.isFinite(p.qtd));
+    return d;
+  }
   function tribunal(alias) {
-    if (!cache.has(alias)) cache.set(alias, json(`${DADOS}tribunais/${alias}.json`).catch(e => { cache.delete(alias); throw e; }));
+    if (!cache.has(alias)) cache.set(alias, json(`${DADOS}tribunais/${alias}.json`).then(limparTribunal).catch(e => { cache.delete(alias); throw e; }));
     return cache.get(alias);
   }
   const porAlias = alias => indice.tribunais.find(t => t.alias === alias);
@@ -82,7 +99,7 @@
   function csv(linhas) {
     return '﻿' + linhas.map(l => l.map(c => {
       const s = String(c ?? '');
-      return /[";\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+      return /[";\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
     }).join(';')).join('\r\n');
   }
 
@@ -145,7 +162,7 @@
       </div>
       <div class="grid grid-4 kpis">
         ${kpi('Registros de processos', LT.fmtInt(soma), `soma de ${comTotal.length} tribunais`)}
-        ${kpi('Tribunais com dados', `${ts.length}${esperado ? ` <small class="muted">de ${esperado}</small>` : ''}`, 'na base do DataJud')}
+        ${kpi('Tribunais com dados', `${ts.length}${esperado ? ` <small class="muted">de ${esperado}</small>` : ''}`, ts.length === comTotal.length ? 'na base do DataJud' : `${comTotal.length} já com o total de processos`)}
         ${kpi('Processos eletrônicos', eletronico != null ? fmtPct(eletronico) : '—', 'média ponderada pelo volume')}
         ${kpi('Maior tribunal', maior ? esc(maior.sigla) : '—', maior ? `${LT.fmtInt(maior.total)} processos · ${fmtPct(pct(maior.total, soma))} do total` : '')}
       </div>
@@ -154,7 +171,7 @@
         ${filtroRamo === 'Todos' ? cartao('ramos', 'Processos por ramo da Justiça', 'Soma dos tribunais de cada ramo.') : ''}
         ${cartao('lideres', 'Classe mais frequente em cada tribunal', 'Quantos tribunais têm cada classe como a mais comum.')}
         ${cartao('fisicos', 'Onde ainda há mais processos físicos', 'Tribunais com a menor fatia de processos eletrônicos.')}
-        ${cartao('defasagem', 'Até quando vai a base de cada tribunal', 'Meses entre o último período com volume real de ajuizamentos na base pública e a coleta. Quanto maior a barra, mais desatualizado o tribunal está no DataJud.', filtroRamo === 'Todos' ? '' : 'span-2')}
+        ${cartao('defasagem', 'Até quando vai a base de cada tribunal', 'Meses entre o último mês com volume real de ajuizamentos encontrado na base pública e a coleta. Parte das lacunas pode vir do formato das datas na origem (veja <a href="../sobre/#limitacoes">Limitações</a>).', filtroRamo === 'Todos' ? '' : 'span-2')}
       </div>
       <section class="card" style="margin-top:16px">
         <div class="card-head">
@@ -169,6 +186,7 @@
 
     app.querySelectorAll('[data-ramo]').forEach(b => b.addEventListener('click', () => {
       filtroRamo = b.dataset.ramo; LT.store.set('jurimetria-ramo', filtroRamo); mostrarTodos = false; render();
+      document.querySelector(`[data-ramo="${filtroRamo}"]`)?.focus();
     }));
 
     // Ranking
@@ -179,7 +197,8 @@
       const b = document.createElement('button');
       b.type = 'button'; b.className = 'link-btn'; b.style.marginTop = '.75rem';
       b.textContent = mostrarTodos ? 'Mostrar só os 20 maiores' : `Mostrar todos os ${ordenados.length}`;
-      b.addEventListener('click', () => { mostrarTodos = !mostrarTodos; render(); });
+      b.id = 'mostrar-todos';
+      b.addEventListener('click', () => { mostrarTodos = !mostrarTodos; render(); document.getElementById('mostrar-todos')?.focus(); });
       document.getElementById('g-ranking').append(b);
     }
     document.getElementById('t-ranking').innerHTML = G.tabela(['Tribunal', 'Processos'], ordenados.map(t => [`${t.sigla} · ${t.nome}`, t.total]));
@@ -233,9 +252,9 @@
       else boxDef.innerHTML = '';
       const semSerie = ts.length - comSerie.length;
       boxDef.insertAdjacentHTML('beforeend', `
-        ${antigos.length ? `<p style="margin:.9rem 0 .25rem"><strong>${antigos.length} tribunais sem nenhum ajuizamento relevante nos últimos 36 meses</strong> <span class="muted">(base parada antes de ${G.mesLongo(antigos[0].atualizado_em.slice(0, 7).replace(/^(\d{4})/, y => +y - 3))}):</span></p>
+        ${antigos.length ? `<p style="margin:.9rem 0 .25rem"><strong>${plural(antigos.length, 'tribunal', 'tribunais')} sem ajuizamentos encontrados nos últimos 36 meses</strong> <span class="muted">(desde ${G.mesLongo(antigos[0].atualizado_em.slice(0, 7).replace(/^(\d{4})/, y => +y - 3))}, na coleta atual):</span></p>
           <p class="siglas">${antigos.sort((a, b) => (b.total || 0) - (a.total || 0)).map(t => `<a href="#tribunal/${t.alias}" title="${esc(t.nome)}">${esc(t.sigla)}</a>`).join(' ')}</p>` : ''}
-        ${semSerie ? `<p class="muted" style="margin:.5rem 0 0;font-size:.85rem">${semSerie} tribunais ainda sem a série de ajuizamentos coletada.</p>` : ''}`);
+        ${semSerie ? `<p class="muted" style="margin:.5rem 0 0;font-size:.85rem">${plural(semSerie, 'tribunal ainda sem', 'tribunais ainda sem')} a série de ajuizamentos coletada.</p>` : ''}`);
       document.getElementById('t-defasagem').innerHTML = G.tabela(['Tribunal', 'Último mês com dados', 'Meses de atraso'],
         [...def.map(x => [`${x.nome} · ${x.extra}`, x.quando, x.qtd]), ...antigos.map(t => [`${t.sigla} · ${t.nome}`, t.ultimo_ano ? `${t.ultimo_ano} ou antes` : 'antes dos últimos 36 meses', 'mais de 36'])]);
     } else faltando('defasagem', 'mensal');
@@ -246,7 +265,10 @@
     inp.addEventListener('input', () => { busca = inp.value; desenharTabela(ts); });
     document.getElementById('baixar-csv').addEventListener('click', () => {
       const linhas = [['sigla', 'nome', 'ramo', 'total_processos', 'pct_eletronico', 'classe_mais_frequente', 'estatisticas_coletadas', 'atualizado_em']];
-      for (const t of ts) linhas.push([t.sigla, t.nome, t.ramo, t.total ?? '', t.pct_eletronico ?? '', t.classe_principal ?? '', t.partes.length, t.atualizado_em]);
+      // Formato do Excel em português: vírgula decimal e data dd/mm/aaaa.
+      const dec = v => v == null ? '' : String(v).replace('.', ',');
+      const dia = iso => iso ? iso.slice(0, 10).split('-').reverse().join('/') : '';
+      for (const t of ts) linhas.push([t.sigla, t.nome, t.ramo, t.total ?? '', dec(t.pct_eletronico), t.classe_principal ?? '', t.partes.length, dia(t.atualizado_em)]);
       LT.download(`jurimetria-tribunais-${new Date().toISOString().slice(0, 10)}.csv`, csv(linhas), 'text/csv;charset=utf-8');
     });
   }
@@ -278,7 +300,7 @@
         <td class="num">${t.total != null ? LT.fmtInt(t.total) : '—'}</td>
         <td class="num">${t.pct_eletronico != null ? fmtPct(t.pct_eletronico) : '—'}</td>
         <td>${esc(t.classe_principal || '—')}</td>
-        <td class="num" title="${t.partes.length} de ${PARTES.length} estatísticas coletadas"><span class="cobertura" aria-label="${t.partes.length} de ${PARTES.length}">${PARTES.map(p => `<span class="${t.partes.includes(p) ? '' : 'falta'}"></span>`).join('')}</span></td>
+        <td class="num" title="${t.partes.length} de ${PARTES.length} estatísticas coletadas"><span class="cobertura" role="img" aria-label="${t.partes.length} de ${PARTES.length}">${PARTES.map(p => `<span class="${t.partes.includes(p) ? '' : 'falta'}"></span>`).join('')}</span></td>
         <td class="num">${fmtData(t.atualizado_em)}</td>
       </tr>`).join('') || `<tr><td colspan="${cols.length}" class="muted">Nenhum tribunal encontrado.</td></tr>`}</tbody>`;
     tab.querySelectorAll('th.ordenavel').forEach(th => {
@@ -286,6 +308,7 @@
         const c = th.dataset.campo;
         ordem = ordem.campo === c ? { campo: c, dir: -ordem.dir } : { campo: c, dir: ['sigla', 'ramo', 'classe_principal'].includes(c) ? 1 : -1 };
         desenharTabela(ts);
+        document.querySelector(`#tabela th[data-campo="${c}"]`)?.focus();
       };
       th.addEventListener('click', ordenar);
       th.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); ordenar(); } });
@@ -299,6 +322,7 @@
   // ---------- Visão 2: um tribunal ----------
   async function visaoTribunal(alias) {
     selecionarAba('tribunal');
+    const pedido = alias;
     if (!alias || !porAlias(alias)) alias = LT.store.get('jurimetria-tribunal', 'tjsp');
     if (!porAlias(alias)) alias = indice.tribunais[0].alias;
     LT.store.set('jurimetria-tribunal', alias);
@@ -310,7 +334,11 @@
     document.getElementById('sel-tribunal').addEventListener('change', e => { location.hash = `#tribunal/${e.target.value}`; });
 
     let d;
-    try { d = await tribunal(alias); } catch (e) { return erro(e); }
+    try { d = await tribunal(alias); } catch (e) {
+      if (location.hash !== `#tribunal/${alias}`) return;
+      app.querySelector('.carregando').outerHTML = `<div class="notice bad"><strong>Não foi possível carregar ${esc(porAlias(alias).sigla)}.</strong> ${esc(e.message)}. Tente de novo ou escolha outro tribunal.</div>`;
+      return;
+    }
     if (location.hash !== `#tribunal/${alias}`) return; // o usuário já trocou de tribunal
 
     const { pontos, parcial, ultimo, defasagem, insuficiente } = mesesCompletos(d);
@@ -328,22 +356,23 @@
         <button class="btn secondary" type="button" id="baixar-json">Baixar dados (JSON)</button>
         <button class="btn secondary" type="button" id="baixar-tcsv">Baixar dados (CSV)</button>
       </div>
+      ${pedido && pedido !== alias ? `<div class="notice">Não há dados para "${esc(decodeURIComponent(pedido))}" no DataJud${pedido === 'tre-dft' ? ' (a API responde que o índice desse tribunal não existe)' : ''}. Mostrando ${esc(d.sigla)}.</div>` : ''}
       <section class="page-head" style="margin-bottom:1rem">
         <h2 style="font-size:1.35rem;margin:0">${esc(d.nome)} <span class="tag">${esc(NOMES_RAMOS[d.ramo] || d.ramo)}</span></h2>
         <p class="muted" style="margin:.25rem 0 0">Dados coletados até ${fmtData(d.atualizado_em)}.</p>
       </section>
       <div class="grid grid-4 kpis">
-        ${kpi('Processos na base', d.total != null ? LT.fmtInt(d.total) : '—', d.total != null ? `${fmtPct(pct(d.total, indice.tribunais.reduce((s, t) => s + (t.total || 0), 0)), 2)} do total nacional` : 'ainda não coletado')}
+        ${kpi('Processos na base', d.total != null ? LT.fmtInt(d.total) : '—', d.total != null ? `${fmtPct(pct(d.total, indice.tribunais.reduce((s, t) => s + (t.total || 0), 0)), 2)} do total nacional` : 'total ainda não coletado')}
         ${u12 ? kpi('Ajuizados em 12 meses', LT.fmtInt(u12.atual), `12 meses completos até ${G.mesLongo(u12.ate)}${u12.variacao != null ? ` · ${u12.variacao >= 0 ? '+' : ''}${fmtPct(u12.variacao)} sobre os 12 meses anteriores` : ''}`)
           : anoFim ? kpi(`Ajuizados em ${anoFim}`, LT.fmtInt(d.anual.find(x => x.ano === anoFim).qtd), 'último ano com dados na base (provavelmente incompleto)')
-          : kpi('Ajuizados em 12 meses', '—', insuficiente ? 'sem ajuizamentos recentes na base pública' : 'histórico mensal ainda não coletado')}
+          : kpi('Ajuizados em 12 meses', '—', insuficiente ? 'sem ajuizamentos recentes na base pública' : pontos.length ? 'menos de 12 meses completos na série' : 'histórico mensal ainda não coletado')}
         ${kpi('Processos eletrônicos', el != null ? fmtPct(el) : '—', d.formatos ? d.formatos.map(f => `${esc(f.nome)}: ${LT.fmtInt(f.qtd)}`).join(' · ') : 'ainda não coletado')}
-        ${kpi('Classe mais frequente', esc(primeiro(d.classes)), d.classes?.length ? `${fmtPct(pct(d.classes[0].qtd, d.total))} dos processos` : '', true)}
+        ${kpi('Classe mais frequente', esc(primeiro(d.classes)), basePct(d, 'classes') ? `${fmtPct(pct(d.classes[0].qtd, basePct(d, 'classes')))} dos processos` : d.classes?.length ? `${LT.fmtInt(d.classes[0].qtd)} processos` : 'ainda não coletada', true)}
       </div>
       <div class="grid grid-2">
-        ${d.anual ? cartao('anual', 'Processos ajuizados por ano', anoFim && +anoFim < new Date().getFullYear() ? `A base pública deste tribunal tem volume real de ajuizamentos só até <strong>${anoFim}</strong>.` : 'Desde 2000, pela data de ajuizamento. O último ano está em andamento.', 'span-2') : ''}
+        ${d.anual?.length ? cartao('anual', 'Processos ajuizados por ano', !anoFim ? 'Poucos processos com data de ajuizamento na base deste tribunal.' : +anoFim < new Date().getFullYear() ? `Na base pública, o volume de ajuizamentos deste tribunal vai até <strong>${anoFim}</strong>.` : 'Desde 2000, pela data de ajuizamento. O último ano está em andamento.', 'span-2') : ''}
         ${cartao('mensal', 'Processos ajuizados por mês', atrasada
-          ? `A base pública deste tribunal só tem processos ajuizados até <strong>${G.mesLongo(ultimo)}</strong> (${defasagem} meses antes da coleta). A coluna mais clara é esse último mês, provavelmente incompleto.`
+          ? `Na base pública, a série deste tribunal vai até <strong>${G.mesLongo(ultimo)}</strong> (${defasagem} meses antes da coleta). A coluna mais clara é esse último mês, provavelmente incompleto.`
           : insuficiente ? 'Pela data de ajuizamento.' : 'Pela data de ajuizamento. A coluna mais clara é o mês mais recente, ainda incompleto.', 'span-2')}
         ${cartao('classes', 'Classes processuais mais frequentes', 'Tipo de ação ou recurso (Tabelas Processuais Unificadas do CNJ).')}
         ${cartao('assuntos', 'Assuntos mais frequentes', 'Um processo pode ter mais de um assunto.')}
@@ -370,21 +399,23 @@
       const achado = soma
         ? `a API do DataJud devolveu só ${LT.fmtInt(soma)} processo${soma === 1 ? '' : 's'} do ${esc(d.sigla)} ajuizado${soma === 1 ? '' : 's'} nos 36 meses anteriores à coleta${quando}, entre ${G.mesLongo(pontos[0].mes)} e ${G.mesLongo(pontos[pontos.length - 1].mes)}`
         : `a API do DataJud não devolveu nenhum processo do ${esc(d.sigla)} ajuizado nos 36 meses anteriores à coleta${quando}`;
-      document.getElementById('g-mensal').innerHTML = `<p class="muted vazio" style="text-align:left">Sem série mensal recente: ${achado}. Ou seja, a base pública deste tribunal não traz ajuizamentos recentes. ${d.anual ? 'A série anual acima mostra até quando vão os dados.' : 'A próxima coleta busca a série anual e ajusta a janela mensal ao período que tem dados.'} Os outros números desta página (total, classes, assuntos, órgãos) cobrem todo o acervo da base.</p>`;
+      document.getElementById('g-mensal').innerHTML = `<p class="muted vazio" style="text-align:left">Sem série mensal recente: ${achado}. ${d.anual?.length ? 'A série anual acima mostra até quando vão os dados.' : 'Isso pode refletir dados antigos na base ou datas gravadas em outro formato pelo tribunal; a próxima coleta conta os dois formatos e busca também a série anual.'} Os outros números desta página (total, classes, assuntos, órgãos) cobrem todo o acervo da base.</p>`;
       if (pontos.length) document.getElementById('t-mensal').innerHTML = G.tabela(['Mês', 'Processos ajuizados'], pontos.map(p => [G.mesLongo(p.mes), p.qtd]));
       else document.querySelector('#c-mensal .ver-tabela')?.remove();
     } else if (pontos.length) {
-      limpar.push(G.colunas(document.getElementById('g-mensal'), pontos, { parcial, titulo: `Processos ajuizados por mês no ${d.sigla}`, rotuloParcial: atrasada ? 'último mês na base (provavelmente incompleto)' : 'mês em andamento (parcial)' }));
-      document.getElementById('t-mensal').innerHTML = G.tabela(['Mês', 'Processos ajuizados'], pontos.map((p, i) => [G.mesLongo(p.mes) + (i === parcial ? ' (parcial)' : ''), p.qtd]));
+      // Meses depois do último mês com volume real são só registros soltos: ficam de fora.
+      const serie = pontos.slice(0, parcial + 1);
+      limpar.push(G.colunas(document.getElementById('g-mensal'), serie, { parcial, titulo: `Processos ajuizados por mês no ${d.sigla}`, rotuloParcial: atrasada ? 'último mês na base (provavelmente incompleto)' : 'mês em andamento (parcial)' }));
+      document.getElementById('t-mensal').innerHTML = G.tabela(['Mês', 'Processos ajuizados'], serie.map((p, i) => [G.mesLongo(p.mes) + (i === parcial ? ' (parcial)' : ''), p.qtd]));
     } else faltando('mensal', 'mensal');
-    grafBarras('classes', d.classes, { total: d.total, parte: 'classes', colunaNome: 'Classe' });
-    grafBarras('assuntos', d.assuntos, { total: d.total, unidade: 'processos com este assunto', parte: 'assuntos', colunaNome: 'Assunto' });
-    grafBarras('orgaos', d.orgaos, { total: d.total, parte: 'orgaos', colunaNome: 'Órgão julgador' });
+    grafBarras('classes', d.classes, { total: basePct(d, 'classes'), parte: 'classes', colunaNome: 'Classe' });
+    grafBarras('assuntos', d.assuntos, { total: basePct(d, 'assuntos'), unidade: 'processos com este assunto', parte: 'assuntos', colunaNome: 'Assunto' });
+    grafBarras('orgaos', d.orgaos, { total: basePct(d, 'orgaos'), parte: 'orgaos', colunaNome: 'Órgão julgador' });
     grafBarras('graus', graus, { total: somaGraus, parte: 'graus', nomear: nomeGrau, colunaNome: 'Grau' });
     grafBarras('sistemas', d.sistemas, { total: (d.sistemas || []).reduce((s, x) => s + x.qtd, 0), parte: 'sistemas', colunaNome: 'Sistema' });
 
     // Qualidade dos dados
-    const faltam = PARTES.filter(p => d[p] == null || (Array.isArray(d[p]) && !d[p].length));
+    const faltam = PARTES.filter(p => d[p] == null);
     const erros = Object.keys(d.erros || {});
     document.getElementById('qualidade').innerHTML = `
       <p><strong>${PARTES.length - faltam.length} de ${PARTES.length}</strong> estatísticas coletadas.</p>
@@ -415,16 +446,31 @@
     selecionarAba('comparar');
     let aliases = (lista || '').split(',').map(s => s.trim()).filter(a => porAlias(a));
     aliases = [...new Set(aliases)].slice(0, MAX_COMPARAR);
-    if (!aliases.length) aliases = LT.store.get('jurimetria-comparar', ['tjsp', 'tjrj', 'tjmg']).filter(a => porAlias(a));
-    if (!aliases.length) aliases = indice.tribunais.slice(0, 3).map(t => t.alias);
+    const vazioDeProposito = lista === ''; // o usuário removeu todos os tribunais
+    if (!aliases.length && !vazioDeProposito) {
+      aliases = (LT.store.get('jurimetria-comparar', null) || ['tjsp', 'tjrj', 'tjmg']).filter(a => porAlias(a));
+      if (!aliases.length) aliases = indice.tribunais.slice(0, 3).map(t => t.alias);
+    }
     LT.store.set('jurimetria-comparar', aliases);
     const hash = `#comparar/${aliases.join(',')}`;
     if (location.hash !== hash) history.replaceState(null, '', hash);
 
+    const seletorAdicionar = () => aliases.length < MAX_COMPARAR
+      ? `<div class="campo"><label for="add-tribunal">Adicionar tribunal</label><select id="add-tribunal"><option value="">Escolha…</option>${opcoesTribunais(null, aliases)}</select></div>` : '';
+    const ligarAdicionar = () => document.getElementById('add-tribunal')?.addEventListener('change', e => {
+      if (e.target.value) location.hash = `#comparar/${[...aliases, e.target.value].join(',')}`;
+    });
+    if (!aliases.length) {
+      app.innerHTML = `<div class="filtros">${seletorAdicionar()}</div><p class="muted vazio">Escolha até ${MAX_COMPARAR} tribunais para comparar.</p>`;
+      ligarAdicionar();
+      return;
+    }
+
     app.innerHTML = `<p class="carregando"><span class="spinner"></span> Carregando…</p>`;
-    let dados;
-    try { dados = await Promise.all(aliases.map(tribunal)); } catch (e) { return erro(e); }
+    const resultados = await Promise.allSettled(aliases.map(tribunal));
     if (location.hash !== hash) return;
+    const dados = resultados.filter(r => r.status === 'fulfilled').map(r => r.value);
+    const falharam = aliases.filter((a, i) => resultados[i].status === 'rejected');
 
     const series = dados.map(d => ({ nome: d.sigla, pontos: mesesCompletos(d).completos || [] }));
     const semSerie = dados.filter(d => !mesesCompletos(d).completos.length).map(d => d.sigla);
@@ -437,9 +483,9 @@
       <div class="filtros">
         <div style="flex:1 1 100%">
           <label>Tribunais comparados <span class="hint">(até ${MAX_COMPARAR})</span></label>
-          <div class="chips">${dados.map((d, k) => `<button type="button" class="chip" aria-pressed="true" data-remover="${d.alias}" title="Remover ${esc(d.sigla)}"><i style="background:var(--serie-${k + 1})"></i>${esc(d.sigla)}<span class="x" aria-hidden="true">×</span><span class="sr">remover</span></button>`).join('')}</div>
+          <div class="chips">${dados.map((d, k) => `<button type="button" class="chip" aria-pressed="true" data-remover="${d.alias}" title="Remover ${esc(d.sigla)}"><i style="background:var(--serie-${k + 1})"></i>${esc(d.sigla)}<span class="x" aria-hidden="true">×</span><span class="sr">remover</span></button>`).join('')}${falharam.map(a => `<button type="button" class="chip" aria-pressed="true" data-remover="${a}" title="Remover ${esc(porAlias(a).sigla)}">${esc(porAlias(a).sigla)} (erro ao carregar)<span class="x" aria-hidden="true">×</span><span class="sr">remover</span></button>`).join('')}</div>
         </div>
-        ${aliases.length < MAX_COMPARAR ? `<div class="campo"><label for="add-tribunal">Adicionar tribunal</label><select id="add-tribunal"><option value="">Escolha…</option>${opcoesTribunais(null, aliases)}</select></div>` : ''}
+        ${seletorAdicionar()}
         <div class="campo" style="flex:0 1 auto"><label for="modo">Escala</label><select id="modo">
           <option value="abs"${modoIndice ? '' : ' selected'}>Números absolutos</option>
           <option value="idx"${modoIndice ? ' selected' : ''}>Índice (média do período = 100)</option>
@@ -463,9 +509,7 @@
       LT.store.set('jurimetria-comparar', resto);
       location.hash = `#comparar/${resto.join(',')}`;
     }));
-    document.getElementById('add-tribunal')?.addEventListener('change', e => {
-      if (e.target.value) location.hash = `#comparar/${[...aliases, e.target.value].join(',')}`;
-    });
+    ligarAdicionar();
     document.getElementById('modo').addEventListener('change', e => {
       modoIndice = e.target.value === 'idx'; LT.store.set('jurimetria-indice', modoIndice); render();
     });
@@ -490,7 +534,7 @@
       ['Sistema principal', d => esc(primeiro(d.sistemas))],
       ['Dados coletados até', d => fmtData(d.atualizado_em)],
     ];
-    document.getElementById('lado').innerHTML = `<table><thead><tr><th></th>${dados.map((d, k) => `<th><a href="#tribunal/${d.alias}">${esc(d.sigla)}</a></th>`).join('')}</tr></thead>
+    document.getElementById('lado').innerHTML = `<table><thead><tr><th><span class="sr">Indicador</span></th>${dados.map((d, k) => `<th><a href="#tribunal/${d.alias}">${esc(d.sigla)}</a></th>`).join('')}</tr></thead>
       <tbody>${metricas.map(([r, f]) => `<tr><td class="muted">${r}</td>${dados.map(d => `<td>${f(d)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
   }
 
@@ -501,7 +545,9 @@
   async function render() {
     limpar.forEach(f => f && f()); limpar = [];
     G.esconderDica();
-    const [rota, arg] = location.hash.replace(/^#/, '').split('/');
+    const [rota, bruto] = location.hash.replace(/^#/, '').split('/');
+    let arg = bruto;
+    try { arg = bruto == null ? bruto : decodeURIComponent(bruto).toLowerCase().replace(/\s+/g, ''); } catch { /* hash inválido */ }
     try {
       if (rota === 'tribunal') await visaoTribunal(arg);
       else if (rota === 'comparar') await comparar(arg);
@@ -511,7 +557,7 @@
 
   (async () => {
     try { indice = await json(`${DADOS}index.json`); } catch (e) { return erro(e); }
-    indice.tribunais.sort((a, b) => (b.total || 0) - (a.total || 0));
+    indice.tribunais = indice.tribunais.filter(t => /^[a-z0-9-]+$/.test(t.alias)).sort((a, b) => (b.total || 0) - (a.total || 0));
     document.getElementById('frescor').textContent = `Dados de ${indice.tribunais.length} tribunais · última coleta em ${fmtData(indice.tribunais.map(t => t.atualizado_em).sort().pop())} · atualização automática diária.`;
     window.addEventListener('hashchange', () => { render(); });
     render();

@@ -100,7 +100,10 @@
       termo = pub;
     } else if (p.modo === 'portal') {
       const limite = addDays(p.data, 10);
-      if (p.consulta && p.consulta <= limite) {
+      if (p.consulta && p.consulta < p.data) {
+        passos.push(`A data de consulta informada (${fmt(p.consulta)}) é anterior ao envio e foi desconsiderada.`);
+      }
+      if (p.consulta && p.consulta >= p.data && p.consulta <= limite) {
         termo = cal.businessOnOrAfter(p.consulta);
         passos.push(`Intimação enviada pelo portal em ${fmt(p.data)} e consultada em ${fmt(p.consulta)}. Considera-se feita em ${fmt(termo)} (Lei 11.419/2006, art. 5º, §§ 1º e 2º).`);
       } else {
@@ -132,8 +135,12 @@
     } else {
       // Dias corridos (prazos materiais e processo penal): começa no primeiro dia útil (Súmula 310 do STF)
       // e, se terminar em dia sem expediente, prorroga para o próximo dia útil.
+      // Se o primeiro dia útil cai na suspensão do art. 220, a contagem só começa depois dela.
       inicio = cal.nextBusinessDay(termo);
-      for (let x = addDays(termo, 1); x < inicio; x = addDays(x, 1)) dias.push({ data: x, contado: null, motivo: cal.closedReason(x) || '' });
+      while (p.recesso && inRecesso(inicio)) inicio = cal.nextBusinessDay(inicio);
+      for (let x = addDays(termo, 1); x < inicio; x = addDays(x, 1)) {
+        dias.push({ data: x, contado: null, motivo: (p.recesso && inRecesso(x) ? 'Suspensão de prazos (20/12 a 20/01)' : cal.closedReason(x)) || '' });
+      }
       atual = addDays(inicio, -1);
       while (contados < total && guard++ < 4000) {
         atual = addDays(atual, 1);
@@ -141,10 +148,12 @@
         contados++;
         dias.push({ data: atual, contado: contados, motivo: cal.closedReason(atual) || '' });
       }
+      // Vencimento em dia sem expediente (ou dentro da suspensão do art. 220) vai para o primeiro dia útil.
+      const fechado = d => cal.closedReason(d) || (p.recesso && inRecesso(d) ? 'Suspensão de prazos (20/12 a 20/01)' : '');
       let fim = atual;
-      while (cal.closedReason(fim)) {
+      while (fechado(fim)) {
         fim = addDays(fim, 1);
-        dias.push({ data: fim, contado: null, motivo: cal.closedReason(fim) || 'Prorrogação do vencimento para o primeiro dia útil' });
+        dias.push({ data: fim, contado: null, motivo: fechado(fim) || 'Prorrogação do vencimento para o primeiro dia útil' });
       }
       if (fim.getTime() !== atual.getTime()) {
         passos.push(`O ${total}º dia caiu em ${fmt(atual)}, sem expediente; o vencimento foi prorrogado para ${fmt(fim)}.`);

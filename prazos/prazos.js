@@ -46,6 +46,8 @@
       const m = l.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})\s*(.*)$/);
       if (!m) { erros.push(l); return; }
       const d = C.utc(+m[3], +m[2], +m[1]);
+      // Rejeita datas inexistentes (ex.: 31/02), que o Date "rolaria" para o mês seguinte.
+      if (d.getUTCDate() !== +m[1] || d.getUTCMonth() + 1 !== +m[2]) { erros.push(l); return; }
       map.set(C.key(d), m[4] || 'Feriado local / suspensão');
     });
     return { map, erros };

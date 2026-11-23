@@ -51,6 +51,20 @@
   }
   function esconderDica() { tip.hidden = true; }
 
+  // Mouse: a dica segue o ponteiro e some ao sair. Toque: aparece no toque e fica até tocar fora.
+  function interativo(alvo, aoMover, aoSair) {
+    alvo.addEventListener('pointermove', aoMover);
+    alvo.addEventListener('pointerdown', aoMover);
+    alvo.addEventListener('pointerleave', e => { if (e.pointerType !== 'touch') aoSair(); });
+    tocaveis.push([alvo, aoSair]);
+  }
+  const tocaveis = [];
+  document.addEventListener('pointerdown', e => {
+    for (const [alvo, aoSair] of tocaveis) if (alvo.isConnected && !alvo.contains(e.target)) aoSair();
+    for (let i = tocaveis.length - 1; i >= 0; i--) if (!tocaveis[i][0].isConnected) tocaveis.splice(i, 1);
+  }, true);
+  addEventListener('scroll', () => { if (!tip.hidden && matchMedia('(pointer: coarse)').matches) esconderDica(); }, { passive: true });
+
   // Redesenha quando a largura do contêiner muda.
   function responsivo(container, desenhar) {
     let largura = 0;
@@ -89,8 +103,7 @@
         <span class="hbar-trilho"><span class="hbar" style="width:${teto ? Math.max(0.4, 100 * it.qtd / teto) : 0}%"></span></span>
         <span class="hbar-valor">${formato(it.qtd)}</span>`;
       const dica = `<strong>${esc(it.nome)}</strong><br>${formatoDica(it.qtd)} ${unidade}${pct}${it.dica ? `<br>${esc(it.dica)}` : ''}`;
-      li.addEventListener('pointermove', e => mostrarDica(dica, e.clientX, e.clientY));
-      li.addEventListener('pointerleave', esconderDica);
+      interativo(li, e => mostrarDica(dica, e.clientX, e.clientY), esconderDica);
       lista.append(li);
     }
     container.append(lista);
@@ -134,22 +147,25 @@
       // Rótulo direto só no pico e no último mês completo.
       const ultimoCompleto = parcial >= 0 ? parcial - 1 : pontos.length - 1;
       let pico = 0; pontos.forEach((p, i) => { if (p.qtd > pontos[pico].qtd) pico = i; });
-      for (const i of new Set([pico, ultimoCompleto])) {
-        if (i < 0) continue;
+      const rotular = [pico];
+      // O segundo rótulo só entra se não encostar no do pico.
+      if (ultimoCompleto >= 0 && ultimoCompleto !== pico && Math.abs(ultimoCompleto - pico) * banda >= 56) rotular.push(ultimoCompleto);
+      for (const i of rotular) {
         const h = (pontos[i].qtd / teto) * ih;
-        el('text', { x: i * banda + banda / 2, y: Math.max(10, ih - h - 6), 'text-anchor': i > pontos.length - 3 ? 'end' : 'middle', class: 'rotulo-direto' }, g).textContent = fmtC(pontos[i].qtd);
+        const x0 = i * banda + (banda - cw) / 2;
+        const [x, ancora] = i < 2 ? [x0, 'start'] : i > pontos.length - 3 ? [x0 + cw, 'end'] : [x0 + cw / 2, 'middle'];
+        el('text', { x, y: Math.max(10, ih - h - 6), 'text-anchor': ancora, class: 'rotulo-direto' }, g).textContent = fmtC(pontos[i].qtd);
       }
       // Faixa de captura (maior que a coluna) para o mouse e o toque.
       const hit = el('rect', { x: 0, y: 0, width: iw, height: ih, fill: 'transparent' }, g);
       const ativo = i => colunasEl.forEach((c, j) => c.classList.toggle('apagada', i !== null && j !== i));
-      hit.addEventListener('pointermove', e => {
+      interativo(hit, e => {
         const r = svg.getBoundingClientRect();
         const i = Math.min(pontos.length - 1, Math.max(0, Math.floor((e.clientX - r.left - m.l) / banda)));
         ativo(i);
         const p = pontos[i];
         mostrarDica(`<strong>${esc(longo(p))}</strong><br>${fmt(p.qtd)} ${unidade}${i === parcial ? `<br><em>${esc(rotuloParcial)}</em>` : ''}`, e.clientX, e.clientY);
-      });
-      hit.addEventListener('pointerleave', () => { ativo(null); esconderDica(); });
+      }, () => { ativo(null); esconderDica(); });
     });
   }
 
@@ -201,19 +217,28 @@
         if (ultimo != null) {
           const v = mapas[k].get(meses[ultimo]);
           el('circle', { cx: x(ultimo), cy: y(v), r: 4, class: 'ponto', style: `fill:${cor}` }, g);
-          finais.push({ k, y: y(v), nome: s.nome });
+          finais.push({ k, x: x(ultimo), y: y(v), nome: s.nome });
         }
       });
       // Rótulos diretos no fim de cada linha, afastados para não se sobreporem.
+      // Cada rótulo fica logo depois do último ponto da sua linha; rótulos próximos são afastados
+      // na vertical (mín. 13px) sem sair da área do gráfico.
       if (larguraRotulo) {
+        const perto = (a, b) => Math.abs(a.x - b.x) < 60;
         finais.sort((a, b) => a.y - b.y);
-        for (let i = 1; i < finais.length; i++) if (finais[i].y - finais[i - 1].y < 14) finais[i].y = finais[i - 1].y + 14;
-        for (const f of finais) el('text', { x: iw + 10, y: f.y + 4, class: 'rotulo-direto' }, g).textContent = f.nome;
+        for (let i = 0; i < finais.length; i++) {
+          for (let j = 0; j < i; j++) if (perto(finais[i], finais[j]) && finais[i].y - finais[j].y < 13) finais[i].y = finais[j].y + 13;
+        }
+        for (let i = finais.length - 1; i >= 0; i--) {
+          if (finais[i].y > ih - 2) finais[i].y = ih - 2;
+          for (let j = i + 1; j < finais.length; j++) if (perto(finais[i], finais[j]) && finais[j].y - finais[i].y < 13) finais[i].y = finais[j].y - 13;
+        }
+        for (const f of finais) el('text', { x: f.x + 8, y: Math.max(8, f.y) + 4, class: 'rotulo-direto' }, g).textContent = f.nome;
       }
       const cursor = el('line', { x1: 0, x2: 0, y1: 0, y2: ih, class: 'cursor', visibility: 'hidden' }, g);
       const marcadores = series.map((s, k) => el('circle', { r: 4, class: 'ponto', style: `fill:var(--serie-${k + 1})`, visibility: 'hidden' }, g));
       const hit = el('rect', { x: 0, y: 0, width: iw, height: ih, fill: 'transparent' }, g);
-      hit.addEventListener('pointermove', e => {
+      interativo(hit, e => {
         const r = svg.getBoundingClientRect();
         const rel = (e.clientX - r.left - m.l) / iw;
         const i = Math.min(meses.length - 1, Math.max(0, Math.round(rel * (meses.length - 1))));
@@ -225,9 +250,8 @@
           mk.setAttribute('cx', x(i)); mk.setAttribute('cy', y(v)); mk.setAttribute('visibility', 'visible');
           return `<span class="tip-linha"><i style="background:var(--serie-${k + 1})"></i>${esc(s.nome)}<b>${formatoValor(v)}</b></span>`;
         }).join('');
-        mostrarDica(`<strong>${mesLongo(meses[i])}</strong>${i === iParcial ? ' <em>(parcial)</em>' : ''}${linhasDica}<small>${unidade}</small>`, e.clientX, e.clientY);
-      });
-      hit.addEventListener('pointerleave', () => {
+        mostrarDica(`<strong>${esc(mesLongo(meses[i]))}</strong>${i === iParcial ? ' <em>(parcial)</em>' : ''}${linhasDica}<small>${esc(unidade)}</small>`, e.clientX, e.clientY);
+      }, () => {
         cursor.setAttribute('visibility', 'hidden');
         marcadores.forEach(mk => mk.setAttribute('visibility', 'hidden'));
         esconderDica();
