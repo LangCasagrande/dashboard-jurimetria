@@ -1,6 +1,6 @@
 // Recursos de IA (Claude) com a chave da própria pessoa, direto do navegador.
 // A chave nunca passa por um servidor nosso: o navegador fala direto com a API da Anthropic.
-const SDK_URL = 'https://cdn.jsdelivr.net/npm/@anthropic-ai/sdk@1.4.0/+esm';
+const SDK_URL = 'https://cdn.jsdelivr.net/npm/@anthropic-ai/sdk@1.6.0/+esm';
 export const MODEL = 'claude-opus-5-5';
 const FALLBACK_BETA = 'server-side-fallback-2026-07-01';
 const KEY_STORAGE = 'anthropic-api-key';

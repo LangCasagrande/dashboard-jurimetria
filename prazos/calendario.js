@@ -46,6 +46,9 @@
       put(utc(y, 8, 11), 'Dia da criação dos cursos jurídicos (Lei 5.010/66)');
       put(utc(y, 11, 1), 'Todos os Santos (Lei 5.010/66)');
       put(utc(y, 12, 8), 'Dia da Justiça (Lei 5.010/66)');
+      // Art. 62, I: de 20/12 a 06/01, inclusive (feriado mesmo sem marcar a suspensão do art. 220 do CPC).
+      for (let dia = 2; dia <= 6; dia++) put(utc(y, 1, dia), 'Recesso da Justiça Federal (Lei 5.010/66, art. 62, I)');
+      for (let dia = 20; dia <= 31; dia++) if (dia !== 25) put(utc(y, 12, dia), 'Recesso da Justiça Federal (Lei 5.010/66, art. 62, I)');
     }
     if (opts.extras) for (const [k, nome] of opts.extras) if (k.startsWith(String(y))) h.set(k, nome);
     return h;

@@ -3,17 +3,25 @@
 (function () {
   const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
+  // Percentuais por extenso mais comuns em cláusulas (do maior para o menor, para "vinte e cinco" vencer "vinte").
+  const EXTENSO = {
+    'cinquenta': 50, 'quarenta': 40, 'trinta': 30, 'vinte e cinco': 25, 'vinte': 20, 'quinze': 15, 'doze': 12,
+    'dez': 10, 'cinco': 5, 'tres': 3, 'dois': 2, 'um': 1, 'cem': 100,
+  };
+
   const REGRAS = [
     {
       id: 'multa', titulo: 'Multa ou cláusula penal', padrao: /multa|clausula penal|penalidade|pena convencional/,
       avaliar(t, ctx) {
         // Só os percentuais logo depois de "multa"/"cláusula penal" (evita pegar juros ou honorários da mesma frase).
         const p = [...t.matchAll(/(?:multa|clausula penal|penalidade)[^%]{0,40}?(\d{1,3}(?:[.,]\d{1,2})?)\s*(?:%|por cento)/g)].map(m => parseFloat(m[1].replace(',', '.')));
+        // Também por extenso: "multa de dez por cento".
+        for (const m of t.matchAll(new RegExp(`(?:multa|clausula penal|penalidade)[^%]{0,40}?\\b(${Object.keys(EXTENSO).join('|')}) por cento`, 'g'))) p.push(EXTENSO[m[1]]);
         const max = p.length ? Math.max(...p) : null;
         if (max !== null && ctx.consumo && /mora|atraso|inadimpl/.test(t) && max > 2)
-          return { nivel: 'alto', nota: `Multa moratória de ${max}% em relação de consumo: o limite é 2% quando há fornecimento de crédito ou financiamento.` };
-        if (max !== null && max >= 20) return { nivel: 'alto', nota: `Multa de ${max}%: valor elevado, sujeito a redução pelo juiz se for manifestamente excessiva.` };
-        if (max !== null && max >= 10) return { nivel: 'medio', nota: `Multa de ${max}%: confira se é proporcional ao prejuízo e se vale para as duas partes.` };
+          return { nivel: 'alto', nota: `Multa moratória de ${String(max).replace(".", ",")}% em relação de consumo: o limite é 2% quando há fornecimento de crédito ou financiamento.` };
+        if (max !== null && max >= 20) return { nivel: 'alto', nota: `Multa de ${String(max).replace(".", ",")}%: valor elevado, sujeito a redução pelo juiz se for manifestamente excessiva.` };
+        if (max !== null && max >= 10) return { nivel: 'medio', nota: `Multa de ${String(max).replace(".", ",")}%: confira se é proporcional ao prejuízo e se vale para as duas partes.` };
         return { nivel: 'baixo', nota: 'Há cláusula penal. Confira se é recíproca e proporcional.' };
       },
       base: 'Arts. 412 e 413 do Código Civil; art. 52, § 1º, do CDC',
@@ -24,11 +32,16 @@
       avaliar(t) {
         const m = t.match(/juros[^%]{0,40}?(\d{1,2}(?:[.,]\d{1,2})?)\s*%\s*(?:\([^)]*\)\s*)?(?:ao mes|a\.?\s?m\.?|mensa)/);
         const v = m ? parseFloat(m[1].replace(',', '.')) : null;
-        if (v !== null && v > 1) return { nivel: 'alto', nota: `Juros de ${v}% ao mês. Fora do sistema financeiro, juros acima de 1% ao mês costumam ser considerados abusivos (Lei de Usura).` };
+        // Lei de Usura: juros até o dobro da taxa legal (art. 406 do CC = Selic menos IPCA, divulgada
+        // mensalmente pelo Banco Central). Com a taxa legal perto de 0,6–0,9% ao mês, o teto fica em
+        // torno de 1,2–1,8% ao mês; acima de 2% é muito provável que passe dele.
+        const excecoes = 'O limite não vale para contratos entre pessoas jurídicas, com bancos e demais instituições autorizadas pelo Banco Central, ou representados por títulos de crédito (art. 3º da Lei 14.905/2024).';
+        if (v !== null && v > 2) return { nivel: 'alto', nota: `Juros de ${String(v).replace('.', ',')}% ao mês: provavelmente acima do dobro da taxa legal, limite da Lei de Usura. ${excecoes}` };
+        if (v !== null && v > 1) return { nivel: 'medio', nota: `Juros de ${String(v).replace('.', ',')}% ao mês: podem passar do dobro da taxa legal, conforme a taxa do período (confira o valor divulgado pelo Banco Central). ${excecoes}` };
         return { nivel: 'baixo', nota: 'Há previsão de juros. Confira a taxa e a base de cálculo.' };
       },
-      base: 'Art. 406 do Código Civil (redação da Lei 14.905/2024); Decreto 22.626/1933 (Lei de Usura)',
-      sugestao: 'Fixar juros moratórios pela taxa legal (art. 406 do CC) ou em até 1% ao mês.',
+      base: 'Art. 406 do Código Civil e art. 3º da Lei 14.905/2024; art. 1º do Decreto 22.626/1933 (Lei de Usura)',
+      sugestao: 'Fixar os juros moratórios pela taxa legal do art. 406 do Código Civil ou em percentual que não ultrapasse o dobro dela.',
     },
     {
       id: 'renovacao', titulo: 'Renovação automática', padrao: /renova\w* automatica|prorroga\w* automatica|renovad[oa] automaticamente|prorrogad[oa] automaticamente|renovad[oa] tacitamente|prorrogad[oa] tacitamente/,
@@ -168,7 +181,8 @@
   function trechos(texto) {
     const out = [];
     // Ponto entre dígitos ("R$ 1.000,00", "Lei 10.406") não encerra o trecho.
-    const re = /(?:[^\n.;]|\.(?=\d))+(?:[.;]+(?!\d)|\n|$)/g;
+    // Nem as abreviações "a.m." e "a.a." (ao mês / ao ano).
+    const re = /(?:[^\n.;]|\.(?=\d)|\.(?=\s?[ma]\.)|(?<=\ba\.\s?[ma])\.)+(?:[.;]+(?!\d)|\n|$)/g;
     let m;
     while ((m = re.exec(texto))) {
       const t = m[0];
