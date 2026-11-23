@@ -19,10 +19,13 @@ Projeto de portfólio (legal tech): dashboard com estatísticas de processos jud
 - `hits.total` limita em 10000 (`relation: gte`) a menos que se use `track_total_hits: true`.
 - Campos do processo: `numeroProcesso`, `tribunal`, `grau` (G1, G2, JE…), `dataAjuizamento` (string `yyyyMMddHHmmss`), `classe{codigo,nome}`, `assuntos[]{codigo,nome}`, `orgaoJulgador{codigo,nome,codigoMunicipioIBGE}`, `sistema{codigo,nome}`, `formato{codigo,nome}`, `nivelSigilo`, `dataHoraUltimaAtualizacao`, `movimentos[]{codigo,nome,dataHora,complementosTabelados[]}`.
 
-## Onde paramos (2026-11-18)
-- Nenhum código escrito ainda. Decidido: **Python na nuvem, sem instalar nada no PC** — coletor em Python rodando no GitHub Actions; desenvolvimento numa sessão do Claude Code na nuvem. O usuário já tem conta no GitHub.
-- Pendente: criar o repositório no GitHub, fazer o primeiro push e testar se o DataJud aceita conexões de servidores fora do Brasil (runners do GitHub).
-- Arquivos pessoais (currículos em PDF) não pertencem a esta pasta; `.gitignore` bloqueia `*.pdf` por segurança.
+## Estado atual (2026-11-23)
+- Site estático completo: página inicial + 6 ferramentas (`jurimetria/`, `prazos/`, `documentos/`, `contratos/`, `legislacao/`, `lgpd/`) + `sobre/` (metodologia). Código compartilhado em `assets/` (`common.js` monta cabeçalho/rodapé/tema; `ia.js` chama a API da Anthropic com a chave do usuário).
+- `jurimetria/`: três visões por hash (`#panorama`, `#tribunal/<alias>`, `#comparar/<a,b,c>`); gráficos SVG próprios em `graficos.js` (sem biblioteca); paleta categórica validada para daltonismo em `jurimetria.css`.
+- Coletor roda diariamente no GitHub Actions; 90 de 91 tribunais têm dados (tre-dft ainda vazio).
+- **Achado nos dados:** a base pública do DataJud está desatualizada de forma desigual. Em ~70 tribunais não há ajuizamentos nos 36 meses anteriores à coleta (ex.: TJMG, TJPR, todos os TRFs); nos demais, a série para entre 2024 e 2025. Por isso o coletor ganhou a parte `anual` (desde 2000) e a janela `mensal` passou a terminar no último ano com dados (`corpo_mensal`). O índice traz `ultimo_mes`/`ultimo_ano`. Ainda não confirmado com a API real — a sessão na nuvem não tem acesso à rede do DataJud; conferir após a próxima execução do Actions.
+- Ainda não publicado. Nome do site ("Laboratório de Legal Tech") pode mudar; o usuário quer ver opções.
+- Arquivos pessoais (currículos em PDF) não pertencem a esta pasta; `.gitignore` bloqueia `*.pdf` e `*.docx`.
 
 ## Ambiente local
 - Windows; sem Python, Node ou winget instalados (2026-11-18). Git 2.55 disponível. PowerShell 5.1 falha em caminhos longos (>260 chars) e teve conexão fechada pelo servidor do DataJud; `curl` do Git Bash funcionou.

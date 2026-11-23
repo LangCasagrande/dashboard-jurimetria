@@ -35,6 +35,7 @@ DADOS = RAIZ / "data"
 POR_TRIBUNAL = DADOS / "tribunais"
 LISTA = Path(__file__).with_name("tribunais.json")
 MESES_HISTORICO = 36
+ANO_INICIAL = 2000
 
 
 class ErroDataJud(Exception):
@@ -93,7 +94,8 @@ def buckets(resp: dict) -> list[dict]:
     return [{"nome": b["key"], "qtd": b["doc_count"]} for b in resp["aggregations"]["x"]["buckets"]]
 
 
-# Cada parte do painel = uma consulta. Ordem: das mais baratas para as mais caras.
+# Cada parte do painel = uma consulta. Ordem: das mais baratas para as mais caras
+# ("anual" vem antes de "mensal" porque a janela mensal depende dele).
 PARTES = {
     "graus": (termos("grau.keyword", 10), buckets),
     "formatos": (termos("formato.nome.keyword", 5), buckets),
@@ -105,16 +107,47 @@ PARTES = {
         {"size": 0, "track_total_hits": True},
         lambda r: r["hits"]["total"]["value"],
     ),
-    "mensal": (
+    # Ajuizamentos por ano: mostra até quando vai a base de cada tribunal (muitas param anos atrás).
+    "anual": (
         {
             "size": 0,
             # Limita o período: há registros com datas absurdas (ex.: ano 2599) na base.
-            "query": {"range": {"dataAjuizamento": {"gte": f"now-{MESES_HISTORICO}M/M", "lt": "now+1M/M"}}},
-            "aggs": {"x": {"date_histogram": {"field": "dataAjuizamento", "calendar_interval": "month", "format": "yyyy-MM", "min_doc_count": 0}}},
+            "query": {"range": {"dataAjuizamento": {"gte": f"{ANO_INICIAL}-01-01", "lt": "now+1M/M"}}},
+            "aggs": {"x": {"date_histogram": {"field": "dataAjuizamento", "calendar_interval": "year", "format": "yyyy", "min_doc_count": 0}}},
         },
+        lambda r: [{"ano": b["key_as_string"], "qtd": b["doc_count"]} for b in r["aggregations"]["x"]["buckets"]],
+    ),
+    # O corpo da consulta mensal depende do resultado anual (ver corpo_mensal).
+    "mensal": (
+        None,
         lambda r: [{"mes": b["key_as_string"], "qtd": b["doc_count"]} for b in r["aggregations"]["x"]["buckets"]],
     ),
 }
+
+
+def ultimo_ano_relevante(anual: list[dict] | None) -> int | None:
+    """Último ano com volume real de ajuizamentos (ignora registros soltos com datas tardias)."""
+    if not anual:
+        return None
+    maximo = max(a["qtd"] for a in anual)
+    if maximo < 100:
+        return None
+    relevantes = [int(a["ano"]) for a in anual if a["qtd"] >= 0.05 * maximo]
+    return max(relevantes) if relevantes else None
+
+
+def corpo_mensal(dados: dict) -> dict:
+    """Os 36 meses mais recentes que têm dados: se a base do tribunal parou em um ano anterior,
+    a janela termina no fim desse ano, em vez de mostrar meses vazios até hoje."""
+    faixa = {"gte": f"now-{MESES_HISTORICO}M/M", "lt": "now+1M/M"}
+    ano = ultimo_ano_relevante(dados.get("anual"))
+    if ano is not None and ano < datetime.now(timezone.utc).year:
+        faixa = {"gte": f"{ano - MESES_HISTORICO // 12 + 1}-01-01", "lt": f"{ano + 1}-01-01"}
+    return {
+        "size": 0,
+        "query": {"range": {"dataAjuizamento": faixa}},
+        "aggs": {"x": {"date_histogram": {"field": "dataAjuizamento", "calendar_interval": "month", "format": "yyyy-MM", "min_doc_count": 0}}},
+    }
 
 
 def agora_iso() -> str:
@@ -147,6 +180,8 @@ def coletar_tribunal(trib: dict, chave: str, prazo: float) -> dict:
             continue
         log(f"  {trib['sigla']} · {parte}")
         try:
+            if corpo is None:
+                corpo = corpo_mensal(dados)
             dados[parte] = extrair(consultar(trib["alias"], corpo, chave))
             atualizadas[parte] = agora_iso()
         except ErroDataJud as e:
@@ -158,6 +193,16 @@ def coletar_tribunal(trib: dict, chave: str, prazo: float) -> dict:
     dados["atualizado_em"] = max(atualizadas.values()) if atualizadas else None
     gravar_json(caminho, dados)
     return dados
+
+
+def ultimo_mes_relevante(mensal: list[dict] | None) -> str | None:
+    """Último mês com volume real (>= 5% do maior mês); None se a série é só ruído."""
+    if not mensal:
+        return None
+    maximo = max(m["qtd"] for m in mensal)
+    if maximo < 100:
+        return None
+    return max(m["mes"] for m in mensal if m["qtd"] >= 0.05 * maximo)
 
 
 def atualizar_indice(tribunais: list[dict]) -> None:
@@ -173,6 +218,9 @@ def atualizar_indice(tribunais: list[dict]) -> None:
             "total": d.get("total"),
             "pct_eletronico": round(100 * formatos.get("Eletrônico", 0) / soma_formatos, 1) if soma_formatos else None,
             "classe_principal": (d.get("classes") or [{}])[0].get("nome"),
+            # Até quando vai a base pública: mostra o atraso de cada tribunal no DataJud.
+            "ultimo_mes": ultimo_mes_relevante(d.get("mensal")),
+            "ultimo_ano": ultimo_ano_relevante(d.get("anual")),
             "atualizado_em": d["atualizado_em"],
             "partes": sorted(k for k in PARTES if k in d),
         })

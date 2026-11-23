@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página não encontrada</title>
+  <script>try{const t=localStorage.getItem('tema');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <script>
+    // No GitHub Pages esta página é servida em qualquer caminho; descobre a raiz do site
+    // (ex.: /dashboard-jurimetria/) para os links e o CSS funcionarem.
+    (function () {
+      var p = location.pathname.split('/').filter(Boolean);
+      var base = location.hostname.endsWith('github.io') && p.length ? '/' + p[0] + '/' : '/';
+      document.write('<base href="' + base + '">');
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-base="./" data-page="">
+  <main>
+    <section class="page-head">
+      <h1>Página não encontrada</h1>
+      <p>O endereço que você abriu não existe ou mudou de lugar.</p>
+    </section>
+    <a class="btn" href="./">Voltar ao início</a>
+  </main>
+  <script src="assets/js/common.js"></script>
+</body>
+</html>

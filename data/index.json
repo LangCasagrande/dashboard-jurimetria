@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-22T18:34:53+00:00",
+ "gerado_em": "2026-11-23T19:04:39+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "tribunais": [
   {
@@ -10,6 +10,8 @@
    "total": 3730541,
    "pct_eletronico": 100.0,
    "classe_principal": "Agravo em Recurso Especial",
+   "ultimo_mes": "2025-03",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-19T14:26:01+00:00",
    "partes": [
     "assuntos",
@@ -30,6 +32,8 @@
    "total": 2322591,
    "pct_eletronico": 100.0,
    "classe_principal": "Agravo de Instrumento em Recurso de Revista",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-19T14:33:19+00:00",
    "partes": [
     "assuntos",
@@ -50,6 +54,8 @@
    "total": 90926,
    "pct_eletronico": 100.0,
    "classe_principal": "Direitos Políticos",
+   "ultimo_mes": "2024-12",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-19T14:59:45+00:00",
    "partes": [
     "assuntos",
@@ -70,6 +76,8 @@
    "total": 27808,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Penal Militar - Procedimento Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-19T15:17:50+00:00",
    "partes": [
     "assuntos",
@@ -90,6 +98,8 @@
    "total": 7432971,
    "pct_eletronico": 100.0,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-19T15:40:01+00:00",
    "partes": [
     "assuntos",
@@ -110,6 +120,8 @@
    "total": 4495272,
    "pct_eletronico": 100.0,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-19T16:01:11+00:00",
    "partes": [
     "assuntos",
@@ -129,6 +141,8 @@
    "total": 17694328,
    "pct_eletronico": 97.1,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-19T16:34:59+00:00",
    "partes": [
     "classes",
@@ -148,6 +162,8 @@
    "total": 14870040,
    "pct_eletronico": 97.5,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-19T17:14:38+00:00",
    "partes": [
     "classes",
@@ -166,6 +182,8 @@
    "total": 4482241,
    "pct_eletronico": 100.0,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-19T17:48:19+00:00",
    "partes": [
     "assuntos",
@@ -186,6 +204,8 @@
    "total": 4663620,
    "pct_eletronico": null,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": "2024-12",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-19T18:22:29+00:00",
    "partes": [
     "assuntos",
@@ -204,6 +224,8 @@
    "total": 1002060,
    "pct_eletronico": 99.9,
    "classe_principal": null,
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-18T16:18:03+00:00",
    "partes": [
     "formatos",
@@ -221,6 +243,8 @@
    "total": 3131682,
    "pct_eletronico": null,
    "classe_principal": "Execução Fiscal",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-19T18:49:21+00:00",
    "partes": [
     "assuntos",
@@ -240,6 +264,8 @@
    "total": 4876034,
    "pct_eletronico": 99.9,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-19T19:30:27+00:00",
    "partes": [
     "classes",
@@ -258,6 +284,8 @@
    "total": 755258,
    "pct_eletronico": 100.0,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T14:15:56+00:00",
    "partes": [
     "assuntos",
@@ -276,6 +304,8 @@
    "total": 16072760,
    "pct_eletronico": 100.0,
    "classe_principal": "Cumprimento de sentença",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T14:58:45+00:00",
    "partes": [
     "assuntos",
@@ -295,6 +325,8 @@
    "total": 4935657,
    "pct_eletronico": 99.1,
    "classe_principal": "Procedimento Comum Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T15:25:06+00:00",
    "partes": [
     "assuntos",
@@ -314,6 +346,8 @@
    "total": 519527,
    "pct_eletronico": 99.4,
    "classe_principal": "Cumprimento de sentença",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T15:35:13+00:00",
    "partes": [
     "assuntos",
@@ -334,6 +368,8 @@
    "total": 3181779,
    "pct_eletronico": 74.7,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T15:47:18+00:00",
    "partes": [
     "assuntos",
@@ -354,6 +390,8 @@
    "total": null,
    "pct_eletronico": 100.0,
    "classe_principal": "Execução Fiscal",
+   "ultimo_mes": "2025-05",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T16:15:09+00:00",
    "partes": [
     "assuntos",
@@ -373,6 +411,8 @@
    "total": 2058173,
    "pct_eletronico": 100.0,
    "classe_principal": "Procedimento Comum Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T16:48:06+00:00",
    "partes": [
     "assuntos",
@@ -392,6 +432,8 @@
    "total": 37701688,
    "pct_eletronico": 58.2,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T17:18:35+00:00",
    "partes": [
     "assuntos",
@@ -411,6 +453,8 @@
    "total": 2922702,
    "pct_eletronico": 99.1,
    "classe_principal": "Execução Fiscal",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T17:45:09+00:00",
    "partes": [
     "assuntos",
@@ -431,6 +475,8 @@
    "total": 2379794,
    "pct_eletronico": 100.0,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T17:59:50+00:00",
    "partes": [
     "assuntos",
@@ -451,6 +497,8 @@
    "total": 3798886,
    "pct_eletronico": 91.3,
    "classe_principal": "Execução Fiscal",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T18:09:59+00:00",
    "partes": [
     "assuntos",
@@ -471,6 +519,8 @@
    "total": 2704675,
    "pct_eletronico": 100.0,
    "classe_principal": "Procedimento Comum Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T18:19:51+00:00",
    "partes": [
     "assuntos",
@@ -491,6 +541,8 @@
    "total": 6922937,
    "pct_eletronico": 87.2,
    "classe_principal": "Execução Fiscal",
+   "ultimo_mes": "2025-05",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T18:29:05+00:00",
    "partes": [
     "assuntos",
@@ -511,6 +563,8 @@
    "total": 2340076,
    "pct_eletronico": 97.0,
    "classe_principal": "Procedimento Comum Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T18:36:59+00:00",
    "partes": [
     "assuntos",
@@ -531,6 +585,8 @@
    "total": 13292481,
    "pct_eletronico": 100.0,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T18:44:17+00:00",
    "partes": [
     "assuntos",
@@ -551,6 +607,8 @@
    "total": 24224889,
    "pct_eletronico": 83.0,
    "classe_principal": "Execução Fiscal",
+   "ultimo_mes": "2025-03",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T18:56:13+00:00",
    "partes": [
     "assuntos",
@@ -571,6 +629,8 @@
    "total": 2837317,
    "pct_eletronico": 98.2,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T19:13:28+00:00",
    "partes": [
     "assuntos",
@@ -591,6 +651,8 @@
    "total": 2407997,
    "pct_eletronico": 98.3,
    "classe_principal": "Cumprimento de sentença",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-20T19:19:10+00:00",
    "partes": [
     "assuntos",
@@ -610,6 +672,8 @@
    "total": 388531,
    "pct_eletronico": 100.0,
    "classe_principal": "Cumprimento de sentença",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T13:46:25+00:00",
    "partes": [
     "assuntos",
@@ -629,6 +693,8 @@
    "total": 14533911,
    "pct_eletronico": 84.1,
    "classe_principal": "Procedimento Comum Cível",
+   "ultimo_mes": "2025-05",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T13:57:47+00:00",
    "partes": [
     "assuntos",
@@ -649,6 +715,8 @@
    "total": 9984696,
    "pct_eletronico": 99.4,
    "classe_principal": "Execução Fiscal",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T14:13:51+00:00",
    "partes": [
     "assuntos",
@@ -669,6 +737,8 @@
    "total": 3362867,
    "pct_eletronico": 97.8,
    "classe_principal": "Procedimento do Juizado Especial Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T14:22:56+00:00",
    "partes": [
     "assuntos",
@@ -689,6 +759,8 @@
    "total": 76102158,
    "pct_eletronico": 73.2,
    "classe_principal": "Execução Fiscal",
+   "ultimo_mes": "2025-01",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T14:44:55+00:00",
    "partes": [
     "assuntos",
@@ -709,6 +781,8 @@
    "total": 2868796,
    "pct_eletronico": 100.0,
    "classe_principal": "Procedimento Comum Cível",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T14:52:53+00:00",
    "partes": [
     "assuntos",
@@ -729,6 +803,8 @@
    "total": 2681566,
    "pct_eletronico": 99.5,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T15:10:01+00:00",
    "partes": [
     "assuntos",
@@ -748,6 +824,8 @@
    "total": 2171513,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T15:31:49+00:00",
    "partes": [
     "assuntos",
@@ -768,6 +846,8 @@
    "total": 4327695,
    "pct_eletronico": 82.9,
    "classe_principal": "Ação Trabalhista - Rito Sumaríssimo",
+   "ultimo_mes": "2025-04",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T15:40:11+00:00",
    "partes": [
     "assuntos",
@@ -788,6 +868,8 @@
    "total": 2074334,
    "pct_eletronico": null,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T16:18:53+00:00",
    "partes": [
     "classes",
@@ -805,6 +887,8 @@
    "total": 134062,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T16:28:28+00:00",
    "partes": [
     "assuntos",
@@ -825,6 +909,8 @@
    "total": 1023226,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T16:57:12+00:00",
    "partes": [
     "assuntos",
@@ -845,6 +931,8 @@
    "total": 726204,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Sumaríssimo",
+   "ultimo_mes": "2025-03",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T17:09:39+00:00",
    "partes": [
     "assuntos",
@@ -865,6 +953,8 @@
    "total": 605467,
    "pct_eletronico": 99.6,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T17:22:22+00:00",
    "partes": [
     "assuntos",
@@ -885,6 +975,8 @@
    "total": 1623704,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T17:35:57+00:00",
    "partes": [
     "assuntos",
@@ -905,6 +997,8 @@
    "total": null,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T18:07:23+00:00",
    "partes": [
     "assuntos",
@@ -924,6 +1018,8 @@
    "total": 407942,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T18:23:31+00:00",
    "partes": [
     "assuntos",
@@ -944,6 +1040,8 @@
    "total": 1005717,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-21T18:49:45+00:00",
    "partes": [
     "assuntos",
@@ -964,6 +1062,8 @@
    "total": 355331,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Sumaríssimo",
+   "ultimo_mes": "2025-04",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T13:12:46+00:00",
    "partes": [
     "assuntos",
@@ -984,6 +1084,8 @@
    "total": null,
    "pct_eletronico": 99.9,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T13:28:45+00:00",
    "partes": [
     "assuntos",
@@ -1003,6 +1105,8 @@
    "total": 3846488,
    "pct_eletronico": 99.8,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T13:39:03+00:00",
    "partes": [
     "assuntos",
@@ -1023,6 +1127,8 @@
    "total": 442095,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": "2025-04",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T13:51:26+00:00",
    "partes": [
     "assuntos",
@@ -1043,6 +1149,8 @@
    "total": 625108,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": "2025-05",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T14:04:00+00:00",
    "partes": [
     "assuntos",
@@ -1063,6 +1171,8 @@
    "total": 854676,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T14:18:02+00:00",
    "partes": [
     "assuntos",
@@ -1083,6 +1193,8 @@
    "total": 454624,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T14:25:45+00:00",
    "partes": [
     "assuntos",
@@ -1103,6 +1215,8 @@
    "total": 245333,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T14:30:03+00:00",
    "partes": [
     "assuntos",
@@ -1123,6 +1237,8 @@
    "total": 274794,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Sumaríssimo",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T14:35:57+00:00",
    "partes": [
     "assuntos",
@@ -1143,6 +1259,8 @@
    "total": 281154,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T14:40:08+00:00",
    "partes": [
     "assuntos",
@@ -1163,6 +1281,8 @@
    "total": 370319,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T14:47:31+00:00",
    "partes": [
     "assuntos",
@@ -1183,6 +1303,8 @@
    "total": 344561,
    "pct_eletronico": 100.0,
    "classe_principal": "Ação Trabalhista - Rito Ordinário",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T14:54:26+00:00",
    "partes": [
     "assuntos",
@@ -1203,6 +1325,8 @@
    "total": 22487,
    "pct_eletronico": 98.7,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T14:58:58+00:00",
    "partes": [
     "assuntos",
@@ -1223,6 +1347,8 @@
    "total": 60802,
    "pct_eletronico": 96.4,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T15:09:19+00:00",
    "partes": [
     "assuntos",
@@ -1243,6 +1369,8 @@
    "total": 81011,
    "pct_eletronico": 93.4,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T15:18:28+00:00",
    "partes": [
     "assuntos",
@@ -1263,6 +1391,8 @@
    "total": 20671,
    "pct_eletronico": 97.6,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T15:27:57+00:00",
    "partes": [
     "assuntos",
@@ -1283,6 +1413,8 @@
    "total": 309973,
    "pct_eletronico": 99.2,
    "classe_principal": "Prestação de Contas Eleitorais",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T15:43:25+00:00",
    "partes": [
     "assuntos",
@@ -1303,6 +1435,8 @@
    "total": 145710,
    "pct_eletronico": null,
    "classe_principal": "Prestação de Contas Eleitorais",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T16:01:23+00:00",
    "partes": [
     "assuntos",
@@ -1322,6 +1456,8 @@
    "total": 90818,
    "pct_eletronico": 100.0,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T16:08:55+00:00",
    "partes": [
     "assuntos",
@@ -1342,6 +1478,8 @@
    "total": 229704,
    "pct_eletronico": 85.9,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T16:13:40+00:00",
    "partes": [
     "assuntos",
@@ -1362,6 +1500,8 @@
    "total": 228032,
    "pct_eletronico": 67.1,
    "classe_principal": "Prestação de Contas Eleitorais",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T16:20:49+00:00",
    "partes": [
     "assuntos",
@@ -1382,6 +1522,8 @@
    "total": 615742,
    "pct_eletronico": 93.3,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T16:42:00+00:00",
    "partes": [
     "assuntos",
@@ -1402,6 +1544,8 @@
    "total": 106118,
    "pct_eletronico": 61.0,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T16:46:39+00:00",
    "partes": [
     "assuntos",
@@ -1422,6 +1566,8 @@
    "total": 107992,
    "pct_eletronico": 93.4,
    "classe_principal": "Prestação de Contas Eleitorais",
+   "ultimo_mes": "2024-11",
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T16:52:13+00:00",
    "partes": [
     "assuntos",
@@ -1442,6 +1588,8 @@
    "total": 219292,
    "pct_eletronico": 72.7,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T16:57:40+00:00",
    "partes": [
     "assuntos",
@@ -1462,6 +1610,8 @@
    "total": 99897,
    "pct_eletronico": 100.0,
    "classe_principal": "Prestação de Contas Eleitorais",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T17:01:14+00:00",
    "partes": [
     "assuntos",
@@ -1482,6 +1632,8 @@
    "total": 150334,
    "pct_eletronico": 98.8,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T17:10:44+00:00",
    "partes": [
     "assuntos",
@@ -1502,6 +1654,8 @@
    "total": 93992,
    "pct_eletronico": 95.4,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T17:20:00+00:00",
    "partes": [
     "assuntos",
@@ -1522,6 +1676,8 @@
    "total": 314832,
    "pct_eletronico": 95.6,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T17:25:01+00:00",
    "partes": [
     "assuntos",
@@ -1542,6 +1698,8 @@
    "total": 221708,
    "pct_eletronico": 100.0,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T17:29:20+00:00",
    "partes": [
     "assuntos",
@@ -1562,6 +1720,8 @@
    "total": 87889,
    "pct_eletronico": 95.9,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T17:37:23+00:00",
    "partes": [
     "assuntos",
@@ -1582,6 +1742,8 @@
    "total": 46388,
    "pct_eletronico": 96.8,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T17:42:59+00:00",
    "partes": [
     "assuntos",
@@ -1602,6 +1764,8 @@
    "total": 19925,
    "pct_eletronico": 89.6,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T17:48:09+00:00",
    "partes": [
     "assuntos",
@@ -1622,6 +1786,8 @@
    "total": 314086,
    "pct_eletronico": 74.5,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T17:56:08+00:00",
    "partes": [
     "assuntos",
@@ -1642,6 +1808,8 @@
    "total": 196100,
    "pct_eletronico": 80.7,
    "classe_principal": "Prestação de Contas Eleitorais",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T18:03:40+00:00",
    "partes": [
     "assuntos",
@@ -1662,6 +1830,8 @@
    "total": 55983,
    "pct_eletronico": 100.0,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T18:10:25+00:00",
    "partes": [
     "assuntos",
@@ -1682,6 +1852,8 @@
    "total": 620518,
    "pct_eletronico": 100.0,
    "classe_principal": "Registro de Candidatura",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T18:17:41+00:00",
    "partes": [
     "assuntos",
@@ -1702,6 +1874,8 @@
    "total": 68044,
    "pct_eletronico": 96.9,
    "classe_principal": "Prestação de Contas Eleitorais",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T18:21:22+00:00",
    "partes": [
     "assuntos",
@@ -1722,6 +1896,8 @@
    "total": 31644,
    "pct_eletronico": 100.0,
    "classe_principal": "Procedimento Investigatório Criminal (PIC-MP) ",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T18:27:06+00:00",
    "partes": [
     "assuntos",
@@ -1742,6 +1918,8 @@
    "total": 11169,
    "pct_eletronico": 100.0,
    "classe_principal": "Inquérito Policial Militar",
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T18:33:57+00:00",
    "partes": [
     "assuntos",
@@ -1762,6 +1940,8 @@
    "total": null,
    "pct_eletronico": null,
    "classe_principal": null,
+   "ultimo_mes": null,
+   "ultimo_ano": null,
    "atualizado_em": "2026-11-22T18:34:53+00:00",
    "partes": [
     "graus"

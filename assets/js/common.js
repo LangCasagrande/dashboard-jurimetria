@@ -11,7 +11,16 @@
     { id: 'contratos', href: 'contratos/', label: 'Contratos' },
     { id: 'legislacao', href: 'legislacao/', label: 'Legislação' },
     { id: 'lgpd', href: 'lgpd/', label: 'LGPD' },
+    { id: 'sobre', href: 'sobre/', label: 'Sobre' },
   ];
+
+  // Ícone da aba (o mesmo "§" da marca), sem precisar de arquivo de imagem.
+  if (!document.querySelector('link[rel="icon"]')) {
+    const icon = document.createElement('link');
+    icon.rel = 'icon';
+    icon.href = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="#1f4e8c"/><text x="16" y="23" font-size="20" text-anchor="middle" fill="#fff" font-family="Georgia,serif">§</text></svg>');
+    document.head.append(icon);
+  }
 
   // Tema: segue o sistema; o botão alterna e lembra a escolha neste navegador.
   const root = document.documentElement;
@@ -54,7 +63,7 @@
   footer.className = 'footer';
   footer.innerHTML = `
     <p>Ferramentas educacionais de apoio. Não substituem a análise de um advogado nem a consulta ao calendário e às normas do tribunal.</p>
-    <p>Código aberto no <a href="https://github.com/LangCasagrande/dashboard-jurimetria">GitHub</a>.</p>`;
+    <p>Código aberto no <a href="https://github.com/LangCasagrande/dashboard-jurimetria">GitHub</a> · <a href="${base}sobre/">Sobre o projeto e metodologia</a>.</p>`;
   document.body.append(footer);
 
   // Utilitários usados pelas páginas
