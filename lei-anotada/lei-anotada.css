@@ -102,3 +102,9 @@
 [role="tabpanel"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 8px; }
 [role="tabpanel"] > .bloco:first-child { margin-top: 18px; }
 .aviso-doutrina { margin: 18px 0 16px; padding: 14px 16px; border-radius: 12px; background: var(--primary-soft); font-size: .93rem; }
+
+.rubrica-disp { display: block; margin: 14px 0 2px; font-weight: 700; font-style: italic; color: var(--primary); }
+.rubrica-disp:first-child { margin-top: 0; }
+.rubrica-disp small { font-style: normal; font-weight: 400; color: var(--muted); }
+.tempo .ressalva { margin-top: .4rem; padding: 8px 10px; border-radius: 8px; background: var(--warn-soft); color: var(--text); font-size: .9rem; }
+.item .situacao { font-size: .8rem; font-weight: 700; color: var(--muted); }

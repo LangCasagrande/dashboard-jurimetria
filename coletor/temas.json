@@ -8,5 +8,14 @@
       "9678": "Roubo (art. 157)"
     },
     "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026."
+  },
+  "cp-121": {
+    "nome": "Homicídio (art. 121 do Código Penal)",
+    "assuntos": {
+      "3370": "Homicídio Simples",
+      "3372": "Homicídio Qualificado",
+      "3371": "Homicídio Privilegiado"
+    },
+    "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. O assunto \"Feminicídio\" (código 12091) não entra porque, desde 2024, o feminicídio é crime autônomo do art. 121-A."
   }
 }

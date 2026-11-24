@@ -32,6 +32,7 @@
     for (const a of d.alteracoes || []) {
       const num = a.lei.match(/[\d.]+\/\d{4}/)?.[0]?.split('/')[0];
       if (!num || !a.publicacao_dou || !a.vigencia) continue;
+      if (a.nota_vigencia) { mapa[num] = 'ver a ressalva de vigência na linha do tempo'; continue; }
       mapa[num] = a.vigencia === 'na data da publicação' ? `em vigor desde ${data(a.publicacao_dou)}` : `em vigor ${a.vigencia.replace('(Edição Extra do DOU)', '').trim()} de ${data(a.publicacao_dou)}`;
     }
     return nota => [...new Set([...nota.matchAll(/Lei nº ([\d.]+), de/g)].map(m => m[1]))].map(n => mapa[n] ? `Lei ${n}: ${mapa[n]}` : '').filter(Boolean).join(' · ');
@@ -43,11 +44,12 @@
       const corpo = revogado ? `${esc(x.rotulo)} – (${esc(x.alteracao)})` : esc(x.texto);
       const notas = [x.alteracao, x.alteracao_paragrafo].filter(Boolean);
       const alt = !revogado && notas.length ? notas.map(n => `<span class="alt${RECENTE.test(n) ? ' novo' : ''}">${esc(n)}${vig(n) ? ` <span class="vig">(${esc(vig(n))})</span>` : ''}</span>`).join('') : '';
-      return `<div class="disp ${nivel(x.rotulo)}${revogado ? ' revogado' : ''}" title="${esc(x.referencia || '')}"><span class="ref">${esc(x.referencia || '')}</span><span class="txt">${corpo}</span>${alt}</div>`;
+      const rubrica = x.rubrica ? `<span class="rubrica-disp">${esc(x.rubrica)}${x.rubrica_alteracao ? ` <small>(${esc(x.rubrica_alteracao)})</small>` : ''}</span>` : '';
+      return `${rubrica}<div class="disp ${nivel(x.rotulo)}${revogado ? ' revogado' : ''}" title="${esc(x.referencia || '')}"><span class="ref">${esc(x.referencia || '')}</span><span class="txt">${corpo}</span>${alt}</div>`;
     }).join('');
     const tempo = (d.alteracoes || []).length ? `<section class="bloco"><h3>Linha do tempo das alterações</h3>
       <p class="sub">A data da lei nem sempre é a data em que ela passa a valer: veja a publicação e a vigência.</p>
-      <ol class="tempo">${d.alteracoes.map(a => `<li><b>${esc(a.lei)}</b><time datetime="${a.data}">Lei de ${data(a.data)}${a.publicacao_dou ? ` · publicada no DOU de ${data(a.publicacao_dou)}${a.vigencia ? ` · em vigor ${esc(a.vigencia)}` : ''}` : ''}</time><p>${esc(a.o_que)}</p></li>`).join('')}</ol></section>` : '';
+      <ol class="tempo">${d.alteracoes.map(a => `<li><b>${esc(a.lei)}</b><time datetime="${a.data}">Lei de ${data(a.data)}${a.publicacao_dou ? ` · publicada no DOU de ${data(a.publicacao_dou)}${a.vigencia ? ` · em vigor ${esc(a.vigencia)}` : ''}` : ''}</time><p>${esc(a.o_que)}</p>${a.nota_vigencia ? `<p class="ressalva"><strong>Ressalva de vigência:</strong> ${esc(a.nota_vigencia)}</p>` : ''}</li>`).join('')}</ol></section>` : '';
     return `<section class="bloco"><h3>Texto atualizado</h3>
       <p class="sub">Copiado da compilação, sem edição. Em destaque, as alterações de 2025 e 2026.</p>
       <div class="lei">${linhas}
@@ -68,6 +70,7 @@
     const temas = (d.temas || []).map(t => `
       <article class="item">
         <div class="topo"><h4>Tema ${t.numero}/${esc(t.tribunal)}</h4><span class="etiqueta">${esc(t.tipo)}</span></div>
+        ${t.situacao ? `<span class="situacao">Situação: ${esc(t.situacao)}</span>` : ''}
         ${t.questao ? `<p class="meta"><strong>Questão:</strong> ${esc(t.questao)}</p>` : ''}
         <blockquote>${(t.tese || []).map(esc).join('<br><br>')}</blockquote>
         <div class="meta">${[t.processo, t.relator, t.orgao].filter(Boolean).map(esc).join(' · ')}${t.julgado_em ? ` · julgado em ${data(t.julgado_em)}` : ''}${t.publicado_em ? ` · acórdão publicado em ${data(t.publicado_em)}` : ''}${t.embargos_em ? ` · embargos de declaração em ${data(t.embargos_em)}` : ''}${t.transito_em ? ` · trânsito em julgado em ${data(t.transito_em)}` : ''}${t.sumula_originada ? ` · originou a ${esc(t.sumula_originada)}` : ''}<br>Fonte: ${link(t.fonte, `página oficial do Tema ${t.numero}`)}</div>

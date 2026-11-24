@@ -2,6 +2,13 @@
  "area": "Direito Penal",
  "artigos": [
   {
+   "id": "cp-121",
+   "artigo": "Art. 121",
+   "rubrica": "Homicídio",
+   "lei": "Código Penal",
+   "arquivo": "dados/cp-121.json"
+  },
+  {
    "id": "cp-157",
    "artigo": "Art. 157",
    "rubrica": "Roubo",
