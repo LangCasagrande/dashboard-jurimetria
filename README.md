@@ -13,6 +13,8 @@ Seis ferramentas jurídicas abertas, feitas para estudo e portfólio, com destaq
 | [Legislação](legislacao/) | Perguntas em linguagem simples com o artigo de lei citado |
 | [LGPD](lgpd/) | Checklist de adequação e gerador de política de privacidade |
 
+Do mesmo autor: [IA jurídica em 3 instâncias](ia-juridica/), vitrine da skill [Sistema de Ordenamentos Jurídicos](https://github.com/LangCasagrande/sistema-ordenamentos-juridicos) para o Claude.
+
 ## Como funciona
 
 1. **Coletor (Python, só biblioteca padrão):** `coletor/coletar.py` consulta a API do DataJud com agregações e salva JSON pré-calculado em `data/`.

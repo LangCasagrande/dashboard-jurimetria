@@ -19,54 +19,92 @@
   <meta name="twitter:card" content="summary_large_image">
   <script>try{const t=localStorage.getItem('tema');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/inicio.css">
 </head>
 <body data-base="./" data-page="inicio">
-  <main>
-    <section class="page-head">
-      <h1>JusLab.IA</h1>
-      <p class="tagline">Dados e tecnologia para o Direito</p>
-      <p>Seis ferramentas jurídicas abertas, feitas para estudo e portfólio. Os dados que você digita ficam no seu navegador. Nada é enviado a um servidor, salvo quando você usa os recursos de IA com a sua própria chave. <a href="sobre/">Saiba como o projeto foi feito.</a></p>
+  <section class="escuro" aria-labelledby="titulo-inicio">
+    <div class="hero">
+      <div>
+        <span class="pill"><i></i>Dados do CNJ atualizados todos os dias</span>
+        <h1 id="titulo-inicio">Dados e tecnologia <span>para o Direito</span></h1>
+        <p class="lead">Jurimetria com a base nacional do CNJ e ferramentas jurídicas abertas que rodam direto no navegador.</p>
+        <div class="btns">
+          <a class="btn" href="jurimetria/">Explorar a jurimetria <span data-icone="seta"></span></a>
+          <a class="btn contorno" href="#ferramentas">Ver as ferramentas</a>
+        </div>
+        <ul class="confianca">
+          <li><span data-icone="check"></span>Fonte oficial: CNJ</li>
+          <li><span data-icone="check"></span>Código aberto</li>
+          <li><span data-icone="check"></span>Sem cadastro</li>
+        </ul>
+      </div>
+      <a class="tela" href="jurimetria/" aria-label="Abrir o dashboard de jurimetria">
+        <div class="tela-bar" aria-hidden="true"><i></i><i></i><i></i><span>juslab.ia / jurimetria</span></div>
+        <div class="tela-kpis">
+          <div><span>Processos</span><b data-campo="total-curto">329,5 mi</b></div>
+          <div><span>Tribunais</span><b data-campo="tribunais">90</b></div>
+          <div><span>Eletrônicos</span><b data-campo="eletronico">85,3%</b></div>
+        </div>
+        <div class="tela-barras">
+          <h2>Tribunais por volume de processos</h2>
+          <div data-campo="barras"></div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <main id="conteudo">
+    <div class="faixa">
+      <div><b data-campo="total-curto">329,5 mi</b><span>registros de processos</span></div>
+      <div><b data-campo="tribunais">90</b><span>tribunais na base</span></div>
+      <div><b data-campo="eletronico">85,3%</b><span>processos eletrônicos</span></div>
+      <div class="vivo"><b>Diária</b><span data-campo="atualizacao">atualização automática</span></div>
+    </div>
+
+    <section class="sec">
+      <div class="cab">
+        <div><span class="rotulo-sec">Destaques da jurimetria</span><h2>O que os dados mostram</h2>
+          <p class="intro">Três leituras rápidas da base pública do CNJ. Os números se atualizam sozinhos a cada coleta.</p></div>
+        <a class="mais" href="jurimetria/">Ver o panorama completo <span data-icone="seta"></span></a>
+      </div>
+      <div class="achados" data-campo="achados">
+        <article class="achado"><b>3 em 4</b><h3>processos estão na Justiça Estadual</h3><p>Os tribunais de justiça dos estados concentram a maior parte dos registros.</p></article>
+        <article class="achado"><b>23,1%</b><h3>da base está em um só tribunal</h3><p>O TJSP é, de longe, o maior tribunal da base.</p></article>
+        <article class="achado"><b>41</b><h3>tribunais já são 100% eletrônicos</h3><p>Outros ainda guardam parte dos processos em papel.</p></article>
+      </div>
     </section>
 
-    <div class="grid grid-3">
-      <a class="card card-link" href="jurimetria/">
-        <span class="card-icon" aria-hidden="true">📊</span>
-        <h2>Dashboard de jurimetria</h2>
-        <p class="muted">Estatísticas de 90 tribunais com dados públicos do CNJ (DataJud): volume, ajuizamentos por ano e por mês, classes, assuntos, órgãos julgadores e comparação entre tribunais.</p>
-        <span><span class="tag">Dados públicos</span></span>
+    <section class="sec" id="ferramentas">
+      <span class="rotulo-sec">Ferramentas</span><h2>Seis ferramentas jurídicas abertas</h2>
+      <p class="intro">Gratuitas e sem cadastro. O que você digita fica no seu navegador e não vai para nenhum servidor, salvo quando você usa a IA com a sua própria chave.</p>
+      <div class="ferramentas" data-campo="ferramentas"></div>
+    </section>
+
+    <section class="sec">
+      <a class="destaque-ia" href="ia-juridica/">
+        <div class="ic c-roxo" data-icone="instancias"></div>
+        <div><span class="rotulo-sec">Também do autor</span><h2>IA jurídica em 3 instâncias</h2>
+          <p>Uma skill para o Claude que resolve estudos e trabalhos de Direito como o sistema judicial: uma decisão, uma revisão independente e, se preciso, um julgamento final. Sem inventar lei, súmula ou julgado.</p></div>
+        <span class="ir">Conhecer <span data-icone="seta"></span></span>
       </a>
-      <a class="card card-link" href="prazos/">
-        <span class="card-icon" aria-hidden="true">📅</span>
-        <h2>Calculadora de prazos</h2>
-        <p class="muted">Conta prazos processuais em dias úteis (art. 219 do CPC), com feriados, recesso de 20/12 a 20/01, prazo em dobro e publicação no DJe.</p>
-        <span><span class="tag ok">Sem cadastro</span></span>
-      </a>
-      <a class="card card-link" href="documentos/">
-        <span class="card-icon" aria-hidden="true">📝</span>
-        <h2>Gerador de documentos</h2>
-        <p class="muted">Procuração, contrato de honorários, notificação extrajudicial e declaração de hipossuficiência, prontos para imprimir ou baixar em Word.</p>
-        <span><span class="tag ok">Sem cadastro</span></span>
-      </a>
-      <a class="card card-link" href="contratos/">
-        <span class="card-icon" aria-hidden="true">🔍</span>
-        <h2>Analisador de contratos</h2>
-        <p class="muted">Aponta cláusulas de risco (multa, juros, foro, arbitragem, renovação automática, limitação de responsabilidade) e dá uma nota. Análise por IA opcional.</p>
-        <span><span class="tag">Regras + IA opcional</span></span>
-      </a>
-      <a class="card card-link" href="legislacao/">
-        <span class="card-icon" aria-hidden="true">⚖️</span>
-        <h2>Assistente de legislação</h2>
-        <p class="muted">Pergunte em linguagem simples e receba a resposta com o artigo de lei citado e o link para o texto oficial no Planalto.</p>
-        <span><span class="tag">IA com sua chave</span></span>
-      </a>
-      <a class="card card-link" href="lgpd/">
-        <span class="card-icon" aria-hidden="true">🛡️</span>
-        <h2>Kit LGPD</h2>
-        <p class="muted">Checklist de adequação à Lei 13.709/2018 com nota de maturidade, e gerador de política de privacidade para pequenas empresas.</p>
-        <span><span class="tag ok">Sem cadastro</span></span>
-      </a>
+    </section>
+
+    <section class="sec">
+      <span class="rotulo-sec">Como funciona</span><h2>Do CNJ ao painel, todo dia</h2>
+      <p class="intro">A API do CNJ não pode ser chamada direto do navegador e é lenta, então os números são calculados antes.</p>
+      <div class="passos">
+        <div class="passo"><span class="n">1</span><h3>Coleta automática</h3><p>Toda madrugada, um coletor em Python consulta a API Pública do DataJud para os 91 tribunais, com novas tentativas quando ela está sobrecarregada.</p></div>
+        <div class="passo"><span class="n">2</span><h3>Estatísticas prontas</h3><p>As contagens por classe, assunto, órgão, grau e data viram arquivos <code>JSON</code> salvos no repositório, com o histórico de cada coleta.</p></div>
+        <div class="passo"><span class="n">3</span><h3>Painel aberto</h3><p>O site lê esses arquivos e desenha os gráficos na hora, sem servidor, com versão em tabela e dados para baixar.</p></div>
+      </div>
+    </section>
+
+    <div class="final">
+      <div><h2>Explore os dados da sua área</h2><p>Abra um tribunal, compare até quatro e baixe os números em CSV.</p></div>
+      <a class="btn branco" href="jurimetria/">Abrir o dashboard <span data-icone="seta"></span></a>
     </div>
   </main>
   <script src="assets/js/common.js"></script>
+  <script src="assets/js/inicio.js"></script>
 </body>
 </html>

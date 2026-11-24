@@ -29,7 +29,13 @@
     .fluxo strong { display: block; margin-bottom: .2rem; }
     @media (max-width: 760px) { .fluxo { grid-template-columns: minmax(0, 1fr); } }
     .indice-pagina { display: flex; flex-wrap: wrap; gap: .4rem; margin: .5rem 0 0; padding: 0; list-style: none; }
-    .indice-pagina a { font-size: .85rem; padding: .25rem .6rem; border-radius: 999px; background: var(--surface-2); text-decoration: none; }
+    .indice-pagina a { font-size: .85rem; padding: .25rem .65rem; border-radius: 999px; background: rgba(255,255,255,.08); color: #c7d4f0; text-decoration: none; }
+    .indice-pagina a:hover { background: rgba(255,255,255,.14); color: #fff; }
+    .autor { display: grid; grid-template-columns: auto 1fr; gap: 18px; align-items: center; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 22px; margin-top: 1rem; }
+    .autor .inicial { width: 64px; height: 64px; border-radius: 16px; background: var(--gradiente); color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 1.4rem; }
+    .autor h3 { font-size: 1.15rem; margin: 0 0 .2rem; }
+    .autor p { margin: 0 0 .5rem; color: var(--muted); }
+    .autor .links { display: flex; gap: 14px; flex-wrap: wrap; font-weight: 600; }
   </style>
 </head>
 <body data-base="../" data-page="sobre">
@@ -44,6 +50,7 @@
         <li><a href="#limitacoes">Limitações dos dados</a></li>
         <li><a href="#privacidade">Privacidade</a></li>
         <li><a href="#tecnologia">Tecnologia</a></li>
+        <li><a href="#autor">Autor</a></li>
       </ul>
     </section>
 
@@ -56,6 +63,7 @@
       <li><a href="../legislacao/">Assistente de legislação</a>: perguntas em linguagem simples, respondidas com o artigo de lei e o link para o Planalto.</li>
       <li><a href="../lgpd/">Kit LGPD</a>: checklist de adequação com nota de maturidade e gerador de política de privacidade.</li>
     </ul>
+    <p>Do mesmo autor: a <a href="../ia-juridica/">IA jurídica em 3 instâncias</a>, uma skill para o Claude que resolve estudos e trabalhos de Direito com decisão, revisão independente e julgamento final, sem inventar lei, súmula ou julgado.</p>
 
     <h2 id="arquitetura">Como funciona</h2>
     <p>A API Pública do DataJud não pode ser chamada direto do navegador: ela não envia os cabeçalhos CORS e cada consulta leva de 30 a 55 segundos. Por isso os números do dashboard são calculados antes, por um coletor automático.</p>
@@ -101,8 +109,22 @@
     </ul>
     <p>Código aberto no <a href="https://github.com/LangCasagrande/dashboard-jurimetria">GitHub</a>.</p>
 
+    <h2 id="autor">Autor</h2>
+    <div class="autor">
+      <span class="inicial" aria-hidden="true">JL</span>
+      <div>
+        <h3>João Lang Casagrande</h3>
+        <p>Estudante de Direito interessado em jurimetria, legal tech e IA aplicada ao Direito. Criou o JusLab.IA e a skill Sistema de Ordenamentos Jurídicos.</p>
+        <div class="links" id="links-autor"><a href="https://github.com/LangCasagrande" rel="me noopener" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+
     <div class="notice">As ferramentas são educacionais e de apoio. Não substituem a análise de um advogado nem a consulta às normas e ao calendário oficial de cada tribunal.</div>
   </main>
   <script src="../assets/js/common.js"></script>
+  <script>
+    // O LinkedIn é configurado em um lugar só (LT.autor, em assets/js/common.js).
+    if (LT.autor.linkedin) document.getElementById('links-autor').insertAdjacentHTML('beforeend', `<a href="${LT.autor.linkedin}" rel="me noopener" target="_blank">LinkedIn</a>`);
+  </script>
 </body>
 </html>

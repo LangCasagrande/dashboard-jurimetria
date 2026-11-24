@@ -27,6 +27,10 @@ Projeto de portfólio (legal tech): dashboard com estatísticas de processos jud
 - Testes do coletor: `python -m unittest discover -s coletor` (FakeES simula os dois formatos). CI em `.github/workflows/testes.yml`.
 - Compartilhamento: `assets/og.png` (1200×630, gerada a partir de HTML) + tags Open Graph/canonical em todas as páginas, `robots.txt` e `sitemap.xml` apontando para `https://langcasagrande.github.io/dashboard-jurimetria/` (trocar se usar domínio próprio).
 - SDK da Anthropic fixado em `@anthropic-ai/sdk@1.6.0` (`assets/js/ia.js`): versões com pelo menos 2 semanas de publicação; API conferida contra a 1.4.0.
+- **Layout "B · Tecnologia" (2026-11-24):** cabeçalho escuro fixo com menu ☰ no celular, faixa escura com o título de cada página (o `common.js` move o `main > .page-head` para uma `section.banda`), rodapé em colunas. Tokens em `assets/css/style.css`; ícones SVG em `LT.icone(nome)`. Página inicial em `index.html` + `assets/css/inicio.css` + `assets/js/inicio.js`, que calcula números e destaques a partir de `data/index.json` (o HTML traz textos padrão caso os dados não carreguem).
+- **Vitrine da skill** em `ia-juridica/` (projeto separado: github.com/LangCasagrande/sistema-ordenamentos-juridicos, licença "todos os direitos reservados"; não copiar o SKILL.md para cá).
+- **Autor:** João Lang Casagrande. Dados em `AUTOR` no `assets/js/common.js`; o campo `linkedin` está vazio até o usuário passar o link (aparece sozinho no rodapé e no Sobre quando preenchido).
+- Ideias futuras do usuário em `IDEIAS.md` (ex.: "LinkedIn jurídico").
 - `tre-dft` responde 404 (índice inexistente na API); conferir o alias certo na wiki do DataJud.
 - Ainda não publicado. Nome do site: **JusLab.IA**, subtítulo "dados e tecnologia para o Direito" (escolhido em 2026-11-23; antes era "Laboratório de Legal Tech"). Ao mudar o nome, atualizar também `assets/og.png` (gerada de HTML), as tags og:* e o PRODID do .ics em `prazos/prazos.js`.
 - Arquivos pessoais (currículos em PDF) não pertencem a esta pasta; `.gitignore` bloqueia `*.pdf` e `*.docx`.
