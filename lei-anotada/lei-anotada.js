@@ -24,12 +24,28 @@
     return 'n2';
   }
 
+  // Vigência de cada lei citada nas notas da compilação (a data da lei nem sempre é a data em que passa a valer).
+  function vigencias(d) {
+    const mapa = {};
+    for (const a of d.alteracoes) {
+      const num = a.lei.match(/[\d.]+\/\d{4}/)?.[0]?.split('/')[0];
+      if (!num || !a.publicacao_dou) continue;
+      mapa[num] = a.vigencia === 'na data da publicação' ? `em vigor desde ${data(a.publicacao_dou)}` : `em vigor ${a.vigencia.replace('(Edição Extra do DOU)', '').trim()} de ${data(a.publicacao_dou)}`;
+    }
+    return nota => {
+      const usadas = [...new Set([...nota.matchAll(/Lei nº ([\d.]+), de/g)].map(m => m[1]))];
+      return usadas.map(n => mapa[n] ? `Lei ${n}: ${mapa[n]}` : '').filter(Boolean).join(' · ');
+    };
+  }
+
   function texto(d) {
+    const vig = vigencias(d);
     const linhas = d.texto.dispositivos.map(x => {
       const revogado = !x.texto;
       const corpo = revogado ? `${esc(x.rotulo)} – (${esc(x.alteracao)})` : esc(x.texto);
-      const alt = !revogado && x.alteracao ? `<span class="alt${RECENTE.test(x.alteracao) ? ' novo' : ''}">${esc(x.alteracao)}</span>` : '';
-      return `<div class="disp ${nivel(x.rotulo)}${revogado ? ' revogado' : ''}"><span class="txt">${corpo}</span>${alt}</div>`;
+      const notas = [x.alteracao, x.alteracao_paragrafo].filter(Boolean);
+      const alt = !revogado && notas.length ? notas.map(n => `<span class="alt${RECENTE.test(n) ? ' novo' : ''}">${esc(n)}${vig(n) ? ` <span class="vig">(${esc(vig(n))})</span>` : ''}</span>`).join('') : '';
+      return `<div class="disp ${nivel(x.rotulo)}${revogado ? ' revogado' : ''}" id="${esc((x.referencia || '').replace(/[^a-z0-9]+/gi, '-'))}" title="${esc(x.referencia || '')}"><span class="ref">${esc(x.referencia || '')}</span><span class="txt">${corpo}</span>${alt}</div>`;
     }).join('');
     return `<section class="bloco" id="texto"><h3>Texto atualizado</h3>
       <p class="sub">Copiado da compilação, sem edição. Em destaque, as alterações de 2025 e 2026.</p>
@@ -58,7 +74,7 @@
         <div class="topo"><h4>Tema ${t.numero}/${esc(t.tribunal)}</h4><span class="etiqueta">${esc(t.tipo)}</span></div>
         ${t.questao ? `<p class="meta"><strong>Questão:</strong> ${esc(t.questao)}</p>` : ''}
         <blockquote>${t.tese.map(esc).join('<br><br>')}</blockquote>
-        <div class="meta">${esc(t.processo)} · ${esc(t.relator)} · ${esc(t.orgao)} · julgado em ${data(t.julgado_em)} · acórdão publicado em ${data(t.publicado_em)} · trânsito em julgado em ${data(t.transito_em)}${t.sumula_originada ? ` · originou a ${esc(t.sumula_originada)}` : ''}<br>Fonte: ${link(t.fonte, `página oficial do Tema ${t.numero}`)}</div>
+        <div class="meta">${esc(t.processo)} · ${esc(t.relator)} · ${esc(t.orgao)} · julgado em ${data(t.julgado_em)} · acórdão publicado em ${data(t.publicado_em)}${t.embargos_em ? ` · embargos de declaração em ${data(t.embargos_em)}` : ''} · trânsito em julgado em ${data(t.transito_em)}${t.sumula_originada ? ` · originou a ${esc(t.sumula_originada)}` : ''}<br>Fonte: ${link(t.fonte, `página oficial do Tema ${t.numero}`)}</div>
         ${selo(t.verificacao)}
       </article>`).join('');
     return `<section class="bloco" id="jurisprudencia"><h3>Súmulas e teses do STJ</h3>
@@ -73,7 +89,8 @@
         : n.citacoes ? `<details><summary>Ver os dispositivos</summary>${n.citacoes.map(c => `<blockquote>${esc(c.texto)}<cite>${link(c.fonte, c.fonte_nome)}</cite></blockquote>`).join('')}</details>` : '';
       return `<article class="nota${n.tipo === 'Atenção' ? ' atencao' : ''}" id="nota-${esc(n.id)}">
         <span class="tipo">${esc(n.tipo)}</span><h4>${esc(n.titulo)}</h4>
-        <p class="resumo">${esc(n.resumo)}</p>${citacoes}
+        <p class="resumo">${esc(n.resumo)}</p>
+        ${n.interpretacao ? `<div class="interpretacao"><strong>Interpretação do JusLab.IA, não é texto de lei nem tese do tribunal:</strong> ${esc(n.interpretacao)}</div>` : ''}${citacoes}
         <div class="rodape-nota"><span>Resumo do JusLab.IA a partir das fontes indicadas.</span>${selo(n.verificacao)}</div>
       </article>`;
     }).join('');

@@ -22,6 +22,9 @@
 .disp.n1 { padding-left: 0; } .disp.n2 { padding-left: 22px; } .disp.n3 { padding-left: 44px; } .disp.n4 { padding-left: 66px; }
 .disp.pena { padding-left: 22px; font-weight: 600; }
 .disp.revogado .txt { color: var(--muted); text-decoration: line-through; text-decoration-color: rgba(0,0,0,.2); }
+.disp .ref { display: block; font-size: .72rem; font-weight: 700; color: var(--muted); letter-spacing: .02em; text-transform: none; }
+.disp .vig { font-weight: 400; color: var(--muted); }
+.interpretacao { margin: 0 0 10px; padding: 10px 14px; border-radius: 10px; background: var(--warn-soft); color: var(--text); font-size: .92rem; border-left: 3px solid var(--warn); }
 .disp .alt { display: block; font-size: .78rem; color: var(--muted); margin-top: 2px; }
 .disp .alt.novo { color: var(--primary); font-weight: 600; }
 .lei-fonte { margin-top: 14px; font-size: .84rem; color: var(--muted); }
