@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T17:58:33+00:00",
+ "gerado_em": "2026-11-24T19:37:39+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "temas": {
   "cp-157": {
@@ -12,6 +12,48 @@
    },
    "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026.",
    "tribunais": [
+    {
+     "alias": "tjmg",
+     "sigla": "TJMG",
+     "nome": "Tribunal de Justiça de Minas Gerais",
+     "ramo": "Estadual",
+     "total": 547253,
+     "por_assunto": {
+      "3419": 258634,
+      "5566": 286962,
+      "5567": 13532,
+      "9678": 3362
+     },
+     "coletado_em": "2026-11-24T18:37:16+00:00"
+    },
+    {
+     "alias": "tjsp",
+     "sigla": "TJSP",
+     "nome": "Tribunal de Justiça de São Paulo",
+     "ramo": "Estadual",
+     "total": 429648,
+     "por_assunto": {
+      "3419": 360781,
+      "5566": 65122,
+      "5567": 7830,
+      "9678": 93
+     },
+     "coletado_em": "2026-11-24T18:58:57+00:00"
+    },
+    {
+     "alias": "tjrj",
+     "sigla": "TJRJ",
+     "nome": "Tribunal de Justiça do Rio de Janeiro",
+     "ramo": "Estadual",
+     "total": 148035,
+     "por_assunto": {
+      "3419": 59260,
+      "5566": 86305,
+      "5567": 3508,
+      "9678": 263
+     },
+     "coletado_em": "2026-11-24T18:43:46+00:00"
+    },
     {
      "alias": "stj",
      "sigla": "STJ",
@@ -27,6 +69,258 @@
      "coletado_em": "2026-11-24T17:44:24+00:00"
     },
     {
+     "alias": "tjpr",
+     "sigla": "TJPR",
+     "nome": "Tribunal de Justiça do Paraná",
+     "ramo": "Estadual",
+     "total": 133874,
+     "por_assunto": {
+      "3419": 59257,
+      "5566": 67961,
+      "5567": 6091,
+      "9678": 1369
+     },
+     "coletado_em": "2026-11-24T18:43:03+00:00"
+    },
+    {
+     "alias": "tjce",
+     "sigla": "TJCE",
+     "nome": "Tribunal de Justiça do Ceará",
+     "ramo": "Estadual",
+     "total": 130060,
+     "por_assunto": {
+      "3419": 62002,
+      "5566": 64566,
+      "5567": 4463,
+      "9678": 338
+     },
+     "coletado_em": "2026-11-24T18:20:22+00:00"
+    },
+    {
+     "alias": "tjrs",
+     "sigla": "TJRS",
+     "nome": "Tribunal de Justiça do Rio Grande do Sul",
+     "ramo": "Estadual",
+     "total": 108661,
+     "por_assunto": {
+      "3419": 63133,
+      "5566": 43812,
+      "5567": 3813,
+      "9678": 33
+     },
+     "coletado_em": "2026-11-24T18:48:01+00:00"
+    },
+    {
+     "alias": "tjpa",
+     "sigla": "TJPA",
+     "nome": "Tribunal de Justiça do Pará",
+     "ramo": "Estadual",
+     "total": 64973,
+     "por_assunto": {
+      "3419": 21750,
+      "5566": 38998,
+      "5567": 2974,
+      "9678": 1696
+     },
+     "coletado_em": "2026-11-24T18:39:33+00:00"
+    },
+    {
+     "alias": "tjpe",
+     "sigla": "TJPE",
+     "nome": "Tribunal de Justiça de Pernambuco",
+     "ramo": "Estadual",
+     "total": 54714,
+     "por_assunto": {
+      "3419": 20676,
+      "5566": 31003,
+      "5567": 2634,
+      "9678": 1161
+     },
+     "coletado_em": "2026-11-24T18:41:40+00:00"
+    },
+    {
+     "alias": "tjam",
+     "sigla": "TJAM",
+     "nome": "Tribunal de Justiça do Amazonas",
+     "ramo": "Estadual",
+     "total": 48284,
+     "por_assunto": {
+      "3419": 19676,
+      "5566": 19622,
+      "5567": 1839,
+      "9678": 7377
+     },
+     "coletado_em": "2026-11-24T18:16:08+00:00"
+    },
+    {
+     "alias": "tjmt",
+     "sigla": "TJMT",
+     "nome": "Tribunal de Justiça de Mato Grosso",
+     "ramo": "Estadual",
+     "total": 39148,
+     "por_assunto": {
+      "3419": 13404,
+      "5566": 24009,
+      "5567": 2148,
+      "9678": 158
+     },
+     "coletado_em": "2026-11-24T18:38:37+00:00"
+    },
+    {
+     "alias": "tjba",
+     "sigla": "TJBA",
+     "nome": "Tribunal de Justiça da Bahia",
+     "ramo": "Estadual",
+     "total": 30653,
+     "por_assunto": {
+      "3419": 13760,
+      "5566": 15293,
+      "5567": 1294,
+      "9678": 629
+     },
+     "coletado_em": "2026-11-24T18:19:12+00:00"
+    },
+    {
+     "alias": "tjes",
+     "sigla": "TJES",
+     "nome": "Tribunal de Justiça do Espírito Santo",
+     "ramo": "Estadual",
+     "total": 29721,
+     "por_assunto": {
+      "3419": 10402,
+      "5566": 18165,
+      "5567": 1360,
+      "9678": 61
+     },
+     "coletado_em": "2026-11-24T18:22:23+00:00"
+    },
+    {
+     "alias": "tjms",
+     "sigla": "TJMS",
+     "nome": "Tribunal de Justiça de Mato Grosso do Sul",
+     "ramo": "Estadual",
+     "total": 28590,
+     "por_assunto": {
+      "3419": 13048,
+      "5566": 14784,
+      "5567": 654,
+      "9678": 370
+     },
+     "coletado_em": "2026-11-24T18:38:06+00:00"
+    },
+    {
+     "alias": "tjpi",
+     "sigla": "TJPI",
+     "nome": "Tribunal de Justiça do Piauí",
+     "ramo": "Estadual",
+     "total": 26099,
+     "por_assunto": {
+      "3419": 9463,
+      "5566": 15343,
+      "5567": 991,
+      "9678": 737
+     },
+     "coletado_em": "2026-11-24T18:42:17+00:00"
+    },
+    {
+     "alias": "tjpb",
+     "sigla": "TJPB",
+     "nome": "Tribunal de Justiça da Paraíba",
+     "ramo": "Estadual",
+     "total": 25202,
+     "por_assunto": {
+      "3419": 12286,
+      "5566": 11731,
+      "5567": 922,
+      "9678": 263
+     },
+     "coletado_em": "2026-11-24T18:41:14+00:00"
+    },
+    {
+     "alias": "tjrn",
+     "sigla": "TJRN",
+     "nome": "Tribunal de Justiça do Rio Grande do Norte",
+     "ramo": "Estadual",
+     "total": 24502,
+     "por_assunto": {
+      "3419": 12924,
+      "5566": 11608,
+      "5567": 878,
+      "9678": 51
+     },
+     "coletado_em": "2026-11-24T18:44:15+00:00"
+    },
+    {
+     "alias": "tjro",
+     "sigla": "TJRO",
+     "nome": "Tribunal de Justiça de Rondônia",
+     "ramo": "Estadual",
+     "total": 21579,
+     "por_assunto": {
+      "3419": 9734,
+      "5566": 11093,
+      "5567": 839,
+      "9678": 165
+     },
+     "coletado_em": "2026-11-24T18:45:08+00:00"
+    },
+    {
+     "alias": "tjal",
+     "sigla": "TJAL",
+     "nome": "Tribunal de Justiça de Alagoas",
+     "ramo": "Estadual",
+     "total": 19263,
+     "por_assunto": {
+      "3419": 10673,
+      "5566": 7356,
+      "5567": 1105,
+      "9678": 424
+     },
+     "coletado_em": "2026-11-24T18:13:31+00:00"
+    },
+    {
+     "alias": "tjto",
+     "sigla": "TJTO",
+     "nome": "Tribunal de Justiça do Tocantins",
+     "ramo": "Estadual",
+     "total": 18591,
+     "por_assunto": {
+      "3419": 7433,
+      "5566": 9823,
+      "5567": 866,
+      "9678": 665
+     },
+     "coletado_em": "2026-11-24T18:59:26+00:00"
+    },
+    {
+     "alias": "tjse",
+     "sigla": "TJSE",
+     "nome": "Tribunal de Justiça de Sergipe",
+     "ramo": "Estadual",
+     "total": 14894,
+     "por_assunto": {
+      "3419": 4684,
+      "5566": 9662,
+      "5567": 612,
+      "9678": 85
+     },
+     "coletado_em": "2026-11-24T18:50:23+00:00"
+    },
+    {
+     "alias": "tjac",
+     "sigla": "TJAC",
+     "nome": "Tribunal de Justiça do Acre",
+     "ramo": "Estadual",
+     "total": 13540,
+     "por_assunto": {
+      "3419": 5725,
+      "5566": 7257,
+      "5567": 305,
+      "9678": 493
+     },
+     "coletado_em": "2026-11-24T18:08:06+00:00"
+    },
+    {
      "alias": "trf3",
      "sigla": "TRF3",
      "nome": "Tribunal Regional Federal da 3ª Região",
@@ -39,6 +333,76 @@
       "9678": 0
      },
      "coletado_em": "2026-11-24T17:54:03+00:00"
+    },
+    {
+     "alias": "tjap",
+     "sigla": "TJAP",
+     "nome": "Tribunal de Justiça do Amapá",
+     "ramo": "Estadual",
+     "total": 9869,
+     "por_assunto": {
+      "3419": 4237,
+      "5566": 5360,
+      "5567": 356,
+      "9678": 14
+     },
+     "coletado_em": "2026-11-24T18:17:29+00:00"
+    },
+    {
+     "alias": "tjma",
+     "sigla": "TJMA",
+     "nome": "Tribunal de Justiça do Maranhão",
+     "ramo": "Estadual",
+     "total": 8978,
+     "por_assunto": {
+      "3419": 2533,
+      "5566": 6104,
+      "5567": 437,
+      "9678": 5
+     },
+     "coletado_em": "2026-11-24T18:36:29+00:00"
+    },
+    {
+     "alias": "tjdft",
+     "sigla": "TJDFT",
+     "nome": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+     "ramo": "Estadual",
+     "total": 7464,
+     "por_assunto": {
+      "3419": 2392,
+      "5566": 4929,
+      "5567": 341,
+      "9678": 11
+     },
+     "coletado_em": "2026-11-24T18:21:24+00:00"
+    },
+    {
+     "alias": "tjrr",
+     "sigla": "TJRR",
+     "nome": "Tribunal de Justiça de Roraima",
+     "ramo": "Estadual",
+     "total": 6790,
+     "por_assunto": {
+      "3419": 2828,
+      "5566": 3563,
+      "5567": 311,
+      "9678": 117
+     },
+     "coletado_em": "2026-11-24T18:47:38+00:00"
+    },
+    {
+     "alias": "tjsc",
+     "sigla": "TJSC",
+     "nome": "Tribunal de Justiça de Santa Catarina",
+     "ramo": "Estadual",
+     "total": 5111,
+     "por_assunto": {
+      "3419": 2751,
+      "5566": 2276,
+      "5567": 186,
+      "9678": 14
+     },
+     "coletado_em": "2026-11-24T18:49:49+00:00"
     },
     {
      "alias": "trf4",
@@ -67,6 +431,20 @@
       "9678": 0
      },
      "coletado_em": "2026-11-24T17:53:15+00:00"
+    },
+    {
+     "alias": "trf6",
+     "sigla": "TRF6",
+     "nome": "Tribunal Regional Federal da 6ª Região",
+     "ramo": "Federal",
+     "total": 1578,
+     "por_assunto": {
+      "3419": 336,
+      "5566": 1216,
+      "5567": 42,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T18:07:37+00:00"
     },
     {
      "alias": "trf5",
@@ -137,6 +515,356 @@
       "9678": 0
      },
      "coletado_em": "2026-11-24T17:50:23+00:00"
+    },
+    {
+     "alias": "trt1",
+     "sigla": "TRT1",
+     "nome": "Tribunal Regional do Trabalho da 1ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T18:59:51+00:00"
+    },
+    {
+     "alias": "trt2",
+     "sigla": "TRT2",
+     "nome": "Tribunal Regional do Trabalho da 2ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:02:25+00:00"
+    },
+    {
+     "alias": "trt3",
+     "sigla": "TRT3",
+     "nome": "Tribunal Regional do Trabalho da 3ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:03:08+00:00"
+    },
+    {
+     "alias": "trt4",
+     "sigla": "TRT4",
+     "nome": "Tribunal Regional do Trabalho da 4ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:05:01+00:00"
+    },
+    {
+     "alias": "trt5",
+     "sigla": "TRT5",
+     "nome": "Tribunal Regional do Trabalho da 5ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:07:25+00:00"
+    },
+    {
+     "alias": "trt6",
+     "sigla": "TRT6",
+     "nome": "Tribunal Regional do Trabalho da 6ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:08:05+00:00"
+    },
+    {
+     "alias": "trt7",
+     "sigla": "TRT7",
+     "nome": "Tribunal Regional do Trabalho da 7ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:08:28+00:00"
+    },
+    {
+     "alias": "trt8",
+     "sigla": "TRT8",
+     "nome": "Tribunal Regional do Trabalho da 8ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:11:35+00:00"
+    },
+    {
+     "alias": "trt9",
+     "sigla": "TRT9",
+     "nome": "Tribunal Regional do Trabalho da 9ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:12:18+00:00"
+    },
+    {
+     "alias": "trt10",
+     "sigla": "TRT10",
+     "nome": "Tribunal Regional do Trabalho da 10ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:14:58+00:00"
+    },
+    {
+     "alias": "trt11",
+     "sigla": "TRT11",
+     "nome": "Tribunal Regional do Trabalho da 11ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:16:53+00:00"
+    },
+    {
+     "alias": "trt12",
+     "sigla": "TRT12",
+     "nome": "Tribunal Regional do Trabalho da 12ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:18:50+00:00"
+    },
+    {
+     "alias": "trt13",
+     "sigla": "TRT13",
+     "nome": "Tribunal Regional do Trabalho da 13ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:21:12+00:00"
+    },
+    {
+     "alias": "trt14",
+     "sigla": "TRT14",
+     "nome": "Tribunal Regional do Trabalho da 14ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:23:56+00:00"
+    },
+    {
+     "alias": "trt15",
+     "sigla": "TRT15",
+     "nome": "Tribunal Regional do Trabalho da 15ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:24:26+00:00"
+    },
+    {
+     "alias": "trt16",
+     "sigla": "TRT16",
+     "nome": "Tribunal Regional do Trabalho da 16ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:25:30+00:00"
+    },
+    {
+     "alias": "trt17",
+     "sigla": "TRT17",
+     "nome": "Tribunal Regional do Trabalho da 17ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:26:12+00:00"
+    },
+    {
+     "alias": "trt18",
+     "sigla": "TRT18",
+     "nome": "Tribunal Regional do Trabalho da 18ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:26:33+00:00"
+    },
+    {
+     "alias": "trt19",
+     "sigla": "TRT19",
+     "nome": "Tribunal Regional do Trabalho da 19ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:27:11+00:00"
+    },
+    {
+     "alias": "trt20",
+     "sigla": "TRT20",
+     "nome": "Tribunal Regional do Trabalho da 20ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:30:03+00:00"
+    },
+    {
+     "alias": "trt21",
+     "sigla": "TRT21",
+     "nome": "Tribunal Regional do Trabalho da 21ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:34:41+00:00"
+    },
+    {
+     "alias": "trt22",
+     "sigla": "TRT22",
+     "nome": "Tribunal Regional do Trabalho da 22ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:35:07+00:00"
+    },
+    {
+     "alias": "trt23",
+     "sigla": "TRT23",
+     "nome": "Tribunal Regional do Trabalho da 23ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:35:44+00:00"
+    },
+    {
+     "alias": "trt24",
+     "sigla": "TRT24",
+     "nome": "Tribunal Regional do Trabalho da 24ª Região",
+     "ramo": "Trabalho",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:36:34+00:00"
+    },
+    {
+     "alias": "tre-ac",
+     "sigla": "TRE-AC",
+     "nome": "Tribunal Regional Eleitoral do Acre",
+     "ramo": "Eleitoral",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T19:37:39+00:00"
     }
    ]
   }
