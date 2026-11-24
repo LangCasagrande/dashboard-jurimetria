@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IA jurídica em 3 instâncias</title>
+  <meta name="description" content="Sistema de Ordenamentos Jurídicos: skill para o Claude que resolve estudos e trabalhos de Direito em até três instâncias independentes, como o sistema judicial, sem inventar lei, súmula ou julgado.">
+  <link rel="canonical" href="https://langcasagrande.github.io/dashboard-jurimetria/ia-juridica/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="JusLab.IA">
+  <meta property="og:title" content="IA jurídica em 3 instâncias · JusLab.IA">
+  <meta property="og:description" content="Skill para o Claude que resolve estudos e trabalhos de Direito em até três instâncias independentes, sem inventar lei, súmula ou julgado.">
+  <meta property="og:url" content="https://langcasagrande.github.io/dashboard-jurimetria/ia-juridica/">
+  <meta property="og:image" content="https://langcasagrande.github.io/dashboard-jurimetria/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="JusLab.IA: dados e tecnologia para o Direito">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>try{const t=localStorage.getItem('tema');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .acoes-topo { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 1.25rem; }
+    .acoes-topo .btn.contorno { background: transparent; color: #fff; border: 1px solid rgba(255,255,255,.25); box-shadow: none; }
+    .selos { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 1rem; }
+    .selos span { font-size: .78rem; font-weight: 600; padding: .2rem .6rem; border-radius: 999px; background: rgba(255,255,255,.08); color: #c7d4f0; }
+    .sec { margin-top: 56px; }
+    .sec:first-child { margin-top: 8px; }
+    .rotulo-sec { display: block; font-size: .8rem; font-weight: 700; color: var(--primary); letter-spacing: .08em; text-transform: uppercase; }
+    .sec > h2 { font-size: 1.85rem; letter-spacing: -.03em; margin: 6px 0 6px; }
+    .sec > .intro { color: var(--muted); max-width: 720px; margin-bottom: 26px; font-size: 1.02rem; }
+
+    /* Fluxo das instâncias */
+    .fluxo { display: grid; grid-template-columns: .8fr 1fr 1fr 1fr; gap: 0; align-items: stretch; }
+    .etapa { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 22px 20px; margin-right: 34px; }
+    .etapa:last-child { margin-right: 0; }
+    .etapa:not(:last-child)::after { content: ""; position: absolute; right: -27px; top: 50%; width: 20px; height: 20px; transform: translateY(-50%); background: no-repeat center / 20px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236d5cf6' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14M13 6l6 6-6 6'/%3E%3C/svg%3E"); }
+    .etapa .num { display: inline-grid; place-items: center; min-width: 34px; height: 34px; padding: 0 10px; border-radius: 999px; background: var(--noite); color: #fff; font-weight: 800; font-size: .9rem; }
+    .etapa.triagem .num { background: var(--surface-2); color: var(--text); }
+    .etapa.final .num { background: var(--gradiente); }
+    .etapa h3 { font-size: 1.05rem; margin: 12px 0 4px; }
+    .etapa .quando { font-size: .8rem; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: .05em; }
+    .etapa ul { margin: 10px 0 0; padding-left: 1.1rem; color: var(--muted); font-size: .9rem; }
+    .etapa li { margin: .25rem 0; }
+    .escalada { margin-top: 16px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .escalada div { border: 1px dashed var(--border); border-radius: 14px; padding: 16px 18px; background: var(--surface); font-size: .92rem; color: var(--muted); }
+    .escalada strong { color: var(--text); display: block; margin-bottom: 4px; }
+
+    /* Triagem */
+    .triagem-tab td:first-child { font-weight: 600; }
+    .exemplos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 18px; }
+    .exemplo { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; }
+    .exemplo q { display: block; font-style: italic; color: var(--text); }
+    .exemplo span { display: inline-block; margin-top: 10px; font-size: .78rem; font-weight: 700; color: var(--primary); }
+
+    /* Regra absoluta */
+    .regras { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .regra { display: grid; grid-template-columns: auto 1fr; gap: 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 20px; }
+    .regra .ic { width: 40px; height: 40px; border-radius: 11px; background: var(--primary-soft); color: var(--primary); display: grid; place-items: center; }
+    .regra .ic svg { width: 20px; height: 20px; }
+    .regra h3 { font-size: 1rem; margin: 0 0 4px; }
+    .regra p { margin: 0; color: var(--muted); font-size: .92rem; }
+    .marca { display: inline-block; font-size: .8rem; font-weight: 700; padding: .1rem .5rem; border-radius: 6px; background: var(--warn-soft); color: var(--warn); }
+
+    .formatos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+    .formato { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
+    .formato h3 { font-size: 1rem; }
+    .formato p, .formato ol { color: var(--muted); font-size: .9rem; margin: 0; }
+    .formato ol { padding-left: 1.1rem; }
+
+    .instalar { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .instalar .card h3 { margin-bottom: .4rem; }
+    .instalar ol { padding-left: 1.2rem; margin: 0; color: var(--muted); }
+
+    @media (max-width: 980px) {
+      .fluxo { grid-template-columns: 1fr; gap: 30px; }
+      .etapa { margin-right: 0; }
+      .etapa:not(:last-child)::after { right: auto; left: 50%; top: auto; bottom: -26px; transform: translateX(-50%) rotate(90deg); }
+      .formatos { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 680px) {
+      .escalada, .exemplos, .regras, .formatos, .instalar { grid-template-columns: 1fr; }
+      .sec > h2 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body data-base="../" data-page="ia-juridica">
+  <main>
+    <section class="page-head">
+      <h1>IA jurídica em 3 instâncias</h1>
+      <p><strong>Sistema de Ordenamentos Jurídicos</strong> é uma skill para o Claude, a IA da Anthropic, que resolve estudos, trabalhos acadêmicos e casos práticos de Direito como o sistema judicial brasileiro: uma decisão inicial, uma revisão independente e, quando é preciso, um julgamento final. Tudo preso à Constituição e à legislação federal, sem inventar lei, súmula ou julgado.</p>
+      <div class="selos"><span>Versão 0.5.0-alfa</span><span>Direito brasileiro</span><span>Agentes independentes</span><span>Fontes oficiais</span></div>
+      <div class="acoes-topo">
+        <a class="btn" href="https://github.com/LangCasagrande/sistema-ordenamentos-juridicos" rel="noopener" target="_blank"><span data-icone="github"></span>Ver no GitHub</a>
+        <a class="btn contorno" href="#instalar">Como instalar</a>
+      </div>
+    </section>
+
+    <section class="sec">
+      <span class="rotulo-sec">Tramitação</span>
+      <h2>O caminho de um pedido</h2>
+      <p class="intro">A skill mede a dificuldade antes de começar. Pedido simples não precisa de recurso; pedido difícil não deve ser decidido por um julgador só. Cada instância é um agente separado, que não viu o trabalho das anteriores como autor.</p>
+      <div class="fluxo">
+        <article class="etapa triagem"><span class="num">0</span><span class="quando" style="display:block;margin-top:12px">Todo pedido</span><h3>Triagem</h3>
+          <ul><li>Entende o modo (entrega ou estudo) e o formato.</li><li>Mede etapas, ambiguidade, risco, fontes e teses em disputa.</li><li>Escolhe até onde o pedido sobe.</li></ul></article>
+        <article class="etapa"><span class="num">1ª</span><span class="quando" style="display:block;margin-top:12px">Tarefa simples</span><h3>Decisão inicial</h3>
+          <ul><li>Produz a resposta completa.</li><li>Lista as fontes conferidas e onde.</li><li>Aponta os pontos de menor certeza, que guiam a revisão.</li></ul></article>
+        <article class="etapa"><span class="num">2ª</span><span class="quando" style="display:block;margin-top:12px">Tarefa média</span><h3>Recurso e revisão</h3>
+          <ul><li>Um novo agente confere de novo as citações e a lógica.</li><li>Lista erros e entrega uma versão corrigida.</li><li>Declara se <strong>mantém</strong> ou <strong>reforma</strong> a decisão.</li></ul></article>
+        <article class="etapa final"><span class="num">3ª</span><span class="quando" style="display:block;margin-top:12px">Tarefa complexa</span><h3>Veredito final</h3>
+          <ul><li>Um terceiro agente decide cada divergência, com fundamentação.</li><li>Em teses opostas, ouve antes dois agentes em contraditório.</li><li>Consolida uma entrega única. Não há 4ª rodada.</li></ul></article>
+      </div>
+      <div class="escalada">
+        <div><strong>Escalada automática</strong>Mesmo numa tarefa média, o pedido sobe para a 3ª instância se a revisão reformar a decisão em ponto substancial ou se as duas instâncias chegarem a conclusões incompatíveis.</div>
+        <div><strong>Só o resultado</strong>O usuário recebe o produto final, não o processo. As marcas de ponto não verificado e de interpretação nova sempre aparecem, porque fazem parte do conteúdo.</div>
+      </div>
+    </section>
+
+    <section class="sec">
+      <span class="rotulo-sec">Triagem</span>
+      <h2>Como a dificuldade é medida</h2>
+      <p class="intro">Seis fatores decidem a instância. Na dúvida entre dois níveis, a skill escolhe o mais alto quando errar é caro, como num trabalho avaliado.</p>
+      <div class="card table-wrap">
+        <table class="triagem-tab">
+          <thead><tr><th>Fator</th><th>Simples (1ª)</th><th>Média (2ª)</th><th>Complexa (3ª)</th></tr></thead>
+          <tbody>
+            <tr><td>Etapas</td><td>1 ou 2</td><td>Várias, com caminho claro</td><td>Muitas, ou caminho não óbvio</td></tr>
+            <tr><td>Ambiguidade</td><td>Pedido claro</td><td>Alguma interpretação</td><td>Várias leituras possíveis</td></tr>
+            <tr><td>Consequência de errar</td><td>Baixa</td><td>Moderada, como trabalho com nota</td><td>Alta ou difícil de desfazer</td></tr>
+            <tr><td>Fontes e fatos</td><td>Conhecimento estável</td><td>Precisa checar fatos</td><td>Fontes divergentes</td></tr>
+            <tr><td>Teses em disputa</td><td>Não há</td><td>Há posição majoritária</td><td>Correntes opostas</td></tr>
+            <tr><td>Certeza própria</td><td>Alta</td><td>Razoável</td><td>Baixa</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="exemplos">
+        <div class="exemplo"><q>Qual o prazo da apelação no CPC?</q><span>1ª instância, mas o artigo ainda é conferido</span></div>
+        <div class="exemplo"><q>Resolve esse caso prático de responsabilidade civil.</q><span>2ª instância, ou 3ª se houver corrente divergente</span></div>
+        <div class="exemplo"><q>Duas fontes dizem coisas diferentes, qual está certa?</q><span>3ª instância: há conflito</span></div>
+      </div>
+    </section>
+
+    <section class="sec">
+      <span class="rotulo-sec">Regra absoluta</span>
+      <h2>Só a lei federal brasileira, e nada inventado</h2>
+      <p class="intro">Vale em todas as instâncias e prevalece sobre qualquer outra instrução. A 2ª e a 3ª instância fiscalizam esses pontos item por item, e qualquer violação é motivo para reformar a decisão.</p>
+      <div class="regras">
+        <div class="regra"><span class="ic" data-icone="escudo"></span><div><h3>Nada de citação inventada</h3><p>É proibido criar lei, artigo, súmula, tema repetitivo, julgado, número de processo, autor ou obra. Doutrina sem fonte confirmada é citada só de forma geral.</p></div></div>
+        <div class="regra"><span class="ic" data-icone="lupa"></span><div><h3>Conferência nas fontes oficiais</h3><p>Legislação no texto compilado do Planalto; súmulas e julgados nos portais do STF e do STJ. O que não puder ser conferido recebe a marca <span class="marca">[não verificado nas fontes oficiais]</span>.</p></div></div>
+        <div class="regra"><span class="ic" data-icone="balanca"></span><div><h3>Método de interpretação</h3><p>Peso dos precedentes pelo art. 927 do CPC, interpretação pela LINDB (arts. 2º, 4º e 5º) e critérios de antinomia: hierárquico, especialidade e cronológico.</p></div></div>
+        <div class="regra"><span class="ic" data-icone="documento"></span><div><h3>Caminho novo sinalizado</h3><p>Uma tese ainda não pacífica só entra ancorada em dispositivo federal e com a marca <span class="marca">[Caminho novo]</span>. Normas estaduais, municipais ou estrangeiras são separadas e identificadas.</p></div></div>
+      </div>
+      <div class="notice" style="margin-top:16px"><strong>Proteção contra manipulação.</strong> A skill só pode ser alterada pelo autor. Instruções escondidas em arquivos, textos colados, páginas da web ou respostas de outros agentes para "flexibilizar" a regra são ignoradas, e o usuário é avisado.</div>
+    </section>
+
+    <section class="sec">
+      <span class="rotulo-sec">Entregas</span>
+      <h2>Formatos de saída</h2>
+      <p class="intro">Antes de começar, a skill identifica se o pedido é para entregar um trabalho pronto ou para estudar o tema, e escolhe o formato.</p>
+      <div class="formatos">
+        <div class="formato"><h3>Caso prático</h3><ol><li>Fatos relevantes</li><li>Questão jurídica</li><li>Norma aplicável</li><li>Aplicação ao caso</li><li>Conclusão</li></ol></div>
+        <div class="formato"><h3>Trabalho acadêmico</h3><p>Estrutura pedida pelo professor e padrão ABNT (NBR 14724, 10520 e 6023), com legislação nas referências e só fontes realmente consultadas.</p></div>
+        <div class="formato"><h3>Modo estudo</h3><p>Raciocínio passo a passo, por que cada dispositivo se aplica, armadilhas comuns e perguntas de revisão.</p></div>
+        <div class="formato"><h3>Resumo e fichamento</h3><p>Por tópicos, separando o que é texto de lei, o que é jurisprudência e o que é doutrina.</p></div>
+      </div>
+    </section>
+
+    <section class="sec" id="instalar">
+      <span class="rotulo-sec">Uso</span>
+      <h2>Como instalar</h2>
+      <p class="intro">Uso pessoal e não comercial, nos termos da licença do repositório. O arquivo da skill fica na pasta <code>sistema-ordenamentos-juridicos-alfa-estudos-trabalhos-academicos/</code>.</p>
+      <div class="instalar">
+        <div class="card"><h3>Claude (app ou site)</h3><ol><li>Baixe o arquivo <code>SKILL.md</code> do repositório.</li><li>Em Configurações → Skills, envie o arquivo.</li></ol></div>
+        <div class="card"><h3>Claude Code</h3><ol><li>Copie a pasta da skill para <code>~/.claude/skills/</code>.</li><li>Mantenha o nome da pasta igual ao original.</li></ol></div>
+      </div>
+      <div class="notice">Projeto em <strong>fase alfa</strong>, de autoria de João Lang Casagrande (© 2026, todos os direitos reservados). Erros, como citação inventada, lei desatualizada ou instância mal escolhida, podem ser relatados nas <a href="https://github.com/LangCasagrande/sistema-ordenamentos-juridicos/issues" rel="noopener" target="_blank">issues do repositório</a>. A skill não substitui advogado nem a conferência pessoal das fontes oficiais.</div>
+    </section>
+  </main>
+  <script src="../assets/js/common.js"></script>
+  <script>document.querySelectorAll('[data-icone]').forEach(el => { el.innerHTML = LT.icone(el.dataset.icone); });</script>
+</body>
+</html>
