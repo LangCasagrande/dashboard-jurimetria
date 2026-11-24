@@ -278,7 +278,7 @@
   {
    "lei": "Lei nº 15.181/2025",
    "data": "2025-07-28",
-   "o_que": "Incluiu o inciso V do § 4º (bens que comprometam o funcionamento de órgãos públicos ou de estabelecimentos que prestem serviços públicos essenciais) e o § 8º (fios, cabos ou equipamentos de energia elétrica, telefonia ou transferência de dados, e equipamentos ou materiais ferroviários ou metroviários), com pena de reclusão de 2 a 8 anos e multa.",
+   "o_que": "Incluiu o inciso V do § 4º (bens que comprometam o funcionamento de órgãos da União, de Estado ou de Município ou de estabelecimentos públicos ou privados que prestem serviços públicos essenciais) e o § 8º (fios, cabos ou equipamentos de energia elétrica, telefonia ou transferência de dados, e equipamentos ou materiais ferroviários ou metroviários), com pena de reclusão de 2 a 8 anos e multa.",
    "publicacao_dou": "2025-07-29",
    "vigencia": "na data da publicação"
   },
@@ -292,7 +292,7 @@
   {
    "lei": "Lei nº 15.397/2026",
    "data": "2026-04-30",
-   "o_que": "Aumentou a pena do caput para 1 a 6 anos; mudou o aumento do repouso noturno (§ 1º) para metade; deu nova redação ao § 4º e ao seu inciso V (incluiu o Distrito Federal); elevou para 4 a 10 anos as penas dos §§ 4º-B, 5º e 6º; dividiu os §§ 6º e 7º em incisos, incluindo o animal doméstico, o aparelho celular, o computador e dispositivos semelhantes (§ 6º, II) e a arma de fogo (§ 7º, II); e deu nova redação ao § 8º.",
+   "o_que": "Aumentou a pena do caput para 1 a 6 anos e multa; mudou o aumento do repouso noturno (§ 1º) para metade; deu nova redação ao § 4º e ao seu inciso V (passou a citar os órgãos do Distrito Federal e a falar em \"serviços essenciais\", em vez de \"serviços públicos essenciais\"); elevou para 4 a 10 anos e multa as penas dos §§ 4º-B, 5º e 6º (nos §§ 5º e 6º, a multa não constava da redação anterior); dividiu o § 6º em incisos (I: semovente domesticável de produção ou animal doméstico; II: aparelho de telefonia celular, computador ou dispositivo eletrônico ou informático semelhante) e o § 7º (I: substâncias explosivas e acessórios; II: arma de fogo); e deu nova redação ao § 8º.",
    "publicacao_dou": "2026-05-04",
    "vigencia": "na data da publicação"
   },
@@ -427,12 +427,12 @@
    "tese": [
     "A causa de aumento prevista no § 1° do art. 155 do Código Penal (prática do crime de furto no período noturno) não incide no crime de furto na sua forma qualificada (§ 4°)."
    ],
-   "processo": "REsp 1.890.981/SP",
+   "processo": "REsp 1.891.007/RJ",
    "outros_processos": [
     "REsp 1.888.756/SP",
-    "REsp 1.891.007/RJ"
+    "REsp 1.890.981/SP"
    ],
-   "relator": "Min. João Otávio de Noronha",
+   "relator": "Min. João Otávio de Noronha (REsp 1.891.007/RJ); Jesuíno Rissato, Desembargador convocado do TJDFT (REsps 1.888.756/SP e 1.890.981/SP)",
    "orgao": "Terceira Seção",
    "julgado_em": "2022-05-25",
    "publicado_em": "2022-06-27",
@@ -440,7 +440,7 @@
    "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1087&cod_tema_final=1087",
    "verificacao": {
     "em": "2026-11-24",
-    "como": "Questão, tese, situação e datas copiadas da página oficial do tema no STJ. O relator é o indicado no Informativo 738 (REsp 1.890.981-SP) e, na página do tema, no REsp 1.891.007/RJ; para os REsps 1.888.756/SP e 1.890.981/SP, a página indica Jesuíno Rissato (Desembargador convocado do TJDFT). Os embargos de declaração e o trânsito em julgado têm datas diferentes em cada recurso (o REsp 1.890.981/SP ainda sem trânsito), por isso não foram resumidos aqui.",
+    "como": "Questão, tese, situação, datas, processos e relatores copiados da página oficial do tema no STJ, que indica um relator para cada recurso. O Informativo 738 cita o REsp 1.890.981-SP com relatoria do Min. João Otávio de Noronha; aqui prevalece a página oficial do tema. Os embargos de declaração e o trânsito em julgado têm datas diferentes em cada recurso (o REsp 1.890.981/SP ainda sem trânsito), por isso não foram resumidos aqui.",
     "revisao_humana": null
    }
   },
@@ -528,7 +528,7 @@
    "aba": "doutrina",
    "tipo": "Fundamentação do STJ",
    "titulo": "Vigilância eletrônica e crime impossível: inidoneidade relativa e absoluta do meio",
-   "resumo": "No Tema 924, o STJ lembra que o crime impossível (art. 17 do CP) se manifesta por duas modalidades clássicas: a ineficácia absoluta dos meios empregados pelo agente e a absoluta impropriedade do objeto. Na primeira, distingue a insuficiência do meio (inidoneidade relativa), que não torna absolutamente impossível o resultado, porque o fortuito pode suprir a insuficiência do meio empregado, da ausência completa de potencialidade causal (inidoneidade absoluta). Para o tribunal, os sistemas eletrônicos de vigilância apenas minimizam as perdas dos comerciantes, pois não impedem, de modo absoluto, as subtrações; o meio empregado pelo agente é de inidoneidade relativa, e por isso não é possível reconhecer o crime impossível. A tese originou a Súmula 567 do STJ.",
+   "resumo": "No Tema 924, o STJ lembra que o crime impossível (art. 17 do CP) se manifesta por duas modalidades clássicas: a ineficácia absoluta dos meios empregados pelo agente e a absoluta impropriedade do objeto. Na primeira, distingue a insuficiência do meio (inidoneidade relativa), que não torna absolutamente impossível o resultado, porque o fortuito pode suprir a insuficiência do meio empregado, da ausência completa de potencialidade causal (inidoneidade absoluta). Para o tribunal, os sistemas eletrônicos de vigilância apenas minimizam as perdas dos comerciantes, pois não impedem, de modo absoluto, as subtrações; na hipótese analisada, o meio empregado pelo agente é de inidoneidade relativa, visto que há possibilidade (remota) de consumação, e por isso não é possível reconhecer o crime impossível. A tese originou a Súmula 567 do STJ.",
    "citacoes": [
     {
      "texto": "A existência de sistema de segurança ou de vigilância eletrônica não torna impossível, por si só, o crime de furto cometido no interior de estabelecimento comercial. O crime impossível - subordinado às regras da adequação típica - se manifesta por meio de duas modalidades clássicas (art. 17 do CP): (a) a ineficácia absoluta dos meios empregados pelo agente e (b) a absoluta impropriedade do objeto. A primeira decorre dos meios empregados pelo agente nos atos executivos. A segunda refere-se à hipótese em que o objeto do crime não existe ou lhe falta alguma qualidade imprescindível para configurar-se a infração. No tocante à primeira modalidade (em torno da qual surge a discussão aqui enfrentada), há que se distinguir a insuficiência do meio (inidoneidade relativa) - deficiência de forças para alcançar o fim delituoso e determinada por razões de qualidade, quantidade, ou de modo - da ausência completa de potencialidade causal (inidoneidade absoluta), observando-se que a primeira (diferentemente da segunda) não torna absolutamente impossível o resultado que consuma o delito, pois o fortuito pode suprir a insuficiência do meio empregado. No caso de furto praticado no interior de estabelecimento comercial guarnecido por mecanismo de vigilância e de segurança, tem-se que, embora os sistemas eletrônicos de vigilância tenham por objetivo evitar a ocorrência de furtos, sua eficiência apenas minimiza as perdas dos comerciantes, visto que não impedem, de modo absoluto, a ocorrência de subtrações no interior de estabelecimentos comerciais.",
@@ -557,7 +557,7 @@
    "aba": "doutrina",
    "tipo": "Fundamentação do STJ",
    "titulo": "Por que o aumento do repouso noturno não vale para o furto qualificado (Tema 1087)",
-   "resumo": "No Tema 1087, o STJ recorreu a dois métodos de interpretação. Pelo topográfico, o § 1º do art. 155 se refere à pena do furto simples, prevista no caput, e não à cominação do furto qualificado, que se encontra três parágrafos depois; para que a majorante se aplicasse ao furto qualificado, o legislador deveria colocar o § 1º após a pena atribuída, o que não ocorreu. Pelo teleológico, invocou os princípios da proporcionalidade e da taxatividade: com o acréscimo fixo de 1/3, a pena do furto qualificado poderia resultar em 10 anos e 8 meses, superior à do roubo, que protege também a integridade corporal; e o § 1º não tem precisão e clareza para alcançar o furto qualificado. O tribunal distinguiu ainda o privilégio do § 2º, norma penal não incriminadora que pode comportar extensividade, da causa de aumento do repouso noturno, norma incriminadora cuja extensividade é vedada. Segundo o informativo, se a incidência da majorante no furto qualificado se mostra excessiva, o repouso noturno poderá ser usado como circunstância judicial negativa na primeira fase da dosimetria (art. 59 do CP), ponto que não enseja a fixação de tese vinculante.",
+   "resumo": "No Tema 1087, o STJ recorreu a dois métodos de interpretação. Pelo topográfico, o § 1º do art. 155 se refere à pena do furto simples, prevista no caput, e não à cominação do furto qualificado, que se encontra três parágrafos depois; para que a majorante se aplicasse ao furto qualificado, o legislador deveria colocar o § 1º após a pena atribuída, o que não ocorreu. Pelo teleológico, invocou os princípios da proporcionalidade e da taxatividade: com o acréscimo fixo de 1/3, a pena do furto qualificado poderia resultar em 10 anos e 8 meses, superior à do roubo, que protege também a integridade corporal; e, para o tribunal, não há precisão e clareza desejáveis no § 1º quando se deve definir sua aplicabilidade tanto ao furto simples quanto ao furto qualificado. O tribunal distinguiu ainda o privilégio do § 2º, norma penal não incriminadora que pode comportar extensividade, da causa de aumento do repouso noturno, norma incriminadora cuja extensividade é vedada. Segundo o informativo, se a incidência da majorante no furto qualificado se mostra excessiva, o repouso noturno poderá ser usado como circunstância judicial negativa na primeira fase da dosimetria (art. 59 do CP), ponto que não enseja a fixação de tese vinculante.",
    "citacoes": [
     {
      "texto": "A disposição técnica do Código Penal assim se apresenta: refere-se o art. 155, § 1º, do CP à pena do furto simples, prevista no caput desse dispositivo. Desse modo, não se refere à cominação do furto qualificado, que se encontra três parágrafos depois. Seguindo a técnica legislativa, para que considerasse aplicável a majorante no furto qualificado, deveria o legislador colocar o § 1º após a pena atribuída, o que não ocorreu.",
@@ -868,7 +868,7 @@
    "id": "vigencia-15397",
    "aba": "lei",
    "tipo": "Vigência e aplicação no tempo",
-   "titulo": "Lei 15.397/2026: as penas maiores do furto só valem para fatos a partir de 04/05/2026",
+   "titulo": "Lei 15.397/2026: penas maiores para o furto, em vigor desde a publicação no DOU de 04/05/2026",
    "resumo": "A Lei nº 15.397/2026 é de 30/04/2026 e entrou em vigor na data da publicação, no DOU de 04/05/2026. No art. 155, ela aumentou a pena do furto simples de um a quatro anos (redação de 1940; a compilação não anota outra mudança nesse prazo) para 1 a 6 anos; mudou o aumento do repouso noturno (§ 1º) de um terço para metade; elevou a pena do § 4º-B (furto mediante fraude por meio de dispositivo eletrônico ou informático) de 4 a 8 para 4 a 10 anos; elevou a do § 5º (veículo automotor levado para outro Estado ou para o exterior) de três a oito anos, sem menção a multa na Lei nº 9.426/1996, para 4 a 10 anos e multa; e elevou a do § 6º, que tratava só do semovente domesticável de produção (2 a 5 anos, Lei nº 13.330/2016), para 4 a 10 anos e multa, acrescentando o animal doméstico e o aparelho de telefonia celular, o computador e dispositivos semelhantes. No § 7º, manteve a pena de 4 a 10 anos e multa e acrescentou a arma de fogo. Na nova redação do § 4º, a pena continuou de 2 a 8 anos e multa, como a do § 8º.",
    "citacoes": [
     {
