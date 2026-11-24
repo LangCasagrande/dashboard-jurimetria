@@ -178,37 +178,51 @@
   {
    "lei": "Lei nº 9.426/1996",
    "data": "1996-12-24",
-   "o_que": "Incluiu os incisos IV e V do § 2º (veículo levado para outro Estado ou para o exterior; vítima mantida em poder do agente)."
+   "o_que": "Incluiu os incisos IV e V do § 2º (veículo levado para outro Estado ou para o exterior; vítima mantida em poder do agente).",
+   "publicacao_dou": null,
+   "vigencia": null
   },
   {
    "lei": "Lei nº 13.654/2018",
    "data": "2018-04-23",
-   "o_que": "Deu nova redação ao § 2º, revogou o inciso I (emprego de arma), incluiu o inciso VI, criou o § 2º-A (arma de fogo e explosivo) e deu nova redação ao § 3º."
+   "o_que": "Deu nova redação ao § 2º, revogou o inciso I (emprego de arma), incluiu o inciso VI, criou o § 2º-A (arma de fogo e explosivo) e deu nova redação ao § 3º.",
+   "publicacao_dou": "2018-04-24",
+   "vigencia": "na data da publicação"
   },
   {
    "lei": "Lei nº 13.964/2019",
    "data": "2019-12-24",
-   "o_que": "Incluiu o inciso VII do § 2º (arma branca) e o § 2º-B (arma de fogo de uso restrito ou proibido). Entrou em vigor 30 dias após a publicação."
+   "o_que": "Incluiu o inciso VII do § 2º (arma branca) e o § 2º-B (arma de fogo de uso restrito ou proibido). Entrou em vigor 30 dias após a publicação.",
+   "publicacao_dou": "2019-12-24",
+   "vigencia": "30 dias após a publicação (Edição Extra do DOU)"
   },
   {
    "lei": "Lei nº 15.181/2025",
    "data": "2025-07-28",
-   "o_que": "Incluiu o § 1º-A (bens de serviços públicos essenciais) e o inciso VIII do § 2º (fios, cabos e equipamentos de energia, telefonia, dados e ferrovias)."
+   "o_que": "Incluiu o § 1º-A (bens de serviços públicos essenciais) e o inciso VIII do § 2º (fios, cabos e equipamentos de energia, telefonia, dados e ferrovias).",
+   "publicacao_dou": "2025-07-29",
+   "vigencia": "na data da publicação"
   },
   {
    "lei": "Lei nº 15.358/2026",
    "data": "2026-03-24",
-   "o_que": "Incluiu os §§ 4º e 5º (organização criminosa ultraviolenta, grupo paramilitar ou milícia privada)."
+   "o_que": "Incluiu os §§ 4º e 5º (organização criminosa ultraviolenta, grupo paramilitar ou milícia privada).",
+   "publicacao_dou": "2026-03-25",
+   "vigencia": "na data da publicação"
   },
   {
    "lei": "Lei nº 15.397/2026",
    "data": "2026-04-30",
-   "o_que": "Aumentou a pena do caput para 6 a 10 anos, deu nova redação ao § 1º-A e ao § 3º, II (morte: 24 a 30 anos) e incluiu os incisos IX (celular, computador e similares) e X (arma de fogo) do § 2º. A mudança no § 3º, I, foi vetada."
+   "o_que": "Aumentou a pena do caput para 6 a 10 anos, deu nova redação ao § 1º-A e ao § 3º, II (morte: 24 a 30 anos) e incluiu os incisos IX (celular, computador e similares) e X (arma de fogo) do § 2º. A mudança no § 3º, I, foi vetada.",
+   "publicacao_dou": "2026-05-04",
+   "vigencia": "na data da publicação"
   },
   {
    "lei": "Lei nº 15.517/2026",
    "data": "2026-09-22",
-   "o_que": "Incluiu o inciso XI do § 2º (petróleo, gás natural e combustíveis) e o inciso III do § 2º-A, com alíneas (a alínea \"e\" foi vetada)."
+   "o_que": "Incluiu o inciso XI do § 2º (petróleo, gás natural e combustíveis) e o inciso III do § 2º-A, com alíneas (a alínea \"e\" foi vetada).",
+   "publicacao_dou": null,
+   "vigencia": null
   }
  ],
  "sumulas": [
@@ -258,7 +272,7 @@
    "dados": "TERCEIRA SEÇÃO, julgado em 23/10/1996, DJ 31/10/1996, p. 42124",
    "tema": "Arma de brinquedo",
    "cancelada": true,
-   "cancelamento": "SÚMULA CANCELADA: A Terceira Seção, na sessão de 24/10/2002, ao julgar o REsp 213.054/SP, determinou o CANCELAMENTO da Súmula 174 do STJ (DJ 11/11/2002, p. 148). scon.stj.jus.br/SCON/sumstj/ 70",
+   "cancelamento": "SÚMULA CANCELADA: A Terceira Seção, na sessão de 24/10/2002, ao julgar o REsp 213.054/SP, determinou o CANCELAMENTO da Súmula 174 do STJ (DJ 11/11/2002, p. 148).",
    "fonte": "https://www.stj.jus.br/docs_internet/jurisprudencia/tematica/download/SU/Verbetes/VerbetesSTJ.pdf",
    "verificacao": {
     "em": "2026-11-24",
@@ -318,7 +332,7 @@
   {
    "id": "teorias-consumacao",
    "tipo": "Doutrina citada pelo STJ",
-   "titulo": "As teorias sobre a consumação: contrectatio, amotio, ablatio e illatio",
+   "titulo": "Os quatro momentos da ação no direito romano (contrectatio, amotio, ablatio e illatio) e a consumação do roubo",
    "resumo": "O STJ explica que as teorias sobre o momento da consumação do furto e do roubo vêm do direito romano e distinguem quatro momentos da ação: tocar a coisa (contrectatio), removê-la (amotio), tirá-la da esfera patrimonial do dono (ablatio) e colocá-la em lugar seguro (illatio). Para o STJ, a consumação do roubo ocorre com a inversão da posse, ainda que por breve tempo (Tema 916 e Súmula 582).",
    "citacao": "Como se sabe, o delineamento acerca da consumação dos crimes de roubo e de furto foi construído com base no direito romano, cuja noção de furtum - elaborada pelos operadores práticos do direito e pelos jurisconsultos -, mais ampla que a do furto do direito moderno, trazia a exigência da contrectatio (apreensão fraudulenta da coisa), visto que se exigia, necessariamente, o apossamento da coisa. É de se notar que, a partir das interpretações discrepantes da palavra contrectatio - entendida diversamente no sentido de trazer, de mover de lugar, de tocar (materialmente) e pôr a mão -, explica-se a profusão de teorias sobre a consumação do furto. O desenvolvimento desses conceitos, no âmbito do direito romano, levou à distinção de quatro momentos da ação: (a) a ação de tocar o objeto (contrectatio); (b) a ação de remover a coisa (amotio); (c) a ação de levar a coisa, tirando-a da esfera patrimonial do proprietário (ablatio); e (d) a ação de colocar a coisa em lugar seguro (illatio). O porquê de tanto esforço intelectual pode ser encontrado no fato de o direito romano não ter desenvolvido a ideia de \"tentativa\", motivo pelo qual era necessária a antecipação da consumação, considerando-se já consumado o furto com o simples toque da coisa, sem necessidade de levá-la. Todavia, com o surgimento da noção de tentativa, ficou evidente que não se fazia necessária a antecipação da consumação (attrectatio). Decorre daí o abandono das teorias radicais (consumação pelo simples toque ou somente com a colocação da coisa em local seguro).",
    "fonte_nome": "STJ, Informativo de Jurisprudência nº 572 (REsp 1.499.050/RJ, Tema 916)",
@@ -348,8 +362,23 @@
    "id": "vigencia-2026",
    "tipo": "Vigência e aplicação no tempo",
    "titulo": "Penas novas de 2026 só valem para fatos posteriores",
-   "resumo": "A Lei nº 15.397/2026 aumentou a pena do roubo (caput: 6 a 10 anos) e do roubo com resultado morte (24 a 30 anos) e entrou em vigor na data da publicação, no Diário Oficial da União de 04/05/2026. Como a lei penal mais grave não retroage, fatos anteriores seguem as penas antigas; já a lei posterior mais favorável alcança fatos anteriores.",
+   "resumo": "A Lei nº 15.397/2026 é de 30/04/2026, mas só entrou em vigor na data da publicação, no Diário Oficial da União de 04/05/2026. Ela aumentou a pena do roubo simples de 4 a 10 anos para 6 a 10 anos de reclusão, e a do roubo com resultado morte (§ 3º, II) de 20 a 30 anos para 24 a 30 anos. No § 1º-A, a pena continuou de 6 a 12 anos: a mudança foi incluir os bens do Distrito Federal. Como a lei penal mais grave não retroage, fatos anteriores a 04/05/2026 seguem as penas antigas; já a lei posterior mais favorável alcança fatos anteriores.",
    "citacoes": [
+    {
+     "texto": "Pena - reclusão, de quatro a dez anos, e multa, de três contos a quinze contos de réis.",
+     "fonte_nome": "Código Penal, art. 157, caput — redação original de 1940 (a única alteração dessa pena foi a da Lei 15.397/2026, segundo a compilação)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "II – morte, a pena é de reclusão de 20 (vinte) a 30 (trinta) anos, e multa.",
+     "fonte_nome": "Lei nº 13.654/2018 — redação do § 3º, II, vigente até a Lei 15.397/2026",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2018-04-23;13654"
+    },
+    {
+     "texto": "§ 1º-A. A pena é de reclusão de 6 (seis) a 12 (doze) anos e multa, se a subtração for cometida contra quaisquer bens que comprometam o funcionamento de órgãos da União, de Estado ou de Município ou de estabelecimentos públicos ou privados que prestem serviços públicos essenciais.",
+     "fonte_nome": "Lei nº 15.181/2025 — redação original do § 1º-A",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2025-07-28;15181"
+    },
     {
      "texto": "Art. 4º Esta Lei entra em vigor na data de sua publicação.",
      "fonte_nome": "Lei nº 15.397/2026, art. 4º",
@@ -368,7 +397,7 @@
    ],
    "verificacao": {
     "em": "2026-11-24",
-    "como": "Textos copiados da publicação original da Lei 15.397/2026 e das compilações da Constituição e do Código Penal no Normas.leg.br.",
+    "como": "Textos copiados das publicações originais (Código Penal de 1940, Leis 13.654/2018, 15.181/2025 e 15.397/2026) e das compilações da Constituição e do Código Penal no Normas.leg.br.",
     "revisao_humana": null
    }
   },
@@ -376,12 +405,34 @@
    "id": "arma-branca",
    "tipo": "Evolução legislativa",
    "titulo": "Arma branca: saiu em 2018 e voltou em 2019",
-   "resumo": "A Lei nº 13.654/2018 revogou o antigo inciso I do § 2º (emprego de arma) e criou o § 2º-A, cujo inciso I trata apenas do emprego de arma de fogo. Com isso, o STJ fixou no Tema 1.110 que a arma branca deixou de ser causa de aumento, mas pode elevar a pena-base quando o caso justificar. A Lei nº 13.964/2019 voltou a prever a arma branca como causa de aumento, no inciso VII do § 2º. O alcance da tese para fatos de cada período deve ser conferido no acórdão.",
+   "resumo": "A Lei nº 13.654/2018 revogou o antigo inciso I do § 2º (emprego de arma) e criou o § 2º-A, cujo inciso I trata apenas do emprego de arma de fogo. Nesse cenário, o STJ fixou no Tema 1.110 que a arma branca, por não ser mais causa de aumento, podia ser usada para elevar a pena-base quando o caso justificasse. A Lei nº 13.964/2019 voltou a prever a arma branca como causa de aumento (§ 2º, VII: aumento de 1/3 até metade), com vigência 30 dias após a publicação no DOU de 24/12/2019. Assim, para fatos posteriores a essa vigência, a arma branca é causa de aumento pela própria lei. A tese do Tema 1.110 parte da situação criada pela Lei 13.654/2018, quando a arma branca deixou de ser causa de aumento.",
    "verificacao": {
     "em": "2026-11-24",
-    "como": "Fatos conferidos nas notas da compilação do Código Penal e na página oficial do Tema 1.110 do STJ.",
+    "como": "Trechos copiados das publicações originais das Leis 13.654/2018 e 13.964/2019 e da página oficial do Tema 1.110 do STJ.",
     "revisao_humana": null
-   }
+   },
+   "citacoes": [
+    {
+     "texto": "I – (revogado);",
+     "fonte_nome": "Lei nº 13.654/2018, nova redação do art. 157, § 2º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2018-04-23;13654"
+    },
+    {
+     "texto": "1. Em razão da novatio legis in mellius engendrada pela Lei n. 13.654/2018, o emprego de arma branca, embora não configure mais causa de aumento do crime de roubo, poderá ser utilizado como fundamento para a majoração da pena-base, quando as circunstâncias do caso concreto assim justificarem.",
+     "fonte_nome": "STJ, Tema 1.110 (tese firmada, item 1)",
+     "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1110&cod_tema_final=1110"
+    },
+    {
+     "texto": "VII – se a violência ou grave ameaça é exercida com emprego de arma branca;",
+     "fonte_nome": "Lei nº 13.964/2019, inclusão do art. 157, § 2º, VII",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2019-12-24;13964"
+    },
+    {
+     "texto": "Art. 20. Esta Lei entra em vigor após decorridos 30 (trinta) dias de sua publicação oficial.",
+     "fonte_nome": "Lei nº 13.964/2019, art. 20 (vigência)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2019-12-24;13964"
+    }
+   ]
   },
   {
    "id": "sumula-174",
@@ -393,12 +444,34 @@
     "como": "Cancelamento conferido no documento oficial \"Enunciados das Súmulas do STJ\".",
     "revisao_humana": null
    }
+  },
+  {
+   "id": "lei-15358",
+   "tipo": "Remissão",
+   "titulo": "Que lei é o \"marco legal do combate ao crime organizado\" dos §§ 4º e 5º?",
+   "resumo": "Os §§ 4º e 5º remetem ao art. 2º \"da lei que institui o marco legal do combate ao crime organizado no Brasil\". Essa lei é a Lei nº 15.358, de 24/03/2026, a mesma que incluiu esses parágrafos no art. 157. Ela entrou em vigor na data da publicação, no DOU de 25/03/2026.",
+   "citacoes": [
+    {
+     "texto": "Institui o Marco Legal do Combate ao Crime Organizado no Brasil (Lei Raul Jungmann); tipifica os crimes de domínio social estruturado e de favorecimento ao domínio social estruturado; e altera os Decretos-Leis nºs 2.848, de 7 de dezembro de 1940 (Código Penal), e 3.689, de 3 de outubro de 1941 (Código de Processo Penal), e as Leis nºs 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), 7.210, de 11 de julho de 1984 (Lei de Execução Penal), 11.343, de 23 de agosto de 2006, 10.826, de 22 de dezembro de 2003, 9.613, de 3 de março de 1998, 4.737, de 15 de julho de 1965 (Código Eleitoral); 13.756, de 12 de dezembro de 2018; e 14.790, de 29 de dezembro de 2023.",
+     "fonte_nome": "Lei nº 15.358/2026, ementa",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-03-24;15358"
+    }
+   ],
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Ementa e data de publicação conferidas nos metadados oficiais do Normas.leg.br; inclusão dos §§ 4º e 5º conferida na publicação original da lei.",
+    "revisao_humana": null
+   }
   }
  ],
  "pendentes": [
   {
    "o_que": "Súmulas 603 e 610 do STF (latrocínio)",
    "motivo": "O portal do STF recusa acessos automatizados vindos do servidor desta verificação; o texto literal não pôde ser conferido."
+  },
+  {
+   "o_que": "Entendimento atual do STJ sobre a arma de brinquedo (simulacro) depois do cancelamento da Súmula 174",
+   "motivo": "Os acórdãos e páginas de jurisprudência do STJ que tratam do tema ficam atrás do bloqueio automático do tribunal e não puderam ser conferidos nesta verificação."
   },
   {
    "o_que": "Doutrina com nome de autor, obra e página",

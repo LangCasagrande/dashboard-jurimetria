@@ -40,8 +40,8 @@
 
   function alteracoes(d) {
     return `<section class="bloco" id="alteracoes"><h3>Linha do tempo das alterações</h3>
-      <p class="sub">Leis que mudaram o art. 157, conforme as notas da compilação.</p>
-      <ol class="tempo">${d.alteracoes.map(a => `<li><b>${esc(a.lei)}</b><time datetime="${a.data}">${data(a.data)}</time><p>${esc(a.o_que)}</p></li>`).join('')}</ol></section>`;
+      <p class="sub">Leis que mudaram o art. 157, conforme as notas da compilação. A data da lei nem sempre é a data em que ela passa a valer: veja a publicação e a vigência.</p>
+      <ol class="tempo">${d.alteracoes.map(a => `<li><b>${esc(a.lei)}</b><time datetime="${a.data}">Lei de ${data(a.data)}${a.publicacao_dou ? ` · publicada no DOU de ${data(a.publicacao_dou)} · em vigor ${esc(a.vigencia)}` : ''}</time><p>${esc(a.o_que)}</p></li>`).join('')}</ol></section>`;
   }
 
   function juris(d) {
@@ -94,7 +94,7 @@
           const max = ts[0].total;
           const ultima = ts.map(t => t.coletado_em).filter(Boolean).sort().pop();
           return `<div class="jur-kpis">
-              <div><b>${fmtInt(total)}</b><span>processos com assunto de roubo, somando ${ts.length} tribunais</span></div>
+              <div><b>${fmtInt(total)}</b><span>processos com assunto de roubo, somando ${ts.length} ${ts.length === 1 ? 'tribunal' : 'tribunais'}${ts.length < 91 ? ` (de 91; a contagem dos demais ainda não foi feita)` : ''}</span></div>
               <div><b>${esc(ts[0].sigla)}</b><span>tribunal com mais processos (${fmtInt(ts[0].total)})</span></div>
               <div><b>${fmtInt(porAssunto['5567'] || 0)}</b><span>com o assunto "Latrocínio"</span></div>
             </div>
@@ -102,7 +102,7 @@
             <p class="muted" style="margin:.9rem 0 0;font-size:.85rem">Assuntos contados: ${Object.entries(tema.assuntos).map(([c, n]) => `${esc(n)} (código ${esc(c)}: ${fmtInt(porAssunto[c] || 0)})`).join('; ')}. Um processo pode ter mais de um desses assuntos, mas entra uma vez só no total do tribunal. Dados coletados até ${data(ultima)}. ${esc(tema.fonte)}</p></div>`;
         })();
     return `<section class="bloco" id="jurimetria"><h3>Jurimetria do artigo</h3>
-      <p class="sub">Quantos processos sobre roubo existem na base pública do CNJ, por tribunal.</p>${corpo}</section>`;
+      <p class="sub">Quantos processos sobre roubo existem na base pública do CNJ, nos tribunais já contados.</p>${corpo}</section>`;
   }
 
   function fontes(d) {
