@@ -108,3 +108,4 @@
 .rubrica-disp small { font-style: normal; font-weight: 400; color: var(--muted); }
 .tempo .ressalva { margin-top: .4rem; padding: 8px 10px; border-radius: 8px; background: var(--warn-soft); color: var(--text); font-size: .9rem; }
 .item .situacao { font-size: .8rem; font-weight: 700; color: var(--muted); }
+.item .obs { margin: 0; padding: 8px 12px; border-left: 3px solid var(--warn); background: var(--warn-soft); font-size: .9rem; }

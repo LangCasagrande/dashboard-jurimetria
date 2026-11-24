@@ -442,7 +442,8 @@
     "em": "2026-11-24",
     "como": "Questão, tese, situação, datas, processos e relatores copiados da página oficial do tema no STJ, que indica um relator para cada recurso. O Informativo 738 cita o REsp 1.890.981-SP com relatoria do Min. João Otávio de Noronha; aqui prevalece a página oficial do tema. Os embargos de declaração e o trânsito em julgado têm datas diferentes em cada recurso (o REsp 1.890.981/SP ainda sem trânsito), por isso não foram resumidos aqui.",
     "revisao_humana": null
-   }
+   },
+   "observacao": "A página oficial do tema indica um relator para cada recurso: Min. João Otávio de Noronha no REsp 1.891.007/RJ e Jesuíno Rissato (Desembargador convocado do TJDFT) nos REsps 1.888.756/SP e 1.890.981/SP. O Informativo 738 cita o REsp 1.890.981-SP com relatoria do Min. João Otávio de Noronha."
   },
   {
    "tribunal": "STJ",
@@ -470,7 +471,8 @@
     "em": "2026-11-24",
     "como": "Questão, tese e datas copiadas da página oficial do tema no STJ. O trânsito em julgado indicado é o do REsp 1.979.989/RS; o do REsp 1.979.998/RS ocorreu em 17/08/2022. Atenção: o item 1 da tese reproduz o aumento de um terço, que a Lei 15.397/2026 mudou para metade (ver nota).",
     "revisao_humana": null
-   }
+   },
+   "observacao": "O item 1 da tese fala em aumento de um terço, como previa o § 1º na redação de 1940. A Lei nº 15.397/2026, em vigor desde a publicação no DOU de 04/05/2026, deu nova redação ao § 1º: \"A pena aumenta-se de metade, se o crime é praticado durante o repouso noturno.\""
   },
   {
    "tribunal": "STJ",

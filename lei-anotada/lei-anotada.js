@@ -73,6 +73,7 @@
         ${t.situacao ? `<span class="situacao">Situação: ${esc(t.situacao)}</span>` : ''}
         ${t.questao ? `<p class="meta"><strong>Questão:</strong> ${esc(t.questao)}</p>` : ''}
         <blockquote>${(t.tese || []).map(esc).join('<br><br>')}</blockquote>
+        ${t.observacao ? `<p class="obs"><strong>Atenção:</strong> ${esc(t.observacao)}</p>` : ''}
         <div class="meta">${[t.processo, t.relator, t.orgao].filter(Boolean).map(esc).join(' · ')}${t.julgado_em ? ` · julgado em ${data(t.julgado_em)}` : ''}${t.publicado_em ? ` · acórdão publicado em ${data(t.publicado_em)}` : ''}${t.embargos_em ? ` · embargos de declaração em ${data(t.embargos_em)}` : ''}${t.transito_em ? ` · trânsito em julgado em ${data(t.transito_em)}` : ''}${t.sumula_originada ? ` · originou a ${esc(t.sumula_originada)}` : ''}<br>Fonte: ${link(t.fonte, `página oficial do Tema ${t.numero}`)}</div>
         ${selo(t.verificacao)}
       </article>`).join('');
