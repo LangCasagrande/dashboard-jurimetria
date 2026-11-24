@@ -281,7 +281,8 @@
     "em": "2026-11-24",
     "como": "Questão, teses 1 a 4, processo, relator e datas copiados da página oficial do tema no STJ. Na tese 5, a página exibe \"?\" no lugar dos travessões; o texto foi copiado da mesma tese transcrita no Informativo de Jurisprudência nº 901 do STJ.",
     "revisao_humana": null
-   }
+   },
+   "observacao": "O Informativo 901 registra o julgamento em 18/6/2026 e o DJEN de 8/9/2026; a página oficial do tema traz \"Acórdão publicado em 16/11/2026\". Segundo o Informativo 906, o acórdão foi retificado em questão de ordem julgada em 14/10/2026; nenhuma das fontes diz se a data de 16/11/2026 é a da publicação do acórdão retificado."
   },
   {
    "tribunal": "STJ",
@@ -306,7 +307,8 @@
     "em": "2026-11-24",
     "como": "Questão, teses 1 a 4, processo, relator e datas copiados da página oficial do tema no STJ. Na tese 5, a página exibe \"?\" no lugar dos travessões; o texto foi copiado da mesma tese transcrita no Informativo de Jurisprudência nº 901 do STJ.",
     "revisao_humana": null
-   }
+   },
+   "observacao": "O Informativo 901 registra o julgamento em 18/6/2026 e o DJEN de 8/9/2026; a página oficial do tema traz \"Acórdão publicado em 16/11/2026\". Segundo o Informativo 906, o acórdão foi retificado em questão de ordem julgada em 14/10/2026; nenhuma das fontes diz se a data de 16/11/2026 é a da publicação do acórdão retificado."
   },
   {
    "tribunal": "STJ",
@@ -471,7 +473,7 @@
    "id": "resolucao-senado-5-2012",
    "tipo": "Atenção",
    "titulo": "§ 4º: a proibição de converter em penas restritivas de direitos está com a execução suspensa pelo Senado",
-   "resumo": "O texto do § 4º ainda traz a expressão \"vedada a conversão em penas restritivas de direitos\", mas a compilação da Câmara dos Deputados anota que essa expressão teve a execução suspensa pelo Senado Federal, pela Resolução nº 5, de 15/2/2012, na forma do art. 52, X, da Constituição. Esse inciso dá ao Senado a competência privativa de suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do Supremo Tribunal Federal. O texto da resolução e a decisão do STF que a motivou não puderam ser conferidos nesta verificação (veja Pendentes).",
+   "resumo": "O texto do § 4º ainda traz a expressão \"vedada a conversão em penas restritivas de direitos\", mas a compilação da Câmara dos Deputados anota que essa expressão teve a execução suspensa pelo Senado Federal, pela Resolução nº 5, de 15/2/2012, na forma do art. 52, X, da Constituição. Esse inciso dá ao Senado a competência privativa de suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do Supremo Tribunal Federal. A anotação da compilação não menciona a decisão do STF que esse inciso pressupõe; nem ela nem o texto da resolução puderam ser conferidos nesta verificação (veja Pendentes).",
    "citacoes": [
     {
      "texto": "Expressão \"vedada a conversão em penas restritivas de direitos\" com execução suspensa pelo Senado Federal, na forma do art. 52, X, da Constituição Federal, pela Resolução nº 5, de 15/2/2012",
@@ -555,7 +557,7 @@
    "id": "art-40-e-40-a",
    "tipo": "Remissão",
    "titulo": "Aumentos de pena: art. 40 e o novo art. 40-A (Lei 15.358/2026)",
-   "resumo": "As penas do art. 33 são aumentadas de um sexto a dois terços nas hipóteses do art. 40 da Lei de Drogas, entre elas a transnacionalidade do delito (inciso I), o crime praticado com violência, grave ameaça, emprego de arma de fogo ou processo de intimidação difusa ou coletiva (inciso IV) e o tráfico entre Estados da Federação ou entre estes e o Distrito Federal (inciso V). A Lei nº 15.358/2026, que institui o Marco Legal do Combate ao Crime Organizado, foi publicada no DOU de 25/03/2026, entrou em vigor na data da publicação e acrescentou o art. 40-A: as penas dos arts. 33 a 37 serão aplicadas em dobro se o crime for praticado por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto da atuação ou para a consecução das condutas previstas no art. 2º dessa lei; e, se o crime for praticado com emprego de arma de fogo, aplica-se a pena do concurso material do art. 69 do Código Penal, independentemente de o uso da arma estar diretamente ligado ao comércio ilícito de entorpecentes.",
+   "resumo": "As penas do art. 33 são aumentadas de um sexto a dois terços nas hipóteses do art. 40 da Lei de Drogas, entre elas a transnacionalidade do delito (inciso I), o crime praticado com violência, grave ameaça, emprego de arma de fogo ou processo de intimidação difusa ou coletiva (inciso IV) e o tráfico entre Estados da Federação ou entre estes e o Distrito Federal (inciso V). A Lei nº 15.358/2026, que institui o Marco Legal do Combate ao Crime Organizado, foi publicada no DOU de 25/03/2026, entrou em vigor na data da publicação e acrescentou o art. 40-A: as penas dos arts. 33 a 37 serão aplicadas em dobro se o crime for praticado por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto da atuação ou para a consecução das condutas previstas no art. 2º dessa lei. O parágrafo único do art. 40-A acrescenta que, se o crime for praticado com emprego de arma de fogo, aplica-se a pena do concurso material do art. 69 do Código Penal, independentemente de o uso da arma estar diretamente ligado ao comércio ilícito de entorpecentes ou de o artefato ter sido utilizado para assegurar o sucesso da mercancia.",
    "citacoes": [
     {
      "texto": "Art. 40. As penas previstas nos arts. 33 a 37 desta Lei são aumentadas de um sexto a dois terços, se:",
@@ -603,7 +605,7 @@
      "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-03-24;15358"
     }
    ],
-   "interpretacao": "O Tema 1.259 do STJ (aba Jurisprudência), que trata da relação entre a majorante do art. 40, IV, e o crime autônomo de arma, foi julgado em 2024, antes da Lei 15.358/2026. O parágrafo único do art. 40-A, nos casos que descreve, manda aplicar o concurso material mesmo sem ligação direta entre a arma e o comércio de drogas. Como as duas regras convivem deve ser conferido em decisões posteriores a março de 2026.",
+   "interpretacao": "O Tema 1.259 do STJ (aba Jurisprudência), que trata da relação entre a majorante do art. 40, IV, e o crime autônomo de arma, foi julgado em 2024, antes da Lei 15.358/2026. O parágrafo único do art. 40-A manda aplicar o concurso material independentemente de o uso da arma estar ligado ao comércio de drogas ou de ter sido utilizado para assegurar o sucesso da mercancia, que é a hipótese tratada no Tema 1.259. Não está claro, pela redação, se o parágrafo único vale para todo tráfico com arma de fogo ou só para os casos do caput do art. 40-A (organização criminosa ultraviolenta, grupo paramilitar ou milícia privada). A decisão de 26/8/2026 citada na aba Jurisprudência (Informativo 909) aplica o Tema 1.259 sem mencionar o art. 40-A. Como as duas regras convivem deve ser conferido em decisões posteriores.",
    "verificacao": {
     "em": "2026-11-24",
     "como": "Trechos copiados da compilação da Lei 11.343/2006 e da publicação original da Lei 15.358/2026 no Normas.leg.br; data do DOU conferida nos metadados oficiais.",
@@ -615,7 +617,7 @@
    "id": "sumula-512-cancelada",
    "tipo": "Atenção",
    "titulo": "A Súmula 512 do STJ (hediondez do tráfico privilegiado) foi cancelada",
-   "resumo": "A súmula dizia que a causa de diminuição do art. 33, § 4º, não afastava a hediondez do crime de tráfico. A Terceira Seção a cancelou na sessão de 23/11/2016, ao julgar a QO na Pet 11.796/DF, em que revisou a tese do Tema 600, antes firmada no REsp 1.329.088/RS. A tese atual do Tema 600 é a de que o tráfico privilegiado não é crime equiparado a hediondo. A Súmula 512 não deve ser citada como entendimento vigente.",
+   "resumo": "A súmula dizia que a causa de diminuição do art. 33, § 4º, não afastava a hediondez do crime de tráfico. A Terceira Seção a cancelou na sessão de 23/11/2016, ao julgar a QO na Pet 11.796/DF, em que revisou a tese do Tema 600, antes firmada no REsp 1.329.088/RS. A tese atual do Tema 600 é a de que o tráfico privilegiado não é crime equiparado a hediondo.",
    "citacoes": [
     {
      "texto": "SÚMULA CANCELADA: A Terceira Seção, na sessão de 23/11/2016, ao julgar a QO na Pet 11.796/DF, determinou o CANCELAMENTO da Súmula 512 do STJ (DJ 28/11/2016).",
@@ -638,7 +640,8 @@
     "como": "Cancelamento conferido no documento oficial \"Enunciados das Súmulas do STJ\"; teses anterior e atual copiadas da página oficial do Tema 600.",
     "revisao_humana": null
    },
-   "aba": "jurisprudencia"
+   "aba": "jurisprudencia",
+   "interpretacao": "Por ter sido cancelada, a Súmula 512 não deve ser citada como entendimento vigente."
   },
   {
    "id": "stf-hc-118533",
@@ -713,7 +716,7 @@
    "id": "temas-1154-1241-retificacao",
    "tipo": "Atenção",
    "titulo": "Temas 1.154 e 1.241: o acórdão foi retificado para trazer as cinco teses",
-   "resumo": "Os Temas 1.154 e 1.241 foram julgados em conjunto em 18/6/2026. Segundo o Informativo 906, por erro material o acórdão mencionou expressamente apenas a tese n. 5; em questão de ordem no REsp 2.059.576-MG, julgada por maioria em 14/10/2026, a Terceira Seção retificou o acórdão para que nele constem todas as cinco teses. Ao citar o precedente, convém usar a versão retificada, com as cinco teses.",
+   "resumo": "Os Temas 1.154 e 1.241 foram julgados em conjunto em 18/6/2026. Segundo o Informativo 906, por erro material o acórdão mencionou expressamente apenas a tese n. 5; em questão de ordem no REsp 2.059.576-MG, julgada por maioria em 14/10/2026, a Terceira Seção retificou o acórdão para que nele constem todas as cinco teses.",
    "citacoes": [
     {
      "texto": "No caso, verificou-se que, em razão de erro material, não constaram todas as teses que foram objeto do julgamento conjunto dos Temas Repetitivos 1154 e 1241, porquanto foi expressamente mencionada apenas a tese n. 5, deliberada na sessão realizada no dia 18 de junho de 2026.",
@@ -736,7 +739,8 @@
     "como": "Trechos copiados dos Informativos 901 e 906 do STJ e da página oficial do Tema 1.241.",
     "revisao_humana": null
    },
-   "aba": "jurisprudencia"
+   "aba": "jurisprudencia",
+   "interpretacao": "Ao citar o precedente, convém usar a versão retificada, com as cinco teses."
   },
   {
    "id": "arma-para-terceiro",
@@ -861,7 +865,7 @@
    "motivo": "O portal do STF recusa acessos automatizados vindos do servidor desta verificação; o objeto e o resultado da ação não puderam ser conferidos."
   },
   {
-   "o_que": "Texto da Resolução nº 5/2012 do Senado Federal e decisão do STF que a motivou (§ 4º, conversão em penas restritivas de direitos)",
+   "o_que": "Texto da Resolução nº 5/2012 do Senado Federal e a decisão definitiva do STF que o art. 52, X, da Constituição pressupõe (§ 4º, conversão em penas restritivas de direitos)",
    "motivo": "A resolução não foi localizada na API do Normas.leg.br, o LexML respondeu com uma página de verificação de segurança e o portal do STF não responde a este servidor. A informação usada aqui é a anotação da compilação da Câmara."
   },
   {

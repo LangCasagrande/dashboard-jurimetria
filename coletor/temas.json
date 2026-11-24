@@ -29,5 +29,13 @@
    "9678": "Roubo (art. 157)"
   },
   "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026."
+ },
+ "ld-33": {
+  "nome": "Tráfico de drogas (art. 33 da Lei nº 11.343/2006)",
+  "assuntos": {
+   "3608": "Tráfico de Drogas e Condutas Afins",
+   "9859": "Tráfico de Drogas e Condutas Afins"
+  },
+  "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. Os dois códigos têm o mesmo nome; o ramo da tabela do 9859 ainda não foi conferido no SGT do CNJ. Ficam de fora o grupo \"Crimes de Tráfico Ilícito e Uso Indevido de Drogas\" (3607 e 9858) e a associação para o tráfico (5897, art. 35)."
  }
 }

@@ -51,7 +51,7 @@
       <p class="sub">A data da lei nem sempre é a data em que ela passa a valer: veja a publicação e a vigência.</p>
       <ol class="tempo">${d.alteracoes.map(a => `<li><b>${esc(a.lei)}</b><time datetime="${a.data}">Lei de ${data(a.data)}${a.publicacao_dou ? ` · publicada no DOU de ${data(a.publicacao_dou)}${a.vigencia ? ` · em vigor ${esc(a.vigencia)}` : ''}` : ''}</time><p>${esc(a.o_que)}</p>${a.nota_vigencia ? `<p class="ressalva"><strong>Ressalva de vigência:</strong> ${esc(a.nota_vigencia)}</p>` : ''}</li>`).join('')}</ol></section>` : '';
     return `<section class="bloco"><h3>Texto atualizado</h3>
-      <p class="sub">Copiado da compilação, sem edição. Em destaque, as alterações de 2025 e 2026.</p>
+      <p class="sub">Copiado da compilação, sem edição.${RECENTE.test(JSON.stringify(d.texto.dispositivos || [])) ? ' Em destaque, as alterações de 2025 e 2026.' : ''}</p>
       <div class="lei">${linhas}
         <p class="lei-fonte">Fonte: ${link(d.texto.url, d.texto.fonte)}${d.texto.documento_atualizado_em ? ` · documento atualizado em ${data(d.texto.documento_atualizado_em)}` : ''} · consultado em ${data(d.texto.consultado_em)}.<br>${esc(d.texto.aviso || '')}</p>
       </div></section>${tempo}${blocoNotas(d, 'lei', 'Vigência, alterações e remissões', '')}`;
