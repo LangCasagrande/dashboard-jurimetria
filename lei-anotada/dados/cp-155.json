@@ -1,0 +1,1125 @@
+{
+ "id": "cp-155",
+ "lei": "Código Penal (Decreto-Lei nº 2.848, de 7 de dezembro de 1940)",
+ "local": "Parte Especial · Título II — Dos crimes contra o patrimônio · Capítulo I — Do furto",
+ "artigo": "Art. 155",
+ "rubrica": "Furto",
+ "tema_jurimetria": "cp-155",
+ "texto": {
+  "fonte": "Compilação do Código Penal feita pela Câmara dos Deputados (Centro de Documentação e Informação), publicada no portal Normas.leg.br, do Senado Federal",
+  "url": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848",
+  "documento_atualizado_em": "2026-09-23",
+  "consultado_em": "2026-11-24",
+  "aviso": "Compilações não têm valor oficial: o texto que vale é o publicado no Diário Oficial da União. O texto compilado do Planalto não pôde ser aberto nesta verificação.",
+  "dispositivos": [
+   {
+    "rotulo": "caput",
+    "texto": "Art. 155. Subtrair, para si ou para outrem, coisa alheia móvel:",
+    "alteracao": "",
+    "referencia": "art. 155, caput"
+   },
+   {
+    "rotulo": "pena",
+    "texto": "Pena - reclusão, de 1 (um) a 6 (seis) anos, e multa.",
+    "alteracao": "Pena com redação dada pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, caput, pena"
+   },
+   {
+    "rotulo": "§ 1º",
+    "texto": "§ 1º A pena aumenta-se de metade, se o crime é praticado durante o repouso noturno.",
+    "alteracao": "Parágrafo com redação dada pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, § 1º"
+   },
+   {
+    "rotulo": "§ 2º",
+    "texto": "§ 2º Se o criminoso é primário, e é de pequeno valor a coisa furtada, o juiz pode substituir a pena de reclusão pela de detenção, diminuí-la de um a dois terços, ou aplicar somente a pena de multa.",
+    "alteracao": "",
+    "referencia": "art. 155, § 2º"
+   },
+   {
+    "rotulo": "§ 3º",
+    "texto": "§ 3º Equipara-se à coisa móvel a energia elétrica ou qualquer outra que tenha valor econômico.",
+    "alteracao": "",
+    "referencia": "art. 155, § 3º"
+   },
+   {
+    "rotulo": "§ 4º",
+    "texto": "§ 4º A pena é de reclusão, de 2 (dois) a 8 (oito) anos, e multa, se o crime é cometido:",
+    "alteracao": "Parágrafo com redação dada pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, § 4º",
+    "rubrica_antes": "Furto qualificado"
+   },
+   {
+    "rotulo": "I",
+    "texto": "I - com destruição ou rompimento de obstáculo à subtração da coisa;",
+    "alteracao": "",
+    "referencia": "art. 155, § 4º, I"
+   },
+   {
+    "rotulo": "II",
+    "texto": "II - com abuso de confiança, ou mediante fraude, escalada ou destreza;",
+    "alteracao": "",
+    "referencia": "art. 155, § 4º, II"
+   },
+   {
+    "rotulo": "III",
+    "texto": "III - com emprego de chave falsa;",
+    "alteracao": "",
+    "referencia": "art. 155, § 4º, III"
+   },
+   {
+    "rotulo": "IV",
+    "texto": "IV - mediante concurso de duas ou mais pessoas.",
+    "alteracao": "",
+    "referencia": "art. 155, § 4º, IV"
+   },
+   {
+    "rotulo": "V",
+    "texto": "V - contra quaisquer bens que comprometam o funcionamento de órgãos da União, de Estado, do Distrito Federal ou de Município ou de estabelecimentos públicos ou privados que prestem serviços essenciais.",
+    "alteracao": "Inciso acrescido pela Lei nº 15.181, de 28/7/2025, e com redação dada pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, § 4º, V"
+   },
+   {
+    "rotulo": "§ 4º-A",
+    "texto": "§ 4º-A. A pena é de reclusão de 4 (quatro) a 10 (dez) anos e multa, se houver emprego de explosivo ou de artefato análogo que cause perigo comum.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 13.654, de 23/4/2018",
+    "referencia": "art. 155, § 4º-A"
+   },
+   {
+    "rotulo": "§ 4º-B",
+    "texto": "§ 4º-B. A pena é de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, se o furto mediante fraude é cometido por meio de dispositivo eletrônico ou informático, conectado ou não à rede de computadores, com ou sem a violação de mecanismo de segurança ou a utilização de programa malicioso, ou por qualquer outro meio fraudulento análogo.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 14.155, de 27/5/2021, e com redação dada pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, § 4º-B"
+   },
+   {
+    "rotulo": "§ 4º-C",
+    "texto": "§ 4º-C. A pena prevista no § 4º-B deste artigo, considerada a relevância do resultado gravoso:",
+    "alteracao": "",
+    "referencia": "art. 155, § 4º-C",
+    "alteracao_paragrafo": "Parágrafo acrescido pela Lei nº 14.155, de 27/5/2021 (a compilação traz esta nota no fim do parágrafo)"
+   },
+   {
+    "rotulo": "I",
+    "texto": "I - aumenta-se de 1/3 (um terço) a 2/3 (dois terços), se o crime é praticado mediante a utilização de servidor mantido fora do território nacional;",
+    "alteracao": "",
+    "referencia": "art. 155, § 4º-C, I"
+   },
+   {
+    "rotulo": "II",
+    "texto": "II - aumenta-se de 1/3 (um terço) ao dobro, se o crime é praticado contra idoso ou vulnerável.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 14.155, de 27/5/2021",
+    "referencia": "art. 155, § 4º-C, II"
+   },
+   {
+    "rotulo": "§ 5º",
+    "texto": "§ 5º A pena é de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, se a subtração for de veículo automotor que venha a ser transportado para outro Estado ou para o exterior.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 9.426, de 24/12/1996, e com redação dada pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, § 5º"
+   },
+   {
+    "rotulo": "§ 6º",
+    "texto": "§ 6º A pena é de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, se a subtração for:",
+    "alteracao": "Parágrafo acrescido pela Lei nº 13.330, de 2/8/2016, e com redação dada pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, § 6º"
+   },
+   {
+    "rotulo": "I",
+    "texto": "I - de semovente domesticável de produção, ainda que abatido ou dividido em partes no local da subtração, ou de animal doméstico;",
+    "alteracao": "Inciso acrescido pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, § 6º, I"
+   },
+   {
+    "rotulo": "II",
+    "texto": "II - de aparelho de telefonia celular, de computador, inclusive portátil ou do tipo prancheta, ou de qualquer dispositivo eletrônico ou informático semelhante.",
+    "alteracao": "Inciso acrescido pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, § 6º, II"
+   },
+   {
+    "rotulo": "§ 7º",
+    "texto": "§ 7º A pena é de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, se a subtração for:",
+    "alteracao": "Parágrafo acrescido pela Lei nº 13.654, de 23/4/2018, e com redação dada pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, § 7º"
+   },
+   {
+    "rotulo": "I",
+    "texto": "I - de substâncias explosivas ou de acessórios que, conjunta ou isoladamente, possibilitem sua fabricação, montagem ou emprego;",
+    "alteracao": "Inciso acrescido pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, § 7º, I"
+   },
+   {
+    "rotulo": "II",
+    "texto": "II - de arma de fogo.",
+    "alteracao": "Inciso acrescido pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, § 7º, II"
+   },
+   {
+    "rotulo": "§ 8º",
+    "texto": "§ 8º A pena é de reclusão, de 2 (dois) a 8 (oito) anos, e multa, se a subtração for de fios, cabos ou equipamentos utilizados para fornecimento ou transmissão de energia elétrica ou de telefonia ou para transferência de dados, bem como equipamentos ou materiais ferroviários ou metroviários, aplicável, em qualquer caso, o disposto no § 2º deste artigo.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 15.181, de 28/7/2025, e com redação dada pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 155, § 8º"
+   },
+   {
+    "rotulo": "§ 9º",
+    "texto": "§ 9º A pena é de reclusão de 4 (quatro) a 10 (dez) anos e multa, se a subtração, para si ou para outrem, de coisa alheia móvel é cometida por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto da atuação ou para a consecução das condutas previstas no art. 2º da lei que institui o marco legal do combate ao crime organizado no Brasil.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 15.358, de 24/3/2026",
+    "referencia": "art. 155, § 9º"
+   },
+   {
+    "rotulo": "§ 10",
+    "texto": "§ 10. A pena é de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, se a subtração for de petróleo e derivados, gás natural e suas frações recuperáveis, álcool etílico hidratado carburante e demais combustíveis fluidos carburantes, inclusive biocombustíveis, e óleos lubrificantes, removidos dos estabelecimentos de produção ou de quaisquer instalações de armazenamento e de transporte de combustíveis, incluídos dutos e unidades de transporte em qualquer modal.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 15.517, de 22/9/2026",
+    "referencia": "art. 155, § 10"
+   },
+   {
+    "rotulo": "§ 11",
+    "texto": "§ 11. Na hipótese do § 10 deste artigo, a pena é aumentada de 1/3 (um terço), se o crime é praticado:",
+    "alteracao": "",
+    "referencia": "art. 155, § 11",
+    "alteracao_paragrafo": "Parágrafo acrescido pela Lei nº 15.517, de 22/9/2026 (a compilação traz esta nota no fim do parágrafo)"
+   },
+   {
+    "rotulo": "I",
+    "texto": "I - com destruição, rompimento de obstáculo à subtração da coisa ou dano de qualquer natureza;",
+    "alteracao": "",
+    "referencia": "art. 155, § 11, I"
+   },
+   {
+    "rotulo": "II",
+    "texto": "II - mediante o concurso de 2 (duas) ou mais pessoas;",
+    "alteracao": "",
+    "referencia": "art. 155, § 11, II"
+   },
+   {
+    "rotulo": "III",
+    "texto": "III - com abuso de confiança ou valendo-se de vínculo atual ou passado com o ente lesado; ou",
+    "alteracao": "",
+    "referencia": "art. 155, § 11, III"
+   },
+   {
+    "rotulo": "IV",
+    "texto": "IV - por ocupante de cargo, de emprego ou de função pública.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 15.517, de 22/9/2026",
+    "referencia": "art. 155, § 11, IV"
+   },
+   {
+    "rotulo": "§ 12",
+    "texto": "§ 12. Na hipótese do § 10 deste artigo, a pena é aumentada de 2/3 (dois terços) se do crime resulta:",
+    "alteracao": "",
+    "referencia": "art. 155, § 12",
+    "alteracao_paragrafo": "Parágrafo acrescido pela Lei nº 15.517, de 22/9/2026 (a compilação traz esta nota no fim do parágrafo)"
+   },
+   {
+    "rotulo": "I",
+    "texto": "I - suspensão ou paralisação das atividades do estabelecimento;",
+    "alteracao": "",
+    "referencia": "art. 155, § 12, I"
+   },
+   {
+    "rotulo": "II",
+    "texto": "II - desabastecimento;",
+    "alteracao": "",
+    "referencia": "art. 155, § 12, II"
+   },
+   {
+    "rotulo": "III",
+    "texto": "III - incêndio;",
+    "alteracao": "",
+    "referencia": "art. 155, § 12, III"
+   },
+   {
+    "rotulo": "IV",
+    "texto": "IV - poluição efetiva ou potencial ao meio ambiente;",
+    "alteracao": "",
+    "referencia": "art. 155, § 12, IV"
+   },
+   {
+    "rotulo": "V",
+    "texto": "V - lesão corporal grave; ou",
+    "alteracao": "",
+    "referencia": "art. 155, § 12, V"
+   },
+   {
+    "rotulo": "VI",
+    "texto": "VI - morte.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 15.517, de 22/9/2026",
+    "referencia": "art. 155, § 12, VI"
+   }
+  ]
+ },
+ "alteracoes": [
+  {
+   "lei": "Lei nº 9.426/1996",
+   "data": "1996-12-24",
+   "o_que": "Incluiu o § 5º (subtração de veículo automotor que venha a ser transportado para outro Estado ou para o exterior), com pena de reclusão de três a oito anos.",
+   "publicacao_dou": "1996-12-26",
+   "vigencia": "na data da publicação"
+  },
+  {
+   "lei": "Lei nº 13.330/2016",
+   "data": "2016-08-02",
+   "o_que": "Incluiu o § 6º (subtração de semovente domesticável de produção, ainda que abatido ou dividido em partes no local da subtração), com pena de reclusão de 2 a 5 anos.",
+   "publicacao_dou": "2016-08-03",
+   "vigencia": "na data da publicação"
+  },
+  {
+   "lei": "Lei nº 13.654/2018",
+   "data": "2018-04-23",
+   "o_que": "Incluiu o § 4º-A (emprego de explosivo ou de artefato análogo que cause perigo comum) e o § 7º (subtração de substâncias explosivas ou de acessórios), ambos com pena de reclusão de 4 a 10 anos e multa.",
+   "publicacao_dou": "2018-04-24",
+   "vigencia": "na data da publicação"
+  },
+  {
+   "lei": "Lei nº 14.155/2021",
+   "data": "2021-05-27",
+   "o_que": "Incluiu o § 4º-B (furto mediante fraude cometido por meio de dispositivo eletrônico ou informático), com pena de reclusão de 4 a 8 anos e multa, e o § 4º-C (aumentos quando usado servidor mantido fora do território nacional ou quando o crime é praticado contra idoso ou vulnerável).",
+   "publicacao_dou": "2021-05-28",
+   "vigencia": "na data da publicação"
+  },
+  {
+   "lei": "Lei nº 15.181/2025",
+   "data": "2025-07-28",
+   "o_que": "Incluiu o inciso V do § 4º (bens que comprometam o funcionamento de órgãos públicos ou de estabelecimentos que prestem serviços públicos essenciais) e o § 8º (fios, cabos ou equipamentos de energia elétrica, telefonia ou transferência de dados, e equipamentos ou materiais ferroviários ou metroviários), com pena de reclusão de 2 a 8 anos e multa.",
+   "publicacao_dou": "2025-07-29",
+   "vigencia": "na data da publicação"
+  },
+  {
+   "lei": "Lei nº 15.358/2026",
+   "data": "2026-03-24",
+   "o_que": "Incluiu o § 9º (furto cometido por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada), com pena de reclusão de 4 a 10 anos e multa.",
+   "publicacao_dou": "2026-03-25",
+   "vigencia": "na data da publicação"
+  },
+  {
+   "lei": "Lei nº 15.397/2026",
+   "data": "2026-04-30",
+   "o_que": "Aumentou a pena do caput para 1 a 6 anos; mudou o aumento do repouso noturno (§ 1º) para metade; deu nova redação ao § 4º e ao seu inciso V (incluiu o Distrito Federal); elevou para 4 a 10 anos as penas dos §§ 4º-B, 5º e 6º; dividiu os §§ 6º e 7º em incisos, incluindo o animal doméstico, o aparelho celular, o computador e dispositivos semelhantes (§ 6º, II) e a arma de fogo (§ 7º, II); e deu nova redação ao § 8º.",
+   "publicacao_dou": "2026-05-04",
+   "vigencia": "na data da publicação"
+  },
+  {
+   "lei": "Lei nº 15.517/2026",
+   "data": "2026-09-22",
+   "o_que": "Incluiu os §§ 10 (petróleo, gás natural, combustíveis e óleos lubrificantes; reclusão de 4 a 10 anos e multa), 11 (aumento de 1/3) e 12 (aumento de 2/3 conforme o resultado).",
+   "publicacao_dou": "2026-09-23",
+   "vigencia": "na data da publicação"
+  }
+ ],
+ "sumulas": [
+  {
+   "tribunal": "STJ",
+   "numero": 567,
+   "texto": "Sistema de vigilância realizado por monitoramento eletrônico ou por existência de segurança no interior de estabelecimento comercial, por si só, não torna impossível a configuração do crime de furto.",
+   "dados": "TERCEIRA SEÇÃO, julgado em 24/02/2016, DJe 29/02/2016",
+   "tema": "Vigilância e crime impossível",
+   "fonte": "https://www.stj.jus.br/docs_internet/jurisprudencia/tematica/download/SU/Verbetes/VerbetesSTJ.pdf",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Texto copiado do documento oficial \"Enunciados das Súmulas do STJ\" (arquivo gerado em 05/12/2025). A página oficial do Tema 924 indica esta súmula como originada do tema.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "tribunal": "STJ",
+   "numero": 511,
+   "texto": "É possível o reconhecimento do privilégio previsto no § 2º do art. 155 do CP nos casos de crime de furto qualificado, se estiverem presentes a primariedade do agente, o pequeno valor da coisa e a qualificadora for de ordem objetiva.",
+   "dados": "TERCEIRA SEÇÃO, julgado em 11/06/2014, DJe 16/06/2014",
+   "tema": "Privilégio no furto qualificado",
+   "fonte": "https://www.stj.jus.br/docs_internet/jurisprudencia/tematica/download/SU/Verbetes/VerbetesSTJ.pdf",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Texto copiado do documento oficial \"Enunciados das Súmulas do STJ\" (arquivo gerado em 05/12/2025). A página oficial do Tema 561 indica esta súmula como originada do tema.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "tribunal": "STJ",
+   "numero": 442,
+   "texto": "É inadmissível aplicar, no furto qualificado, pelo concurso de agentes, a majorante do roubo.",
+   "dados": "TERCEIRA SEÇÃO, julgado em 28/04/2010, DJe 13/05/2010",
+   "tema": "Concurso de agentes (§ 4º, IV)",
+   "fonte": "https://www.stj.jus.br/docs_internet/jurisprudencia/tematica/download/SU/Verbetes/VerbetesSTJ.pdf",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Texto copiado do documento oficial \"Enunciados das Súmulas do STJ\" (arquivo gerado em 05/12/2025).",
+    "revisao_humana": null
+   }
+  }
+ ],
+ "temas": [
+  {
+   "tribunal": "STJ",
+   "tipo": "Recurso repetitivo",
+   "numero": 561,
+   "questao": "FURTO QUALIFICADO PELO CONCURSO DE AGENTES. COMPATIBILIDADE COM A MODALIDADE PRIVILEGIADA PREVISTA NO ART. 155, § 2º, DO CP.",
+   "tese": [
+    "Afigura-se absolutamente 'possível o reconhecimento do privilégio previsto no § 2º do art. 155 do Código Penal nos casos de furto qualificado (CP, art. 155, § 4º)', máxime se presente qualificadora de ordem objetiva, a primariedade do réu e, também, o pequeno valor da res furtiva."
+   ],
+   "processo": "REsp 1.193.194/MG",
+   "outros_processos": [
+    "REsp 1.193.932/MG",
+    "REsp 1.193.558/MG",
+    "REsp 1.193.554/MG"
+   ],
+   "relator": "Min. Maria Thereza de Assis Moura",
+   "orgao": "Terceira Seção",
+   "julgado_em": "2012-08-22",
+   "publicado_em": "2012-08-28",
+   "transito_em": "2012-09-28",
+   "sumula_originada": "Súmula 511/STJ",
+   "situacao": "Trânsito em Julgado",
+   "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=561&cod_tema_final=561",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Questão, tese, processos, relatora e datas copiados da página oficial do tema no STJ (os quatro recursos têm as mesmas datas).",
+    "revisao_humana": null
+   }
+  },
+  {
+   "tribunal": "STJ",
+   "tipo": "Recurso repetitivo",
+   "numero": 924,
+   "questao": "Estabelecer se a existência de sistema de vigilância, monitoramento ou segurança torna impossível a prática de furto cometido no interior de estabelecimento comercial.",
+   "tese": [
+    "A existência de sistema de segurança ou de vigilância eletrônica não torna impossível, por si só, o crime de furto cometido no interior de estabelecimento comercial."
+   ],
+   "processo": "REsp 1.385.621/MG",
+   "relator": "Min. Rogerio Schietti Cruz",
+   "orgao": "Terceira Seção",
+   "julgado_em": "2015-05-27",
+   "publicado_em": "2015-06-02",
+   "transito_em": "2015-08-04",
+   "sumula_originada": "Súmula 567/STJ",
+   "situacao": "Trânsito em Julgado",
+   "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=924&cod_tema_final=924",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Questão, tese e datas copiadas da página oficial do tema no STJ; nome completo do relator conferido no Informativo 563.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "tribunal": "STJ",
+   "tipo": "Recurso repetitivo",
+   "numero": 934,
+   "questao": "Discussão: se o crime de furto, na situação em que o seu autor não teve a posse mansa e pacífica da coisa subtraída, deve ser considerado consumado ou apenas tentado.",
+   "tese": [
+    "Consuma-se o crime de furto com a posse de fato da res furtiva, ainda que por breve espaço de tempo e seguida de perseguição ao agente, sendo prescindível a posse mansa e pacífica ou desvigiada."
+   ],
+   "processo": "REsp 1.524.450/RJ",
+   "relator": "Min. Nefi Cordeiro",
+   "orgao": "Terceira Seção",
+   "julgado_em": "2015-10-14",
+   "publicado_em": "2015-10-29",
+   "transito_em": "2015-12-03",
+   "situacao": "Trânsito em Julgado",
+   "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=934&cod_tema_final=934",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Questão, tese e datas copiadas da página oficial do tema no STJ, que remete ao Tema 916 (roubo).",
+    "revisao_humana": null
+   }
+  },
+  {
+   "tribunal": "STJ",
+   "tipo": "Recurso repetitivo",
+   "numero": 1087,
+   "questao": "\"(im)possibilidade de a causa de aumento prevista no § 1° do art. 155 do Código Penal (prática do crime de furto no período noturno) incidir tanto no crime de furto simples (caput) quanto na sua forma qualificada (§ 4°)\".",
+   "tese": [
+    "A causa de aumento prevista no § 1° do art. 155 do Código Penal (prática do crime de furto no período noturno) não incide no crime de furto na sua forma qualificada (§ 4°)."
+   ],
+   "processo": "REsp 1.890.981/SP",
+   "outros_processos": [
+    "REsp 1.888.756/SP",
+    "REsp 1.891.007/RJ"
+   ],
+   "relator": "Min. João Otávio de Noronha",
+   "orgao": "Terceira Seção",
+   "julgado_em": "2022-05-25",
+   "publicado_em": "2022-06-27",
+   "situacao": "Acórdão Publicado - RE Pendente",
+   "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1087&cod_tema_final=1087",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Questão, tese, situação e datas copiadas da página oficial do tema no STJ. O relator é o indicado no Informativo 738 (REsp 1.890.981-SP) e, na página do tema, no REsp 1.891.007/RJ; para os REsps 1.888.756/SP e 1.890.981/SP, a página indica Jesuíno Rissato (Desembargador convocado do TJDFT). Os embargos de declaração e o trânsito em julgado têm datas diferentes em cada recurso (o REsp 1.890.981/SP ainda sem trânsito), por isso não foram resumidos aqui.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "tribunal": "STJ",
+   "tipo": "Recurso repetitivo",
+   "numero": 1144,
+   "questao": "Definir se, para a configuração da circunstância majorante do § 1º do art. 155 do Código Penal, basta que a conduta delitiva tenha sido praticada durante o repouso noturno. Definir se há relevância no fato das vítimas estarem ou não dormindo no momento do crime, ou a sua ocorrência em estabelecimento comercial ou em via pública.",
+   "tese": [
+    "1. Nos termos do § 1º do art. 155 do Código Penal, se o crime de furto é praticado durante o repouso noturno, a pena será aumentada de um terço.",
+    "2. O repouso noturno compreende o período em que a população se recolhe para descansar, devendo o julgador atentar-se às características do caso concreto.",
+    "3. A situação de repouso está configurada quando presente a condição de sossego/tranquilidade do período da noite, caso em que, em razão da diminuição ou precariedade de vigilância dos bens, ou, ainda, da menor capacidade de resistência da vítima, facilita-se a concretização do crime.",
+    "4. São irrelevantes os fatos das vítimas estarem ou não dormindo no momento do crime, ou o local de sua ocorrência, em estabelecimento comercial, via pública, residência desabitada ou em veículos, bastando que o furto ocorra, obrigatoriamente, à noite e em situação de repouso."
+   ],
+   "processo": "REsp 1.979.989/RS",
+   "outros_processos": [
+    "REsp 1.979.998/RS"
+   ],
+   "relator": "Min. Joel Ilan Paciornik",
+   "orgao": "Terceira Seção",
+   "julgado_em": "2022-06-22",
+   "publicado_em": "2022-06-30",
+   "transito_em": "2022-09-01",
+   "situacao": "Trânsito em Julgado",
+   "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1144&cod_tema_final=1144",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Questão, tese e datas copiadas da página oficial do tema no STJ. O trânsito em julgado indicado é o do REsp 1.979.989/RS; o do REsp 1.979.998/RS ocorreu em 17/08/2022. Atenção: o item 1 da tese reproduz o aumento de um terço, que a Lei 15.397/2026 mudou para metade (ver nota).",
+    "revisao_humana": null
+   }
+  },
+  {
+   "tribunal": "STJ",
+   "tipo": "Recurso repetitivo",
+   "numero": 1205,
+   "questao": "Definir se a restituição imediata e integral do bem furtado constitui, por si só, motivo suficiente para a incidência do princípio da insignificância.",
+   "tese": [
+    "A restituição imediata e integral do bem furtado não constitui, por si só, motivo suficiente para a incidência do princípio da insignificância."
+   ],
+   "processo": "REsp 2.062.375/AL",
+   "outros_processos": [
+    "REsp 2.062.095/AL"
+   ],
+   "relator": "Min. Sebastião Reis Júnior",
+   "orgao": "Terceira Seção",
+   "julgado_em": "2023-10-24",
+   "publicado_em": "2023-10-29",
+   "transito_em": "2023-12-12",
+   "situacao": "Trânsito em Julgado",
+   "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1205&cod_tema_final=1205",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Questão, tese e datas copiadas da página oficial do tema no STJ (os dois recursos têm as mesmas datas). O Informativo 793 indica julgamento em 25/10/2023; a página do tema, em 24/10/2023.",
+    "revisao_humana": null
+   }
+  }
+ ],
+ "notas": [
+  {
+   "id": "consumacao-amotio",
+   "aba": "doutrina",
+   "tipo": "Fundamentação do STJ",
+   "titulo": "Quando o furto se consuma: a teoria da apprehensio (ou amotio) e os quatro momentos da ação",
+   "resumo": "Segundo o STJ, o Plenário do STF (RE 102.490-SP, DJ 16/8/1991), superando a controvérsia em torno do tema, consolidou a adoção da teoria da apprehensio (ou amotio): considera-se consumado o furto quando, cessada a clandestinidade, o agente detenha a posse de fato sobre o bem, ainda que seja possível à vítima retomá-lo, por ato seu ou de terceiro, em virtude de perseguição imediata. Foi o que o STJ fixou no Tema 934. No julgamento repetitivo sobre o roubo (REsp 1.499.050/RJ, Tema 916), o STJ explica que as teorias sobre a consumação do roubo e do furto foram construídas com base no direito romano, que distinguia quatro momentos da ação: tocar o objeto (contrectatio), remover a coisa (amotio), levá-la, tirando-a da esfera patrimonial do proprietário (ablatio), e colocá-la em lugar seguro (illatio). Com o surgimento da noção de tentativa, abandonaram-se as teorias radicais (consumação pelo simples toque ou somente com a colocação da coisa em local seguro).",
+   "citacoes": [
+    {
+     "texto": "O Plenário do STF (RE 102.490-SP, DJ 16/8/1991), superando a controvérsia em torno do tema, consolidou a adoção da teoria da apprehensio (ou amotio), segundo a qual se considera consumado o delito de furto quando, cessada a clandestinidade, o agente detenha a posse de fato sobre o bem, ainda que seja possível à vítima retomá-lo, por ato seu ou de terceiro, em virtude de perseguição imediata. Desde então, o tema encontra-se pacificado na jurisprudência dos Tribunais Superiores. Precedentes citados do STJ: AgRg no REsp 1.346.113-SP, Quinta Turma, DJe 30/4/2014; HC 220.084-MT, Sexta Turma, DJe 17/12/2014; e AgRg no AREsp 493.567-SP, Sexta Turma, DJe 10/9/2014. Precedentes citados do STF: HC 114.329-RS, Primeira Turma, DJe 18/10/2013; e HC 108.678-RS, Primeira Turma, DJe 10/5/2012. REsp 1.524.450-RJ, Rel. Min. Nefi Cordeiro, Terceira Seção, julgado em 14/10/2015, DJe 29/10/2015.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 572 (REsp 1.524.450/RJ, Tema 934)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0572.cod."
+    },
+    {
+     "texto": "Como se sabe, o delineamento acerca da consumação dos crimes de roubo e de furto foi construído com base no direito romano, cuja noção de furtum - elaborada pelos operadores práticos do direito e pelos jurisconsultos -, mais ampla que a do furto do direito moderno, trazia a exigência da contrectatio (apreensão fraudulenta da coisa), visto que se exigia, necessariamente, o apossamento da coisa. É de se notar que, a partir das interpretações discrepantes da palavra contrectatio - entendida diversamente no sentido de trazer, de mover de lugar, de tocar (materialmente) e pôr a mão -, explica-se a profusão de teorias sobre a consumação do furto. O desenvolvimento desses conceitos, no âmbito do direito romano, levou à distinção de quatro momentos da ação: (a) a ação de tocar o objeto (contrectatio); (b) a ação de remover a coisa (amotio); (c) a ação de levar a coisa, tirando-a da esfera patrimonial do proprietário (ablatio); e (d) a ação de colocar a coisa em lugar seguro (illatio). O porquê de tanto esforço intelectual pode ser encontrado no fato de o direito romano não ter desenvolvido a ideia de \"tentativa\", motivo pelo qual era necessária a antecipação da consumação, considerando-se já consumado o furto com o simples toque da coisa, sem necessidade de levá-la. Todavia, com o surgimento da noção de tentativa, ficou evidente que não se fazia necessária a antecipação da consumação (attrectatio). Decorre daí o abandono das teorias radicais (consumação pelo simples toque ou somente com a colocação da coisa em local seguro).",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 572 (REsp 1.499.050/RJ, Tema 916, sobre o roubo)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0572.cod."
+    }
+   ],
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Trechos copiados do Informativo oficial do STJ nº 572.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "crime-impossivel-vigilancia",
+   "aba": "doutrina",
+   "tipo": "Fundamentação do STJ",
+   "titulo": "Vigilância eletrônica e crime impossível: inidoneidade relativa e absoluta do meio",
+   "resumo": "No Tema 924, o STJ lembra que o crime impossível (art. 17 do CP) se manifesta por duas modalidades clássicas: a ineficácia absoluta dos meios empregados pelo agente e a absoluta impropriedade do objeto. Na primeira, distingue a insuficiência do meio (inidoneidade relativa), que não torna absolutamente impossível o resultado, porque o fortuito pode suprir a insuficiência do meio empregado, da ausência completa de potencialidade causal (inidoneidade absoluta). Para o tribunal, os sistemas eletrônicos de vigilância apenas minimizam as perdas dos comerciantes, pois não impedem, de modo absoluto, as subtrações; o meio empregado pelo agente é de inidoneidade relativa, e por isso não é possível reconhecer o crime impossível. A tese originou a Súmula 567 do STJ.",
+   "citacoes": [
+    {
+     "texto": "A existência de sistema de segurança ou de vigilância eletrônica não torna impossível, por si só, o crime de furto cometido no interior de estabelecimento comercial. O crime impossível - subordinado às regras da adequação típica - se manifesta por meio de duas modalidades clássicas (art. 17 do CP): (a) a ineficácia absoluta dos meios empregados pelo agente e (b) a absoluta impropriedade do objeto. A primeira decorre dos meios empregados pelo agente nos atos executivos. A segunda refere-se à hipótese em que o objeto do crime não existe ou lhe falta alguma qualidade imprescindível para configurar-se a infração. No tocante à primeira modalidade (em torno da qual surge a discussão aqui enfrentada), há que se distinguir a insuficiência do meio (inidoneidade relativa) - deficiência de forças para alcançar o fim delituoso e determinada por razões de qualidade, quantidade, ou de modo - da ausência completa de potencialidade causal (inidoneidade absoluta), observando-se que a primeira (diferentemente da segunda) não torna absolutamente impossível o resultado que consuma o delito, pois o fortuito pode suprir a insuficiência do meio empregado. No caso de furto praticado no interior de estabelecimento comercial guarnecido por mecanismo de vigilância e de segurança, tem-se que, embora os sistemas eletrônicos de vigilância tenham por objetivo evitar a ocorrência de furtos, sua eficiência apenas minimiza as perdas dos comerciantes, visto que não impedem, de modo absoluto, a ocorrência de subtrações no interior de estabelecimentos comerciais.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 563 (REsp 1.385.621/MG, Tema 924)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0563.cod."
+    },
+    {
+     "texto": "Portanto, na hipótese aqui analisada, o meio empregado pelo agente é de inidoneidade relativa, visto que há possibilidade (remota) de consumação do delito. Sendo assim, se a ineficácia do meio deu-se apenas de forma relativa, não é possível o reconhecimento do instituto do crime impossível previsto no art. 17 do CP.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 563 (REsp 1.385.621/MG, Tema 924)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0563.cod."
+    },
+    {
+     "texto": "Art. 17. Não se pune a tentativa quando, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é impossível consumar-se o crime.",
+     "fonte_nome": "Código Penal, art. 17 (crime impossível)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    }
+   ],
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Trechos copiados do Informativo oficial do STJ nº 563 e da compilação do Código Penal no Normas.leg.br; súmula originada conferida na página oficial do Tema 924.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "noturno-qualificado",
+   "aba": "doutrina",
+   "tipo": "Fundamentação do STJ",
+   "titulo": "Por que o aumento do repouso noturno não vale para o furto qualificado (Tema 1087)",
+   "resumo": "No Tema 1087, o STJ recorreu a dois métodos de interpretação. Pelo topográfico, o § 1º do art. 155 se refere à pena do furto simples, prevista no caput, e não à cominação do furto qualificado, que se encontra três parágrafos depois; para que a majorante se aplicasse ao furto qualificado, o legislador deveria colocar o § 1º após a pena atribuída, o que não ocorreu. Pelo teleológico, invocou os princípios da proporcionalidade e da taxatividade: com o acréscimo fixo de 1/3, a pena do furto qualificado poderia resultar em 10 anos e 8 meses, superior à do roubo, que protege também a integridade corporal; e o § 1º não tem precisão e clareza para alcançar o furto qualificado. O tribunal distinguiu ainda o privilégio do § 2º, norma penal não incriminadora que pode comportar extensividade, da causa de aumento do repouso noturno, norma incriminadora cuja extensividade é vedada. Segundo o informativo, se a incidência da majorante no furto qualificado se mostra excessiva, o repouso noturno poderá ser usado como circunstância judicial negativa na primeira fase da dosimetria (art. 59 do CP), ponto que não enseja a fixação de tese vinculante.",
+   "citacoes": [
+    {
+     "texto": "A disposição técnica do Código Penal assim se apresenta: refere-se o art. 155, § 1º, do CP à pena do furto simples, prevista no caput desse dispositivo. Desse modo, não se refere à cominação do furto qualificado, que se encontra três parágrafos depois. Seguindo a técnica legislativa, para que considerasse aplicável a majorante no furto qualificado, deveria o legislador colocar o § 1º após a pena atribuída, o que não ocorreu.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 738 (REsp 1.890.981/SP, Tema 1087)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0738.cod."
+    },
+    {
+     "texto": "Veja-se: o dispositivo relacionado ao furto cometido durante o repouso noturno (art. 155, § 1º, do CP) prevê acréscimo fixo de 1/3 da pena. Se possível a incidência dessa mesma majorante no furto qualificado (art. 155, § 4º, do CP), seriam gerados aumentos excessivos no quantitativo da pena: se considerada a pena mínima, o acréscimo seria de 8 meses (pena mínima de 2 anos do crime qualificado, aumentada em 1/3). De outra parte, se considerada a pena máxima, o aumento resultaria em 2 anos e 8 meses. Dessa forma, a pena do crime de furto qualificado, acrescida do quantum relativo à incidência da majorante, desconsiderando-se a incidência de quaisquer outras circunstâncias agravantes ou causas de aumento, poderia resultar em 10 anos e 8 meses, pena superior à do crime de roubo, tipo penal em que se protegem não só bens patrimoniais, tal qual no crime de furto, mas também a integridade corporal.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 738 (REsp 1.890.981/SP, Tema 1087)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0738.cod."
+    },
+    {
+     "texto": "Efetivamente, não há precisão e clareza desejáveis na proposição penal prevista no art. 155, § 1º, do CP quando se deve definir sua aplicabilidade tanto ao furto simples quanto ao furto qualificado.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 738 (REsp 1.890.981/SP, Tema 1087)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0738.cod."
+    },
+    {
+     "texto": "O privilégio previsto no § 2º do art. 155 e a causa de aumento relativa ao furto noturno são hipóteses fático-jurídicas diversas. A primeira refere-se a uma norma penal não incriminadora; a segunda, a uma causa de aumento, uma norma penal incriminadora. Sendo o furto privilegiado uma norma não incriminadora, pode comportar extensividade quando utilizado para integração do sistema jurídico penal. Já o furto cometido durante o repouso noturno, por ser uma norma incriminadora, tem sua extensividade vedada, visto que tem por consectário o agravamento da situação do réu.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 738 (REsp 1.890.981/SP, Tema 1087)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0738.cod."
+    },
+    {
+     "texto": "Em outras palavras, se a incidência da majorante no furto qualificado mostra-se excessiva, poderá ser utilizada como circunstância judicial negativa na primeira fase da dosimetria (art. 59 do CP).",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 738 (REsp 1.890.981/SP, Tema 1087)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0738.cod."
+    },
+    {
+     "texto": "Entretanto, ressalte-se que essa matéria - possibilidade de consideração da causa de aumento relativa ao repouso noturno como circunstância judicial desfavorável (art. 59 do CP) quando do cometimento do furto qualificado - não enseja a fixação de tese vinculante na via do recurso especial repetitivo, visto que a variabilidade dos conceitos empregados no exercício discricionário do órgão julgador na confecção da primeira etapa da dosimetria penal é incompatível com o estabelecimento de fundamentos vinculatórios, tais como os exigidos na fixação de tese no sistema de precedentes judiciais.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 738 (REsp 1.890.981/SP, Tema 1087)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0738.cod."
+    }
+   ],
+   "interpretacao": "O cálculo do informativo usa o acréscimo de 1/3 previsto no § 1º quando o tema foi julgado (2022). Desde a Lei 15.397/2026 (em vigor a partir de 04/05/2026), o § 1º prevê aumento de metade; a tese do Tema 1087 não depende da fração, mas o exemplo numérico do STJ é anterior a essa mudança.",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Trechos copiados do Informativo oficial do STJ nº 738.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "repouso-noturno-conceito",
+   "aba": "doutrina",
+   "tipo": "Fundamentação do STJ",
+   "titulo": "O que é repouso noturno (Tema 1144)",
+   "resumo": "No Tema 1144, o STJ registra que o horário do repouso noturno é variável e deve obedecer aos costumes locais relativos à hora em que a população se recolhe e àquela em que desperta para a vida cotidiana (REsp 1.659.208/RS); não há horário prefixado. Para o tribunal, o legislador pretendeu sancionar de forma mais severa o furtador que se beneficia da condição de sossego/tranquilidade do período da noite, em razão da diminuição ou precariedade de vigilância dos bens ou da menor capacidade de resistência da vítima. O aumento exige que o fato ocorra, obrigatoriamente, à noite e em situação de repouso: não se aplica, por exemplo, a furtos praticados à noite em lugares amplamente vigiados, como boates e comércios noturnos, nem a situações de repouso ocorridas nos períodos diurno ou vespertino. São irrelevantes o local estar ou não habitado e a vítima estar ou não dormindo.",
+   "citacoes": [
+    {
+     "texto": "No tocante ao horário de aplicação, este Superior Tribunal de Justiça já definiu que \"este é variável, devendo obedecer aos costumes locais relativos à hora em que a população se recolhe e a em que desperta para a vida cotidiana\". Sendo assim, não há um horário prefixado, devendo, portanto, atentar-se às características da vida cotidiana da localidade (REsp 1.659.208/RS, Rel. Ministra Maria Thereza De Assis Moura, DJ 31/3/2017).",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 742 (REsp 1.979.989/RS, Tema 1144)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0742.cod."
+    },
+    {
+     "texto": "Em um análise objetivo-jurídica do art. 155, §1º, do CP, percebe-se que o legislador pretendeu sancionar de forma mais severa o furtador que se beneficia dessa condição de sossego/tranquilidade, presente no período da noite, para, em razão da diminuição ou precariedade de vigilância dos bens, ou, ainda, da menor capacidade de resistência da vítima, facilitar-lhe a concretização do intento criminoso.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 742 (REsp 1.979.989/RS, Tema 1144)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0742.cod."
+    },
+    {
+     "texto": "Assim, haverá casos em que, mesmo nos furtos praticados no período da noite, mas em lugares amplamente vigiados, tais como em boates e comércios noturnos, ou, ainda, em situações de repouso, mas ocorridas nos períodos diurno ou vespertino, não se poderá valer-se dessa causa de aumento.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 742 (REsp 1.979.989/RS, Tema 1144)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0742.cod."
+    },
+    {
+     "texto": "Este Tribunal passou a destacar a irrelevância do local estar ou não habitado, ou o fato da vítima estar ou não dormindo no momento do crime para os fins aqui propostos, bastando que a atuação criminosa seja realizada no período da noite e sem a vigilância do bem.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 742 (REsp 1.979.989/RS, Tema 1144)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0742.cod."
+    }
+   ],
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Trechos copiados do Informativo oficial do STJ nº 742.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "insignificancia-vetores",
+   "aba": "doutrina",
+   "tipo": "Fundamentação do STJ",
+   "titulo": "Princípio da insignificância no furto: os quatro vetores e a restituição do bem (Tema 1205)",
+   "resumo": "No Tema 1205, o STJ explica que, embora não exista previsão legal disciplinando a aplicação do princípio da insignificância, o STF consolidou o entendimento de exigir o preenchimento simultâneo de quatro condições para afastar a tipicidade material da conduta: a mínima ofensividade da conduta do agente; a ausência de periculosidade social na ação; o reduzido grau de reprovabilidade do comportamento; e a inexpressividade da lesão jurídica provocada. Nos crimes contra o patrimônio, a insignificância envolve juízo muito mais abrangente que a simples expressão do resultado da conduta. Por isso, nos furtos, não basta a imediata e integral restituição do bem: diante das circunstâncias concretas, devem ser examinados, além da extensão da lesão, a gravidade da ação, o reduzido valor do bem tutelado, a favorabilidade das circunstâncias em que o fato foi cometido e suas consequências jurídicas e sociais. Prevalece no STJ a aplicação do princípio mediante apreciação casuística, quando houver circunstâncias excepcionais.",
+   "citacoes": [
+    {
+     "texto": "Sob tal perspectiva, muito embora não exista previsão legal disciplinando a aplicação do princípio da insignificância, o Supremo Tribunal Federal, há mais de uma década, consolidou o entendimento no sentido de exigir o preenchimento simultâneo de quatro condições para que se afaste a tipicidade material da conduta. São elas: a) a mínima ofensividade da conduta do agente; b) a ausência de periculosidade social na ação; c) o reduzido grau de reprovabilidade do comportamento; e d) a inexpressividade da lesão jurídica provocada.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 793 (REsp 2.062.095/AL e REsp 2.062.375/AL, Tema 1205)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0793.cod."
+    },
+    {
+     "texto": "À luz das referidas premissas, mormente em se tratando de crimes contra o patrimônio, passou-se a compreender que a insignificância envolve juízo muito mais abrangente que a simples expressão do resultado da conduta.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 793 (REsp 2.062.095/AL e REsp 2.062.375/AL, Tema 1205)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0793.cod."
+    },
+    {
+     "texto": "Assim, para afastar liminarmente a tipicidade material nos delitos de furto, não basta a imediata e integral restituição do bem. Deve-se perquirir, diante das circunstâncias concretas, além da extensão da lesão produzida, a gravidade da ação, o reduzido valor do bem tutelado e a favorabilidade das circunstâncias em que foi cometido o fato criminoso, além de suas consequências jurídicas e sociais.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 793 (REsp 2.062.095/AL e REsp 2.062.375/AL, Tema 1205)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0793.cod."
+    },
+    {
+     "texto": "Nesse sentido, prevalece o entendimento que vem orientando a jurisprudência do Superior Tribunal de Justiça, no sentido de admitir a aplicação do princípio da insignificância mediante apreciação casuística, ou seja, quando houver circunstâncias excepcionais, e não apenas a restituição imediata do bem subtraído.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 793 (REsp 2.062.095/AL e REsp 2.062.375/AL, Tema 1205)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0793.cod."
+    }
+   ],
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Trechos copiados do Informativo oficial do STJ nº 793.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "tema-1087-re-pendente",
+   "aba": "jurisprudencia",
+   "tipo": "Atenção",
+   "titulo": "Tema 1087: há recurso extraordinário pendente no STF (Tema 1281 de repercussão geral)",
+   "resumo": "A página oficial do Tema 1087 no STJ (última atualização em 10/11/2025) indica a situação \"Acórdão Publicado - RE Pendente\" e registra a repercussão geral no STF: Tema 1281/STF, sobre a possibilidade de incidência da causa de aumento de pena de furto noturno sobre as formas qualificadas do delito, no RE 1449276, com o andamento \"Concluso ao relator\". A mesma página informa que não foi aplicada a suspensão do trâmite dos processos pendentes (parte final do § 1º do art. 1.036 do Código de Processo Civil e art. 256-L do Regimento Interno do STJ).",
+   "citacoes": [
+    {
+     "texto": "Acórdão Publicado - RE Pendente",
+     "fonte_nome": "STJ, página oficial do Tema 1087 (situação)",
+     "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1087&cod_tema_final=1087"
+    },
+    {
+     "texto": "Tema 1281/STF - Possibilidade de incidência da causa de aumento de pena de furto noturno sobre as formas qualificadas do delito.",
+     "fonte_nome": "STJ, página oficial do Tema 1087 (repercussão geral)",
+     "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1087&cod_tema_final=1087"
+    },
+    {
+     "texto": "RE 1449276 - Concluso ao relator.",
+     "fonte_nome": "STJ, página oficial do Tema 1087 (processo no STF)",
+     "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1087&cod_tema_final=1087"
+    },
+    {
+     "texto": "Não aplicação do disposto na parte final do § 1º do art. 1.036 do Código de Processo Civil e no art. 256-L do Regimento Interno do Superior Tribunal de Justiça (suspensão do trâmite dos processos pendentes).",
+     "fonte_nome": "STJ, página oficial do Tema 1087 (informações complementares)",
+     "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1087&cod_tema_final=1087"
+    }
+   ],
+   "interpretacao": "Enquanto o recurso extraordinário estiver pendente, a tese do STJ pode vir a ser examinada pelo STF no Tema 1281. O andamento no portal do STF não pôde ser conferido nesta verificação.",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Situação, repercussão geral e informações complementares copiadas da página oficial do Tema 1087 no STJ.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "tema-1144-fracao",
+   "aba": "jurisprudencia",
+   "tipo": "Atenção",
+   "titulo": "A tese do Tema 1144 fala em aumento de um terço; a Lei 15.397/2026 mudou o § 1º para metade",
+   "resumo": "O item 1 da tese do Tema 1144 (julgado em 22/06/2022) diz que, se o furto é praticado durante o repouso noturno, a pena será aumentada de um terço, como previa o § 1º do art. 155 na redação de 1940. A Lei nº 15.397/2026, em vigor na data da publicação, no DOU de 04/05/2026, deu nova redação ao § 1º: \"A pena aumenta-se de metade, se o crime é praticado durante o repouso noturno.\" Os itens 2 a 4 da tese tratam do que é repouso noturno e não mencionam a fração.",
+   "citacoes": [
+    {
+     "texto": "1. Nos termos do § 1º do art. 155 do Código Penal, se o crime de furto é praticado durante o repouso noturno, a pena será aumentada de um terço.",
+     "fonte_nome": "STJ, Tema 1144 (tese firmada, item 1)",
+     "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1144&cod_tema_final=1144"
+    },
+    {
+     "texto": "§ 1° A pena aumenta-se de um terço, se o crime é praticado durante o repouso noturno.",
+     "fonte_nome": "Código Penal, art. 155, § 1º — redação original de 1940",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "§ 1º A pena aumenta-se de metade, se o crime é praticado durante o repouso noturno.",
+     "fonte_nome": "Lei nº 15.397/2026, nova redação do art. 155, § 1º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-04-30;15397"
+    },
+    {
+     "texto": "Art. 4º Esta Lei entra em vigor na data de sua publicação.",
+     "fonte_nome": "Lei nº 15.397/2026, art. 4º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-04-30;15397"
+    },
+    {
+     "texto": "XL - a lei penal não retroagirá, salvo para beneficiar o réu;",
+     "fonte_nome": "Constituição Federal, art. 5º, XL",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:constituicao:1988-10-05;1988"
+    }
+   ],
+   "interpretacao": "Como a lei penal mais grave não retroage (CF, art. 5º, XL), o aumento de metade só alcança fatos praticados a partir de 04/05/2026; para fatos anteriores, a fração continua a de um terço. A orientação dos itens 2 a 4 sobre o que é repouso noturno não depende da fração.",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Tese copiada da página oficial do Tema 1144; redações do § 1º copiadas do Código Penal de 1940 e da publicação original da Lei 15.397/2026; data de publicação conferida nos metadados oficiais do Normas.leg.br.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "energia-eletrica-pagamento",
+   "aba": "jurisprudencia",
+   "tipo": "Entendimento do STJ (informativos)",
+   "titulo": "Furto de energia elétrica: pagar o débito antes da denúncia não extingue a punibilidade",
+   "resumo": "O § 3º equipara à coisa móvel a energia elétrica. O Informativo 622 registra que o STJ se posicionava no sentido de que o pagamento do débito oriundo do furto de energia elétrica, antes do oferecimento da denúncia, configurava causa de extinção da punibilidade, pela aplicação analógica do art. 34 da Lei nº 9.249/1995 e do art. 9º da Lei nº 10.684/2003, e que a Quinta Turma, no AgRg no REsp 1.427.350/RJ (DJe 14/3/2018), modificou essa posição: o pagamento passou a ser visto como causa de redução de pena relativa ao arrependimento posterior (art. 16 do CP). Em 2019, no RHC 101.299-RS, a Terceira Seção afirmou que, no furto de energia elétrica mediante fraude, o adimplemento do débito antes do recebimento da denúncia não extingue a punibilidade, com três fundamentos: a política criminal é diversa nos crimes contra o patrimônio e nos crimes contra a ordem tributária; não cabe aplicar por analogia o art. 34 da Lei nº 9.249/1995, porque o art. 16 do CP já prevê causa de diminuição da pena para o pagamento antes do recebimento da denúncia; e a remuneração pelo fornecimento de energia elétrica por concessionária é tarifa ou preço público, sem caráter tributário.",
+   "citacoes": [
+    {
+     "texto": "§ 3º Equipara-se à coisa móvel a energia elétrica ou qualquer outra que tenha valor econômico.",
+     "fonte_nome": "Código Penal, art. 155, § 3º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "Não configura causa de extinção de punibilidade o pagamento de débito oriundo de furto de energia elétrica antes do oferecimento da denúncia.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 622 (HC 412.208-SP, Quinta Turma, julgado em 20/03/2018)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0622.cod."
+    },
+    {
+     "texto": "De início, quanto à configuração de causa de extinção de punibilidade, ressalta-se que o Superior Tribunal de Justiça se posicionava no sentido de que o pagamento do débito oriundo do furto de energia elétrica, antes do oferecimento da denúncia, configurava causa de extinção da punibilidade, pela aplicação analógica do disposto no art. 34 da Lei n. 9.249/1995 e do art. 9º da Lei n. 10.684/2003. Ocorre que a Quinta Turma desta Corte, no julgamento do AgRg no REsp 1.427.350/RJ, DJe 14/3/2018, modificou a posição anterior, passando a entender que o furto de energia elétrica não pode receber o mesmo tratamento dado ao inadimplemento tributário, de modo que o pagamento do débito antes do recebimento da denúncia não configura causa extintiva de punibilidade, mas causa de redução de pena relativa ao arrependimento posterior.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 622 (HC 412.208-SP)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0622.cod."
+    },
+    {
+     "texto": "No caso de furto de energia elétrica mediante fraude, o adimplemento do débito antes do recebimento da denúncia não extingue a punibilidade.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 645 (RHC 101.299-RS, Terceira Seção, julgado em 13/03/2019)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0645.cod."
+    },
+    {
+     "texto": "Saliente-se que são três os fundamentos para a não aplicação do instituto de extinção de punibilidade ao crime de furto de energia elétrica em razão do adimplemento do débito antes do recebimento da denúncia. Em primeiro lugar, seria diversa a política criminal aplicada aos crimes contra o patrimônio e contra a ordem tributária.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 645 (RHC 101.299-RS)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0645.cod."
+    },
+    {
+     "texto": "Em segundo lugar, há impossibilidade de aplicação analógica do art. 34 da Lei n. 9.249/1995 aos crimes contra o patrimônio, porquanto existe previsão legal específica de causa de diminuição da pena para os casos de pagamento da \"dívida\" antes do recebimento da denúncia (art. 16 do Código Penal).",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 645 (RHC 101.299-RS)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0645.cod."
+    },
+    {
+     "texto": "Por fim, diferentemente do imposto, a tarifa ou preço público tem tratamento legislativo diverso. A jurisprudência se consolidou no sentido de que a natureza jurídica da remuneração pela prestação de serviço público, no caso de fornecimento de energia elétrica, prestado por concessionária, é de tarifa ou preço público, não possuindo caráter tributário.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 645 (RHC 101.299-RS)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0645.cod."
+    },
+    {
+     "texto": "Art. 16. Nos crimes cometidos sem violência ou grave ameaça à pessoa, reparado o dano ou restituída a coisa, até o recebimento da denúncia ou da queixa, por ato voluntário do agente, a pena será reduzida de um a dois terços.",
+     "fonte_nome": "Código Penal, art. 16 (arrependimento posterior)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    }
+   ],
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Trechos copiados dos Informativos oficiais do STJ nº 622 e nº 645 e da compilação do Código Penal no Normas.leg.br; órgãos julgadores conferidos nos cabeçalhos dos informativos.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "consumacao-inversao-posse",
+   "aba": "jurisprudencia",
+   "tipo": "Entendimento do STJ (informativo)",
+   "titulo": "Preso ainda dentro do estabelecimento, com os bens na mochila: furto tentado (Tema 934, distinção)",
+   "resumo": "No AgRg no AgRg no AREsp 3.063.890-MS (Quinta Turma, julgado em 3/3/2026), o STJ entendeu que o furto não se consumou quando o agente foi surpreendido ainda no interior do estabelecimento da vítima, portando, numa mochila, os bens que objetivava subtrair: isso demonstra tão somente o iter criminis percorrido, mas não a efetiva inversão da posse, configurando tentativa. O informativo lembra a tese do Tema 934 e explica que a consumação do furto dispensa a posse mansa e pacífica do bem, o que não afasta a imprescindibilidade da inversão da posse; a teoria adotada pelas Cortes Superiores (apprehensio ou amotio) distingue a remoção em dois momentos: a apreensão (apprehensio) e o traslado de um lugar a outro (amotio de loco in locum). No caso, os bens sequer foram trasladados para o exterior do estabelecimento.",
+   "citacoes": [
+    {
+     "texto": "AgRg no AgRg no AREsp 3.063.890-MS, Rel. Ministro Reynaldo Soares da Fonseca, Quinta Turma, por unanimidade, julgado em 3/3/2026, DJEN 10/3/2026.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 886 (cabeçalho do julgado)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0886.cod."
+    },
+    {
+     "texto": "O fato de o agente ter sido surpreendido no interior do estabelecimento da vítima, portando consigo, acondicionados numa mochila, os bens que objetivava subtrair, demonstra tão somente o iter criminis percorrido, mas não a efetiva inversão da posse, configurando tentativa de furto.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 886 (AgRg no AgRg no AREsp 3.063.890-MS)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0886.cod."
+    },
+    {
+     "texto": "Com efeito, a adoção da teoria da apprehensio ou amotio pressupõe, para fins de consumação do delito de furto (ou roubo), que o agente tenha percorrido todas as etapas do iter criminis e cessado a clandestinidade, ainda que por brevíssimo lapso temporal que permita a retomada do bem, o que não ocorreu na espécie, haja vista que os bens que o agente objetivava subtrair sequer foram trasladados para o exterior do estabelecimento vítima.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 886 (AgRg no AgRg no AREsp 3.063.890-MS)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0886.cod."
+    },
+    {
+     "texto": "A consumação do crime de furto dispensa a posse mansa e pacífica do bem, o que não afasta a imprescindibilidade da inversão da posse. A teoria da consumação do furto adotada pelas Cortes Superiores - apprehensio ou amotio - distingue a remoção em dois momentos: a apreensão (apprehensio) e o traslado de um lugar a outro (amotio de loco in locum).",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 886 (AgRg no AgRg no AREsp 3.063.890-MS)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0886.cod."
+    },
+    {
+     "texto": "Furto qualificado tentado. Pretensão de reconhecimento da modalidade consumada do crime. Teoria da apprehensio (apreensão) ou amotio (remoção). Termos não sinônimos. Fases sequenciais.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 886 (ementa temática)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0886.cod."
+    }
+   ],
+   "interpretacao": "Trata-se de decisão de uma Turma, não de tese repetitiva; o próprio informativo indica, no tema, \"Tema Repetitivo 934/STJ. Distinguishing\". A tese do Tema 934 continua a mesma; o julgado mostra que, sem inversão da posse, não há consumação.",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Trechos copiados do Informativo oficial do STJ nº 886.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "rompimento-pericia",
+   "aba": "jurisprudencia",
+   "tipo": "Entendimento do STJ (informativo)",
+   "titulo": "Rompimento de obstáculo e escalada: em regra, exigem exame pericial",
+   "resumo": "Segundo o STJ, em regra, as qualificadoras da destruição ou rompimento de obstáculo e da escalada só podem ser aplicadas ao furto mediante realização de exame pericial, porque, por ser infração que deixa vestígio, é imprescindível o exame de corpo de delito direto, por expressa imposição legal. O tribunal tem admitido, de forma excepcional, a manutenção dessas qualificadoras quando outras provas demonstrarem cabalmente as circunstâncias. No REsp 2.204.445-SC (Sexta Turma, julgado em 3/6/2026), o relato da vítima e as fotografias da porta danificada levaram o STJ a considerar a perícia dispensável e a manter a qualificadora do § 4º, I.",
+   "citacoes": [
+    {
+     "texto": "É possível o reconhecimento da qualificadora do rompimento de obstáculo no furto quando, apesar de não ter sido realizado exame pericial, o arrombamento for claramente demonstrado por outros elementos probatórios, como fotografias da porta danificada, além do relato da vítima.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 897 (REsp 2.204.445-SC, Sexta Turma, julgado em 3/6/2026)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0897.cod."
+    },
+    {
+     "texto": "Segundo a jurisprudência do Superior Tribunal de Justiça, em regra, as qualificadoras da destruição ou rompimento de obstáculo e da escalada só podem ser aplicadas ao crime de furto mediante realização de exame pericial, tendo em vista que, por ser infração que deixa vestígio, é imprescindível a realização de exame de corpo de delito direto, por expressa imposição legal. No entanto, este Tribunal tem admitido a manutenção das qualificadoras, de forma excepcional, quando outras provas demonstrarem cabalmente as referidas circunstâncias.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 897 (REsp 2.204.445-SC)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0897.cod."
+    },
+    {
+     "texto": "Logo, a prova pericial mostra-se dispensável, pois o arrombamento está claramente demonstrado por outros elementos probatórios. Portanto, deve ser mantida a qualificadora prevista no art. 155, § 4º, I, do Código Penal.",
+     "fonte_nome": "STJ, Informativo de Jurisprudência nº 897 (REsp 2.204.445-SC)",
+     "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0897.cod."
+    }
+   ],
+   "interpretacao": "Trata-se de decisão de uma Turma, não de tese repetitiva; o informativo descreve a perícia como regra e a dispensa como exceção.",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Trechos copiados do Informativo oficial do STJ nº 897.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "vigencia-15397",
+   "aba": "lei",
+   "tipo": "Vigência e aplicação no tempo",
+   "titulo": "Lei 15.397/2026: as penas maiores do furto só valem para fatos a partir de 04/05/2026",
+   "resumo": "A Lei nº 15.397/2026 é de 30/04/2026 e entrou em vigor na data da publicação, no DOU de 04/05/2026. No art. 155, ela aumentou a pena do furto simples de um a quatro anos (redação de 1940; a compilação não anota outra mudança nesse prazo) para 1 a 6 anos; mudou o aumento do repouso noturno (§ 1º) de um terço para metade; elevou a pena do § 4º-B (furto mediante fraude por meio de dispositivo eletrônico ou informático) de 4 a 8 para 4 a 10 anos; elevou a do § 5º (veículo automotor levado para outro Estado ou para o exterior) de três a oito anos, sem menção a multa na Lei nº 9.426/1996, para 4 a 10 anos e multa; e elevou a do § 6º, que tratava só do semovente domesticável de produção (2 a 5 anos, Lei nº 13.330/2016), para 4 a 10 anos e multa, acrescentando o animal doméstico e o aparelho de telefonia celular, o computador e dispositivos semelhantes. No § 7º, manteve a pena de 4 a 10 anos e multa e acrescentou a arma de fogo. Na nova redação do § 4º, a pena continuou de 2 a 8 anos e multa, como a do § 8º.",
+   "citacoes": [
+    {
+     "texto": "Pena - reclusão, de um a quatro anos, e multa, de quinhentos mil réis a dez contos de réis.",
+     "fonte_nome": "Código Penal, art. 155, caput — redação original de 1940",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "Pena – reclusão, de 1 (um) a 6 (seis) anos, e multa.",
+     "fonte_nome": "Lei nº 15.397/2026 — nova pena do art. 155, caput",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-04-30;15397"
+    },
+    {
+     "texto": "§ 4º-B. A pena é de reclusão, de 4 (quatro) a 8 (oito) anos, e multa, se o furto mediante fraude é cometido por meio de dispositivo eletrônico ou informático, conectado ou não à rede de computadores, com ou sem a violação de mecanismo de segurança ou a utilização de programa malicioso, ou por qualquer outro meio fraudulento análogo.",
+     "fonte_nome": "Lei nº 14.155/2021 — redação original do § 4º-B",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2021-05-27;14155"
+    },
+    {
+     "texto": "§ 5º A pena é de reclusão de três a oito anos, se a subtração for de veículo automotor que venha a ser transportado para outro Estado ou para o exterior.",
+     "fonte_nome": "Lei nº 9.426/1996 — redação original do § 5º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1996-12-24;9426"
+    },
+    {
+     "texto": "§ 6º A pena é de reclusão de 2 (dois) a 5 (cinco) anos se a subtração for de semovente domesticável de produção, ainda que abatido ou dividido em partes no local da subtração.",
+     "fonte_nome": "Lei nº 13.330/2016 — redação original do § 6º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2016-08-02;13330"
+    },
+    {
+     "texto": "§ 7º A pena é de reclusão de 4 (quatro) a 10 (dez) anos e multa, se a subtração for de substâncias explosivas ou de acessórios que, conjunta ou isoladamente, possibilitem sua fabricação, montagem ou emprego.",
+     "fonte_nome": "Lei nº 13.654/2018 — redação original do § 7º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2018-04-23;13654"
+    },
+    {
+     "texto": "Art. 4º Esta Lei entra em vigor na data de sua publicação.",
+     "fonte_nome": "Lei nº 15.397/2026, art. 4º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-04-30;15397"
+    },
+    {
+     "texto": "XL - a lei penal não retroagirá, salvo para beneficiar o réu;",
+     "fonte_nome": "Constituição Federal, art. 5º, XL",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:constituicao:1988-10-05;1988"
+    },
+    {
+     "texto": "Parágrafo único. A lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado.",
+     "fonte_nome": "Código Penal, art. 2º, parágrafo único",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "Art. 4º Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado.",
+     "fonte_nome": "Código Penal, art. 4º (tempo do crime)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    }
+   ],
+   "interpretacao": "Como a lei penal mais grave não retroage (CF, art. 5º, XL) e o crime se considera praticado no momento da ação ou omissão (CP, art. 4º), as penas e frações novas da Lei 15.397/2026 só alcançam fatos praticados a partir de 04/05/2026. As figuras que ela criou (animal doméstico, celular, computador e dispositivos semelhantes no § 6º; arma de fogo no § 7º) também não alcançam fatos anteriores.",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Textos copiados das publicações originais (Código Penal de 1940, Leis 9.426/1996, 13.330/2016, 13.654/2018, 14.155/2021 e 15.397/2026), da compilação do Código Penal e da Constituição no Normas.leg.br; datas de publicação conferidas nos metadados oficiais.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "multa-1940",
+   "aba": "lei",
+   "tipo": "Evolução legislativa",
+   "titulo": "As multas em réis de 1940 e a Lei 7.209/1984",
+   "resumo": "Na redação de 1940, as multas do art. 155 vinham em valores: de quinhentos mil réis a dez contos de réis no caput e de dois contos a doze contos de réis no § 4º. A Lei nº 7.209/1984 (art. 2º) cancelou, na Parte Especial do Código Penal, quaisquer referências a valores de multas, substituindo a expressão \"multa de\" por \"multa\"; ela entrou em vigor seis meses após a publicação, feita no DOU de 13/07/1984. Hoje a pena de multa é calculada em dias-multa (art. 49 do CP).",
+   "citacoes": [
+    {
+     "texto": "Pena - reclusão, de um a quatro anos, e multa, de quinhentos mil réis a dez contos de réis.",
+     "fonte_nome": "Código Penal, art. 155, caput — redação original de 1940",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "§ 4° A pena é de reclusão de dois a oito anos, e multa, de dois contos a doze contos de réis, se o crime é cometido:",
+     "fonte_nome": "Código Penal, art. 155, § 4º — redação original de 1940",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "Art. 2º - São canceladas, na Parte Especial do Código Penal e nas leis especiais alcançadas pelo art. 12 do Código Penal, quaisquer referências a valores de multas, substituindo-se a expressão multa de por multa.",
+     "fonte_nome": "Lei nº 7.209/1984, art. 2º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1984-07-11;7209"
+    },
+    {
+     "texto": "Art. 5º - Esta lei entra em vigor seis meses após a data de sua publicação.",
+     "fonte_nome": "Lei nº 7.209/1984, art. 5º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1984-07-11;7209"
+    },
+    {
+     "texto": "Art. 49. A pena de multa consiste no pagamento ao fundo penitenciário da quantia fixada na sentença e calculada em dias-multa. Será, no mínimo, de dez e, no máximo, de trezentos e sessenta dias-multa.",
+     "fonte_nome": "Código Penal, art. 49",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    }
+   ],
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Textos copiados do Código Penal de 1940, da publicação original da Lei 7.209/1984 e da compilação atual do Código Penal no Normas.leg.br; data de publicação conferida nos metadados oficiais.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "inciso-v-redacao",
+   "aba": "lei",
+   "tipo": "Evolução legislativa",
+   "titulo": "§ 4º, V: a redação de 2026 fala em \"serviços essenciais\", sem \"públicos\"",
+   "resumo": "O inciso V do § 4º foi incluído pela Lei nº 15.181/2025 com a expressão \"de órgãos da União, de Estado ou de Município ou de estabelecimentos públicos ou privados que prestem serviços públicos essenciais\". A Lei nº 15.397/2026 deu-lhe nova redação: acrescentou o Distrito Federal e passou a dizer \"que prestem serviços essenciais\", sem a palavra \"públicos\". No roubo (art. 157, § 1º-A), a redação atual, também dada pela Lei nº 15.397/2026, mantém \"serviços públicos essenciais\".",
+   "citacoes": [
+    {
+     "texto": "V – contra quaisquer bens que comprometam o funcionamento de órgãos da União, de Estado ou de Município ou de estabelecimentos públicos ou privados que prestem serviços públicos essenciais.",
+     "fonte_nome": "Lei nº 15.181/2025 — redação original do art. 155, § 4º, V",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2025-07-28;15181"
+    },
+    {
+     "texto": "V – contra quaisquer bens que comprometam o funcionamento de órgãos da União, de Estado, do Distrito Federal ou de Município ou de estabelecimentos públicos ou privados que prestem serviços essenciais.",
+     "fonte_nome": "Lei nº 15.397/2026 — nova redação do art. 155, § 4º, V",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-04-30;15397"
+    },
+    {
+     "texto": "§ 1º-A. A pena é de reclusão, de 6 (seis) a 12 (doze) anos, e multa, se a subtração for cometida contra quaisquer bens que comprometam o funcionamento de órgãos da União, de Estado, do Distrito Federal ou de Município ou de estabelecimentos públicos ou privados que prestem serviços públicos essenciais.",
+     "fonte_nome": "Lei nº 15.397/2026 — nova redação do art. 157, § 1º-A (roubo)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-04-30;15397"
+    }
+   ],
+   "interpretacao": "A diferença aparece nos textos publicados das leis; nenhuma decisão judicial ou exposição de motivos sobre o alcance dela foi conferida nesta verificação.",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Textos copiados das publicações originais das Leis 15.181/2025 e 15.397/2026 no Normas.leg.br.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "lei-15358",
+   "aba": "lei",
+   "tipo": "Remissão",
+   "titulo": "Que lei é o \"marco legal do combate ao crime organizado\" do § 9º?",
+   "resumo": "O § 9º remete ao art. 2º \"da lei que institui o marco legal do combate ao crime organizado no Brasil\". Essa lei é a Lei nº 15.358, de 24/03/2026, a mesma que incluiu o § 9º no art. 155. Ela entrou em vigor na data da publicação, no DOU de 25/03/2026.",
+   "citacoes": [
+    {
+     "texto": "Institui o Marco Legal do Combate ao Crime Organizado no Brasil (Lei Raul Jungmann); tipifica os crimes de domínio social estruturado e de favorecimento ao domínio social estruturado; e altera os Decretos-Leis nºs 2.848, de 7 de dezembro de 1940 (Código Penal), e 3.689, de 3 de outubro de 1941 (Código de Processo Penal), e as Leis nºs 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), 7.210, de 11 de julho de 1984 (Lei de Execução Penal), 11.343, de 23 de agosto de 2006, 10.826, de 22 de dezembro de 2003, 9.613, de 3 de março de 1998, 4.737, de 15 de julho de 1965 (Código Eleitoral); 13.756, de 12 de dezembro de 2018; e 14.790, de 29 de dezembro de 2023.",
+     "fonte_nome": "Lei nº 15.358/2026, ementa",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-03-24;15358"
+    },
+    {
+     "texto": "§ 9º A pena é de reclusão de 4 (quatro) a 10 (dez) anos e multa, se a subtração, para si ou para outrem, de coisa alheia móvel é cometida por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto da atuação ou para a consecução das condutas previstas no art. 2º da lei que institui o marco legal do combate ao crime organizado no Brasil.",
+     "fonte_nome": "Lei nº 15.358/2026, inclusão do art. 155, § 9º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-03-24;15358"
+    },
+    {
+     "texto": "Art. 44. Esta Lei entra em vigor na data de sua publicação.",
+     "fonte_nome": "Lei nº 15.358/2026, art. 44",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-03-24;15358"
+    }
+   ],
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Ementa e data de publicação conferidas nos metadados oficiais do Normas.leg.br; inclusão do § 9º e vigência conferidas na publicação original da lei.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "remissoes-privilegio",
+   "aba": "lei",
+   "tipo": "Remissão",
+   "titulo": "Onde mais se aplica o privilégio do § 2º",
+   "resumo": "O privilégio do § 2º (criminoso primário e coisa de pequeno valor) é aplicado por remissão expressa em outros crimes do Código Penal: nos crimes do capítulo da apropriação indébita (art. 170), no estelionato, quando é de pequeno valor o prejuízo (art. 171, § 1º), e no crime do art. 175 (fraude no comércio), pelo seu § 2º. No próprio art. 155, o § 8º manda aplicar, em qualquer caso, o disposto no § 2º. A Súmula 511 do STJ admite o privilégio no furto qualificado, se presentes a primariedade do agente, o pequeno valor da coisa e qualificadora de ordem objetiva.",
+   "citacoes": [
+    {
+     "texto": "Art. 170. Nos crimes previstos neste capítulo, aplica-se o disposto no art. 155, § 2º.",
+     "fonte_nome": "Código Penal, art. 170 (Capítulo V — Da apropriação indébita)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "§ 1º Se o criminoso é primário, e é de pequeno valor o prejuízo, o juiz pode aplicar a pena conforme o disposto no art. 155, § 2º.",
+     "fonte_nome": "Código Penal, art. 171, § 1º (estelionato)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "§ 2º É aplicável o disposto no art. 155, § 2º.",
+     "fonte_nome": "Código Penal, art. 175, § 2º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "aplicável, em qualquer caso, o disposto no § 2º deste artigo.",
+     "fonte_nome": "Código Penal, art. 155, § 8º (parte final)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "É possível o reconhecimento do privilégio previsto no § 2º do art. 155 do CP nos casos de crime de furto qualificado, se estiverem presentes a primariedade do agente, o pequeno valor da coisa e a qualificadora for de ordem objetiva.",
+     "fonte_nome": "Súmula 511 do STJ",
+     "fonte": "https://www.stj.jus.br/docs_internet/jurisprudencia/tematica/download/SU/Verbetes/VerbetesSTJ.pdf"
+    }
+   ],
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Textos copiados da compilação do Código Penal no Normas.leg.br e do documento oficial \"Enunciados das Súmulas do STJ\".",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "escusas-181-183",
+   "aba": "lei",
+   "tipo": "Remissão",
+   "titulo": "Furto entre parentes: isenção de pena e representação (arts. 181 a 183)",
+   "resumo": "Os arts. 181 a 183 valem para os crimes do Título II (crimes contra o patrimônio), entre eles o furto. É isento de pena quem comete o crime em prejuízo do cônjuge, na constância da sociedade conjugal, ou de ascendente ou descendente (art. 181). Só se procede mediante representação se o crime é cometido em prejuízo do cônjuge desquitado ou judicialmente separado, de irmão, ou de tio ou sobrinho com quem o agente coabita (art. 182). Essas regras não se aplicam ao estranho que participa do crime nem se o crime é praticado contra pessoa com idade igual ou superior a 60 anos (art. 183, II e III).",
+   "citacoes": [
+    {
+     "texto": "Art. 181. É isento de pena quem comete qualquer dos crimes previstos neste título, em prejuízo: I - do cônjuge, na constância da sociedade conjugal; II - de ascendente ou descendente, seja o parentesco legítimo ou ilegítimo, seja civil ou natural.",
+     "fonte_nome": "Código Penal, art. 181",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "Art. 182. Somente se procede mediante representação, se o crime previsto neste título é cometido em prejuízo: I - do cônjuge desquitado ou judicialmente separado; II - de irmão, legítimo ou ilegítimo; III - de tio ou sobrinho, com quem o agente coabita.",
+     "fonte_nome": "Código Penal, art. 182",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "Art. 183. Não se aplica o disposto nos dois artigos anteriores: I - se o crime é de roubo ou de extorsão, ou, em geral, quando haja emprego de grave ameaça ou violência a pessoa; II - ao estranho que participa do crime; III - se o crime é praticado contra pessoa com idade igual ou superior a 60 (sessenta) anos.",
+     "fonte_nome": "Código Penal, art. 183",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    }
+   ],
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Textos copiados da compilação do Código Penal no Normas.leg.br (Título II — Dos crimes contra o patrimônio).",
+    "revisao_humana": null
+   }
+  }
+ ],
+ "pendentes": [
+  {
+   "o_que": "Súmulas do STF sobre furto",
+   "motivo": "O portal do STF recusa acessos automatizados vindos do servidor desta verificação; nenhum texto de súmula do STF pôde ser conferido."
+  },
+  {
+   "o_que": "Andamento do Tema 1281 de repercussão geral no STF (RE 1.449.276), ligado ao Tema 1087/STJ",
+   "motivo": "Só a página do Tema 1087 no STJ pôde ser conferida; o portal do STF não respondeu a esta verificação."
+  },
+  {
+   "o_que": "Íntegra dos acórdãos dos Temas 561, 924, 934, 1087, 1144 e 1205, do RHC 101.299-RS, do AgRg no AgRg no AREsp 3.063.890-MS e do REsp 2.204.445-SC",
+   "motivo": "Os acórdãos e as buscas de jurisprudência do STJ ficam atrás do bloqueio automático do tribunal; foram usados só as páginas oficiais dos temas e os Informativos de Jurisprudência."
+  },
+  {
+   "o_que": "Insignificância no furto em caso de reincidência ou de valor acima de certo patamar",
+   "motivo": "Não foi encontrado tema repetitivo sobre isso; os julgados de Turma que tratam do assunto não foram baixados e conferidos nesta verificação."
+  },
+  {
+   "o_que": "Súmulas do STJ aprovadas depois de 05/12/2025",
+   "motivo": "O documento oficial \"Enunciados das Súmulas do STJ\" usado nesta verificação foi gerado em 05/12/2025; súmulas posteriores sobre furto, se houver, não estão nele e não foram conferidas."
+  },
+  {
+   "o_que": "Doutrina com nome de autor, obra e página",
+   "motivo": "Nenhuma das fontes oficiais conferidas para o art. 155 (informativos e páginas de temas do STJ) nomeia autor ou obra; só entra quando o trecho for conferido na obra ou em decisão oficial que o cite."
+  }
+ ]
+}

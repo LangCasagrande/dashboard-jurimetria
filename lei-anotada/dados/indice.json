@@ -9,6 +9,13 @@
    "arquivo": "dados/cp-121.json"
   },
   {
+   "id": "cp-155",
+   "artigo": "Art. 155",
+   "rubrica": "Furto",
+   "lei": "Código Penal",
+   "arquivo": "dados/cp-155.json"
+  },
+  {
    "id": "cp-157",
    "artigo": "Art. 157",
    "rubrica": "Roubo",

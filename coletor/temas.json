@@ -1,21 +1,33 @@
 {
-  "cp-157": {
-    "nome": "Roubo (art. 157 do Código Penal)",
-    "assuntos": {
-      "3419": "Roubo",
-      "5566": "Roubo Majorado",
-      "5567": "Latrocínio",
-      "9678": "Roubo (art. 157)"
-    },
-    "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026."
+ "cp-121": {
+  "nome": "Homicídio (art. 121 do Código Penal)",
+  "assuntos": {
+   "3370": "Homicídio Simples",
+   "3372": "Homicídio Qualificado",
+   "3371": "Homicídio Privilegiado"
   },
-  "cp-121": {
-    "nome": "Homicídio (art. 121 do Código Penal)",
-    "assuntos": {
-      "3370": "Homicídio Simples",
-      "3372": "Homicídio Qualificado",
-      "3371": "Homicídio Privilegiado"
-    },
-    "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. O assunto \"Feminicídio\" (código 12091) não entra porque, desde 2024, o feminicídio é crime autônomo do art. 121-A."
-  }
+  "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. O assunto \"Feminicídio\" (código 12091) não entra porque, desde 2024, o feminicídio é crime autônomo do art. 121-A."
+ },
+ "cp-155": {
+  "nome": "Furto (art. 155 do Código Penal)",
+  "assuntos": {
+   "3416": "Furto",
+   "3417": "Furto Qualificado",
+   "5564": "Furto Privilegiado",
+   "5565": "Furto de Veículo Automotor a ser Transportado para outro Estado ou Exterior",
+   "9675": "Furto (art. 155)",
+   "9676": "Furto Qualificado (Art. 155, § 4o.)"
+  },
+  "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. Ficam de fora o furto de coisa comum (art. 156: códigos 3418 e 9677), o peculato-furto (11317) e os códigos 11164 e 11165, ainda não identificados no SGT do CNJ."
+ },
+ "cp-157": {
+  "nome": "Roubo (art. 157 do Código Penal)",
+  "assuntos": {
+   "3419": "Roubo",
+   "5566": "Roubo Majorado",
+   "5567": "Latrocínio",
+   "9678": "Roubo (art. 157)"
+  },
+  "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026."
+ }
 }
