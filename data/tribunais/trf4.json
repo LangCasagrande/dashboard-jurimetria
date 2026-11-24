@@ -4,12 +4,14 @@
  "nome": "Tribunal Regional Federal da 4ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "graus": "2026-11-19T16:36:20+00:00",
-  "formatos": "2026-11-19T16:37:10+00:00",
-  "classes": "2026-11-19T16:56:56+00:00",
-  "orgaos": "2026-11-19T17:07:44+00:00",
-  "total": "2026-11-19T17:14:07+00:00",
-  "mensal": "2026-11-19T17:14:38+00:00"
+  "graus": "2026-11-23T20:12:09+00:00",
+  "formatos": "2026-11-23T20:13:24+00:00",
+  "classes": "2026-11-23T20:19:28+00:00",
+  "orgaos": "2026-11-23T20:22:19+00:00",
+  "total": "2026-11-23T20:22:46+00:00",
+  "mensal": "2026-11-23T20:23:34+00:00",
+  "sistemas": "2026-11-23T20:14:13+00:00",
+  "assuntos": "2026-11-23T20:21:26+00:00"
  },
  "graus": [
   {
@@ -169,9 +171,78 @@
  ],
  "total": 14870040,
  "mensal": [],
- "erros": {
-  "sistemas": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
-  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
- },
- "atualizado_em": "2026-11-19T17:14:38+00:00"
+ "erros": {},
+ "atualizado_em": "2026-11-23T20:23:34+00:00",
+ "sistemas": [
+  {
+   "nome": "Projudi",
+   "qtd": 8046456
+  },
+  {
+   "nome": "EPROC",
+   "qtd": 6809207
+  }
+ ],
+ "assuntos": [
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 1584284
+  },
+  {
+   "nome": "Auxílio por Incapacidade Temporária",
+   "qtd": 1437554
+  },
+  {
+   "nome": "Aposentadoria por Tempo de Contribuição (Art. 55/6)",
+   "qtd": 1242509
+  },
+  {
+   "nome": "Aposentadoria por Incapacidade Permanente",
+   "qtd": 816110
+  },
+  {
+   "nome": "Urbano (art. 60)",
+   "qtd": 714840
+  },
+  {
+   "nome": "FGTS/Fundo de Garantia por Tempo de Serviço",
+   "qtd": 590479
+  },
+  {
+   "nome": "Averbação/Cômputo/Conversão de tempo de serviço especial",
+   "qtd": 473041
+  },
+  {
+   "nome": "Aposentadoria Especial (Art. 57/8)",
+   "qtd": 411626
+  },
+  {
+   "nome": "Concessão",
+   "qtd": 382035
+  },
+  {
+   "nome": "Deficiente",
+   "qtd": 363018
+  },
+  {
+   "nome": "Atualização de Conta",
+   "qtd": 343515
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 313344
+  },
+  {
+   "nome": "Contrabando ou descaminho ",
+   "qtd": 283516
+  },
+  {
+   "nome": "Cofins",
+   "qtd": 266508
+  },
+  {
+   "nome": "Averbação/Cômputo de tempo de serviço de segurado especial (regime de economia familiar)",
+   "qtd": 265308
+  }
+ ]
 }

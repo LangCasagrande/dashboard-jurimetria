@@ -4,240 +4,240 @@
  "nome": "Tribunal Regional Federal da 1ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "graus": "2026-11-19T15:19:18+00:00",
-  "formatos": "2026-11-19T15:19:49+00:00",
-  "sistemas": "2026-11-19T15:29:32+00:00",
-  "classes": "2026-11-19T15:33:08+00:00",
-  "assuntos": "2026-11-19T15:36:57+00:00",
-  "orgaos": "2026-11-19T15:37:42+00:00",
-  "total": "2026-11-19T15:39:22+00:00",
-  "mensal": "2026-11-19T15:40:01+00:00"
+  "graus": "2026-11-23T18:39:53+00:00",
+  "formatos": "2026-11-23T18:41:23+00:00",
+  "sistemas": "2026-11-23T18:42:00+00:00",
+  "classes": "2026-11-23T18:43:10+00:00",
+  "assuntos": "2026-11-23T18:46:45+00:00",
+  "orgaos": "2026-11-23T18:58:59+00:00",
+  "total": "2026-11-23T18:59:45+00:00",
+  "mensal": "2026-11-23T19:05:31+00:00"
  },
  "graus": [
   {
    "nome": "JE",
-   "qtd": 6701749
+   "qtd": 3830128
   },
   {
    "nome": "G1",
-   "qtd": 3799897
+   "qtd": 2172868
   },
   {
    "nome": "G2",
-   "qtd": 1439656
+   "qtd": 821947
   },
   {
    "nome": "TR",
-   "qtd": 1064551
+   "qtd": 607170
   },
   {
    "nome": "TRU",
-   "qtd": 3026
+   "qtd": 1742
   }
  ],
  "formatos": [
   {
    "nome": "Eletrônico",
-   "qtd": 5575024
+   "qtd": 11150765
   }
  ],
  "sistemas": [
   {
    "nome": "PJe",
-   "qtd": 11126664
+   "qtd": 3709669
   },
   {
    "nome": "Inválido",
-   "qtd": 22766
+   "qtd": 7720
   }
  ],
  "classes": [
   {
    "nome": "Procedimento do Juizado Especial Cível",
-   "qtd": 3088846
+   "qtd": 3859422
   },
   {
    "nome": "Cumprimento de Sentença contra a Fazenda Pública",
-   "qtd": 867731
+   "qtd": 1084465
   },
   {
    "nome": "Execução Fiscal",
-   "qtd": 798179
+   "qtd": 996599
   },
   {
    "nome": "Recurso Inominado Cível",
-   "qtd": 589174
+   "qtd": 739137
   },
   {
    "nome": "Apelação Cível",
-   "qtd": 437761
+   "qtd": 547186
   },
   {
    "nome": "Procedimento Comum Cível",
-   "qtd": 399976
+   "qtd": 499714
   },
   {
    "nome": "Mandado de Segurança Cível",
-   "qtd": 302959
+   "qtd": 378869
   },
   {
    "nome": "Agravo de Instrumento",
-   "qtd": 208913
+   "qtd": 261774
   },
   {
    "nome": "Cumprimento de sentença",
-   "qtd": 160349
+   "qtd": 199733
   },
   {
    "nome": "Execução de Título Extrajudicial",
-   "qtd": 83557
+   "qtd": 104751
   },
   {
    "nome": "Apelação / Remessa Necessária",
-   "qtd": 78537
+   "qtd": 98282
   },
   {
    "nome": "Remessa Necessária Cível",
-   "qtd": 45825
+   "qtd": 57749
   },
   {
    "nome": "Ação Penal - Procedimento Ordinário",
-   "qtd": 41422
+   "qtd": 51706
   },
   {
    "nome": "Cumprimento de Sentença de Ações Coletivas",
-   "qtd": 29831
+   "qtd": 37266
   },
   {
    "nome": "Monitória",
-   "qtd": 28029
+   "qtd": 35175
   }
  ],
  "assuntos": [
   {
    "nome": "Auxílio por Incapacidade Temporária",
-   "qtd": 434679
+   "qtd": 216805
   },
   {
    "nome": "Deficiente",
-   "qtd": 319371
+   "qtd": 159579
   },
   {
    "nome": "Aposentadoria por Incapacidade Permanente",
-   "qtd": 286497
+   "qtd": 143085
   },
   {
    "nome": "Rural (Art. 48/51)",
-   "qtd": 254349
+   "qtd": 127828
   },
   {
    "nome": "Salário-Maternidade (Art. 71/73)",
-   "qtd": 195817
+   "qtd": 98495
   },
   {
    "nome": "Rural",
-   "qtd": 139823
+   "qtd": 69872
   },
   {
    "nome": "Indenização por Dano Moral",
-   "qtd": 105743
+   "qtd": 53132
   },
   {
    "nome": "Multas e demais Sanções",
-   "qtd": 103112
+   "qtd": 51916
   },
   {
    "nome": "Atualização de Conta",
-   "qtd": 99981
+   "qtd": 50176
   },
   {
    "nome": "Pensão por Morte (Art. 74/9)",
-   "qtd": 96131
+   "qtd": 47877
   },
   {
    "nome": "Seguro-defeso ao pescado artesanal profissional",
-   "qtd": 81151
+   "qtd": 41164
   },
   {
    "nome": "Conselhos Regionais e Afins (Anuidade)",
-   "qtd": 73851
+   "qtd": 36546
   },
   {
    "nome": "Contratos Bancários",
-   "qtd": 71860
+   "qtd": 35943
   },
   {
    "nome": "Aposentadoria por Tempo de Contribuição (Art. 55/6)",
-   "qtd": 71377
+   "qtd": 35325
   },
   {
    "nome": "Restabelecimento",
-   "qtd": 57478
+   "qtd": 28348
   }
  ],
  "orgaos": [
   {
    "nome": "07ª Vara JEF - São Luís",
-   "qtd": 41138
-  },
-  {
-   "nome": "09ª Vara JEF - São Luís",
-   "qtd": 40822
-  },
-  {
-   "nome": "10ª Vara JEF - São Luís",
-   "qtd": 40599
+   "qtd": 20479
   },
   {
    "nome": "12ª Vara JEF - São Luís",
-   "qtd": 40237
+   "qtd": 20344
+  },
+  {
+   "nome": "10ª Vara JEF - São Luís",
+   "qtd": 20332
+  },
+  {
+   "nome": "09ª Vara JEF - São Luís",
+   "qtd": 20164
   },
   {
    "nome": "07ª Vara JEF - Teresina",
-   "qtd": 33440
+   "qtd": 17004
   },
   {
    "nome": "04ª - Cuiabá",
-   "qtd": 32430
+   "qtd": 16218
   },
   {
    "nome": "06ª Vara JEF - Teresina",
-   "qtd": 31987
+   "qtd": 16056
   },
   {
    "nome": "08ª  Vara JEF - Teresina",
-   "qtd": 31386
+   "qtd": 15657
   },
   {
    "nome": "06ª  Vara JEF- Manaus",
-   "qtd": 30465
+   "qtd": 15334
   },
   {
    "nome": "08ª  Vara JEF- Manaus",
-   "qtd": 30373
+   "qtd": 15164
   },
   {
    "nome": "Vara Única de Caxias",
-   "qtd": 28883
-  },
-  {
-   "nome": "Vara Única de Irecê",
-   "qtd": 28177
+   "qtd": 14328
   },
   {
    "nome": "Vara Única de Parnaíba",
-   "qtd": 27985
+   "qtd": 14074
+  },
+  {
+   "nome": "Vara Única de Irecê",
+   "qtd": 14051
   },
   {
    "nome": "Vara Única de Campo Formoso",
-   "qtd": 27571
+   "qtd": 13778
   },
   {
-   "nome": "19ª - Brasília",
-   "qtd": 26220
+   "nome": "11ª - Brasília",
+   "qtd": 13288
   }
  ],
- "total": 7432971,
+ "total": 1858114,
  "mensal": [
   {
    "mes": "2024-10",
@@ -245,5 +245,5 @@
   }
  ],
  "erros": {},
- "atualizado_em": "2026-11-19T15:40:01+00:00"
+ "atualizado_em": "2026-11-23T19:05:31+00:00"
 }

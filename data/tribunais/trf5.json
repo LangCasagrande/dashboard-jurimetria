@@ -4,14 +4,14 @@
  "nome": "Tribunal Regional Federal da 5ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "graus": "2026-11-19T17:16:48+00:00",
-  "formatos": "2026-11-19T17:20:25+00:00",
-  "sistemas": "2026-11-19T17:23:36+00:00",
-  "classes": "2026-11-19T17:28:02+00:00",
-  "assuntos": "2026-11-19T17:29:19+00:00",
-  "orgaos": "2026-11-19T17:41:46+00:00",
-  "total": "2026-11-19T17:44:12+00:00",
-  "mensal": "2026-11-19T17:48:19+00:00"
+  "graus": "2026-11-23T20:24:33+00:00",
+  "formatos": "2026-11-23T20:25:35+00:00",
+  "sistemas": "2026-11-23T20:26:33+00:00",
+  "classes": "2026-11-23T20:37:44+00:00",
+  "assuntos": "2026-11-23T20:38:20+00:00",
+  "orgaos": "2026-11-23T20:40:04+00:00",
+  "total": "2026-11-23T20:40:51+00:00",
+  "mensal": "2026-11-23T20:41:46+00:00"
  },
  "graus": [
   {
@@ -44,201 +44,201 @@
  "sistemas": [
   {
    "nome": "PJe",
-   "qtd": 3255806
+   "qtd": 3255993
   },
   {
    "nome": "Inválido",
-   "qtd": 1226431
+   "qtd": 1226248
   }
  ],
  "classes": [
   {
    "nome": "Procedimento do Juizado Especial Cível",
-   "qtd": 2912044
+   "qtd": 1165031
   },
   {
    "nome": "Recurso Inominado Cível",
-   "qtd": 1429719
+   "qtd": 572366
   },
   {
    "nome": "Cumprimento de Sentença contra a Fazenda Pública",
-   "qtd": 1386675
+   "qtd": 554166
   },
   {
    "nome": "Execução Fiscal",
-   "qtd": 566117
+   "qtd": 225860
   },
   {
    "nome": "Procedimento Comum Cível",
-   "qtd": 214275
+   "qtd": 86151
   },
   {
    "nome": "Mandado de Segurança Cível",
-   "qtd": 197094
+   "qtd": 78927
   },
   {
    "nome": "Apelação Cível",
-   "qtd": 181223
+   "qtd": 72543
   },
   {
    "nome": "Agravo de Instrumento",
-   "qtd": 117034
+   "qtd": 46713
   },
   {
    "nome": "Cumprimento de sentença",
-   "qtd": 84223
+   "qtd": 33790
   },
   {
    "nome": "Carta Precatória Cível",
-   "qtd": 36475
+   "qtd": 14840
   },
   {
    "nome": "Apelação / Remessa Necessária",
-   "qtd": 32623
+   "qtd": 13122
   },
   {
    "nome": "Remessa Necessária Cível",
-   "qtd": 30390
+   "qtd": 12172
   },
   {
    "nome": "Execução de Título Extrajudicial",
-   "qtd": 18740
+   "qtd": 7428
   },
   {
    "nome": "Ação Penal - Procedimento Ordinário",
-   "qtd": 18144
+   "qtd": 7389
   },
   {
    "nome": "Inquérito Policial",
-   "qtd": 17375
+   "qtd": 7034
   }
  ],
  "assuntos": [
   {
    "nome": "Auxílio por Incapacidade Temporária",
-   "qtd": 1035050
+   "qtd": 1294255
   },
   {
    "nome": "Deficiente",
-   "qtd": 841235
+   "qtd": 1051352
   },
   {
    "nome": "Aposentadoria por Incapacidade Permanente",
-   "qtd": 566835
+   "qtd": 708170
   },
   {
    "nome": "Rural (Art. 48/51)",
-   "qtd": 365812
+   "qtd": 457247
   },
   {
    "nome": "Dívida Ativa (Execução Fiscal)",
-   "qtd": 315471
+   "qtd": 394177
   },
   {
    "nome": "Idoso",
-   "qtd": 269762
+   "qtd": 337498
   },
   {
    "nome": "Concessão",
-   "qtd": 169430
+   "qtd": 211884
   },
   {
    "nome": "Pensão por Morte (Art. 74/9)",
-   "qtd": 165320
+   "qtd": 206823
   },
   {
    "nome": "Salário-Maternidade (Art. 71/73)",
-   "qtd": 153819
+   "qtd": 192611
   },
   {
    "nome": "Restabelecimento",
-   "qtd": 129335
+   "qtd": 161803
   },
   {
    "nome": "Aposentadoria por Tempo de Contribuição (Art. 55/6)",
-   "qtd": 124442
+   "qtd": 155380
   },
   {
    "nome": "Parcelas de benefício não pagas",
-   "qtd": 99545
+   "qtd": 124799
   },
   {
    "nome": "Rural (art. 59/63)",
-   "qtd": 95065
+   "qtd": 118727
   },
   {
    "nome": "Incapacidade Laborativa Permanente",
-   "qtd": 86229
+   "qtd": 107607
   },
   {
    "nome": "Indenização por Dano Material",
-   "qtd": 75066
+   "qtd": 93915
   }
  ],
  "orgaos": [
   {
-   "nome": "9ª Vara Federal",
-   "qtd": 76843
+   "nome": "7ª Vara Federal",
+   "qtd": 153591
   },
   {
-   "nome": "7ª Vara Federal",
-   "qtd": 76685
+   "nome": "9ª Vara Federal",
+   "qtd": 153419
   },
   {
    "nome": "6ª Vara Federal",
-   "qtd": 65095
+   "qtd": 130660
   },
   {
    "nome": "14ª Vara Federal",
-   "qtd": 64142
+   "qtd": 128194
   },
   {
    "nome": "13ª Vara Federal",
-   "qtd": 61486
+   "qtd": 122946
   },
   {
    "nome": "5ª Vara Federal",
-   "qtd": 60313
+   "qtd": 121775
   },
   {
    "nome": "12ª Vara Federal",
-   "qtd": 48253
+   "qtd": 95463
   },
   {
    "nome": "15ª Vara Federal",
-   "qtd": 45831
+   "qtd": 90767
   },
   {
    "nome": "11ª Vara Federal",
-   "qtd": 44042
+   "qtd": 87607
   },
   {
    "nome": "3ª Vara Federal",
-   "qtd": 41385
+   "qtd": 82925
   },
   {
    "nome": "3ª Relatoria da Turma Recursal",
-   "qtd": 36235
+   "qtd": 72191
   },
   {
    "nome": "1ª Relatoria da Turma Recursal",
-   "qtd": 36205
+   "qtd": 71577
   },
   {
    "nome": "2ª Relatoria da Turma Recursal",
-   "qtd": 35509
+   "qtd": 71236
   },
   {
    "nome": "1ª Vara Federal",
-   "qtd": 32262
+   "qtd": 64905
   },
   {
-   "nome": "19ª Vara Federal",
-   "qtd": 32182
+   "nome": "8ª Vara Federal",
+   "qtd": 64674
   }
  ],
- "total": 4482241,
+ "total": 7469771,
  "mensal": [],
  "erros": {},
- "atualizado_em": "2026-11-19T17:48:19+00:00"
+ "atualizado_em": "2026-11-23T20:41:46+00:00"
 }

@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-23T19:04:39+00:00",
+ "gerado_em": "2026-11-24T15:05:20+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "tribunais": [
   {
@@ -7,12 +7,12 @@
    "sigla": "STJ",
    "nome": "Superior Tribunal de Justiça",
    "ramo": "Superiores",
-   "total": 3730541,
+   "total": 1242019,
    "pct_eletronico": 100.0,
    "classe_principal": "Agravo em Recurso Especial",
    "ultimo_mes": "2025-03",
    "ultimo_ano": null,
-   "atualizado_em": "2026-11-19T14:26:01+00:00",
+   "atualizado_em": "2026-11-23T16:40:25+00:00",
    "partes": [
     "assuntos",
     "classes",
@@ -34,7 +34,7 @@
    "classe_principal": "Agravo de Instrumento em Recurso de Revista",
    "ultimo_mes": null,
    "ultimo_ano": null,
-   "atualizado_em": "2026-11-19T14:33:19+00:00",
+   "atualizado_em": "2026-11-23T17:27:22+00:00",
    "partes": [
     "assuntos",
     "classes",
@@ -56,7 +56,7 @@
    "classe_principal": "Direitos Políticos",
    "ultimo_mes": "2024-12",
    "ultimo_ano": null,
-   "atualizado_em": "2026-11-19T14:59:45+00:00",
+   "atualizado_em": "2026-11-23T18:03:49+00:00",
    "partes": [
     "assuntos",
     "classes",
@@ -78,7 +78,7 @@
    "classe_principal": "Ação Penal Militar - Procedimento Ordinário",
    "ultimo_mes": null,
    "ultimo_ano": null,
-   "atualizado_em": "2026-11-19T15:17:50+00:00",
+   "atualizado_em": "2026-11-23T18:38:30+00:00",
    "partes": [
     "assuntos",
     "classes",
@@ -95,12 +95,12 @@
    "sigla": "TRF1",
    "nome": "Tribunal Regional Federal da 1ª Região",
    "ramo": "Federal",
-   "total": 7432971,
+   "total": 1858114,
    "pct_eletronico": 100.0,
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": null,
    "ultimo_ano": null,
-   "atualizado_em": "2026-11-19T15:40:01+00:00",
+   "atualizado_em": "2026-11-23T19:05:31+00:00",
    "partes": [
     "assuntos",
     "classes",
@@ -122,11 +122,12 @@
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": null,
    "ultimo_ano": null,
-   "atualizado_em": "2026-11-19T16:01:11+00:00",
+   "atualizado_em": "2026-11-23T19:30:08+00:00",
    "partes": [
     "assuntos",
     "classes",
     "formatos",
+    "graus",
     "mensal",
     "orgaos",
     "sistemas",
@@ -143,8 +144,9 @@
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": null,
    "ultimo_ano": null,
-   "atualizado_em": "2026-11-19T16:34:59+00:00",
+   "atualizado_em": "2026-11-23T20:07:12+00:00",
    "partes": [
+    "assuntos",
     "classes",
     "formatos",
     "graus",
@@ -164,13 +166,15 @@
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": null,
    "ultimo_ano": null,
-   "atualizado_em": "2026-11-19T17:14:38+00:00",
+   "atualizado_em": "2026-11-23T20:23:34+00:00",
    "partes": [
+    "assuntos",
     "classes",
     "formatos",
     "graus",
     "mensal",
     "orgaos",
+    "sistemas",
     "total"
    ]
   },
@@ -179,12 +183,12 @@
    "sigla": "TRF5",
    "nome": "Tribunal Regional Federal da 5ª Região",
    "ramo": "Federal",
-   "total": 4482241,
+   "total": 7469771,
    "pct_eletronico": 100.0,
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": null,
    "ultimo_ano": null,
-   "atualizado_em": "2026-11-19T17:48:19+00:00",
+   "atualizado_em": "2026-11-23T20:41:46+00:00",
    "partes": [
     "assuntos",
     "classes",
@@ -206,13 +210,14 @@
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": "2024-12",
    "ultimo_ano": null,
-   "atualizado_em": "2026-11-19T18:22:29+00:00",
+   "atualizado_em": "2026-11-23T21:14:50+00:00",
    "partes": [
     "assuntos",
     "classes",
     "graus",
     "mensal",
     "orgaos",
+    "sistemas",
     "total"
    ]
   },
@@ -223,11 +228,13 @@
    "ramo": "Estadual",
    "total": 1002060,
    "pct_eletronico": 99.9,
-   "classe_principal": null,
+   "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": null,
    "ultimo_ano": null,
-   "atualizado_em": "2026-11-18T16:18:03+00:00",
+   "atualizado_em": "2026-11-23T16:00:07+00:00",
    "partes": [
+    "assuntos",
+    "classes",
     "formatos",
     "graus",
     "orgaos",

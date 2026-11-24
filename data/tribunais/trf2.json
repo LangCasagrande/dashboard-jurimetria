@@ -4,13 +4,14 @@
  "nome": "Tribunal Regional Federal da 2ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "formatos": "2026-11-19T15:50:12+00:00",
-  "sistemas": "2026-11-19T15:51:13+00:00",
-  "classes": "2026-11-19T15:51:40+00:00",
-  "assuntos": "2026-11-19T15:55:45+00:00",
-  "orgaos": "2026-11-19T15:56:25+00:00",
-  "total": "2026-11-19T15:59:31+00:00",
-  "mensal": "2026-11-19T16:01:11+00:00"
+  "formatos": "2026-11-23T19:09:13+00:00",
+  "sistemas": "2026-11-23T19:10:18+00:00",
+  "classes": "2026-11-23T19:19:04+00:00",
+  "assuntos": "2026-11-23T19:19:36+00:00",
+  "orgaos": "2026-11-23T19:29:08+00:00",
+  "total": "2026-11-23T19:29:37+00:00",
+  "mensal": "2026-11-23T19:30:08+00:00",
+  "graus": "2026-11-23T19:08:15+00:00"
  },
  "formatos": [
   {
@@ -281,8 +282,28 @@
    "qtd": 2
   }
  ],
- "erros": {
-  "graus": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
- },
- "atualizado_em": "2026-11-19T16:01:11+00:00"
+ "erros": {},
+ "atualizado_em": "2026-11-23T19:30:08+00:00",
+ "graus": [
+  {
+   "nome": "JE",
+   "qtd": 1894429
+  },
+  {
+   "nome": "G1",
+   "qtd": 1676331
+  },
+  {
+   "nome": "G2",
+   "qtd": 487492
+  },
+  {
+   "nome": "TR",
+   "qtd": 434980
+  },
+  {
+   "nome": "TRU",
+   "qtd": 2040
+  }
+ ]
 }
