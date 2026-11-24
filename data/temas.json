@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T18:13:31+00:00",
+ "gerado_em": "2026-11-24T18:22:23+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "temas": {
   "cp-157": {
@@ -25,6 +25,62 @@
       "9678": 226
      },
      "coletado_em": "2026-11-24T17:44:24+00:00"
+    },
+    {
+     "alias": "tjce",
+     "sigla": "TJCE",
+     "nome": "Tribunal de Justiça do Ceará",
+     "ramo": "Estadual",
+     "total": 130060,
+     "por_assunto": {
+      "3419": 62002,
+      "5566": 64566,
+      "5567": 4463,
+      "9678": 338
+     },
+     "coletado_em": "2026-11-24T18:20:22+00:00"
+    },
+    {
+     "alias": "tjam",
+     "sigla": "TJAM",
+     "nome": "Tribunal de Justiça do Amazonas",
+     "ramo": "Estadual",
+     "total": 48284,
+     "por_assunto": {
+      "3419": 19676,
+      "5566": 19622,
+      "5567": 1839,
+      "9678": 7377
+     },
+     "coletado_em": "2026-11-24T18:16:08+00:00"
+    },
+    {
+     "alias": "tjba",
+     "sigla": "TJBA",
+     "nome": "Tribunal de Justiça da Bahia",
+     "ramo": "Estadual",
+     "total": 30653,
+     "por_assunto": {
+      "3419": 13760,
+      "5566": 15293,
+      "5567": 1294,
+      "9678": 629
+     },
+     "coletado_em": "2026-11-24T18:19:12+00:00"
+    },
+    {
+     "alias": "tjes",
+     "sigla": "TJES",
+     "nome": "Tribunal de Justiça do Espírito Santo",
+     "ramo": "Estadual",
+     "total": 29721,
+     "por_assunto": {
+      "3419": 10402,
+      "5566": 18165,
+      "5567": 1360,
+      "9678": 61
+     },
+     "coletado_em": "2026-11-24T18:22:23+00:00"
     },
     {
      "alias": "tjal",
@@ -67,6 +123,34 @@
       "9678": 0
      },
      "coletado_em": "2026-11-24T17:54:03+00:00"
+    },
+    {
+     "alias": "tjap",
+     "sigla": "TJAP",
+     "nome": "Tribunal de Justiça do Amapá",
+     "ramo": "Estadual",
+     "total": 9869,
+     "por_assunto": {
+      "3419": 4237,
+      "5566": 5360,
+      "5567": 356,
+      "9678": 14
+     },
+     "coletado_em": "2026-11-24T18:17:29+00:00"
+    },
+    {
+     "alias": "tjdft",
+     "sigla": "TJDFT",
+     "nome": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+     "ramo": "Estadual",
+     "total": 7464,
+     "por_assunto": {
+      "3419": 2392,
+      "5566": 4929,
+      "5567": 341,
+      "9678": 11
+     },
+     "coletado_em": "2026-11-24T18:21:24+00:00"
     },
     {
      "alias": "trf4",
