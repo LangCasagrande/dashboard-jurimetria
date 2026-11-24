@@ -19,10 +19,17 @@ Projeto de portfólio (legal tech): dashboard com estatísticas de processos jud
 - `hits.total` limita em 10000 (`relation: gte`) a menos que se use `track_total_hits: true`.
 - Campos do processo: `numeroProcesso`, `tribunal`, `grau` (G1, G2, JE…), `dataAjuizamento` (string `yyyyMMddHHmmss`), `classe{codigo,nome}`, `assuntos[]{codigo,nome}`, `orgaoJulgador{codigo,nome,codigoMunicipioIBGE}`, `sistema{codigo,nome}`, `formato{codigo,nome}`, `nivelSigilo`, `dataHoraUltimaAtualizacao`, `movimentos[]{codigo,nome,dataHora,complementosTabelados[]}`.
 
-## Onde paramos (2026-11-18)
-- Nenhum código escrito ainda. Decidido: **Python na nuvem, sem instalar nada no PC** — coletor em Python rodando no GitHub Actions; desenvolvimento numa sessão do Claude Code na nuvem. O usuário já tem conta no GitHub.
-- Pendente: criar o repositório no GitHub, fazer o primeiro push e testar se o DataJud aceita conexões de servidores fora do Brasil (runners do GitHub).
-- Arquivos pessoais (currículos em PDF) não pertencem a esta pasta; `.gitignore` bloqueia `*.pdf` por segurança.
+## Estado atual (2026-11-23)
+- Site estático completo: página inicial + 6 ferramentas (`jurimetria/`, `prazos/`, `documentos/`, `contratos/`, `legislacao/`, `lgpd/`) + `sobre/` (metodologia). Código compartilhado em `assets/` (`common.js` monta cabeçalho/rodapé/tema; `ia.js` chama a API da Anthropic com a chave do usuário).
+- `jurimetria/`: três visões por hash (`#panorama`, `#tribunal/<alias>`, `#comparar/<a,b,c>`); gráficos SVG próprios em `graficos.js` (sem biblioteca); paleta categórica validada para daltonismo em `jurimetria.css`.
+- Coletor roda diariamente no GitHub Actions; 90 de 91 tribunais têm dados (tre-dft ainda vazio).
+- **Datas em dois formatos (hipótese forte, 2026-11-23):** a primeira coleta mensal (filtro ISO `now-36M`) voltou vazia em ~70 tribunais (TJMG, TJPR, TRF1–5…). Explicação provável: parte dos registros tem `dataAjuizamento` compacto `yyyyMMddHHmmss`, que o índice lê como epoch_millis → ano ~2600 (19850101000000 ms = ano 2599, as "datas absurdas"). O coletor agora soma, na mesma consulta, um `date_histogram` das datas ISO (filtro de período) e uma agregação `range` numérica com as faixas compactas (`_corpo_datas`/`_somar_datas`), para `anual` (desde 2000) e `mensal` (36 meses; janela termina no último ano com dados se a base parou). Índice traz `ultimo_mes`/`ultimo_ano`. **Confirmar após a próxima execução do Actions** (esta sessão na nuvem não alcança a API); se a agregação `range` em campo date der 400, trocar por `date_range` com números (epoch ms).
+- Testes do coletor: `python -m unittest discover -s coletor` (FakeES simula os dois formatos). CI em `.github/workflows/testes.yml`.
+- Compartilhamento: `assets/og.png` (1200×630, gerada a partir de HTML) + tags Open Graph/canonical em todas as páginas, `robots.txt` e `sitemap.xml` apontando para `https://langcasagrande.github.io/dashboard-jurimetria/` (trocar se usar domínio próprio).
+- SDK da Anthropic fixado em `@anthropic-ai/sdk@1.6.0` (`assets/js/ia.js`): versões com pelo menos 2 semanas de publicação; API conferida contra a 1.4.0.
+- `tre-dft` responde 404 (índice inexistente na API); conferir o alias certo na wiki do DataJud.
+- Ainda não publicado. Nome do site: **JusLab.IA**, subtítulo "dados e tecnologia para o Direito" (escolhido em 2026-11-23; antes era "Laboratório de Legal Tech"). Ao mudar o nome, atualizar também `assets/og.png` (gerada de HTML), as tags og:* e o PRODID do .ics em `prazos/prazos.js`.
+- Arquivos pessoais (currículos em PDF) não pertencem a esta pasta; `.gitignore` bloqueia `*.pdf` e `*.docx`.
 
 ## Ambiente local
 - Windows; sem Python, Node ou winget instalados (2026-11-18). Git 2.55 disponível. PowerShell 5.1 falha em caminhos longos (>260 chars) e teve conexão fechada pelo servidor do DataJud; `curl` do Git Bash funcionou.

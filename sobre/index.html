@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre o projeto</title>
+  <meta name="description" content="Como o JusLab.IA foi construído: arquitetura, metodologia da jurimetria com dados do DataJud (CNJ), limitações dos dados e privacidade.">
+  <link rel="canonical" href="https://langcasagrande.github.io/dashboard-jurimetria/sobre/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="JusLab.IA">
+  <meta property="og:title" content="Sobre o projeto · JusLab.IA">
+  <meta property="og:description" content="Como o JusLab.IA foi construído: arquitetura, metodologia da jurimetria com dados do DataJud (CNJ), limitações dos dados e privacidade.">
+  <meta property="og:url" content="https://langcasagrande.github.io/dashboard-jurimetria/sobre/">
+  <meta property="og:image" content="https://langcasagrande.github.io/dashboard-jurimetria/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="JusLab.IA: jurimetria com dados públicos do CNJ">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>try{const t=localStorage.getItem('tema');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .prosa { max-width: 780px; }
+    .prosa h2 { margin-top: 2rem; scroll-margin-top: 80px; }
+    .prosa ul, .prosa ol { padding-left: 1.3rem; }
+    .prosa li { margin-bottom: .4rem; }
+    .fluxo { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin: 1rem 0; }
+    .fluxo div { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: .7rem .8rem; font-size: .86rem; }
+    .fluxo strong { display: block; margin-bottom: .2rem; }
+    @media (max-width: 760px) { .fluxo { grid-template-columns: minmax(0, 1fr); } }
+    .indice-pagina { display: flex; flex-wrap: wrap; gap: .4rem; margin: .5rem 0 0; padding: 0; list-style: none; }
+    .indice-pagina a { font-size: .85rem; padding: .25rem .6rem; border-radius: 999px; background: var(--surface-2); text-decoration: none; }
+  </style>
+</head>
+<body data-base="../" data-page="sobre">
+  <main class="prosa">
+    <section class="page-head">
+      <h1>Sobre o projeto</h1>
+      <p>O JusLab.IA (dados e tecnologia para o Direito) reúne seis ferramentas jurídicas abertas, construídas como projeto de estudo e portfólio na interseção entre Direito e tecnologia. Todas funcionam direto no navegador, sem cadastro.</p>
+      <ul class="indice-pagina">
+        <li><a href="#ferramentas">Ferramentas</a></li>
+        <li><a href="#arquitetura">Como funciona</a></li>
+        <li><a href="#metodologia">Metodologia da jurimetria</a></li>
+        <li><a href="#limitacoes">Limitações dos dados</a></li>
+        <li><a href="#privacidade">Privacidade</a></li>
+        <li><a href="#tecnologia">Tecnologia</a></li>
+      </ul>
+    </section>
+
+    <h2 id="ferramentas">Ferramentas</h2>
+    <ul>
+      <li><a href="../jurimetria/">Dashboard de jurimetria</a>: estatísticas de 90 tribunais brasileiros com dados públicos do CNJ, com panorama nacional, detalhe por tribunal e comparação.</li>
+      <li><a href="../prazos/">Calculadora de prazos</a>: contagem em dias úteis conforme o CPC, com feriados, recesso forense e prazo em dobro.</li>
+      <li><a href="../documentos/">Gerador de documentos</a>: procuração, contrato de honorários, notificação extrajudicial e declaração de hipossuficiência.</li>
+      <li><a href="../contratos/">Analisador de contratos</a>: regras que apontam cláusulas de risco, com análise opcional por IA.</li>
+      <li><a href="../legislacao/">Assistente de legislação</a>: perguntas em linguagem simples, respondidas com o artigo de lei e o link para o Planalto.</li>
+      <li><a href="../lgpd/">Kit LGPD</a>: checklist de adequação com nota de maturidade e gerador de política de privacidade.</li>
+    </ul>
+
+    <h2 id="arquitetura">Como funciona</h2>
+    <p>A API Pública do DataJud não pode ser chamada direto do navegador: ela não envia os cabeçalhos CORS e cada consulta leva de 30 a 55 segundos. Por isso os números do dashboard são calculados antes, por um coletor automático.</p>
+    <div class="fluxo" aria-label="Fluxo dos dados">
+      <div><strong>1. DataJud (CNJ)</strong>API pública em Elasticsearch, um índice por tribunal.</div>
+      <div><strong>2. Coletor em Python</strong>Roda toda madrugada no GitHub Actions e faz consultas agregadas pequenas.</div>
+      <div><strong>3. Arquivos JSON</strong>Resultados salvos no repositório, um arquivo por tribunal.</div>
+      <div><strong>4. Site estático</strong>HTML e JavaScript leem os JSON e desenham os gráficos.</div>
+    </div>
+    <p>A API é instável: fila cheia (HTTP 429) e corte do balanceador em 60 segundos (HTTP 504) são frequentes. O coletor faz cada estatística em uma consulta separada, tenta de novo com espera crescente, prioriza os tribunais com dados mais antigos e, quando uma consulta falha, mantém o número da coleta anterior em vez de apagá-lo.</p>
+
+    <h2 id="metodologia">Metodologia da jurimetria</h2>
+    <p>Para cada um dos 91 índices de tribunais do DataJud (tribunais superiores, TRFs, TJs, TRTs, TREs e tribunais de Justiça Militar), o coletor calcula:</p>
+    <ul>
+      <li><strong>Total de processos</strong>: contagem exata dos registros do índice (<code>track_total_hits</code>).</li>
+      <li><strong>Classes, assuntos e órgãos julgadores</strong>: os 15 valores mais frequentes (agregação <code>terms</code>), pelos nomes das Tabelas Processuais Unificadas do CNJ.</li>
+      <li><strong>Grau, sistema e formato</strong>: distribuição por grau de jurisdição (1º grau, 2º grau, Juizado Especial, Turma Recursal…), por sistema processual (PJe, SAJ, eproc, Projudi…) e por formato (eletrônico ou físico).</li>
+      <li><strong>Ajuizamentos por ano e por mês</strong>: contagens pela data de ajuizamento, somando os dois formatos de data da base (veja Limitações). A série anual começa em 2000. A mensal cobre os 36 meses mais recentes que têm dados naquele tribunal.</li>
+    </ul>
+    <p>No panorama nacional, o percentual de processos eletrônicos é uma média ponderada pelo volume de cada tribunal. A comparação entre tribunais pode usar números absolutos ou um índice em que a média do próprio tribunal vale 100. O índice permite comparar a tendência de um tribunal pequeno com a de um grande.</p>
+
+    <h2 id="limitacoes">Limitações dos dados</h2>
+    <ul>
+      <li><strong>As datas de ajuizamento vêm em dois formatos.</strong> Parte dos registros traz a data como texto (<code>2024-01-15T00:00:00</code>), que a base entende como data. Outra parte traz o formato compacto <code>20240115000000</code>, que a base lê como milissegundos desde 1970, o que joga o processo para o ano 2611. É por isso que aparecem "datas absurdas" (1985 vira 2599). O coletor conta os dois formatos separadamente e soma os resultados.</li>
+      <li><strong>A base pública não está igualmente atualizada em todos os tribunais.</strong> Mesmo considerando os dois formatos, a série de alguns tribunais termina antes da data da coleta. O painel mostra até quando vai a base de cada tribunal e trata o último mês com dados como provavelmente incompleto.</li>
+      <li><strong>A soma nacional é aproximada.</strong> Um mesmo caso pode aparecer em mais de um tribunal, por exemplo quando sobe em recurso.</li>
+      <li><strong>Um processo pode ter vários assuntos.</strong> Por isso a soma dos assuntos passa do total de processos.</li>
+      <li><strong>Há valores inconsistentes na origem</strong>, como a classe ou o sistema "Inválido". Os gráficos mostram os dados como vieram.</li>
+      <li><strong>Os nomes de órgãos julgadores não são padronizados</strong> entre tribunais ("Vara Única" e "Vara Unica" aparecem como órgãos distintos).</li>
+      <li>São <strong>metadados processuais</strong>, sem partes nem conteúdo das decisões. Não dá para medir taxa de sucesso, valor de condenação ou tempo até a sentença só com eles.</li>
+    </ul>
+    <p>Fonte: Base Nacional de Dados do Poder Judiciário (DataJud), disponibilizada pelo Conselho Nacional de Justiça nos termos da Portaria CNJ nº 160/2020. Os dados de cada tribunal podem ser baixados em JSON ou CSV na página do tribunal.</p>
+
+    <h2 id="privacidade">Privacidade</h2>
+    <p>O site não tem servidor próprio nem banco de dados. O que você digita nas ferramentas (prazos, documentos, contratos, checklist da LGPD) fica no seu navegador. Os recursos de IA são opcionais e usam a sua própria chave da API da Anthropic: o navegador fala direto com a API, sem passar por nenhum intermediário. O dashboard usa apenas dados públicos e agregados, sem informação de partes.</p>
+
+    <h2 id="tecnologia">Tecnologia</h2>
+    <ul>
+      <li>Coletor: Python 3, só com a biblioteca padrão, agendado no GitHub Actions.</li>
+      <li>Site: HTML, CSS e JavaScript puros, sem framework e sem etapa de build; gráficos desenhados em SVG, com tema claro e escuro, versão em tabela de cada gráfico e cores testadas para daltonismo.</li>
+      <li>IA: modelos Claude, da Anthropic, chamados do navegador com a chave do próprio usuário.</li>
+      <li>Hospedagem: compatível com GitHub Pages (site estático).</li>
+    </ul>
+    <p>Código aberto no <a href="https://github.com/LangCasagrande/dashboard-jurimetria">GitHub</a>.</p>
+
+    <div class="notice">As ferramentas são educacionais e de apoio. Não substituem a análise de um advogado nem a consulta às normas e ao calendário oficial de cada tribunal.</div>
+  </main>
+  <script src="../assets/js/common.js"></script>
+</body>
+</html>

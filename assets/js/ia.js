@@ -1,6 +1,6 @@
 // Recursos de IA (Claude) com a chave da própria pessoa, direto do navegador.
 // A chave nunca passa por um servidor nosso: o navegador fala direto com a API da Anthropic.
-const SDK_URL = 'https://cdn.jsdelivr.net/npm/@anthropic-ai/sdk@1.4.0/+esm';
+const SDK_URL = 'https://cdn.jsdelivr.net/npm/@anthropic-ai/sdk@1.6.0/+esm';
 export const MODEL = 'claude-opus-5-5';
 const FALLBACK_BETA = 'server-side-fallback-2026-07-01';
 const KEY_STORAGE = 'anthropic-api-key';
@@ -20,7 +20,8 @@ export function setKey(key, remember) {
 }
 
 async function sdk() {
-  if (!sdkPromise) sdkPromise = import(SDK_URL).then(m => m.default || m.Anthropic);
+  // Se o carregamento falhar (rede, bloqueador), esquece a promessa para tentar de novo na próxima vez.
+  if (!sdkPromise) sdkPromise = import(SDK_URL).then(m => m.default || m.Anthropic).catch(e => { sdkPromise = null; throw e; });
   return sdkPromise;
 }
 
@@ -49,7 +50,7 @@ export async function explainError(err) {
     if (err instanceof A.APIConnectionError) return 'Não foi possível conectar à API da Anthropic. Verifique sua internet.';
     if (err instanceof A.APIError) return `Erro da API (${err.status ?? '?'}): ${err.message}`;
   }
-  if (String(err?.message || '').includes('import')) return 'Não foi possível carregar a biblioteca da Anthropic (verifique sua conexão ou bloqueadores).';
+  if (/import|module script|dynamically imported/i.test(String(err?.message || ''))) return 'Não foi possível carregar a biblioteca da Anthropic (verifique sua conexão ou bloqueadores).';
   return err?.message || String(err);
 }
 

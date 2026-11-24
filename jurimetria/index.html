@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard de Jurimetria</title>
+  <meta name="description" content="Estatísticas de processos de 90 tribunais brasileiros com dados públicos do CNJ (DataJud): volume, ajuizamentos por ano e por mês, classes, assuntos, órgãos julgadores e comparação entre tribunais.">
+  <link rel="canonical" href="https://langcasagrande.github.io/dashboard-jurimetria/jurimetria/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="JusLab.IA">
+  <meta property="og:title" content="Dashboard de Jurimetria · JusLab.IA">
+  <meta property="og:description" content="Estatísticas de processos de 90 tribunais brasileiros com dados públicos do CNJ (DataJud): volume, ajuizamentos por ano e por mês, classes, assuntos, órgãos julgadores e comparação entre tribunais.">
+  <meta property="og:url" content="https://langcasagrande.github.io/dashboard-jurimetria/jurimetria/">
+  <meta property="og:image" content="https://langcasagrande.github.io/dashboard-jurimetria/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="JusLab.IA: jurimetria com dados públicos do CNJ">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>try{const t=localStorage.getItem('tema');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="jurimetria.css">
+</head>
+<body data-base="../" data-page="jurimetria">
+  <main>
+    <section class="page-head">
+      <h1>Dashboard de jurimetria</h1>
+      <p>Estatísticas de processos judiciais de todo o país, calculadas a partir da API Pública do DataJud, a base nacional do CNJ. Veja o panorama nacional, abra um tribunal para ver os detalhes ou compare até quatro tribunais.</p>
+      <p class="muted" id="frescor"></p>
+    </section>
+
+    <nav class="abas" aria-label="Visões do dashboard">
+      <a href="#panorama" data-aba="panorama">Panorama nacional</a>
+      <a href="#tribunal" data-aba="tribunal">Por tribunal</a>
+      <a href="#comparar" data-aba="comparar">Comparar tribunais</a>
+    </nav>
+
+    <div id="app" aria-live="polite"><p class="carregando"><span class="spinner"></span> Carregando dados…</p></div>
+
+    <div class="notice">
+      <strong>Como ler estes números.</strong> Os totais contam registros de processos enviados por cada tribunal ao DataJud; um mesmo caso pode aparecer em mais de um tribunal (por exemplo, ao subir em recurso), por isso a soma nacional é uma aproximação. Os meses mais recentes costumam crescer depois, porque os tribunais enviam dados com atraso. Detalhes em <a href="../sobre/#metodologia">Metodologia</a>.
+    </div>
+  </main>
+  <script src="../assets/js/common.js"></script>
+  <script src="graficos.js"></script>
+  <script src="jurimetria.js"></script>
+</body>
+</html>

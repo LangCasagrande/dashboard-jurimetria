@@ -1,4 +1,4 @@
-// Laboratório de Legal Tech — cabeçalho, tema e utilitários compartilhados.
+// JusLab.IA — cabeçalho, tema e utilitários compartilhados.
 (function () {
   const base = document.body.dataset.base || './';
   const page = document.body.dataset.page || 'inicio';
@@ -11,7 +11,16 @@
     { id: 'contratos', href: 'contratos/', label: 'Contratos' },
     { id: 'legislacao', href: 'legislacao/', label: 'Legislação' },
     { id: 'lgpd', href: 'lgpd/', label: 'LGPD' },
+    { id: 'sobre', href: 'sobre/', label: 'Sobre' },
   ];
+
+  // Ícone da aba (o mesmo "§" da marca), sem precisar de arquivo de imagem.
+  if (!document.querySelector('link[rel="icon"]')) {
+    const icon = document.createElement('link');
+    icon.rel = 'icon';
+    icon.href = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="#1f4e8c"/><text x="16" y="23" font-size="20" text-anchor="middle" fill="#fff" font-family="Georgia,serif">§</text></svg>');
+    document.head.append(icon);
+  }
 
   // Tema: segue o sistema; o botão alterna e lembra a escolha neste navegador.
   const root = document.documentElement;
@@ -30,7 +39,7 @@
     <div class="topbar-inner">
       <a class="brand" href="${base}">
         <span class="brand-mark" aria-hidden="true">§</span>
-        <span class="brand-text">Laboratório de Legal Tech</span>
+        <span class="brand-text">JusLab.IA<small>dados e tecnologia para o Direito</small></span>
       </a>
       <nav class="nav" aria-label="Ferramentas">
         ${TOOLS.map(t => `<a href="${base}${t.href}"${t.id === page ? ' aria-current="page"' : ''}>${t.label}</a>`).join('')}
@@ -38,6 +47,18 @@
       <button class="icon-btn" type="button" id="theme-toggle" aria-label="Alternar tema claro/escuro"></button>
     </div>`;
   document.body.prepend(header);
+
+  // Link "pular para o conteúdo" (aparece ao navegar com Tab).
+  const main = document.querySelector('main');
+  if (main) {
+    if (!main.id) main.id = 'conteudo';
+    const pular = document.createElement('a');
+    pular.className = 'pular';
+    pular.href = `#${main.id}`;
+    pular.textContent = 'Pular para o conteúdo';
+    pular.addEventListener('click', e => { e.preventDefault(); main.setAttribute('tabindex', '-1'); main.focus(); });
+    document.body.prepend(pular);
+  }
 
   const toggle = header.querySelector('#theme-toggle');
   function paintToggle() { toggle.textContent = currentTheme() === 'dark' ? '☀' : '☾'; }
@@ -54,7 +75,7 @@
   footer.className = 'footer';
   footer.innerHTML = `
     <p>Ferramentas educacionais de apoio. Não substituem a análise de um advogado nem a consulta ao calendário e às normas do tribunal.</p>
-    <p>Código aberto no <a href="https://github.com/LangCasagrande/dashboard-jurimetria">GitHub</a>.</p>`;
+    <p>Código aberto no <a href="https://github.com/LangCasagrande/dashboard-jurimetria">GitHub</a> · <a href="${base}sobre/">Sobre o projeto e metodologia</a>.</p>`;
   document.body.append(footer);
 
   // Utilitários usados pelas páginas

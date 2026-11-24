@@ -58,12 +58,26 @@ sugestoes();
 function md(texto) {
   const linhas = esc(texto).split('\n');
   let html = '', lista = null, para = [];
-  const inline = s => s
+  // Links e código são reconhecidos numa única passada; negrito/itálico só no texto comum.
+  // (Aplicar substituições em cadeia deixava o autolink reprocessar um href já montado e
+  // quebrar o atributo, o que permitia injetar atributos de evento vindos da resposta da IA.)
+  const enfase = s => s
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g, '$1<em>$2</em>')
-    .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
-    .replace(/(^|[\s(])(https?:\/\/[^\s<)]+)/g, '$1<a href="$2" target="_blank" rel="noopener">$2</a>')
-    .replace(/`([^`]+)`/g, '<code>$1</code>');
+    .replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g, '$1<em>$2</em>');
+  const URL_RE = 'https?:\\/\\/[^\\s()<>"\']+';
+  const TOKEN = new RegExp('`([^`]+)`|\\[([^\\]]+)\\]\\((' + URL_RE + ')\\)|(' + URL_RE + ')', 'g');
+  const link = (href, rotulo) => `<a href="${href}" target="_blank" rel="noopener">${rotulo}</a>`;
+  const inline = s => {
+    let out = '', i = 0;
+    for (const m of s.matchAll(TOKEN)) {
+      out += enfase(s.slice(i, m.index));
+      if (m[1] != null) out += `<code>${m[1]}</code>`;
+      else if (m[2] != null) out += link(m[3], enfase(m[2]));
+      else out += link(m[4], m[4]);
+      i = m.index + m[0].length;
+    }
+    return out + enfase(s.slice(i));
+  };
   const fechaPara = () => { if (para.length) { html += `<p>${inline(para.join(' '))}</p>`; para = []; } };
   const fechaLista = () => { if (lista) { html += `</${lista}>`; lista = null; } };
   for (const l of linhas) {

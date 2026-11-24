@@ -24,7 +24,8 @@
     if (c.type === 'checkbox') return `<label class="check"><input type="checkbox" id="${id}" data-campo="${c.id}"${val ? ' checked' : ''}> ${esc(c.label)}</label>`;
     if (c.type === 'textarea') return `<label for="${id}">${esc(c.label)}${hint}</label><textarea id="${id}" data-campo="${c.id}" rows="3">${esc(val || '')}</textarea>`;
     if (c.type === 'select') return `<label for="${id}">${esc(c.label)}</label><select id="${id}" data-campo="${c.id}">${c.options.map(([v, l]) => `<option value="${v}"${v === val ? ' selected' : ''}>${esc(l)}</option>`).join('')}</select>`;
-    const type = c.type === 'number' ? 'number" step="any" min="0' : c.type === 'date' ? 'date' : 'text';
+    // Números como texto: aceita o formato brasileiro (1.234,56), que um input type=number recusaria.
+    const type = c.type === 'number' ? 'text" inputmode="decimal" autocomplete="off' : c.type === 'date' ? 'date' : 'text';
     return `<label for="${id}">${esc(c.label)}${hint}</label><input type="${type}" id="${id}" data-campo="${c.id}" value="${esc(val ?? '')}">`;
   }
 
@@ -39,9 +40,22 @@
     renderizar();
   }
 
+  // "1.234,56" -> "1234.56"; "1.000" -> "1000"; "1000.5" -> "1000.5"; vazio ou inválido -> "".
+  function numeroBR(texto) {
+    let t = String(texto || '').replace(/[R$\s%]/g, '');
+    if (!t) return '';
+    if (t.includes(',')) t = t.replace(/\./g, '').replace(',', '.');
+    else if (/^\d{1,3}(\.\d{3})+$/.test(t)) t = t.replace(/\./g, '');
+    return /^\d+(\.\d+)?$/.test(t) ? t : '';
+  }
+
   function lerValores() {
     const f = {};
-    document.querySelectorAll('[data-campo]').forEach(el => { f[el.dataset.campo] = el.type === 'checkbox' ? el.checked : el.value; });
+    const numericos = new Set(modeloAtual().campos.filter(c => c.type === 'number').map(c => c.id));
+    document.querySelectorAll('[data-campo]').forEach(el => {
+      const id = el.dataset.campo;
+      f[id] = el.type === 'checkbox' ? el.checked : numericos.has(id) ? numeroBR(el.value) : el.value;
+    });
     return f;
   }
 

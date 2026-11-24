@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Analisador de Contratos</title>
   <meta name="description" content="Aponta cláusulas de risco em contratos (multa, juros, renovação automática, foro, arbitragem, limitação de responsabilidade) com fundamento legal e sugestão de redação.">
+  <link rel="canonical" href="https://langcasagrande.github.io/dashboard-jurimetria/contratos/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="JusLab.IA">
+  <meta property="og:title" content="Analisador de Contratos · JusLab.IA">
+  <meta property="og:description" content="Aponta cláusulas de risco em contratos (multa, juros, renovação automática, foro, arbitragem, limitação de responsabilidade) com fundamento legal e sugestão de redação.">
+  <meta property="og:url" content="https://langcasagrande.github.io/dashboard-jurimetria/contratos/">
+  <meta property="og:image" content="https://langcasagrande.github.io/dashboard-jurimetria/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="JusLab.IA: jurimetria com dados públicos do CNJ">
+  <meta name="twitter:card" content="summary_large_image">
   <script>try{const t=localStorage.getItem('tema');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="stylesheet" href="../assets/css/style.css">
   <style>
@@ -18,9 +30,9 @@
     .finding.alto { border-left-color: var(--bad); } .finding.medio { border-left-color: var(--warn); }
     .finding.baixo { border-left-color: var(--primary); } .finding.info { border-left-color: var(--ok); }
     .finding h3 { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: .35rem; }
-    .finding blockquote { margin: .5rem 0; padding: .4rem .7rem; background: var(--surface-2); border-radius: 6px; font-size: .88rem; cursor: pointer; }
+    .finding blockquote { overflow-wrap: anywhere; margin: .5rem 0; padding: .4rem .7rem; background: var(--surface-2); border-radius: 6px; font-size: .88rem; cursor: pointer; }
     .finding .meta { font-size: .85rem; color: var(--muted); margin: .25rem 0 0; }
-    .marked { white-space: pre-wrap; font-size: .9rem; line-height: 1.7; max-height: 520px; overflow: auto; padding: 12px; background: var(--surface-2); border-radius: 8px; }
+    .marked { overflow-wrap: anywhere; white-space: pre-wrap; font-size: .9rem; line-height: 1.7; max-height: 520px; overflow: auto; padding: 12px; background: var(--surface-2); border-radius: 8px; }
     mark { border-radius: 3px; padding: 0 1px; color: inherit; }
     mark.alto { background: var(--bad-soft); outline: 1px solid var(--bad); }
     mark.medio { background: var(--warn-soft); outline: 1px solid var(--warn); }

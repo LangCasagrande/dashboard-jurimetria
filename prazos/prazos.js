@@ -46,6 +46,8 @@
       const m = l.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})\s*(.*)$/);
       if (!m) { erros.push(l); return; }
       const d = C.utc(+m[3], +m[2], +m[1]);
+      // Rejeita datas inexistentes (ex.: 31/02), que o Date "rolaria" para o mês seguinte.
+      if (d.getUTCDate() !== +m[1] || d.getUTCMonth() + 1 !== +m[2]) { erros.push(l); return; }
       map.set(C.key(d), m[4] || 'Feriado local / suspensão');
     });
     return { map, erros };
@@ -112,7 +114,7 @@
     const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+Z$/, 'Z');
     const titulo = `Vencimento: ${ato.dias ? ato.nome : 'prazo processual'}`;
     const ics = [
-      'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Laboratorio de Legal Tech//Prazos//PT-BR', 'BEGIN:VEVENT',
+      'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//JusLab.IA//Prazos//PT-BR', 'BEGIN:VEVENT',
       `UID:${ymd(r.vencimento)}-${Math.random().toString(36).slice(2)}@legaltech`, `DTSTAMP:${stamp}`,
       `DTSTART;VALUE=DATE:${ymd(r.vencimento)}`, `DTEND;VALUE=DATE:${ymd(fim)}`,
       `SUMMARY:${titulo}`, `DESCRIPTION:Prazo de ${r.total} dias. Início da contagem: ${LT.fmtDate(r.inicio)}.`,
