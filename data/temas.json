@@ -1,0 +1,88 @@
+{
+ "gerado_em": "2026-11-24T17:52:14+00:00",
+ "fonte": "API Pública do DataJud (CNJ)",
+ "temas": {
+  "cp-157": {
+   "nome": "Roubo (art. 157 do Código Penal)",
+   "assuntos": {
+    "3419": "Roubo",
+    "5566": "Roubo Majorado",
+    "5567": "Latrocínio",
+    "9678": "Roubo (art. 157)"
+   },
+   "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026.",
+   "tribunais": [
+    {
+     "alias": "stj",
+     "sigla": "STJ",
+     "nome": "Superior Tribunal de Justiça",
+     "ramo": "Superiores",
+     "total": 147058,
+     "por_assunto": {
+      "3419": 21556,
+      "5566": 118797,
+      "5567": 11935,
+      "9678": 226
+     },
+     "coletado_em": "2026-11-24T17:44:24+00:00"
+    },
+    {
+     "alias": "trf1",
+     "sigla": "TRF1",
+     "nome": "Tribunal Regional Federal da 1ª Região",
+     "ramo": "Federal",
+     "total": 914,
+     "por_assunto": {
+      "3419": 211,
+      "5566": 687,
+      "5567": 27,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T17:52:14+00:00"
+    },
+    {
+     "alias": "stm",
+     "sigla": "STM",
+     "nome": "Superior Tribunal Militar",
+     "ramo": "Superiores",
+     "total": 8,
+     "por_assunto": {
+      "3419": 4,
+      "5566": 3,
+      "5567": 1,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T17:51:35+00:00"
+    },
+    {
+     "alias": "tst",
+     "sigla": "TST",
+     "nome": "Tribunal Superior do Trabalho",
+     "ramo": "Superiores",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T17:47:47+00:00"
+    },
+    {
+     "alias": "tse",
+     "sigla": "TSE",
+     "nome": "Tribunal Superior Eleitoral",
+     "ramo": "Superiores",
+     "total": 0,
+     "por_assunto": {
+      "3419": 0,
+      "5566": 0,
+      "5567": 0,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T17:50:23+00:00"
+    }
+   ]
+  }
+ }
+}
