@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T17:52:14+00:00",
+ "gerado_em": "2026-11-24T17:58:33+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "temas": {
   "cp-157": {
@@ -25,6 +25,62 @@
       "9678": 226
      },
      "coletado_em": "2026-11-24T17:44:24+00:00"
+    },
+    {
+     "alias": "trf3",
+     "sigla": "TRF3",
+     "nome": "Tribunal Regional Federal da 3ª Região",
+     "ramo": "Federal",
+     "total": 12356,
+     "por_assunto": {
+      "3419": 4588,
+      "5566": 7830,
+      "5567": 72,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T17:54:03+00:00"
+    },
+    {
+     "alias": "trf4",
+     "sigla": "TRF4",
+     "nome": "Tribunal Regional Federal da 4ª Região",
+     "ramo": "Federal",
+     "total": 4135,
+     "por_assunto": {
+      "3419": 2464,
+      "5566": 1577,
+      "5567": 158,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T17:56:23+00:00"
+    },
+    {
+     "alias": "trf2",
+     "sigla": "TRF2",
+     "nome": "Tribunal Regional Federal da 2ª Região",
+     "ramo": "Federal",
+     "total": 1616,
+     "por_assunto": {
+      "3419": 870,
+      "5566": 750,
+      "5567": 31,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T17:53:15+00:00"
+    },
+    {
+     "alias": "trf5",
+     "sigla": "TRF5",
+     "nome": "Tribunal Regional Federal da 5ª Região",
+     "ramo": "Federal",
+     "total": 959,
+     "por_assunto": {
+      "3419": 245,
+      "5566": 727,
+      "5567": 21,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T17:58:33+00:00"
     },
     {
      "alias": "trf1",
