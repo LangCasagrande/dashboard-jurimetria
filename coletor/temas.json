@@ -6,7 +6,7 @@
    "3372": "Homicídio Qualificado",
    "3371": "Homicídio Privilegiado"
   },
-  "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. O assunto \"Feminicídio\" (código 12091) não entra porque, desde 2024, o feminicídio é crime autônomo do art. 121-A."
+  "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. O assunto \"Feminicídio\" (código 12091) não entra porque, desde 2024, o feminicídio é crime autônomo do art. 121-A. Nas respostas consultadas não apareceu assunto próprio para o homicídio culposo (§ 3º); os números cobrem só os assuntos listados."
  },
  "cp-155": {
   "nome": "Furto (art. 155 do Código Penal)",
