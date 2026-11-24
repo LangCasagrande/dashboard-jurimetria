@@ -104,7 +104,8 @@
     const notas = (d.notas || []).filter(n => n.aba === 'doutrina');
     const pend = (d.pendentes || []).filter(p => /doutrina/i.test(p.o_que));
     return `<div class="aviso-doutrina"><strong>Como funcionam estas notas.</strong> Só entra doutrina que aparece em fonte oficial que pode ser aberta e conferida, como as explicações do STJ nos seus informativos e acórdãos, com o trecho original ao lado. Nada é atribuído a um autor sem que a fonte o cite.</div>
-      ${notas.length ? `<div class="notas">${notas.map(cartaoNota).join('')}</div>` : '<p class="muted">Ainda não há notas de doutrina conferidas para este artigo.</p>'}
+      <section class="bloco"><h3>Notas da doutrina</h3>
+      ${notas.length ? `<div class="notas">${notas.map(cartaoNota).join('')}</div>` : '<p class="muted">Ainda não há notas de doutrina conferidas para este artigo.</p>'}</section>
       ${pend.length ? `<p class="muted" style="margin-top:1rem">${pend.map(p => `<strong>${esc(p.o_que)}:</strong> ${esc(p.motivo)}`).join('<br>')}</p>` : ''}`;
   }
 
