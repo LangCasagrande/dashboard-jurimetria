@@ -4,12 +4,15 @@
  "nome": "Tribunal de Justiça do Amazonas",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "graus": "2026-11-19T18:54:39+00:00",
-  "formatos": "2026-11-19T18:55:16+00:00",
-  "sistemas": "2026-11-19T19:05:02+00:00",
-  "classes": "2026-11-19T19:14:48+00:00",
-  "orgaos": "2026-11-19T19:29:19+00:00",
-  "total": "2026-11-19T19:30:27+00:00"
+  "graus": "2026-11-24T20:29:55+00:00",
+  "formatos": "2026-11-24T20:31:29+00:00",
+  "sistemas": "2026-11-24T20:32:13+00:00",
+  "classes": "2026-11-24T20:35:11+00:00",
+  "orgaos": "2026-11-24T20:36:36+00:00",
+  "total": "2026-11-24T20:39:04+00:00",
+  "assuntos": "2026-11-24T20:35:52+00:00",
+  "anual": "2026-11-24T20:39:38+00:00",
+  "mensal": "2026-11-24T20:40:05+00:00"
  },
  "graus": [
   {
@@ -174,9 +177,337 @@
   }
  ],
  "total": 4876034,
- "erros": {
-  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
-  "mensal": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ "erros": {},
+ "atualizado_em": "2026-11-24T20:40:05+00:00",
+ "totais_partes": {
+  "graus": 4876034,
+  "formatos": 4876034,
+  "sistemas": 4876034,
+  "classes": 4876034,
+  "assuntos": 4876034,
+  "orgaos": 4876034
  },
- "atualizado_em": "2026-11-19T19:30:27+00:00"
+ "assuntos": [
+  {
+   "nome": "Indenização por Dano Material",
+   "qtd": 642664
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 381811
+  },
+  {
+   "nome": "Perdas e Danos",
+   "qtd": 333069
+  },
+  {
+   "nome": "Práticas Abusivas",
+   "qtd": 212473
+  },
+  {
+   "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
+   "qtd": 176447
+  },
+  {
+   "nome": "Obrigação de Fazer / Não Fazer",
+   "qtd": 141736
+  },
+  {
+   "nome": "Cláusulas Abusivas",
+   "qtd": 136863
+  },
+  {
+   "nome": "Tarifas",
+   "qtd": 123718
+  },
+  {
+   "nome": "Defeito, nulidade ou anulação",
+   "qtd": 100663
+  },
+  {
+   "nome": "Extinção da Execução",
+   "qtd": 99930
+  },
+  {
+   "nome": "Pagamento",
+   "qtd": 91064
+  },
+  {
+   "nome": "Rescisão do contrato e devolução do dinheiro",
+   "qtd": 89851
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 76777
+  },
+  {
+   "nome": "Indenização por Dano Moral",
+   "qtd": 72748
+  },
+  {
+   "nome": "Alienação Fiduciária",
+   "qtd": 71104
+  }
+ ],
+ "anual": [
+  {
+   "ano": "2000",
+   "qtd": 10047
+  },
+  {
+   "ano": "2001",
+   "qtd": 12054
+  },
+  {
+   "ano": "2002",
+   "qtd": 19057
+  },
+  {
+   "ano": "2003",
+   "qtd": 19196
+  },
+  {
+   "ano": "2004",
+   "qtd": 24105
+  },
+  {
+   "ano": "2005",
+   "qtd": 37588
+  },
+  {
+   "ano": "2006",
+   "qtd": 57921
+  },
+  {
+   "ano": "2007",
+   "qtd": 48871
+  },
+  {
+   "ano": "2008",
+   "qtd": 102507
+  },
+  {
+   "ano": "2009",
+   "qtd": 145542
+  },
+  {
+   "ano": "2010",
+   "qtd": 109877
+  },
+  {
+   "ano": "2011",
+   "qtd": 119629
+  },
+  {
+   "ano": "2012",
+   "qtd": 79990
+  },
+  {
+   "ano": "2013",
+   "qtd": 69956
+  },
+  {
+   "ano": "2014",
+   "qtd": 73511
+  },
+  {
+   "ano": "2015",
+   "qtd": 102725
+  },
+  {
+   "ano": "2016",
+   "qtd": 74076
+  },
+  {
+   "ano": "2017",
+   "qtd": 94668
+  },
+  {
+   "ano": "2018",
+   "qtd": 94060
+  },
+  {
+   "ano": "2019",
+   "qtd": 160307
+  },
+  {
+   "ano": "2020",
+   "qtd": 253697
+  },
+  {
+   "ano": "2021",
+   "qtd": 288419
+  },
+  {
+   "ano": "2022",
+   "qtd": 398642
+  },
+  {
+   "ano": "2023",
+   "qtd": 555872
+  },
+  {
+   "ano": "2024",
+   "qtd": 598845
+  },
+  {
+   "ano": "2025",
+   "qtd": 629142
+  },
+  {
+   "ano": "2026",
+   "qtd": 592982
+  }
+ ],
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 42150
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 26631
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 61755
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 45521
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 51992
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 60188
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 52760
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 47180
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 55016
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 53323
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 46524
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 46713
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 44941
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 32932
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 45426
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 53767
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 55909
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 55280
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 57916
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 51000
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 59102
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 58654
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 52429
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 54415
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 48316
+  },
+  {
+   "mes": "2025-12",
+   "qtd": 36928
+  },
+  {
+   "mes": "2026-01",
+   "qtd": 47872
+  },
+  {
+   "mes": "2026-02",
+   "qtd": 46842
+  },
+  {
+   "mes": "2026-03",
+   "qtd": 60617
+  },
+  {
+   "mes": "2026-04",
+   "qtd": 57798
+  },
+  {
+   "mes": "2026-05",
+   "qtd": 59028
+  },
+  {
+   "mes": "2026-06",
+   "qtd": 57151
+  },
+  {
+   "mes": "2026-07",
+   "qtd": 68452
+  },
+  {
+   "mes": "2026-08",
+   "qtd": 64250
+  },
+  {
+   "mes": "2026-09",
+   "qtd": 66964
+  },
+  {
+   "mes": "2026-10",
+   "qtd": 63982
+  },
+  {
+   "mes": "2026-11",
+   "qtd": 26
+  }
+ ],
+ "parte_mais_antiga_em": "2026-11-24T20:29:55+00:00"
 }

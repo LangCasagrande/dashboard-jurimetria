@@ -4,19 +4,20 @@
  "nome": "Superior Tribunal de Justiça",
  "ramo": "Superiores",
  "partes_atualizadas_em": {
-  "graus": "2026-11-23T16:12:07+00:00",
-  "formatos": "2026-11-23T16:13:34+00:00",
-  "sistemas": "2026-11-23T16:16:16+00:00",
-  "classes": "2026-11-23T16:19:00+00:00",
-  "assuntos": "2026-11-19T14:22:18+00:00",
-  "orgaos": "2026-11-23T16:34:16+00:00",
-  "total": "2026-11-23T16:38:02+00:00",
-  "mensal": "2026-11-23T16:40:25+00:00"
+  "graus": "2026-11-24T16:53:43+00:00",
+  "formatos": "2026-11-24T16:54:59+00:00",
+  "sistemas": "2026-11-24T16:56:42+00:00",
+  "classes": "2026-11-24T17:02:24+00:00",
+  "assuntos": "2026-11-24T17:04:38+00:00",
+  "orgaos": "2026-11-24T17:05:48+00:00",
+  "total": "2026-11-24T17:06:16+00:00",
+  "mensal": "2026-11-24T17:09:41+00:00",
+  "anual": "2026-11-24T17:06:52+00:00"
  },
  "graus": [
   {
    "nome": "SUP",
-   "qtd": 2488522
+   "qtd": 3730541
   }
  ],
  "formatos": [
@@ -32,280 +33,469 @@
  "sistemas": [
   {
    "nome": "Outros",
-   "qtd": 1956495
+   "qtd": 977648
   },
   {
    "nome": "Inválido",
-   "qtd": 529322
+   "qtd": 264371
   }
  ],
  "classes": [
   {
    "nome": "Agravo em Recurso Especial",
-   "qtd": 687808
+   "qtd": 2060360
   },
   {
    "nome": "Habeas Corpus",
-   "qtd": 226923
+   "qtd": 679995
   },
   {
    "nome": "Recurso Especial",
-   "qtd": 211172
+   "qtd": 632883
   },
   {
    "nome": "Recurso Ordinário em Habeas Corpus",
-   "qtd": 43346
+   "qtd": 130362
   },
   {
    "nome": "Conflito de Competência",
-   "qtd": 23020
+   "qtd": 68828
   },
   {
    "nome": "Recurso Ordinário em Mandado de Segurança",
-   "qtd": 9302
+   "qtd": 27720
   },
   {
    "nome": "Embargos de Divergência em Agravo em Recurso Especial",
-   "qtd": 6090
+   "qtd": 18748
   },
   {
    "nome": "Reclamação",
-   "qtd": 5658
+   "qtd": 17333
   },
   {
    "nome": "Requisição de Pequeno Valor",
-   "qtd": 5621
+   "qtd": 16842
   },
   {
    "nome": "Precatório",
-   "qtd": 4162
+   "qtd": 12417
   },
   {
    "nome": "Embargos de Divergência em Recurso Especial",
-   "qtd": 3932
+   "qtd": 11905
   },
   {
    "nome": "Mandado de Segurança",
-   "qtd": 3486
+   "qtd": 10392
   },
   {
    "nome": "Carta Rogatória",
-   "qtd": 2682
+   "qtd": 8231
   },
   {
    "nome": "Pedido de Uniformização de Interpretação de Lei Criminal",
-   "qtd": 2189
+   "qtd": 6520
   },
   {
    "nome": "Tutela Cautelar Antecedente",
-   "qtd": 1607
+   "qtd": 4864
   }
  ],
  "assuntos": [
   {
    "nome": "Tráfico de Drogas e Condutas Afins",
-   "qtd": 132584
+   "qtd": 265536
   },
   {
    "nome": "Indenização por Dano Moral",
-   "qtd": 58100
+   "qtd": 116534
   },
   {
    "nome": "Homicídio Qualificado",
-   "qtd": 39702
+   "qtd": 79817
   },
   {
    "nome": "Roubo Majorado",
-   "qtd": 39614
+   "qtd": 79551
   },
   {
    "nome": "Indenização por Dano Material",
-   "qtd": 37365
+   "qtd": 74986
   },
   {
    "nome": "Prisão Preventiva",
-   "qtd": 35532
+   "qtd": 71229
   },
   {
    "nome": "Associação para a Produção e Tráfico e Condutas Afins",
-   "qtd": 32825
-  },
-  {
-   "nome": "Pena Privativa de Liberdade",
-   "qtd": 28822
+   "qtd": 65823
   },
   {
    "nome": "Dívida Ativa (Execução Fiscal)",
-   "qtd": 28735
+   "qtd": 57911
   },
   {
    "nome": "Contratos Bancários",
-   "qtd": 28648
+   "qtd": 57481
+  },
+  {
+   "nome": "Pena Privativa de Liberdade",
+   "qtd": 57360
   },
   {
    "nome": "Crimes do Sistema Nacional de Armas",
-   "qtd": 27598
+   "qtd": 55319
   },
   {
    "nome": "Crime Tentado",
-   "qtd": 20695
+   "qtd": 41509
   },
   {
    "nome": "Promessa de Compra e Venda",
-   "qtd": 20442
+   "qtd": 40885
   },
   {
    "nome": "Seguro",
-   "qtd": 18845
+   "qtd": 37329
   },
   {
    "nome": "Efeito Suspensivo / Impugnação / Embargos à Execução",
-   "qtd": 18571
+   "qtd": 37091
   }
  ],
  "orgaos": [
   {
    "nome": "PRESIDÃNCIA",
-   "qtd": 994697
+   "qtd": 664838
   },
   {
    "nome": "GABINETE DO MINISTRO ROGERIO SCHIETTI",
-   "qtd": 103940
-  },
-  {
-   "nome": "GABINETE DO MINISTRO RIBEIRO DANTAS",
-   "qtd": 102758
+   "qtd": 69197
   },
   {
    "nome": "GABINETE DO MINISTRO JOEL ILAN PACIORNIK",
-   "qtd": 102632
+   "qtd": 68635
+  },
+  {
+   "nome": "GABINETE DO MINISTRO RIBEIRO DANTAS",
+   "qtd": 68201
   },
   {
    "nome": "GABINETE DO MINISTRO SEBASTIÃO REIS JÃNIOR",
-   "qtd": 101634
+   "qtd": 67698
   },
   {
    "nome": "GABINETE DO MINISTRO REYNALDO SOARES DA FONSECA",
-   "qtd": 100020
+   "qtd": 66575
   },
   {
    "nome": "GABINETE DO MINISTRO ANTONIO SALDANHA PALHEIRO",
-   "qtd": 94656
+   "qtd": 63162
   },
   {
    "nome": "VICE-PRESIDÃNCIA",
-   "qtd": 92443
+   "qtd": 61750
   },
   {
    "nome": "GABINETE DO MINISTRO GURGEL DE FARIA",
-   "qtd": 91042
+   "qtd": 60841
   },
   {
    "nome": "GABINETE DO MINISTRO SÃRGIO LUIZ KUKINA",
-   "qtd": 85120
+   "qtd": 56812
   },
   {
    "nome": "GABINETE DA MINISTRA MARIA ISABEL GALLOTTI",
-   "qtd": 81886
+   "qtd": 54767
   },
   {
    "nome": "GABINETE DO MINISTRO FRANCISCO FALCÃO",
-   "qtd": 81202
+   "qtd": 54193
   },
   {
    "nome": "GABINETE DA MINISTRA NANCY ANDRIGHI",
-   "qtd": 81032
+   "qtd": 53887
   },
   {
    "nome": "GABINETE DO MINISTRO ANTONIO CARLOS FERREIRA",
-   "qtd": 80213
+   "qtd": 53529
   },
   {
    "nome": "GABINETE DO MINISTRO MOURA RIBEIRO",
-   "qtd": 79702
+   "qtd": 53278
   }
  ],
- "total": 1242019,
+ "total": 3730541,
  "mensal": [
   {
    "mes": "2023-11",
-   "qtd": 10003
+   "qtd": 34683
   },
   {
    "mes": "2023-12",
-   "qtd": 8232
+   "qtd": 27835
   },
   {
    "mes": "2024-01",
-   "qtd": 7549
+   "qtd": 25941
   },
   {
    "mes": "2024-02",
-   "qtd": 9747
+   "qtd": 35758
   },
   {
    "mes": "2024-03",
-   "qtd": 8534
+   "qtd": 32141
   },
   {
    "mes": "2024-04",
-   "qtd": 11439
+   "qtd": 43488
   },
   {
    "mes": "2024-05",
-   "qtd": 11069
+   "qtd": 41114
   },
   {
    "mes": "2024-06",
-   "qtd": 9350
+   "qtd": 36675
   },
   {
    "mes": "2024-07",
-   "qtd": 9533
+   "qtd": 40363
   },
   {
    "mes": "2024-08",
-   "qtd": 9904
+   "qtd": 41182
   },
   {
    "mes": "2024-09",
-   "qtd": 7797
+   "qtd": 35261
   },
   {
    "mes": "2024-10",
-   "qtd": 7682
+   "qtd": 37803
   },
   {
    "mes": "2024-11",
-   "qtd": 6054
+   "qtd": 33823
   },
   {
    "mes": "2024-12",
-   "qtd": 6004
+   "qtd": 32199
   },
   {
    "mes": "2025-01",
-   "qtd": 4044
+   "qtd": 26438
   },
   {
    "mes": "2025-02",
-   "qtd": 4619
+   "qtd": 38558
   },
   {
    "mes": "2025-03",
-   "qtd": 2036
+   "qtd": 38634
   },
   {
    "mes": "2025-04",
-   "qtd": 372
+   "qtd": 37055
   },
   {
    "mes": "2025-05",
-   "qtd": 6
+   "qtd": 39964
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 36432
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 42091
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 38562
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 45692
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 44371
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 38709
+  },
+  {
+   "mes": "2025-12",
+   "qtd": 34068
+  },
+  {
+   "mes": "2026-01",
+   "qtd": 27607
+  },
+  {
+   "mes": "2026-02",
+   "qtd": 35852
+  },
+  {
+   "mes": "2026-03",
+   "qtd": 46419
+  },
+  {
+   "mes": "2026-04",
+   "qtd": 41873
+  },
+  {
+   "mes": "2026-05",
+   "qtd": 40748
+  },
+  {
+   "mes": "2026-06",
+   "qtd": 42843
+  },
+  {
+   "mes": "2026-07",
+   "qtd": 47454
+  },
+  {
+   "mes": "2026-08",
+   "qtd": 40288
+  },
+  {
+   "mes": "2026-09",
+   "qtd": 36276
+  },
+  {
+   "mes": "2026-10",
+   "qtd": 27834
+  },
+  {
+   "mes": "2026-11",
+   "qtd": 1303
   }
  ],
- "erros": {
-  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ "erros": {},
+ "atualizado_em": "2026-11-24T17:09:41+00:00",
+ "totais_partes": {
+  "graus": 3730541,
+  "formatos": 3730541,
+  "sistemas": 1242019,
+  "classes": 3730541,
+  "assuntos": 2486743,
+  "orgaos": 2488522
  },
- "atualizado_em": "2026-11-23T16:40:25+00:00"
+ "anual": [
+  {
+   "ano": "2000",
+   "qtd": 6
+  },
+  {
+   "ano": "2001",
+   "qtd": 14
+  },
+  {
+   "ano": "2002",
+   "qtd": 25
+  },
+  {
+   "ano": "2003",
+   "qtd": 71
+  },
+  {
+   "ano": "2004",
+   "qtd": 46
+  },
+  {
+   "ano": "2005",
+   "qtd": 91
+  },
+  {
+   "ano": "2006",
+   "qtd": 248
+  },
+  {
+   "ano": "2007",
+   "qtd": 610
+  },
+  {
+   "ano": "2008",
+   "qtd": 435
+  },
+  {
+   "ano": "2009",
+   "qtd": 571
+  },
+  {
+   "ano": "2010",
+   "qtd": 675
+  },
+  {
+   "ano": "2011",
+   "qtd": 2439
+  },
+  {
+   "ano": "2012",
+   "qtd": 5720
+  },
+  {
+   "ano": "2013",
+   "qtd": 10174
+  },
+  {
+   "ano": "2014",
+   "qtd": 18340
+  },
+  {
+   "ano": "2015",
+   "qtd": 24509
+  },
+  {
+   "ano": "2016",
+   "qtd": 34948
+  },
+  {
+   "ano": "2017",
+   "qtd": 108507
+  },
+  {
+   "ano": "2018",
+   "qtd": 209680
+  },
+  {
+   "ano": "2019",
+   "qtd": 214514
+  },
+  {
+   "ano": "2020",
+   "qtd": 213984
+  },
+  {
+   "ano": "2021",
+   "qtd": 251023
+  },
+  {
+   "ano": "2022",
+   "qtd": 253600
+  },
+  {
+   "ano": "2023",
+   "qtd": 274518
+  },
+  {
+   "ano": "2024",
+   "qtd": 290972
+  },
+  {
+   "ano": "2025",
+   "qtd": 307058
+  },
+  {
+   "ano": "2026",
+   "qtd": 259368
+  }
+ ],
+ "parte_mais_antiga_em": "2026-11-24T16:53:43+00:00"
 }

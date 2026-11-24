@@ -4,13 +4,14 @@
  "nome": "Tribunal de Justiça do Maranhão",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "formatos": "2026-11-20T16:33:17+00:00",
-  "sistemas": "2026-11-20T16:33:55+00:00",
-  "classes": "2026-11-20T16:38:54+00:00",
-  "assuntos": "2026-11-20T16:43:14+00:00",
-  "orgaos": "2026-11-20T16:45:27+00:00",
+  "formatos": "2026-11-24T22:08:26+00:00",
+  "sistemas": "2026-11-24T22:09:52+00:00",
+  "classes": "2026-11-24T22:11:34+00:00",
+  "assuntos": "2026-11-24T22:12:07+00:00",
+  "orgaos": "2026-11-24T22:12:53+00:00",
   "total": "2026-11-20T16:46:24+00:00",
-  "mensal": "2026-11-20T16:48:06+00:00"
+  "mensal": "2026-11-20T16:48:06+00:00",
+  "graus": "2026-11-24T22:07:48+00:00"
  },
  "formatos": [
   {
@@ -21,135 +22,131 @@
  "sistemas": [
   {
    "nome": "PJe",
-   "qtd": 4116582
-  },
-  {
-   "nome": "Inválido",
-   "qtd": 1
+   "qtd": 2057695
   }
  ],
  "classes": [
   {
    "nome": "Procedimento Comum Cível",
-   "qtd": 736766
+   "qtd": 736663
   },
   {
    "nome": "Procedimento do Juizado Especial Cível",
-   "qtd": 429610
+   "qtd": 430245
   },
   {
    "nome": "Apelação Cível",
-   "qtd": 357855
+   "qtd": 357581
   },
   {
    "nome": "Cumprimento de sentença",
-   "qtd": 260727
+   "qtd": 260536
   },
   {
    "nome": "Recurso Inominado Cível",
-   "qtd": 110877
+   "qtd": 110992
   },
   {
    "nome": "Ação Penal - Procedimento Ordinário",
-   "qtd": 107346
+   "qtd": 107914
   },
   {
    "nome": "Carta Precatória Criminal",
-   "qtd": 95982
+   "qtd": 95989
   },
   {
    "nome": "Execução de Título Extrajudicial",
-   "qtd": 92327
+   "qtd": 92579
   },
   {
    "nome": "Agravo de Instrumento",
-   "qtd": 89530
+   "qtd": 89902
   },
   {
    "nome": "Cumprimento de Sentença contra a Fazenda Pública",
-   "qtd": 83699
+   "qtd": 83770
   },
   {
    "nome": "Carta Precatória Cível",
-   "qtd": 72284
+   "qtd": 72255
   },
   {
    "nome": "Execução Fiscal",
-   "qtd": 59400
+   "qtd": 59477
   },
   {
    "nome": "Inquérito Policial",
-   "qtd": 46571
+   "qtd": 46420
   },
   {
    "nome": "Termo Circunstanciado",
-   "qtd": 46148
+   "qtd": 46173
   },
   {
    "nome": "Busca e Apreensão em Alienação Fiduciária",
-   "qtd": 42501
+   "qtd": 42672
   }
  ],
  "assuntos": [
   {
    "nome": "Empréstimo consignado",
-   "qtd": 288607
+   "qtd": 578431
   },
   {
    "nome": "Direito de Imagem",
-   "qtd": 186287
+   "qtd": 373624
   },
   {
    "nome": "Indenização por Dano Material",
-   "qtd": 158314
+   "qtd": 317369
   },
   {
    "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
-   "qtd": 95029
+   "qtd": 189750
   },
   {
    "nome": "Tarifas",
-   "qtd": 74951
+   "qtd": 149957
   },
   {
    "nome": "Obrigação de Fazer / Não Fazer",
-   "qtd": 68268
+   "qtd": 136797
   },
   {
    "nome": "Contratos Bancários",
-   "qtd": 67735
+   "qtd": 135439
   },
   {
    "nome": "Causas Supervenientes à Sentença",
-   "qtd": 66522
+   "qtd": 133183
   },
   {
    "nome": "Intimação",
-   "qtd": 59923
+   "qtd": 119452
   },
   {
    "nome": "Práticas Abusivas",
-   "qtd": 49792
+   "qtd": 99483
   },
   {
    "nome": "Citação",
-   "qtd": 44653
+   "qtd": 89563
   },
   {
    "nome": "Liminar ",
-   "qtd": 40203
+   "qtd": 80429
   },
   {
    "nome": "Alienação Fiduciária",
-   "qtd": 37737
+   "qtd": 75591
   },
   {
    "nome": "Acidente de Trânsito",
-   "qtd": 36880
+   "qtd": 73886
   },
   {
    "nome": "Seguro",
-   "qtd": 34710
+   "qtd": 69656
   }
  ],
  "orgaos": [
@@ -217,7 +214,36 @@
  "total": 2058173,
  "mensal": [],
  "erros": {
-  "graus": "HTTP 504: <html>\r <head><title>504 Gateway Time-out</title></head>\r <body>\r <center><h1>504 Gateway Time-out</h1></center>\r <hr><center>NSX LB</center>\r </body>\r </html>\r"
+  "total": "orçamento de tempo esgotado",
+  "anual": "orçamento de tempo esgotado",
+  "mensal": "orçamento de tempo esgotado"
  },
- "atualizado_em": "2026-11-20T16:48:06+00:00"
+ "atualizado_em": "2026-11-24T22:12:53+00:00",
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 2730481
+  },
+  {
+   "nome": "G2",
+   "qtd": 702378
+  },
+  {
+   "nome": "JE",
+   "qtd": 531461
+  },
+  {
+   "nome": "TR",
+   "qtd": 152263
+  }
+ ],
+ "totais_partes": {
+  "graus": 4116583,
+  "formatos": 4116583,
+  "sistemas": 2057695,
+  "classes": 3088212,
+  "assuntos": 4116583,
+  "orgaos": 4116583
+ },
+ "parte_mais_antiga_em": ""
 }

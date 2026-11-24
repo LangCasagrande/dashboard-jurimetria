@@ -4,13 +4,15 @@
  "nome": "Tribunal de Justiça da Bahia",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "formatos": "2026-11-20T14:42:33+00:00",
-  "sistemas": "2026-11-20T14:49:50+00:00",
-  "classes": "2026-11-20T14:55:03+00:00",
-  "assuntos": "2026-11-20T14:55:38+00:00",
-  "orgaos": "2026-11-20T14:56:58+00:00",
-  "total": "2026-11-20T14:57:50+00:00",
-  "mensal": "2026-11-20T14:58:45+00:00"
+  "formatos": "2026-11-24T20:50:20+00:00",
+  "sistemas": "2026-11-24T20:51:03+00:00",
+  "classes": "2026-11-24T20:58:01+00:00",
+  "assuntos": "2026-11-24T20:58:41+00:00",
+  "orgaos": "2026-11-24T20:59:31+00:00",
+  "total": "2026-11-24T21:00:02+00:00",
+  "mensal": "2026-11-24T21:10:46+00:00",
+  "graus": "2026-11-24T20:49:04+00:00",
+  "anual": "2026-11-24T21:00:55+00:00"
  },
  "formatos": [
   {
@@ -25,211 +27,495 @@
  "sistemas": [
   {
    "nome": "PJe",
-   "qtd": 6294878
+   "qtd": 9437767
   },
   {
    "nome": "Eproc",
-   "qtd": 4423101
+   "qtd": 6632975
   },
   {
    "nome": "SAJ",
-   "qtd": 1319
+   "qtd": 1999
   },
   {
    "nome": "Inválido",
-   "qtd": 11
+   "qtd": 19
   }
  ],
  "classes": [
   {
    "nome": "Cumprimento de sentença",
-   "qtd": 985624
+   "qtd": 2955206
   },
   {
    "nome": "Procedimento do Juizado Especial Cível",
-   "qtd": 735542
+   "qtd": 2205480
   },
   {
    "nome": "Execução Fiscal",
-   "qtd": 626542
+   "qtd": 1878261
   },
   {
    "nome": "Recurso Inominado Cível",
-   "qtd": 418081
+   "qtd": 1255130
   },
   {
    "nome": "Procedimento Comum Cível",
-   "qtd": 401473
+   "qtd": 1203864
   },
   {
    "nome": "Ação Penal - Procedimento Ordinário",
-   "qtd": 197407
+   "qtd": 591020
   },
   {
    "nome": "Apelação Cível",
-   "qtd": 164656
+   "qtd": 493008
   },
   {
    "nome": "Petição Cível",
-   "qtd": 151769
+   "qtd": 454412
   },
   {
    "nome": "Execução de Título Extrajudicial",
-   "qtd": 121175
+   "qtd": 363935
   },
   {
    "nome": "Inquérito Policial",
-   "qtd": 108155
+   "qtd": 323498
   },
   {
    "nome": "Carta Precatória Cível",
-   "qtd": 106851
+   "qtd": 320285
   },
   {
    "nome": "Termo Circunstanciado",
-   "qtd": 104339
+   "qtd": 311161
   },
   {
    "nome": "Agravo de Instrumento",
-   "qtd": 79307
-  },
-  {
-   "nome": "Alimentos - Lei Especial Nº 5.478/68",
-   "qtd": 66726
+   "qtd": 238028
   },
   {
    "nome": "Carta Precatória Criminal",
-   "qtd": 66707
+   "qtd": 199927
+  },
+  {
+   "nome": "Alimentos - Lei Especial Nº 5.478/68",
+   "qtd": 199411
   }
  ],
  "assuntos": [
   {
    "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
-   "qtd": 1344727
+   "qtd": 4031336
   },
   {
    "nome": "Indenização por Dano Material",
-   "qtd": 601523
+   "qtd": 1804799
   },
   {
    "nome": "Obrigação de Fazer / Não Fazer",
-   "qtd": 383402
+   "qtd": 1149442
   },
   {
    "nome": "IPTU/ Imposto Predial e Territorial Urbano",
-   "qtd": 235923
+   "qtd": 706383
   },
   {
    "nome": "Ausência de Cobrança Administrativa Prévia",
-   "qtd": 211314
+   "qtd": 635110
   },
   {
    "nome": "Indenização por Dano Moral",
-   "qtd": 183425
+   "qtd": 549096
   },
   {
    "nome": "Execução Fiscal ",
-   "qtd": 169362
+   "qtd": 507440
   },
   {
    "nome": "Empréstimo consignado",
-   "qtd": 158364
+   "qtd": 474619
   },
   {
    "nome": "Acidente de Trânsito",
-   "qtd": 135209
+   "qtd": 404986
   },
   {
    "nome": "Rescisão do contrato e devolução do dinheiro",
-   "qtd": 127140
+   "qtd": 382314
   },
   {
    "nome": "Fixação",
-   "qtd": 97953
+   "qtd": 293689
   },
   {
    "nome": "Ameaça ",
-   "qtd": 94888
+   "qtd": 282381
   },
   {
    "nome": "Cartão de Crédito",
-   "qtd": 90796
+   "qtd": 271823
   },
   {
    "nome": "Alienação Fiduciária",
-   "qtd": 81105
+   "qtd": 244317
   },
   {
    "nome": "Citação",
-   "qtd": 79492
+   "qtd": 237969
   }
  ],
  "orgaos": [
   {
    "nome": "VARA JURISDIÇÃO PLENA",
-   "qtd": 1225079
+   "qtd": 1837003
   },
   {
    "nome": "VARA CÍVEL",
-   "qtd": 499716
+   "qtd": 750034
   },
   {
    "nome": "1ª VARA DA FAZENDA PÚBLICA",
-   "qtd": 468355
+   "qtd": 703536
   },
   {
    "nome": "1ª VARA DE FEITOS DE REL DE CONS. CÍVEL E COMERCIAIS",
-   "qtd": 261975
+   "qtd": 393582
   },
   {
    "nome": "1ª VARA CRIMINAL",
-   "qtd": 190046
+   "qtd": 285408
   },
   {
    "nome": "VARA CRIME",
-   "qtd": 177191
+   "qtd": 265903
   },
   {
    "nome": "2ª VARA DA FAZENDA PÚBLICA",
-   "qtd": 172498
+   "qtd": 259075
   },
   {
    "nome": "SEGUNDA TURMA RECURSAL",
-   "qtd": 169401
+   "qtd": 254100
   },
   {
    "nome": "PRIMEIRA TURMA RECURSAL",
-   "qtd": 168560
+   "qtd": 253040
   },
   {
    "nome": "QUARTA TURMA RECURSAL",
-   "qtd": 166642
+   "qtd": 250224
   },
   {
    "nome": "TERCEIRA TURMA RECURSAL",
-   "qtd": 158683
+   "qtd": 238495
   },
   {
    "nome": "QUINTA TURMA RECURSAL",
-   "qtd": 154365
+   "qtd": 231508
   },
   {
    "nome": "2ª VARA DE FEITOS DE REL DE CONS. CÍVEL E COMERCIAIS",
-   "qtd": 151148
+   "qtd": 226988
   },
   {
    "nome": "SEXTA TURMA RECURSAL",
-   "qtd": 130917
+   "qtd": 196575
   },
   {
    "nome": "2ª VSJE DA FAZENDA PÚBLICA (VESPERTINO)",
-   "qtd": 79815
+   "qtd": 120053
   }
  ],
  "total": 16072760,
- "mensal": [],
- "erros": {
-  "graus": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 44009
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 36715
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 34978
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 38988
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 45842
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 48666
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 46195
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 40388
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 48603
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 49200
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 46126
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 49117
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 45839
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 40116
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 38119
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 45842
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 46548
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 47519
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 49019
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 41142
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 55365
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 53192
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 57003
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 56638
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 47598
+  },
+  {
+   "mes": "2025-12",
+   "qtd": 44315
+  },
+  {
+   "mes": "2026-01",
+   "qtd": 43168
+  },
+  {
+   "mes": "2026-02",
+   "qtd": 46677
+  },
+  {
+   "mes": "2026-03",
+   "qtd": 64075
+  },
+  {
+   "mes": "2026-04",
+   "qtd": 55809
+  },
+  {
+   "mes": "2026-05",
+   "qtd": 57927
+  },
+  {
+   "mes": "2026-06",
+   "qtd": 50374
+  },
+  {
+   "mes": "2026-07",
+   "qtd": 64460
+  },
+  {
+   "mes": "2026-08",
+   "qtd": 62274
+  },
+  {
+   "mes": "2026-09",
+   "qtd": 60557
+  },
+  {
+   "mes": "2026-10",
+   "qtd": 52766
+  },
+  {
+   "mes": "2026-11",
+   "qtd": 1
+  }
+ ],
+ "erros": {},
+ "atualizado_em": "2026-11-24T21:10:46+00:00",
+ "graus": [
+  {
+   "nome": "G1",
+   "qtd": 2643207
+  },
+  {
+   "nome": "JE",
+   "qtd": 1879708
+  },
+  {
+   "nome": "TR",
+   "qtd": 481000
+  },
+  {
+   "nome": "G2",
+   "qtd": 355765
+  }
+ ],
+ "totais_partes": {
+  "graus": 5359680,
+  "formatos": 16072760,
+  "sistemas": 16072760,
+  "classes": 16072760,
+  "assuntos": 16072760,
+  "orgaos": 16072760
  },
- "atualizado_em": "2026-11-20T14:58:45+00:00"
+ "anual": [
+  {
+   "ano": "2000",
+   "qtd": 11522
+  },
+  {
+   "ano": "2001",
+   "qtd": 12156
+  },
+  {
+   "ano": "2002",
+   "qtd": 16984
+  },
+  {
+   "ano": "2003",
+   "qtd": 20755
+  },
+  {
+   "ano": "2004",
+   "qtd": 21595
+  },
+  {
+   "ano": "2005",
+   "qtd": 23666
+  },
+  {
+   "ano": "2006",
+   "qtd": 41014
+  },
+  {
+   "ano": "2007",
+   "qtd": 46535
+  },
+  {
+   "ano": "2008",
+   "qtd": 63525
+  },
+  {
+   "ano": "2009",
+   "qtd": 77043
+  },
+  {
+   "ano": "2010",
+   "qtd": 85460
+  },
+  {
+   "ano": "2011",
+   "qtd": 176211
+  },
+  {
+   "ano": "2012",
+   "qtd": 216284
+  },
+  {
+   "ano": "2013",
+   "qtd": 238080
+  },
+  {
+   "ano": "2014",
+   "qtd": 231232
+  },
+  {
+   "ano": "2015",
+   "qtd": 318285
+  },
+  {
+   "ano": "2016",
+   "qtd": 364893
+  },
+  {
+   "ano": "2017",
+   "qtd": 386962
+  },
+  {
+   "ano": "2018",
+   "qtd": 607440
+  },
+  {
+   "ano": "2019",
+   "qtd": 1458306
+  },
+  {
+   "ano": "2020",
+   "qtd": 1689887
+  },
+  {
+   "ano": "2021",
+   "qtd": 1773403
+  },
+  {
+   "ano": "2022",
+   "qtd": 1539810
+  },
+  {
+   "ano": "2023",
+   "qtd": 1546101
+  },
+  {
+   "ano": "2024",
+   "qtd": 1604683
+  },
+  {
+   "ano": "2025",
+   "qtd": 1747923
+  },
+  {
+   "ano": "2026",
+   "qtd": 1676677
+  }
+ ],
+ "parte_mais_antiga_em": "2026-11-24T20:49:04+00:00"
 }

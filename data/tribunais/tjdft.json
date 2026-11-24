@@ -4,41 +4,42 @@
  "nome": "Tribunal de Justiça do Distrito Federal e dos Territórios",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "graus": "2026-11-20T15:28:06+00:00",
-  "formatos": "2026-11-20T15:28:54+00:00",
-  "sistemas": "2026-11-20T15:29:39+00:00",
-  "classes": "2026-11-20T15:30:06+00:00",
-  "assuntos": "2026-11-20T15:31:40+00:00",
-  "orgaos": "2026-11-20T15:32:14+00:00",
-  "total": "2026-11-20T15:34:44+00:00",
-  "mensal": "2026-11-20T15:35:13+00:00"
+  "graus": "2026-11-24T21:24:10+00:00",
+  "formatos": "2026-11-24T21:24:49+00:00",
+  "sistemas": "2026-11-24T21:25:28+00:00",
+  "classes": "2026-11-24T21:26:19+00:00",
+  "assuntos": "2026-11-24T21:27:38+00:00",
+  "orgaos": "2026-11-24T21:28:06+00:00",
+  "total": "2026-11-24T21:28:54+00:00",
+  "mensal": "2026-11-24T21:31:43+00:00",
+  "anual": "2026-11-24T21:30:29+00:00"
  },
  "graus": [
   {
    "nome": "G1",
-   "qtd": 313816
+   "qtd": 483615
   },
   {
    "nome": "JE",
-   "qtd": 97162
+   "qtd": 154071
   },
   {
    "nome": "G2",
-   "qtd": 61836
+   "qtd": 96549
   },
   {
    "nome": "TR",
-   "qtd": 8483
+   "qtd": 12761
   }
  ],
  "formatos": [
   {
    "nome": "Eletrônico",
-   "qtd": 516453
+   "qtd": 742426
   },
   {
    "nome": "Físico",
-   "qtd": 3074
+   "qtd": 4570
   }
  ],
  "sistemas": [
@@ -58,63 +59,63 @@
  "classes": [
   {
    "nome": "Cumprimento de sentença",
-   "qtd": 60050
+   "qtd": 92178
   },
   {
    "nome": "Procedimento Comum Cível",
-   "qtd": 55973
-  },
-  {
-   "nome": "Execução de Título Extrajudicial",
-   "qtd": 37064
+   "qtd": 84526
   },
   {
    "nome": "Procedimento do Juizado Especial Cível",
-   "qtd": 36023
+   "qtd": 56921
+  },
+  {
+   "nome": "Execução de Título Extrajudicial",
+   "qtd": 56509
   },
   {
    "nome": "Ação Penal - Procedimento Ordinário",
-   "qtd": 25896
-  },
-  {
-   "nome": "Inquérito Policial",
-   "qtd": 22386
+   "qtd": 39466
   },
   {
    "nome": "Execução Fiscal",
-   "qtd": 21135
+   "qtd": 38360
+  },
+  {
+   "nome": "Inquérito Policial",
+   "qtd": 34246
   },
   {
    "nome": "Termo Circunstanciado",
-   "qtd": 20462
+   "qtd": 33832
   },
   {
    "nome": "Agravo de Instrumento",
-   "qtd": 19220
+   "qtd": 29720
   },
   {
    "nome": "Apelação Cível",
-   "qtd": 15291
+   "qtd": 24084
   },
   {
    "nome": "Cumprimento de Sentença contra a Fazenda Pública",
-   "qtd": 14568
+   "qtd": 22281
   },
   {
    "nome": "Ação Penal - Procedimento Sumário",
-   "qtd": 12981
+   "qtd": 19678
   },
   {
    "nome": "Busca e Apreensão em Alienação Fiduciária",
-   "qtd": 11374
+   "qtd": 17492
   },
   {
    "nome": "Procedimento do Juizado Especial da Fazenda Pública",
-   "qtd": 9270
+   "qtd": 14054
   },
   {
    "nome": "Carta Precatória Cível",
-   "qtd": 9058
+   "qtd": 13860
   }
  ],
  "assuntos": [
@@ -241,8 +242,276 @@
    "qtd": 6578
   }
  ],
- "total": 519527,
- "mensal": [],
+ "total": 746996,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 2297
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 1972
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 2002
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 2316
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 3141
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 3345
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 3121
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 3581
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 4005
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 3670
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 3557
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 4519
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 4496
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 5620
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 3806
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 5052
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 5152
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 5535
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 6364
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 6776
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 8439
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 8166
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 8538
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 10245
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 11215
+  },
+  {
+   "mes": "2025-12",
+   "qtd": 10207
+  },
+  {
+   "mes": "2026-01",
+   "qtd": 9173
+  },
+  {
+   "mes": "2026-02",
+   "qtd": 11289
+  },
+  {
+   "mes": "2026-03",
+   "qtd": 17582
+  },
+  {
+   "mes": "2026-04",
+   "qtd": 16881
+  },
+  {
+   "mes": "2026-05",
+   "qtd": 21000
+  },
+  {
+   "mes": "2026-06",
+   "qtd": 22316
+  },
+  {
+   "mes": "2026-07",
+   "qtd": 29792
+  },
+  {
+   "mes": "2026-08",
+   "qtd": 29478
+  },
+  {
+   "mes": "2026-09",
+   "qtd": 29905
+  },
+  {
+   "mes": "2026-10",
+   "qtd": 8565
+  },
+  {
+   "mes": "2026-11",
+   "qtd": 0
+  }
+ ],
  "erros": {},
- "atualizado_em": "2026-11-20T15:35:13+00:00"
+ "atualizado_em": "2026-11-24T21:31:43+00:00",
+ "totais_partes": {
+  "graus": 746996,
+  "formatos": 746996,
+  "sistemas": 746996,
+  "classes": 746996,
+  "assuntos": 746996,
+  "orgaos": 746996
+ },
+ "anual": [
+  {
+   "ano": "2000",
+   "qtd": 1
+  },
+  {
+   "ano": "2001",
+   "qtd": 7
+  },
+  {
+   "ano": "2002",
+   "qtd": 6
+  },
+  {
+   "ano": "2003",
+   "qtd": 10
+  },
+  {
+   "ano": "2004",
+   "qtd": 23
+  },
+  {
+   "ano": "2005",
+   "qtd": 17
+  },
+  {
+   "ano": "2006",
+   "qtd": 21
+  },
+  {
+   "ano": "2007",
+   "qtd": 42
+  },
+  {
+   "ano": "2008",
+   "qtd": 76
+  },
+  {
+   "ano": "2009",
+   "qtd": 60
+  },
+  {
+   "ano": "2010",
+   "qtd": 62
+  },
+  {
+   "ano": "2011",
+   "qtd": 92
+  },
+  {
+   "ano": "2012",
+   "qtd": 113
+  },
+  {
+   "ano": "2013",
+   "qtd": 179
+  },
+  {
+   "ano": "2014",
+   "qtd": 347
+  },
+  {
+   "ano": "2015",
+   "qtd": 2250
+  },
+  {
+   "ano": "2016",
+   "qtd": 3463
+  },
+  {
+   "ano": "2017",
+   "qtd": 7875
+  },
+  {
+   "ano": "2018",
+   "qtd": 14522
+  },
+  {
+   "ano": "2019",
+   "qtd": 49121
+  },
+  {
+   "ano": "2020",
+   "qtd": 25687
+  },
+  {
+   "ano": "2021",
+   "qtd": 21420
+  },
+  {
+   "ano": "2022",
+   "qtd": 25380
+  },
+  {
+   "ano": "2023",
+   "qtd": 30628
+  },
+  {
+   "ano": "2024",
+   "qtd": 47352
+  },
+  {
+   "ano": "2025",
+   "qtd": 93245
+  },
+  {
+   "ano": "2026",
+   "qtd": 197520
+  }
+ ],
+ "parte_mais_antiga_em": "2026-11-24T21:24:10+00:00"
 }

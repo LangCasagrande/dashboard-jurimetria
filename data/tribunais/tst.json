@@ -4,14 +4,15 @@
  "nome": "Tribunal Superior do Trabalho",
  "ramo": "Superiores",
  "partes_atualizadas_em": {
-  "graus": "2026-11-19T14:27:26+00:00",
-  "formatos": "2026-11-23T16:55:22+00:00",
-  "sistemas": "2026-11-23T16:58:03+00:00",
-  "classes": "2026-11-23T17:03:04+00:00",
-  "assuntos": "2026-11-23T17:08:53+00:00",
+  "graus": "2026-11-24T17:12:08+00:00",
+  "formatos": "2026-11-24T17:12:34+00:00",
+  "sistemas": "2026-11-24T17:17:29+00:00",
+  "classes": "2026-11-24T17:18:53+00:00",
+  "assuntos": "2026-11-24T17:21:28+00:00",
   "orgaos": "2026-11-19T14:31:33+00:00",
-  "total": "2026-11-23T17:21:47+00:00",
-  "mensal": "2026-11-23T17:27:22+00:00"
+  "total": "2026-11-24T17:34:26+00:00",
+  "mensal": "2026-11-24T17:35:31+00:00",
+  "anual": "2026-11-24T17:35:00+00:00"
  },
  "graus": [
   {
@@ -22,7 +23,7 @@
  "formatos": [
   {
    "nome": "Eletrônico",
-   "qtd": 2322564
+   "qtd": 4642740
   }
  ],
  "sistemas": [
@@ -38,125 +39,125 @@
  "classes": [
   {
    "nome": "Agravo de Instrumento em Recurso de Revista",
-   "qtd": 1802690
+   "qtd": 1803078
   },
   {
    "nome": "Recurso de Revista",
-   "qtd": 294900
+   "qtd": 294516
   },
   {
    "nome": "Recurso de Revista com Agravo",
-   "qtd": 145460
+   "qtd": 145428
   },
   {
    "nome": "Recurso Ordinário Trabalhista",
-   "qtd": 33140
+   "qtd": 33265
   },
   {
    "nome": "Petição Cível",
-   "qtd": 18199
+   "qtd": 18052
   },
   {
    "nome": "Agravo",
-   "qtd": 8565
+   "qtd": 8453
   },
   {
    "nome": "Agravo de Instrumento em Recurso Extraordinário",
-   "qtd": 2337
+   "qtd": 2391
   },
   {
    "nome": "Tutela Cautelar Antecedente",
-   "qtd": 2097
+   "qtd": 2118
   },
   {
    "nome": "Correição Parcial ou Reclamação Correicional",
-   "qtd": 2082
-  },
-  {
-   "nome": "Agravo de Instrumento em Recurso Ordinário",
-   "qtd": 1849
+   "qtd": 2116
   },
   {
    "nome": "Ação Rescisória",
-   "qtd": 1824
+   "qtd": 1901
+  },
+  {
+   "nome": "Agravo de Instrumento em Recurso Ordinário",
+   "qtd": 1869
   },
   {
    "nome": "Mandado de Segurança Cível",
-   "qtd": 1523
-  },
-  {
-   "nome": "Pedido de Providências",
-   "qtd": 1388
+   "qtd": 1437
   },
   {
    "nome": "Embargos de Declaração Cível",
-   "qtd": 1289
+   "qtd": 1373
   },
   {
-   "nome": "Remessa Necessária / Recurso Ordinário",
-   "qtd": 731
+   "nome": "Pedido de Providências",
+   "qtd": 1351
+  },
+  {
+   "nome": "Reclamação",
+   "qtd": 746
   }
  ],
  "assuntos": [
   {
    "nome": "Horas Extras",
-   "qtd": 468089
+   "qtd": 311301
   },
   {
    "nome": "Intervalo Intrajornada",
-   "qtd": 335498
+   "qtd": 223299
   },
   {
    "nome": "Indenização por Dano Moral",
-   "qtd": 291300
+   "qtd": 194090
   },
   {
    "nome": "DIREITO DO TRABALHO",
-   "qtd": 289587
+   "qtd": 193199
   },
   {
    "nome": "Honorários Advocatícios",
-   "qtd": 287000
+   "qtd": 190783
   },
   {
    "nome": "Negativa de Prestação Jurisdicional ",
-   "qtd": 277397
+   "qtd": 184767
   },
   {
    "nome": "Adicional de Insalubridade",
-   "qtd": 240962
+   "qtd": 160478
   },
   {
    "nome": "Responsabilidade Solidária/Subsidiária",
-   "qtd": 233605
+   "qtd": 155742
   },
   {
    "nome": "Ente Público",
-   "qtd": 206004
+   "qtd": 137152
   },
   {
    "nome": "Multa do Artigo  477 da CLT",
-   "qtd": 195332
+   "qtd": 130123
   },
   {
    "nome": "Multa de 40% do FGTS",
-   "qtd": 169727
+   "qtd": 113219
   },
   {
    "nome": "Adicional de Horas Extras",
-   "qtd": 165738
+   "qtd": 110423
   },
   {
    "nome": "Honorários na Justiça do Trabalho ",
-   "qtd": 157252
+   "qtd": 104586
   },
   {
    "nome": "Verbas Rescisórias",
-   "qtd": 152227
+   "qtd": 101573
   },
   {
    "nome": "Correção Monetária",
-   "qtd": 151383
+   "qtd": 100822
   }
  ],
  "orgaos": [
@@ -221,11 +222,277 @@
    "qtd": 15147
   }
  ],
- "total": 2322591,
- "mensal": [],
+ "total": 4642793,
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 17314
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 14615
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 7083
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 22298
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 23346
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 25823
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 21352
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 21646
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 29638
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 24952
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 25781
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 27682
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 20434
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 16889
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 7959
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 29326
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 25536
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 22152
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 25313
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 22199
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 25931
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 20329
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 22558
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 23995
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 18828
+  },
+  {
+   "mes": "2025-12",
+   "qtd": 14486
+  },
+  {
+   "mes": "2026-01",
+   "qtd": 7686
+  },
+  {
+   "mes": "2026-02",
+   "qtd": 21544
+  },
+  {
+   "mes": "2026-03",
+   "qtd": 25800
+  },
+  {
+   "mes": "2026-04",
+   "qtd": 18614
+  },
+  {
+   "mes": "2026-05",
+   "qtd": 21386
+  },
+  {
+   "mes": "2026-06",
+   "qtd": 19927
+  },
+  {
+   "mes": "2026-07",
+   "qtd": 24756
+  },
+  {
+   "mes": "2026-08",
+   "qtd": 20040
+  },
+  {
+   "mes": "2026-09",
+   "qtd": 21364
+  },
+  {
+   "mes": "2026-10",
+   "qtd": 22539
+  },
+  {
+   "mes": "2026-11",
+   "qtd": 0
+  }
+ ],
  "erros": {
-  "graus": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
   "orgaos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
  },
- "atualizado_em": "2026-11-23T17:27:22+00:00"
+ "atualizado_em": "2026-11-24T17:35:31+00:00",
+ "totais_partes": {
+  "graus": 4642793,
+  "formatos": 4642793,
+  "sistemas": 4642793,
+  "classes": 2322597,
+  "assuntos": 2320202
+ },
+ "anual": [
+  {
+   "ano": "2000",
+   "qtd": 85
+  },
+  {
+   "ano": "2001",
+   "qtd": 129
+  },
+  {
+   "ano": "2002",
+   "qtd": 16095
+  },
+  {
+   "ano": "2003",
+   "qtd": 16105
+  },
+  {
+   "ano": "2004",
+   "qtd": 18330
+  },
+  {
+   "ano": "2005",
+   "qtd": 16466
+  },
+  {
+   "ano": "2006",
+   "qtd": 22540
+  },
+  {
+   "ano": "2007",
+   "qtd": 18106
+  },
+  {
+   "ano": "2008",
+   "qtd": 37916
+  },
+  {
+   "ano": "2009",
+   "qtd": 36905
+  },
+  {
+   "ano": "2010",
+   "qtd": 75730
+  },
+  {
+   "ano": "2011",
+   "qtd": 74603
+  },
+  {
+   "ano": "2012",
+   "qtd": 96756
+  },
+  {
+   "ano": "2013",
+   "qtd": 148179
+  },
+  {
+   "ano": "2014",
+   "qtd": 245095
+  },
+  {
+   "ano": "2015",
+   "qtd": 311616
+  },
+  {
+   "ano": "2016",
+   "qtd": 274673
+  },
+  {
+   "ano": "2017",
+   "qtd": 303822
+  },
+  {
+   "ano": "2018",
+   "qtd": 367024
+  },
+  {
+   "ano": "2019",
+   "qtd": 417845
+  },
+  {
+   "ano": "2020",
+   "qtd": 308009
+  },
+  {
+   "ano": "2021",
+   "qtd": 283829
+  },
+  {
+   "ano": "2022",
+   "qtd": 284605
+  },
+  {
+   "ano": "2023",
+   "qtd": 296032
+  },
+  {
+   "ano": "2024",
+   "qtd": 355969
+  },
+  {
+   "ano": "2025",
+   "qtd": 344952
+  },
+  {
+   "ano": "2026",
+   "qtd": 271287
+  }
+ ],
+ "parte_mais_antiga_em": "2026-11-19T14:31:33+00:00"
 }

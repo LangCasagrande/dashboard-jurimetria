@@ -4,14 +4,15 @@
  "nome": "Superior Tribunal Militar",
  "ramo": "Superiores",
  "partes_atualizadas_em": {
-  "graus": "2026-11-23T18:06:19+00:00",
-  "formatos": "2026-11-23T18:07:54+00:00",
-  "sistemas": "2026-11-19T15:05:03+00:00",
-  "classes": "2026-11-23T18:16:40+00:00",
+  "graus": "2026-11-24T17:53:27+00:00",
+  "formatos": "2026-11-24T17:54:23+00:00",
+  "sistemas": "2026-11-24T17:58:01+00:00",
+  "classes": "2026-11-24T17:59:15+00:00",
   "assuntos": "2026-11-23T18:17:22+00:00",
-  "orgaos": "2026-11-23T18:22:20+00:00",
+  "orgaos": "2026-11-24T18:10:04+00:00",
   "total": "2026-11-23T18:28:32+00:00",
-  "mensal": "2026-11-23T18:38:30+00:00"
+  "mensal": "2026-11-24T18:25:13+00:00",
+  "anual": "2026-11-24T18:22:02+00:00"
  },
  "graus": [
   {
@@ -222,9 +223,277 @@
   }
  ],
  "total": 27808,
- "mensal": [],
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 223
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 137
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 150
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 168
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 148
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 225
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 184
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 169
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 203
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 189
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 164
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 221
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 180
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 151
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 172
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 218
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 187
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 209
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 206
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 185
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 209
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 234
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 215
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 224
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 193
+  },
+  {
+   "mes": "2025-12",
+   "qtd": 172
+  },
+  {
+   "mes": "2026-01",
+   "qtd": 143
+  },
+  {
+   "mes": "2026-02",
+   "qtd": 208
+  },
+  {
+   "mes": "2026-03",
+   "qtd": 241
+  },
+  {
+   "mes": "2026-04",
+   "qtd": 183
+  },
+  {
+   "mes": "2026-05",
+   "qtd": 212
+  },
+  {
+   "mes": "2026-06",
+   "qtd": 269
+  },
+  {
+   "mes": "2026-07",
+   "qtd": 259
+  },
+  {
+   "mes": "2026-08",
+   "qtd": 201
+  },
+  {
+   "mes": "2026-09",
+   "qtd": 265
+  },
+  {
+   "mes": "2026-10",
+   "qtd": 198
+  },
+  {
+   "mes": "2026-11",
+   "qtd": 0
+  }
+ ],
  "erros": {
-  "sistemas": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "total": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
  },
- "atualizado_em": "2026-11-23T18:38:30+00:00"
+ "atualizado_em": "2026-11-24T18:25:13+00:00",
+ "totais_partes": {
+  "graus": 27808,
+  "formatos": 27808,
+  "sistemas": 27808,
+  "classes": 27808,
+  "orgaos": 27808
+ },
+ "anual": [
+  {
+   "ano": "2000",
+   "qtd": 2
+  },
+  {
+   "ano": "2001",
+   "qtd": 1
+  },
+  {
+   "ano": "2002",
+   "qtd": 6
+  },
+  {
+   "ano": "2003",
+   "qtd": 1
+  },
+  {
+   "ano": "2004",
+   "qtd": 4
+  },
+  {
+   "ano": "2005",
+   "qtd": 5
+  },
+  {
+   "ano": "2006",
+   "qtd": 3
+  },
+  {
+   "ano": "2007",
+   "qtd": 10
+  },
+  {
+   "ano": "2008",
+   "qtd": 10
+  },
+  {
+   "ano": "2009",
+   "qtd": 11
+  },
+  {
+   "ano": "2010",
+   "qtd": 16
+  },
+  {
+   "ano": "2011",
+   "qtd": 25
+  },
+  {
+   "ano": "2012",
+   "qtd": 35
+  },
+  {
+   "ano": "2013",
+   "qtd": 45
+  },
+  {
+   "ano": "2014",
+   "qtd": 91
+  },
+  {
+   "ano": "2015",
+   "qtd": 232
+  },
+  {
+   "ano": "2016",
+   "qtd": 814
+  },
+  {
+   "ano": "2017",
+   "qtd": 1927
+  },
+  {
+   "ano": "2018",
+   "qtd": 3805
+  },
+  {
+   "ano": "2019",
+   "qtd": 4202
+  },
+  {
+   "ano": "2020",
+   "qtd": 2864
+  },
+  {
+   "ano": "2021",
+   "qtd": 2459
+  },
+  {
+   "ano": "2022",
+   "qtd": 2159
+  },
+  {
+   "ano": "2023",
+   "qtd": 2302
+  },
+  {
+   "ano": "2024",
+   "qtd": 2152
+  },
+  {
+   "ano": "2025",
+   "qtd": 2424
+  },
+  {
+   "ano": "2026",
+   "qtd": 2179
+  }
+ ],
+ "parte_mais_antiga_em": "2026-11-23T18:17:22+00:00"
 }

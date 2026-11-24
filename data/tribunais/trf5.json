@@ -4,14 +4,15 @@
  "nome": "Tribunal Regional Federal da 5ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "graus": "2026-11-23T20:24:33+00:00",
-  "formatos": "2026-11-23T20:25:35+00:00",
-  "sistemas": "2026-11-23T20:26:33+00:00",
-  "classes": "2026-11-23T20:37:44+00:00",
-  "assuntos": "2026-11-23T20:38:20+00:00",
-  "orgaos": "2026-11-23T20:40:04+00:00",
-  "total": "2026-11-23T20:40:51+00:00",
-  "mensal": "2026-11-23T20:41:46+00:00"
+  "graus": "2026-11-24T19:20:07+00:00",
+  "formatos": "2026-11-24T19:20:55+00:00",
+  "sistemas": "2026-11-24T19:23:12+00:00",
+  "classes": "2026-11-24T19:29:34+00:00",
+  "assuntos": "2026-11-24T19:30:39+00:00",
+  "orgaos": "2026-11-24T19:31:38+00:00",
+  "total": "2026-11-24T19:32:15+00:00",
+  "mensal": "2026-11-24T19:33:28+00:00",
+  "anual": "2026-11-24T19:32:51+00:00"
  },
  "graus": [
   {
@@ -44,201 +45,469 @@
  "sistemas": [
   {
    "nome": "PJe",
-   "qtd": 3255993
+   "qtd": 5425930
   },
   {
    "nome": "Inválido",
-   "qtd": 1226248
+   "qtd": 2043841
   }
  ],
  "classes": [
   {
    "nome": "Procedimento do Juizado Especial Cível",
-   "qtd": 1165031
+   "qtd": 1747013
   },
   {
    "nome": "Recurso Inominado Cível",
-   "qtd": 572366
+   "qtd": 857353
   },
   {
    "nome": "Cumprimento de Sentença contra a Fazenda Pública",
-   "qtd": 554166
+   "qtd": 832509
   },
   {
    "nome": "Execução Fiscal",
-   "qtd": 225860
+   "qtd": 340257
   },
   {
    "nome": "Procedimento Comum Cível",
-   "qtd": 86151
+   "qtd": 128124
   },
   {
    "nome": "Mandado de Segurança Cível",
-   "qtd": 78927
+   "qtd": 118167
   },
   {
    "nome": "Apelação Cível",
-   "qtd": 72543
+   "qtd": 108680
   },
   {
    "nome": "Agravo de Instrumento",
-   "qtd": 46713
+   "qtd": 70321
   },
   {
    "nome": "Cumprimento de sentença",
-   "qtd": 33790
+   "qtd": 50433
   },
   {
    "nome": "Carta Precatória Cível",
-   "qtd": 14840
+   "qtd": 21635
   },
   {
    "nome": "Apelação / Remessa Necessária",
-   "qtd": 13122
+   "qtd": 19501
   },
   {
    "nome": "Remessa Necessária Cível",
-   "qtd": 12172
+   "qtd": 18218
   },
   {
    "nome": "Execução de Título Extrajudicial",
-   "qtd": 7428
+   "qtd": 11312
   },
   {
    "nome": "Ação Penal - Procedimento Ordinário",
-   "qtd": 7389
+   "qtd": 10755
   },
   {
-   "nome": "Inquérito Policial",
-   "qtd": 7034
+   "nome": "Petição Cível",
+   "qtd": 10355
   }
  ],
  "assuntos": [
   {
    "nome": "Auxílio por Incapacidade Temporária",
-   "qtd": 1294255
+   "qtd": 776545
   },
   {
    "nome": "Deficiente",
-   "qtd": 1051352
+   "qtd": 631049
   },
   {
    "nome": "Aposentadoria por Incapacidade Permanente",
-   "qtd": 708170
+   "qtd": 425851
   },
   {
    "nome": "Rural (Art. 48/51)",
-   "qtd": 457247
+   "qtd": 274316
   },
   {
    "nome": "Dívida Ativa (Execução Fiscal)",
-   "qtd": 394177
+   "qtd": 236041
   },
   {
    "nome": "Idoso",
-   "qtd": 337498
+   "qtd": 202565
   },
   {
    "nome": "Concessão",
-   "qtd": 211884
+   "qtd": 127346
   },
   {
    "nome": "Pensão por Morte (Art. 74/9)",
-   "qtd": 206823
+   "qtd": 123894
   },
   {
    "nome": "Salário-Maternidade (Art. 71/73)",
-   "qtd": 192611
+   "qtd": 115303
   },
   {
    "nome": "Restabelecimento",
-   "qtd": 161803
+   "qtd": 97137
   },
   {
    "nome": "Aposentadoria por Tempo de Contribuição (Art. 55/6)",
-   "qtd": 155380
+   "qtd": 93353
   },
   {
    "nome": "Parcelas de benefício não pagas",
-   "qtd": 124799
+   "qtd": 74483
   },
   {
    "nome": "Rural (art. 59/63)",
-   "qtd": 118727
+   "qtd": 71078
   },
   {
    "nome": "Incapacidade Laborativa Permanente",
-   "qtd": 107607
+   "qtd": 64780
   },
   {
    "nome": "Indenização por Dano Material",
-   "qtd": 93915
+   "qtd": 56239
   }
  ],
  "orgaos": [
   {
-   "nome": "7ª Vara Federal",
-   "qtd": 153591
+   "nome": "9ª Vara Federal",
+   "qtd": 230982
   },
   {
-   "nome": "9ª Vara Federal",
-   "qtd": 153419
+   "nome": "7ª Vara Federal",
+   "qtd": 230503
   },
   {
    "nome": "6ª Vara Federal",
-   "qtd": 130660
+   "qtd": 194858
   },
   {
    "nome": "14ª Vara Federal",
-   "qtd": 128194
+   "qtd": 192384
   },
   {
    "nome": "13ª Vara Federal",
-   "qtd": 122946
+   "qtd": 184144
   },
   {
    "nome": "5ª Vara Federal",
-   "qtd": 121775
+   "qtd": 182282
   },
   {
    "nome": "12ª Vara Federal",
-   "qtd": 95463
+   "qtd": 143708
   },
   {
    "nome": "15ª Vara Federal",
-   "qtd": 90767
+   "qtd": 137145
   },
   {
    "nome": "11ª Vara Federal",
-   "qtd": 87607
+   "qtd": 131667
   },
   {
    "nome": "3ª Vara Federal",
-   "qtd": 82925
+   "qtd": 124659
   },
   {
    "nome": "3ª Relatoria da Turma Recursal",
-   "qtd": 72191
+   "qtd": 108171
   },
   {
    "nome": "1ª Relatoria da Turma Recursal",
-   "qtd": 71577
+   "qtd": 107930
   },
   {
    "nome": "2ª Relatoria da Turma Recursal",
-   "qtd": 71236
+   "qtd": 107038
   },
   {
    "nome": "1ª Vara Federal",
-   "qtd": 64905
+   "qtd": 97298
   },
   {
-   "nome": "8ª Vara Federal",
-   "qtd": 64674
+   "nome": "19ª Vara Federal",
+   "qtd": 96300
   }
  ],
  "total": 7469771,
- "mensal": [],
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 71225
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 55354
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 49654
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 68275
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 65155
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 73722
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 73143
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 65381
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 79056
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 77050
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 70185
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 87324
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 75748
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 70787
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 62450
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 86742
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 78487
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 86264
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 95201
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 90072
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 118130
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 426394
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 141716
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 116592
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 93950
+  },
+  {
+   "mes": "2025-12",
+   "qtd": 85606
+  },
+  {
+   "mes": "2026-01",
+   "qtd": 66629
+  },
+  {
+   "mes": "2026-02",
+   "qtd": 86449
+  },
+  {
+   "mes": "2026-03",
+   "qtd": 115570
+  },
+  {
+   "mes": "2026-04",
+   "qtd": 108099
+  },
+  {
+   "mes": "2026-05",
+   "qtd": 120939
+  },
+  {
+   "mes": "2026-06",
+   "qtd": 118681
+  },
+  {
+   "mes": "2026-07",
+   "qtd": 133943
+  },
+  {
+   "mes": "2026-08",
+   "qtd": 137545
+  },
+  {
+   "mes": "2026-09",
+   "qtd": 131707
+  },
+  {
+   "mes": "2026-10",
+   "qtd": 21
+  },
+  {
+   "mes": "2026-11",
+   "qtd": 0
+  }
+ ],
  "erros": {},
- "atualizado_em": "2026-11-23T20:41:46+00:00"
+ "atualizado_em": "2026-11-24T19:33:28+00:00",
+ "totais_partes": {
+  "graus": 7469771,
+  "formatos": 4481109,
+  "sistemas": 7469771,
+  "classes": 4481109,
+  "assuntos": 4482241,
+  "orgaos": 4481109
+ },
+ "anual": [
+  {
+   "ano": "2000",
+   "qtd": 201
+  },
+  {
+   "ano": "2001",
+   "qtd": 236
+  },
+  {
+   "ano": "2002",
+   "qtd": 201
+  },
+  {
+   "ano": "2003",
+   "qtd": 359
+  },
+  {
+   "ano": "2004",
+   "qtd": 432
+  },
+  {
+   "ano": "2005",
+   "qtd": 1101
+  },
+  {
+   "ano": "2006",
+   "qtd": 754
+  },
+  {
+   "ano": "2007",
+   "qtd": 1098
+  },
+  {
+   "ano": "2008",
+   "qtd": 1340
+  },
+  {
+   "ano": "2009",
+   "qtd": 2184
+  },
+  {
+   "ano": "2010",
+   "qtd": 4948
+  },
+  {
+   "ano": "2011",
+   "qtd": 3734
+  },
+  {
+   "ano": "2012",
+   "qtd": 4749
+  },
+  {
+   "ano": "2013",
+   "qtd": 6507
+  },
+  {
+   "ano": "2014",
+   "qtd": 8252
+  },
+  {
+   "ano": "2015",
+   "qtd": 8176
+  },
+  {
+   "ano": "2016",
+   "qtd": 12047
+  },
+  {
+   "ano": "2017",
+   "qtd": 16857
+  },
+  {
+   "ano": "2018",
+   "qtd": 31912
+  },
+  {
+   "ano": "2019",
+   "qtd": 121004
+  },
+  {
+   "ano": "2020",
+   "qtd": 123482
+  },
+  {
+   "ano": "2021",
+   "qtd": 153883
+  },
+  {
+   "ano": "2022",
+   "qtd": 151316
+  },
+  {
+   "ano": "2023",
+   "qtd": 165759
+  },
+  {
+   "ano": "2024",
+   "qtd": 171268
+  },
+  {
+   "ano": "2025",
+   "qtd": 295942
+  },
+  {
+   "ano": "2026",
+   "qtd": 204227
+  }
+ ],
+ "parte_mais_antiga_em": "2026-11-24T19:20:07+00:00"
 }

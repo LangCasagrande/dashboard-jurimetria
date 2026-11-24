@@ -4,18 +4,18 @@
  "nome": "Tribunal de Justiça do Amapá",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "graus": "2026-11-20T13:51:03+00:00",
-  "formatos": "2026-11-20T13:51:55+00:00",
-  "sistemas": "2026-11-20T13:57:18+00:00",
-  "classes": "2026-11-20T13:59:19+00:00",
-  "assuntos": "2026-11-20T14:05:14+00:00",
-  "total": "2026-11-20T14:15:56+00:00"
+  "graus": "2026-11-24T20:42:41+00:00",
+  "formatos": "2026-11-24T20:44:10+00:00",
+  "sistemas": "2026-11-24T20:45:05+00:00",
+  "classes": "2026-11-24T20:45:35+00:00",
+  "assuntos": "2026-11-24T20:46:20+00:00",
+  "total": "2026-11-24T20:47:42+00:00",
+  "orgaos": "2026-11-24T20:47:03+00:00",
+  "anual": "2026-11-24T20:48:12+00:00",
+  "mensal": "2026-11-24T20:48:38+00:00"
  },
- "erros": {
-  "orgaos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
-  "mensal": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
- },
- "atualizado_em": "2026-11-20T14:15:56+00:00",
+ "erros": {},
+ "atualizado_em": "2026-11-24T20:48:38+00:00",
  "graus": [
   {
    "nome": "JE",
@@ -174,5 +174,336 @@
    "qtd": 12560
   }
  ],
- "total": 755258
+ "total": 755258,
+ "totais_partes": {
+  "graus": 755258,
+  "formatos": 755258,
+  "sistemas": 755258,
+  "classes": 755258,
+  "assuntos": 755258,
+  "orgaos": 755258
+ },
+ "orgaos": [
+  {
+   "nome": "PRESIDÊNCIA",
+   "qtd": 39469
+  },
+  {
+   "nome": "Juizado da Infância e da Juventude Área de Políticas Públicas e Execução das Medidas Socioeducativas",
+   "qtd": 23052
+  },
+  {
+   "nome": "2º Juizado Especial de Fazenda Pública de Macapá",
+   "qtd": 19142
+  },
+  {
+   "nome": "4º Juizado Especial Cível Central de Macapá",
+   "qtd": 18283
+  },
+  {
+   "nome": "1º Juizado Especial de Fazenda Pública de Macapá",
+   "qtd": 18021
+  },
+  {
+   "nome": "1º JUIZADO ESPECIAL DE FAZENDA PÚBLICA",
+   "qtd": 16582
+  },
+  {
+   "nome": "Juizado Especial Cível de Santana",
+   "qtd": 16404
+  },
+  {
+   "nome": "3º Juizado Especial de Fazenda Pública de Macapá",
+   "qtd": 16070
+  },
+  {
+   "nome": "JUIZADO ESPECIAL CRIMINAL DE MACAPÁ",
+   "qtd": 16002
+  },
+  {
+   "nome": "2º JUIZADO ESPECIAL DE FAZENDA PÚBLICA",
+   "qtd": 15499
+  },
+  {
+   "nome": "JUI INF JUV-ÁREA POL.PÚB.EXEC.MEDIDA SÓCIO EDUC.",
+   "qtd": 12429
+  },
+  {
+   "nome": "1ª Vara de Fazenda Pública de Macapá",
+   "qtd": 12210
+  },
+  {
+   "nome": "2ª Vara de Fazenda Pública de Macapá",
+   "qtd": 11339
+  },
+  {
+   "nome": "4ª VARA CRIMINAL DE MACAPÁ",
+   "qtd": 11079
+  },
+  {
+   "nome": "5º Juizado Especial Cível da Zona Norte de Macapá",
+   "qtd": 11078
+  }
+ ],
+ "anual": [
+  {
+   "ano": "2000",
+   "qtd": 88
+  },
+  {
+   "ano": "2001",
+   "qtd": 102
+  },
+  {
+   "ano": "2002",
+   "qtd": 140
+  },
+  {
+   "ano": "2003",
+   "qtd": 148
+  },
+  {
+   "ano": "2004",
+   "qtd": 153
+  },
+  {
+   "ano": "2005",
+   "qtd": 200
+  },
+  {
+   "ano": "2006",
+   "qtd": 230
+  },
+  {
+   "ano": "2007",
+   "qtd": 358
+  },
+  {
+   "ano": "2008",
+   "qtd": 410
+  },
+  {
+   "ano": "2009",
+   "qtd": 570
+  },
+  {
+   "ano": "2010",
+   "qtd": 714
+  },
+  {
+   "ano": "2011",
+   "qtd": 1112
+  },
+  {
+   "ano": "2012",
+   "qtd": 1371
+  },
+  {
+   "ano": "2013",
+   "qtd": 2287
+  },
+  {
+   "ano": "2014",
+   "qtd": 5315
+  },
+  {
+   "ano": "2015",
+   "qtd": 5017
+  },
+  {
+   "ano": "2016",
+   "qtd": 7959
+  },
+  {
+   "ano": "2017",
+   "qtd": 11780
+  },
+  {
+   "ano": "2018",
+   "qtd": 18152
+  },
+  {
+   "ano": "2019",
+   "qtd": 47553
+  },
+  {
+   "ano": "2020",
+   "qtd": 59730
+  },
+  {
+   "ano": "2021",
+   "qtd": 84924
+  },
+  {
+   "ano": "2022",
+   "qtd": 88089
+  },
+  {
+   "ano": "2023",
+   "qtd": 95117
+  },
+  {
+   "ano": "2024",
+   "qtd": 110372
+  },
+  {
+   "ano": "2025",
+   "qtd": 120172
+  },
+  {
+   "ano": "2026",
+   "qtd": 92954
+  }
+ ],
+ "mensal": [
+  {
+   "mes": "2023-11",
+   "qtd": 7634
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 6419
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 7084
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 7931
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 6973
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 9867
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 8369
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 11649
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 11334
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 10694
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 9007
+  },
+  {
+   "mes": "2024-10",
+   "qtd": 9875
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 10345
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 7244
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 7631
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 9119
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 9056
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 10853
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 9853
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 10403
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 11427
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 9900
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 11609
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 12392
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 9619
+  },
+  {
+   "mes": "2025-12",
+   "qtd": 8310
+  },
+  {
+   "mes": "2026-01",
+   "qtd": 9439
+  },
+  {
+   "mes": "2026-02",
+   "qtd": 8616
+  },
+  {
+   "mes": "2026-03",
+   "qtd": 11486
+  },
+  {
+   "mes": "2026-04",
+   "qtd": 9513
+  },
+  {
+   "mes": "2026-05",
+   "qtd": 10656
+  },
+  {
+   "mes": "2026-06",
+   "qtd": 9689
+  },
+  {
+   "mes": "2026-07",
+   "qtd": 11073
+  },
+  {
+   "mes": "2026-08",
+   "qtd": 10063
+  },
+  {
+   "mes": "2026-09",
+   "qtd": 9891
+  },
+  {
+   "mes": "2026-10",
+   "qtd": 2528
+  },
+  {
+   "mes": "2026-11",
+   "qtd": 0
+  }
+ ],
+ "parte_mais_antiga_em": "2026-11-24T20:42:41+00:00"
 }

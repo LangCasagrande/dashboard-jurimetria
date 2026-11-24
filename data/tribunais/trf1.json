@@ -4,41 +4,42 @@
  "nome": "Tribunal Regional Federal da 1ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "graus": "2026-11-23T18:39:53+00:00",
-  "formatos": "2026-11-23T18:41:23+00:00",
+  "graus": "2026-11-24T18:27:04+00:00",
+  "formatos": "2026-11-24T18:28:01+00:00",
   "sistemas": "2026-11-23T18:42:00+00:00",
-  "classes": "2026-11-23T18:43:10+00:00",
-  "assuntos": "2026-11-23T18:46:45+00:00",
-  "orgaos": "2026-11-23T18:58:59+00:00",
-  "total": "2026-11-23T18:59:45+00:00",
-  "mensal": "2026-11-23T19:05:31+00:00"
+  "classes": "2026-11-24T18:39:55+00:00",
+  "assuntos": "2026-11-24T18:40:43+00:00",
+  "orgaos": "2026-11-24T18:41:50+00:00",
+  "total": "2026-11-24T18:42:16+00:00",
+  "mensal": "2026-11-24T18:43:36+00:00",
+  "anual": "2026-11-24T18:43:04+00:00"
  },
  "graus": [
   {
    "nome": "JE",
-   "qtd": 3830128
+   "qtd": 6701749
   },
   {
    "nome": "G1",
-   "qtd": 2172868
+   "qtd": 3799897
   },
   {
    "nome": "G2",
-   "qtd": 821947
+   "qtd": 1439656
   },
   {
    "nome": "TR",
-   "qtd": 607170
+   "qtd": 1064551
   },
   {
    "nome": "TRU",
-   "qtd": 1742
+   "qtd": 3026
   }
  ],
  "formatos": [
   {
    "nome": "Eletrônico",
-   "qtd": 11150765
+   "qtd": 13008879
   }
  ],
  "sistemas": [
@@ -54,196 +55,460 @@
  "classes": [
   {
    "nome": "Procedimento do Juizado Especial Cível",
-   "qtd": 3859422
+   "qtd": 5404371
   },
   {
    "nome": "Cumprimento de Sentença contra a Fazenda Pública",
-   "qtd": 1084465
+   "qtd": 1518077
   },
   {
    "nome": "Execução Fiscal",
-   "qtd": 996599
+   "qtd": 1395548
   },
   {
    "nome": "Recurso Inominado Cível",
-   "qtd": 739137
+   "qtd": 1033104
   },
   {
    "nome": "Apelação Cível",
-   "qtd": 547186
+   "qtd": 765981
   },
   {
    "nome": "Procedimento Comum Cível",
-   "qtd": 499714
+   "qtd": 699665
   },
   {
    "nome": "Mandado de Segurança Cível",
-   "qtd": 378869
+   "qtd": 530086
   },
   {
    "nome": "Agravo de Instrumento",
-   "qtd": 261774
+   "qtd": 366172
   },
   {
    "nome": "Cumprimento de sentença",
-   "qtd": 199733
+   "qtd": 280037
   },
   {
    "nome": "Execução de Título Extrajudicial",
-   "qtd": 104751
+   "qtd": 146621
   },
   {
    "nome": "Apelação / Remessa Necessária",
-   "qtd": 98282
+   "qtd": 137548
   },
   {
    "nome": "Remessa Necessária Cível",
-   "qtd": 57749
+   "qtd": 80496
   },
   {
    "nome": "Ação Penal - Procedimento Ordinário",
-   "qtd": 51706
+   "qtd": 72329
   },
   {
    "nome": "Cumprimento de Sentença de Ações Coletivas",
-   "qtd": 37266
+   "qtd": 52189
   },
   {
    "nome": "Monitória",
-   "qtd": 35175
+   "qtd": 49027
   }
  ],
  "assuntos": [
   {
    "nome": "Auxílio por Incapacidade Temporária",
-   "qtd": 216805
+   "qtd": 1520042
   },
   {
    "nome": "Deficiente",
-   "qtd": 159579
+   "qtd": 1115415
   },
   {
    "nome": "Aposentadoria por Incapacidade Permanente",
-   "qtd": 143085
+   "qtd": 1003825
   },
   {
    "nome": "Rural (Art. 48/51)",
-   "qtd": 127828
+   "qtd": 890196
   },
   {
    "nome": "Salário-Maternidade (Art. 71/73)",
-   "qtd": 98495
+   "qtd": 686167
   },
   {
    "nome": "Rural",
-   "qtd": 69872
+   "qtd": 488588
   },
   {
    "nome": "Indenização por Dano Moral",
-   "qtd": 53132
+   "qtd": 371356
   },
   {
    "nome": "Multas e demais Sanções",
-   "qtd": 51916
+   "qtd": 360833
   },
   {
    "nome": "Atualização de Conta",
-   "qtd": 50176
+   "qtd": 349967
   },
   {
    "nome": "Pensão por Morte (Art. 74/9)",
-   "qtd": 47877
+   "qtd": 336724
   },
   {
    "nome": "Seguro-defeso ao pescado artesanal profissional",
-   "qtd": 41164
+   "qtd": 285801
   },
   {
    "nome": "Conselhos Regionais e Afins (Anuidade)",
-   "qtd": 36546
+   "qtd": 256435
   },
   {
    "nome": "Contratos Bancários",
-   "qtd": 35943
+   "qtd": 251618
   },
   {
    "nome": "Aposentadoria por Tempo de Contribuição (Art. 55/6)",
-   "qtd": 35325
+   "qtd": 248901
   },
   {
    "nome": "Restabelecimento",
-   "qtd": 28348
+   "qtd": 200749
   }
  ],
  "orgaos": [
   {
-   "nome": "07ª Vara JEF - São Luís",
-   "qtd": 20479
+   "nome": "09ª Vara JEF - São Luís",
+   "qtd": 122867
   },
   {
-   "nome": "12ª Vara JEF - São Luís",
-   "qtd": 20344
+   "nome": "07ª Vara JEF - São Luís",
+   "qtd": 122845
   },
   {
    "nome": "10ª Vara JEF - São Luís",
-   "qtd": 20332
+   "qtd": 121502
   },
   {
-   "nome": "09ª Vara JEF - São Luís",
-   "qtd": 20164
+   "nome": "12ª Vara JEF - São Luís",
+   "qtd": 120905
   },
   {
    "nome": "07ª Vara JEF - Teresina",
-   "qtd": 17004
-  },
-  {
-   "nome": "04ª - Cuiabá",
-   "qtd": 16218
+   "qtd": 101553
   },
   {
    "nome": "06ª Vara JEF - Teresina",
-   "qtd": 16056
+   "qtd": 96843
+  },
+  {
+   "nome": "04ª - Cuiabá",
+   "qtd": 96761
   },
   {
    "nome": "08ª  Vara JEF - Teresina",
-   "qtd": 15657
+   "qtd": 94638
   },
   {
    "nome": "06ª  Vara JEF- Manaus",
-   "qtd": 15334
+   "qtd": 91581
   },
   {
    "nome": "08ª  Vara JEF- Manaus",
-   "qtd": 15164
+   "qtd": 91196
   },
   {
    "nome": "Vara Única de Caxias",
-   "qtd": 14328
-  },
-  {
-   "nome": "Vara Única de Parnaíba",
-   "qtd": 14074
+   "qtd": 86295
   },
   {
    "nome": "Vara Única de Irecê",
-   "qtd": 14051
+   "qtd": 84351
+  },
+  {
+   "nome": "Vara Única de Parnaíba",
+   "qtd": 83620
   },
   {
    "nome": "Vara Única de Campo Formoso",
-   "qtd": 13778
+   "qtd": 82635
   },
   {
    "nome": "11ª - Brasília",
-   "qtd": 13288
+   "qtd": 78838
   }
  ],
- "total": 1858114,
+ "total": 5575024,
  "mensal": [
   {
+   "mes": "2023-11",
+   "qtd": 115435
+  },
+  {
+   "mes": "2023-12",
+   "qtd": 92002
+  },
+  {
+   "mes": "2024-01",
+   "qtd": 85975
+  },
+  {
+   "mes": "2024-02",
+   "qtd": 106412
+  },
+  {
+   "mes": "2024-03",
+   "qtd": 112214
+  },
+  {
+   "mes": "2024-04",
+   "qtd": 132732
+  },
+  {
+   "mes": "2024-05",
+   "qtd": 116739
+  },
+  {
+   "mes": "2024-06",
+   "qtd": 114259
+  },
+  {
+   "mes": "2024-07",
+   "qtd": 128140
+  },
+  {
+   "mes": "2024-08",
+   "qtd": 120917
+  },
+  {
+   "mes": "2024-09",
+   "qtd": 106204
+  },
+  {
    "mes": "2024-10",
-   "qtd": 1
+   "qtd": 128354
+  },
+  {
+   "mes": "2024-11",
+   "qtd": 119820
+  },
+  {
+   "mes": "2024-12",
+   "qtd": 114769
+  },
+  {
+   "mes": "2025-01",
+   "qtd": 99184
+  },
+  {
+   "mes": "2025-02",
+   "qtd": 121165
+  },
+  {
+   "mes": "2025-03",
+   "qtd": 114913
+  },
+  {
+   "mes": "2025-04",
+   "qtd": 126768
+  },
+  {
+   "mes": "2025-05",
+   "qtd": 154392
+  },
+  {
+   "mes": "2025-06",
+   "qtd": 132762
+  },
+  {
+   "mes": "2025-07",
+   "qtd": 165159
+  },
+  {
+   "mes": "2025-08",
+   "qtd": 142561
+  },
+  {
+   "mes": "2025-09",
+   "qtd": 168332
+  },
+  {
+   "mes": "2025-10",
+   "qtd": 155384
+  },
+  {
+   "mes": "2025-11",
+   "qtd": 140885
+  },
+  {
+   "mes": "2025-12",
+   "qtd": 116047
+  },
+  {
+   "mes": "2026-01",
+   "qtd": 98197
+  },
+  {
+   "mes": "2026-02",
+   "qtd": 125165
+  },
+  {
+   "mes": "2026-03",
+   "qtd": 172528
+  },
+  {
+   "mes": "2026-04",
+   "qtd": 159389
+  },
+  {
+   "mes": "2026-05",
+   "qtd": 170160
+  },
+  {
+   "mes": "2026-06",
+   "qtd": 165963
+  },
+  {
+   "mes": "2026-07",
+   "qtd": 196331
+  },
+  {
+   "mes": "2026-08",
+   "qtd": 183405
+  },
+  {
+   "mes": "2026-09",
+   "qtd": 178566
+  },
+  {
+   "mes": "2026-10",
+   "qtd": 147854
+  },
+  {
+   "mes": "2026-11",
+   "qtd": 24892
   }
  ],
- "erros": {},
- "atualizado_em": "2026-11-23T19:05:31+00:00"
+ "erros": {
+  "sistemas": "HTTP 504: <html>\r <head><title>504 Gateway Time-out</title></head>\r <body>\r <center><h1>504 Gateway Time-out</h1></center>\r <hr><center>NSX LB</center>\r </body>\r </html>\r"
+ },
+ "atualizado_em": "2026-11-24T18:43:36+00:00",
+ "totais_partes": {
+  "graus": 13008879,
+  "formatos": 13008879,
+  "classes": 13008879,
+  "assuntos": 13008879,
+  "orgaos": 11151310
+ },
+ "anual": [
+  {
+   "ano": "2000",
+   "qtd": 13275
+  },
+  {
+   "ano": "2001",
+   "qtd": 12275
+  },
+  {
+   "ano": "2002",
+   "qtd": 14509
+  },
+  {
+   "ano": "2003",
+   "qtd": 19694
+  },
+  {
+   "ano": "2004",
+   "qtd": 17236
+  },
+  {
+   "ano": "2005",
+   "qtd": 23150
+  },
+  {
+   "ano": "2006",
+   "qtd": 37093
+  },
+  {
+   "ano": "2007",
+   "qtd": 47734
+  },
+  {
+   "ano": "2008",
+   "qtd": 41654
+  },
+  {
+   "ano": "2009",
+   "qtd": 53391
+  },
+  {
+   "ano": "2010",
+   "qtd": 61166
+  },
+  {
+   "ano": "2011",
+   "qtd": 84474
+  },
+  {
+   "ano": "2012",
+   "qtd": 93335
+  },
+  {
+   "ano": "2013",
+   "qtd": 97726
+  },
+  {
+   "ano": "2014",
+   "qtd": 146573
+  },
+  {
+   "ano": "2015",
+   "qtd": 141125
+  },
+  {
+   "ano": "2016",
+   "qtd": 181003
+  },
+  {
+   "ano": "2017",
+   "qtd": 199988
+  },
+  {
+   "ano": "2018",
+   "qtd": 329843
+  },
+  {
+   "ano": "2019",
+   "qtd": 627829
+  },
+  {
+   "ano": "2020",
+   "qtd": 730333
+  },
+  {
+   "ano": "2021",
+   "qtd": 988238
+  },
+  {
+   "ano": "2022",
+   "qtd": 945461
+  },
+  {
+   "ano": "2023",
+   "qtd": 1020185
+  },
+  {
+   "ano": "2024",
+   "qtd": 990581
+  },
+  {
+   "ano": "2025",
+   "qtd": 1169692
+  },
+  {
+   "ano": "2026",
+   "qtd": 1158882
+  }
+ ],
+ "parte_mais_antiga_em": "2026-11-23T18:42:00+00:00"
 }

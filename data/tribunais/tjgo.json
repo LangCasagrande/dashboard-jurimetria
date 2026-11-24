@@ -4,13 +4,15 @@
  "nome": "Tribunal de Justiça de Goiás",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "graus": "2026-11-20T15:48:50+00:00",
-  "formatos": "2026-11-20T15:50:18+00:00",
-  "sistemas": "2026-11-20T15:51:17+00:00",
-  "classes": "2026-11-20T15:52:59+00:00",
-  "assuntos": "2026-11-20T15:56:09+00:00",
-  "orgaos": "2026-11-20T16:02:53+00:00",
-  "mensal": "2026-11-20T16:15:09+00:00"
+  "graus": "2026-11-24T21:50:16+00:00",
+  "formatos": "2026-11-24T21:51:30+00:00",
+  "sistemas": "2026-11-24T21:52:58+00:00",
+  "classes": "2026-11-24T21:53:29+00:00",
+  "assuntos": "2026-11-24T21:53:59+00:00",
+  "orgaos": "2026-11-24T21:57:31+00:00",
+  "mensal": "2026-11-24T22:07:15+00:00",
+  "total": "2026-11-24T21:59:01+00:00",
+  "anual": "2026-11-24T22:05:36+00:00"
  },
  "graus": [
   {
@@ -33,7 +35,7 @@
  "formatos": [
   {
    "nome": "Eletrônico",
-   "qtd": 7472068
+   "qtd": 3737521
   }
  ],
  "sistemas": [
@@ -173,201 +175,335 @@
  "orgaos": [
   {
    "nome": "Vara Judicial",
-   "qtd": 330614
+   "qtd": 661470
   },
   {
    "nome": "Juizado Especial Cível e Criminal",
-   "qtd": 192423
+   "qtd": 384098
   },
   {
    "nome": "2ª Vara Judicial (Fazendas Públicas, Criminal, Execução Penal e Juizado Criminal)",
-   "qtd": 112244
+   "qtd": 224767
   },
   {
    "nome": "1ª Vara Judicial (Família e Sucessões, Infância e Juventude, Cível e Juizado Especial Cível)",
-   "qtd": 93027
+   "qtd": 186208
   },
   {
    "nome": "Vara da Faz. Púb. Mun.,de Reg. Púb., e Amb.",
-   "qtd": 91242
+   "qtd": 182533
   },
   {
    "nome": "5ª Vara da Fazenda Pública Municipal e de Registros Públicos – Execução Fiscal",
-   "qtd": 64298
+   "qtd": 128459
   },
   {
    "nome": "1ª Vara da Faz. Púb. Mun. e de Reg. Púb. - Execução Fiscal",
-   "qtd": 61817
+   "qtd": 123364
   },
   {
    "nome": "1ª Vara Cível",
-   "qtd": 50683
+   "qtd": 101224
   },
   {
    "nome": "Vara da Fazenda Púb. Municipal, de Reg. Púb. e Ambiental",
-   "qtd": 49484
+   "qtd": 99287
   },
   {
    "nome": "2ª Vara Cível",
-   "qtd": 48842
+   "qtd": 97413
   },
   {
    "nome": "2º Juizado Especial Cível",
-   "qtd": 43839
+   "qtd": 88043
   },
   {
    "nome": "1º Juizado Especial Cível",
-   "qtd": 43590
+   "qtd": 86823
   },
   {
    "nome": "2ª Vara (Cível, das Fazendas Públicas, de Registros Públicos e Ambiental)",
-   "qtd": 43133
+   "qtd": 86653
   },
   {
    "nome": "3º Juizado Especial Cível",
-   "qtd": 42179
+   "qtd": 84481
   },
   {
    "nome": "1º Juizado Especial Cível e Criminal",
-   "qtd": 39772
+   "qtd": 79720
   }
  ],
  "mensal": [
   {
    "mes": "2023-11",
-   "qtd": 38
+   "qtd": 34436
   },
   {
    "mes": "2023-12",
-   "qtd": 21
+   "qtd": 36779
   },
   {
    "mes": "2024-01",
-   "qtd": 34
+   "qtd": 29465
   },
   {
    "mes": "2024-02",
-   "qtd": 44
+   "qtd": 34386
   },
   {
    "mes": "2024-03",
-   "qtd": 36
+   "qtd": 37832
   },
   {
    "mes": "2024-04",
-   "qtd": 33
+   "qtd": 39922
   },
   {
    "mes": "2024-05",
-   "qtd": 26
+   "qtd": 35037
   },
   {
    "mes": "2024-06",
-   "qtd": 36
+   "qtd": 35970
   },
   {
    "mes": "2024-07",
-   "qtd": 35
+   "qtd": 39380
   },
   {
    "mes": "2024-08",
-   "qtd": 27
+   "qtd": 42226
   },
   {
    "mes": "2024-09",
-   "qtd": 565
+   "qtd": 60481
   },
   {
    "mes": "2024-10",
-   "qtd": 42
+   "qtd": 43429
   },
   {
    "mes": "2024-11",
-   "qtd": 27
+   "qtd": 38340
   },
   {
    "mes": "2024-12",
-   "qtd": 19
+   "qtd": 32929
   },
   {
    "mes": "2025-01",
-   "qtd": 25
+   "qtd": 34726
   },
   {
    "mes": "2025-02",
-   "qtd": 29
+   "qtd": 39833
   },
   {
    "mes": "2025-03",
-   "qtd": 51
+   "qtd": 40150
   },
   {
    "mes": "2025-04",
-   "qtd": 43
+   "qtd": 39871
   },
   {
    "mes": "2025-05",
-   "qtd": 57
+   "qtd": 41562
   },
   {
    "mes": "2025-06",
-   "qtd": 0
+   "qtd": 40167
   },
   {
    "mes": "2025-07",
-   "qtd": 0
+   "qtd": 44199
   },
   {
    "mes": "2025-08",
-   "qtd": 0
+   "qtd": 42374
   },
   {
    "mes": "2025-09",
-   "qtd": 0
+   "qtd": 44565
   },
   {
    "mes": "2025-10",
-   "qtd": 0
+   "qtd": 46205
   },
   {
    "mes": "2025-11",
-   "qtd": 0
+   "qtd": 43314
   },
   {
    "mes": "2025-12",
-   "qtd": 0
+   "qtd": 37314
   },
   {
    "mes": "2026-01",
-   "qtd": 0
+   "qtd": 34500
   },
   {
    "mes": "2026-02",
-   "qtd": 0
+   "qtd": 38053
   },
   {
    "mes": "2026-03",
-   "qtd": 0
+   "qtd": 47649
   },
   {
    "mes": "2026-04",
-   "qtd": 0
+   "qtd": 43188
   },
   {
    "mes": "2026-05",
-   "qtd": 0
+   "qtd": 45811
   },
   {
    "mes": "2026-06",
-   "qtd": 0
+   "qtd": 44467
   },
   {
    "mes": "2026-07",
-   "qtd": 1
+   "qtd": 47575
+  },
+  {
+   "mes": "2026-08",
+   "qtd": 45703
+  },
+  {
+   "mes": "2026-09",
+   "qtd": 66212
+  },
+  {
+   "mes": "2026-10",
+   "qtd": 0
+  },
+  {
+   "mes": "2026-11",
+   "qtd": 0
   }
  ],
- "erros": {
-  "total": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ "erros": {},
+ "atualizado_em": "2026-11-24T22:07:15+00:00",
+ "totais_partes": {
+  "graus": 7478583,
+  "formatos": 3740742,
+  "sistemas": 7478583,
+  "classes": 7478583,
+  "assuntos": 7478583,
+  "orgaos": 7478583
  },
- "atualizado_em": "2026-11-20T16:15:09+00:00"
+ "total": 7478583,
+ "anual": [
+  {
+   "ano": "2000",
+   "qtd": 6733
+  },
+  {
+   "ano": "2001",
+   "qtd": 4374
+  },
+  {
+   "ano": "2002",
+   "qtd": 5694
+  },
+  {
+   "ano": "2003",
+   "qtd": 10526
+  },
+  {
+   "ano": "2004",
+   "qtd": 8242
+  },
+  {
+   "ano": "2005",
+   "qtd": 13605
+  },
+  {
+   "ano": "2006",
+   "qtd": 14373
+  },
+  {
+   "ano": "2007",
+   "qtd": 15247
+  },
+  {
+   "ano": "2008",
+   "qtd": 27084
+  },
+  {
+   "ano": "2009",
+   "qtd": 18524
+  },
+  {
+   "ano": "2010",
+   "qtd": 36137
+  },
+  {
+   "ano": "2011",
+   "qtd": 51596
+  },
+  {
+   "ano": "2012",
+   "qtd": 51297
+  },
+  {
+   "ano": "2013",
+   "qtd": 82879
+  },
+  {
+   "ano": "2014",
+   "qtd": 84251
+  },
+  {
+   "ano": "2015",
+   "qtd": 98303
+  },
+  {
+   "ano": "2016",
+   "qtd": 129035
+  },
+  {
+   "ano": "2017",
+   "qtd": 182206
+  },
+  {
+   "ano": "2018",
+   "qtd": 216447
+  },
+  {
+   "ano": "2019",
+   "qtd": 384366
+  },
+  {
+   "ano": "2020",
+   "qtd": 469559
+  },
+  {
+   "ano": "2021",
+   "qtd": 467724
+  },
+  {
+   "ano": "2022",
+   "qtd": 531605
+  },
+  {
+   "ano": "2023",
+   "qtd": 605504
+  },
+  {
+   "ano": "2024",
+   "qtd": 704505
+  },
+  {
+   "ano": "2025",
+   "qtd": 742019
+  },
+  {
+   "ano": "2026",
+   "qtd": 620708
+  }
+ ],
+ "parte_mais_antiga_em": "2026-11-24T21:50:16+00:00"
 }
