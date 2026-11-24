@@ -12,12 +12,19 @@
   ];
 
   document.querySelectorAll('[data-icone]').forEach(el => { el.innerHTML = icone(el.dataset.icone); });
-  document.querySelector('[data-campo="ferramentas"]').innerHTML = FERRAMENTAS.map(([href, ic, cor, titulo, texto, tag]) => `
+  const ROMANOS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
+  document.querySelector('[data-campo="ferramentas"]').innerHTML = FERRAMENTAS.map(([href, , , titulo, texto, tag], i) => `
     <a class="ferramenta" href="${href}">
-      <div class="ic ${cor}">${icone(ic)}</div>
+      <span class="n" aria-hidden="true">${ROMANOS[i]}</span>
       <h3>${titulo}</h3><p>${texto}</p>
       <div class="rod"><span>${tag}</span>${icone('seta', ' width="18" height="18"')}</div>
     </a>`).join('');
+
+  // Artigos do Direito Penal anotado, lidos do índice (o HTML já traz a lista padrão).
+  fetch('lei-anotada/dados/indice.json', { cache: 'no-cache' }).then(r => (r.ok ? r.json() : Promise.reject(r.status))).then(ind => {
+    const lista = (ind.artigos || []).filter(a => /^[a-z0-9-]+$/.test(a.id));
+    if (lista.length) document.querySelector('[data-campo="artigos"]').innerHTML = lista.map(a => `<li><a href="lei-anotada/?artigo=${a.id}">${esc(a.artigo)} · ${esc(a.rubrica)}</a></li>`).join('');
+  }).catch(() => { /* mantém a lista padrão */ });
 
   const num = (v, casas = 1) => Number(v).toLocaleString('pt-BR', { maximumFractionDigits: casas });
   const curto = n => n >= 1e6 ? `${num(n / 1e6)} mi` : n >= 1e3 ? `${num(n / 1e3)} mil` : num(n, 0);
