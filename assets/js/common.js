@@ -40,7 +40,7 @@
   if (!document.querySelector('link[rel="icon"]')) {
     const icon = document.createElement('link');
     icon.rel = 'icon';
-    icon.href = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="#4f46e5"/><text x="16" y="23" font-size="20" text-anchor="middle" fill="#fff" font-family="Georgia,serif">§</text></svg>');
+    icon.href = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#0f1d33"/><text x="16" y="23" font-size="20" text-anchor="middle" fill="#c9b27c" font-family="Georgia,serif">§</text></svg>');
     document.head.append(icon);
   }
 
@@ -60,7 +60,6 @@
   header.innerHTML = `
     <div class="topbar-inner">
       <a class="brand" href="${base}" aria-label="JusLab.IA — início">
-        <span class="brand-mark" aria-hidden="true">§</span>
         <span class="brand-text"><span>JusLab<span class="ia">.IA</span></span><small>dados e tecnologia para o Direito</small></span>
       </a>
       <nav class="nav" id="menu-principal" aria-label="Menu principal">
@@ -70,6 +69,11 @@
       <button class="icon-btn" type="button" id="theme-toggle" aria-label="Alternar tema claro/escuro"></button>
     </div>`;
   document.body.prepend(header);
+  const faixaTopo = document.createElement('aside');
+  faixaTopo.setAttribute('aria-label', 'Sobre o projeto');
+  faixaTopo.className = 'faixa-topo';
+  faixaTopo.innerHTML = `<div class="faixa-topo-in"><span>Dados públicos do CNJ · fontes oficiais</span><a href="${base}sobre/">Projeto de ${AUTOR.nome}</a></div>`;
+  document.body.prepend(faixaTopo);
 
   // Menu do celular (☰)
   const menuBtn = header.querySelector('.menu-btn');
@@ -122,7 +126,7 @@
   footer.innerHTML = `
     <div class="footer-in">
       <div>
-        <a class="brand" href="${base}"><span class="brand-mark" aria-hidden="true">§</span><span class="brand-text"><span>JusLab<span class="ia">.IA</span></span></span></a>
+        <a class="brand" href="${base}"><span class="brand-text"><span>JusLab<span class="ia">.IA</span></span></span></a>
         <p>Dados e tecnologia para o Direito. Projeto aberto de estudo e portfólio em legal tech.</p>
         <p class="autor">Feito por ${AUTOR.nome}<br><a href="${AUTOR.github}" rel="me noopener" target="_blank">GitHub</a>${linkAutor}</p>
       </div>
