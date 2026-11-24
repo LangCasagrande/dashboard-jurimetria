@@ -33,9 +33,10 @@ def ms_iso(texto: str) -> int:
 class FakeES:
     """Avalia o subconjunto de consultas usado pelo coletor sobre uma lista de datas."""
 
-    def __init__(self, datas: list[str]):
+    def __init__(self, datas: list[str], assuntos: list[list[int]] | None = None):
         # Como o índice guarda cada data: ISO vira o instante certo; compacto vira "milissegundos".
         self.ms = [int(d) if d.isdigit() else ms_iso(d) for d in datas]
+        self.assuntos = assuntos or [[] for _ in datas]
 
     @staticmethod
     def _limite(v) -> int:
@@ -56,6 +57,14 @@ class FakeES:
                 cont[k] = cont.get(k, 0) + 1
             resp["aggregations"]["iso"] = {"doc_count": len(dentro), "h": {"buckets": [
                 {"key_as_string": k, "doc_count": v} for k, v in sorted(cont.items())]}}
+        # Agregações de temas: {tema: {filter: {terms: {assuntos.codigo: [...]}}, aggs: {por: {filters: ...}}}}
+        for nome, agg in aggs.items():
+            if "filter" in agg and "terms" in agg["filter"]:
+                codigos = set(agg["filter"]["terms"]["assuntos.codigo"])
+                docs = [a for a in self.assuntos if codigos & set(a)]
+                por = {k: {"doc_count": sum(1 for a in docs if f["term"]["assuntos.codigo"] in a)}
+                       for k, f in agg["aggs"]["por"]["filters"]["filters"].items()}
+                resp["aggregations"][nome] = {"doc_count": len(docs), "por": {"buckets": por}}
         if "compacto" in aggs:
             faixas = aggs["compacto"]["range"]["ranges"]
             resp["aggregations"]["compacto"] = {"buckets": [
@@ -227,6 +236,32 @@ class TestColetarTribunal(Base):
             d = coletar.coletar_tribunal(TRIB, "k", coletar.time.monotonic() + 999)
         self.assertEqual(d["mensal"][-1]["mes"], "2022-12")
         self.assertEqual(sum(x["qtd"] for x in d["mensal"]), 900)
+
+
+class TestTemas(Base):
+    TEMAS = {"cp-157": {"nome": "Roubo", "assuntos": {"3419": "Roubo", "5566": "Roubo Majorado"}}}
+
+    def setUp(self):
+        super().setUp()
+        p = mock.patch.object(coletar, "carregar_temas", return_value=self.TEMAS)
+        p.start()
+        self.addCleanup(p.stop)
+
+    def test_conta_processo_uma_vez_mesmo_com_dois_assuntos(self):
+        es = FakeES(["2025-01-01T00:00:00"] * 4, assuntos=[[3419], [3419, 5566], [5566], [1234]])
+        r = es.buscar(coletar.corpo_temas(self.TEMAS))
+        t = coletar.extrair_temas(r, self.TEMAS)["cp-157"]
+        self.assertEqual(t["total"], 3)
+        self.assertEqual(t["por_assunto"], {"3419": 2, "5566": 2})
+
+    def test_temas_json_mescla_coletas(self):
+        lista = [TRIB, {**TRIB, "alias": "tjyy", "sigla": "TJYY"}]
+        novos = {"tjxx": {"temas": {"cp-157": {"total": 10, "por_assunto": {"3419": 10}}}, "coletado_em": "2026-11-24T00:00:00+00:00"}}
+        coletar.atualizar_temas(lista, novos)
+        coletar.atualizar_temas(lista, {"tjyy": {"temas": {"cp-157": {"total": 30, "por_assunto": {"3419": 30}}}, "coletado_em": "x"}})
+        d = json.loads((coletar.DADOS / "temas.json").read_text(encoding="utf-8"))["temas"]["cp-157"]
+        self.assertEqual([x["alias"] for x in d["tribunais"]], ["tjyy", "tjxx"])  # mantém o anterior e ordena
+        self.assertEqual(d["nome"], "Roubo")
 
 
 class TestIndiceEMain(Base):

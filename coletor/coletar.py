@@ -35,6 +35,8 @@ RAIZ = Path(__file__).resolve().parent.parent
 DADOS = RAIZ / "data"
 POR_TRIBUNAL = DADOS / "tribunais"
 LISTA = Path(__file__).with_name("tribunais.json")
+# Temas ligados a artigos de lei (lei anotada): códigos de assunto do CNJ por tema.
+TEMAS_ARQ = Path(__file__).with_name("temas.json")
 MESES_HISTORICO = 36
 ANO_INICIAL = 2000
 
@@ -122,7 +124,37 @@ PARTES = {
     # "anual" e "mensal" têm corpo montado na hora (ver corpo_anual / corpo_mensal).
     "anual": (None, None),
     "mensal": (None, None),
+    # Processos por tema (ex.: roubo, art. 157 do CP), pelos códigos de assunto do CNJ (ver temas.json).
+    "temas": (None, None),
 }
+
+
+def carregar_temas() -> dict:
+    return ler_json(TEMAS_ARQ, {})
+
+
+def corpo_temas(temas: dict) -> dict:
+    """Uma consulta só: para cada tema, quantos processos têm algum dos seus assuntos e quantos têm cada um."""
+    todos = sorted({int(c) for t in temas.values() for c in t["assuntos"]})
+    aggs = {}
+    for tid, t in temas.items():
+        codigos = [int(c) for c in t["assuntos"]]
+        aggs[tid] = {
+            "filter": {"terms": {"assuntos.codigo": codigos}},
+            "aggs": {"por": {"filters": {"filters": {str(c): {"term": {"assuntos.codigo": c}} for c in codigos}}}},
+        }
+    return {"size": 0, "query": {"terms": {"assuntos.codigo": todos}}, "aggs": aggs}
+
+
+def extrair_temas(resp: dict, temas: dict) -> dict:
+    saida = {}
+    for tid in temas:
+        a = resp["aggregations"][tid]
+        saida[tid] = {
+            "total": a["doc_count"],
+            "por_assunto": {c: b["doc_count"] for c, b in a["por"]["buckets"].items()},
+        }
+    return saida
 
 
 # Datas de ajuizamento em dois formatos na base.
@@ -251,6 +283,12 @@ def coletar_tribunal(trib: dict, chave: str, prazo: float) -> dict:
             elif parte == "mensal":
                 corpo, chaves = corpo_mensal(dados)
                 extrair = lambda r, c=chaves: _somar_datas(r, c, "mes")  # noqa: E731
+            elif parte == "temas":
+                temas = carregar_temas()
+                if not temas:
+                    continue
+                corpo = corpo_temas(temas)
+                extrair = lambda r, t=temas: extrair_temas(r, t)  # noqa: E731
             resposta = consultar(trib["alias"], corpo, chave, prazo=prazo)
             try:
                 dados[parte] = extrair(resposta)
@@ -304,6 +342,55 @@ def atualizar_indice(tribunais: list[dict]) -> None:
         })
     gravar_json(DADOS / "index.json", {"gerado_em": agora_iso(), "fonte": "API Pública do DataJud (CNJ)", "tribunais": itens})
     log(f"index.json: {len(itens)} tribunais com dados")
+    atualizar_temas(tribunais)
+
+
+def atualizar_temas(tribunais: list[dict], novos: dict | None = None) -> None:
+    """data/temas.json: por tema, os números de cada tribunal. Usa o arquivo do tribunal quando ele tem
+    a parte "temas"; senão, os números recebidos em `novos` (coleta só de temas) ou os que já estavam."""
+    temas = carregar_temas()
+    if not temas:
+        return
+    antigo = ler_json(DADOS / "temas.json", {}).get("temas", {})
+    novos = novos or {}
+    saida = {}
+    for tid, cfg in temas.items():
+        anteriores = {x["alias"]: x for x in antigo.get(tid, {}).get("tribunais", [])}
+        linhas = []
+        for t in tribunais:
+            d = ler_json(POR_TRIBUNAL / f"{t['alias']}.json", {}) or {}
+            if tid in (d.get("temas") or {}):
+                valor, quando = d["temas"][tid], (d.get("partes_atualizadas_em") or {}).get("temas")
+            elif tid in novos.get(t["alias"], {}).get("temas", {}):
+                valor, quando = novos[t["alias"]]["temas"][tid], novos[t["alias"]]["coletado_em"]
+            elif t["alias"] in anteriores:
+                linhas.append(anteriores[t["alias"]])
+                continue
+            else:
+                continue
+            linhas.append({"alias": t["alias"], "sigla": t["sigla"], "nome": t["nome"], "ramo": t["ramo"],
+                           "total": valor["total"], "por_assunto": valor["por_assunto"], "coletado_em": quando})
+        saida[tid] = {**cfg, "tribunais": sorted(linhas, key=lambda x: -x["total"])}
+    gravar_json(DADOS / "temas.json", {"gerado_em": agora_iso(), "fonte": "API Pública do DataJud (CNJ)", "temas": saida})
+
+
+def coletar_so_temas(fila: list[dict], todos: list[dict], chave: str, prazo: float) -> int:
+    """Coleta apenas os temas, sem mexer nos arquivos dos tribunais (útil fora do agendamento diário)."""
+    temas = carregar_temas()
+    ok = 0
+    for i, t in enumerate(fila, 1):
+        if time.monotonic() > prazo:
+            log("orçamento de tempo esgotado")
+            break
+        log(f"[{i}/{len(fila)}] {t['sigla']} · temas")
+        try:
+            r = consultar(t["alias"], corpo_temas(temas), chave, prazo=prazo)
+            novos = {t["alias"]: {"temas": extrair_temas(r, temas), "coletado_em": agora_iso()}}
+            atualizar_temas(todos, novos)
+            ok += 1
+        except (ErroDataJud, KeyError, TypeError) as e:
+            log(f"    falhou: {e}")
+    return ok
 
 
 def minutos_padrao() -> float:
@@ -316,6 +403,7 @@ def minutos_padrao() -> float:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--tribunais", help="aliases separados por vírgula (ex.: tjac,stj,tre-sp)")
+    ap.add_argument("--so-temas", action="store_true", help="coleta só os temas (data/temas.json), sem tocar nos tribunais")
     ap.add_argument("--minutos", type=float, default=minutos_padrao(),
                     help="orçamento de tempo total (padrão 320 min; o job do GitHub Actions tem limite de 350)")
     args = ap.parse_args()
@@ -338,6 +426,10 @@ def main() -> int:
 
     prazo = time.monotonic() + args.minutos * 60
     log(f"{len(fila)} tribunais na fila; orçamento de {args.minutos:.0f} min")
+    if args.so_temas:
+        ok = coletar_so_temas(fila, todos, chave, prazo)
+        log(f"concluído: temas de {ok} tribunais")
+        return 0
     ok = 0
     for i, t in enumerate(fila, 1):
         if time.monotonic() > prazo:
