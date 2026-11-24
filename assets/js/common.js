@@ -11,7 +11,7 @@
     { id: 'contratos', href: 'contratos/', label: 'Contratos', rotulo: 'Ferramenta · análise de risco' },
     { id: 'legislacao', href: 'legislacao/', label: 'Legislação', rotulo: 'Ferramenta · IA com fontes oficiais' },
     { id: 'lgpd', href: 'lgpd/', label: 'LGPD', rotulo: 'Ferramenta · Lei 13.709/2018' },
-    { id: 'lei-anotada', href: 'lei-anotada/', label: 'Lei anotada', rotulo: 'Lei anotada · fontes oficiais' },
+    { id: 'lei-anotada', href: 'lei-anotada/', label: 'Direito Penal', rotulo: 'Direito Penal · fontes oficiais' },
     { id: 'ia-juridica', href: 'ia-juridica/', label: 'IA jurídica', rotulo: 'Projeto · skill para o Claude' },
     { id: 'sobre', href: 'sobre/', label: 'Sobre', rotulo: 'Projeto' },
   ];

@@ -376,7 +376,8 @@
     "em": "2026-11-24",
     "como": "Trecho copiado do Informativo oficial do STJ.",
     "revisao_humana": null
-   }
+   },
+   "aba": "doutrina"
   },
   {
    "id": "historico-stf",
@@ -391,7 +392,8 @@
     "em": "2026-11-24",
     "como": "Trecho copiado do Informativo oficial do STJ.",
     "revisao_humana": null
-   }
+   },
+   "aba": "jurisprudencia"
   },
   {
    "id": "vigencia-2026",
@@ -439,7 +441,8 @@
     "em": "2026-11-24",
     "como": "Textos copiados das publicações originais (Código Penal de 1940, Leis 13.654/2018, 15.181/2025 e 15.397/2026) e das compilações da Constituição e do Código Penal no Normas.leg.br.",
     "revisao_humana": null
-   }
+   },
+   "aba": "lei"
   },
   {
    "id": "arma-branca",
@@ -473,7 +476,8 @@
      "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2019-12-24;13964"
     }
    ],
-   "interpretacao": "A tese do Tema 1.110 parte da revogação feita pela Lei 13.654/2018. Para fatos praticados a partir da vigência da Lei 13.964/2019, o texto atual do § 2º, VII, prevê a arma branca como causa de aumento. O alcance exato da tese para cada período deve ser conferido no acórdão do REsp 1.921.190/MG."
+   "interpretacao": "A tese do Tema 1.110 parte da revogação feita pela Lei 13.654/2018. Para fatos praticados a partir da vigência da Lei 13.964/2019, o texto atual do § 2º, VII, prevê a arma branca como causa de aumento. O alcance exato da tese para cada período deve ser conferido no acórdão do REsp 1.921.190/MG.",
+   "aba": "lei"
   },
   {
    "id": "sumula-174",
@@ -484,7 +488,8 @@
     "em": "2026-11-24",
     "como": "Cancelamento conferido no documento oficial \"Enunciados das Súmulas do STJ\".",
     "revisao_humana": null
-   }
+   },
+   "aba": "jurisprudencia"
   },
   {
    "id": "lei-15358",
@@ -502,7 +507,8 @@
     "em": "2026-11-24",
     "como": "Ementa e data de publicação conferidas nos metadados oficiais do Normas.leg.br; inclusão dos §§ 4º e 5º conferida na publicação original da lei.",
     "revisao_humana": null
-   }
+   },
+   "aba": "lei"
   }
  ],
  "pendentes": [

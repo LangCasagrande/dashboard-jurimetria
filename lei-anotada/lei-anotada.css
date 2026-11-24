@@ -84,3 +84,21 @@
   .sumario { top: 64px; }
   .cab-artigo h2 { font-size: 1.6rem; }
 }
+
+/* Índice de artigos e abas */
+.artigos { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 26px; }
+.artigos a { display: flex; flex-direction: column; gap: 2px; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface); color: var(--text); text-decoration: none; transition: border-color .15s, box-shadow .15s; }
+.artigos a:hover { border-color: #c7cffd; box-shadow: var(--shadow-hover); }
+.artigos a[aria-current="page"] { border: 2px solid var(--accent); padding: 11px 13px; }
+.artigos b { font-size: 1rem; }
+.artigos span { font-weight: 600; color: var(--primary); }
+.artigos small { color: var(--muted); }
+.abas-artigo { display: flex; gap: 4px; margin: 20px 0 8px; border-bottom: 1px solid var(--border); overflow-x: auto; scrollbar-width: none; position: sticky; top: 64px; background: var(--bg); z-index: 5; }
+.abas-artigo::-webkit-scrollbar { display: none; }
+.abas-artigo [role="tab"] { border: 0; background: none; font: inherit; font-weight: 600; color: var(--muted); padding: .75rem 1rem; border-bottom: 3px solid transparent; margin-bottom: -1px; cursor: pointer; white-space: nowrap; }
+.abas-artigo [role="tab"]:hover { color: var(--text); }
+.abas-artigo [role="tab"][aria-selected="true"] { color: var(--primary); border-bottom-color: var(--accent); }
+.abas-artigo .conta { display: inline-grid; place-items: center; min-width: 22px; height: 20px; padding: 0 6px; border-radius: 999px; background: var(--primary-soft); color: var(--primary); font-size: .75rem; margin-left: 4px; }
+[role="tabpanel"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 8px; }
+[role="tabpanel"] > .bloco:first-child { margin-top: 18px; }
+.aviso-doutrina { margin: 18px 0 16px; padding: 14px 16px; border-radius: 12px; background: var(--primary-soft); font-size: .93rem; }

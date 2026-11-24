@@ -1,0 +1,12 @@
+{
+ "area": "Direito Penal",
+ "artigos": [
+  {
+   "id": "cp-157",
+   "artigo": "Art. 157",
+   "rubrica": "Roubo",
+   "lei": "Código Penal",
+   "arquivo": "dados/cp-157.json"
+  }
+ ]
+}

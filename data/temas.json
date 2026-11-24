@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T17:58:33+00:00",
+ "gerado_em": "2026-11-24T18:13:31+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "temas": {
   "cp-157": {
@@ -25,6 +25,34 @@
       "9678": 226
      },
      "coletado_em": "2026-11-24T17:44:24+00:00"
+    },
+    {
+     "alias": "tjal",
+     "sigla": "TJAL",
+     "nome": "Tribunal de Justiça de Alagoas",
+     "ramo": "Estadual",
+     "total": 19263,
+     "por_assunto": {
+      "3419": 10673,
+      "5566": 7356,
+      "5567": 1105,
+      "9678": 424
+     },
+     "coletado_em": "2026-11-24T18:13:31+00:00"
+    },
+    {
+     "alias": "tjac",
+     "sigla": "TJAC",
+     "nome": "Tribunal de Justiça do Acre",
+     "ramo": "Estadual",
+     "total": 13540,
+     "por_assunto": {
+      "3419": 5725,
+      "5566": 7257,
+      "5567": 305,
+      "9678": 493
+     },
+     "coletado_em": "2026-11-24T18:08:06+00:00"
     },
     {
      "alias": "trf3",
@@ -67,6 +95,20 @@
       "9678": 0
      },
      "coletado_em": "2026-11-24T17:53:15+00:00"
+    },
+    {
+     "alias": "trf6",
+     "sigla": "TRF6",
+     "nome": "Tribunal Regional Federal da 6ª Região",
+     "ramo": "Federal",
+     "total": 1578,
+     "por_assunto": {
+      "3419": 336,
+      "5566": 1216,
+      "5567": 42,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-24T18:07:37+00:00"
     },
     {
      "alias": "trf5",
