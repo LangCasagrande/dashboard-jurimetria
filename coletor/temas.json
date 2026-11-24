@@ -1,0 +1,12 @@
+{
+  "cp-157": {
+    "nome": "Roubo (art. 157 do Código Penal)",
+    "assuntos": {
+      "3419": "Roubo",
+      "5566": "Roubo Majorado",
+      "5567": "Latrocínio",
+      "9678": "Roubo (art. 157)"
+    },
+    "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026."
+  }
+}

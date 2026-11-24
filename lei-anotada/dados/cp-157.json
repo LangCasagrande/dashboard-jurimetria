@@ -1,0 +1,522 @@
+{
+ "id": "cp-157",
+ "lei": "Código Penal (Decreto-Lei nº 2.848, de 7 de dezembro de 1940)",
+ "local": "Parte Especial · Título II — Dos crimes contra o patrimônio · Capítulo II — Do roubo e da extorsão",
+ "artigo": "Art. 157",
+ "rubrica": "Roubo",
+ "tema_jurimetria": "cp-157",
+ "texto": {
+  "fonte": "Compilação do Código Penal feita pela Câmara dos Deputados (Centro de Documentação e Informação), publicada no portal Normas.leg.br, do Senado Federal",
+  "url": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848",
+  "documento_atualizado_em": "2026-09-23",
+  "consultado_em": "2026-11-24",
+  "aviso": "Compilações não têm valor oficial: o texto que vale é o publicado no Diário Oficial da União. O texto compilado do Planalto não pôde ser aberto nesta verificação.",
+  "dispositivos": [
+   {
+    "rotulo": "caput",
+    "texto": "Art. 157. Subtrair coisa móvel alheia, para si ou para outrem, mediante grave ameaça ou violência a pessoa, ou depois de havê-la, por qualquer meio, reduzido à impossibilidade de resistência:",
+    "alteracao": "",
+    "referencia": "art. 157, caput"
+   },
+   {
+    "rotulo": "pena",
+    "texto": "Pena - reclusão, de 6 (seis) a 10 (dez) anos, e multa.",
+    "alteracao": "Pena com redação dada pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 157, caput, pena"
+   },
+   {
+    "rotulo": "§ 1º",
+    "texto": "§ 1º Na mesma pena incorre quem, logo depois de subtraída a coisa, emprega violência contra pessoa ou grave ameaça, afim de assegurar a impunidade do crime ou a detenção da coisa para si ou para terceiro.",
+    "alteracao": "",
+    "referencia": "art. 157, § 1º"
+   },
+   {
+    "rotulo": "§ 1º-A",
+    "texto": "§ 1º-A. A pena é de reclusão, de 6 (seis) a 12 (doze) anos, e multa, se a subtração for cometida contra quaisquer bens que comprometam o funcionamento de órgãos da União, de Estado, do Distrito Federal ou de Município ou de estabelecimentos públicos ou privados que prestem serviços públicos essenciais.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 15.181, de 28/7/2025, e com redação dada pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 157, § 1º-A"
+   },
+   {
+    "rotulo": "§ 2º",
+    "texto": "§ 2º A pena aumenta-se de 1/3 (um terço) até metade:",
+    "alteracao": "Parágrafo com redação dada pela Lei nº 13.654, de 23/4/2018",
+    "referencia": "art. 157, § 2º"
+   },
+   {
+    "rotulo": "I",
+    "texto": "I -",
+    "alteracao": "Revogado pela Lei nº 13.654, de 23/4/2018",
+    "referencia": "art. 157, § 2º, I"
+   },
+   {
+    "rotulo": "II",
+    "texto": "II - se há o concurso de duas ou mais pessoas;",
+    "alteracao": "",
+    "referencia": "art. 157, § 2º, II"
+   },
+   {
+    "rotulo": "III",
+    "texto": "III - se a vítima está em serviço de transporte de valores e o agente conhece tal circunstância;",
+    "alteracao": "",
+    "referencia": "art. 157, § 2º, III"
+   },
+   {
+    "rotulo": "IV",
+    "texto": "IV - se a subtração for de veículo automotor que venha a ser transportado para outro Estado ou para o exterior;",
+    "alteracao": "Inciso acrescido pela Lei nº 9.426, de 24/12/1996",
+    "referencia": "art. 157, § 2º, IV"
+   },
+   {
+    "rotulo": "V",
+    "texto": "V - se o agente mantém a vítima em seu poder, restringindo sua liberdade;",
+    "alteracao": "Inciso acrescido pela Lei nº 9.426, de 24/12/1996",
+    "referencia": "art. 157, § 2º, V"
+   },
+   {
+    "rotulo": "VI",
+    "texto": "VI - se a subtração for de substâncias explosivas ou de acessórios que, conjunta ou isoladamente, possibilitem sua fabricação, montagem ou emprego;",
+    "alteracao": "Inciso acrescido pela Lei nº 13.654, de 23/4/2018",
+    "referencia": "art. 157, § 2º, VI"
+   },
+   {
+    "rotulo": "VII",
+    "texto": "VII - se a violência ou grave ameaça é exercida com emprego de arma branca;",
+    "alteracao": "Inciso acrescido pela Lei nº 13.964, de 24/12/2019, publicada na Edição Extra do DOU de 24/12/2019, em vigor 30 dias após a publicação",
+    "referencia": "art. 157, § 2º, VII"
+   },
+   {
+    "rotulo": "VIII",
+    "texto": "VIII - se a subtração for de fios, cabos ou equipamentos utilizados para fornecimento ou transmissão de energia elétrica ou de telefonia ou para transferência de dados, bem como equipamentos ou materiais ferroviários ou metroviários.",
+    "alteracao": "Inciso acrescido pela Lei nº 15.181, de 28/7/2025",
+    "referencia": "art. 157, § 2º, VIII"
+   },
+   {
+    "rotulo": "IX",
+    "texto": "IX - se a subtração for de aparelho de telefonia celular, de computador, inclusive portátil ou do tipo prancheta, ou de qualquer dispositivo eletrônico ou informático semelhante;",
+    "alteracao": "Inciso acrescido pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 157, § 2º, IX"
+   },
+   {
+    "rotulo": "X",
+    "texto": "X - se a subtração for de arma de fogo.",
+    "alteracao": "Inciso acrescido pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 157, § 2º, X"
+   },
+   {
+    "rotulo": "XI",
+    "texto": "XI - se a subtração for de petróleo e derivados, gás natural e suas frações recuperáveis, álcool etílico hidratado carburante e demais combustíveis fluidos carburantes, inclusive biocombustíveis, e óleos lubrificantes, removidos dos estabelecimentos de produção ou de quaisquer instalações de armazenamento e de transporte de combustíveis, incluídos dutos e unidades de transporte em qualquer modal.",
+    "alteracao": "Inciso acrescido pela Lei nº 15.517, de 22/9/2026",
+    "referencia": "art. 157, § 2º, XI"
+   },
+   {
+    "rotulo": "§ 2º-A",
+    "texto": "§ 2º-A. A pena aumenta-se de 2/3 (dois terços):",
+    "alteracao": "",
+    "referencia": "art. 157, § 2º-A",
+    "alteracao_paragrafo": "Parágrafo acrescido pela Lei nº 13.654, de 23/4/2018 (a compilação traz esta nota no fim do parágrafo)"
+   },
+   {
+    "rotulo": "I",
+    "texto": "I - se a violência ou ameaça é exercida com emprego de arma de fogo;",
+    "alteracao": "",
+    "referencia": "art. 157, § 2º-A, I"
+   },
+   {
+    "rotulo": "II",
+    "texto": "II - se há destruição ou rompimento de obstáculo mediante o emprego de explosivo ou de artefato análogo que cause perigo comum.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 13.654, de 23/4/2018",
+    "referencia": "art. 157, § 2º-A, II"
+   },
+   {
+    "rotulo": "III",
+    "texto": "III - se do crime previsto no inciso XI do § 2º deste artigo resulta:",
+    "alteracao": "Inciso acrescido pela Lei nº 15.517, de 22/9/2026",
+    "referencia": "art. 157, § 2º-A, III"
+   },
+   {
+    "rotulo": "a)",
+    "texto": "a) suspensão ou paralisação das atividades do estabelecimento;",
+    "alteracao": "Alínea acrescida pela Lei nº 15.517, de 22/9/2026",
+    "referencia": "art. 157, § 2º-A, III, alínea a"
+   },
+   {
+    "rotulo": "b)",
+    "texto": "b) desabastecimento;",
+    "alteracao": "Alínea acrescida pela Lei nº 15.517, de 22/9/2026",
+    "referencia": "art. 157, § 2º-A, III, alínea b"
+   },
+   {
+    "rotulo": "c)",
+    "texto": "c) incêndio;",
+    "alteracao": "Alínea acrescida pela Lei nº 15.517, de 22/9/2026",
+    "referencia": "art. 157, § 2º-A, III, alínea c"
+   },
+   {
+    "rotulo": "d)",
+    "texto": "d) poluição efetiva ou potencial ao meio ambiente; ou",
+    "alteracao": "Alínea acrescida pela Lei nº 15.517, de 22/9/2026",
+    "referencia": "art. 157, § 2º-A, III, alínea d"
+   },
+   {
+    "rotulo": "e)",
+    "texto": "e)",
+    "alteracao": "VETADA na Lei nº 15.517, de 22/9/2026",
+    "referencia": "art. 157, § 2º-A, III, alínea e"
+   },
+   {
+    "rotulo": "§ 2º-B",
+    "texto": "§ 2º-B. Se a violência ou grave ameaça é exercida com emprego de arma de fogo de uso restrito ou proibido, aplica-se em dobro a pena prevista no caput deste artigo.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 13.964, de 24/12/2019, publicada na Edição Extra do DOU de 24/12/2019, em vigor 30 dias após a publicação",
+    "referencia": "art. 157, § 2º-B"
+   },
+   {
+    "rotulo": "§ 3º",
+    "texto": "§ 3º Se da violência resulta:",
+    "alteracao": "Parágrafo com redação dada pela Lei nº 13.654, de 23/4/2018",
+    "referencia": "art. 157, § 3º"
+   },
+   {
+    "rotulo": "I",
+    "texto": "I - lesão corporal grave, a pena é de reclusão de 7 (sete) a 18 (dezoito) anos, e multa;",
+    "alteracao": "Inciso acrescido pela Lei nº 13.654, de 23/4/2018",
+    "referencia": "art. 157, § 3º, I"
+   },
+   {
+    "rotulo": "II",
+    "texto": "II - morte, a pena é de reclusão, de 24 (vinte e quatro) a 30 (trinta) anos, e multa.",
+    "alteracao": "Inciso acrescido pela Lei nº 13.654, de 23/4/2018, e com redação dada pela Lei nº 15.397, de 30/4/2026",
+    "referencia": "art. 157, § 3º, II"
+   },
+   {
+    "rotulo": "§ 4º",
+    "texto": "§ 4º Se a violência ou grave ameaça é cometida por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto da atuação ou para a consecução das condutas previstas no art. 2º da lei que institui o marco legal do combate ao crime organizado no Brasil, aplica-se em triplo a pena prevista no caput deste artigo, desprezadas as demais causas de aumento.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 15.358, de 24/3/2026",
+    "referencia": "art. 157, § 4º"
+   },
+   {
+    "rotulo": "§ 5º",
+    "texto": "§ 5º Se o crime previsto no inciso II do § 3º deste artigo é cometido por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto da atuação ou para a consecução das condutas previstas no art. 2º da lei que institui o marco legal do combate ao crime organizado no Brasil, e da violência resulta morte:",
+    "alteracao": "",
+    "referencia": "art. 157, § 5º",
+    "alteracao_paragrafo": "Parágrafo acrescido pela Lei nº 15.358, de 24/3/2026 (a compilação traz esta nota no fim do parágrafo)"
+   },
+   {
+    "rotulo": "pena",
+    "texto": "Pena - reclusão, de 20 (vinte) a 40 (quarenta) anos, e multa.",
+    "alteracao": "Parágrafo acrescido pela Lei nº 15.358, de 24/3/2026",
+    "referencia": "art. 157, § 5º, pena"
+   }
+  ]
+ },
+ "alteracoes": [
+  {
+   "lei": "Lei nº 9.426/1996",
+   "data": "1996-12-24",
+   "o_que": "Incluiu os incisos IV e V do § 2º (veículo levado para outro Estado ou para o exterior; vítima mantida em poder do agente).",
+   "publicacao_dou": "1996-12-26",
+   "vigencia": "na data da publicação"
+  },
+  {
+   "lei": "Lei nº 13.654/2018",
+   "data": "2018-04-23",
+   "o_que": "Deu nova redação ao § 2º, revogou o inciso I (emprego de arma), incluiu o inciso VI, criou o § 2º-A (arma de fogo e explosivo) e deu nova redação ao § 3º.",
+   "publicacao_dou": "2018-04-24",
+   "vigencia": "na data da publicação"
+  },
+  {
+   "lei": "Lei nº 13.964/2019",
+   "data": "2019-12-24",
+   "o_que": "Incluiu o inciso VII do § 2º (arma branca) e o § 2º-B (arma de fogo de uso restrito ou proibido). Entrou em vigor 30 dias após a publicação.",
+   "publicacao_dou": "2019-12-24",
+   "vigencia": "30 dias após a publicação (Edição Extra do DOU)"
+  },
+  {
+   "lei": "Lei nº 15.181/2025",
+   "data": "2025-07-28",
+   "o_que": "Incluiu o § 1º-A (subtração de bens que comprometam o funcionamento de órgãos da União, de Estado ou de Município ou de estabelecimentos que prestem serviços públicos essenciais) e o inciso VIII do § 2º (fios, cabos ou equipamentos de energia elétrica, telefonia ou transferência de dados, e equipamentos ou materiais ferroviários ou metroviários).",
+   "publicacao_dou": "2025-07-29",
+   "vigencia": "na data da publicação"
+  },
+  {
+   "lei": "Lei nº 15.358/2026",
+   "data": "2026-03-24",
+   "o_que": "Incluiu os §§ 4º e 5º (organização criminosa ultraviolenta, grupo paramilitar ou milícia privada).",
+   "publicacao_dou": "2026-03-25",
+   "vigencia": "na data da publicação"
+  },
+  {
+   "lei": "Lei nº 15.397/2026",
+   "data": "2026-04-30",
+   "o_que": "Aumentou a pena do caput para 6 a 10 anos, deu nova redação ao § 1º-A e ao § 3º, II (morte: 24 a 30 anos) e incluiu os incisos IX (celular, computador e similares) e X (arma de fogo) do § 2º. A mudança no § 3º, I, foi vetada.",
+   "publicacao_dou": "2026-05-04",
+   "vigencia": "na data da publicação"
+  },
+  {
+   "lei": "Lei nº 15.517/2026",
+   "data": "2026-09-22",
+   "o_que": "Incluiu o inciso XI do § 2º (petróleo, gás natural e combustíveis) e o inciso III do § 2º-A, com alíneas (a alínea \"e\" foi vetada).",
+   "publicacao_dou": "2026-09-23",
+   "vigencia": "na data da publicação"
+  }
+ ],
+ "sumulas": [
+  {
+   "tribunal": "STJ",
+   "numero": 582,
+   "texto": "Consuma-se o crime de roubo com a inversão da posse do bem mediante emprego de violência ou grave ameaça, ainda que por breve tempo e em seguida à perseguição imediata ao agente e recuperação da coisa roubada, sendo prescindível a posse mansa e pacífica ou desvigiada.",
+   "dados": "TERCEIRA SEÇÃO, julgado em 14/09/2016, DJe 19/09/2016",
+   "tema": "Consumação",
+   "fonte": "https://www.stj.jus.br/docs_internet/jurisprudencia/tematica/download/SU/Verbetes/VerbetesSTJ.pdf",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Texto copiado do documento oficial \"Enunciados das Súmulas do STJ\" (arquivo gerado em 05/12/2025).",
+    "revisao_humana": null
+   }
+  },
+  {
+   "tribunal": "STJ",
+   "numero": 443,
+   "texto": "O aumento na terceira fase de aplicação da pena no crime de roubo circunstanciado exige fundamentação concreta, não sendo suficiente para a sua exasperação a mera indicação do número de majorantes.",
+   "dados": "TERCEIRA SEÇÃO, julgado em 28/04/2010, DJe 13/05/2010",
+   "tema": "Dosimetria das majorantes",
+   "fonte": "https://www.stj.jus.br/docs_internet/jurisprudencia/tematica/download/SU/Verbetes/VerbetesSTJ.pdf",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Texto copiado do documento oficial \"Enunciados das Súmulas do STJ\" (arquivo gerado em 05/12/2025).",
+    "revisao_humana": null
+   }
+  },
+  {
+   "tribunal": "STJ",
+   "numero": 442,
+   "texto": "É inadmissível aplicar, no furto qualificado, pelo concurso de agentes, a majorante do roubo.",
+   "dados": "TERCEIRA SEÇÃO, julgado em 28/04/2010, DJe 13/05/2010",
+   "tema": "Furto qualificado x majorante do roubo",
+   "fonte": "https://www.stj.jus.br/docs_internet/jurisprudencia/tematica/download/SU/Verbetes/VerbetesSTJ.pdf",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Texto copiado do documento oficial \"Enunciados das Súmulas do STJ\" (arquivo gerado em 05/12/2025).",
+    "revisao_humana": null
+   }
+  },
+  {
+   "tribunal": "STJ",
+   "numero": 174,
+   "texto": "No crime de roubo, a intimidação feita com arma de brinquedo autoriza o aumento da pena.",
+   "dados": "TERCEIRA SEÇÃO, julgado em 23/10/1996, DJ 31/10/1996, p. 42124",
+   "tema": "Arma de brinquedo",
+   "cancelada": true,
+   "cancelamento": "SÚMULA CANCELADA: A Terceira Seção, na sessão de 24/10/2002, ao julgar o REsp 213.054/SP, determinou o CANCELAMENTO da Súmula 174 do STJ (DJ 11/11/2002, p. 148).",
+   "fonte": "https://www.stj.jus.br/docs_internet/jurisprudencia/tematica/download/SU/Verbetes/VerbetesSTJ.pdf",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Texto e cancelamento copiados do documento oficial \"Enunciados das Súmulas do STJ\" (arquivo gerado em 05/12/2025).",
+    "revisao_humana": null
+   }
+  }
+ ],
+ "temas": [
+  {
+   "tribunal": "STJ",
+   "tipo": "Recurso repetitivo",
+   "numero": 916,
+   "questao": "Discute se o crime de roubo, na situação em que o seu autor não teve a posse mansa e pacífica da coisa subtraída, deve ser considerado consumado ou apenas tentado.",
+   "tese": [
+    "Consuma-se o crime de roubo com a inversão da posse do bem, mediante emprego de violência ou grave ameaça, ainda que por breve tempo e em seguida a perseguição imediata ao agente e recuperação da coisa roubada, sendo prescindível a posse mansa e pacífica ou desvigiada."
+   ],
+   "processo": "REsp 1.499.050/RJ",
+   "relator": "Min. Rogerio Schietti Cruz",
+   "orgao": "Terceira Seção",
+   "julgado_em": "2015-10-14",
+   "publicado_em": "2015-11-09",
+   "transito_em": "2016-02-03",
+   "sumula_originada": "Súmula 582/STJ",
+   "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=916&cod_tema_final=916",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Tese, questão e datas copiadas da página oficial do tema no STJ.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "tribunal": "STJ",
+   "tipo": "Recurso repetitivo",
+   "numero": 1110,
+   "questao": "Definir se, em razão da novatio legis in mellius engendrada pela Lei n. 13.654/2018, o emprego de arma branca, embora não configure mais causa de aumento do crime de roubo, poderá ser utilizado como fundamento para a majoração da pena-base. Caso seja possível, definir se, na via do recurso especial, o Superior Tribunal de Justiça deve determinar que o Tribunal de origem proceda a referida transposição valorativa/negativa quando as circunstâncias do caso assim justificarem.",
+   "tese": [
+    "1. Em razão da novatio legis in mellius engendrada pela Lei n. 13.654/2018, o emprego de arma branca, embora não configure mais causa de aumento do crime de roubo, poderá ser utilizado como fundamento para a majoração da pena-base, quando as circunstâncias do caso concreto assim justificarem.",
+    "2. O julgador deve fundamentar o novo apenamento ou justificar a não realização do incremento na basilar, nos termos do que dispõe o art. 387, II e III, do CPP.",
+    "3. Não cabe a esta Corte Superior a transposição valorativa da circunstância para a primeira fase da dosimetria ou mesmo compelir que o Tribunal de origem assim o faça, em razão da discricionariedade do julgador ao aplicar a novatio legis in mellius."
+   ],
+   "processo": "REsp 1.921.190/MG",
+   "relator": "Min. Joel Ilan Paciornik",
+   "orgao": "Terceira Seção",
+   "julgado_em": "2022-05-25",
+   "publicado_em": "2022-05-27",
+   "transito_em": "2022-10-06",
+   "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1110&cod_tema_final=1110",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Tese e datas copiadas da página oficial do tema no STJ.",
+    "revisao_humana": null
+   },
+   "embargos_em": "2022-08-26"
+  }
+ ],
+ "notas": [
+  {
+   "id": "teorias-consumacao",
+   "tipo": "Fundamentação do STJ",
+   "titulo": "Os quatro momentos da ação no direito romano (contrectatio, amotio, ablatio e illatio) e a consumação do roubo",
+   "resumo": "O STJ explica que as teorias sobre o momento da consumação do furto e do roubo vêm do direito romano e distinguem quatro momentos da ação: tocar a coisa (contrectatio), removê-la (amotio), tirá-la da esfera patrimonial do dono (ablatio) e colocá-la em lugar seguro (illatio). Para o STJ, a consumação do roubo ocorre com a inversão da posse, ainda que por breve tempo (Tema 916 e Súmula 582).",
+   "citacao": "Como se sabe, o delineamento acerca da consumação dos crimes de roubo e de furto foi construído com base no direito romano, cuja noção de furtum - elaborada pelos operadores práticos do direito e pelos jurisconsultos -, mais ampla que a do furto do direito moderno, trazia a exigência da contrectatio (apreensão fraudulenta da coisa), visto que se exigia, necessariamente, o apossamento da coisa. É de se notar que, a partir das interpretações discrepantes da palavra contrectatio - entendida diversamente no sentido de trazer, de mover de lugar, de tocar (materialmente) e pôr a mão -, explica-se a profusão de teorias sobre a consumação do furto. O desenvolvimento desses conceitos, no âmbito do direito romano, levou à distinção de quatro momentos da ação: (a) a ação de tocar o objeto (contrectatio); (b) a ação de remover a coisa (amotio); (c) a ação de levar a coisa, tirando-a da esfera patrimonial do proprietário (ablatio); e (d) a ação de colocar a coisa em lugar seguro (illatio). O porquê de tanto esforço intelectual pode ser encontrado no fato de o direito romano não ter desenvolvido a ideia de \"tentativa\", motivo pelo qual era necessária a antecipação da consumação, considerando-se já consumado o furto com o simples toque da coisa, sem necessidade de levá-la. Todavia, com o surgimento da noção de tentativa, ficou evidente que não se fazia necessária a antecipação da consumação (attrectatio). Decorre daí o abandono das teorias radicais (consumação pelo simples toque ou somente com a colocação da coisa em local seguro).",
+   "fonte_nome": "STJ, Informativo de Jurisprudência nº 572 (REsp 1.499.050/RJ, Tema 916)",
+   "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0572.cod.",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Trecho copiado do Informativo oficial do STJ.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "historico-stf",
+   "tipo": "Histórico jurisprudencial (segundo o STJ)",
+   "titulo": "Como o STF chegou ao entendimento atual",
+   "resumo": "Segundo o STJ, o STF teve duas correntes sobre a consumação do roubo próprio: para uma, bastava a subtração com violência ou grave ameaça; para outra, era preciso que a coisa saísse da esfera de vigilância da vítima ou que o agente tivesse a posse pacífica, ainda que por curto lapso. A jurisprudência se estabilizou com o RE 102.490-SP (julgado em 17/9/1987), segundo o qual não é preciso que o agente saia da esfera de vigilância do antigo possuidor. Depois desse julgado, o STF unificou o entendimento de que o roubo se consuma quando o agente obtém a posse do bem mediante violência ou grave ameaça, ainda que não seja mansa e pacífica.",
+   "citacao": "No Brasil, o histórico da jurisprudência do STF quanto ao tema remete a dois momentos distintos. No primeiro momento, observava-se, acerca da consumação do crime de roubo próprio, a existência de duas correntes na jurisprudência do STF: (i) a orientação tradicional, que considerava consumada a infração com a subtração da coisa, mediante violência ou grave ameaça, sem cogitar outros requisitos, explicitando ser desnecessário o locupletamento do agente (HC 49.671-SP, Primeira Turma, DJ 16/6/1972; RE 93.133-SP, Primeira Turma, DJ 6/2/1981; HC 53.495-SP, Segunda Turma, DJ 19/9/1975; e RE 102.389-SP, Segunda Turma, DJ 17/8/1984); e (ii) a orientação segundo a qual se exige, para a consumação, tenha a coisa subtraída saído da esfera de vigilância da vítima ou tenha tido o agente a posse pacífica da res, ainda que por curto lapso (RE 93.099-SP, Primeira Turma, DJ 18/12/1981; RE 96.383-SP, Primeira Turma, DJ 18/3/1983; RE 97.500-SP, Segunda Turma, DJ 24/8/1982; e RE 97.677-SP, Segunda Turma, DJ 15/10/1982). Para esta corrente, havendo perseguição imediata ao agente e sua prisão logo em seguida com o produto do roubo, não haveria que se falar em roubo consumado. Num segundo momento, ocorreu a estabilização da jurisprudência do STF com o julgamento do RE 102.490-SP em 17/9/1987 (DJ 16/8/1991), no qual, de acordo com a referida orientação tradicional da jurisprudência (i), definiu-se que \"Para que o ladrão se torne possuidor, não é preciso, em nosso direito, que ele saia da esfera de vigilância do antigo possuidor, mas, ao contrário, basta que cesse a clandestinidade ou a violência, para que o poder de fato sobre a coisa se transforme de detenção em posse, ainda que seja possível ao antigo possuidor retomá-la pela violência, por si ou por terceiro, em virtude de perseguição [...]\". Após esse julgado, o STF, no que tange ao momento consumativo do roubo, unificou a jurisprudência, para entender que se consuma o crime de roubo no momento em que o agente obtém a posse do bem, mediante violência ou grave ameaça, ainda que não seja mansa e pacífica e/ou haja perseguição policial, sendo prescindível que o objeto subtraído saia da esfera de vigilância da vítima.",
+   "precedentes": "Precedentes citados do STJ: AgRg no REsp 1.410.795-SP, Sexta Turma, DJe 6/12/2013; e EDcl no REsp 1.425.160-RJ, Sexta Turma, DJe 25/9/2014. Precedentes citados do STF: HC 94.406-SP, Primeira Turma, DJe 5/9/2008; e HC 100.189-SP, Segunda Turma, DJe 16/4/2010.",
+   "fonte_nome": "STJ, Informativo de Jurisprudência nº 572 (REsp 1.499.050/RJ, Tema 916)",
+   "fonte": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0572.cod.",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Trecho copiado do Informativo oficial do STJ.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "vigencia-2026",
+   "tipo": "Vigência e aplicação no tempo",
+   "titulo": "Lei 15.397/2026: as penas novas só valem para fatos a partir de 04/05/2026",
+   "resumo": "A Lei nº 15.397/2026 é de 30/04/2026, mas entrou em vigor na data da publicação, no Diário Oficial da União de 04/05/2026. Ela aumentou a pena de reclusão do roubo simples, que era de 4 a 10 anos desde a redação de 1940 (a compilação não anota outra mudança nesse prazo), para 6 a 10 anos; e a do roubo com resultado morte (§ 3º, II), que era de 20 a 30 anos pela Lei nº 13.654/2018, para 24 a 30 anos. No § 1º-A, a pena continuou de 6 a 12 anos: a lei acrescentou o Distrito Federal à lista de entes cujos órgãos podem ter o funcionamento comprometido, e ajustou a pontuação. O valor da multa em contos de réis, da redação de 1940, não aparece no texto atual, que traz apenas \"e multa\". Como a lei penal mais grave não retroage, fatos praticados antes de 04/05/2026 seguem as penas antigas; o Código Penal considera praticado o crime no momento da ação ou omissão.",
+   "citacoes": [
+    {
+     "texto": "Pena - reclusão, de quatro a dez anos, e multa, de três contos a quinze contos de réis.",
+     "fonte_nome": "Código Penal, art. 157, caput — redação original de 1940 (a compilação anota uma única alteração dessa pena: a da Lei 15.397/2026)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "II – morte, a pena é de reclusão de 20 (vinte) a 30 (trinta) anos, e multa.",
+     "fonte_nome": "Lei nº 13.654/2018 — redação do § 3º, II, vigente até a Lei 15.397/2026",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2018-04-23;13654"
+    },
+    {
+     "texto": "§ 1º-A. A pena é de reclusão de 6 (seis) a 12 (doze) anos e multa, se a subtração for cometida contra quaisquer bens que comprometam o funcionamento de órgãos da União, de Estado ou de Município ou de estabelecimentos públicos ou privados que prestem serviços públicos essenciais.",
+     "fonte_nome": "Lei nº 15.181/2025 — redação original do § 1º-A",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2025-07-28;15181"
+    },
+    {
+     "texto": "Art. 4º Esta Lei entra em vigor na data de sua publicação.",
+     "fonte_nome": "Lei nº 15.397/2026, art. 4º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-04-30;15397"
+    },
+    {
+     "texto": "XL - a lei penal não retroagirá, salvo para beneficiar o réu;",
+     "fonte_nome": "Constituição Federal, art. 5º, XL",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:constituicao:1988-10-05;1988"
+    },
+    {
+     "texto": "Parágrafo único. A lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado.",
+     "fonte_nome": "Código Penal, art. 2º, parágrafo único",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "Art. 4º Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado.",
+     "fonte_nome": "Código Penal, art. 4º (tempo do crime)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    }
+   ],
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Textos copiados das publicações originais (Código Penal de 1940, Leis 13.654/2018, 15.181/2025 e 15.397/2026) e das compilações da Constituição e do Código Penal no Normas.leg.br.",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "arma-branca",
+   "tipo": "Evolução legislativa",
+   "titulo": "Arma branca: revogada em 2018 e prevista de novo pela Lei 13.964/2019",
+   "resumo": "A Lei nº 13.654/2018 revogou o antigo inciso I do § 2º (emprego de arma) e criou o § 2º-A, cujo inciso I trata apenas do emprego de arma de fogo. A Lei nº 13.964/2019 incluiu o inciso VII do § 2º (violência ou grave ameaça exercida com emprego de arma branca; aumento de 1/3 até metade), com vigência 30 dias após a publicação no DOU de 24/12/2019. Em 2022, no Tema 1.110, o STJ fixou que, em razão da Lei nº 13.654/2018, o emprego de arma branca, embora não configure mais causa de aumento, poderá ser utilizado para elevar a pena-base quando as circunstâncias do caso concreto justificarem.",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Trechos copiados das publicações originais das Leis 13.654/2018 e 13.964/2019 e da página oficial do Tema 1.110 do STJ.",
+    "revisao_humana": null
+   },
+   "citacoes": [
+    {
+     "texto": "I – (revogado);",
+     "fonte_nome": "Lei nº 13.654/2018, nova redação do art. 157, § 2º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2018-04-23;13654"
+    },
+    {
+     "texto": "1. Em razão da novatio legis in mellius engendrada pela Lei n. 13.654/2018, o emprego de arma branca, embora não configure mais causa de aumento do crime de roubo, poderá ser utilizado como fundamento para a majoração da pena-base, quando as circunstâncias do caso concreto assim justificarem.",
+     "fonte_nome": "STJ, Tema 1.110 (tese firmada, item 1)",
+     "fonte": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1110&cod_tema_final=1110"
+    },
+    {
+     "texto": "VII – se a violência ou grave ameaça é exercida com emprego de arma branca;",
+     "fonte_nome": "Lei nº 13.964/2019, inclusão do art. 157, § 2º, VII",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2019-12-24;13964"
+    },
+    {
+     "texto": "Art. 20. Esta Lei entra em vigor após decorridos 30 (trinta) dias de sua publicação oficial.",
+     "fonte_nome": "Lei nº 13.964/2019, art. 20 (vigência)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2019-12-24;13964"
+    }
+   ],
+   "interpretacao": "A tese do Tema 1.110 parte da revogação feita pela Lei 13.654/2018. Para fatos praticados a partir da vigência da Lei 13.964/2019, o texto atual do § 2º, VII, prevê a arma branca como causa de aumento. O alcance exato da tese para cada período deve ser conferido no acórdão do REsp 1.921.190/MG."
+  },
+  {
+   "id": "sumula-174",
+   "tipo": "Atenção",
+   "titulo": "A Súmula 174 do STJ (arma de brinquedo) foi cancelada",
+   "resumo": "A súmula dizia que a intimidação com arma de brinquedo autorizava o aumento da pena no roubo. Ela foi cancelada pela Terceira Seção em 24/10/2002, no julgamento do REsp 213.054/SP. Não deve ser citada como entendimento vigente.",
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Cancelamento conferido no documento oficial \"Enunciados das Súmulas do STJ\".",
+    "revisao_humana": null
+   }
+  },
+  {
+   "id": "lei-15358",
+   "tipo": "Remissão",
+   "titulo": "Que lei é o \"marco legal do combate ao crime organizado\" dos §§ 4º e 5º?",
+   "resumo": "Os §§ 4º e 5º remetem ao art. 2º \"da lei que institui o marco legal do combate ao crime organizado no Brasil\". Essa lei é a Lei nº 15.358, de 24/03/2026, a mesma que incluiu esses parágrafos no art. 157. Ela entrou em vigor na data da publicação, no DOU de 25/03/2026.",
+   "citacoes": [
+    {
+     "texto": "Institui o Marco Legal do Combate ao Crime Organizado no Brasil (Lei Raul Jungmann); tipifica os crimes de domínio social estruturado e de favorecimento ao domínio social estruturado; e altera os Decretos-Leis nºs 2.848, de 7 de dezembro de 1940 (Código Penal), e 3.689, de 3 de outubro de 1941 (Código de Processo Penal), e as Leis nºs 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), 7.210, de 11 de julho de 1984 (Lei de Execução Penal), 11.343, de 23 de agosto de 2006, 10.826, de 22 de dezembro de 2003, 9.613, de 3 de março de 1998, 4.737, de 15 de julho de 1965 (Código Eleitoral); 13.756, de 12 de dezembro de 2018; e 14.790, de 29 de dezembro de 2023.",
+     "fonte_nome": "Lei nº 15.358/2026, ementa",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-03-24;15358"
+    }
+   ],
+   "verificacao": {
+    "em": "2026-11-24",
+    "como": "Ementa e data de publicação conferidas nos metadados oficiais do Normas.leg.br; inclusão dos §§ 4º e 5º conferida na publicação original da lei.",
+    "revisao_humana": null
+   }
+  }
+ ],
+ "pendentes": [
+  {
+   "o_que": "Súmulas 603 e 610 do STF (latrocínio)",
+   "motivo": "O portal do STF recusa acessos automatizados vindos do servidor desta verificação; o texto literal não pôde ser conferido."
+  },
+  {
+   "o_que": "Entendimento atual do STJ sobre a arma de brinquedo (simulacro) depois do cancelamento da Súmula 174",
+   "motivo": "Os acórdãos e páginas de jurisprudência do STJ que tratam do tema ficam atrás do bloqueio automático do tribunal e não puderam ser conferidos nesta verificação."
+  },
+  {
+   "o_que": "Doutrina com nome de autor, obra e página",
+   "motivo": "Só entra quando o trecho for conferido na obra ou em decisão oficial que o cite; a íntegra do REsp 1.499.050/RJ não pôde ser aberta nesta verificação."
+  }
+ ]
+}

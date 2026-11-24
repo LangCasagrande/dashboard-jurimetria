@@ -11,6 +11,7 @@
     { id: 'contratos', href: 'contratos/', label: 'Contratos', rotulo: 'Ferramenta · análise de risco' },
     { id: 'legislacao', href: 'legislacao/', label: 'Legislação', rotulo: 'Ferramenta · IA com fontes oficiais' },
     { id: 'lgpd', href: 'lgpd/', label: 'LGPD', rotulo: 'Ferramenta · Lei 13.709/2018' },
+    { id: 'lei-anotada', href: 'lei-anotada/', label: 'Lei anotada', rotulo: 'Lei anotada · fontes oficiais' },
     { id: 'ia-juridica', href: 'ia-juridica/', label: 'IA jurídica', rotulo: 'Projeto · skill para o Claude' },
     { id: 'sobre', href: 'sobre/', label: 'Sobre', rotulo: 'Projeto' },
   ];
@@ -125,7 +126,7 @@
         <p>Dados e tecnologia para o Direito. Projeto aberto de estudo e portfólio em legal tech.</p>
         <p class="autor">Feito por ${AUTOR.nome}<br><a href="${AUTOR.github}" rel="me noopener" target="_blank">GitHub</a>${linkAutor}</p>
       </div>
-      <div><h2 class="footer-titulo">Ferramentas</h2>${TOOLS.slice(0, 6).map(t => `<a href="${base}${t.href}">${t.label}</a>`).join('')}</div>
+      <div><h2 class="footer-titulo">Ferramentas</h2>${TOOLS.slice(0, 7).map(t => `<a href="${base}${t.href}">${t.label}</a>`).join('')}</div>
       <div><h2 class="footer-titulo">Projeto</h2><a href="${base}sobre/">Sobre</a><a href="${base}sobre/#metodologia">Metodologia</a><a href="${base}sobre/#limitacoes">Limitações dos dados</a><a href="${base}ia-juridica/">IA jurídica em 3 instâncias</a><a href="https://github.com/LangCasagrande/dashboard-jurimetria" rel="noopener" target="_blank">Código no GitHub</a></div>
       <div><h2 class="footer-titulo">Fonte dos dados</h2><a href="https://datajud-wiki.cnj.jus.br/api-publica/acesso" rel="noopener" target="_blank">API Pública do DataJud</a><p style="margin:.35rem 0 0">Portaria CNJ nº 160/2020</p></div>
     </div>
