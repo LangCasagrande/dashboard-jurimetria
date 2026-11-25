@@ -131,11 +131,19 @@
         <p class="autor">Feito por ${AUTOR.nome}<br><a href="${AUTOR.github}" rel="me noopener" target="_blank">GitHub</a>${linkAutor}</p>
       </div>
       <div><h2 class="footer-titulo">Ferramentas</h2>${TOOLS.slice(0, 7).map(t => `<a href="${base}${t.href}">${t.label}</a>`).join('')}</div>
-      <div><h2 class="footer-titulo">Projeto</h2><a href="${base}sobre/">Sobre</a><a href="${base}sobre/#metodologia">Metodologia</a><a href="${base}sobre/#limitacoes">Limitações dos dados</a><a href="${base}ia-juridica/">IA jurídica em 3 instâncias</a><a href="https://github.com/LangCasagrande/dashboard-jurimetria" rel="noopener" target="_blank">Código no GitHub</a></div>
+      <div><h2 class="footer-titulo">Projeto</h2><a href="${base}sobre/">Sobre</a><a href="${base}sobre/#metodologia">Metodologia</a><a href="${base}sobre/#limitacoes">Limitações dos dados</a><a href="${base}ia-juridica/">IA jurídica em 3 instâncias</a><a href="${base}aviso-legal/">Aviso legal</a><a href="https://github.com/LangCasagrande/dashboard-jurimetria" rel="noopener" target="_blank">Código no GitHub</a></div>
       <div><h2 class="footer-titulo">Fonte dos dados</h2><a href="https://datajud-wiki.cnj.jus.br/api-publica/acesso" rel="noopener" target="_blank">API Pública do DataJud</a><p style="margin:.35rem 0 0">Portaria CNJ nº 160/2020</p></div>
     </div>
-    <div class="footer-legal"><span>Ferramentas educacionais de apoio. Não substituem a análise de um advogado nem a consulta ao calendário e às normas do tribunal.</span><span class="assinatura">© 2026 <strong title="Aretaic: do grego aretḗ, excelência">Aretaic</strong> · JusLab.IA</span></div>`;
+    <div class="footer-legal"><span>Conteúdo informativo e educacional: não é consultoria jurídica e não substitui a análise de um advogado nem a consulta às normas e ao calendário do tribunal. <a class="link-aviso" href="${base}aviso-legal/">Aviso legal</a></span><span class="assinatura">© 2026 <strong title="Aretaic: do grego aretḗ, excelência">Aretaic</strong> · JusLab.IA</span></div>`;
   document.body.append(footer);
+
+  // Lembrete curto no fim de cada ferramenta: o site não presta serviço jurídico.
+  if (main && page !== 'inicio' && page !== 'aviso-legal') {
+    const aviso = document.createElement('p');
+    aviso.className = 'aviso-geral';
+    aviso.innerHTML = `Conteúdo informativo e educacional. O JusLab.IA não presta consultoria jurídica e não substitui a análise de um advogado. <a href="${base}aviso-legal/">Aviso legal</a>`;
+    main.append(aviso);
+  }
 
   // Utilitários usados pelas páginas
   window.LT = {
