@@ -134,7 +134,7 @@
       <div><h2 class="footer-titulo">Projeto</h2><a href="${base}sobre/">Sobre</a><a href="${base}sobre/#metodologia">Metodologia</a><a href="${base}sobre/#limitacoes">Limitações dos dados</a><a href="${base}ia-juridica/">IA jurídica em 3 instâncias</a><a href="https://github.com/LangCasagrande/dashboard-jurimetria" rel="noopener" target="_blank">Código no GitHub</a></div>
       <div><h2 class="footer-titulo">Fonte dos dados</h2><a href="https://datajud-wiki.cnj.jus.br/api-publica/acesso" rel="noopener" target="_blank">API Pública do DataJud</a><p style="margin:.35rem 0 0">Portaria CNJ nº 160/2020</p></div>
     </div>
-    <div class="footer-legal"><span>Ferramentas educacionais de apoio. Não substituem a análise de um advogado nem a consulta ao calendário e às normas do tribunal.</span><span>© 2026 JusLab.IA · <span class="powered">powered by <strong title="Aretaic: do grego aretḗ, excelência">Aretaic</strong></span></span></div>`;
+    <div class="footer-legal"><span>Ferramentas educacionais de apoio. Não substituem a análise de um advogado nem a consulta ao calendário e às normas do tribunal.</span><span class="assinatura">© 2026 <strong title="Aretaic: do grego aretḗ, excelência">Aretaic</strong> · JusLab.IA</span></div>`;
   document.body.append(footer);
 
   // Utilitários usados pelas páginas
