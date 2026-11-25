@@ -51,6 +51,21 @@ def log(msg: str) -> None:
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", flush=True)
 
 
+class RespostaParcial(Exception):
+    """Resposta 200 do Elasticsearch em que parte dos shards falhou ou a busca estourou o tempo."""
+
+
+def resposta_parcial(resposta: dict) -> str:
+    """Descreve por que a resposta é parcial ('' se estiver completa)."""
+    if resposta.get("timed_out"):
+        return "timed_out"
+    shards = resposta.get("_shards") or {}
+    falhos = shards.get("failed") or 0
+    if falhos:
+        return f"{falhos} de {shards.get('total', '?')} shards falharam"
+    return ""
+
+
 def consultar(alias: str, corpo: dict, chave: str, tentativas: int = 6, timeout: int = 80,
               prazo: float | None = None) -> dict:
     """POST de busca com novas tentativas para 429, 5xx, falhas de rede e respostas truncadas.
@@ -74,8 +89,14 @@ def consultar(alias: str, corpo: dict, chave: str, tentativas: int = 6, timeout:
         try:
             with request.urlopen(req, timeout=timeout) as r:
                 resposta = json.load(r)
+            parcial = resposta_parcial(resposta)
+            if parcial:
+                # 200 com parte dos shards rejeitados (fila cheia): contagens incompletas, não servem.
+                raise RespostaParcial(parcial)
             log(f"    ok em {time.monotonic() - inicio:.0f}s")
             return resposta
+        except RespostaParcial as e:
+            ultimo = f"resposta parcial: {e}"
         except error.HTTPError as e:
             trecho = e.read(400).decode("utf-8", errors="replace").replace("\n", " ")
             ultimo = f"HTTP {e.code}: {trecho[:160]}"

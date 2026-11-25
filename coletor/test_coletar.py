@@ -170,6 +170,20 @@ class TestConsultar(Base):
         with mock.patch.object(coletar.request, "urlopen", side_effect=[self._resp(b"<html>proxy</html>"), self._resp(b'{"ok":2}')]):
             self.assertEqual(coletar.consultar("tjxx", {}, "k"), {"ok": 2})
 
+    def test_resposta_com_shards_falhos_e_repetida(self):
+        parcial = b'{"_shards":{"total":3,"successful":1,"failed":2},"hits":{"total":{"value":10}}}'
+        completa = b'{"_shards":{"total":3,"successful":3,"failed":0},"hits":{"total":{"value":30}}}'
+        with mock.patch.object(coletar.request, "urlopen", side_effect=[self._resp(parcial), self._resp(completa)]):
+            self.assertEqual(coletar.consultar("tjxx", {}, "k")["hits"]["total"]["value"], 30)
+        self.assertEqual(self.sleep.call_count, 1)
+
+    def test_resposta_parcial_persistente_vira_erro(self):
+        estourou = b'{"timed_out":true,"_shards":{"total":2,"successful":2,"failed":0}}'
+        with mock.patch.object(coletar.request, "urlopen", side_effect=lambda *a, **k: self._resp(estourou)):
+            with self.assertRaises(coletar.ErroDataJud) as c:
+                coletar.consultar("tjxx", {}, "k", tentativas=2)
+        self.assertIn("parcial", str(c.exception))
+
     def test_nao_tenta_de_novo_depois_do_prazo(self):
         with mock.patch.object(coletar.request, "urlopen", side_effect=self._http(503)) as u:
             with self.assertRaises(coletar.ErroDataJud):
