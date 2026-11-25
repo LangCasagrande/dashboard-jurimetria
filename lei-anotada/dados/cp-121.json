@@ -6,7 +6,7 @@
  "rubrica": "Homicídio",
  "tema_jurimetria": "cp-121",
  "texto": {
-  "fonte": "Compilação do Código Penal feita pela Câmara dos Deputados (Centro de Documentação e Informação), publicada no portal Normas.leg.br, do Senado Federal",
+  "fonte": "Compilação do Código Penal feita pela Câmara dos Deputados (Centro de Documentação e Informação), publicada no portal Normas.leg.br",
   "url": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848",
   "documento_atualizado_em": "2026-09-23",
   "consultado_em": "2026-11-24",
@@ -227,14 +227,21 @@
   {
    "lei": "Lei nº 6.416/1977",
    "data": "1977-05-24",
-   "o_que": "Incluiu o § 5º (perdão judicial no homicídio culposo).",
+   "o_que": "Incluiu o § 5º (no homicídio culposo, o juiz poderá deixar de aplicar a pena se as consequências da infração atingirem o próprio agente de forma tão grave que a sanção penal se torne desnecessária).",
    "publicacao_dou": "1977-05-25",
    "vigencia": "na data da publicação"
   },
   {
+   "lei": "Lei nº 8.069/1990",
+   "data": "1990-07-13",
+   "o_que": "Estatuto da Criança e do Adolescente. Deu nova redação ao § 4º (art. 263 da lei): manteve o aumento de um terço no homicídio culposo e acrescentou que, sendo doloso o homicídio, a pena é aumentada de um terço se o crime é praticado contra pessoa menor de catorze anos.",
+   "publicacao_dou": "1990-07-16",
+   "vigencia": "90 dias após a publicação"
+  },
+  {
    "lei": "Lei nº 10.741/2003",
    "data": "2003-10-01",
-   "o_que": "Deu nova redação ao § 4º: manteve o aumento de 1/3 no homicídio culposo e acrescentou o aumento de 1/3 no homicídio doloso praticado contra pessoa menor de 14 ou maior de 60 anos.",
+   "o_que": "Deu nova redação ao § 4º: no homicídio doloso, o aumento de 1/3 passou a valer para crime praticado contra pessoa menor de 14 ou maior de 60 anos (a redação anterior, da Lei nº 8.069/1990, falava só em menor de catorze anos). É a redação em vigor, a única que a compilação anota no § 4º.",
    "publicacao_dou": "2003-10-03",
    "vigencia": "90 dias após a publicação"
   },
@@ -262,9 +269,9 @@
   {
    "lei": "Lei nº 13.964/2019",
    "data": "2019-12-24",
-   "o_que": "Incluiu o inciso VIII do § 2º (emprego de arma de fogo de uso restrito ou proibido), que saiu vetado na publicação original. Segundo a nota da compilação, o inciso foi mantido pelo Congresso Nacional e publicado no DOU de 30/4/2021.",
+   "o_que": "Previa o inciso VIII do § 2º (emprego de arma de fogo de uso restrito ou proibido), que saiu vetado na publicação original. Segundo a nota da compilação, o inciso foi mantido pelo Congresso Nacional e publicado no DOU de 30/4/2021.",
    "publicacao_dou": "2019-12-24",
-   "vigencia": "30 dias após a publicação (Edição Extra do DOU)",
+   "vigencia": "30 dias após a publicação (a lei saiu em Edição Extra do DOU)",
    "nota_vigencia": "A vigência de 30 dias é a da Lei nº 13.964/2019. O inciso VIII do § 2º do art. 121, vetado, só foi publicado no DOU de 30/4/2021, segundo a compilação; a data em que ele passou a valer não foi conferida nesta verificação."
   },
   {
@@ -291,7 +298,7 @@
   {
    "lei": "Lei nº 15.134/2025",
    "data": "2025-05-06",
-   "o_que": "Deu nova redação ao inciso VII do § 2º e o dividiu nas alíneas a (autoridades e agentes de segurança, sistema prisional e Força Nacional) e b (membros do Poder Judiciário, do Ministério Público, da Defensoria Pública ou da Advocacia Pública, e oficial de justiça).",
+   "o_que": "Deu nova redação ao inciso VII do § 2º e o dividiu nas alíneas a (autoridade ou agente descrito nos arts. 142 e 144 da Constituição Federal, integrantes do sistema prisional e da Força Nacional de Segurança Pública) e b (membros do Poder Judiciário, do Ministério Público, da Defensoria Pública ou da Advocacia Pública, e oficial de justiça).",
    "publicacao_dou": "2025-05-07",
    "vigencia": "na data da publicação"
   },
@@ -612,13 +619,23 @@
    "id": "paragrafo-4",
    "aba": "lei",
    "tipo": "Evolução legislativa",
-   "titulo": "§ 4º: o aumento no homicídio doloso contra menor de 14 ou maior de 60 anos veio em 2003",
-   "resumo": "Na redação original de 1940, o § 4º previa apenas o aumento de um terço no homicídio culposo. A Lei nº 10.741/2003 deu nova redação ao parágrafo e acrescentou que, sendo doloso o homicídio, a pena é aumentada de 1/3 se o crime é praticado contra pessoa menor de 14 ou maior de 60 anos. A compilação anota só essa alteração do § 4º. A lei entrou em vigor 90 dias após a publicação, no DOU de 03/10/2003.",
+   "titulo": "§ 4º: o aumento no homicídio doloso contra menor de 14 anos veio em 1990; o \"maior de 60\", em 2003",
+   "resumo": "Na redação original de 1940, o § 4º previa apenas o aumento de um terço no homicídio culposo. O Estatuto da Criança e do Adolescente (Lei nº 8.069/1990, art. 263) deu nova redação ao parágrafo e acrescentou que, sendo doloso o homicídio, a pena é aumentada de um terço se o crime é praticado contra pessoa menor de catorze anos; essa lei entrou em vigor 90 dias após a publicação, no DOU de 16/07/1990. A Lei nº 10.741/2003 deu a redação atual, que estende o aumento ao crime contra pessoa maior de 60 anos; entrou em vigor 90 dias após a publicação, no DOU de 03/10/2003. A compilação do Código Penal anota só esta última alteração do § 4º.",
    "citacoes": [
     {
      "texto": "§ 4º No homicídio culposo, a pena é aumentada de um terço, se o crime resulta de inobservância de regra técnica de profissão, arte ou ofício, ou se o agente deixa de prestar imediato socorro à vítima, não procura diminuir as consequências do seu ato, ou foge para evitar prisão em flagrante.",
      "fonte_nome": "Código Penal, art. 121, § 4º — redação original de 1940",
      "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:decreto.lei:1940-12-07;2848"
+    },
+    {
+     "texto": "§ 4º No homicídio culposo, a pena é aumentada de um terço, se o crime resulta de inobservância de regra técnica de profissão, arte ou ofício, ou se o agente deixa de prestar imediato socorro à vítima, não procura diminuir as conseqüências do seu ato, ou foge para evitar prisão em flagrante. Sendo doloso o homicídio, a pena é aumentada de um terço, se o crime é praticado contra pessoa menor de catorze anos.",
+     "fonte_nome": "Lei nº 8.069/1990, art. 263 (nova redação do art. 121, § 4º)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1990-07-13;8069"
+    },
+    {
+     "texto": "Art. 266. Esta Lei entra em vigor noventa dias após sua publicação.",
+     "fonte_nome": "Lei nº 8.069/1990, art. 266 (vigência)",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1990-07-13;8069"
     },
     {
      "texto": "Sendo doloso o homicídio, a pena é aumentada de 1/3 (um terço) se o crime é praticado contra pessoa menor de 14 (quatorze) ou maior de 60 (sessenta) anos.",
@@ -633,7 +650,7 @@
    ],
    "verificacao": {
     "em": "2026-11-24",
-    "como": "Textos copiados da redação original do Código Penal e da publicação original da Lei nº 10.741/2003 no Normas.leg.br.",
+    "como": "Textos copiados da redação original do Código Penal e das publicações originais das Leis nº 8.069/1990 e nº 10.741/2003 no Normas.leg.br; datas de publicação conferidas nos metadados oficiais. Correção feita após a revisão independente (a versão anterior atribuía todo o trecho do homicídio doloso à Lei nº 10.741/2003).",
     "revisao_humana": null
    }
   },
@@ -719,8 +736,13 @@
    "aba": "lei",
    "tipo": "Remissão",
    "titulo": "Que lei é o \"marco legal do combate ao crime organizado\" do § 2º-D?",
-   "resumo": "O § 2º-D remete ao art. 2º \"da lei que institui o marco legal do combate ao crime organizado no Brasil\". Essa lei é a Lei nº 15.358, de 24/03/2026, a mesma que incluiu o § 2º-D no art. 121. Ela entrou em vigor na data da publicação, no DOU de 25/03/2026.",
+   "resumo": "O § 2º-D remete ao art. 2º \"da lei que institui o marco legal do combate ao crime organizado no Brasil\". Essa lei é a Lei nº 15.358, de 24/03/2026, a mesma que incluiu o § 2º-D no art. 121: o art. 1º dela diz que \"institui o marco legal do combate ao crime organizado no Brasil\". Ela entrou em vigor na data da publicação, no DOU de 25/03/2026.",
    "citacoes": [
+    {
+     "texto": "Art. 1º Esta Lei institui o marco legal do combate ao crime organizado no Brasil",
+     "fonte_nome": "Lei nº 15.358/2026, art. 1º",
+     "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2026-03-24;15358"
+    },
     {
      "texto": "Institui o Marco Legal do Combate ao Crime Organizado no Brasil (Lei Raul Jungmann);",
      "fonte_nome": "Lei nº 15.358/2026, ementa",
@@ -793,6 +815,10 @@
   {
    "o_que": "Doutrina com nome de autor, obra e página",
    "motivo": "Os informativos conferidos citam \"a doutrina\" sem nomear autor ou obra; os acórdãos na íntegra ficam atrás do bloqueio automático do STJ."
+  },
+  {
+   "o_que": "Tema 1.196 do STJ (progressão de regime de condenado por crime hediondo com resultado morte, reincidente genérico)",
+   "motivo": "Foi baixado e conferido, mas trata de execução penal (Lei 8.072/1990 e Lei de Execução Penal), não do texto do art. 121; ficou de fora desta página. Situação na página oficial: sobrestado."
   }
  ]
 }

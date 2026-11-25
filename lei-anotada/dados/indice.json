@@ -9,11 +9,25 @@
    "arquivo": "dados/cp-121.json"
   },
   {
+   "id": "cp-155",
+   "artigo": "Art. 155",
+   "rubrica": "Furto",
+   "lei": "Código Penal",
+   "arquivo": "dados/cp-155.json"
+  },
+  {
    "id": "cp-157",
    "artigo": "Art. 157",
    "rubrica": "Roubo",
    "lei": "Código Penal",
    "arquivo": "dados/cp-157.json"
+  },
+  {
+   "id": "ld-33",
+   "artigo": "Art. 33",
+   "rubrica": "Tráfico de drogas",
+   "lei": "Lei de Drogas (Lei nº 11.343/2006)",
+   "arquivo": "dados/ld-33.json"
   }
  ]
 }
