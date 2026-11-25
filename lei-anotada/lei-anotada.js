@@ -43,7 +43,7 @@
       const revogado = !x.texto;
       const corpo = revogado ? `${esc(x.rotulo)} – (${esc(x.alteracao)})` : esc(x.texto);
       const notas = [x.alteracao, x.alteracao_paragrafo].filter(Boolean);
-      const alt = !revogado && notas.length ? notas.map(n => `<span class="alt${RECENTE.test(n) ? ' novo' : ''}">${esc(n)}${vig(n) ? ` <span class="vig">(${esc(vig(n))})</span>` : ''}</span>`).join('') : '';
+      const alt = !revogado && notas.length ? notas.map(n => `<span class="alt${RECENTE.test(n) ? ' novo' : ''}">${esc(n)}${vig(n) && !/em vigor/.test(n) ? ` <span class="vig">(${esc(vig(n))})</span>` : ''}</span>`).join('') : '';
       const rubrica = x.rubrica ? `<span class="rubrica-disp">${esc(x.rubrica)}${x.rubrica_alteracao ? ` <small>(${esc(x.rubrica_alteracao)})</small>` : ''}</span>` : '';
       return `${rubrica}<div class="disp ${nivel(x.rotulo)}${revogado ? ' revogado' : ''}" title="${esc(x.referencia || '')}"><span class="ref">${esc(x.referencia || '')}</span><span class="txt">${corpo}</span>${alt}</div>`;
     }).join('');
@@ -51,7 +51,7 @@
       <p class="sub">A data da lei nem sempre é a data em que ela passa a valer: veja a publicação e a vigência.</p>
       <ol class="tempo">${d.alteracoes.map(a => `<li><b>${esc(a.lei)}</b><time datetime="${a.data}">Lei de ${data(a.data)}${a.publicacao_dou ? ` · publicada no DOU de ${data(a.publicacao_dou)}${a.vigencia ? ` · em vigor ${esc(a.vigencia)}` : ''}` : ''}</time><p>${esc(a.o_que)}</p>${a.nota_vigencia ? `<p class="ressalva"><strong>Ressalva de vigência:</strong> ${esc(a.nota_vigencia)}</p>` : ''}</li>`).join('')}</ol></section>` : '';
     return `<section class="bloco"><h3>Texto atualizado</h3>
-      <p class="sub">Copiado da compilação, sem edição. Em destaque, as alterações de 2025 e 2026.</p>
+      <p class="sub">Copiado da compilação, sem edição.${RECENTE.test(JSON.stringify(d.texto.dispositivos || [])) ? ' Em destaque, as alterações de 2025 e 2026.' : ''}</p>
       <div class="lei">${linhas}
         <p class="lei-fonte">Fonte: ${link(d.texto.url, d.texto.fonte)}${d.texto.documento_atualizado_em ? ` · documento atualizado em ${data(d.texto.documento_atualizado_em)}` : ''} · consultado em ${data(d.texto.consultado_em)}.<br>${esc(d.texto.aviso || '')}</p>
       </div></section>${tempo}${blocoNotas(d, 'lei', 'Vigência, alterações e remissões', '')}`;
@@ -63,7 +63,10 @@
       <article class="item${s.cancelada ? ' cancelada' : ''}">
         <div class="topo"><h4>Súmula ${s.numero}/${esc(s.tribunal)}</h4><span class="etiqueta">${esc(s.tema || '')}</span></div>
         ${s.cancelada ? `<span class="aviso-cancelada">Súmula cancelada: não reflete o entendimento atual.</span>` : ''}
+        ${s.alterada && s.alteracao ? `<span class="situacao">${esc(s.alteracao)}</span>` : ''}
         <blockquote>${esc(s.texto)}</blockquote>
+        ${s.redacao_anterior ? `<p class="obs"><strong>Redação anterior${s.dados_anterior ? ` (${esc(s.dados_anterior)})` : ''}:</strong> ${esc(s.redacao_anterior)}</p>` : ''}
+        ${s.observacao ? `<p class="obs"><strong>Atenção:</strong> ${esc(s.observacao)}</p>` : ''}
         <div class="meta">${esc(s.dados || '')}${s.cancelada && s.cancelamento ? `<br>${esc(s.cancelamento)}` : ''}<br>Fonte: ${link(s.fonte, s.tribunal === 'STJ' ? 'Enunciados das Súmulas do STJ' : 'fonte oficial')}</div>
         ${selo(s.verificacao)}
       </article>`).join('');
@@ -73,6 +76,7 @@
         ${t.situacao ? `<span class="situacao">Situação: ${esc(t.situacao)}</span>` : ''}
         ${t.questao ? `<p class="meta"><strong>Questão:</strong> ${esc(t.questao)}</p>` : ''}
         <blockquote>${(t.tese || []).map(esc).join('<br><br>')}</blockquote>
+        ${t.observacao ? `<p class="obs"><strong>Atenção:</strong> ${esc(t.observacao)}</p>` : ''}
         <div class="meta">${[t.processo, t.relator, t.orgao].filter(Boolean).map(esc).join(' · ')}${t.julgado_em ? ` · julgado em ${data(t.julgado_em)}` : ''}${t.publicado_em ? ` · acórdão publicado em ${data(t.publicado_em)}` : ''}${t.embargos_em ? ` · embargos de declaração em ${data(t.embargos_em)}` : ''}${t.transito_em ? ` · trânsito em julgado em ${data(t.transito_em)}` : ''}${t.sumula_originada ? ` · originou a ${esc(t.sumula_originada)}` : ''}<br>Fonte: ${link(t.fonte, `página oficial do Tema ${t.numero}`)}</div>
         ${selo(t.verificacao)}
       </article>`).join('');
@@ -136,7 +140,9 @@
     add(d.texto.url, d.texto.fonte);
     for (const s of d.sumulas || []) add(s.fonte, s.tribunal === 'STJ' ? 'Enunciados das Súmulas do STJ (documento oficial)' : `Súmula ${s.numero}/${s.tribunal}`);
     for (const t of d.temas || []) add(t.fonte, `Tema ${t.numero}/${t.tribunal} (página oficial)`);
-    for (const n of d.notas || []) { add(n.fonte, n.fonte_nome); for (const c of n.citacoes || []) add(c.fonte, c.fonte_nome); }
+    // Uma URL serve a vários trechos: o rótulo é o nome do documento, sem o artigo ou o processo do primeiro trecho.
+    const doc = nome => String(nome || '').replace(/ \(.*$/, '').replace(/ — .*$/, '').replace(/, (art\.|arts\.|inclusão|ementa|nova redação|publicação|parágrafo|anotação|inciso|rubrica|§).*$/i, '').trim();
+    for (const n of d.notas || []) { add(n.fonte, doc(n.fonte_nome)); for (const c of n.citacoes || []) add(c.fonte, doc(c.fonte_nome)); }
     return `<div class="card">
         <p>Cada item foi lido na fonte indicada e copiado sem edição; os resumos das notas são do JusLab.IA e trazem o trecho original para conferência. O selo "Revisão do autor" mostra se o autor do projeto já revisou o item pessoalmente.</p>
         <ul class="fontes">${[...fontes].map(([u, n]) => `<li>${link(u, n || u)}</li>`).join('')}</ul>
