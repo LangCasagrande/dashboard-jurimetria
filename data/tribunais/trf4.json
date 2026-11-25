@@ -4,15 +4,16 @@
  "nome": "Tribunal Regional Federal da 4ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "graus": "2026-11-24T19:09:54+00:00",
+  "graus": "2026-11-25T19:07:45+00:00",
   "formatos": "2026-11-24T19:11:08+00:00",
-  "classes": "2026-11-24T19:14:10+00:00",
-  "orgaos": "2026-11-24T19:17:14+00:00",
-  "total": "2026-11-24T19:17:42+00:00",
-  "mensal": "2026-11-24T19:19:39+00:00",
+  "classes": "2026-11-25T19:29:51+00:00",
+  "orgaos": "2026-11-25T19:36:21+00:00",
+  "total": "2026-11-25T19:37:32+00:00",
+  "mensal": "2026-11-25T19:41:43+00:00",
   "sistemas": "2026-11-24T19:11:33+00:00",
-  "assuntos": "2026-11-24T19:14:54+00:00",
-  "anual": "2026-11-24T19:18:29+00:00"
+  "assuntos": "2026-11-25T19:35:19+00:00",
+  "anual": "2026-11-25T19:38:51+00:00",
+  "temas": "2026-11-25T19:52:45+00:00"
  },
  "graus": [
   {
@@ -321,8 +322,11 @@
    "qtd": 116
   }
  ],
- "erros": {},
- "atualizado_em": "2026-11-24T19:19:39+00:00",
+ "erros": {
+  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "sistemas": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-25T19:52:45+00:00",
  "sistemas": [
   {
    "nome": "Projudi",
@@ -401,7 +405,8 @@
   "sistemas": 14870040,
   "classes": 14870040,
   "assuntos": 14870040,
-  "orgaos": 14870040
+  "orgaos": 14870040,
+  "temas": 5186
  },
  "anual": [
   {
@@ -513,5 +518,24 @@
    "qtd": 887394
   }
  ],
- "parte_mais_antiga_em": "2026-11-24T19:09:54+00:00"
+ "parte_mais_antiga_em": "2026-11-24T19:11:08+00:00",
+ "temas": {
+  "cp-157": {
+   "total": 4135,
+   "por_assunto": {
+    "3419": 2464,
+    "5566": 1577,
+    "5567": 158,
+    "9678": 0
+   }
+  },
+  "cp-121": {
+   "total": 1124,
+   "por_assunto": {
+    "3370": 357,
+    "3371": 5,
+    "3372": 766
+   }
+  }
+ }
 }

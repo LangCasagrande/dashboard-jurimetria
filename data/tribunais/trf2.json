@@ -4,15 +4,16 @@
  "nome": "Tribunal Regional Federal da 2ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "formatos": "2026-11-24T18:45:59+00:00",
-  "sistemas": "2026-11-24T18:46:57+00:00",
-  "classes": "2026-11-24T18:47:44+00:00",
-  "assuntos": "2026-11-24T18:48:37+00:00",
+  "formatos": "2026-11-25T18:09:07+00:00",
+  "sistemas": "2026-11-25T18:09:36+00:00",
+  "classes": "2026-11-25T18:10:11+00:00",
+  "assuntos": "2026-11-25T18:14:49+00:00",
   "orgaos": "2026-11-24T18:51:32+00:00",
   "total": "2026-11-24T18:52:07+00:00",
-  "mensal": "2026-11-24T18:54:15+00:00",
-  "graus": "2026-11-24T18:45:03+00:00",
-  "anual": "2026-11-24T18:52:51+00:00"
+  "mensal": "2026-11-25T18:39:44+00:00",
+  "graus": "2026-11-25T18:06:21+00:00",
+  "anual": "2026-11-25T18:38:54+00:00",
+  "temas": "2026-11-25T18:41:19+00:00"
  },
  "formatos": [
   {
@@ -375,8 +376,11 @@
    "qtd": 0
   }
  ],
- "erros": {},
- "atualizado_em": "2026-11-24T18:54:15+00:00",
+ "erros": {
+  "orgaos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "total": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-25T18:41:19+00:00",
  "graus": [
   {
    "nome": "JE",
@@ -405,7 +409,8 @@
   "sistemas": 4495272,
   "classes": 4495272,
   "assuntos": 4495272,
-  "orgaos": 4495272
+  "orgaos": 4495272,
+  "temas": 1874
  },
  "anual": [
   {
@@ -517,5 +522,24 @@
    "qtd": 385293
   }
  ],
- "parte_mais_antiga_em": "2026-11-24T18:45:03+00:00"
+ "parte_mais_antiga_em": "2026-11-24T18:51:32+00:00",
+ "temas": {
+  "cp-157": {
+   "total": 1616,
+   "por_assunto": {
+    "3419": 870,
+    "5566": 750,
+    "5567": 31,
+    "9678": 0
+   }
+  },
+  "cp-121": {
+   "total": 270,
+   "por_assunto": {
+    "3370": 89,
+    "3371": 5,
+    "3372": 178
+   }
+  }
+ }
 }

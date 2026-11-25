@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T22:12:53+00:00",
+ "gerado_em": "2026-11-25T20:37:38+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "tribunais": [
   {
@@ -12,7 +12,7 @@
    "classe_principal": "Agravo em Recurso Especial",
    "ultimo_mes": "2026-10",
    "ultimo_ano": 2026,
-   "atualizado_em": "2026-11-24T17:09:41+00:00",
+   "atualizado_em": "2026-11-25T15:33:45+00:00",
    "partes": [
     "anual",
     "assuntos",
@@ -22,6 +22,7 @@
     "mensal",
     "orgaos",
     "sistemas",
+    "temas",
     "total"
    ]
   },
@@ -30,12 +31,12 @@
    "sigla": "TST",
    "nome": "Tribunal Superior do Trabalho",
    "ramo": "Superiores",
-   "total": 4642793,
+   "total": 2322591,
    "pct_eletronico": 100.0,
    "classe_principal": "Agravo de Instrumento em Recurso de Revista",
    "ultimo_mes": "2026-10",
    "ultimo_ano": 2026,
-   "atualizado_em": "2026-11-24T17:35:31+00:00",
+   "atualizado_em": "2026-11-25T16:05:07+00:00",
    "partes": [
     "anual",
     "assuntos",
@@ -45,6 +46,7 @@
     "mensal",
     "orgaos",
     "sistemas",
+    "temas",
     "total"
    ]
   },
@@ -58,7 +60,7 @@
    "classe_principal": "Direitos Políticos",
    "ultimo_mes": "2026-09",
    "ultimo_ano": 2026,
-   "atualizado_em": "2026-11-24T17:49:51+00:00",
+   "atualizado_em": "2026-11-25T16:20:01+00:00",
    "partes": [
     "anual",
     "assuntos",
@@ -68,6 +70,7 @@
     "mensal",
     "orgaos",
     "sistemas",
+    "temas",
     "total"
    ]
   },
@@ -81,7 +84,7 @@
    "classe_principal": "Ação Penal Militar - Procedimento Ordinário",
    "ultimo_mes": "2026-10",
    "ultimo_ano": 2026,
-   "atualizado_em": "2026-11-24T18:25:13+00:00",
+   "atualizado_em": "2026-11-25T16:54:09+00:00",
    "partes": [
     "anual",
     "assuntos",
@@ -91,6 +94,7 @@
     "mensal",
     "orgaos",
     "sistemas",
+    "temas",
     "total"
    ]
   },
@@ -104,7 +108,7 @@
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": "2026-11",
    "ultimo_ano": 2026,
-   "atualizado_em": "2026-11-24T18:43:36+00:00",
+   "atualizado_em": "2026-11-25T18:05:12+00:00",
    "partes": [
     "anual",
     "assuntos",
@@ -114,6 +118,7 @@
     "mensal",
     "orgaos",
     "sistemas",
+    "temas",
     "total"
    ]
   },
@@ -127,7 +132,7 @@
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": "2026-09",
    "ultimo_ano": 2026,
-   "atualizado_em": "2026-11-24T18:54:15+00:00",
+   "atualizado_em": "2026-11-25T18:41:19+00:00",
    "partes": [
     "anual",
     "assuntos",
@@ -137,6 +142,7 @@
     "mensal",
     "orgaos",
     "sistemas",
+    "temas",
     "total"
    ]
   },
@@ -150,7 +156,7 @@
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": "2026-11",
    "ultimo_ano": 2026,
-   "atualizado_em": "2026-11-24T19:09:07+00:00",
+   "atualizado_em": "2026-11-25T19:03:59+00:00",
    "partes": [
     "anual",
     "assuntos",
@@ -160,6 +166,7 @@
     "mensal",
     "orgaos",
     "sistemas",
+    "temas",
     "total"
    ]
   },
@@ -173,7 +180,7 @@
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": "2026-10",
    "ultimo_ano": 2026,
-   "atualizado_em": "2026-11-24T19:19:39+00:00",
+   "atualizado_em": "2026-11-25T19:52:45+00:00",
    "partes": [
     "anual",
     "assuntos",
@@ -183,6 +190,7 @@
     "mensal",
     "orgaos",
     "sistemas",
+    "temas",
     "total"
    ]
   },
@@ -196,7 +204,7 @@
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": "2026-09",
    "ultimo_ano": 2026,
-   "atualizado_em": "2026-11-24T19:33:28+00:00",
+   "atualizado_em": "2026-11-25T20:22:56+00:00",
    "partes": [
     "anual",
     "assuntos",
@@ -206,6 +214,7 @@
     "mensal",
     "orgaos",
     "sistemas",
+    "temas",
     "total"
    ]
   },
@@ -219,7 +228,7 @@
    "classe_principal": "Procedimento do Juizado Especial Cível",
    "ultimo_mes": "2026-09",
    "ultimo_ano": 2026,
-   "atualizado_em": "2026-11-24T19:54:05+00:00",
+   "atualizado_em": "2026-11-25T20:37:06+00:00",
    "partes": [
     "anual",
     "assuntos",

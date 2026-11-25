@@ -4,20 +4,21 @@
  "nome": "Superior Tribunal de Justiça",
  "ramo": "Superiores",
  "partes_atualizadas_em": {
-  "graus": "2026-11-24T16:53:43+00:00",
-  "formatos": "2026-11-24T16:54:59+00:00",
-  "sistemas": "2026-11-24T16:56:42+00:00",
-  "classes": "2026-11-24T17:02:24+00:00",
-  "assuntos": "2026-11-24T17:04:38+00:00",
-  "orgaos": "2026-11-24T17:05:48+00:00",
-  "total": "2026-11-24T17:06:16+00:00",
-  "mensal": "2026-11-24T17:09:41+00:00",
-  "anual": "2026-11-24T17:06:52+00:00"
+  "graus": "2026-11-25T15:19:38+00:00",
+  "formatos": "2026-11-25T15:21:42+00:00",
+  "sistemas": "2026-11-25T15:23:29+00:00",
+  "classes": "2026-11-25T15:26:07+00:00",
+  "assuntos": "2026-11-25T15:26:38+00:00",
+  "orgaos": "2026-11-25T15:28:04+00:00",
+  "total": "2026-11-25T15:28:29+00:00",
+  "mensal": "2026-11-25T15:32:24+00:00",
+  "anual": "2026-11-25T15:29:01+00:00",
+  "temas": "2026-11-25T15:33:45+00:00"
  },
  "graus": [
   {
    "nome": "SUP",
-   "qtd": 3730541
+   "qtd": 2488522
   }
  ],
  "formatos": [
@@ -33,359 +34,360 @@
  "sistemas": [
   {
    "nome": "Outros",
-   "qtd": 977648
+   "qtd": 1958469
   },
   {
    "nome": "Inválido",
-   "qtd": 264371
+   "qtd": 530053
   }
  ],
  "classes": [
   {
    "nome": "Agravo em Recurso Especial",
-   "qtd": 2060360
+   "qtd": 1372552
   },
   {
    "nome": "Habeas Corpus",
-   "qtd": 679995
+   "qtd": 453072
   },
   {
    "nome": "Recurso Especial",
-   "qtd": 632883
+   "qtd": 421711
   },
   {
    "nome": "Recurso Ordinário em Habeas Corpus",
-   "qtd": 130362
+   "qtd": 87016
   },
   {
    "nome": "Conflito de Competência",
-   "qtd": 68828
+   "qtd": 45808
   },
   {
    "nome": "Recurso Ordinário em Mandado de Segurança",
-   "qtd": 27720
+   "qtd": 18418
   },
   {
    "nome": "Embargos de Divergência em Agravo em Recurso Especial",
-   "qtd": 18748
+   "qtd": 12658
   },
   {
    "nome": "Reclamação",
-   "qtd": 17333
+   "qtd": 11675
   },
   {
    "nome": "Requisição de Pequeno Valor",
-   "qtd": 16842
+   "qtd": 11221
   },
   {
    "nome": "Precatório",
-   "qtd": 12417
+   "qtd": 8255
   },
   {
    "nome": "Embargos de Divergência em Recurso Especial",
-   "qtd": 11905
+   "qtd": 7973
   },
   {
    "nome": "Mandado de Segurança",
-   "qtd": 10392
+   "qtd": 6906
   },
   {
    "nome": "Carta Rogatória",
-   "qtd": 8231
+   "qtd": 5549
   },
   {
    "nome": "Pedido de Uniformização de Interpretação de Lei Criminal",
-   "qtd": 6520
+   "qtd": 4331
   },
   {
    "nome": "Tutela Cautelar Antecedente",
-   "qtd": 4864
+   "qtd": 3257
   }
  ],
  "assuntos": [
   {
    "nome": "Tráfico de Drogas e Condutas Afins",
-   "qtd": 265536
+   "qtd": 132584
   },
   {
    "nome": "Indenização por Dano Moral",
-   "qtd": 116534
+   "qtd": 58100
   },
   {
    "nome": "Homicídio Qualificado",
-   "qtd": 79817
+   "qtd": 39702
   },
   {
    "nome": "Roubo Majorado",
-   "qtd": 79551
+   "qtd": 39614
   },
   {
    "nome": "Indenização por Dano Material",
-   "qtd": 74986
+   "qtd": 37365
   },
   {
    "nome": "Prisão Preventiva",
-   "qtd": 71229
+   "qtd": 35532
   },
   {
    "nome": "Associação para a Produção e Tráfico e Condutas Afins",
-   "qtd": 65823
-  },
-  {
-   "nome": "Dívida Ativa (Execução Fiscal)",
-   "qtd": 57911
-  },
-  {
-   "nome": "Contratos Bancários",
-   "qtd": 57481
+   "qtd": 32825
   },
   {
    "nome": "Pena Privativa de Liberdade",
-   "qtd": 57360
+   "qtd": 28822
+  },
+  {
+   "nome": "Dívida Ativa (Execução Fiscal)",
+   "qtd": 28735
+  },
+  {
+   "nome": "Contratos Bancários",
+   "qtd": 28648
   },
   {
    "nome": "Crimes do Sistema Nacional de Armas",
-   "qtd": 55319
+   "qtd": 27598
   },
   {
    "nome": "Crime Tentado",
-   "qtd": 41509
+   "qtd": 20695
   },
   {
    "nome": "Promessa de Compra e Venda",
-   "qtd": 40885
+   "qtd": 20442
   },
   {
    "nome": "Seguro",
-   "qtd": 37329
+   "qtd": 18845
   },
   {
    "nome": "Efeito Suspensivo / Impugnação / Embargos à Execução",
-   "qtd": 37091
+   "qtd": 18571
   }
  ],
  "orgaos": [
   {
    "nome": "PRESIDÃNCIA",
-   "qtd": 664838
+   "qtd": 332314
   },
   {
    "nome": "GABINETE DO MINISTRO ROGERIO SCHIETTI",
-   "qtd": 69197
-  },
-  {
-   "nome": "GABINETE DO MINISTRO JOEL ILAN PACIORNIK",
-   "qtd": 68635
+   "qtd": 34587
   },
   {
    "nome": "GABINETE DO MINISTRO RIBEIRO DANTAS",
-   "qtd": 68201
+   "qtd": 34318
+  },
+  {
+   "nome": "GABINETE DO MINISTRO JOEL ILAN PACIORNIK",
+   "qtd": 34287
   },
   {
    "nome": "GABINETE DO MINISTRO SEBASTIÃO REIS JÃNIOR",
-   "qtd": 67698
+   "qtd": 33719
   },
   {
    "nome": "GABINETE DO MINISTRO REYNALDO SOARES DA FONSECA",
-   "qtd": 66575
+   "qtd": 33168
   },
   {
    "nome": "GABINETE DO MINISTRO ANTONIO SALDANHA PALHEIRO",
-   "qtd": 63162
+   "qtd": 31628
   },
   {
    "nome": "VICE-PRESIDÃNCIA",
-   "qtd": 61750
+   "qtd": 30897
   },
   {
    "nome": "GABINETE DO MINISTRO GURGEL DE FARIA",
-   "qtd": 60841
+   "qtd": 30461
   },
   {
    "nome": "GABINETE DO MINISTRO SÃRGIO LUIZ KUKINA",
-   "qtd": 56812
+   "qtd": 28586
   },
   {
    "nome": "GABINETE DA MINISTRA MARIA ISABEL GALLOTTI",
-   "qtd": 54767
+   "qtd": 27361
   },
   {
    "nome": "GABINETE DO MINISTRO FRANCISCO FALCÃO",
-   "qtd": 54193
-  },
-  {
-   "nome": "GABINETE DA MINISTRA NANCY ANDRIGHI",
-   "qtd": 53887
+   "qtd": 27180
   },
   {
    "nome": "GABINETE DO MINISTRO ANTONIO CARLOS FERREIRA",
-   "qtd": 53529
+   "qtd": 26978
+  },
+  {
+   "nome": "GABINETE DA MINISTRA NANCY ANDRIGHI",
+   "qtd": 26960
   },
   {
    "nome": "GABINETE DO MINISTRO MOURA RIBEIRO",
-   "qtd": 53278
+   "qtd": 26548
   }
  ],
  "total": 3730541,
  "mensal": [
   {
    "mes": "2023-11",
-   "qtd": 34683
+   "qtd": 11563
   },
   {
    "mes": "2023-12",
-   "qtd": 27835
+   "qtd": 9238
   },
   {
    "mes": "2024-01",
-   "qtd": 25941
+   "qtd": 8680
   },
   {
    "mes": "2024-02",
-   "qtd": 35758
+   "qtd": 11888
   },
   {
    "mes": "2024-03",
-   "qtd": 32141
+   "qtd": 10567
   },
   {
    "mes": "2024-04",
-   "qtd": 43488
+   "qtd": 14575
   },
   {
    "mes": "2024-05",
-   "qtd": 41114
+   "qtd": 13686
   },
   {
    "mes": "2024-06",
-   "qtd": 36675
+   "qtd": 12111
   },
   {
    "mes": "2024-07",
-   "qtd": 40363
+   "qtd": 13486
   },
   {
    "mes": "2024-08",
-   "qtd": 41182
+   "qtd": 13650
   },
   {
    "mes": "2024-09",
-   "qtd": 35261
+   "qtd": 11546
   },
   {
    "mes": "2024-10",
-   "qtd": 37803
+   "qtd": 12570
   },
   {
    "mes": "2024-11",
-   "qtd": 33823
+   "qtd": 11294
   },
   {
    "mes": "2024-12",
-   "qtd": 32199
+   "qtd": 10723
   },
   {
    "mes": "2025-01",
-   "qtd": 26438
+   "qtd": 8829
   },
   {
    "mes": "2025-02",
-   "qtd": 38558
+   "qtd": 12680
   },
   {
    "mes": "2025-03",
-   "qtd": 38634
+   "qtd": 12837
   },
   {
    "mes": "2025-04",
-   "qtd": 37055
+   "qtd": 12283
   },
   {
    "mes": "2025-05",
-   "qtd": 39964
+   "qtd": 13377
   },
   {
    "mes": "2025-06",
-   "qtd": 36432
+   "qtd": 12166
   },
   {
    "mes": "2025-07",
-   "qtd": 42091
+   "qtd": 14013
   },
   {
    "mes": "2025-08",
-   "qtd": 38562
+   "qtd": 12946
   },
   {
    "mes": "2025-09",
-   "qtd": 45692
+   "qtd": 15224
   },
   {
    "mes": "2025-10",
-   "qtd": 44371
+   "qtd": 14781
   },
   {
    "mes": "2025-11",
-   "qtd": 38709
+   "qtd": 12927
   },
   {
    "mes": "2025-12",
-   "qtd": 34068
+   "qtd": 11453
   },
   {
    "mes": "2026-01",
-   "qtd": 27607
+   "qtd": 9307
   },
   {
    "mes": "2026-02",
-   "qtd": 35852
+   "qtd": 11913
   },
   {
    "mes": "2026-03",
-   "qtd": 46419
+   "qtd": 15357
   },
   {
    "mes": "2026-04",
-   "qtd": 41873
+   "qtd": 13878
   },
   {
    "mes": "2026-05",
-   "qtd": 40748
+   "qtd": 13638
   },
   {
    "mes": "2026-06",
-   "qtd": 42843
+   "qtd": 14254
   },
   {
    "mes": "2026-07",
-   "qtd": 47454
+   "qtd": 15721
   },
   {
    "mes": "2026-08",
-   "qtd": 40288
+   "qtd": 13364
   },
   {
    "mes": "2026-09",
-   "qtd": 36276
+   "qtd": 12000
   },
   {
    "mes": "2026-10",
-   "qtd": 27834
+   "qtd": 9258
   },
   {
    "mes": "2026-11",
-   "qtd": 1303
+   "qtd": 439
   }
  ],
  "erros": {},
- "atualizado_em": "2026-11-24T17:09:41+00:00",
+ "atualizado_em": "2026-11-25T15:33:45+00:00",
  "totais_partes": {
-  "graus": 3730541,
+  "graus": 2488522,
   "formatos": 3730541,
-  "sistemas": 1242019,
-  "classes": 3730541,
-  "assuntos": 2486743,
-  "orgaos": 2488522
+  "sistemas": 2488522,
+  "classes": 2485817,
+  "assuntos": 1242019,
+  "orgaos": 1244724,
+  "temas": 10000
  },
  "anual": [
   {
@@ -394,108 +396,127 @@
   },
   {
    "ano": "2001",
-   "qtd": 14
+   "qtd": 12
   },
   {
    "ano": "2002",
-   "qtd": 25
+   "qtd": 16
   },
   {
    "ano": "2003",
-   "qtd": 71
+   "qtd": 30
   },
   {
    "ano": "2004",
-   "qtd": 46
+   "qtd": 28
   },
   {
    "ano": "2005",
-   "qtd": 91
+   "qtd": 53
   },
   {
    "ano": "2006",
-   "qtd": 248
+   "qtd": 128
   },
   {
    "ano": "2007",
-   "qtd": 610
+   "qtd": 338
   },
   {
    "ano": "2008",
-   "qtd": 435
+   "qtd": 218
   },
   {
    "ano": "2009",
-   "qtd": 571
+   "qtd": 260
   },
   {
    "ano": "2010",
-   "qtd": 675
+   "qtd": 337
   },
   {
    "ano": "2011",
-   "qtd": 2439
+   "qtd": 1216
   },
   {
    "ano": "2012",
-   "qtd": 5720
+   "qtd": 2785
   },
   {
    "ano": "2013",
-   "qtd": 10174
+   "qtd": 5217
   },
   {
    "ano": "2014",
-   "qtd": 18340
+   "qtd": 9091
   },
   {
    "ano": "2015",
-   "qtd": 24509
+   "qtd": 12510
   },
   {
    "ano": "2016",
-   "qtd": 34948
+   "qtd": 17549
   },
   {
    "ano": "2017",
-   "qtd": 108507
+   "qtd": 53938
   },
   {
    "ano": "2018",
-   "qtd": 209680
+   "qtd": 105206
   },
   {
    "ano": "2019",
-   "qtd": 214514
+   "qtd": 107550
   },
   {
    "ano": "2020",
-   "qtd": 213984
+   "qtd": 106754
   },
   {
    "ano": "2021",
-   "qtd": 251023
+   "qtd": 125512
   },
   {
    "ano": "2022",
-   "qtd": 253600
+   "qtd": 125845
   },
   {
    "ano": "2023",
-   "qtd": 274518
+   "qtd": 136887
   },
   {
    "ano": "2024",
-   "qtd": 290972
+   "qtd": 144776
   },
   {
    "ano": "2025",
-   "qtd": 307058
+   "qtd": 153516
   },
   {
    "ano": "2026",
-   "qtd": 259368
+   "qtd": 129129
   }
  ],
- "parte_mais_antiga_em": "2026-11-24T16:53:43+00:00"
+ "parte_mais_antiga_em": "2026-11-25T15:19:38+00:00",
+ "temas": {
+  "cp-157": {
+   "total": 147058,
+   "por_assunto": {
+    "3419": 21556,
+    "5566": 118797,
+    "5567": 11935,
+    "9678": 226
+   }
+  },
+  "cp-121": {
+   "total": 131545,
+   "por_assunto": {
+    "3370": 13446,
+    "3371": 549,
+    "3372": 119507
+   }
+  }
+ }
 }

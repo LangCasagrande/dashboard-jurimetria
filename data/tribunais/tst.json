@@ -4,15 +4,16 @@
  "nome": "Tribunal Superior do Trabalho",
  "ramo": "Superiores",
  "partes_atualizadas_em": {
-  "graus": "2026-11-24T17:12:08+00:00",
-  "formatos": "2026-11-24T17:12:34+00:00",
-  "sistemas": "2026-11-24T17:17:29+00:00",
-  "classes": "2026-11-24T17:18:53+00:00",
+  "graus": "2026-11-25T15:34:32+00:00",
+  "formatos": "2026-11-25T15:36:31+00:00",
+  "sistemas": "2026-11-25T15:39:54+00:00",
+  "classes": "2026-11-25T15:40:31+00:00",
   "assuntos": "2026-11-24T17:21:28+00:00",
-  "orgaos": "2026-11-19T14:31:33+00:00",
-  "total": "2026-11-24T17:34:26+00:00",
-  "mensal": "2026-11-24T17:35:31+00:00",
-  "anual": "2026-11-24T17:35:00+00:00"
+  "orgaos": "2026-11-25T15:52:28+00:00",
+  "total": "2026-11-25T15:53:24+00:00",
+  "mensal": "2026-11-25T16:04:35+00:00",
+  "anual": "2026-11-25T15:53:48+00:00",
+  "temas": "2026-11-25T16:05:07+00:00"
  },
  "graus": [
   {
@@ -39,51 +40,51 @@
  "classes": [
   {
    "nome": "Agravo de Instrumento em Recurso de Revista",
-   "qtd": 1803078
+   "qtd": 1800842
   },
   {
    "nome": "Recurso de Revista",
-   "qtd": 294516
+   "qtd": 294657
   },
   {
    "nome": "Recurso de Revista com Agravo",
-   "qtd": 145428
+   "qtd": 145662
   },
   {
    "nome": "Recurso Ordinário Trabalhista",
-   "qtd": 33265
+   "qtd": 33041
   },
   {
    "nome": "Petição Cível",
-   "qtd": 18052
+   "qtd": 17974
   },
   {
    "nome": "Agravo",
-   "qtd": 8453
+   "qtd": 8245
   },
   {
    "nome": "Agravo de Instrumento em Recurso Extraordinário",
-   "qtd": 2391
+   "qtd": 2385
   },
   {
    "nome": "Tutela Cautelar Antecedente",
-   "qtd": 2118
+   "qtd": 2139
   },
   {
    "nome": "Correição Parcial ou Reclamação Correicional",
-   "qtd": 2116
+   "qtd": 2115
   },
   {
    "nome": "Ação Rescisória",
-   "qtd": 1901
+   "qtd": 1938
   },
   {
    "nome": "Agravo de Instrumento em Recurso Ordinário",
-   "qtd": 1869
+   "qtd": 1847
   },
   {
    "nome": "Mandado de Segurança Cível",
-   "qtd": 1437
+   "qtd": 1480
   },
   {
    "nome": "Embargos de Declaração Cível",
@@ -91,11 +92,11 @@
   },
   {
    "nome": "Pedido de Providências",
-   "qtd": 1351
+   "qtd": 1334
   },
   {
-   "nome": "Reclamação",
-   "qtd": 746
+   "nome": "Remessa Necessária / Recurso Ordinário",
+   "qtd": 774
   }
  ],
  "assuntos": [
@@ -163,210 +164,210 @@
  "orgaos": [
   {
    "nome": "Gabinete da Presidencia",
-   "qtd": 1843825
+   "qtd": 3688127
   },
   {
    "nome": "GAB. DO MINISTRO DOUGLAS ALENCAR RODRIGUES",
-   "qtd": 19902
+   "qtd": 39830
   },
   {
    "nome": "GAB. DO MINISTRO ALEXANDRE DE SOUZA AGRA BELMONTE",
-   "qtd": 19215
+   "qtd": 38812
   },
   {
    "nome": "GAB. DA MINISTRA DELAIDE MIRANDA ARANTES",
-   "qtd": 18879
+   "qtd": 37836
   },
   {
    "nome": "GAB. DA MINISTRA MARIA DE ASSIS CALSING",
-   "qtd": 18281
+   "qtd": 36563
   },
   {
    "nome": "GAB. DO MINISTRO CLAUDIO MASCARENHAS BRANDAO",
-   "qtd": 17785
+   "qtd": 35727
   },
   {
    "nome": "GAB. DO MINISTRO GUILHERME AUGUSTO CAPUTO BASTOS",
-   "qtd": 17448
+   "qtd": 34938
   },
   {
    "nome": "GAB. DA MINISTRA MARIA HELENA MALLMANN",
-   "qtd": 16465
+   "qtd": 33413
   },
   {
    "nome": "GAB. DA MINISTRA KATIA MAGALHAES ARRUDA",
-   "qtd": 16437
+   "qtd": 32730
   },
   {
    "nome": "GAB. DO MINISTRO WALMIR OLIVEIRA DA COSTA",
-   "qtd": 16187
+   "qtd": 32349
   },
   {
    "nome": "GAB. DO MINISTRO AUGUSTO CESAR LEITE DE CARVALHO",
-   "qtd": 16084
+   "qtd": 32028
   },
   {
    "nome": "GAB. DA MINISTRA DORA MARIA DA COSTA",
-   "qtd": 15775
+   "qtd": 31628
   },
   {
    "nome": "GAB. DO MINISTRO MARCIO EURICO VITRAL AMARO",
-   "qtd": 15654
-  },
-  {
-   "nome": "GAB. DO MINISTRO HUGO CARLOS SCHEUERMANN",
-   "qtd": 15303
+   "qtd": 31535
   },
   {
    "nome": "GAB. DO MINISTRO LUIZ PHILIPPE VIEIRA DE MELLO FILHO",
-   "qtd": 15147
+   "qtd": 30534
+  },
+  {
+   "nome": "GAB. DO MINISTRO HUGO CARLOS SCHEUERMANN",
+   "qtd": 30406
   }
  ],
- "total": 4642793,
+ "total": 2322591,
  "mensal": [
   {
    "mes": "2023-11",
-   "qtd": 17314
+   "qtd": 11513
   },
   {
    "mes": "2023-12",
-   "qtd": 14615
+   "qtd": 9740
   },
   {
    "mes": "2024-01",
-   "qtd": 7083
+   "qtd": 4712
   },
   {
    "mes": "2024-02",
-   "qtd": 22298
+   "qtd": 14942
   },
   {
    "mes": "2024-03",
-   "qtd": 23346
+   "qtd": 15677
   },
   {
    "mes": "2024-04",
-   "qtd": 25823
+   "qtd": 17203
   },
   {
    "mes": "2024-05",
-   "qtd": 21352
+   "qtd": 14239
   },
   {
    "mes": "2024-06",
-   "qtd": 21646
+   "qtd": 14576
   },
   {
    "mes": "2024-07",
-   "qtd": 29638
+   "qtd": 19738
   },
   {
    "mes": "2024-08",
-   "qtd": 24952
+   "qtd": 16786
   },
   {
    "mes": "2024-09",
-   "qtd": 25781
+   "qtd": 17192
   },
   {
    "mes": "2024-10",
-   "qtd": 27682
+   "qtd": 18468
   },
   {
    "mes": "2024-11",
-   "qtd": 20434
+   "qtd": 13603
   },
   {
    "mes": "2024-12",
-   "qtd": 16889
+   "qtd": 11303
   },
   {
    "mes": "2025-01",
-   "qtd": 7959
+   "qtd": 5325
   },
   {
    "mes": "2025-02",
-   "qtd": 29326
+   "qtd": 19548
   },
   {
    "mes": "2025-03",
-   "qtd": 25536
+   "qtd": 17068
   },
   {
    "mes": "2025-04",
-   "qtd": 22152
+   "qtd": 14768
   },
   {
    "mes": "2025-05",
-   "qtd": 25313
+   "qtd": 16756
   },
   {
    "mes": "2025-06",
-   "qtd": 22199
+   "qtd": 14665
   },
   {
    "mes": "2025-07",
-   "qtd": 25931
+   "qtd": 17221
   },
   {
    "mes": "2025-08",
-   "qtd": 20329
+   "qtd": 13624
   },
   {
    "mes": "2025-09",
-   "qtd": 22558
+   "qtd": 14987
   },
   {
    "mes": "2025-10",
-   "qtd": 23995
+   "qtd": 15945
   },
   {
    "mes": "2025-11",
-   "qtd": 18828
+   "qtd": 12572
   },
   {
    "mes": "2025-12",
-   "qtd": 14486
+   "qtd": 9640
   },
   {
    "mes": "2026-01",
-   "qtd": 7686
+   "qtd": 5121
   },
   {
    "mes": "2026-02",
-   "qtd": 21544
+   "qtd": 14319
   },
   {
    "mes": "2026-03",
-   "qtd": 25800
+   "qtd": 17204
   },
   {
    "mes": "2026-04",
-   "qtd": 18614
+   "qtd": 12482
   },
   {
    "mes": "2026-05",
-   "qtd": 21386
+   "qtd": 14168
   },
   {
    "mes": "2026-06",
-   "qtd": 19927
+   "qtd": 13269
   },
   {
    "mes": "2026-07",
-   "qtd": 24756
+   "qtd": 16453
   },
   {
    "mes": "2026-08",
-   "qtd": 20040
+   "qtd": 13497
   },
   {
    "mes": "2026-09",
-   "qtd": 21364
+   "qtd": 14235
   },
   {
    "mes": "2026-10",
-   "qtd": 22539
+   "qtd": 14940
   },
   {
    "mes": "2026-11",
@@ -374,125 +375,146 @@
   }
  ],
  "erros": {
-  "orgaos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
  },
- "atualizado_em": "2026-11-24T17:35:31+00:00",
+ "atualizado_em": "2026-11-25T16:05:07+00:00",
  "totais_partes": {
   "graus": 4642793,
   "formatos": 4642793,
   "sistemas": 4642793,
-  "classes": 2322597,
-  "assuntos": 2320202
+  "classes": 2320202,
+  "assuntos": 2320202,
+  "orgaos": 4642793,
+  "temas": 0
  },
  "anual": [
   {
    "ano": "2000",
-   "qtd": 85
+   "qtd": 44
   },
   {
    "ano": "2001",
-   "qtd": 129
+   "qtd": 72
   },
   {
    "ano": "2002",
-   "qtd": 16095
+   "qtd": 8081
   },
   {
    "ano": "2003",
-   "qtd": 16105
+   "qtd": 7969
   },
   {
    "ano": "2004",
-   "qtd": 18330
+   "qtd": 9153
   },
   {
    "ano": "2005",
-   "qtd": 16466
+   "qtd": 8271
   },
   {
    "ano": "2006",
-   "qtd": 22540
+   "qtd": 11306
   },
   {
    "ano": "2007",
-   "qtd": 18106
+   "qtd": 9082
   },
   {
    "ano": "2008",
-   "qtd": 37916
+   "qtd": 18940
   },
   {
    "ano": "2009",
-   "qtd": 36905
+   "qtd": 18548
   },
   {
    "ano": "2010",
-   "qtd": 75730
+   "qtd": 37931
   },
   {
    "ano": "2011",
-   "qtd": 74603
+   "qtd": 37241
   },
   {
    "ano": "2012",
-   "qtd": 96756
+   "qtd": 48432
   },
   {
    "ano": "2013",
-   "qtd": 148179
+   "qtd": 73661
   },
   {
    "ano": "2014",
-   "qtd": 245095
+   "qtd": 122537
   },
   {
    "ano": "2015",
-   "qtd": 311616
+   "qtd": 155875
   },
   {
    "ano": "2016",
-   "qtd": 274673
+   "qtd": 137101
   },
   {
    "ano": "2017",
-   "qtd": 303822
+   "qtd": 151752
   },
   {
    "ano": "2018",
-   "qtd": 367024
+   "qtd": 182974
   },
   {
    "ano": "2019",
-   "qtd": 417845
+   "qtd": 208372
   },
   {
    "ano": "2020",
-   "qtd": 308009
+   "qtd": 154325
   },
   {
    "ano": "2021",
-   "qtd": 283829
+   "qtd": 142039
   },
   {
    "ano": "2022",
-   "qtd": 284605
+   "qtd": 142246
   },
   {
    "ano": "2023",
-   "qtd": 296032
+   "qtd": 148248
   },
   {
    "ano": "2024",
-   "qtd": 355969
+   "qtd": 177530
   },
   {
    "ano": "2025",
-   "qtd": 344952
+   "qtd": 172833
   },
   {
    "ano": "2026",
-   "qtd": 271287
+   "qtd": 135599
   }
  ],
- "parte_mais_antiga_em": "2026-11-19T14:31:33+00:00"
+ "parte_mais_antiga_em": "2026-11-24T17:21:28+00:00",
+ "temas": {
+  "cp-157": {
+   "total": 0,
+   "por_assunto": {
+    "3419": 0,
+    "5566": 0,
+    "5567": 0,
+    "9678": 0
+   }
+  },
+  "cp-121": {
+   "total": 0,
+   "por_assunto": {
+    "3370": 0,
+    "3371": 0,
+    "3372": 0
+   }
+  }
+ }
 }

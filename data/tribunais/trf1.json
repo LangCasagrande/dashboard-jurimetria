@@ -6,13 +6,14 @@
  "partes_atualizadas_em": {
   "graus": "2026-11-24T18:27:04+00:00",
   "formatos": "2026-11-24T18:28:01+00:00",
-  "sistemas": "2026-11-23T18:42:00+00:00",
+  "sistemas": "2026-11-25T17:18:13+00:00",
   "classes": "2026-11-24T18:39:55+00:00",
-  "assuntos": "2026-11-24T18:40:43+00:00",
-  "orgaos": "2026-11-24T18:41:50+00:00",
+  "assuntos": "2026-11-25T17:31:29+00:00",
+  "orgaos": "2026-11-25T17:33:36+00:00",
   "total": "2026-11-24T18:42:16+00:00",
-  "mensal": "2026-11-24T18:43:36+00:00",
-  "anual": "2026-11-24T18:43:04+00:00"
+  "mensal": "2026-11-25T17:59:53+00:00",
+  "anual": "2026-11-24T18:43:04+00:00",
+  "temas": "2026-11-25T18:05:12+00:00"
  },
  "graus": [
   {
@@ -45,11 +46,11 @@
  "sistemas": [
   {
    "nome": "PJe",
-   "qtd": 3709669
+   "qtd": 12982261
   },
   {
    "nome": "Inválido",
-   "qtd": 7720
+   "qtd": 26618
   }
  ],
  "classes": [
@@ -117,288 +118,294 @@
  "assuntos": [
   {
    "nome": "Auxílio por Incapacidade Temporária",
-   "qtd": 1520042
+   "qtd": 652252
   },
   {
    "nome": "Deficiente",
-   "qtd": 1115415
+   "qtd": 479021
   },
   {
    "nome": "Aposentadoria por Incapacidade Permanente",
-   "qtd": 1003825
+   "qtd": 430222
   },
   {
    "nome": "Rural (Art. 48/51)",
-   "qtd": 890196
+   "qtd": 382045
   },
   {
    "nome": "Salário-Maternidade (Art. 71/73)",
-   "qtd": 686167
+   "qtd": 293996
   },
   {
    "nome": "Rural",
-   "qtd": 488588
+   "qtd": 209790
   },
   {
    "nome": "Indenização por Dano Moral",
-   "qtd": 371356
+   "qtd": 158743
   },
   {
    "nome": "Multas e demais Sanções",
-   "qtd": 360833
+   "qtd": 154748
   },
   {
    "nome": "Atualização de Conta",
-   "qtd": 349967
+   "qtd": 149620
   },
   {
    "nome": "Pensão por Morte (Art. 74/9)",
-   "qtd": 336724
+   "qtd": 143803
   },
   {
    "nome": "Seguro-defeso ao pescado artesanal profissional",
-   "qtd": 285801
+   "qtd": 122588
   },
   {
    "nome": "Conselhos Regionais e Afins (Anuidade)",
-   "qtd": 256435
+   "qtd": 110111
   },
   {
    "nome": "Contratos Bancários",
-   "qtd": 251618
+   "qtd": 107805
   },
   {
    "nome": "Aposentadoria por Tempo de Contribuição (Art. 55/6)",
-   "qtd": 248901
+   "qtd": 106578
   },
   {
    "nome": "Restabelecimento",
-   "qtd": 200749
+   "qtd": 85402
   }
  ],
  "orgaos": [
   {
-   "nome": "09ª Vara JEF - São Luís",
-   "qtd": 122867
-  },
-  {
    "nome": "07ª Vara JEF - São Luís",
-   "qtd": 122845
+   "qtd": 61545
   },
   {
    "nome": "10ª Vara JEF - São Luís",
-   "qtd": 121502
+   "qtd": 60983
+  },
+  {
+   "nome": "09ª Vara JEF - São Luís",
+   "qtd": 60953
   },
   {
    "nome": "12ª Vara JEF - São Luís",
-   "qtd": 120905
+   "qtd": 60599
   },
   {
    "nome": "07ª Vara JEF - Teresina",
-   "qtd": 101553
-  },
-  {
-   "nome": "06ª Vara JEF - Teresina",
-   "qtd": 96843
+   "qtd": 50489
   },
   {
    "nome": "04ª - Cuiabá",
-   "qtd": 96761
+   "qtd": 48562
+  },
+  {
+   "nome": "06ª Vara JEF - Teresina",
+   "qtd": 48165
   },
   {
    "nome": "08ª  Vara JEF - Teresina",
-   "qtd": 94638
+   "qtd": 47147
   },
   {
    "nome": "06ª  Vara JEF- Manaus",
-   "qtd": 91581
+   "qtd": 45820
   },
   {
    "nome": "08ª  Vara JEF- Manaus",
-   "qtd": 91196
+   "qtd": 45565
   },
   {
    "nome": "Vara Única de Caxias",
-   "qtd": 86295
+   "qtd": 43335
   },
   {
    "nome": "Vara Única de Irecê",
-   "qtd": 84351
+   "qtd": 42423
   },
   {
    "nome": "Vara Única de Parnaíba",
-   "qtd": 83620
+   "qtd": 41975
   },
   {
    "nome": "Vara Única de Campo Formoso",
-   "qtd": 82635
+   "qtd": 41353
   },
   {
    "nome": "11ª - Brasília",
-   "qtd": 78838
+   "qtd": 39332
   }
  ],
  "total": 5575024,
  "mensal": [
   {
    "mes": "2023-11",
-   "qtd": 115435
+   "qtd": 16436
   },
   {
    "mes": "2023-12",
-   "qtd": 92002
+   "qtd": 13194
   },
   {
    "mes": "2024-01",
-   "qtd": 85975
+   "qtd": 12466
   },
   {
    "mes": "2024-02",
-   "qtd": 106412
+   "qtd": 15296
   },
   {
    "mes": "2024-03",
-   "qtd": 112214
+   "qtd": 16014
   },
   {
    "mes": "2024-04",
-   "qtd": 132732
+   "qtd": 18809
   },
   {
    "mes": "2024-05",
-   "qtd": 116739
+   "qtd": 16428
   },
   {
    "mes": "2024-06",
-   "qtd": 114259
+   "qtd": 16308
   },
   {
    "mes": "2024-07",
-   "qtd": 128140
+   "qtd": 18128
   },
   {
    "mes": "2024-08",
-   "qtd": 120917
+   "qtd": 17430
   },
   {
    "mes": "2024-09",
-   "qtd": 106204
+   "qtd": 15255
   },
   {
    "mes": "2024-10",
-   "qtd": 128354
+   "qtd": 18379
   },
   {
    "mes": "2024-11",
-   "qtd": 119820
+   "qtd": 17019
   },
   {
    "mes": "2024-12",
-   "qtd": 114769
+   "qtd": 16534
   },
   {
    "mes": "2025-01",
-   "qtd": 99184
+   "qtd": 14204
   },
   {
    "mes": "2025-02",
-   "qtd": 121165
+   "qtd": 17472
   },
   {
    "mes": "2025-03",
-   "qtd": 114913
+   "qtd": 16453
   },
   {
    "mes": "2025-04",
-   "qtd": 126768
+   "qtd": 18315
   },
   {
    "mes": "2025-05",
-   "qtd": 154392
+   "qtd": 21920
   },
   {
    "mes": "2025-06",
-   "qtd": 132762
+   "qtd": 19006
   },
   {
    "mes": "2025-07",
-   "qtd": 165159
+   "qtd": 23501
   },
   {
    "mes": "2025-08",
-   "qtd": 142561
+   "qtd": 20682
   },
   {
    "mes": "2025-09",
-   "qtd": 168332
+   "qtd": 24211
   },
   {
    "mes": "2025-10",
-   "qtd": 155384
+   "qtd": 22200
   },
   {
    "mes": "2025-11",
-   "qtd": 140885
+   "qtd": 19972
   },
   {
    "mes": "2025-12",
-   "qtd": 116047
+   "qtd": 16702
   },
   {
    "mes": "2026-01",
-   "qtd": 98197
+   "qtd": 14137
   },
   {
    "mes": "2026-02",
-   "qtd": 125165
+   "qtd": 17870
   },
   {
    "mes": "2026-03",
-   "qtd": 172528
+   "qtd": 24668
   },
   {
    "mes": "2026-04",
-   "qtd": 159389
+   "qtd": 22826
   },
   {
    "mes": "2026-05",
-   "qtd": 170160
+   "qtd": 24331
   },
   {
    "mes": "2026-06",
-   "qtd": 165963
+   "qtd": 23781
   },
   {
    "mes": "2026-07",
-   "qtd": 196331
+   "qtd": 28036
   },
   {
    "mes": "2026-08",
-   "qtd": 183405
+   "qtd": 26143
   },
   {
    "mes": "2026-09",
-   "qtd": 178566
+   "qtd": 25470
   },
   {
    "mes": "2026-10",
-   "qtd": 147854
+   "qtd": 21123
   },
   {
    "mes": "2026-11",
-   "qtd": 24892
+   "qtd": 3583
   }
  ],
  "erros": {
-  "sistemas": "HTTP 504: <html>\r <head><title>504 Gateway Time-out</title></head>\r <body>\r <center><h1>504 Gateway Time-out</h1></center>\r <hr><center>NSX LB</center>\r </body>\r </html>\r"
+  "graus": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "classes": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
+  "total": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "anual": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
  },
- "atualizado_em": "2026-11-24T18:43:36+00:00",
+ "atualizado_em": "2026-11-25T18:05:12+00:00",
  "totais_partes": {
   "graus": 13008879,
   "formatos": 13008879,
   "classes": 13008879,
-  "assuntos": 13008879,
-  "orgaos": 11151310
+  "assuntos": 5577243,
+  "orgaos": 5575908,
+  "sistemas": 13008879,
+  "temas": 2723
  },
  "anual": [
   {
@@ -510,5 +517,24 @@
    "qtd": 1158882
   }
  ],
- "parte_mais_antiga_em": "2026-11-23T18:42:00+00:00"
+ "parte_mais_antiga_em": "2026-11-24T18:27:04+00:00",
+ "temas": {
+  "cp-157": {
+   "total": 2334,
+   "por_assunto": {
+    "3419": 550,
+    "5566": 1745,
+    "5567": 64,
+    "9678": 0
+   }
+  },
+  "cp-121": {
+   "total": 409,
+   "por_assunto": {
+    "3370": 152,
+    "3371": 6,
+    "3372": 253
+   }
+  }
+ }
 }

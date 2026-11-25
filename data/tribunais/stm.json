@@ -4,15 +4,16 @@
  "nome": "Superior Tribunal Militar",
  "ramo": "Superiores",
  "partes_atualizadas_em": {
-  "graus": "2026-11-24T17:53:27+00:00",
-  "formatos": "2026-11-24T17:54:23+00:00",
-  "sistemas": "2026-11-24T17:58:01+00:00",
-  "classes": "2026-11-24T17:59:15+00:00",
-  "assuntos": "2026-11-23T18:17:22+00:00",
-  "orgaos": "2026-11-24T18:10:04+00:00",
-  "total": "2026-11-23T18:28:32+00:00",
-  "mensal": "2026-11-24T18:25:13+00:00",
-  "anual": "2026-11-24T18:22:02+00:00"
+  "graus": "2026-11-25T16:21:29+00:00",
+  "formatos": "2026-11-25T16:24:23+00:00",
+  "sistemas": "2026-11-25T16:33:57+00:00",
+  "classes": "2026-11-25T16:35:36+00:00",
+  "assuntos": "2026-11-25T16:45:08+00:00",
+  "orgaos": "2026-11-25T16:45:53+00:00",
+  "total": "2026-11-25T16:46:39+00:00",
+  "mensal": "2026-11-25T16:53:40+00:00",
+  "anual": "2026-11-25T16:51:56+00:00",
+  "temas": "2026-11-25T16:54:09+00:00"
  },
  "graus": [
   {
@@ -373,17 +374,16 @@
    "qtd": 0
   }
  ],
- "erros": {
-  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
-  "total": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
- },
- "atualizado_em": "2026-11-24T18:25:13+00:00",
+ "erros": {},
+ "atualizado_em": "2026-11-25T16:54:09+00:00",
  "totais_partes": {
   "graus": 27808,
   "formatos": 27808,
   "sistemas": 27808,
   "classes": 27808,
-  "orgaos": 27808
+  "orgaos": 27808,
+  "assuntos": 27808,
+  "temas": 45
  },
  "anual": [
   {
@@ -495,5 +495,24 @@
    "qtd": 2179
   }
  ],
- "parte_mais_antiga_em": "2026-11-23T18:17:22+00:00"
+ "parte_mais_antiga_em": "2026-11-25T16:21:29+00:00",
+ "temas": {
+  "cp-157": {
+   "total": 8,
+   "por_assunto": {
+    "3419": 4,
+    "5566": 3,
+    "5567": 1,
+    "9678": 0
+   }
+  },
+  "cp-121": {
+   "total": 37,
+   "por_assunto": {
+    "3370": 10,
+    "3371": 2,
+    "3372": 25
+   }
+  }
+ }
 }

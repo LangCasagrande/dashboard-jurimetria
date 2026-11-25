@@ -4,15 +4,16 @@
  "nome": "Tribunal Regional Federal da 3ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "graus": "2026-11-24T18:56:17+00:00",
-  "formatos": "2026-11-24T18:57:21+00:00",
+  "graus": "2026-11-25T18:43:43+00:00",
+  "formatos": "2026-11-25T18:44:38+00:00",
   "sistemas": "2026-11-24T18:58:09+00:00",
-  "classes": "2026-11-24T18:58:53+00:00",
-  "orgaos": "2026-11-24T19:04:43+00:00",
-  "total": "2026-11-24T19:06:10+00:00",
-  "mensal": "2026-11-24T19:09:07+00:00",
-  "assuntos": "2026-11-24T18:59:38+00:00",
-  "anual": "2026-11-24T19:08:28+00:00"
+  "classes": "2026-11-25T18:55:29+00:00",
+  "orgaos": "2026-11-25T18:59:54+00:00",
+  "total": "2026-11-25T19:00:42+00:00",
+  "mensal": "2026-11-25T19:03:21+00:00",
+  "assuntos": "2026-11-25T18:56:21+00:00",
+  "anual": "2026-11-25T19:02:37+00:00",
+  "temas": "2026-11-25T19:03:59+00:00"
  },
  "graus": [
   {
@@ -343,8 +344,10 @@
    "qtd": 14330
   }
  ],
- "erros": {},
- "atualizado_em": "2026-11-24T19:09:07+00:00",
+ "erros": {
+  "sistemas": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-25T19:03:59+00:00",
  "assuntos": [
   {
    "nome": "Auxílio por Incapacidade Temporária",
@@ -413,7 +416,8 @@
   "sistemas": 17694328,
   "classes": 17694328,
   "assuntos": 17694328,
-  "orgaos": 17694328
+  "orgaos": 17694328,
+  "temas": 10000
  },
  "anual": [
   {
@@ -525,5 +529,24 @@
    "qtd": 828689
   }
  ],
- "parte_mais_antiga_em": "2026-11-24T18:56:17+00:00"
+ "parte_mais_antiga_em": "2026-11-24T18:58:09+00:00",
+ "temas": {
+  "cp-157": {
+   "total": 12356,
+   "por_assunto": {
+    "3419": 4588,
+    "5566": 7830,
+    "5567": 72,
+    "9678": 0
+   }
+  },
+  "cp-121": {
+   "total": 445,
+   "por_assunto": {
+    "3370": 201,
+    "3371": 5,
+    "3372": 242
+   }
+  }
+ }
 }

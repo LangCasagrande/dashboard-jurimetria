@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T19:37:39+00:00",
+ "gerado_em": "2026-11-25T20:37:38+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "temas": {
   "cp-157": {
@@ -66,7 +66,7 @@
       "5567": 11935,
       "9678": 226
      },
-     "coletado_em": "2026-11-24T17:44:24+00:00"
+     "coletado_em": "2026-11-25T15:33:45+00:00"
     },
     {
      "alias": "tjpr",
@@ -332,7 +332,7 @@
       "5567": 72,
       "9678": 0
      },
-     "coletado_em": "2026-11-24T17:54:03+00:00"
+     "coletado_em": "2026-11-25T19:03:59+00:00"
     },
     {
      "alias": "tjap",
@@ -416,7 +416,21 @@
       "5567": 158,
       "9678": 0
      },
-     "coletado_em": "2026-11-24T17:56:23+00:00"
+     "coletado_em": "2026-11-25T19:52:45+00:00"
+    },
+    {
+     "alias": "trf1",
+     "sigla": "TRF1",
+     "nome": "Tribunal Regional Federal da 1ª Região",
+     "ramo": "Federal",
+     "total": 2334,
+     "por_assunto": {
+      "3419": 550,
+      "5566": 1745,
+      "5567": 64,
+      "9678": 0
+     },
+     "coletado_em": "2026-11-25T18:05:12+00:00"
     },
     {
      "alias": "trf2",
@@ -430,7 +444,7 @@
       "5567": 31,
       "9678": 0
      },
-     "coletado_em": "2026-11-24T17:53:15+00:00"
+     "coletado_em": "2026-11-25T18:41:19+00:00"
     },
     {
      "alias": "trf6",
@@ -458,21 +472,7 @@
       "5567": 21,
       "9678": 0
      },
-     "coletado_em": "2026-11-24T17:58:33+00:00"
-    },
-    {
-     "alias": "trf1",
-     "sigla": "TRF1",
-     "nome": "Tribunal Regional Federal da 1ª Região",
-     "ramo": "Federal",
-     "total": 914,
-     "por_assunto": {
-      "3419": 211,
-      "5566": 687,
-      "5567": 27,
-      "9678": 0
-     },
-     "coletado_em": "2026-11-24T17:52:14+00:00"
+     "coletado_em": "2026-11-25T20:22:56+00:00"
     },
     {
      "alias": "stm",
@@ -486,7 +486,7 @@
       "5567": 1,
       "9678": 0
      },
-     "coletado_em": "2026-11-24T17:51:35+00:00"
+     "coletado_em": "2026-11-25T16:54:09+00:00"
     },
     {
      "alias": "tst",
@@ -500,7 +500,7 @@
       "5567": 0,
       "9678": 0
      },
-     "coletado_em": "2026-11-24T17:47:47+00:00"
+     "coletado_em": "2026-11-25T16:05:07+00:00"
     },
     {
      "alias": "tse",
@@ -514,7 +514,7 @@
       "5567": 0,
       "9678": 0
      },
-     "coletado_em": "2026-11-24T17:50:23+00:00"
+     "coletado_em": "2026-11-25T16:20:01+00:00"
     },
     {
      "alias": "trt1",
@@ -865,6 +865,134 @@
       "9678": 0
      },
      "coletado_em": "2026-11-24T19:37:39+00:00"
+    }
+   ]
+  },
+  "cp-121": {
+   "nome": "Homicídio (art. 121 do Código Penal)",
+   "assuntos": {
+    "3370": "Homicídio Simples",
+    "3372": "Homicídio Qualificado",
+    "3371": "Homicídio Privilegiado"
+   },
+   "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. O assunto \"Feminicídio\" (código 12091) não entra porque, desde 2024, o feminicídio é crime autônomo do art. 121-A.",
+   "tribunais": [
+    {
+     "alias": "stj",
+     "sigla": "STJ",
+     "nome": "Superior Tribunal de Justiça",
+     "ramo": "Superiores",
+     "total": 131545,
+     "por_assunto": {
+      "3370": 13446,
+      "3371": 549,
+      "3372": 119507
+     },
+     "coletado_em": "2026-11-25T15:33:45+00:00"
+    },
+    {
+     "alias": "trf4",
+     "sigla": "TRF4",
+     "nome": "Tribunal Regional Federal da 4ª Região",
+     "ramo": "Federal",
+     "total": 1124,
+     "por_assunto": {
+      "3370": 357,
+      "3371": 5,
+      "3372": 766
+     },
+     "coletado_em": "2026-11-25T19:52:45+00:00"
+    },
+    {
+     "alias": "trf3",
+     "sigla": "TRF3",
+     "nome": "Tribunal Regional Federal da 3ª Região",
+     "ramo": "Federal",
+     "total": 445,
+     "por_assunto": {
+      "3370": 201,
+      "3371": 5,
+      "3372": 242
+     },
+     "coletado_em": "2026-11-25T19:03:59+00:00"
+    },
+    {
+     "alias": "trf1",
+     "sigla": "TRF1",
+     "nome": "Tribunal Regional Federal da 1ª Região",
+     "ramo": "Federal",
+     "total": 409,
+     "por_assunto": {
+      "3370": 152,
+      "3371": 6,
+      "3372": 253
+     },
+     "coletado_em": "2026-11-25T18:05:12+00:00"
+    },
+    {
+     "alias": "trf2",
+     "sigla": "TRF2",
+     "nome": "Tribunal Regional Federal da 2ª Região",
+     "ramo": "Federal",
+     "total": 270,
+     "por_assunto": {
+      "3370": 89,
+      "3371": 5,
+      "3372": 178
+     },
+     "coletado_em": "2026-11-25T18:41:19+00:00"
+    },
+    {
+     "alias": "trf5",
+     "sigla": "TRF5",
+     "nome": "Tribunal Regional Federal da 5ª Região",
+     "ramo": "Federal",
+     "total": 91,
+     "por_assunto": {
+      "3370": 34,
+      "3371": 0,
+      "3372": 57
+     },
+     "coletado_em": "2026-11-25T20:22:56+00:00"
+    },
+    {
+     "alias": "stm",
+     "sigla": "STM",
+     "nome": "Superior Tribunal Militar",
+     "ramo": "Superiores",
+     "total": 37,
+     "por_assunto": {
+      "3370": 10,
+      "3371": 2,
+      "3372": 25
+     },
+     "coletado_em": "2026-11-25T16:54:09+00:00"
+    },
+    {
+     "alias": "tst",
+     "sigla": "TST",
+     "nome": "Tribunal Superior do Trabalho",
+     "ramo": "Superiores",
+     "total": 0,
+     "por_assunto": {
+      "3370": 0,
+      "3371": 0,
+      "3372": 0
+     },
+     "coletado_em": "2026-11-25T16:05:07+00:00"
+    },
+    {
+     "alias": "tse",
+     "sigla": "TSE",
+     "nome": "Tribunal Superior Eleitoral",
+     "ramo": "Superiores",
+     "total": 0,
+     "por_assunto": {
+      "3370": 0,
+      "3371": 0,
+      "3372": 0
+     },
+     "coletado_em": "2026-11-25T16:20:01+00:00"
     }
    ]
   }

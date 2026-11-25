@@ -4,15 +4,16 @@
  "nome": "Tribunal Regional Federal da 5ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "graus": "2026-11-24T19:20:07+00:00",
-  "formatos": "2026-11-24T19:20:55+00:00",
-  "sistemas": "2026-11-24T19:23:12+00:00",
-  "classes": "2026-11-24T19:29:34+00:00",
-  "assuntos": "2026-11-24T19:30:39+00:00",
+  "graus": "2026-11-25T19:54:40+00:00",
+  "formatos": "2026-11-25T19:55:34+00:00",
+  "sistemas": "2026-11-25T19:57:36+00:00",
+  "classes": "2026-11-25T20:03:39+00:00",
+  "assuntos": "2026-11-25T20:04:24+00:00",
   "orgaos": "2026-11-24T19:31:38+00:00",
-  "total": "2026-11-24T19:32:15+00:00",
-  "mensal": "2026-11-24T19:33:28+00:00",
-  "anual": "2026-11-24T19:32:51+00:00"
+  "total": "2026-11-25T20:17:33+00:00",
+  "mensal": "2026-11-25T20:19:13+00:00",
+  "anual": "2026-11-25T20:18:47+00:00",
+  "temas": "2026-11-25T20:22:56+00:00"
  },
  "graus": [
   {
@@ -39,7 +40,7 @@
  "formatos": [
   {
    "nome": "Eletrônico",
-   "qtd": 4481109
+   "qtd": 2987530
   }
  ],
  "sistemas": [
@@ -55,63 +56,63 @@
  "classes": [
   {
    "nome": "Procedimento do Juizado Especial Cível",
-   "qtd": 1747013
+   "qtd": 582220
   },
   {
    "nome": "Recurso Inominado Cível",
-   "qtd": 857353
+   "qtd": 285662
   },
   {
    "nome": "Cumprimento de Sentença contra a Fazenda Pública",
-   "qtd": 832509
+   "qtd": 276974
   },
   {
    "nome": "Execução Fiscal",
-   "qtd": 340257
+   "qtd": 112225
   },
   {
    "nome": "Procedimento Comum Cível",
-   "qtd": 128124
+   "qtd": 42804
   },
   {
    "nome": "Mandado de Segurança Cível",
-   "qtd": 118167
+   "qtd": 39462
   },
   {
    "nome": "Apelação Cível",
-   "qtd": 108680
+   "qtd": 36259
   },
   {
    "nome": "Agravo de Instrumento",
-   "qtd": 70321
+   "qtd": 23389
   },
   {
    "nome": "Cumprimento de sentença",
-   "qtd": 50433
+   "qtd": 16776
   },
   {
    "nome": "Carta Precatória Cível",
-   "qtd": 21635
+   "qtd": 7486
   },
   {
    "nome": "Apelação / Remessa Necessária",
-   "qtd": 19501
+   "qtd": 6515
   },
   {
    "nome": "Remessa Necessária Cível",
-   "qtd": 18218
+   "qtd": 6118
   },
   {
    "nome": "Execução de Título Extrajudicial",
-   "qtd": 11312
+   "qtd": 3699
   },
   {
    "nome": "Ação Penal - Procedimento Ordinário",
-   "qtd": 10755
+   "qtd": 3678
   },
   {
-   "nome": "Petição Cível",
-   "qtd": 10355
+   "nome": "Inquérito Policial",
+   "qtd": 3540
   }
  ],
  "assuntos": [
@@ -242,272 +243,294 @@
  "mensal": [
   {
    "mes": "2023-11",
-   "qtd": 71225
+   "qtd": 28516
   },
   {
    "mes": "2023-12",
-   "qtd": 55354
+   "qtd": 21984
   },
   {
    "mes": "2024-01",
-   "qtd": 49654
+   "qtd": 19984
   },
   {
    "mes": "2024-02",
-   "qtd": 68275
+   "qtd": 27128
   },
   {
    "mes": "2024-03",
-   "qtd": 65155
+   "qtd": 26152
   },
   {
    "mes": "2024-04",
-   "qtd": 73722
+   "qtd": 29460
   },
   {
    "mes": "2024-05",
-   "qtd": 73143
+   "qtd": 29325
   },
   {
    "mes": "2024-06",
-   "qtd": 65381
+   "qtd": 26215
   },
   {
    "mes": "2024-07",
-   "qtd": 79056
+   "qtd": 31814
   },
   {
    "mes": "2024-08",
-   "qtd": 77050
+   "qtd": 30411
   },
   {
    "mes": "2024-09",
-   "qtd": 70185
+   "qtd": 28170
   },
   {
    "mes": "2024-10",
-   "qtd": 87324
+   "qtd": 35155
   },
   {
    "mes": "2024-11",
-   "qtd": 75748
+   "qtd": 30285
   },
   {
    "mes": "2024-12",
-   "qtd": 70787
+   "qtd": 28448
   },
   {
    "mes": "2025-01",
-   "qtd": 62450
+   "qtd": 24782
   },
   {
    "mes": "2025-02",
-   "qtd": 86742
+   "qtd": 34412
   },
   {
    "mes": "2025-03",
-   "qtd": 78487
+   "qtd": 31335
   },
   {
    "mes": "2025-04",
-   "qtd": 86264
+   "qtd": 34659
   },
   {
    "mes": "2025-05",
-   "qtd": 95201
+   "qtd": 38113
   },
   {
    "mes": "2025-06",
-   "qtd": 90072
+   "qtd": 36026
   },
   {
    "mes": "2025-07",
-   "qtd": 118130
+   "qtd": 47025
   },
   {
    "mes": "2025-08",
-   "qtd": 426394
+   "qtd": 170947
   },
   {
    "mes": "2025-09",
-   "qtd": 141716
+   "qtd": 56645
   },
   {
    "mes": "2025-10",
-   "qtd": 116592
+   "qtd": 46622
   },
   {
    "mes": "2025-11",
-   "qtd": 93950
+   "qtd": 37537
   },
   {
    "mes": "2025-12",
-   "qtd": 85606
+   "qtd": 34117
   },
   {
    "mes": "2026-01",
-   "qtd": 66629
+   "qtd": 26982
   },
   {
    "mes": "2026-02",
-   "qtd": 86449
+   "qtd": 34511
   },
   {
    "mes": "2026-03",
-   "qtd": 115570
+   "qtd": 46200
   },
   {
    "mes": "2026-04",
-   "qtd": 108099
+   "qtd": 43395
   },
   {
    "mes": "2026-05",
-   "qtd": 120939
+   "qtd": 48536
   },
   {
    "mes": "2026-06",
-   "qtd": 118681
+   "qtd": 47801
   },
   {
    "mes": "2026-07",
-   "qtd": 133943
+   "qtd": 53980
   },
   {
    "mes": "2026-08",
-   "qtd": 137545
+   "qtd": 55081
   },
   {
    "mes": "2026-09",
-   "qtd": 131707
+   "qtd": 52643
   },
   {
    "mes": "2026-10",
-   "qtd": 21
+   "qtd": 10
   },
   {
    "mes": "2026-11",
    "qtd": 0
   }
  ],
- "erros": {},
- "atualizado_em": "2026-11-24T19:33:28+00:00",
+ "erros": {
+  "orgaos": "HTTP 504: <html>\r <head><title>504 Gateway Time-out</title></head>\r <body>\r <center><h1>504 Gateway Time-out</h1></center>\r <hr><center>NSX LB</center>\r </body>\r </html>\r"
+ },
+ "atualizado_em": "2026-11-25T20:22:56+00:00",
  "totais_partes": {
   "graus": 7469771,
-  "formatos": 4481109,
+  "formatos": 2987530,
   "sistemas": 7469771,
-  "classes": 4481109,
+  "classes": 1492371,
   "assuntos": 4482241,
-  "orgaos": 4481109
+  "orgaos": 4481109,
+  "temas": 1048
  },
  "anual": [
   {
    "ano": "2000",
-   "qtd": 201
+   "qtd": 987
   },
   {
    "ano": "2001",
-   "qtd": 236
+   "qtd": 1034
   },
   {
    "ano": "2002",
-   "qtd": 201
+   "qtd": 993
   },
   {
    "ano": "2003",
-   "qtd": 359
+   "qtd": 1677
   },
   {
    "ano": "2004",
-   "qtd": 432
+   "qtd": 2067
   },
   {
    "ano": "2005",
-   "qtd": 1101
+   "qtd": 5326
   },
   {
    "ano": "2006",
-   "qtd": 754
+   "qtd": 3632
   },
   {
    "ano": "2007",
-   "qtd": 1098
+   "qtd": 5322
   },
   {
    "ano": "2008",
-   "qtd": 1340
+   "qtd": 6954
   },
   {
    "ano": "2009",
-   "qtd": 2184
+   "qtd": 11309
   },
   {
    "ano": "2010",
-   "qtd": 4948
+   "qtd": 24355
   },
   {
    "ano": "2011",
-   "qtd": 3734
+   "qtd": 18013
   },
   {
    "ano": "2012",
-   "qtd": 4749
+   "qtd": 23532
   },
   {
    "ano": "2013",
-   "qtd": 6507
+   "qtd": 32424
   },
   {
    "ano": "2014",
-   "qtd": 8252
+   "qtd": 41506
   },
   {
    "ano": "2015",
-   "qtd": 8176
+   "qtd": 41476
   },
   {
    "ano": "2016",
-   "qtd": 12047
+   "qtd": 60320
   },
   {
    "ano": "2017",
-   "qtd": 16857
+   "qtd": 85341
   },
   {
    "ano": "2018",
-   "qtd": 31912
+   "qtd": 159204
   },
   {
    "ano": "2019",
-   "qtd": 121004
+   "qtd": 604221
   },
   {
    "ano": "2020",
-   "qtd": 123482
+   "qtd": 617889
   },
   {
    "ano": "2021",
-   "qtd": 153883
+   "qtd": 772804
   },
   {
    "ano": "2022",
-   "qtd": 151316
+   "qtd": 755201
   },
   {
    "ano": "2023",
-   "qtd": 165759
+   "qtd": 829615
   },
   {
    "ano": "2024",
-   "qtd": 171268
+   "qtd": 855480
   },
   {
    "ano": "2025",
-   "qtd": 295942
+   "qtd": 1481604
   },
   {
    "ano": "2026",
-   "qtd": 204227
+   "qtd": 1019583
   }
  ],
- "parte_mais_antiga_em": "2026-11-24T19:20:07+00:00"
+ "parte_mais_antiga_em": "2026-11-24T19:31:38+00:00",
+ "temas": {
+  "cp-157": {
+   "total": 959,
+   "por_assunto": {
+    "3419": 245,
+    "5566": 727,
+    "5567": 21,
+    "9678": 0
+   }
+  },
+  "cp-121": {
+   "total": 91,
+   "por_assunto": {
+    "3370": 34,
+    "3371": 0,
+    "3372": 57
+   }
+  }
+ }
 }
