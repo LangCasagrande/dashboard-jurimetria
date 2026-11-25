@@ -198,6 +198,9 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .footer-legal { flex-direction: column; padding: 14px 16px 24px; }
 }
 
+.footer-legal .assinatura { white-space: nowrap; }
+.footer-legal .assinatura strong { font: 700 .95rem var(--serif); color: var(--ouro-claro); letter-spacing: .02em; }
+
 /* Impressão */
 @media print {
   .faixa-topo, .topbar, .footer, .banda, .no-print { display: none !important; }
