@@ -5,14 +5,15 @@
  "ramo": "Estadual",
  "partes_atualizadas_em": {
   "graus": "2026-11-24T21:32:42+00:00",
-  "formatos": "2026-11-24T21:36:24+00:00",
-  "sistemas": "2026-11-24T21:36:59+00:00",
-  "classes": "2026-11-24T21:38:40+00:00",
-  "assuntos": "2026-11-24T21:39:15+00:00",
-  "orgaos": "2026-11-24T21:46:12+00:00",
-  "total": "2026-11-24T21:47:05+00:00",
-  "mensal": "2026-11-24T21:49:22+00:00",
-  "anual": "2026-11-24T21:47:48+00:00"
+  "formatos": "2026-11-26T18:54:01+00:00",
+  "sistemas": "2026-11-26T18:55:58+00:00",
+  "classes": "2026-11-26T19:02:33+00:00",
+  "assuntos": "2026-11-26T19:04:08+00:00",
+  "orgaos": "2026-11-26T19:04:50+00:00",
+  "total": "2026-11-26T19:06:29+00:00",
+  "mensal": "2026-11-26T19:20:49+00:00",
+  "anual": "2026-11-24T21:47:48+00:00",
+  "temas": "2026-11-26T19:27:08+00:00"
  },
  "graus": [
   {
@@ -45,27 +46,27 @@
  "sistemas": [
   {
    "nome": "PJe",
-   "qtd": 575993
+   "qtd": 1726567
   },
   {
    "nome": "Pje",
-   "qtd": 181195
+   "qtd": 542860
   },
   {
    "nome": "Inválido",
-   "qtd": 150401
+   "qtd": 451963
   },
   {
    "nome": "Outros",
-   "qtd": 118127
+   "qtd": 353860
   },
   {
    "nome": "Projudi",
-   "qtd": 29657
+   "qtd": 89169
   },
   {
    "nome": "Eproc",
-   "qtd": 5841
+   "qtd": 17360
   }
  ],
  "classes": [
@@ -195,225 +196,229 @@
  "orgaos": [
   {
    "nome": "VARA FAZENDA PÚBLICA MUNICIPAL - CARIACICA",
-   "qtd": 14068
+   "qtd": 42193
   },
   {
    "nome": "2ª TURMA RECURSAL - CAPITAL - VITORIA",
-   "qtd": 10642
+   "qtd": 31938
   },
   {
    "nome": "3ª TURMA RECURSAL - CAPITAL - VITORIA",
-   "qtd": 10541
+   "qtd": 31861
   },
   {
    "nome": "1ª TURMA RECURSAL - CAPITAL - VITORIA",
-   "qtd": 10459
+   "qtd": 31569
   },
   {
    "nome": "4ª TURMA RECURSAL",
-   "qtd": 9711
+   "qtd": 29318
   },
   {
    "nome": "5ª TURMA RECURSAL",
-   "qtd": 9539
+   "qtd": 28361
   },
   {
    "nome": "1ª VARA DE FAZENDA PÚBLICA PRIVATIVA DE EXECUÇÕES FISCAIS MUNICIPAIS - VITORIA",
-   "qtd": 9336
-  },
-  {
-   "nome": "2º JUIZADO ESPECIAL CÍVEL - VILA VELHA",
-   "qtd": 9125
+   "qtd": 28274
   },
   {
    "nome": "6ª VARA CÍVEL - VILA VELHA",
-   "qtd": 9092
+   "qtd": 27552
+  },
+  {
+   "nome": "2º JUIZADO ESPECIAL CÍVEL - VILA VELHA",
+   "qtd": 27371
   },
   {
    "nome": "1º JUIZADO ESPECIAL CÍVEL - VILA VELHA",
-   "qtd": 8719
+   "qtd": 26465
   },
   {
    "nome": "4º JUIZADO ESPECIAL CÍVEL - VILA VELHA",
-   "qtd": 8208
+   "qtd": 24887
   },
   {
    "nome": "5º JUIZADO ESPECIAL CÍVEL - VILA VELHA",
-   "qtd": 8093
+   "qtd": 24156
   },
   {
    "nome": "VARA FAZENDA PUBLICA MUNICIPAL - SERRA",
-   "qtd": 7997
+   "qtd": 24059
   },
   {
    "nome": "JUIZADO ESPECIAL CÍVEL, CRIMINAL E DA FAZENDA PÚBLICA - BARRA DE SAO FRANCISCO",
-   "qtd": 7953
+   "qtd": 23815
   },
   {
    "nome": "JUIZADO ESPECIAL CRIMINAL E DA FAZENDA PÚBLICA - LINHARES",
-   "qtd": 7764
+   "qtd": 23207
   }
  ],
  "total": 3181779,
  "mensal": [
   {
    "mes": "2023-11",
-   "qtd": 17688
+   "qtd": 26581
   },
   {
    "mes": "2023-12",
-   "qtd": 14180
+   "qtd": 21198
   },
   {
    "mes": "2024-01",
-   "qtd": 15826
+   "qtd": 23624
   },
   {
    "mes": "2024-02",
-   "qtd": 17659
+   "qtd": 26381
   },
   {
    "mes": "2024-03",
-   "qtd": 19081
+   "qtd": 28699
   },
   {
    "mes": "2024-04",
-   "qtd": 19627
+   "qtd": 29457
   },
   {
    "mes": "2024-05",
-   "qtd": 16939
+   "qtd": 25573
   },
   {
    "mes": "2024-06",
-   "qtd": 17493
+   "qtd": 26264
   },
   {
    "mes": "2024-07",
-   "qtd": 19976
+   "qtd": 30032
   },
   {
    "mes": "2024-08",
-   "qtd": 19552
+   "qtd": 29231
   },
   {
    "mes": "2024-09",
-   "qtd": 18576
+   "qtd": 27882
   },
   {
    "mes": "2024-10",
-   "qtd": 19838
+   "qtd": 29874
   },
   {
    "mes": "2024-11",
-   "qtd": 16810
+   "qtd": 25264
   },
   {
    "mes": "2024-12",
-   "qtd": 15930
+   "qtd": 23787
   },
   {
    "mes": "2025-01",
-   "qtd": 14801
+   "qtd": 22118
   },
   {
    "mes": "2025-02",
-   "qtd": 17418
+   "qtd": 26266
   },
   {
    "mes": "2025-03",
-   "qtd": 16691
+   "qtd": 25118
   },
   {
    "mes": "2025-04",
-   "qtd": 17674
+   "qtd": 26522
   },
   {
    "mes": "2025-05",
-   "qtd": 19409
+   "qtd": 28877
   },
   {
    "mes": "2025-06",
-   "qtd": 19405
+   "qtd": 28950
   },
   {
    "mes": "2025-07",
-   "qtd": 24051
+   "qtd": 36038
   },
   {
    "mes": "2025-08",
-   "qtd": 20115
+   "qtd": 30218
   },
   {
    "mes": "2025-09",
-   "qtd": 20762
+   "qtd": 31326
   },
   {
    "mes": "2025-10",
-   "qtd": 21503
+   "qtd": 32346
   },
   {
    "mes": "2025-11",
-   "qtd": 18411
+   "qtd": 27682
   },
   {
    "mes": "2025-12",
-   "qtd": 17752
+   "qtd": 26716
   },
   {
    "mes": "2026-01",
-   "qtd": 15788
+   "qtd": 23833
   },
   {
    "mes": "2026-02",
-   "qtd": 17438
+   "qtd": 26207
   },
   {
    "mes": "2026-03",
-   "qtd": 24988
+   "qtd": 37390
   },
   {
    "mes": "2026-04",
-   "qtd": 20966
+   "qtd": 31400
   },
   {
    "mes": "2026-05",
-   "qtd": 22412
+   "qtd": 33711
   },
   {
    "mes": "2026-06",
-   "qtd": 22277
+   "qtd": 33216
   },
   {
    "mes": "2026-07",
-   "qtd": 24296
+   "qtd": 36310
   },
   {
    "mes": "2026-08",
-   "qtd": 22950
+   "qtd": 34397
   },
   {
    "mes": "2026-09",
-   "qtd": 23462
+   "qtd": 35216
   },
   {
    "mes": "2026-10",
-   "qtd": 21604
+   "qtd": 32446
   },
   {
    "mes": "2026-11",
-   "qtd": 4688
+   "qtd": 7035
   }
  ],
- "erros": {},
- "atualizado_em": "2026-11-24T21:49:22+00:00",
+ "erros": {
+  "graus": "resposta parcial: 1 de 3 shards falharam",
+  "anual": "HTTP 504: <html>\r <head><title>504 Gateway Time-out</title></head>\r <body>\r <center><h1>504 Gateway Time-out</h1></center>\r <hr><center>NSX LB</center>\r </body>\r </html>\r"
+ },
+ "atualizado_em": "2026-11-26T19:27:08+00:00",
  "totais_partes": {
   "graus": 2122149,
   "formatos": 3181779,
-  "sistemas": 1061214,
+  "sistemas": 3181779,
   "classes": 3181779,
   "assuntos": 3181779,
-  "orgaos": 1059630
+  "orgaos": 3181779,
+  "temas": 10000
  },
  "anual": [
   {
@@ -525,5 +530,42 @@
    "qtd": 331161
   }
  ],
- "parte_mais_antiga_em": "2026-11-24T21:32:42+00:00"
+ "parte_mais_antiga_em": "2026-11-24T21:32:42+00:00",
+ "temas": {
+  "cp-121": {
+   "total": 50095,
+   "por_assunto": {
+    "3370": 16723,
+    "3371": 503,
+    "3372": 33044
+   }
+  },
+  "cp-155": {
+   "total": 41578,
+   "por_assunto": {
+    "3416": 24362,
+    "3417": 17163,
+    "5564": 326,
+    "5565": 45,
+    "9675": 108,
+    "9676": 114
+   }
+  },
+  "cp-157": {
+   "total": 29721,
+   "por_assunto": {
+    "3419": 10402,
+    "5566": 18165,
+    "5567": 1360,
+    "9678": 61
+   }
+  },
+  "ld-33": {
+   "total": 67319,
+   "por_assunto": {
+    "3608": 67107,
+    "9859": 215
+   }
+  }
+ }
 }

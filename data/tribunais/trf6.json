@@ -4,15 +4,16 @@
  "nome": "Tribunal Regional Federal da 6ª Região",
  "ramo": "Federal",
  "partes_atualizadas_em": {
-  "graus": "2026-11-25T20:24:39+00:00",
-  "classes": "2026-11-25T20:28:46+00:00",
-  "assuntos": "2026-11-25T20:34:56+00:00",
-  "orgaos": "2026-11-23T20:58:05+00:00",
-  "total": "2026-11-25T20:37:06+00:00",
-  "mensal": "2026-11-24T19:54:05+00:00",
-  "sistemas": "2026-11-25T20:27:24+00:00",
-  "formatos": "2026-11-25T20:25:39+00:00",
-  "anual": "2026-11-24T19:48:45+00:00"
+  "graus": "2026-11-26T14:43:07+00:00",
+  "classes": "2026-11-26T14:53:07+00:00",
+  "assuntos": "2026-11-26T14:54:50+00:00",
+  "orgaos": "2026-11-26T14:55:37+00:00",
+  "total": "2026-11-26T14:55:59+00:00",
+  "mensal": "2026-11-26T14:57:22+00:00",
+  "sistemas": "2026-11-26T14:52:37+00:00",
+  "formatos": "2026-11-26T14:43:51+00:00",
+  "anual": "2026-11-26T14:56:48+00:00",
+  "temas": "2026-11-26T14:58:14+00:00"
  },
  "graus": [
   {
@@ -373,13 +374,8 @@
    "qtd": 0
   }
  ],
- "erros": {
-  "orgaos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
-  "anual": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
-  "mensal": "orçamento de tempo esgotado",
-  "temas": "orçamento de tempo esgotado"
- },
- "atualizado_em": "2026-11-25T20:37:06+00:00",
+ "erros": {},
+ "atualizado_em": "2026-11-26T14:58:14+00:00",
  "sistemas": [
   {
    "nome": "Projudi",
@@ -411,7 +407,9 @@
   "formatos": 4663620,
   "sistemas": 4663620,
   "classes": 4663620,
-  "assuntos": 4663620
+  "assuntos": 4663620,
+  "orgaos": 4663620,
+  "temas": 4879
  },
  "formatos": [
   {
@@ -533,5 +531,42 @@
    "qtd": 429188
   }
  ],
- "parte_mais_antiga_em": ""
+ "parte_mais_antiga_em": "2026-11-26T14:43:07+00:00",
+ "temas": {
+  "cp-121": {
+   "total": 170,
+   "por_assunto": {
+    "3370": 52,
+    "3371": 5,
+    "3372": 113
+   }
+  },
+  "cp-155": {
+   "total": 2154,
+   "por_assunto": {
+    "3416": 689,
+    "3417": 1467,
+    "5564": 11,
+    "5565": 3,
+    "9675": 0,
+    "9676": 0
+   }
+  },
+  "cp-157": {
+   "total": 1578,
+   "por_assunto": {
+    "3419": 336,
+    "5566": 1216,
+    "5567": 42,
+    "9678": 0
+   }
+  },
+  "ld-33": {
+   "total": 1002,
+   "por_assunto": {
+    "3608": 1002,
+    "9859": 0
+   }
+  }
+ }
 }

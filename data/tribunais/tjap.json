@@ -4,18 +4,21 @@
  "nome": "Tribunal de Justiça do Amapá",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "graus": "2026-11-24T20:42:41+00:00",
+  "graus": "2026-11-26T15:45:56+00:00",
   "formatos": "2026-11-24T20:44:10+00:00",
-  "sistemas": "2026-11-24T20:45:05+00:00",
-  "classes": "2026-11-24T20:45:35+00:00",
-  "assuntos": "2026-11-24T20:46:20+00:00",
-  "total": "2026-11-24T20:47:42+00:00",
-  "orgaos": "2026-11-24T20:47:03+00:00",
-  "anual": "2026-11-24T20:48:12+00:00",
-  "mensal": "2026-11-24T20:48:38+00:00"
+  "sistemas": "2026-11-26T15:56:38+00:00",
+  "classes": "2026-11-26T15:58:15+00:00",
+  "assuntos": "2026-11-26T15:59:47+00:00",
+  "total": "2026-11-26T16:02:44+00:00",
+  "orgaos": "2026-11-26T16:01:53+00:00",
+  "anual": "2026-11-26T16:03:56+00:00",
+  "mensal": "2026-11-26T16:04:28+00:00",
+  "temas": "2026-11-26T16:05:21+00:00"
  },
- "erros": {},
- "atualizado_em": "2026-11-24T20:48:38+00:00",
+ "erros": {
+  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
+ },
+ "atualizado_em": "2026-11-26T16:05:21+00:00",
  "graus": [
   {
    "nome": "JE",
@@ -181,7 +184,8 @@
   "sistemas": 755258,
   "classes": 755258,
   "assuntos": 755258,
-  "orgaos": 755258
+  "orgaos": 755258,
+  "temas": 10000
  },
  "orgaos": [
   {
@@ -505,5 +509,42 @@
    "qtd": 0
   }
  ],
- "parte_mais_antiga_em": "2026-11-24T20:42:41+00:00"
+ "parte_mais_antiga_em": "2026-11-24T20:44:10+00:00",
+ "temas": {
+  "cp-121": {
+   "total": 9076,
+   "por_assunto": {
+    "3370": 2081,
+    "3371": 76,
+    "3372": 6954
+   }
+  },
+  "cp-155": {
+   "total": 14376,
+   "por_assunto": {
+    "3416": 7772,
+    "3417": 6691,
+    "5564": 84,
+    "5565": 2,
+    "9675": 4,
+    "9676": 10
+   }
+  },
+  "cp-157": {
+   "total": 9869,
+   "por_assunto": {
+    "3419": 4237,
+    "5566": 5360,
+    "5567": 356,
+    "9678": 14
+   }
+  },
+  "ld-33": {
+   "total": 10108,
+   "por_assunto": {
+    "3608": 10098,
+    "9859": 11
+   }
+  }
+ }
 }

@@ -4,12 +4,12 @@
  "nome": "Tribunal de Justiça de Goiás",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "graus": "2026-11-24T21:50:16+00:00",
-  "formatos": "2026-11-24T21:51:30+00:00",
-  "sistemas": "2026-11-24T21:52:58+00:00",
-  "classes": "2026-11-24T21:53:29+00:00",
+  "graus": "2026-11-26T19:27:53+00:00",
+  "formatos": "2026-11-26T19:28:29+00:00",
+  "sistemas": "2026-11-26T19:39:31+00:00",
+  "classes": "2026-11-26T19:46:47+00:00",
   "assuntos": "2026-11-24T21:53:59+00:00",
-  "orgaos": "2026-11-24T21:57:31+00:00",
+  "orgaos": "2026-11-26T19:57:58+00:00",
   "mensal": "2026-11-24T22:07:15+00:00",
   "total": "2026-11-24T21:59:01+00:00",
   "anual": "2026-11-24T22:05:36+00:00"
@@ -35,7 +35,7 @@
  "formatos": [
   {
    "nome": "Eletrônico",
-   "qtd": 3737521
+   "qtd": 7472068
   }
  ],
  "sistemas": [
@@ -384,11 +384,17 @@
    "qtd": 0
   }
  ],
- "erros": {},
- "atualizado_em": "2026-11-24T22:07:15+00:00",
+ "erros": {
+  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "total": "resposta parcial: 2 de 4 shards falharam",
+  "anual": "orçamento de tempo esgotado",
+  "mensal": "orçamento de tempo esgotado",
+  "temas": "orçamento de tempo esgotado"
+ },
+ "atualizado_em": "2026-11-26T19:57:58+00:00",
  "totais_partes": {
   "graus": 7478583,
-  "formatos": 3740742,
+  "formatos": 7478583,
   "sistemas": 7478583,
   "classes": 7478583,
   "assuntos": 7478583,
@@ -505,5 +511,5 @@
    "qtd": 620708
   }
  ],
- "parte_mais_antiga_em": "2026-11-24T21:50:16+00:00"
+ "parte_mais_antiga_em": ""
 }

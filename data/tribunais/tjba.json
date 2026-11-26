@@ -5,14 +5,15 @@
  "ramo": "Estadual",
  "partes_atualizadas_em": {
   "formatos": "2026-11-24T20:50:20+00:00",
-  "sistemas": "2026-11-24T20:51:03+00:00",
-  "classes": "2026-11-24T20:58:01+00:00",
+  "sistemas": "2026-11-26T16:23:50+00:00",
+  "classes": "2026-11-26T16:35:23+00:00",
   "assuntos": "2026-11-24T20:58:41+00:00",
   "orgaos": "2026-11-24T20:59:31+00:00",
-  "total": "2026-11-24T21:00:02+00:00",
+  "total": "2026-11-26T16:58:27+00:00",
   "mensal": "2026-11-24T21:10:46+00:00",
-  "graus": "2026-11-24T20:49:04+00:00",
-  "anual": "2026-11-24T21:00:55+00:00"
+  "graus": "2026-11-26T16:12:08+00:00",
+  "anual": "2026-11-24T21:00:55+00:00",
+  "temas": "2026-11-26T17:22:15+00:00"
  },
  "formatos": [
   {
@@ -379,33 +380,40 @@
    "qtd": 1
   }
  ],
- "erros": {},
- "atualizado_em": "2026-11-24T21:10:46+00:00",
+ "erros": {
+  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
+  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
+  "orgaos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "anual": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
+  "mensal": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-26T17:22:15+00:00",
  "graus": [
   {
    "nome": "G1",
-   "qtd": 2643207
+   "qtd": 7923867
   },
   {
    "nome": "JE",
-   "qtd": 1879708
+   "qtd": 5637966
   },
   {
    "nome": "TR",
-   "qtd": 481000
+   "qtd": 1443948
   },
   {
    "nome": "G2",
-   "qtd": 355765
+   "qtd": 1066979
   }
  ],
  "totais_partes": {
-  "graus": 5359680,
+  "graus": 16072760,
   "formatos": 16072760,
   "sistemas": 16072760,
   "classes": 16072760,
   "assuntos": 16072760,
-  "orgaos": 16072760
+  "orgaos": 16072760,
+  "temas": 10000
  },
  "anual": [
   {
@@ -517,5 +525,42 @@
    "qtd": 1676677
   }
  ],
- "parte_mais_antiga_em": "2026-11-24T20:49:04+00:00"
+ "parte_mais_antiga_em": "2026-11-24T20:50:20+00:00",
+ "temas": {
+  "cp-121": {
+   "total": 122000,
+   "por_assunto": {
+    "3370": 44912,
+    "3371": 1457,
+    "3372": 76463
+   }
+  },
+  "cp-155": {
+   "total": 84314,
+   "por_assunto": {
+    "3416": 48979,
+    "3417": 32637,
+    "5564": 756,
+    "5565": 97,
+    "9675": 1946,
+    "9676": 704
+   }
+  },
+  "cp-157": {
+   "total": 92203,
+   "por_assunto": {
+    "3419": 41375,
+    "5566": 46172,
+    "5567": 3817,
+    "9678": 1803
+   }
+  },
+  "ld-33": {
+   "total": 165074,
+   "por_assunto": {
+    "3608": 155151,
+    "9859": 10056
+   }
+  }
+ }
 }

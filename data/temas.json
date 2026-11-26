@@ -1,7 +1,410 @@
 {
- "gerado_em": "2026-11-25T20:37:38+00:00",
+ "gerado_em": "2026-11-26T20:03:14+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "temas": {
+  "cp-121": {
+   "nome": "Homicídio (art. 121 do Código Penal)",
+   "assuntos": {
+    "3370": "Homicídio Simples",
+    "3372": "Homicídio Qualificado",
+    "3371": "Homicídio Privilegiado"
+   },
+   "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. O assunto \"Feminicídio\" (código 12091) não entra porque, desde 2024, o feminicídio é crime autônomo do art. 121-A. Nas respostas consultadas não apareceu assunto próprio para o homicídio culposo (§ 3º); os números cobrem só os assuntos listados.",
+   "tribunais": [
+    {
+     "alias": "tjce",
+     "sigla": "TJCE",
+     "nome": "Tribunal de Justiça do Ceará",
+     "ramo": "Estadual",
+     "total": 136346,
+     "por_assunto": {
+      "3370": 58057,
+      "3371": 661,
+      "3372": 78190
+     },
+     "coletado_em": "2026-11-26T18:01:24+00:00"
+    },
+    {
+     "alias": "stj",
+     "sigla": "STJ",
+     "nome": "Superior Tribunal de Justiça",
+     "ramo": "Superiores",
+     "total": 131545,
+     "por_assunto": {
+      "3370": 13446,
+      "3371": 549,
+      "3372": 119507
+     },
+     "coletado_em": "2026-11-25T15:33:45+00:00"
+    },
+    {
+     "alias": "tjba",
+     "sigla": "TJBA",
+     "nome": "Tribunal de Justiça da Bahia",
+     "ramo": "Estadual",
+     "total": 122000,
+     "por_assunto": {
+      "3370": 44912,
+      "3371": 1457,
+      "3372": 76463
+     },
+     "coletado_em": "2026-11-26T17:22:15+00:00"
+    },
+    {
+     "alias": "tjes",
+     "sigla": "TJES",
+     "nome": "Tribunal de Justiça do Espírito Santo",
+     "ramo": "Estadual",
+     "total": 50095,
+     "por_assunto": {
+      "3370": 16723,
+      "3371": 503,
+      "3372": 33044
+     },
+     "coletado_em": "2026-11-26T19:27:08+00:00"
+    },
+    {
+     "alias": "tjam",
+     "sigla": "TJAM",
+     "nome": "Tribunal de Justiça do Amazonas",
+     "ramo": "Estadual",
+     "total": 45513,
+     "por_assunto": {
+      "3370": 27024,
+      "3371": 290,
+      "3372": 18504
+     },
+     "coletado_em": "2026-11-26T15:44:44+00:00"
+    },
+    {
+     "alias": "tjal",
+     "sigla": "TJAL",
+     "nome": "Tribunal de Justiça de Alagoas",
+     "ramo": "Estadual",
+     "total": 26800,
+     "por_assunto": {
+      "3370": 9038,
+      "3371": 130,
+      "3372": 17851
+     },
+     "coletado_em": "2026-11-26T15:34:30+00:00"
+    },
+    {
+     "alias": "tjac",
+     "sigla": "TJAC",
+     "nome": "Tribunal de Justiça do Acre",
+     "ramo": "Estadual",
+     "total": 9985,
+     "por_assunto": {
+      "3370": 4044,
+      "3371": 132,
+      "3372": 5901
+     },
+     "coletado_em": "2026-11-26T15:17:13+00:00"
+    },
+    {
+     "alias": "tjap",
+     "sigla": "TJAP",
+     "nome": "Tribunal de Justiça do Amapá",
+     "ramo": "Estadual",
+     "total": 9076,
+     "por_assunto": {
+      "3370": 2081,
+      "3371": 76,
+      "3372": 6954
+     },
+     "coletado_em": "2026-11-26T16:05:21+00:00"
+    },
+    {
+     "alias": "tjdft",
+     "sigla": "TJDFT",
+     "nome": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+     "ramo": "Estadual",
+     "total": 6232,
+     "por_assunto": {
+      "3370": 1983,
+      "3371": 30,
+      "3372": 4293
+     },
+     "coletado_em": "2026-11-26T18:43:15+00:00"
+    },
+    {
+     "alias": "trf4",
+     "sigla": "TRF4",
+     "nome": "Tribunal Regional Federal da 4ª Região",
+     "ramo": "Federal",
+     "total": 1124,
+     "por_assunto": {
+      "3370": 357,
+      "3371": 5,
+      "3372": 766
+     },
+     "coletado_em": "2026-11-25T19:52:45+00:00"
+    },
+    {
+     "alias": "trf3",
+     "sigla": "TRF3",
+     "nome": "Tribunal Regional Federal da 3ª Região",
+     "ramo": "Federal",
+     "total": 445,
+     "por_assunto": {
+      "3370": 201,
+      "3371": 5,
+      "3372": 242
+     },
+     "coletado_em": "2026-11-25T19:03:59+00:00"
+    },
+    {
+     "alias": "trf1",
+     "sigla": "TRF1",
+     "nome": "Tribunal Regional Federal da 1ª Região",
+     "ramo": "Federal",
+     "total": 409,
+     "por_assunto": {
+      "3370": 152,
+      "3371": 6,
+      "3372": 253
+     },
+     "coletado_em": "2026-11-25T18:05:12+00:00"
+    },
+    {
+     "alias": "trf2",
+     "sigla": "TRF2",
+     "nome": "Tribunal Regional Federal da 2ª Região",
+     "ramo": "Federal",
+     "total": 270,
+     "por_assunto": {
+      "3370": 89,
+      "3371": 5,
+      "3372": 178
+     },
+     "coletado_em": "2026-11-25T18:41:19+00:00"
+    },
+    {
+     "alias": "trf6",
+     "sigla": "TRF6",
+     "nome": "Tribunal Regional Federal da 6ª Região",
+     "ramo": "Federal",
+     "total": 170,
+     "por_assunto": {
+      "3370": 52,
+      "3371": 5,
+      "3372": 113
+     },
+     "coletado_em": "2026-11-26T14:58:14+00:00"
+    },
+    {
+     "alias": "trf5",
+     "sigla": "TRF5",
+     "nome": "Tribunal Regional Federal da 5ª Região",
+     "ramo": "Federal",
+     "total": 91,
+     "por_assunto": {
+      "3370": 34,
+      "3371": 0,
+      "3372": 57
+     },
+     "coletado_em": "2026-11-25T20:22:56+00:00"
+    },
+    {
+     "alias": "stm",
+     "sigla": "STM",
+     "nome": "Superior Tribunal Militar",
+     "ramo": "Superiores",
+     "total": 37,
+     "por_assunto": {
+      "3370": 10,
+      "3371": 2,
+      "3372": 25
+     },
+     "coletado_em": "2026-11-25T16:54:09+00:00"
+    },
+    {
+     "alias": "tst",
+     "sigla": "TST",
+     "nome": "Tribunal Superior do Trabalho",
+     "ramo": "Superiores",
+     "total": 0,
+     "por_assunto": {
+      "3370": 0,
+      "3371": 0,
+      "3372": 0
+     },
+     "coletado_em": "2026-11-25T16:05:07+00:00"
+    },
+    {
+     "alias": "tse",
+     "sigla": "TSE",
+     "nome": "Tribunal Superior Eleitoral",
+     "ramo": "Superiores",
+     "total": 0,
+     "por_assunto": {
+      "3370": 0,
+      "3371": 0,
+      "3372": 0
+     },
+     "coletado_em": "2026-11-25T16:20:01+00:00"
+    }
+   ]
+  },
+  "cp-155": {
+   "nome": "Furto (art. 155 do Código Penal)",
+   "assuntos": {
+    "3416": "Furto",
+    "3417": "Furto Qualificado",
+    "5564": "Furto Privilegiado",
+    "5565": "Furto de Veículo Automotor a ser Transportado para outro Estado ou Exterior",
+    "9675": "Furto (art. 155)",
+    "9676": "Furto Qualificado (Art. 155, § 4o.)"
+   },
+   "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. Ficam de fora o furto de coisa comum (art. 156: códigos 3418 e 9677), o peculato-furto (11317) e os códigos 11164 e 11165, ainda não identificados no SGT do CNJ.",
+   "tribunais": [
+    {
+     "alias": "tjba",
+     "sigla": "TJBA",
+     "nome": "Tribunal de Justiça da Bahia",
+     "ramo": "Estadual",
+     "total": 84314,
+     "por_assunto": {
+      "3416": 48979,
+      "3417": 32637,
+      "5564": 756,
+      "5565": 97,
+      "9675": 1946,
+      "9676": 704
+     },
+     "coletado_em": "2026-11-26T17:22:15+00:00"
+    },
+    {
+     "alias": "tjce",
+     "sigla": "TJCE",
+     "nome": "Tribunal de Justiça do Ceará",
+     "ramo": "Estadual",
+     "total": 81730,
+     "por_assunto": {
+      "3416": 47774,
+      "3417": 33975,
+      "5564": 78,
+      "5565": 45,
+      "9675": 133,
+      "9676": 44
+     },
+     "coletado_em": "2026-11-26T18:01:24+00:00"
+    },
+    {
+     "alias": "tjam",
+     "sigla": "TJAM",
+     "nome": "Tribunal de Justiça do Amazonas",
+     "ramo": "Estadual",
+     "total": 59354,
+     "por_assunto": {
+      "3416": 39770,
+      "3417": 17903,
+      "5564": 322,
+      "5565": 15,
+      "9675": 1004,
+      "9676": 436
+     },
+     "coletado_em": "2026-11-26T15:44:44+00:00"
+    },
+    {
+     "alias": "tjes",
+     "sigla": "TJES",
+     "nome": "Tribunal de Justiça do Espírito Santo",
+     "ramo": "Estadual",
+     "total": 41578,
+     "por_assunto": {
+      "3416": 24362,
+      "3417": 17163,
+      "5564": 326,
+      "5565": 45,
+      "9675": 108,
+      "9676": 114
+     },
+     "coletado_em": "2026-11-26T19:27:08+00:00"
+    },
+    {
+     "alias": "tjac",
+     "sigla": "TJAC",
+     "nome": "Tribunal de Justiça do Acre",
+     "ramo": "Estadual",
+     "total": 21009,
+     "por_assunto": {
+      "3416": 14073,
+      "3417": 6152,
+      "5564": 42,
+      "5565": 6,
+      "9675": 603,
+      "9676": 399
+     },
+     "coletado_em": "2026-11-26T15:17:13+00:00"
+    },
+    {
+     "alias": "tjap",
+     "sigla": "TJAP",
+     "nome": "Tribunal de Justiça do Amapá",
+     "ramo": "Estadual",
+     "total": 14376,
+     "por_assunto": {
+      "3416": 7772,
+      "3417": 6691,
+      "5564": 84,
+      "5565": 2,
+      "9675": 4,
+      "9676": 10
+     },
+     "coletado_em": "2026-11-26T16:05:21+00:00"
+    },
+    {
+     "alias": "tjal",
+     "sigla": "TJAL",
+     "nome": "Tribunal de Justiça de Alagoas",
+     "ramo": "Estadual",
+     "total": 14047,
+     "por_assunto": {
+      "3416": 7680,
+      "3417": 6065,
+      "5564": 18,
+      "5565": 14,
+      "9675": 214,
+      "9676": 189
+     },
+     "coletado_em": "2026-11-26T15:34:30+00:00"
+    },
+    {
+     "alias": "tjdft",
+     "sigla": "TJDFT",
+     "nome": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+     "ramo": "Estadual",
+     "total": 12375,
+     "por_assunto": {
+      "3416": 5914,
+      "3417": 6693,
+      "5564": 32,
+      "5565": 13,
+      "9675": 0,
+      "9676": 2
+     },
+     "coletado_em": "2026-11-26T18:43:15+00:00"
+    },
+    {
+     "alias": "trf6",
+     "sigla": "TRF6",
+     "nome": "Tribunal Regional Federal da 6ª Região",
+     "ramo": "Federal",
+     "total": 2154,
+     "por_assunto": {
+      "3416": 689,
+      "3417": 1467,
+      "5564": 11,
+      "5565": 3,
+      "9675": 0,
+      "9676": 0
+     },
+     "coletado_em": "2026-11-26T14:58:14+00:00"
+    }
+   ]
+  },
   "cp-157": {
    "nome": "Roubo (art. 157 do Código Penal)",
    "assuntos": {
@@ -94,7 +497,7 @@
       "5567": 4463,
       "9678": 338
      },
-     "coletado_em": "2026-11-24T18:20:22+00:00"
+     "coletado_em": "2026-11-26T18:01:24+00:00"
     },
     {
      "alias": "tjrs",
@@ -109,6 +512,20 @@
       "9678": 33
      },
      "coletado_em": "2026-11-24T18:48:01+00:00"
+    },
+    {
+     "alias": "tjba",
+     "sigla": "TJBA",
+     "nome": "Tribunal de Justiça da Bahia",
+     "ramo": "Estadual",
+     "total": 92203,
+     "por_assunto": {
+      "3419": 41375,
+      "5566": 46172,
+      "5567": 3817,
+      "9678": 1803
+     },
+     "coletado_em": "2026-11-26T17:22:15+00:00"
     },
     {
      "alias": "tjpa",
@@ -150,7 +567,7 @@
       "5567": 1839,
       "9678": 7377
      },
-     "coletado_em": "2026-11-24T18:16:08+00:00"
+     "coletado_em": "2026-11-26T15:44:44+00:00"
     },
     {
      "alias": "tjmt",
@@ -167,20 +584,6 @@
      "coletado_em": "2026-11-24T18:38:37+00:00"
     },
     {
-     "alias": "tjba",
-     "sigla": "TJBA",
-     "nome": "Tribunal de Justiça da Bahia",
-     "ramo": "Estadual",
-     "total": 30653,
-     "por_assunto": {
-      "3419": 13760,
-      "5566": 15293,
-      "5567": 1294,
-      "9678": 629
-     },
-     "coletado_em": "2026-11-24T18:19:12+00:00"
-    },
-    {
      "alias": "tjes",
      "sigla": "TJES",
      "nome": "Tribunal de Justiça do Espírito Santo",
@@ -192,7 +595,7 @@
       "5567": 1360,
       "9678": 61
      },
-     "coletado_em": "2026-11-24T18:22:23+00:00"
+     "coletado_em": "2026-11-26T19:27:08+00:00"
     },
     {
      "alias": "tjms",
@@ -276,7 +679,7 @@
       "5567": 1105,
       "9678": 424
      },
-     "coletado_em": "2026-11-24T18:13:31+00:00"
+     "coletado_em": "2026-11-26T15:34:30+00:00"
     },
     {
      "alias": "tjto",
@@ -318,7 +721,7 @@
       "5567": 305,
       "9678": 493
      },
-     "coletado_em": "2026-11-24T18:08:06+00:00"
+     "coletado_em": "2026-11-26T15:17:13+00:00"
     },
     {
      "alias": "trf3",
@@ -346,7 +749,7 @@
       "5567": 356,
       "9678": 14
      },
-     "coletado_em": "2026-11-24T18:17:29+00:00"
+     "coletado_em": "2026-11-26T16:05:21+00:00"
     },
     {
      "alias": "tjma",
@@ -374,7 +777,7 @@
       "5567": 341,
       "9678": 11
      },
-     "coletado_em": "2026-11-24T18:21:24+00:00"
+     "coletado_em": "2026-11-26T18:43:15+00:00"
     },
     {
      "alias": "tjrr",
@@ -458,7 +861,7 @@
       "5567": 42,
       "9678": 0
      },
-     "coletado_em": "2026-11-24T18:07:37+00:00"
+     "coletado_em": "2026-11-26T14:58:14+00:00"
     },
     {
      "alias": "trf5",
@@ -868,131 +1271,121 @@
     }
    ]
   },
-  "cp-121": {
-   "nome": "Homicídio (art. 121 do Código Penal)",
+  "ld-33": {
+   "nome": "Tráfico de drogas (art. 33 da Lei nº 11.343/2006)",
    "assuntos": {
-    "3370": "Homicídio Simples",
-    "3372": "Homicídio Qualificado",
-    "3371": "Homicídio Privilegiado"
+    "3608": "Tráfico de Drogas e Condutas Afins",
+    "9859": "Tráfico de Drogas e Condutas Afins"
    },
-   "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. O assunto \"Feminicídio\" (código 12091) não entra porque, desde 2024, o feminicídio é crime autônomo do art. 121-A.",
+   "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. Os dois códigos têm o mesmo nome; o ramo da tabela do 9859 ainda não foi conferido no SGT do CNJ. Ficam de fora o grupo \"Crimes de Tráfico Ilícito e Uso Indevido de Drogas\" (3607 e 9858) e a associação para o tráfico (5897, art. 35).",
    "tribunais": [
     {
-     "alias": "stj",
-     "sigla": "STJ",
-     "nome": "Superior Tribunal de Justiça",
-     "ramo": "Superiores",
-     "total": 131545,
+     "alias": "tjba",
+     "sigla": "TJBA",
+     "nome": "Tribunal de Justiça da Bahia",
+     "ramo": "Estadual",
+     "total": 165074,
      "por_assunto": {
-      "3370": 13446,
-      "3371": 549,
-      "3372": 119507
+      "3608": 155151,
+      "9859": 10056
      },
-     "coletado_em": "2026-11-25T15:33:45+00:00"
+     "coletado_em": "2026-11-26T17:22:15+00:00"
     },
     {
-     "alias": "trf4",
-     "sigla": "TRF4",
-     "nome": "Tribunal Regional Federal da 4ª Região",
+     "alias": "tjce",
+     "sigla": "TJCE",
+     "nome": "Tribunal de Justiça do Ceará",
+     "ramo": "Estadual",
+     "total": 141759,
+     "por_assunto": {
+      "3608": 141356,
+      "9859": 437
+     },
+     "coletado_em": "2026-11-26T18:01:24+00:00"
+    },
+    {
+     "alias": "tjam",
+     "sigla": "TJAM",
+     "nome": "Tribunal de Justiça do Amazonas",
+     "ramo": "Estadual",
+     "total": 68654,
+     "por_assunto": {
+      "3608": 68037,
+      "9859": 627
+     },
+     "coletado_em": "2026-11-26T15:44:44+00:00"
+    },
+    {
+     "alias": "tjes",
+     "sigla": "TJES",
+     "nome": "Tribunal de Justiça do Espírito Santo",
+     "ramo": "Estadual",
+     "total": 67319,
+     "por_assunto": {
+      "3608": 67107,
+      "9859": 215
+     },
+     "coletado_em": "2026-11-26T19:27:08+00:00"
+    },
+    {
+     "alias": "tjal",
+     "sigla": "TJAL",
+     "nome": "Tribunal de Justiça de Alagoas",
+     "ramo": "Estadual",
+     "total": 26052,
+     "por_assunto": {
+      "3608": 25466,
+      "9859": 637
+     },
+     "coletado_em": "2026-11-26T15:34:30+00:00"
+    },
+    {
+     "alias": "tjac",
+     "sigla": "TJAC",
+     "nome": "Tribunal de Justiça do Acre",
+     "ramo": "Estadual",
+     "total": 19097,
+     "por_assunto": {
+      "3608": 17509,
+      "9859": 1624
+     },
+     "coletado_em": "2026-11-26T15:17:13+00:00"
+    },
+    {
+     "alias": "tjap",
+     "sigla": "TJAP",
+     "nome": "Tribunal de Justiça do Amapá",
+     "ramo": "Estadual",
+     "total": 10108,
+     "por_assunto": {
+      "3608": 10098,
+      "9859": 11
+     },
+     "coletado_em": "2026-11-26T16:05:21+00:00"
+    },
+    {
+     "alias": "tjdft",
+     "sigla": "TJDFT",
+     "nome": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+     "ramo": "Estadual",
+     "total": 9928,
+     "por_assunto": {
+      "3608": 9923,
+      "9859": 8
+     },
+     "coletado_em": "2026-11-26T18:43:15+00:00"
+    },
+    {
+     "alias": "trf6",
+     "sigla": "TRF6",
+     "nome": "Tribunal Regional Federal da 6ª Região",
      "ramo": "Federal",
-     "total": 1124,
+     "total": 1002,
      "por_assunto": {
-      "3370": 357,
-      "3371": 5,
-      "3372": 766
+      "3608": 1002,
+      "9859": 0
      },
-     "coletado_em": "2026-11-25T19:52:45+00:00"
-    },
-    {
-     "alias": "trf3",
-     "sigla": "TRF3",
-     "nome": "Tribunal Regional Federal da 3ª Região",
-     "ramo": "Federal",
-     "total": 445,
-     "por_assunto": {
-      "3370": 201,
-      "3371": 5,
-      "3372": 242
-     },
-     "coletado_em": "2026-11-25T19:03:59+00:00"
-    },
-    {
-     "alias": "trf1",
-     "sigla": "TRF1",
-     "nome": "Tribunal Regional Federal da 1ª Região",
-     "ramo": "Federal",
-     "total": 409,
-     "por_assunto": {
-      "3370": 152,
-      "3371": 6,
-      "3372": 253
-     },
-     "coletado_em": "2026-11-25T18:05:12+00:00"
-    },
-    {
-     "alias": "trf2",
-     "sigla": "TRF2",
-     "nome": "Tribunal Regional Federal da 2ª Região",
-     "ramo": "Federal",
-     "total": 270,
-     "por_assunto": {
-      "3370": 89,
-      "3371": 5,
-      "3372": 178
-     },
-     "coletado_em": "2026-11-25T18:41:19+00:00"
-    },
-    {
-     "alias": "trf5",
-     "sigla": "TRF5",
-     "nome": "Tribunal Regional Federal da 5ª Região",
-     "ramo": "Federal",
-     "total": 91,
-     "por_assunto": {
-      "3370": 34,
-      "3371": 0,
-      "3372": 57
-     },
-     "coletado_em": "2026-11-25T20:22:56+00:00"
-    },
-    {
-     "alias": "stm",
-     "sigla": "STM",
-     "nome": "Superior Tribunal Militar",
-     "ramo": "Superiores",
-     "total": 37,
-     "por_assunto": {
-      "3370": 10,
-      "3371": 2,
-      "3372": 25
-     },
-     "coletado_em": "2026-11-25T16:54:09+00:00"
-    },
-    {
-     "alias": "tst",
-     "sigla": "TST",
-     "nome": "Tribunal Superior do Trabalho",
-     "ramo": "Superiores",
-     "total": 0,
-     "por_assunto": {
-      "3370": 0,
-      "3371": 0,
-      "3372": 0
-     },
-     "coletado_em": "2026-11-25T16:05:07+00:00"
-    },
-    {
-     "alias": "tse",
-     "sigla": "TSE",
-     "nome": "Tribunal Superior Eleitoral",
-     "ramo": "Superiores",
-     "total": 0,
-     "por_assunto": {
-      "3370": 0,
-      "3371": 0,
-      "3372": 0
-     },
-     "coletado_em": "2026-11-25T16:20:01+00:00"
+     "coletado_em": "2026-11-26T14:58:14+00:00"
     }
    ]
   }
