@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-26T20:03:14+00:00",
+ "gerado_em": "2026-11-27T20:01:22+00:00",
  "fonte": "API Pública do DataJud (CNJ)",
  "temas": {
   "cp-121": {
@@ -11,6 +11,19 @@
    },
    "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. O assunto \"Feminicídio\" (código 12091) não entra porque, desde 2024, o feminicídio é crime autônomo do art. 121-A. Nas respostas consultadas não apareceu assunto próprio para o homicídio culposo (§ 3º); os números cobrem só os assuntos listados.",
    "tribunais": [
+    {
+     "alias": "tjmg",
+     "sigla": "TJMG",
+     "nome": "Tribunal de Justiça de Minas Gerais",
+     "ramo": "Estadual",
+     "total": 336598,
+     "por_assunto": {
+      "3370": 157893,
+      "3371": 3006,
+      "3372": 181414
+     },
+     "coletado_em": "2026-11-27T17:52:21+00:00"
+    },
     {
      "alias": "tjce",
      "sigla": "TJCE",
@@ -51,6 +64,19 @@
      "coletado_em": "2026-11-26T17:22:15+00:00"
     },
     {
+     "alias": "tjgo",
+     "sigla": "TJGO",
+     "nome": "Tribunal de Justiça de Goiás",
+     "ramo": "Estadual",
+     "total": 76618,
+     "por_assunto": {
+      "3370": 38449,
+      "3371": 882,
+      "3372": 39161
+     },
+     "coletado_em": "2026-11-27T15:47:37+00:00"
+    },
+    {
      "alias": "tjes",
      "sigla": "TJES",
      "nome": "Tribunal de Justiça do Espírito Santo",
@@ -75,6 +101,19 @@
       "3372": 18504
      },
      "coletado_em": "2026-11-26T15:44:44+00:00"
+    },
+    {
+     "alias": "tjma",
+     "sigla": "TJMA",
+     "nome": "Tribunal de Justiça do Maranhão",
+     "ramo": "Estadual",
+     "total": 31092,
+     "por_assunto": {
+      "3370": 15381,
+      "3371": 803,
+      "3372": 15071
+     },
+     "coletado_em": "2026-11-27T17:14:15+00:00"
     },
     {
      "alias": "tjal",
@@ -260,6 +299,38 @@
    "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. Ficam de fora o furto de coisa comum (art. 156: códigos 3418 e 9677), o peculato-furto (11317) e os códigos 11164 e 11165, ainda não identificados no SGT do CNJ.",
    "tribunais": [
     {
+     "alias": "tjmg",
+     "sigla": "TJMG",
+     "nome": "Tribunal de Justiça de Minas Gerais",
+     "ramo": "Estadual",
+     "total": 794147,
+     "por_assunto": {
+      "3416": 538852,
+      "3417": 254433,
+      "5564": 3499,
+      "5565": 640,
+      "9675": 6429,
+      "9676": 3095
+     },
+     "coletado_em": "2026-11-27T17:52:21+00:00"
+    },
+    {
+     "alias": "tjgo",
+     "sigla": "TJGO",
+     "nome": "Tribunal de Justiça de Goiás",
+     "ramo": "Estadual",
+     "total": 85857,
+     "por_assunto": {
+      "3416": 40360,
+      "3417": 49067,
+      "5564": 324,
+      "5565": 117,
+      "9675": 1555,
+      "9676": 796
+     },
+     "coletado_em": "2026-11-27T15:47:37+00:00"
+    },
+    {
      "alias": "tjba",
      "sigla": "TJBA",
      "nome": "Tribunal de Justiça da Bahia",
@@ -322,6 +393,22 @@
       "9676": 114
      },
      "coletado_em": "2026-11-26T19:27:08+00:00"
+    },
+    {
+     "alias": "tjma",
+     "sigla": "TJMA",
+     "nome": "Tribunal de Justiça do Maranhão",
+     "ramo": "Estadual",
+     "total": 27100,
+     "por_assunto": {
+      "3416": 14682,
+      "3417": 12497,
+      "5564": 140,
+      "5565": 23,
+      "9675": 7,
+      "9676": 5
+     },
+     "coletado_em": "2026-11-27T17:14:15+00:00"
     },
     {
      "alias": "tjac",
@@ -427,7 +514,7 @@
       "5567": 13532,
       "9678": 3362
      },
-     "coletado_em": "2026-11-24T18:37:16+00:00"
+     "coletado_em": "2026-11-27T17:52:21+00:00"
     },
     {
      "alias": "tjsp",
@@ -542,6 +629,20 @@
      "coletado_em": "2026-11-24T18:39:33+00:00"
     },
     {
+     "alias": "tjgo",
+     "sigla": "TJGO",
+     "nome": "Tribunal de Justiça de Goiás",
+     "ramo": "Estadual",
+     "total": 59227,
+     "por_assunto": {
+      "3419": 26812,
+      "5566": 33397,
+      "5567": 1395,
+      "9678": 1740
+     },
+     "coletado_em": "2026-11-27T15:47:37+00:00"
+    },
+    {
      "alias": "tjpe",
      "sigla": "TJPE",
      "nome": "Tribunal de Justiça de Pernambuco",
@@ -582,6 +683,20 @@
       "9678": 158
      },
      "coletado_em": "2026-11-24T18:38:37+00:00"
+    },
+    {
+     "alias": "tjma",
+     "sigla": "TJMA",
+     "nome": "Tribunal de Justiça do Maranhão",
+     "ramo": "Estadual",
+     "total": 35736,
+     "por_assunto": {
+      "3419": 10048,
+      "5566": 24463,
+      "5567": 1624,
+      "9678": 16
+     },
+     "coletado_em": "2026-11-27T17:14:15+00:00"
     },
     {
      "alias": "tjes",
@@ -750,20 +865,6 @@
       "9678": 14
      },
      "coletado_em": "2026-11-26T16:05:21+00:00"
-    },
-    {
-     "alias": "tjma",
-     "sigla": "TJMA",
-     "nome": "Tribunal de Justiça do Maranhão",
-     "ramo": "Estadual",
-     "total": 8978,
-     "por_assunto": {
-      "3419": 2533,
-      "5566": 6104,
-      "5567": 437,
-      "9678": 5
-     },
-     "coletado_em": "2026-11-24T18:36:29+00:00"
     },
     {
      "alias": "tjdft",
@@ -1280,6 +1381,18 @@
    "fonte": "Códigos de assunto das Tabelas Processuais Unificadas do CNJ, conferidos na própria API do DataJud em 24/11/2026. Os dois códigos têm o mesmo nome; o ramo da tabela do 9859 ainda não foi conferido no SGT do CNJ. Ficam de fora o grupo \"Crimes de Tráfico Ilícito e Uso Indevido de Drogas\" (3607 e 9858) e a associação para o tráfico (5897, art. 35).",
    "tribunais": [
     {
+     "alias": "tjmg",
+     "sigla": "TJMG",
+     "nome": "Tribunal de Justiça de Minas Gerais",
+     "ramo": "Estadual",
+     "total": 918960,
+     "por_assunto": {
+      "3608": 894179,
+      "9859": 24979
+     },
+     "coletado_em": "2026-11-27T17:52:21+00:00"
+    },
+    {
      "alias": "tjba",
      "sigla": "TJBA",
      "nome": "Tribunal de Justiça da Bahia",
@@ -1302,6 +1415,18 @@
       "9859": 437
      },
      "coletado_em": "2026-11-26T18:01:24+00:00"
+    },
+    {
+     "alias": "tjgo",
+     "sigla": "TJGO",
+     "nome": "Tribunal de Justiça de Goiás",
+     "ramo": "Estadual",
+     "total": 101781,
+     "por_assunto": {
+      "3608": 98610,
+      "9859": 3319
+     },
+     "coletado_em": "2026-11-27T15:47:37+00:00"
     },
     {
      "alias": "tjam",
@@ -1338,6 +1463,18 @@
       "9859": 637
      },
      "coletado_em": "2026-11-26T15:34:30+00:00"
+    },
+    {
+     "alias": "tjma",
+     "sigla": "TJMA",
+     "nome": "Tribunal de Justiça do Maranhão",
+     "ramo": "Estadual",
+     "total": 20903,
+     "por_assunto": {
+      "3608": 20892,
+      "9859": 11
+     },
+     "coletado_em": "2026-11-27T17:14:15+00:00"
     },
     {
      "alias": "tjac",

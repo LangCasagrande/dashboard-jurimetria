@@ -4,10 +4,10 @@
  "nome": "Tribunal de Justiça de Mato Grosso do Sul",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "graus": "2026-11-20T17:22:33+00:00",
+  "graus": "2026-11-27T17:55:09+00:00",
   "formatos": "2026-11-20T17:27:25+00:00",
   "sistemas": "2026-11-20T17:29:05+00:00",
-  "classes": "2026-11-20T17:31:07+00:00",
+  "classes": "2026-11-27T18:25:43+00:00",
   "assuntos": "2026-11-20T17:32:28+00:00",
   "orgaos": "2026-11-20T17:33:44+00:00",
   "total": "2026-11-20T17:44:33+00:00",
@@ -16,19 +16,19 @@
  "graus": [
   {
    "nome": "G1",
-   "qtd": 1846366
+   "qtd": 2308198
   },
   {
    "nome": "JE",
-   "qtd": 647305
+   "qtd": 808963
   },
   {
    "nome": "G2",
-   "qtd": 368059
+   "qtd": 459814
   },
   {
    "nome": "TR",
-   "qtd": 61817
+   "qtd": 77265
   }
  ],
  "formatos": [
@@ -54,63 +54,63 @@
  "classes": [
   {
    "nome": "Execução Fiscal",
-   "qtd": 252455
+   "qtd": 504564
   },
   {
    "nome": "Procedimento Comum Cível",
-   "qtd": 214252
+   "qtd": 428198
   },
   {
    "nome": "Cumprimento de sentença",
-   "qtd": 156541
+   "qtd": 312527
   },
   {
    "nome": "Procedimento do Juizado Especial Cível",
-   "qtd": 137835
+   "qtd": 275296
   },
   {
    "nome": "Apelação Cível",
-   "qtd": 118766
+   "qtd": 236948
   },
   {
    "nome": "Execução de Título Extrajudicial",
-   "qtd": 95495
+   "qtd": 190828
   },
   {
    "nome": "Termo Circunstanciado",
-   "qtd": 73039
+   "qtd": 146558
   },
   {
    "nome": "Cumprimento de Sentença contra a Fazenda Pública",
-   "qtd": 68201
+   "qtd": 136516
   },
   {
    "nome": "Ação Penal - Procedimento Ordinário",
-   "qtd": 61327
+   "qtd": 122906
   },
   {
    "nome": "Carta Precatória Criminal",
-   "qtd": 61065
+   "qtd": 122071
   },
   {
    "nome": "Inquérito Policial",
-   "qtd": 59070
+   "qtd": 118192
   },
   {
    "nome": "Agravo de Instrumento",
-   "qtd": 56551
+   "qtd": 112748
   },
   {
    "nome": "Carta Precatória Cível",
-   "qtd": 50436
+   "qtd": 100935
   },
   {
    "nome": "Auto de Prisão em Flagrante",
-   "qtd": 38023
+   "qtd": 75888
   },
   {
    "nome": "Recurso Inominado Cível",
-   "qtd": 35129
+   "qtd": 70161
   }
  ],
  "assuntos": [
@@ -239,6 +239,20 @@
  ],
  "total": 2922702,
  "mensal": [],
- "erros": {},
- "atualizado_em": "2026-11-20T17:45:09+00:00"
+ "erros": {
+  "formatos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "sistemas": "resposta parcial: 9 de 10 shards falharam",
+  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "orgaos": "HTTP 504: <html>\r <head><title>504 Gateway Time-out</title></head>\r <body>\r <center><h1>504 Gateway Time-out</h1></center>\r <hr><center>NSX LB</center>\r </body>\r </html>\r",
+  "total": "resposta parcial: 2 de 10 shards falharam",
+  "anual": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "mensal": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "temas": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject"
+ },
+ "atualizado_em": "2026-11-27T18:25:43+00:00",
+ "totais_partes": {
+  "graus": 3654241,
+  "classes": 3654241
+ },
+ "parte_mais_antiga_em": ""
 }

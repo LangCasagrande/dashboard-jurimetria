@@ -4,14 +4,15 @@
  "nome": "Tribunal de Justiça do Maranhão",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "formatos": "2026-11-24T22:08:26+00:00",
+  "formatos": "2026-11-27T16:05:53+00:00",
   "sistemas": "2026-11-24T22:09:52+00:00",
   "classes": "2026-11-24T22:11:34+00:00",
-  "assuntos": "2026-11-24T22:12:07+00:00",
-  "orgaos": "2026-11-24T22:12:53+00:00",
+  "assuntos": "2026-11-27T16:27:49+00:00",
+  "orgaos": "2026-11-27T16:38:48+00:00",
   "total": "2026-11-20T16:46:24+00:00",
   "mensal": "2026-11-20T16:48:06+00:00",
-  "graus": "2026-11-24T22:07:48+00:00"
+  "graus": "2026-11-24T22:07:48+00:00",
+  "temas": "2026-11-27T17:14:15+00:00"
  },
  "formatos": [
   {
@@ -214,11 +215,14 @@
  "total": 2058173,
  "mensal": [],
  "erros": {
-  "total": "orçamento de tempo esgotado",
-  "anual": "orçamento de tempo esgotado",
-  "mensal": "orçamento de tempo esgotado"
+  "graus": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "sistemas": "resposta parcial: 1 de 4 shards falharam",
+  "classes": "resposta parcial: 1 de 4 shards falharam",
+  "total": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "anual": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
+  "mensal": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
  },
- "atualizado_em": "2026-11-24T22:12:53+00:00",
+ "atualizado_em": "2026-11-27T17:14:15+00:00",
  "graus": [
   {
    "nome": "G1",
@@ -243,7 +247,45 @@
   "sistemas": 2057695,
   "classes": 3088212,
   "assuntos": 4116583,
-  "orgaos": 4116583
+  "orgaos": 4116583,
+  "temas": 10000
  },
- "parte_mais_antiga_em": ""
+ "parte_mais_antiga_em": "",
+ "temas": {
+  "cp-121": {
+   "total": 31092,
+   "por_assunto": {
+    "3370": 15381,
+    "3371": 803,
+    "3372": 15071
+   }
+  },
+  "cp-155": {
+   "total": 27100,
+   "por_assunto": {
+    "3416": 14682,
+    "3417": 12497,
+    "5564": 140,
+    "5565": 23,
+    "9675": 7,
+    "9676": 5
+   }
+  },
+  "cp-157": {
+   "total": 35736,
+   "por_assunto": {
+    "3419": 10048,
+    "5566": 24463,
+    "5567": 1624,
+    "9678": 16
+   }
+  },
+  "ld-33": {
+   "total": 20903,
+   "por_assunto": {
+    "3608": 20892,
+    "9859": 11
+   }
+  }
+ }
 }

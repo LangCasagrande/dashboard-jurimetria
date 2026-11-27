@@ -4,31 +4,31 @@
  "nome": "Tribunal de Justiça de Mato Grosso",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "graus": "2026-11-20T17:48:10+00:00",
-  "formatos": "2026-11-20T17:48:43+00:00",
+  "graus": "2026-11-27T19:35:25+00:00",
+  "formatos": "2026-11-27T19:37:38+00:00",
   "sistemas": "2026-11-20T17:50:39+00:00",
   "classes": "2026-11-20T17:51:14+00:00",
-  "assuntos": "2026-11-20T17:52:09+00:00",
-  "orgaos": "2026-11-20T17:52:58+00:00",
+  "assuntos": "2026-11-27T19:59:46+00:00",
+  "orgaos": "2026-11-27T20:00:41+00:00",
   "total": "2026-11-20T17:53:22+00:00",
   "mensal": "2026-11-20T17:59:50+00:00"
  },
  "graus": [
   {
    "nome": "G1",
-   "qtd": 1370363
+   "qtd": 2737429
   },
   {
    "nome": "JE",
-   "qtd": 624289
+   "qtd": 1246885
   },
   {
    "nome": "G2",
-   "qtd": 259443
+   "qtd": 518035
   },
   {
    "nome": "TR",
-   "qtd": 131047
+   "qtd": 262587
   }
  ],
  "formatos": [
@@ -132,63 +132,63 @@
  "assuntos": [
   {
    "nome": "Indenização por Dano Moral",
-   "qtd": 297013
+   "qtd": 592640
   },
   {
    "nome": "Inclusão Indevida em Cadastro de Inadimplentes",
-   "qtd": 183660
+   "qtd": 366343
   },
   {
    "nome": "IPTU/ Imposto Predial e Territorial Urbano",
-   "qtd": 145608
+   "qtd": 291599
   },
   {
    "nome": "Indenização por Dano Material",
-   "qtd": 107615
+   "qtd": 214104
   },
   {
    "nome": "Crimes de Trânsito",
-   "qtd": 82082
+   "qtd": 164408
   },
   {
    "nome": "Obrigação de Fazer / Não Fazer",
-   "qtd": 64554
+   "qtd": 129067
   },
   {
    "nome": "Liminar ",
-   "qtd": 56674
+   "qtd": 112801
   },
   {
    "nome": "Citação",
-   "qtd": 53799
+   "qtd": 107671
   },
   {
    "nome": "Alienação Fiduciária",
-   "qtd": 50362
+   "qtd": 100376
   },
   {
    "nome": "Ameaça ",
-   "qtd": 49367
+   "qtd": 99031
   },
   {
    "nome": "Contratos Bancários",
-   "qtd": 46422
+   "qtd": 92772
   },
   {
    "nome": "ICMS/ Imposto sobre Circulação de Mercadorias",
-   "qtd": 44108
+   "qtd": 87905
   },
   {
    "nome": "Competência da Justiça Estadual",
-   "qtd": 43250
+   "qtd": 86762
   },
   {
    "nome": "Inadimplemento",
-   "qtd": 41282
+   "qtd": 82598
   },
   {
    "nome": "Bancários",
-   "qtd": 38578
+   "qtd": 77179
   }
  ],
  "orgaos": [
@@ -255,6 +255,20 @@
  ],
  "total": 2379794,
  "mensal": [],
- "erros": {},
- "atualizado_em": "2026-11-20T17:59:50+00:00"
+ "erros": {
+  "sistemas": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
+  "classes": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
+  "total": "HTTP 429: {\"error\":{\"root_cause\":[],\"type\":\"search_phase_execution_exception\",\"reason\":\"\",\"phase\":\"fetch\",\"grouped\":true,\"failed_shards\":[],\"caused_by\":{\"type\":\"es_reject",
+  "anual": "orçamento de tempo esgotado",
+  "mensal": "orçamento de tempo esgotado",
+  "temas": "orçamento de tempo esgotado"
+ },
+ "atualizado_em": "2026-11-27T20:00:41+00:00",
+ "totais_partes": {
+  "graus": 4764936,
+  "formatos": 4764936,
+  "assuntos": 4764936,
+  "orgaos": 4764936
+ },
+ "parte_mais_antiga_em": ""
 }

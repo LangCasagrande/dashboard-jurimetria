@@ -4,15 +4,16 @@
  "nome": "Tribunal de Justiça de Goiás",
  "ramo": "Estadual",
  "partes_atualizadas_em": {
-  "graus": "2026-11-26T19:27:53+00:00",
+  "graus": "2026-11-27T14:41:43+00:00",
   "formatos": "2026-11-26T19:28:29+00:00",
-  "sistemas": "2026-11-26T19:39:31+00:00",
-  "classes": "2026-11-26T19:46:47+00:00",
-  "assuntos": "2026-11-24T21:53:59+00:00",
+  "sistemas": "2026-11-27T14:53:49+00:00",
+  "classes": "2026-11-27T15:01:22+00:00",
+  "assuntos": "2026-11-27T15:09:34+00:00",
   "orgaos": "2026-11-26T19:57:58+00:00",
-  "mensal": "2026-11-24T22:07:15+00:00",
-  "total": "2026-11-24T21:59:01+00:00",
-  "anual": "2026-11-24T22:05:36+00:00"
+  "mensal": "2026-11-27T15:42:05+00:00",
+  "total": "2026-11-27T15:23:43+00:00",
+  "anual": "2026-11-24T22:05:36+00:00",
+  "temas": "2026-11-27T15:47:37+00:00"
  },
  "graus": [
   {
@@ -237,143 +238,143 @@
  "mensal": [
   {
    "mes": "2023-11",
-   "qtd": 34436
+   "qtd": 68768
   },
   {
    "mes": "2023-12",
-   "qtd": 36779
+   "qtd": 73836
   },
   {
    "mes": "2024-01",
-   "qtd": 29465
+   "qtd": 59102
   },
   {
    "mes": "2024-02",
-   "qtd": 34386
+   "qtd": 68837
   },
   {
    "mes": "2024-03",
-   "qtd": 37832
+   "qtd": 75917
   },
   {
    "mes": "2024-04",
-   "qtd": 39922
+   "qtd": 80293
   },
   {
    "mes": "2024-05",
-   "qtd": 35037
+   "qtd": 69796
   },
   {
    "mes": "2024-06",
-   "qtd": 35970
+   "qtd": 71643
   },
   {
    "mes": "2024-07",
-   "qtd": 39380
+   "qtd": 78197
   },
   {
    "mes": "2024-08",
-   "qtd": 42226
+   "qtd": 84176
   },
   {
    "mes": "2024-09",
-   "qtd": 60481
+   "qtd": 121374
   },
   {
    "mes": "2024-10",
-   "qtd": 43429
+   "qtd": 86991
   },
   {
    "mes": "2024-11",
-   "qtd": 38340
+   "qtd": 76503
   },
   {
    "mes": "2024-12",
-   "qtd": 32929
+   "qtd": 66080
   },
   {
    "mes": "2025-01",
-   "qtd": 34726
+   "qtd": 69489
   },
   {
    "mes": "2025-02",
-   "qtd": 39833
+   "qtd": 79723
   },
   {
    "mes": "2025-03",
-   "qtd": 40150
+   "qtd": 80787
   },
   {
    "mes": "2025-04",
-   "qtd": 39871
+   "qtd": 79964
   },
   {
    "mes": "2025-05",
-   "qtd": 41562
+   "qtd": 83190
   },
   {
    "mes": "2025-06",
-   "qtd": 40167
+   "qtd": 80709
   },
   {
    "mes": "2025-07",
-   "qtd": 44199
+   "qtd": 88212
   },
   {
    "mes": "2025-08",
-   "qtd": 42374
+   "qtd": 85378
   },
   {
    "mes": "2025-09",
-   "qtd": 44565
+   "qtd": 89365
   },
   {
    "mes": "2025-10",
-   "qtd": 46205
+   "qtd": 92250
   },
   {
    "mes": "2025-11",
-   "qtd": 43314
+   "qtd": 86327
   },
   {
    "mes": "2025-12",
-   "qtd": 37314
+   "qtd": 74958
   },
   {
    "mes": "2026-01",
-   "qtd": 34500
+   "qtd": 69347
   },
   {
    "mes": "2026-02",
-   "qtd": 38053
+   "qtd": 76390
   },
   {
    "mes": "2026-03",
-   "qtd": 47649
+   "qtd": 95597
   },
   {
    "mes": "2026-04",
-   "qtd": 43188
+   "qtd": 86664
   },
   {
    "mes": "2026-05",
-   "qtd": 45811
+   "qtd": 91836
   },
   {
    "mes": "2026-06",
-   "qtd": 44467
+   "qtd": 88914
   },
   {
    "mes": "2026-07",
-   "qtd": 47575
+   "qtd": 95161
   },
   {
    "mes": "2026-08",
-   "qtd": 45703
+   "qtd": 91291
   },
   {
    "mes": "2026-09",
-   "qtd": 66212
+   "qtd": 132379
   },
   {
    "mes": "2026-10",
@@ -385,20 +386,19 @@
   }
  ],
  "erros": {
-  "assuntos": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s",
-  "total": "resposta parcial: 2 de 4 shards falharam",
-  "anual": "orçamento de tempo esgotado",
-  "mensal": "orçamento de tempo esgotado",
-  "temas": "orçamento de tempo esgotado"
+  "formatos": "resposta parcial: 2 de 4 shards falharam",
+  "orgaos": "resposta parcial: 2 de 4 shards falharam",
+  "anual": "HTTP 429: {\"error\":{\"root_cause\":[{\"type\":\"es_rejected_execution_exception\",\"reason\":\"rejected execution of TimedRunnable{original=ActionRunnable#wrap[org.elasticsearch.s"
  },
- "atualizado_em": "2026-11-26T19:57:58+00:00",
+ "atualizado_em": "2026-11-27T15:47:37+00:00",
  "totais_partes": {
   "graus": 7478583,
   "formatos": 7478583,
   "sistemas": 7478583,
   "classes": 7478583,
   "assuntos": 7478583,
-  "orgaos": 7478583
+  "orgaos": 7478583,
+  "temas": 10000
  },
  "total": 7478583,
  "anual": [
@@ -511,5 +511,42 @@
    "qtd": 620708
   }
  ],
- "parte_mais_antiga_em": ""
+ "parte_mais_antiga_em": "2026-11-24T22:05:36+00:00",
+ "temas": {
+  "cp-121": {
+   "total": 76618,
+   "por_assunto": {
+    "3370": 38449,
+    "3371": 882,
+    "3372": 39161
+   }
+  },
+  "cp-155": {
+   "total": 85857,
+   "por_assunto": {
+    "3416": 40360,
+    "3417": 49067,
+    "5564": 324,
+    "5565": 117,
+    "9675": 1555,
+    "9676": 796
+   }
+  },
+  "cp-157": {
+   "total": 59227,
+   "por_assunto": {
+    "3419": 26812,
+    "5566": 33397,
+    "5567": 1395,
+    "9678": 1740
+   }
+  },
+  "ld-33": {
+   "total": 101781,
+   "por_assunto": {
+    "3608": 98610,
+    "9859": 3319
+   }
+  }
+ }
 }
